@@ -1,0 +1,55 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 297.302744,
+  "end_timestamp_utc": "2026-08-25T05:00:43.947747+00:00",
+  "git_commit": "d1a4964cb0b260cc399d6efb15bfad2fd115d8e0",
+  "git_dirty": false,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "artifacts/studies/microscopic_policy_matrix/raw_metrics.json": "c171274537726229c4e0c5fc2d1b26c1e4b2a027afac9656ada9fe318cf70dc2",
+    "artifacts/studies/v3_feasibility_prediction/selected_model.json": "60768e03e87e8bca0d802d6e56eb12386f05382887dd82121c910848a8842740",
+    "canonical_config": "a9abfa29af70be3c427ed27cdd3a60de18aa086d37a841a8474531e3301ba3c4",
+    "configs/v3/frozen_thresholds.yaml": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+    "configs/v3/microscopic.yaml": "fbd0f14a0c1755ca6a05f523c4b5f73831d98d4fb2940d4f2d00d44c927326e2"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/v3_microscopic_selective/decision_log.json": "0ad61bdb960813b3058681942a093dd2745745de21f5d8b19222795d468d0692",
+    "artifacts/studies/v3_microscopic_selective/figures/microscopic_selectivity.png": "d8639f1ed24fd1cc6e871b0f05e0bf17772e703063424a6b5ac207626bca66e1",
+    "artifacts/studies/v3_microscopic_selective/figures/phantom_probability_b1_b6_v3.png": "a520a2b1737bfe8fbe7c77b8ed2784b8ea175b548aec8a252810904773b1889f",
+    "artifacts/studies/v3_microscopic_selective/figures/run_group_calibration.png": "9f17e16be61d88e673ec927a3c2e878fdfbca14a3c25cb16e00ac62f80a4cb6b",
+    "artifacts/studies/v3_microscopic_selective/phantom_calibration.json": "7644b04e411e27b6e7b3fd29b32cb9260a9b284eb7c5a9e1a3aad3df67811ecb",
+    "artifacts/studies/v3_microscopic_selective/phantom_calibration_dataset.json": "71fe0a94ddecb77901b60129b3223cc27752086c2521e773968d2358a2538a9e",
+    "artifacts/studies/v3_microscopic_selective/processed_metrics.json": "1925df2ff5bf44101d7f16b6c97b62d533e95590e7a54c1bdf9029dfd2c9f7cc",
+    "artifacts/studies/v3_microscopic_selective/raw_metrics.json": "f4cb9a471469cdc733d1c14a581b6157fd6363dc409364f1d39ff653f5f8cf57",
+    "artifacts/studies/v3_microscopic_selective/statistical_tests.json": "17078a7b67b26d3693a3c5130f8fcf3bf098ead18cf81df7516fed7bfcbabf72",
+    "artifacts/studies/v3_microscopic_selective/summary.json": "8a8b258aa5cb2b4f12c1a319f412be06e1b4a8d71d95a96c0780cc4b2de47155",
+    "config.json": "a9abfa29af70be3c427ed27cdd3a60de18aa086d37a841a8474531e3301ba3c4",
+    "metrics.json": "8a8b258aa5cb2b4f12c1a319f412be06e1b4a8d71d95a96c0780cc4b2de47155"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T045546.645003Z-bfb901c3b5",
+  "seeds": [
+    83,
+    89,
+    97
+  ],
+  "simulator_version": "Eclipse SUMO sumo 1.27.1",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T04:55:46.645003+00:00",
+  "status": "valid"
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "case_id": "micro-s83-d1500",
+    "computed_values": {
+      "acceptance_probability": 0.5991161663184313,
+      "alignment_potential": 1.612307813214451,
+      "predicted_tail_loss": 0.1294225260568637,
+      "route_overlap": 0.13333333333333333,
+      "safety_margin": -2.0092882364061335,
+      "ttt_lcb_gain": -0.1294225260568637
+    },
+    "explanation": [
+      "P(WIN): 0.912 vs threshold 0.350",
+      "P_lower(WIN): 0.831",
+      "APS: 1.612308",
+      "route overlap: 0.133",
+      "safety upper difference: 2.2593",
+      "TTT LCB gain: -0.1294"
+    ],
+    "frozen_threshold": 0.35,
+    "intervene": false,
+    "outcome": "ABSTAIN",
+    "p_win": 0.9118411982743838,
+    "p_win_lower": 0.8312135324495731,
+    "phantom_gate_used": false,
+    "reasons": [
+      "safety hard gate failed",
+      "TTT lower-confidence gain too low",
+      "tail-loss gate failed"
+    ],
+    "relative_ttt_gain_realized": -0.14797037037037036,
+    "safety_difference_realized": 0.8635791006079923,
+    "safety_upper_predicted": 2.2592882364061335,
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+    "uncertainty": 0.10874020333710346
+  },
+  {
+    "case_id": "micro-s83-d1700",
+    "computed_values": {
+      "acceptance_probability": 0.5770769138521415,
+      "alignment_potential": 3.874378106528176,
+      "predicted_tail_loss": 0.21708147406296033,
+      "route_overlap": 0.13333333333333333,
+      "safety_margin": -1.9718628526573214,
+      "ttt_lcb_gain": -0.21708147406296033
+    },
+    "explanation": [
+      "P(WIN): 0.966 vs threshold 0.350",
+      "P_lower(WIN): 0.956",
+      "APS: 3.874378",
+      "route overlap: 0.133",
+      "safety upper difference: 2.2219",
+      "TTT LCB gain: -0.2171"
+    ],
+    "frozen_threshold": 0.35,
+    "intervene": false,
+    "outcome": "ABSTAIN",
+    "p_win": 0.9656879170166132,
+    "p_win_lower": 0.9563582940327747,
+    "phantom_gate_used": false,
+    "reasons": [
+      "safety hard gate failed",
+      "TTT lower-confidence gain too low",
+      "tail-loss gate failed"
+    ],
+    "relative_ttt_gain_realized": 0.02208825884236801,
+    "safety_difference_realized": 0.4247370190469606,
+    "safety_upper_predicted": 2.2218628526573214,
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+    "uncertainty": 0.06794325095443328
+  },
+  {
+    "case_id": "micro-s89-d1500",
+    "computed_values": {
+      "acceptance_probability": 0.6084442891401156,
+      "alignment_potential": 0.4283215935665503,
+      "predicted_tail_loss": 0.14567095981105407,
+      "route_overlap": 0.13333333333333333,
+      "safety_margin": -2.0092882364061335,
+      "ttt_lcb_gain": -0.14567095981105407
+    },
+    "explanation": [
+      "P(WIN): 0.821 vs threshold 0.350",
+      "P_lower(WIN): 0.632",
+      "APS: 0.428322",
+      "route overlap: 0.133",
+      "safety upper difference: 2.2593",
+      "TTT LCB gain: -0.1457"
+    ],
+    "frozen_threshold": 0.35,
+    "intervene": false,
+    "outcome": "ABSTAIN",
+    "p_win": 0.8206771884258598,
+    "p_win_lower": 0.6323400465524243,
+    "phantom_gate_used": false,
+    "reasons": [
+      "model uncertainty too high",
+      "safety hard gate failed",
+      "TTT lower-confidence gain too low",
+      "tail-loss gate failed"
+    ],
+    "relative_ttt_gain_realized": -0.13342688417236742,
+    "safety_difference_realized": 1.1627958114325256,
+    "safety_upper_predicted": 2.2592882364061335,
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+    "uncertainty": 0.16475157745676167
+  },
+  {
+    "case_id": "micro-s89-d1700",
+    "computed_values": {
+      "acceptance_probability": 0.5559765425376213,
+      "alignment_potential": 0.0,
+      "predicted_tail_loss": 0.33784834624755244,
+      "route_overlap": 0.13333333333333333,
+      "safety_margin": -1.9718628526573214,
+      "ttt_lcb_gain": -0.33784834624755244
+    },
+    "explanation": [
+      "P(WIN): 0.862 vs threshold 0.350",
+      "P_lower(WIN): 0.698",
+      "APS: 0.000000",
+      "route overlap: 0.133",
+      "safety upper difference: 2.2219",
+      "TTT LCB gain: -0.3378"
+    ],
+    "frozen_threshold": 0.35,
+    "intervene": false,
+    "outcome": "ABSTAIN",
+    "p_win": 0.862351939588791,
+    "p_win_lower": 0.6978655868987014,
+    "phantom_gate_used": false,
+    "reasons": [
+      "model uncertainty too high",
+      "safety hard gate failed",
+      "TTT lower-confidence gain too low",
+      "tail-loss gate failed"
+    ],
+    "relative_ttt_gain_realized": -0.12891249419893777,
+    "safety_difference_realized": 0.7843250217129745,
+    "safety_upper_predicted": 2.2218628526573214,
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+    "uncertainty": 0.18781371451535483
+  },
+  {
+    "case_id": "micro-s97-d1500",
+    "computed_values": {
+      "acceptance_probability": 0.6019295680704582,
+      "alignment_potential": 1.824705624406192,
+      "predicted_tail_loss": 0.0829556752914947,
+      "route_overlap": 0.13333333333333333,
+      "safety_margin": -2.0092882364061335,
+      "ttt_lcb_gain": -0.0829556752914947
+    },
+    "explanation": [
+      "P(WIN): 0.802 vs threshold 0.350",
+      "P_lower(WIN): 0.657",
+      "APS: 1.824706",
+      "route overlap: 0.133",
+      "safety upper difference: 2.2593",
+      "TTT LCB gain: -0.0830"
+    ],
+    "frozen_threshold": 0.35,
+    "intervene": false,
+    "outcome": "ABSTAIN",
+    "p_win": 0.8020127047830737,
+    "p_win_lower": 0.6570505690224491,
+    "phantom_gate_used": false,
+    "reasons": [
+      "safety hard gate failed",
+      "TTT lower-confidence gain too low"
+    ],
+    "relative_ttt_gain_realized": 0.011848205597847862,
+    "safety_difference_realized": 0.3073697269889675,
+    "safety_upper_predicted": 2.2592882364061335,
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+    "uncertainty": 0.12523310745531155
+  },
+  {
+    "case_id": "micro-s97-d1700",
+    "computed_values": {
+      "acceptance_probability": 0.5858809077884831,
+      "alignment_potential": 1.4374016587265899,
+      "predicted_tail_loss": 0.2586931932597523,
+      "route_overlap": 0.13333333333333333,
+      "safety_margin": -1.9718628526573214,
+      "ttt_lcb_gain": -0.2586931932597523
+    },
+    "explanation": [
+      "P(WIN): 0.855 vs threshold 0.350",
+      "P_lower(WIN): 0.669",
+      "APS: 1.437402",
+      "route overlap: 0.133",
+      "safety upper difference: 2.2219",
+      "TTT LCB gain: -0.2587"
+    ],
+    "frozen_threshold": 0.35,
+    "intervene": false,
+    "outcome": "ABSTAIN",
+    "p_win": 0.8549536162761089,
+    "p_win_lower": 0.6688507641248778,
+    "phantom_gate_used": false,
+    "reasons": [
+      "safety hard gate failed",
+      "TTT lower-confidence gain too low",
+      "tail-loss gate failed"
+    ],
+    "relative_ttt_gain_realized": 0.10570911484040803,
+    "safety_difference_realized": 0.8407335719634872,
+    "safety_upper_predicted": 2.2218628526573214,
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+    "uncertainty": 0.15240761971102118
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "B1_vs_V3_TTT": {
+    "bootstrap_ci95_high": 0.0,
+    "bootstrap_ci95_low": 0.0,
+    "cohens_dz": 0.0,
+    "mean_improvement": 0.0,
+    "paired_count": 6,
+    "relative_improvement": 0.0,
+    "wilcoxon_one_sided_p": 1.0
+  },
+  "H11_B6_safety_failure_count": 6,
+  "H11_V3_safety_failure_count": 0,
+  "H11_correctly_abstained_risky_count": 6,
+  "H3_paired_B1_vs_V3": {
+    "bootstrap_ci95_high": 0.0,
+    "bootstrap_ci95_low": 0.0,
+    "cohens_dz": 0.0,
+    "mean_improvement": 0.0,
+    "paired_count": 6,
+    "relative_improvement": null,
+    "wilcoxon_one_sided_p": 1.0
+  },
+  "H3_phantom_probability": {
+    "B1": 0.0,
+    "B6": 0.0,
+    "V3": 0.0
+  }
+}

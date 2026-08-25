@@ -1,0 +1,84 @@
+{
+  "claim_boundary": "Synthetic microscopic SUMO study. DRAC/TTC/PET are surrogate conflict indicators and not crash probabilities. V3 decisions use only frozen pre-run analytical/safety predictions.",
+  "complete": true,
+  "metastable_search_run_count": 21,
+  "phantom_calibration_complete": false,
+  "phantom_gate_used": false,
+  "policy_metrics": {
+    "B6": {
+      "case_count": 6,
+      "coverage": 1.0,
+      "coverage_ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "failure_avoidance_rate": 0.0,
+      "intervention_count": 6,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": -672.1666666666666,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 6,
+      "successful_intervention_count": 0
+    },
+    "V3": {
+      "case_count": 6,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    }
+  },
+  "selective_pair_count": 6,
+  "simulator_version": "Eclipse SUMO sumo 1.27.1",
+  "statistics": {
+    "B1_vs_V3_TTT": {
+      "bootstrap_ci95_high": 0.0,
+      "bootstrap_ci95_low": 0.0,
+      "cohens_dz": 0.0,
+      "mean_improvement": 0.0,
+      "paired_count": 6,
+      "relative_improvement": 0.0,
+      "wilcoxon_one_sided_p": 1.0
+    },
+    "H11_B6_safety_failure_count": 6,
+    "H11_V3_safety_failure_count": 0,
+    "H11_correctly_abstained_risky_count": 6,
+    "H3_paired_B1_vs_V3": {
+      "bootstrap_ci95_high": 0.0,
+      "bootstrap_ci95_low": 0.0,
+      "cohens_dz": 0.0,
+      "mean_improvement": 0.0,
+      "paired_count": 6,
+      "relative_improvement": null,
+      "wilcoxon_one_sided_p": 1.0
+    },
+    "H3_phantom_probability": {
+      "B1": 0.0,
+      "B6": 0.0,
+      "V3": 0.0
+    }
+  },
+  "study": "Study VII \u2014 Microscopic Safety-Selectivity"
+}

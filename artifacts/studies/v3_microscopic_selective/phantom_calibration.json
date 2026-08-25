@@ -1,0 +1,10 @@
+{
+  "complete": false,
+  "models": {},
+  "negative_run_count": 21,
+  "phantom_gate_used": false,
+  "positive_run_count": 0,
+  "reason": "fewer than two positive or negative simulation runs",
+  "split_strategy": "run-event-stratified deterministic split",
+  "split_unit": "simulation_run"
+}
