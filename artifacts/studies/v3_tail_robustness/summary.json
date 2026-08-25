@@ -1,0 +1,45 @@
+{
+  "claim_boundary": "Synthetic post-holdout stress evaluation; thresholds remain frozen.",
+  "complete": true,
+  "demand_shift_multiplier": 1.15,
+  "policy_metrics": {
+    "case_count": 288,
+    "coverage": 0.03125,
+    "coverage_ci95": [
+      0.016526203842296062,
+      0.058313947070304066
+    ],
+    "failure_avoidance_rate": 0.9896907216494846,
+    "intervention_count": 9,
+    "intervention_precision": 0.7777777777777778,
+    "intervention_precision_ci95": [
+      0.45258896910698887,
+      0.9367748928821533
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 21.87078519778259,
+    "missed_opportunity_rate": 0.925531914893617,
+    "population_benefit_rate": 0.024305555555555556,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 7
+  },
+  "post_holdout": true,
+  "preference_shift_scope": "model-input covariate sensitivity; realized counterfactual uses demand-shifted synthetic population",
+  "preference_variance_multiplier": 1.3,
+  "statistics": {
+    "H10_stress_mean_network_gain_nonnegative": true,
+    "H10_stress_safety_violation_count": 0,
+    "H10_tail_degradation_cvar": 0.001748228109561634,
+    "H10_tail_degradation_quantile": 0.95,
+    "H10_tail_degradation_var": 0.0,
+    "H10_tail_gate_pass": true,
+    "H10_tail_limit": 0.1,
+    "mean_relative_gain_base_holdout": 0.002216285072823767,
+    "mean_relative_gain_stress": 0.0011238645849134586
+  },
+  "study": "Study IX \u2014 Tail Robustness",
+  "threshold_hash_after": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+  "threshold_hash_before": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+  "threshold_immutable": true
+}

@@ -1,0 +1,51 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 1.473198,
+  "end_timestamp_utc": "2026-08-25T05:02:19.486976+00:00",
+  "git_commit": "f04676180c60dc5139514bf2e04a34adc6528a7c",
+  "git_dirty": false,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "artifacts/studies/v3_feasibility_prediction/selected_model.json": "60768e03e87e8bca0d802d6e56eb12386f05382887dd82121c910848a8842740",
+    "artifacts/studies/v3_selective_holdout/summary.json": "90b57e2a54f0b6b9c359cbd323355b705e6f9aa0c7aeba765fcea8b6b2207b62",
+    "canonical_config": "52a53604cf0e80d137df7811745b556fe894ce0d10f92a12e71d84925a058766",
+    "configs/v3/frozen_thresholds.yaml": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+    "configs/v3/tail_study.yaml": "c9b8d3db4e08b439020a2613245aa446c5250240808966dd1690277ebf594631"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/v3_tail_robustness/decision_log.json": "70df6c4431f0561bf2d4bf3df97c78e03b7e4e61e9c5b705a6702af659dcf638",
+    "artifacts/studies/v3_tail_robustness/figures/tail_degradation.png": "a1ccdbf592d3d4eecd46b9c2accd41e63b919b0e9946fce5e1c72d5272934d9e",
+    "artifacts/studies/v3_tail_robustness/processed_metrics.json": "f1f9d657e3fda3fbace754c1e8a1d8b3de1660a28f2e902d0d61784e33cfa69b",
+    "artifacts/studies/v3_tail_robustness/raw_metrics.json": "4903dd8a28ffd61af452c01e587b8804b9563e14fd6233e416340bf1e573d146",
+    "artifacts/studies/v3_tail_robustness/statistical_tests.json": "631ff401d4c1d2dee3978deffa91ae12cb466b9bff7119c97c2050be7da13898",
+    "artifacts/studies/v3_tail_robustness/summary.json": "5542ae7d9994b05fee43fc4771302caba886f884ccf0fa9720945becc9c09d1f",
+    "config.json": "52a53604cf0e80d137df7811745b556fe894ce0d10f92a12e71d84925a058766",
+    "metrics.json": "5542ae7d9994b05fee43fc4771302caba886f884ccf0fa9720945becc9c09d1f"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T050218.013778Z-773d8b3888",
+  "seeds": [
+    89,
+    97,
+    101
+  ],
+  "simulator_version": "analytical-no-sumo",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T05:02:18.013778+00:00",
+  "status": "valid"
+}

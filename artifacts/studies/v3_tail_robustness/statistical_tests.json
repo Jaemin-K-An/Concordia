@@ -1,0 +1,11 @@
+{
+  "H10_stress_mean_network_gain_nonnegative": true,
+  "H10_stress_safety_violation_count": 0,
+  "H10_tail_degradation_cvar": 0.001748228109561634,
+  "H10_tail_degradation_quantile": 0.95,
+  "H10_tail_degradation_var": 0.0,
+  "H10_tail_gate_pass": true,
+  "H10_tail_limit": 0.1,
+  "mean_relative_gain_base_holdout": 0.002216285072823767,
+  "mean_relative_gain_stress": 0.0011238645849134586
+}
