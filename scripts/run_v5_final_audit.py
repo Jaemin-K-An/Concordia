@@ -46,6 +46,23 @@ def run() -> Path:
         ],
         dtype=float,
     )
+    micro_intervened = [row for row in micro_rows if row["intervene"]]
+    analytical_probability_bias = float(
+        np.mean(
+            [
+                row["analytical_probability"] - int(row["counterfactual_success"])
+                for row in micro_rows
+            ]
+        )
+    )
+    corrected_benefit_bias_selected = float(
+        np.mean(
+            [
+                row["corrected_microscopic_benefit"] - row["microscopic_benefit"]
+                for row in micro_intervened
+            ]
+        )
+    )
     analytical_metrics = analytical["primary_metrics"]
     micro_metrics = micro["primary_metrics"]
     safety_failure = micro_metrics["safety_violation_count"] > 0
@@ -117,6 +134,11 @@ def run() -> Path:
         ]
         >= 0.80,
         "analytical_coverage_at_least_0_15": analytical_metrics["coverage"] >= 0.15,
+        "analytical_coverage_at_least_0_20": analytical_metrics["coverage"] >= 0.20,
+        "analytical_precision_ci_lower_above_0_70": analytical_metrics[
+            "intervention_precision_ci95"
+        ][0]
+        > 0.70,
         "critical_group_precision_at_least_0_70": analytical["group_metrics"][
             "worst_critical_group_precision"
         ]
@@ -134,9 +156,67 @@ def run() -> Path:
         <= 0.05,
         "real_topology_od_count_between_6_and_10": 6 <= real["od_pair_count"] <= 10,
         "real_topology_routes_legal": real["all_routes_legal"],
+        "real_topology_intervention_positive": real["primary_metrics"][
+            "intervention_count"
+        ]
+        > 0,
+        "calibration_ece_below_0_05": analytical["calibration_metrics"]["ece"]
+        < 0.05,
         "rl_excluded": not any(
             summary.get("rl_used", False)
             for summary in (analytical, stress, micro, real)
+        ),
+    }
+    final_questions = {
+        "1_v4_analytical_but_not_stress_or_sumo": (
+            "v4 used a global synthetic-domain gate. Its historical 50%-penetration precision was "
+            "0.40, stress precision was 0.4409, and its only SUMO intervention was unsafe. The "
+            "missing regime and domain bridge allowed synthetic calibration to be mistaken for transfer."
+        ),
+        "2_penetration_explanatory_power": (
+            "Penetration is a dominant activation variable, but not a sufficient microscopic success "
+            "explanation. In v5 analytical holdout, p=1.0 produced 128/132 interventions at 0.8516 "
+            "precision; p=0.25 and p=0.50 produced none. In SUMO, p=1.0 produced 7/10 selected "
+            "interventions but only one success and one unsafe case."
+        ),
+        "3_regime_vs_global": (
+            f"Only slightly on analytical holdout: V5-R precision/coverage were "
+            f"{policy_metrics['V5-R']['intervention_precision']:.4f}/"
+            f"{policy_metrics['V5-R']['coverage']:.4f} versus global "
+            f"{policy_metrics['V5-G']['intervention_precision']:.4f}/"
+            f"{policy_metrics['V5-G']['coverage']:.4f}. This small gain did not transfer to full SUMO."
+        ),
+        "4_dss_predicts_failure": (
+            "Weakly descriptive, not operationally supported. Mild-shift SUMO cases had lower raw "
+            "success (0.10 versus 0.222 in-distribution), but DSS did not improve stress precision "
+            "over the no-DSS ablation; H22 fails."
+        ),
+        "5_analytical_to_sumo_bias": (
+            f"Across all 100 SUMO pairs, mean analytical probability minus realized success was "
+            f"{analytical_probability_bias:+.4f}. Selection bias was more important: the ten "
+            f"selected cases had mean corrected-benefit overprediction "
+            f"{corrected_benefit_bias_selected:+.4f}, yielding 0.10 realized precision."
+        ),
+        "6_safety_veto_removes_unsafe": (
+            "Mostly, but not completely. Always-adapt B6 had 25 unsafe cases; the selective policy "
+            "reduced this to one among ten interventions. Because zero was required, the veto fails."
+        ),
+        "7_precision80_with_coverage15_to20": (
+            f"Not with the frozen v5 policy. It retained {analytical_metrics['intervention_precision']:.4f} "
+            f"precision but reached only {analytical_metrics['coverage']:.4f} coverage."
+        ),
+        "8_unseen_stress_precision70": (
+            f"Yes for the analytical stress domain: precision was "
+            f"{stress['primary_metrics']['intervention_precision']:.4f}, coverage "
+            f"{stress['primary_metrics']['coverage']:.4f}, safety violations zero."
+        ),
+        "9_safe_beneficial_osm_intervention": (
+            "No. All 48 conditions across six legal stratified OSM OD pairs abstained."
+        ),
+        "10_permanent_baseline_fallback": (
+            "The frozen policy permanently falls back for strong shift, LOW_CONTROL and "
+            "PARTIAL_CONTROL analytical cells without a validated threshold, illegal route sets, "
+            "nonpositive corrected micro benefit, low micro success probability, or a micro safety UCB veto."
         ),
     }
     audit = {
@@ -158,6 +238,7 @@ def run() -> Path:
         "microscopic_primary": micro_metrics,
         "real_topology_primary": real["primary_metrics"],
         "hypotheses": hypotheses,
+        "final_questions": final_questions,
         "posthoc_metric_correction": {
             "scope": "reporting aggregation only; frozen decisions and success/safety labels unchanged",
             "issue": "The frozen microscopic summary populated system_ttt_gain for abstentions before summarize_selective_policy.",
@@ -205,11 +286,35 @@ but coverage was 0.1289 rather than 0.15. Stress precision was 0.8519. In actual
 full policy made 10 interventions, achieved one success, and allowed one surrogate safety
 violation; false-safe rate was 0.10. That microscopic safety failure independently forces F.
 
+## Required audit checklist
+
+| Metric | Result |
+|---|---|
+| New untouched analytical holdout? | YES — {analytical['case_count']} cases |
+| New untouched microscopic holdout? | YES — {micro['pair_count']} pairs |
+| Freeze immutable? | YES |
+| Analytical precision ≥80%? | {'YES' if checks['analytical_precision_at_least_0_80'] else 'NO'} — {analytical_metrics['intervention_precision']:.4f} |
+| Analytical coverage ≥15%? | {'YES' if checks['analytical_coverage_at_least_0_15'] else 'NO'} — {analytical_metrics['coverage']:.4f} |
+| Analytical coverage ≥20%? | {'YES' if checks['analytical_coverage_at_least_0_20'] else 'NO'} — {analytical_metrics['coverage']:.4f} |
+| Overall lower CI >70%? | {'YES' if checks['analytical_precision_ci_lower_above_0_70'] else 'NO'} — {analytical_metrics['intervention_precision_ci95'][0]:.4f} |
+| Critical-group precision ≥70%? | {'YES' if checks['critical_group_precision_at_least_0_70'] else 'NO'} — {analytical['group_metrics']['worst_critical_group_precision']:.4f} |
+| Stress precision ≥70%? | {'YES' if stress['primary_metrics']['intervention_precision'] >= 0.70 else 'NO'} — {stress['primary_metrics']['intervention_precision']:.4f} |
+| Micro interventions ≥10? | {'YES' if checks['microscopic_interventions_at_least_10'] else 'NO'} — {micro_metrics['intervention_count']} |
+| Micro successful interventions >0? | {'YES' if micro_metrics['successful_intervention_count'] > 0 else 'NO'} — {micro_metrics['successful_intervention_count']} |
+| Micro safety violations =0? | {'YES' if checks['microscopic_safety_violations_zero'] else 'NO'} — {micro_metrics['safety_violation_count']} |
+| False-safe rate ≤5%? | {'YES' if checks['microscopic_false_safe_at_most_0_05'] else 'NO'} — {micro_metrics['false_safe_rate']:.4f} |
+| Real OSM intervention >0? | {'YES' if checks['real_topology_intervention_positive'] else 'NO'} — {real['primary_metrics']['intervention_count']} |
+| Calibration ECE <0.05? | {'YES' if checks['calibration_ece_below_0_05'] else 'NO'} — {analytical['calibration_metrics']['ece']:.5f} |
+| RL used? | NO |
+
 ## H21–H28
 
 """
     for name, value in hypotheses.items():
         markdown += f"- **{name}: {value['status']}** — {value['finding']}\n"
+    markdown += "\n## Answers to the ten final questions\n\n"
+    for index, value in enumerate(final_questions.values(), start=1):
+        markdown += f"{index}. {value}\n"
     markdown += f"""
 
 ## Transparent aggregation correction

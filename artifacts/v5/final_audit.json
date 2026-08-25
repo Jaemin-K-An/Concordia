@@ -22,14 +22,17 @@
     "successful_intervention_count": 109
   },
   "check_counts": {
-    "failed": 4,
-    "passed": 13
+    "failed": 7,
+    "passed": 14
   },
   "checks": {
     "analytical_case_count_at_least_800": true,
     "analytical_coverage_at_least_0_15": false,
+    "analytical_coverage_at_least_0_20": false,
     "analytical_interventions_at_least_75": true,
     "analytical_precision_at_least_0_80": true,
+    "analytical_precision_ci_lower_above_0_70": true,
+    "calibration_ece_below_0_05": false,
     "critical_group_precision_at_least_0_70": true,
     "freeze_manifest_verified": true,
     "microscopic_false_safe_at_most_0_05": false,
@@ -39,6 +42,7 @@
     "microscopic_safe_success_positive": true,
     "microscopic_safety_violations_zero": false,
     "post_freeze_deployment_code_unchanged": true,
+    "real_topology_intervention_positive": false,
     "real_topology_od_count_between_6_and_10": true,
     "real_topology_routes_legal": true,
     "rl_excluded": true,
@@ -50,6 +54,18 @@
     "real_topology": "Six prespecified synthetic OD pairs on committed real OSM geometry; not observed Seoul traffic."
   },
   "complete": true,
+  "final_questions": {
+    "10_permanent_baseline_fallback": "The frozen policy permanently falls back for strong shift, LOW_CONTROL and PARTIAL_CONTROL analytical cells without a validated threshold, illegal route sets, nonpositive corrected micro benefit, low micro success probability, or a micro safety UCB veto.",
+    "1_v4_analytical_but_not_stress_or_sumo": "v4 used a global synthetic-domain gate. Its historical 50%-penetration precision was 0.40, stress precision was 0.4409, and its only SUMO intervention was unsafe. The missing regime and domain bridge allowed synthetic calibration to be mistaken for transfer.",
+    "2_penetration_explanatory_power": "Penetration is a dominant activation variable, but not a sufficient microscopic success explanation. In v5 analytical holdout, p=1.0 produced 128/132 interventions at 0.8516 precision; p=0.25 and p=0.50 produced none. In SUMO, p=1.0 produced 7/10 selected interventions but only one success and one unsafe case.",
+    "3_regime_vs_global": "Only slightly on analytical holdout: V5-R precision/coverage were 0.8309/0.1328 versus global 0.8271/0.1299. This small gain did not transfer to full SUMO.",
+    "4_dss_predicts_failure": "Weakly descriptive, not operationally supported. Mild-shift SUMO cases had lower raw success (0.10 versus 0.222 in-distribution), but DSS did not improve stress precision over the no-DSS ablation; H22 fails.",
+    "5_analytical_to_sumo_bias": "Across all 100 SUMO pairs, mean analytical probability minus realized success was +0.0083. Selection bias was more important: the ten selected cases had mean corrected-benefit overprediction +0.0218, yielding 0.10 realized precision.",
+    "6_safety_veto_removes_unsafe": "Mostly, but not completely. Always-adapt B6 had 25 unsafe cases; the selective policy reduced this to one among ten interventions. Because zero was required, the veto fails.",
+    "7_precision80_with_coverage15_to20": "Not with the frozen v5 policy. It retained 0.8258 precision but reached only 0.1289 coverage.",
+    "8_unseen_stress_precision70": "Yes for the analytical stress domain: precision was 0.8519, coverage 0.1055, safety violations zero.",
+    "9_safe_beneficial_osm_intervention": "No. All 48 conditions across six legal stratified OSM OD pairs abstained."
+  },
   "freeze_source_commit": "15a8723fdfe6cfa06583441ea18d89fcb6de1b86",
   "hypotheses": {
     "H21_regime_conditioning": {
