@@ -1,0 +1,43 @@
+schema_version: concordia-v3-features-1
+project_defined_features:
+  alignment_potential_score: APS = feasible positive one-user marginal benefit / demand.
+  alignment_opportunity_mass: Unnormalized feasible positive marginal-benefit mass.
+  route_attribute_diversity: Trace covariance of normalized route utility attributes.
+units:
+  demand: vehicles_per_hour
+  alignment_potential_score: cost_minutes_per_vehicle_per_hour
+  alignment_opportunity_mass: vehicle_minutes
+  safety_margin: route-risk surrogate units
+feature_order:
+  - demand
+  - volume_capacity_ratio
+  - price_of_anarchy
+  - route_overlap
+  - edge_disjointness
+  - alternative_capacity_ratio
+  - bottleneck_centrality
+  - cut_sensitivity
+  - route_diversity
+  - route_attribute_diversity
+  - preference_variance
+  - preference_entropy
+  - preference_p10
+  - preference_p90
+  - preference_bimodality
+  - preference_long_tail
+  - mean_preference_time
+  - mean_preference_variability
+  - mean_preference_cost
+  - mean_preference_risk
+  - mean_preference_complexity
+  - mean_preference_familiarity
+  - slack_mass
+  - alignment_potential_score
+  - alignment_opportunity_mass
+  - alignment_opportunity_count
+  - maximum_single_benefit
+  - acceptance_probability
+  - safety_margin
+  - phantom_risk
+  - navigation_penetration
+  - heterogeneity_rad_interaction

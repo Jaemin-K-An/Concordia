@@ -1,0 +1,38 @@
+version: concordia-v3.0
+registered_before_holdout: true
+pilot_evidence: CONCORDIA v2 artifacts only
+primary:
+  minimum_relative_ttt_gain: 0.01
+  intervention_precision_target: 0.65
+  coverage_target: 0.40
+  scientific_precision_lower_ci_target: 0.50
+  require_positive_mean_network_ttt_gain: true
+  require_safety_noninferiority: true
+success_definition:
+  regret_limit: 0.08
+  safety_delta: 0.25
+  legal_routes_required: true
+  accepted_only_execution_required: true
+selective_outcomes: [SUCCESS, FAILURE, ABSTAIN_BASELINE_FALLBACK]
+strong_success:
+  minimum_precision: 0.65
+  minimum_coverage: 0.40
+  positive_mean_ttt_gain: true
+  safety_noninferiority: true
+moderate_success:
+  minimum_precision_exclusive: 0.50
+  positive_mean_ttt_gain: true
+failure:
+  maximum_precision_inclusive: 0.50
+  safety_failure_is_failure: true
+hypotheses:
+  H8: Selective intervention precision exceeds 0.50 on untouched holdout.
+  H9: Selective intervention has lower failure rate than always-on B6.
+  H10: Fallback-inclusive mean network cost is better than or noninferior to B1.
+  H11: Safety hard gate reduces microscopic safety-violation frequency versus always-on B6.
+  H12: APS plus route-attribute diversity improves WIN prediction over topology/preference alone.
+  H13: Higher route overlap predicts alignment failure.
+  H14: Preference heterogeneity interacts with route-attribute diversity.
+claim_boundary: >-
+  Synthetic analytical and microscopic research harness. Real-topology studies use synthetic
+  demand on OSM geometry. Safety measures are surrogate conflicts, never crash probabilities.

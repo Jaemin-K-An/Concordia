@@ -1,0 +1,7 @@
+study: v3_tail_robustness
+seeds: [89, 97, 101]
+demand_shift_multiplier: 1.15
+preference_variance_multiplier: 1.30
+cvar_quantile: 0.95
+maximum_tail_loss: 0.10
+claim_boundary: Synthetic post-holdout stress evaluation; thresholds remain frozen.

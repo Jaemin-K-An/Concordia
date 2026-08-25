@@ -1,0 +1,12 @@
+study: v3_real_topology_selectivity
+seeds: [83, 89, 97]
+source_osm: data/raw/gangnam_intersection.osm
+source_manifest: data/manifests/gangnam_intersection.json
+development_od: ["1906756262", "5376448907"]
+demand_vehicles_per_hour: [540, 660]
+vehicle_generation_seconds: 300
+maximum_simulation_seconds: 600
+policies: [B1, B6, V3]
+claim_boundary: >-
+  Unseen synthetic OD/demand/seeds on real OSM geometry. This is mechanism transfer evidence,
+  not an observed Seoul traffic-effect estimate.

@@ -1,0 +1,17 @@
+development_source: artifacts/studies/alignment_frontier/raw_metrics.json
+training:
+  seeds: [11, 23, 37]
+validation:
+  seeds: [53, 71]
+holdout:
+  seeds: [89, 97, 101]
+  demand_scale: [0.90, 1.10, 1.30, 1.40]
+  heterogeneity: [high, bimodal, long_tail]
+  navigation_penetration: [0.50, 1.00]
+  scenarios: [two_route, ring, merge, signalized]
+anti_leakage:
+  group_unit: scenario_seed
+  forbid_holdout_ids_in_training: true
+  forbid_holdout_seeds_in_training: true
+  forbid_holdout_topology_if_declared_unseen: true
+holdout_case_count: 288

@@ -1,0 +1,18 @@
+seeds: [20260826]
+candidate_models:
+  - M0_APS
+  - M1_logistic
+  - M2_regularized_interactions
+  - M3_random_stump_forest
+  - M4_gradient_boosted_stumps
+selection_order: [pr_auc, brier_score, ece, interpretability]
+bootstrap_ensemble_size: 25
+bootstrap_seed: 20260826
+maximum_uncertainty: 0.16
+threshold_candidates: [0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90]
+aps_threshold_candidates: [0.0, 0.001, 0.005, 0.01, 0.02, 0.05, 0.10, 0.20]
+minimum_acceptance_probability: 0.50
+maximum_tail_loss: 0.10
+benefit_lcb_z: 1.645
+freeze_file: configs/v3/frozen_thresholds.yaml
+freeze_manifest: artifacts/v3/freeze_manifest.json

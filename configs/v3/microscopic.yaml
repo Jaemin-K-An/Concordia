@@ -1,0 +1,12 @@
+study: v3_microscopic_safety_selectivity
+seeds: [83, 89, 97]
+metastable_search_demand: [1400, 1500, 1600, 1700, 1800, 1900, 2000]
+selective_test_demand: [1500, 1700]
+navigation_penetration: 1.0
+heterogeneity: high
+phantom_group_split_seed: 20260826
+minimum_positive_runs_per_partition: 1
+safety_delta: 0.25
+claim_boundary: >-
+  Synthetic microscopic SUMO study. DRAC/TTC/PET are surrogate conflict indicators and not
+  crash probabilities. V3 decisions use only frozen pre-run analytical/safety predictions.

@@ -1,7 +1,7 @@
 PYTHON ?= python3
 RUN_CONFIG ?= configs/experiments/smoke.yaml
 
-.PHONY: setup lint test benchmark experiment research rl-gate rl-evaluate conditional-rl report report-v2 phase-reports audit audit-v2 sumo-check sumo-ring-build sumo-ring-run simulation-test phantom-calibrate alignment-study microscopic-study real-topology-study scalability-study drift-study clean
+.PHONY: setup lint test benchmark experiment research rl-gate rl-evaluate conditional-rl report report-v2 phase-reports audit audit-v2 sumo-check sumo-ring-build sumo-ring-run simulation-test phantom-calibrate alignment-study microscopic-study real-topology-study scalability-study drift-study v3-audit v3-dataset feasibility-train feasibility-validate freeze-thresholds v3-holdout v3-microscopic v3-real-topology v3-tail-study v3-report v3-final-audit clean
 
 setup:
 	$(PYTHON) -m pip install -e '.[dev,analysis]'
@@ -77,6 +77,39 @@ scalability-study:
 
 drift-study:
 	PYTHONPATH=src $(PYTHON) scripts/run_drift_study.py --reuse-if-valid
+
+v3-audit:
+	PYTHONPATH=src $(PYTHON) scripts/run_v3_reaudit.py
+
+v3-dataset:
+	PYTHONPATH=src $(PYTHON) scripts/build_v3_dataset.py
+
+feasibility-train:
+	PYTHONPATH=src $(PYTHON) scripts/train_v3_feasibility.py
+
+feasibility-validate:
+	PYTHONPATH=src $(PYTHON) scripts/validate_v3_feasibility.py
+
+freeze-thresholds:
+	PYTHONPATH=src $(PYTHON) scripts/freeze_v3_thresholds.py
+
+v3-holdout:
+	PYTHONPATH=src $(PYTHON) scripts/run_v3_holdout.py
+
+v3-microscopic:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v3_microscopic.py
+
+v3-real-topology:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v3_real_topology.py
+
+v3-tail-study:
+	PYTHONPATH=src $(PYTHON) scripts/run_v3_tail_study.py
+
+v3-report:
+	PYTHONPATH=src $(PYTHON) scripts/build_final_report_v3.py
+
+v3-final-audit:
+	PYTHONPATH=src $(PYTHON) scripts/run_v3_final_audit.py
 
 clean:
 	find src tests -type d -name __pycache__ -prune -exec rm -r {} +
