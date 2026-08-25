@@ -29,7 +29,16 @@ def _git_dirty() -> bool:
     try:
         return bool(
             subprocess.check_output(
-                ["git", "status", "--porcelain"], stderr=subprocess.DEVNULL, text=True
+                [
+                    "git",
+                    "status",
+                    "--porcelain",
+                    "--",
+                    ".",
+                    ":(exclude)artifacts/**",
+                ],
+                stderr=subprocess.DEVNULL,
+                text=True,
             ).strip()
         )
     except (OSError, subprocess.CalledProcessError):
@@ -37,7 +46,7 @@ def _git_dirty() -> bool:
 
 
 def capture_source_state() -> tuple[str, bool]:
-    """Capture the source revision before an experiment starts writing artifacts."""
+    """Capture revision and code/config dirtiness before writing output artifacts."""
     return _git_commit(), _git_dirty()
 
 

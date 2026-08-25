@@ -653,7 +653,10 @@ def _figures(rows: list[dict], statistics: dict) -> list[Path]:
             ]
             for policy in ("B1", "B6")
         }
-        axis.boxplot([values["B1"] or [0], values["B6"] or [0]], labels=["B1", "B6"])
+        axis.boxplot(
+            [values["B1"] or [0], values["B6"] or [0]],
+            tick_labels=["B1", "B6"],
+        )
         axis.set_ylabel(ylabel)
         fig.tight_layout()
         path = directory / f"{name}.png"
@@ -667,7 +670,7 @@ def _figures(rows: list[dict], statistics: dict) -> list[Path]:
             [row["safety"]["cvar_drac_95"] for row in rows if row["policy"] == policy]
             for policy in ("B1", "B6")
         ],
-        labels=["B1", "B6"],
+        tick_labels=["B1", "B6"],
     )
     axis.set_ylabel("CVaR95 DRAC (m/s²)")
     fig.tight_layout()

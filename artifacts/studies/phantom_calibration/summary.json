@@ -1,0 +1,16 @@
+{
+  "complete": false,
+  "held_out_seed": 71,
+  "models": {},
+  "positive_labels": 12,
+  "reason": "held-out run split did not contain both VALID-event classes",
+  "split_unit": [
+    "simulation_run",
+    "seed",
+    "scenario_condition"
+  ],
+  "test_run_count": 12,
+  "test_sample_count": 1052,
+  "train_run_count": 48,
+  "train_sample_count": 4252
+}

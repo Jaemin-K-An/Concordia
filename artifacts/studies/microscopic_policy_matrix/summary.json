@@ -1,0 +1,37 @@
+{
+  "H3": {
+    "B1_probability": 0.03333333333333333,
+    "B6_probability": 0.1,
+    "discordant_B1_only": 2,
+    "discordant_B6_only": 6,
+    "duration_paired": {
+      "bootstrap_ci95_high": 7.866666666666666,
+      "bootstrap_ci95_low": -74.56708333333333,
+      "cohens_dz": -0.1852308358567025,
+      "mean_improvement": -30.383333333333333,
+      "paired_count": 60,
+      "relative_improvement": -2.0255555555555556,
+      "wilcoxon_one_sided_p": 0.8970483946339658
+    },
+    "exact_mcnemar_p": 0.2890625,
+    "paired_probability_difference_B1_minus_B6": -0.06666666666666667,
+    "primary_metric": "P(VALID phantom jam)"
+  },
+  "H4": {
+    "bootstrap_ci95": [
+      -0.0975595232070167,
+      0.4638065150810179
+    ],
+    "claim_boundary": "microscopic surrogate safety only; not crash probability",
+    "noninferior": false,
+    "noninferiority_margin": 0.25,
+    "paired_mean_difference_B6_minus_B1": 0.18309891940417872,
+    "primary_metric": "cvar_drac_95_meters_per_second2"
+  },
+  "claim_boundary": "Synthetic microscopic SUMO mechanism study; safety metrics are surrogate conflict indicators, not crash probabilities, and preferences/acceptance remain synthetic.",
+  "complete": true,
+  "matched_pair_count": 60,
+  "run_count": 120,
+  "simulator_version": "Eclipse SUMO sumo 1.27.1",
+  "study": "Study II \u2014 Microscopic Phantom/Safety"
+}

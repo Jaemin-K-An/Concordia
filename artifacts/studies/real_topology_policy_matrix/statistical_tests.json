@@ -1,0 +1,32 @@
+{
+  "calibrated": {
+    "B1_mean_TTT_seconds": 8097.2,
+    "B6_acceptance_rate": 0.5032258064516129,
+    "B6_mean_TTT_seconds": 8401.8,
+    "B6_mean_regret": 0.012164301441433606,
+    "TTT_paired": {
+      "bootstrap_ci95_high": -211.0,
+      "bootstrap_ci95_low": -429.2,
+      "cohens_dz": -2.092406091518522,
+      "mean_improvement": -304.6,
+      "paired_count": 5,
+      "relative_improvement": -0.037617942004643586,
+      "wilcoxon_one_sided_p": 1.0
+    }
+  },
+  "transfer": {
+    "B1_mean_TTT_seconds": 8097.2,
+    "B6_acceptance_rate": 0.446279522809,
+    "B6_mean_TTT_seconds": 8403.0,
+    "B6_mean_regret": 0.008882310680482817,
+    "TTT_paired": {
+      "bootstrap_ci95_high": -234.0,
+      "bootstrap_ci95_low": -380.2,
+      "cohens_dz": -3.1655229190010865,
+      "mean_improvement": -305.8,
+      "paired_count": 5,
+      "relative_improvement": -0.0377661413822062,
+      "wilcoxon_one_sided_p": 1.0
+    }
+  }
+}

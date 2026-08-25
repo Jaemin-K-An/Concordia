@@ -12,6 +12,7 @@
   "complete": true,
   "frozen_median_relative_degradation": 0.07084818558459478,
   "frozen_regret_violation_case_count": 0,
+  "gate_c_aggregation": "median",
   "median_nonstationarity_incremental_degradation": 0.0694375201685701,
   "paired_adaptation_effect": {
     "bootstrap_ci95_high": -0.07914114849214962,

@@ -440,7 +440,7 @@ def _figures(rows: list[dict], layer_path: Path) -> list[Path]:
         [row["total_travel_time_seconds"] for row in rows if row["policy"] == policy]
         for policy in ("B1", "B6")
     ]
-    axis.boxplot(values, labels=["B1", "B6"])
+    axis.boxplot(values, tick_labels=["B1", "B6"])
     axis.set_ylabel("Network TTT (s)")
     axis.set_title("Real topology, synthetic demand")
     fig.tight_layout()
