@@ -1,0 +1,38 @@
+[
+  {
+    "count": 15,
+    "cumulative_realized_uplift": 0.374227226697464,
+    "fraction": 0.05,
+    "mean_realized_uplift": 0.024948481779830934
+  },
+  {
+    "count": 30,
+    "cumulative_realized_uplift": 0.91501239486278,
+    "fraction": 0.1,
+    "mean_realized_uplift": 0.030500413162092666
+  },
+  {
+    "count": 60,
+    "cumulative_realized_uplift": 0.9113255147741066,
+    "fraction": 0.2,
+    "mean_realized_uplift": 0.015188758579568444
+  },
+  {
+    "count": 90,
+    "cumulative_realized_uplift": 1.1166163379914908,
+    "fraction": 0.3,
+    "mean_realized_uplift": 0.012406848199905453
+  },
+  {
+    "count": 150,
+    "cumulative_realized_uplift": 1.5328194294630175,
+    "fraction": 0.5,
+    "mean_realized_uplift": 0.010218796196420117
+  },
+  {
+    "count": 300,
+    "cumulative_realized_uplift": -2.3728341743461927,
+    "fraction": 1.0,
+    "mean_realized_uplift": -0.007909447247820642
+  }
+]

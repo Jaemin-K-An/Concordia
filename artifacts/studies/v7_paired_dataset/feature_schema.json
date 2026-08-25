@@ -1,0 +1,137 @@
+{
+  "feature_count": 54,
+  "features": [
+    "density_mean",
+    "flow_mean",
+    "occupancy_mean",
+    "mean_speed",
+    "speed_variance",
+    "acceleration_variance",
+    "queue_length",
+    "halting_count",
+    "lane_occupancy",
+    "headway_mean",
+    "headway_variance",
+    "demand_vehicles_per_hour",
+    "density_slope_30s",
+    "speed_slope_30s",
+    "flow_instability",
+    "queue_growth_rate",
+    "short_horizon_speed_oscillation",
+    "occupancy_variance_30s",
+    "route_overlap",
+    "alternative_capacity_ratio",
+    "volume_capacity_ratio",
+    "bottleneck_centrality",
+    "route_length_ratio",
+    "topology_merge",
+    "topology_signalized",
+    "topology_two_route",
+    "topology_real_like",
+    "topology_ring",
+    "perturbation_strength",
+    "predicted_acceptance",
+    "preference_slack_mean",
+    "preference_slack_std",
+    "preference_variance",
+    "heterogeneity_low",
+    "heterogeneity_medium",
+    "heterogeneity_high",
+    "heterogeneity_bimodal",
+    "heterogeneity_long_tail",
+    "acceptance_multiplier",
+    "navigation_penetration",
+    "minimum_headway",
+    "closing_speed_p90",
+    "drac_proxy_p95",
+    "lane_change_density",
+    "merge_interaction_density",
+    "speed_differential",
+    "hard_braking_recent_rate",
+    "analytical_success_probability",
+    "analytical_predicted_ttt_gain",
+    "edge_disjointness",
+    "number_route_alternatives",
+    "preference_entropy_proxy",
+    "topology_asymmetric",
+    "v6_micro_success_score"
+  ],
+  "groups": {
+    "analytical": [
+      "analytical_success_probability",
+      "analytical_predicted_ttt_gain"
+    ],
+    "penetration": [
+      "navigation_penetration"
+    ],
+    "preference": [
+      "predicted_acceptance",
+      "preference_slack_mean",
+      "preference_slack_std",
+      "preference_variance",
+      "heterogeneity_low",
+      "heterogeneity_medium",
+      "heterogeneity_high",
+      "heterogeneity_bimodal",
+      "heterogeneity_long_tail",
+      "acceptance_multiplier"
+    ],
+    "preference_v7": [
+      "preference_entropy_proxy"
+    ],
+    "safety": [
+      "minimum_headway",
+      "closing_speed_p90",
+      "drac_proxy_p95",
+      "lane_change_density",
+      "merge_interaction_density",
+      "speed_differential",
+      "hard_braking_recent_rate"
+    ],
+    "topology": [
+      "route_overlap",
+      "alternative_capacity_ratio",
+      "volume_capacity_ratio",
+      "bottleneck_centrality",
+      "route_length_ratio",
+      "topology_merge",
+      "topology_signalized",
+      "topology_two_route",
+      "topology_real_like",
+      "topology_ring",
+      "perturbation_strength"
+    ],
+    "topology_v7": [
+      "edge_disjointness",
+      "number_route_alternatives",
+      "topology_asymmetric"
+    ],
+    "traffic_static": [
+      "density_mean",
+      "flow_mean",
+      "occupancy_mean",
+      "mean_speed",
+      "speed_variance",
+      "acceleration_variance",
+      "queue_length",
+      "halting_count",
+      "lane_occupancy",
+      "headway_mean",
+      "headway_variance",
+      "demand_vehicles_per_hour"
+    ],
+    "traffic_temporal": [
+      "density_slope_30s",
+      "speed_slope_30s",
+      "flow_instability",
+      "queue_growth_rate",
+      "short_horizon_speed_oscillation",
+      "occupancy_variance_30s"
+    ],
+    "v6_score": [
+      "v6_micro_success_score"
+    ]
+  },
+  "hash": "71e03764c1ae6d8fbe3853f73d6debb232924cf7749530259de7a2ff9d13f49d",
+  "predecision_only": true
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "bin": "below_0",
+    "count": 139,
+    "mean_predicted_uplift": -0.02976159773915012,
+    "mean_realized_uplift": -0.0297091758283731
+  },
+  {
+    "bin": "0_to_1_percent",
+    "count": 144,
+    "mean_predicted_uplift": 0.0037746130199034994,
+    "mean_realized_uplift": 0.00983972922516995
+  },
+  {
+    "bin": "1_to_3_percent",
+    "count": 17,
+    "mean_predicted_uplift": 0.013095722120572379,
+    "mean_realized_uplift": 0.019989426904305625
+  },
+  {
+    "bin": "above_3_percent",
+    "count": 0,
+    "mean_predicted_uplift": null,
+    "mean_realized_uplift": null
+  }
+]

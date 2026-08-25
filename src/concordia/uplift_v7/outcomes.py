@@ -36,12 +36,12 @@ def paired_treatment_outcomes(
     regret = float(adaptive["maximum_affected_regret"])
     legal = bool(adaptive["all_executed_routes_legal"])
     success = bool(
-        tau_t_relative >= minimum_relative_uplift
+        tau_t_relative > minimum_relative_uplift
         and tau_s <= safety_margin
         and regret <= regret_limit
         and legal
     )
-    if tau_t_relative < minimum_relative_uplift:
+    if tau_t_relative <= minimum_relative_uplift:
         magnitude = "non_positive_or_below_minimum"
     elif tau_t_relative < 0.02:
         magnitude = "weak_1_to_2_percent"
@@ -58,4 +58,3 @@ def paired_treatment_outcomes(
         success,
         magnitude,
     )
-

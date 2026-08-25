@@ -1,0 +1,18 @@
+{
+  "expected_interpretation": "permuted treatment effects should destroy ranking signal",
+  "permutation_seed": 20261101,
+  "permuted_target": {
+    "mae": 0.03269020974862383,
+    "positive_uplift_recall": 0.0,
+    "rmse": 0.047545081650420554,
+    "sign_accuracy": 0.4,
+    "spearman": 0.010120812906265531
+  },
+  "real_signal": {
+    "mae": 0.025414912973252105,
+    "positive_uplift_recall": 0.125,
+    "rmse": 0.03879378564892687,
+    "sign_accuracy": 0.5333333333333333,
+    "spearman": 0.4587499341507442
+  }
+}

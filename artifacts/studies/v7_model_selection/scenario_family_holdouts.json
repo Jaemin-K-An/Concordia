@@ -1,0 +1,41 @@
+[
+  {
+    "holdout": "leave_asymmetric_topology_out",
+    "metrics": {
+      "mae": 0.029405249590198978,
+      "positive_uplift_recall": 0.0,
+      "rmse": 0.04761411777243959,
+      "sign_accuracy": 0.125,
+      "spearman": -0.2074125043966922
+    },
+    "selection_note": "development-only architecture transferred without threshold retuning",
+    "test_pair_count": 80,
+    "train_pair_count": 1120
+  },
+  {
+    "holdout": "leave_high_demand_band_out",
+    "metrics": {
+      "mae": 0.03927828395007266,
+      "positive_uplift_recall": 0.0,
+      "rmse": 0.05321943356081739,
+      "sign_accuracy": 0.54,
+      "spearman": 0.38645040208560405
+    },
+    "selection_note": "development-only architecture transferred without threshold retuning",
+    "test_pair_count": 400,
+    "train_pair_count": 800
+  },
+  {
+    "holdout": "leave_full_penetration_band_out",
+    "metrics": {
+      "mae": 0.03640522126152333,
+      "positive_uplift_recall": 0.09183673469387756,
+      "rmse": 0.051675763166692965,
+      "sign_accuracy": 0.5588235294117647,
+      "spearman": 0.2319147386666461
+    },
+    "selection_note": "development-only architecture transferred without threshold retuning",
+    "test_pair_count": 340,
+    "train_pair_count": 860
+  }
+]

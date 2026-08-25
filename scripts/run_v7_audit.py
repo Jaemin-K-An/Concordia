@@ -22,7 +22,14 @@ def write_json(path: Path, value) -> None:
 def run() -> Path:
     manifest = verify_frozen()
     if (ROOT / "artifacts/v7/freeze_manifest.json").exists():
-        raise RuntimeError("v7 audit cannot replace an existing frozen study")
+        from v7_frozen import verify_frozen as verify_v7
+
+        verify_v7()
+        path = OUTPUT / "entry_audit.json"
+        if not path.is_file():
+            raise RuntimeError("v7 is frozen but its entry audit is missing")
+        print(path)
+        return path
     sources = [
         ROOT / "artifacts/studies/v6_micro_dataset/raw_metrics.json",
         ROOT / "artifacts/studies/v6_frozen_micro_holdout/raw_metrics.json",

@@ -1,0 +1,57 @@
+{
+  "benefit_magnitude_counts": {
+    "moderate_2_to_5_percent": 108,
+    "non_positive_or_below_minimum": 928,
+    "strong_above_5_percent": 78,
+    "weak_1_to_2_percent": 86
+  },
+  "complete": true,
+  "feature_count": 54,
+  "final_holdout_materialized": false,
+  "final_holdout_seeds": [
+    853,
+    857,
+    859,
+    863,
+    877,
+    881,
+    883,
+    887,
+    907,
+    911,
+    919,
+    929,
+    937,
+    941,
+    947
+  ],
+  "future_state_leakage_count": 0,
+  "historical_actual_sumo_run_count": 1600,
+  "historical_pair_count": 800,
+  "new_actual_sumo_pair_count": 400,
+  "new_actual_sumo_run_count": 800,
+  "pair_count": 1200,
+  "pairing_failure_count": 0,
+  "positive_traffic_uplift_count": 272,
+  "raw_metrics_hash": "7235c9d0f429af6bd7de86ca8e1fa467d5ed1af96450ce5042b1f206f8bc7b06",
+  "rl_used": false,
+  "role_counts": {
+    "calibration": 180,
+    "train": 720,
+    "validation": 300
+  },
+  "safe_micro_success_count": 221,
+  "seed_family_counts": {
+    "calibration": 9,
+    "train": 36,
+    "validation": 15
+  },
+  "source_counts": {
+    "v6_development_historical": 600,
+    "v6_final_promoted_to_v7_development": 200,
+    "v7_new_actual_sumo_development": 400
+  },
+  "study": "v7 paired conditional-treatment-effect development dataset",
+  "total_underlying_actual_sumo_run_count": 2400,
+  "v6_freeze_manifest_verified": true
+}

@@ -25,7 +25,7 @@ def regression_metrics(actual: Sequence[float], predicted: Sequence[float]) -> d
     p = np.asarray(predicted, dtype=float)
     correlation = spearmanr(y, p).statistic if len(y) > 1 else 0.0
     correlation = 0.0 if not np.isfinite(correlation) else float(correlation)
-    positive = y >= 0.01
+    positive = y > 0.01
     return {
         "mae": float(np.mean(np.abs(y - p))),
         "rmse": float(np.sqrt(np.mean((y - p) ** 2))),
@@ -53,7 +53,7 @@ def deployment_metrics(
         "success_count": successes,
         "failure_count": count - successes,
         "deployment_precision": successes / count if count else 0.0,
-        "uplift_precision": float((mask & (traffic >= 0.01)).sum() / count) if count else 0.0,
+        "uplift_precision": float((mask & (traffic > 0.01)).sum() / count) if count else 0.0,
         "coverage": count / len(rows) if rows else 0.0,
         "opportunity_count": opportunities,
         "opportunity_recovery_rate": successes / opportunities if opportunities else 0.0,
@@ -105,4 +105,3 @@ def cumulative_gain(actual: Sequence[float], predicted: Sequence[float]) -> list
             }
         )
     return output
-

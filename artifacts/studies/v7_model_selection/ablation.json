@@ -1,0 +1,136 @@
+[
+  {
+    "ablation": "without_traffic_temporal",
+    "remaining_feature_count": 48,
+    "removed_features": [
+      "density_slope_30s",
+      "flow_instability",
+      "occupancy_variance_30s",
+      "queue_growth_rate",
+      "short_horizon_speed_oscillation",
+      "speed_slope_30s"
+    ],
+    "validation_metrics": {
+      "mae": 0.025364645732845668,
+      "positive_uplift_recall": 0.09722222222222222,
+      "rmse": 0.038915640735747686,
+      "sign_accuracy": 0.52,
+      "spearman": 0.4439456750914665
+    }
+  },
+  {
+    "ablation": "without_analytical",
+    "remaining_feature_count": 52,
+    "removed_features": [
+      "analytical_predicted_ttt_gain",
+      "analytical_success_probability"
+    ],
+    "validation_metrics": {
+      "mae": 0.025469849986227856,
+      "positive_uplift_recall": 0.1388888888888889,
+      "rmse": 0.039056923712403185,
+      "sign_accuracy": 0.5266666666666666,
+      "spearman": 0.47588942083275304
+    }
+  },
+  {
+    "ablation": "without_v6_score",
+    "remaining_feature_count": 53,
+    "removed_features": [
+      "v6_micro_success_score"
+    ],
+    "validation_metrics": {
+      "mae": 0.025465608932862496,
+      "positive_uplift_recall": 0.1527777777777778,
+      "rmse": 0.03882535685253994,
+      "sign_accuracy": 0.53,
+      "spearman": 0.4669151675083751
+    }
+  },
+  {
+    "ablation": "without_topology",
+    "remaining_feature_count": 40,
+    "removed_features": [
+      "alternative_capacity_ratio",
+      "bottleneck_centrality",
+      "edge_disjointness",
+      "number_route_alternatives",
+      "perturbation_strength",
+      "route_length_ratio",
+      "route_overlap",
+      "topology_asymmetric",
+      "topology_merge",
+      "topology_real_like",
+      "topology_ring",
+      "topology_signalized",
+      "topology_two_route",
+      "volume_capacity_ratio"
+    ],
+    "validation_metrics": {
+      "mae": 0.025679178950173766,
+      "positive_uplift_recall": 0.06944444444444445,
+      "rmse": 0.039016156846253515,
+      "sign_accuracy": 0.49,
+      "spearman": 0.4176807477989351
+    }
+  },
+  {
+    "ablation": "without_preference",
+    "remaining_feature_count": 43,
+    "removed_features": [
+      "acceptance_multiplier",
+      "heterogeneity_bimodal",
+      "heterogeneity_high",
+      "heterogeneity_long_tail",
+      "heterogeneity_low",
+      "heterogeneity_medium",
+      "predicted_acceptance",
+      "preference_entropy_proxy",
+      "preference_slack_mean",
+      "preference_slack_std",
+      "preference_variance"
+    ],
+    "validation_metrics": {
+      "mae": 0.025971679122166722,
+      "positive_uplift_recall": 0.125,
+      "rmse": 0.03987398869953963,
+      "sign_accuracy": 0.52,
+      "spearman": 0.4703528304235561
+    }
+  },
+  {
+    "ablation": "without_penetration",
+    "remaining_feature_count": 52,
+    "removed_features": [
+      "acceptance_multiplier",
+      "navigation_penetration"
+    ],
+    "validation_metrics": {
+      "mae": 0.02555341459418995,
+      "positive_uplift_recall": 0.1388888888888889,
+      "rmse": 0.03917120561912281,
+      "sign_accuracy": 0.5166666666666667,
+      "spearman": 0.44714435010395653
+    }
+  },
+  {
+    "ablation": "without_safety",
+    "remaining_feature_count": 47,
+    "removed_features": [
+      "closing_speed_p90",
+      "drac_proxy_p95",
+      "hard_braking_recent_rate",
+      "lane_change_density",
+      "merge_interaction_density",
+      "minimum_headway",
+      "speed_differential"
+    ],
+    "validation_metrics": {
+      "mae": 0.025439114228847003,
+      "positive_uplift_recall": 0.1527777777777778,
+      "rmse": 0.03890342956052429,
+      "sign_accuracy": 0.5166666666666667,
+      "spearman": 0.4484376173486955
+    }
+  }
+]
