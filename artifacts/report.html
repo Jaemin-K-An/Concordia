@@ -1,49 +1,39 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><title>CONCORDIA v4 final report</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CONCORDIA v5 — Final Research Report</title>
 <style>
-:root{--ink:#121915;--muted:#627067;--line:#d7dfd9;--paper:#f8fbf8;--accent:#176149;--pale:#e9f4ee}
-body{font:16px/1.58 Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;max-width:1160px;margin:auto;padding:48px 28px;color:var(--ink);background:var(--paper)}
-h1{font-size:48px;line-height:1;letter-spacing:-.045em;margin:8px 0}h2{margin-top:46px;letter-spacing:-.025em}.eyebrow{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);font-weight:800}.lead{font-size:21px;max-width:900px}.boundary{border-left:5px solid var(--accent);padding:15px 18px;background:var(--pale)}
-.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}.metric{background:white;border:1px solid var(--line);padding:16px}.metric b{display:block;font-size:28px}.metric span{font-size:13px;color:var(--muted)}
-table{border-collapse:collapse;width:100%;margin:18px 0}th,td{border-bottom:1px solid var(--line);padding:9px;text-align:left;vertical-align:top}th{font-size:12px;text-transform:uppercase;letter-spacing:.06em}.decision{border:1px solid var(--ink);padding:24px;font-size:23px;font-weight:750}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:18px}figure{margin:0;padding:10px;background:white;border:1px solid var(--line)}img{width:100%}figcaption{font-size:13px;color:var(--muted)}code{background:#e9eeea;padding:2px 5px}
-</style></head><body>
-<div class="eyebrow">Precision-constrained coverage optimization</div>
-<h1>CONCORDIA v4</h1>
-<p class="lead">Estimate intervention success, traffic benefit, and safety risk separately; calibrate under distribution shift; then maximize coverage subject to a preregistered precision constraint.</p>
-<p class="boundary"><strong>Evidence boundary.</strong> Primary evidence is a new synthetic analytical holdout. Microscopic tests use actual SUMO with synthetic demand. OSM studies use real geometry with synthetic OD demand. Safety measures are surrogate conflicts, never crash probabilities. The new 640-case analytical holdout was never used for fitting or threshold selection. SUMO studies use actual microscopic simulation with synthetic demand. Real-topology results use committed OSM geometry with synthetic OD demand. RL is not used.</p>
-
-<h2>1. Frozen v4 decision</h2>
-<div class="metrics">
-<div class="metric"><b>87.3%</b><span>Holdout intervention precision</span></div>
-<div class="metric"><b>8.6%</b><span>Holdout coverage</span></div>
-<div class="metric"><b>55</b><span>Interventions</span></div>
-<div class="metric"><b>84.76777</b><span>Mean network TTT gain</span></div>
-<div class="metric"><b>7.5%</b><span>Population benefit rate</span></div>
-<div class="metric"><b>40.0%</b><span>Worst activated-group precision</span></div>
-</div>
-<p>Precision 95% Wilson interval: [76.0%, 93.7%]. Safety, regret, and legal violation counts among interventions were 0, 0, and 0.</p>
-
-<h2>2. Model selection and calibration</h2>
-<p>Robust CV selected <strong>M1_logistic</strong> using worst-group and lower-tail precision before coverage, ECE, and mean selected gain. CV worst-group precision was 0.0%; mean coverage was 46.6%. The probability calibrator was <strong>isotonic</strong>, with ECE 0.0927 against the preregistered 0.05 target. Benefit models were <code>gradient_boosting</code> and <code>elastic_net_lcb</code>. The calibration false-safe count for the conservative safety UCB was 0.</p>
-<p>The frozen research candidate was <strong>V4-P</strong>. Deployment was <strong>blocked</strong> because no validation candidate jointly met precision ≥80% and coverage ≥15%. Validation-only H20 Coverage@Precision80 was 4.2% for ESIV and 4.2% for probability gating. H19 interaction coefficient/effect: {&#x27;approximate_ci95&#x27;: [-0.46139326391821667, 1.1828913902942326], &#x27;incremental_information&#x27;: 0.0023993243488296123, &#x27;interaction&#x27;: &#x27;heterogeneity_rad_interaction&#x27;, &#x27;standardized_coefficient&#x27;: 0.36074906318800803, &#x27;supports_H19&#x27;: True, &#x27;validation_log_loss_full&#x27;: 0.39660987202540493, &#x27;validation_log_loss_reduced&#x27;: 0.39900919637423454}.</p>
-
-<h2>3. Untouched holdout comparisons</h2>
-<table><tr><th>Policy</th><th>Interventions</th><th>Precision</th><th>Coverage</th><th>Mean TTT gain</th></tr><tr><td>B1</td><td>0</td><td>—</td><td>0.0%</td><td>0.00000</td></tr><tr><td>B6</td><td>640</td><td>32.2%</td><td>100.0%</td><td>-48.57231</td></tr><tr><td>V3-C</td><td>163</td><td>65.6%</td><td>25.5%</td><td>115.95693</td></tr><tr><td>V3-D</td><td>51</td><td>66.7%</td><td>8.0%</td><td>76.88295</td></tr><tr><td>V4-C</td><td>23</td><td>95.7%</td><td>3.6%</td><td>54.31434</td></tr><tr><td>V4-E</td><td>52</td><td>92.3%</td><td>8.1%</td><td>84.76777</td></tr><tr><td>V4-F</td><td>55</td><td>87.3%</td><td>8.6%</td><td>84.76777</td></tr><tr><td>V4-P</td><td>55</td><td>87.3%</td><td>8.6%</td><td>84.76777</td></tr></table>
-
-<h2>4. Worst-group audit</h2>
-<p>Median activated-group precision was 89.7%; worst activated-group precision was 40.0%. A dash means the frozen policy made no intervention in that group.</p>
-<table><tr><th>Dimension</th><th>Group</th><th>N intervention</th><th>Precision</th><th>Coverage</th></tr><tr><td>demand_band</td><td>high</td><td>35</td><td>82.9%</td><td>13.7%</td></tr><tr><td>demand_band</td><td>low</td><td>11</td><td>100.0%</td><td>8.6%</td></tr><tr><td>demand_band</td><td>middle</td><td>9</td><td>88.9%</td><td>3.5%</td></tr><tr><td>heterogeneity</td><td>bimodal</td><td>23</td><td>82.6%</td><td>14.4%</td></tr><tr><td>heterogeneity</td><td>high</td><td>13</td><td>100.0%</td><td>8.1%</td></tr><tr><td>heterogeneity</td><td>long_tail</td><td>18</td><td>83.3%</td><td>11.2%</td></tr><tr><td>heterogeneity</td><td>low</td><td>1</td><td>100.0%</td><td>0.6%</td></tr><tr><td>penetration</td><td>0.5</td><td>10</td><td>40.0%</td><td>3.1%</td></tr><tr><td>penetration</td><td>1.0</td><td>45</td><td>97.8%</td><td>14.1%</td></tr><tr><td>scenario</td><td>merge</td><td>21</td><td>90.5%</td><td>13.1%</td></tr><tr><td>scenario</td><td>ring</td><td>0</td><td>—</td><td>0.0%</td></tr><tr><td>scenario</td><td>signalized</td><td>18</td><td>77.8%</td><td>11.2%</td></tr><tr><td>scenario</td><td>two_route</td><td>16</td><td>93.8%</td><td>10.0%</td></tr><tr><td>topology_family</td><td>constrained</td><td>39</td><td>84.6%</td><td>12.2%</td></tr><tr><td>topology_family</td><td>distributed</td><td>16</td><td>93.8%</td><td>5.0%</td></tr></table>
-
-<h2>5. Actual microscopic and real-geometry validation</h2>
-<p>The actual SUMO matrix contained 15 paired cases. V4-F made 1 intervention with precision 0.0% and 1 surrogate safety violation. This non-degenerate activation test failed; no microscopic adaptive-success or safety-transfer claim is made. Phantom-jam prediction remained secondary and was not a v4 gate.</p>
-<p>The real-geometry study used 3 passenger-legal OD pairs spanning low, medium, and high route overlap. Demand is synthetic and the result is mechanism-transfer evidence, not a Seoul effect estimate.</p>
-<table><tr><th>Overlap class</th><th>Interventions</th><th>Precision</th><th>Coverage</th></tr><tr><td>high</td><td>0</td><td>0.0%</td><td>0.0%</td></tr><tr><td>low</td><td>0</td><td>0.0%</td><td>0.0%</td></tr><tr><td>medium</td><td>0</td><td>0.0%</td><td>0.0%</td></tr></table>
-
-<h2>6. Distribution-shift stress</h2>
-<p>Across 1280 post-holdout stress cases, precision was 44.1%, coverage 17.2%, safety violations 0, and loss CVaR 0.00153. Model and thresholds remained immutable.</p>
-
-<h2>7. Figures</h2><div class="grid"><figure><img src="studies/v4_precision_validation/figures/calibration_comparison.png" alt="Calibration comparison on development calibration data"><figcaption>Calibration comparison on development calibration data</figcaption></figure><figure><img src="studies/v4_precision_validation/figures/precision_at_coverage.png" alt="Precision–coverage frontier before freeze"><figcaption>Precision–coverage frontier before freeze</figcaption></figure><figure><img src="studies/v4_frozen_holdout/figures/holdout_precision_coverage.png" alt="Untouched holdout policy comparison"><figcaption>Untouched holdout policy comparison</figcaption></figure><figure><img src="studies/v4_microscopic/figures/microscopic_v4_selectivity.png" alt="Actual SUMO microscopic selectivity"><figcaption>Actual SUMO microscopic selectivity</figcaption></figure><figure><img src="studies/v4_real_topology/figures/activation_by_overlap.png" alt="Activation across three real-geometry OD overlap classes"><figcaption>Activation across three real-geometry OD overlap classes</figcaption></figure><figure><img src="studies/v4_stress/figures/stress_tail.png" alt="Frozen-policy distribution-shift tail"><figcaption>Frozen-policy distribution-shift tail</figcaption></figure></div>
-
-<h2>8. Final decision</h2>
-<p class="decision">Outcome P — High-precision CONCORDIA partially supported.<br>Always-on adaptive navigation remains rejected as a universal policy.</p>
-</body></html>
+:root{--ink:#17231f;--muted:#5b6a65;--paper:#f5f2ea;--panel:#fffdf8;--green:#0b6e4f;--red:#a43f32;--line:#d7d5cb}
+*{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.62 Inter,ui-sans-serif,system-ui,sans-serif}
+main{max-width:1120px;margin:auto;padding:64px 28px 96px} header{border-top:8px solid var(--red);padding:54px 0 42px;border-bottom:1px solid var(--line)}
+.eyebrow{letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:750;font-size:.78rem} h1{font-family:Georgia,serif;font-size:clamp(3rem,8vw,6.7rem);line-height:.9;margin:.3rem 0 1.2rem;letter-spacing:-.055em}
+.dek{font-family:Georgia,serif;font-size:1.4rem;max-width:780px;color:var(--muted)} .outcome{display:inline-flex;gap:16px;align-items:center;margin-top:24px;padding:14px 18px;background:#f3dfdb;border-left:5px solid var(--red)}
+.outcome b{font-size:2rem;color:var(--red)} section{padding:46px 0;border-bottom:1px solid var(--line)} h2{font-family:Georgia,serif;font-size:2.2rem;margin:0 0 18px} h3{margin-top:28px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px} .metric{background:var(--panel);border:1px solid var(--line);padding:19px;display:flex;flex-direction:column;min-height:144px}
+.metric span,.metric small{color:var(--muted)} .metric strong{font:2.3rem Georgia,serif;margin:auto 0 .1rem} table{width:100%;border-collapse:collapse;background:var(--panel)} th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} th{font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.pipeline{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:24px 0} .pipeline div{background:var(--ink);color:white;padding:15px;min-height:92px} .pipeline b{display:block;color:#81c7ad}
+.note{border-left:4px solid var(--green);background:#e5efe9;padding:16px 20px} .failure{border-color:var(--red);background:#f3dfdb}
+code{background:#ebe8df;padding:.1em .35em} footer{padding-top:36px;color:var(--muted);font-size:.9rem} @media(max-width:760px){.grid{grid-template-columns:1fr 1fr}.pipeline{grid-template-columns:1fr}} @media(max-width:480px){.grid{grid-template-columns:1fr}}
+</style></head><body><main>
+<header><div class="eyebrow">Robust regime-conditioned selective adaptive navigation</div><h1>CONCORDIA<br>v5</h1>
+<p class="dek">A frozen, leakage-resistant evaluation of regime conditioning, domain-shift abstention, microscopic correction, and a surrogate-safety veto.</p>
+<div class="outcome"><b>Outcome F</b><span>Analytical precision passed. Microscopic safety failed and independently forces rejection.</span></div></header>
+<section><h2>Decision at a glance</h2><div class="grid"><div class="metric"><span>Analytical precision</span><strong>82.6%</strong><small>target ≥80% · pass</small></div><div class="metric"><span>Analytical coverage</span><strong>12.9%</strong><small>target ≥15% · fail</small></div><div class="metric"><span>Stress precision</span><strong>85.2%</strong><small>target ≥70% · pass</small></div><div class="metric"><span>Micro precision</span><strong>10.0%</strong><small>target &gt;50% · fail</small></div><div class="metric"><span>Micro false-safe</span><strong>10.0%</strong><small>target ≤5% · fail</small></div><div class="metric"><span>Real OSM activation</span><strong>0.0%</strong><small>48 paired conditions · all abstain</small></div></div>
+<p class="note failure"><strong>No deployment claim.</strong> The full actual-SUMO policy made 10 interventions, achieved 1 success, and allowed 1 surrogate safety violation. The real-geometry study abstained in all 48 conditions.</p></section>
+<section><h2>Frozen research sequence</h2><div class="pipeline"><div><b>01</b>Regime discovery</div><div><b>02</b>Shift detector</div><div><b>03</b>Micro correction</div><div><b>04</b>Five-package freeze</div><div><b>05</b>Untouched holdouts</div></div>
+<p>The manifest fixed 104 deployment-code checksums and nine model artifacts before any final analytical, stress, microscopic, or OSM holdout was materialized. Final analytical N=1024; final microscopic paired N=100.</p></section>
+<section><h2>Primary results</h2><table><thead><tr><th>Domain</th><th>Cases</th><th>Interventions</th><th>Precision</th><th>Coverage</th><th>Safety violations</th></tr></thead><tbody>
+<tr><td>Synthetic analytical</td><td>1024</td><td>132</td><td>0.8258</td><td>0.1289</td><td>0</td></tr>
+<tr><td>Unseen stress</td><td>256</td><td>27</td><td>0.8519</td><td>0.1055</td><td>0</td></tr>
+<tr><td>Actual SUMO microscopic</td><td>100</td><td>10</td><td>0.1000</td><td>0.1000</td><td>1</td></tr>
+<tr><td>Real OSM geometry</td><td>48</td><td>0</td><td>0.0000</td><td>0.0000</td><td>0</td></tr></tbody></table>
+<p>V5-RD met analytical precision and intervention-count targets, plus the 0.70 worst-critical-group precision target (0.74), but missed 15% coverage. Stress precision remained above 70%.</p></section>
+<section><h2>Hypotheses H21–H28</h2><table><thead><tr><th>Hypothesis</th><th>Status</th><th>Frozen finding</th></tr></thead><tbody><tr><td>H21_regime_conditioning</td><td>PASS</td><td>Frozen holdout V5-R slightly improved both precision and coverage over V5-G.</td></tr><tr><td>H22_DSS</td><td>FAIL</td><td>DSS retained zero safety violations but did not improve stress precision over the no-DSS ablation.</td></tr><tr><td>H23_micro_safety_gate</td><td>FAIL / OVER-CONSERVATIVE</td><td>The safety gate reduced analytical activation to zero and still allowed one microscopic false-safe intervention.</td></tr><tr><td>H24_micro_correction</td><td>FAIL</td><td>Microscopic benefit correction slightly worsened final-holdout MAE.</td></tr><tr><td>H25_safe_micro_success</td><td>FAIL</td><td>There was one safe success, but precision was 0.10 and one safety violation occurred.</td></tr><tr><td>H26_selectivity_mechanism</td><td>PARTIAL</td><td>Selectivity removed all analytical safety violations and 24/25 microscopic unsafe adaptations, but not the last false-safe case.</td></tr><tr><td>H27_hierarchical_or_mixture</td><td>FAIL</td><td>Model selection chose regime-specific M3, not the hierarchical or mixture candidates.</td></tr><tr><td>H28_penetration_interactions</td><td>FAIL</td><td>The interaction model did not jointly improve validation coverage and Brier score over its nested global comparator.</td></tr></tbody></table></section>
+<section><h2>Failure taxonomy</h2><div class="grid">
+<div class="metric"><span>Benefit prediction error</span><strong>35</strong><small>final micro pairs</small></div>
+<div class="metric"><span>Safety mismatch</span><strong>25</strong><small>surrogate DRAC tail</small></div>
+<div class="metric"><span>Partial adoption feedback</span><strong>19</strong><small>acceptance below 0.5</small></div></div>
+<p>Microscopic correction did not improve benefit MAE: analytical 0.05455, corrected 0.05470. DSS did not beat the no-DSS stress ablation.</p></section>
+<section><h2>Aggregation disclosure</h2><p class="note">The frozen microscopic summary assigned B6 TTT deltas to abstained rows in one descriptive aggregation. Decisions, precision, coverage, success, and safety labels are unaffected. The immutable raw-pair recomputation gives selected-policy population mean TTT gain <strong>1.7900 s</strong>; no policy or threshold changed.</p></section>
+<section><h2>Evidence boundary</h2><ul><li>Analytical results use synthetic BPR cases.</li><li>Microscopic results use actual SUMO with synthetic demand/preferences.</li><li>OSM contributes real road geometry, not observed Seoul demand.</li><li>TTC, PET, and DRAC are surrogate conflict measures—not crash probabilities.</li><li>RL was excluded by the v5 preregistration.</li></ul></section>
+<footer>CONCORDIA v5 · frozen source 15a8723fdfe6 · full evidence in FINAL_AUDIT_V5.md and artifacts/studies/v5_*</footer>
+</main></body></html>

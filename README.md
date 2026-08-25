@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
-  <strong>Precision-constrained, safety-gated adaptive navigation.</strong><br />
-  Estimate success, traffic benefit, and safety risk—then intervene only on the calibrated frontier.
+  <strong>Regime-conditioned, shift-aware selective adaptive navigation.</strong><br />
+  Estimate analytical and microscopic success, benefit, and safety—then abstain outside the frozen frontier.
 </p>
 
 <p align="center">
   <img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-111111?style=flat-square" />
   <img alt="SUMO 1.27.1" src="https://img.shields.io/badge/SUMO-1.27.1-404040?style=flat-square" />
-  <img alt="Tests 60 passing" src="https://img.shields.io/badge/tests-60%20passing-111111?style=flat-square" />
-  <img alt="Selective v4 Outcome P" src="https://img.shields.io/badge/selective%20v4-Outcome%20P-0b6e4f?style=flat-square" />
+  <img alt="Tests 68 passing" src="https://img.shields.io/badge/tests-68%20passing-111111?style=flat-square" />
+  <img alt="Selective v5 Outcome F" src="https://img.shields.io/badge/selective%20v5-Outcome%20F-a43f32?style=flat-square" />
   <img alt="RL gate Outcome B" src="https://img.shields.io/badge/RL%20gate-Outcome%20B-737373?style=flat-square" />
 </p>
 
@@ -28,16 +28,17 @@
 > [!IMPORTANT]
 > CONCORDIA recommends legal routes using truthful computed attributes. It never controls
 > speed, steering, acceleration, or lane changes. A route is changed only after the modeled
-> user explicitly accepts the offer. If feasibility, uncertainty, benefit, acceptance, tail,
-> or safety gates fail, v4 leaves the ETA baseline route unchanged. The frozen v4 candidate is
-> research-only: validation did not satisfy the preregistered 15% coverage guard.
+> user explicitly accepts the offer. If regime, shift, analytical benefit, microscopic transfer,
+> or safety gates fail, v5 leaves the ETA baseline route unchanged. The frozen v5 candidate is
+> rejected for deployment: analytical coverage missed 15%, and the final actual-SUMO holdout
+> contained a surrogate safety violation.
 
 ## System
 
-CONCORDIA v4 asks how much coverage can be obtained while constraining successful-intervention
-precision to at least 80%. It predicts intervention success, expected traffic benefit, and safety
-failure separately; combines those estimates through probability, ESIV, and conformal candidates;
-and otherwise falls back to B1.
+CONCORDIA v5 asks whether regime conditioning and an explicit analytical-to-microscopic bridge can
+retain at least 80% analytical intervention precision without repeating v4's global-policy failure.
+It learns control/structure regimes, scores distribution shift, corrects predicted benefit in the
+SUMO domain, applies a bootstrap safety UCB veto, and otherwise falls back to B1.
 
 | Behavioral layer | Adaptive layer | Research layer |
 |---|---|---|
@@ -66,19 +67,26 @@ and otherwise falls back to B1.
   safety UCB prediction, conformal comparison, and risk-adjusted ESIV.
 - Five families of leave-group-out CV, precision-constrained threshold selection, an explicit
   coverage guard, immutable model/threshold checksums, and complete decision logs.
+- A 50-feature v5 schema with penetration × APS/capacity/overlap and DSS × penetration terms.
+- Learned regime routing, robust median/MAD domain-shift scoring, per-regime calibration, and
+  regime/shift-specific frozen thresholds.
+- Seed-disjoint actual-SUMO micro development (60/20/20) plus a 100-pair untouched final holdout.
+- Five frozen v5 YAML packages and a manifest covering 104 deployment-code checksums and nine
+  learned artifacts before any final holdout was materialized.
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    A["Topology · demand · preferences"] --> B["46-feature feasibility schema"]
-    B --> C["Calibrated P(success) · benefit LCB · safety UCB"]
-    C --> D{"Frozen probability/ESIV rule and safety constraints pass?"}
-    D -->|"no"| E["B1 ETA baseline · abstain"]
-    D -->|"yes"| F["B6 voluntary route offer"]
-    F --> G{"User accepts?"}
-    G -->|"yes"| H["Execute legal route change"]
-    G -->|"no"| E
+    A["Topology · demand · preferences"] --> B["50-feature v5 schema"]
+    B --> C["Regime · DSS · calibrated analytical success"]
+    C --> D["Microscopic benefit correction · success · safety UCB"]
+    D --> E{"Frozen regime/shift and micro gates pass?"}
+    E -->|"no"| F["B1 ETA baseline · abstain"]
+    E -->|"yes"| G["B6 voluntary route offer"]
+    G --> H{"User accepts?"}
+    H -->|"yes"| I["Execute legal route change"]
+    H -->|"no"| F
 ```
 
 The analytical layer is a BPR correctness harness. The microscopic layer is actual SUMO
@@ -134,6 +142,25 @@ make v4-real-topology
 make v4-stress
 make v4-report
 make v4-final-audit
+
+# v5 preregistered sequence
+make v5-audit
+make v5-dataset
+make v5-regime-discovery
+make v5-train
+make v5-shift-model
+make v5-calibrate
+make v5-micro-dataset
+make v5-micro-correction
+make v5-safety-veto
+make v5-validate
+make v5-freeze
+make v5-holdout
+make v5-microscopic
+make v5-real-topology
+make v5-stress
+make v5-report
+make v5-final-audit
 ```
 
 Install the official SUMO/TraCI optional dependencies before microscopic validation:
@@ -146,6 +173,34 @@ The fast test suite does not open SUMO. CI separates analytical, microscopic, an
 dispatched research-matrix workflows.
 
 ## Research status
+
+The v5 primary analytical holdout contains **1,024 untouched cases**. Frozen V5-RD intervened
+in 132 cases: precision **82.6%**, coverage **12.9%**, and zero analytical safety violations.
+The precision and 75-intervention requirements passed, as did worst critical-group precision
+(**74.0%**), but coverage missed the preregistered 15% acceptable threshold. The 256-case unseen
+stress holdout passed at **85.2%** precision and **10.5%** coverage with zero safety violations.
+
+The final actual-SUMO bridge is decisive: on 100 untouched paired conditions, V5-F made 10
+interventions, succeeded once, and allowed one surrogate safety violation (false-safe **10%**).
+On six legal Gangnam OSM OD pairs and 48 paired conditions it abstained everywhere. Because a
+microscopic safety failure independently forces rejection, the final decision is **Outcome F**.
+
+| v5 hypothesis | Status | Finding |
+|---|---|---|
+| H21 · Regime conditioning improves the global policy | **PASS, SMALL** | Frozen V5-R slightly improved precision and coverage over V5-G. |
+| H22 · DSS improves shifted robustness | **FAIL** | Stress safety remained clean, but precision did not improve over no-DSS. |
+| H23 · Microscopic safety gate improves safety | **FAIL / OVER-CONSERVATIVE** | It zeroed analytical activation and still admitted one microscopic false-safe case. |
+| H24 · Microscopic correction improves benefit prediction | **FAIL** | Final MAE slightly worsened from 0.05455 to 0.05470. |
+| H25 · Full policy achieves safe microscopic success | **FAIL** | Precision 10%, one safe success, one safety violation. |
+| H26 · Selectivity is a safety/transfer mechanism | **PARTIAL** | It removed 24/25 unsafe B6 adaptations, but not the final one. |
+| H27 · Hierarchical/mixture modeling is more robust | **FAIL** | Selection chose regime-specific M3 instead. |
+| H28 · Penetration interactions improve robust validation | **FAIL** | Coverage and Brier score did not jointly improve. |
+
+One descriptive microscopic TTT aggregation incorrectly populated abstained rows with B6 deltas.
+The frozen raw result is preserved; `FINAL_AUDIT_V5.md` recomputes the selected-policy population
+mean from immutable pairs. Decisions, precision, coverage, success, and safety labels are unchanged.
+
+### Preserved v4 outcome
 
 The v4 primary evaluation contains **640 untouched holdout cases**. Frozen V4-P intervened in
 55 cases: precision **87.3%** (95% CI **76.0–93.7%**), coverage **8.6%**, positive mean TTT
@@ -203,6 +258,10 @@ it behind an aggregate objective.
 
 ### Microscopic and real-topology boundary
 
+- The v5 actual-SUMO final holdout contained 100 paired cases. V5-F made ten interventions, one
+  succeeded, and one incurred a surrogate safety violation; an adaptive success claim is forbidden.
+- The v5 real-geometry study used six stratified passenger-legal OD pairs. V5-F abstained in all
+  48 cases, so it supports neither topology-transfer activation nor real-geometry adaptive benefit.
 - The v4 actual-SUMO matrix contained 15 paired cases. V4-F made one intervention; it was not
   successful and incurred one surrogate safety violation. Analytical holdout safety therefore
   did **not** transfer cleanly to microscopic simulation.
@@ -249,8 +308,15 @@ remains a recorded failure tail even though median Gate C did not trigger.
 
 | Artifact | Contents |
 |---|---|
+| [`FINAL_AUDIT_V5.md`](FINAL_AUDIT_V5.md) | Five-package freeze, H21–H28, untouched analytical/stress/SUMO/OSM holdouts, transparent metric correction, and Outcome F |
+| [`artifacts/report.html`](artifacts/report.html) | Current v5 paper-style outcome report |
+| [`v5_frozen_holdout/summary.json`](artifacts/studies/v5_frozen_holdout/summary.json) | Untouched 1,024-case analytical holdout and policy ablations |
+| [`v5_microscopic_holdout/summary.json`](artifacts/studies/v5_microscopic_holdout/summary.json) | Actual SUMO 100-pair domain bridge and safety failure |
+| [`v5_real_topology/summary.json`](artifacts/studies/v5_real_topology/summary.json) | Six stratified OD pairs on committed real OSM geometry |
+| [`v5_stress_holdout/summary.json`](artifacts/studies/v5_stress_holdout/summary.json) | Frozen unseen demand/acceptance/preference-variance stress test |
+| [`v5_policy_validation/validation_summary.json`](artifacts/studies/v5_policy_validation/validation_summary.json) | Development-only operating-point and ablation evidence |
+| [`v5/freeze_manifest.json`](artifacts/v5/freeze_manifest.json) | Five frozen packages, code/artifact checksums, and pre-holdout state |
 | [`FINAL_AUDIT_V4.md`](FINAL_AUDIT_V4.md) | Freeze, untouched holdout, H15–H20, worst groups, SUMO/OSM/stress boundaries, and Outcome P |
-| [`artifacts/report.html`](artifacts/report.html) | Current v4 paper-style report |
 | [`v4_model_selection/summary.json`](artifacts/studies/v4_model_selection/summary.json) | 1,032-case development set and five-family robust CV |
 | [`v4_precision_validation/summary.json`](artifacts/studies/v4_precision_validation/summary.json) | Calibration, benefit/safety models, precision–coverage frontier, and deployment block |
 | [`v4_frozen_holdout/summary.json`](artifacts/studies/v4_frozen_holdout/summary.json) | Untouched 640-case holdout, policy comparisons, group audit, and Outcome P |

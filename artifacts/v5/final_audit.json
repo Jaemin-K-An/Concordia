@@ -1,0 +1,168 @@
+{
+  "analytical_primary": {
+    "case_count": 1024,
+    "coverage": 0.12890625,
+    "coverage_ci95": [
+      0.1097604100096747,
+      0.15082594455127596
+    ],
+    "failure_avoidance_rate": 0.9697766097240473,
+    "intervention_count": 132,
+    "intervention_precision": 0.8257575757575758,
+    "intervention_precision_ci95": [
+      0.7520962774682791,
+      0.8809946856780821
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 89.52729449161629,
+    "missed_opportunity_rate": 0.5855513307984791,
+    "population_benefit_rate": 0.1064453125,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 109
+  },
+  "check_counts": {
+    "failed": 4,
+    "passed": 13
+  },
+  "checks": {
+    "analytical_case_count_at_least_800": true,
+    "analytical_coverage_at_least_0_15": false,
+    "analytical_interventions_at_least_75": true,
+    "analytical_precision_at_least_0_80": true,
+    "critical_group_precision_at_least_0_70": true,
+    "freeze_manifest_verified": true,
+    "microscopic_false_safe_at_most_0_05": false,
+    "microscopic_interventions_at_least_10": true,
+    "microscopic_pair_count_at_least_100": true,
+    "microscopic_precision_above_0_50": false,
+    "microscopic_safe_success_positive": true,
+    "microscopic_safety_violations_zero": false,
+    "post_freeze_deployment_code_unchanged": true,
+    "real_topology_od_count_between_6_and_10": true,
+    "real_topology_routes_legal": true,
+    "rl_excluded": true,
+    "stress_target_met": true
+  },
+  "claim_boundaries": {
+    "analytical": "Primary analytical evidence is a new synthetic holdout. Microscopic studies use actual SUMO with synthetic demand and preferences. OSM studies use real geometry with synthetic OD demand. TTC, PET and DRAC are surrogate conflict indicators, never crash probabilities.",
+    "microscopic": "Actual SUMO paired conditions with synthetic demand/preferences. Seed-disjoint development, calibration, validation and final holdout roles. Surrogate safety is not crash probability.",
+    "real_topology": "Six prespecified synthetic OD pairs on committed real OSM geometry; not observed Seoul traffic."
+  },
+  "complete": true,
+  "freeze_source_commit": "15a8723fdfe6cfa06583441ea18d89fcb6de1b86",
+  "hypotheses": {
+    "H21_regime_conditioning": {
+      "finding": "Frozen holdout V5-R slightly improved both precision and coverage over V5-G.",
+      "status": "PASS"
+    },
+    "H22_DSS": {
+      "finding": "DSS retained zero safety violations but did not improve stress precision over the no-DSS ablation.",
+      "status": "FAIL"
+    },
+    "H23_micro_safety_gate": {
+      "finding": "The safety gate reduced analytical activation to zero and still allowed one microscopic false-safe intervention.",
+      "status": "FAIL / OVER-CONSERVATIVE"
+    },
+    "H24_micro_correction": {
+      "finding": "Microscopic benefit correction slightly worsened final-holdout MAE.",
+      "status": "FAIL"
+    },
+    "H25_safe_micro_success": {
+      "finding": "There was one safe success, but precision was 0.10 and one safety violation occurred.",
+      "status": "FAIL"
+    },
+    "H26_selectivity_mechanism": {
+      "finding": "Selectivity removed all analytical safety violations and 24/25 microscopic unsafe adaptations, but not the last false-safe case.",
+      "status": "PARTIAL"
+    },
+    "H27_hierarchical_or_mixture": {
+      "finding": "Model selection chose regime-specific M3, not the hierarchical or mixture candidates.",
+      "status": "FAIL"
+    },
+    "H28_penetration_interactions": {
+      "finding": "The interaction model did not jointly improve validation coverage and Brier score over its nested global comparator.",
+      "status": "FAIL"
+    }
+  },
+  "microscopic_primary": {
+    "case_count": 100,
+    "coverage": 0.1,
+    "coverage_ci95": [
+      0.0552291370606751,
+      0.17436566150491345
+    ],
+    "failure_avoidance_rate": 0.8860759493670886,
+    "false_safe_rate": 0.1,
+    "intervention_count": 10,
+    "intervention_precision": 0.1,
+    "intervention_precision_ci95": [
+      0.017876213095072896,
+      0.4041500267952385
+    ],
+    "legal_violation_count": 0,
+    "mean_microscopic_relative_ttt_gain": 0.00370196184302547,
+    "mean_network_ttt_gain": -15.55,
+    "missed_opportunity_rate": 0.9523809523809523,
+    "population_benefit_rate": 0.01,
+    "regret_violation_count": 0,
+    "safe_success_count": 1,
+    "safety_violation_count": 1,
+    "successful_intervention_count": 1
+  },
+  "outcome": "F",
+  "outcome_reason": "Final microscopic safety failure forces Outcome F despite analytical precision and stress precision passing.",
+  "posthoc_metric_correction": {
+    "corrected_population_mean_network_ttt_gain_seconds": 1.79,
+    "corrected_population_mean_relative_ttt_gain": 0.00037019618430254696,
+    "issue": "The frozen microscopic summary populated system_ttt_gain for abstentions before summarize_selective_policy.",
+    "policy_or_threshold_changed": false,
+    "reported_mean_network_ttt_gain_seconds": -15.55,
+    "scope": "reporting aggregation only; frozen decisions and success/safety labels unchanged"
+  },
+  "real_topology_primary": {
+    "case_count": 48,
+    "coverage": 0.0,
+    "coverage_ci95": [
+      6.938893903907228e-18,
+      0.07410012966611748
+    ],
+    "failure_avoidance_rate": 1.0,
+    "intervention_count": 0,
+    "intervention_precision": 0.0,
+    "intervention_precision_ci95": [
+      0.0,
+      1.0
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 0.0,
+    "missed_opportunity_rate": 1.0,
+    "population_benefit_rate": 0.0,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 0
+  },
+  "stress_primary": {
+    "case_count": 256,
+    "coverage": 0.10546875,
+    "coverage_ci95": [
+      0.07350191137657121,
+      0.14910097533446798
+    ],
+    "failure_avoidance_rate": 0.9806763285024155,
+    "intervention_count": 27,
+    "intervention_precision": 0.8518518518518519,
+    "intervention_precision_ci95": [
+      0.6752131457218702,
+      0.9408407222375568
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 64.79222181993177,
+    "missed_opportunity_rate": 0.5306122448979592,
+    "population_benefit_rate": 0.08984375,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 23
+  },
+  "version": "CONCORDIA v5"
+}
