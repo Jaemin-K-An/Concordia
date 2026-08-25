@@ -35,6 +35,12 @@ def _matrix(rows: list[dict]) -> np.ndarray:
 
 
 def run() -> Path:
+    existing = STUDY / "safety_package.json"
+    if (ROOT / "configs/v4/frozen_model.yaml").is_file():
+        if not existing.is_file():
+            raise RuntimeError("v4 is frozen but its safety package is missing")
+        print(existing)
+        return existing
     prereg = yaml.safe_load(
         (ROOT / "configs/v4/preregistration.yaml").read_text(encoding="utf-8")
     )

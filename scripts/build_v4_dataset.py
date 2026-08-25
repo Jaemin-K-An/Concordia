@@ -64,6 +64,12 @@ def _upgrade(case: dict, source: str, role: str, uncertainty: float | None = Non
 
 
 def run() -> Path:
+    existing = OUTPUT / "dataset_summary.json"
+    if (ROOT / "configs/v4/frozen_model.yaml").is_file():
+        if not existing.is_file():
+            raise RuntimeError("v4 is frozen but its development dataset is missing")
+        print(existing)
+        return existing
     source_commit, source_dirty = capture_source_state()
     started = datetime.now(timezone.utc)
     split = yaml.safe_load((ROOT / "configs/v4/splits.yaml").read_text(encoding="utf-8"))

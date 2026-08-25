@@ -22,6 +22,12 @@ def _write(path: Path, value) -> None:
 
 
 def run() -> Path:
+    existing = STUDY / "trained_candidates.json"
+    if (ROOT / "configs/v4/frozen_model.yaml").is_file():
+        if not existing.is_file():
+            raise RuntimeError("v4 is frozen but trained candidates are missing")
+        print(existing)
+        return existing
     config = yaml.safe_load(
         (ROOT / "configs/v4/model_selection.yaml").read_text(encoding="utf-8")
     )

@@ -48,6 +48,12 @@ def _fit_m5_with_internal_calibration(
 
 
 def run() -> Path:
+    existing = STUDY / "summary.json"
+    if (ROOT / "configs/v4/frozen_model.yaml").is_file():
+        if not existing.is_file():
+            raise RuntimeError("v4 is frozen but robust-CV evidence is missing")
+        print(existing)
+        return existing
     config = yaml.safe_load(
         (ROOT / "configs/v4/model_selection.yaml").read_text(encoding="utf-8")
     )

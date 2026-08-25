@@ -41,6 +41,12 @@ def _lower_from_mean(model: BenefitModel, z: float) -> BenefitModel:
 
 
 def run() -> Path:
+    existing = STUDY / "benefit_package.json"
+    if (ROOT / "configs/v4/frozen_model.yaml").is_file():
+        if not existing.is_file():
+            raise RuntimeError("v4 is frozen but its benefit package is missing")
+        print(existing)
+        return existing
     rows = json.loads((MODEL_STUDY / "raw_metrics.json").read_text(encoding="utf-8"))
     train = [row for row in rows if row["development_role"] == "training"]
     evaluation = [

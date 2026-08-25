@@ -46,6 +46,12 @@ def _matrix(rows: list[dict]) -> np.ndarray:
 
 
 def run() -> Path:
+    existing = STUDY / "probability_package.json"
+    if (ROOT / "configs/v4/frozen_model.yaml").is_file():
+        if not existing.is_file():
+            raise RuntimeError("v4 is frozen but its probability package is missing")
+        print(existing)
+        return existing
     config = yaml.safe_load(
         (ROOT / "configs/v4/model_selection.yaml").read_text(encoding="utf-8")
     )

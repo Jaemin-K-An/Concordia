@@ -116,6 +116,14 @@ def run() -> Path:
         raise RuntimeError("frozen v4 model checksum mismatch")
     if threshold_hash_before != manifest["frozen_threshold_hash"]:
         raise RuntimeError("frozen v4 threshold checksum mismatch")
+    if manifest.get("final_holdout_completed"):
+        existing = OUTPUT / "summary.json"
+        if not existing.is_file():
+            raise RuntimeError("v4 holdout is marked complete but its summary is missing")
+        if _sha(existing) != manifest.get("final_holdout_result_hash"):
+            raise RuntimeError("completed v4 holdout result checksum mismatch")
+        print(existing)
+        return existing
     frozen_model = yaml.safe_load(frozen_model_path.read_text(encoding="utf-8"))
     frozen = yaml.safe_load(frozen_threshold_path.read_text(encoding="utf-8"))
     for name, relative in frozen_model["artifact_paths"].items():

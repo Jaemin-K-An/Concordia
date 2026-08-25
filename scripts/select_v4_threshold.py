@@ -180,6 +180,12 @@ def _interaction_analysis(training: list[dict], validation: list[dict]) -> dict:
 
 
 def run() -> Path:
+    existing = STUDY / "threshold_selection.json"
+    if (ROOT / "configs/v4/frozen_thresholds.yaml").is_file():
+        if not existing.is_file():
+            raise RuntimeError("v4 is frozen but threshold-selection evidence is missing")
+        print(existing)
+        return existing
     config = yaml.safe_load(
         (ROOT / "configs/v4/model_selection.yaml").read_text(encoding="utf-8")
     )
