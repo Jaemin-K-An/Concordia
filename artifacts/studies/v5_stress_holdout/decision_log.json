@@ -1,0 +1,4303 @@
+[
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.06331804939428329,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.063",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0518",
+      "micro safety UCB=0.228"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.056855689819670055,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.057",
+      "P(success)=0.148",
+      "corrected micro benefit=-0.0508",
+      "micro safety UCB=0.286"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.061089343707167496,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.061",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.0695",
+      "micro safety UCB=0.343"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.08946922922141708,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.089",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.0720",
+      "micro safety UCB=0.380"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.16896309351719843,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.169",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1996",
+      "micro safety UCB=0.275"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.07173491502837344,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.072",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.2065",
+      "micro safety UCB=0.400"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.07079133120165282,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.071",
+      "P(success)=0.417",
+      "corrected micro benefit=-0.2727",
+      "micro safety UCB=0.483"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.07292299084311453,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.073",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.3584",
+      "micro safety UCB=0.540"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.08474944228113537,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.085",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.1295",
+      "micro safety UCB=0.294"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.08097897699945242,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.081",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.1798",
+      "micro safety UCB=0.375"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.07603205680967239,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.076",
+      "P(success)=0.500",
+      "corrected micro benefit=-0.1599",
+      "micro safety UCB=0.449"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.07840339573569355,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.078",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.1019",
+      "micro safety UCB=0.503"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.13938599718470618,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.139",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0307",
+      "micro safety UCB=0.658"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.13696613185816572,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.137",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.0919",
+      "micro safety UCB=0.735"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.13713356845007654,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.137",
+      "P(success)=0.500",
+      "corrected micro benefit=-0.1619",
+      "micro safety UCB=0.806"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.250-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.1384249073993527,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.138",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.2664",
+      "micro safety UCB=0.827"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.06816792868222502,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.068",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0613",
+      "micro safety UCB=0.228"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.06341945060105844,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.063",
+      "P(success)=0.148",
+      "corrected micro benefit=-0.0668",
+      "micro safety UCB=0.286"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.06986622803819247,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.070",
+      "P(success)=0.417",
+      "corrected micro benefit=-0.0823",
+      "micro safety UCB=0.361"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.10211733143531264,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.102",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.1134",
+      "micro safety UCB=0.367"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.07309970905457086,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.073",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0836",
+      "micro safety UCB=0.292"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.06671997892173435,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.067",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.0554",
+      "micro safety UCB=0.389"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.06561494198768894,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.066",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.1033",
+      "micro safety UCB=0.496"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.06099035356850548,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.061",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.1317",
+      "micro safety UCB=0.512"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1796687185037141,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.180",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.2525",
+      "micro safety UCB=0.296"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.0920399898039439,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.092",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.2696",
+      "micro safety UCB=0.388"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.09130648532434181,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.091",
+      "P(success)=0.417",
+      "corrected micro benefit=-0.3396",
+      "micro safety UCB=0.461"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.09323472344009918,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.093",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.4288",
+      "micro safety UCB=0.514"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.13981578872050213,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.140",
+      "P(success)=0.042",
+      "corrected micro benefit=0.0456",
+      "micro safety UCB=0.647"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.13203712450342048,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.132",
+      "P(success)=0.333",
+      "corrected micro benefit=0.0694",
+      "micro safety UCB=0.710"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.1305893297160869,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.131",
+      "P(success)=0.667",
+      "corrected micro benefit=0.0823",
+      "micro safety UCB=0.792"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s257-d1.350-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.13189827435046955,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.132",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.0372",
+      "micro safety UCB=0.793"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.06323571132317926,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.063",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0570",
+      "micro safety UCB=0.235"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.05633043614464547,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.056",
+      "P(success)=0.148",
+      "corrected micro benefit=-0.0596",
+      "micro safety UCB=0.300"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.06069113946489736,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.061",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.0743",
+      "micro safety UCB=0.356"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.08919781091736304,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.089",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.0768",
+      "micro safety UCB=0.394"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.07691268628247339,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.077",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.1625",
+      "micro safety UCB=0.354"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.06841898338727447,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.068",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.1313",
+      "micro safety UCB=0.459"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.06589500966588216,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.066",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.0882",
+      "micro safety UCB=0.565"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.07017025900412606,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.070",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.1382",
+      "micro safety UCB=0.605"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.07080560359727373,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.071",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0489",
+      "micro safety UCB=0.421"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.06804350016595943,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.068",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.0950",
+      "micro safety UCB=0.540"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.0660325373795879,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.066",
+      "P(success)=0.500",
+      "corrected micro benefit=-0.0875",
+      "micro safety UCB=0.649"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.07506250087761081,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.075",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.1287",
+      "micro safety UCB=0.722"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.09948460929667895,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.099",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0155",
+      "micro safety UCB=0.862"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.09286554664976156,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.093",
+      "P(success)=0.500",
+      "corrected micro benefit=0.0223",
+      "micro safety UCB=0.962"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.09309131943435969,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.093",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.0437",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.250-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.09417594230943396,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.094",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.0958",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.06809145547186136,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.068",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0666",
+      "micro safety UCB=0.236"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.06325068061603704,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.063",
+      "P(success)=0.148",
+      "corrected micro benefit=-0.0759",
+      "micro safety UCB=0.298"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.06979161574097761,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.070",
+      "P(success)=0.417",
+      "corrected micro benefit=-0.0875",
+      "micro safety UCB=0.373"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.10206629799753225,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.102",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.1186",
+      "micro safety UCB=0.379"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.0905247835340312,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.091",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.2364",
+      "micro safety UCB=0.364"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.08700532236342767,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.087",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.2879",
+      "micro safety UCB=0.471"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.08622900126255734,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.086",
+      "P(success)=0.500",
+      "corrected micro benefit=-0.3496",
+      "micro safety UCB=0.569"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.08848619284022294,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.088",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.4454",
+      "micro safety UCB=0.618"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.17536970267171517,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.175",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.2456",
+      "micro safety UCB=0.396"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.08348076954979873,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.083",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.2566",
+      "micro safety UCB=0.557"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.08267135794095044,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.083",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.3324",
+      "micro safety UCB=0.631"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.08785994956711848,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.088",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.4137",
+      "micro safety UCB=0.705"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.18705890172003523,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.187",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1399",
+      "micro safety UCB=0.791"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.18538128923488087,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.185",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.2314",
+      "micro safety UCB=0.853"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.105410945074868,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.105",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.2073",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-two_route-s263-d1.350-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.1069786512393323,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.107",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.3210",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1924399941858077,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.192",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0771",
+      "micro safety UCB=0.060"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.20688245158442053,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.207",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1161",
+      "micro safety UCB=0.056"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.2254368113914098,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.225",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0678",
+      "micro safety UCB=0.054"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.28224155244042665,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.282",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0112",
+      "micro safety UCB=0.051"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.18859690200101242,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.189",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1181",
+      "micro safety UCB=0.051"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.20331253983885467,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.203",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1577",
+      "micro safety UCB=0.048"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.22216524483472178,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.222",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1099",
+      "micro safety UCB=0.047"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.27963535900548747,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.280",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0310",
+      "micro safety UCB=0.043"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.19678883183438795,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.197",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0800",
+      "micro safety UCB=0.058"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.21093373780903193,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.211",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1183",
+      "micro safety UCB=0.053"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.22916031266961434,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.229",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0694",
+      "micro safety UCB=0.050"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.28522445003276176,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.285",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0097",
+      "micro safety UCB=0.043"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.22297398327754994,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.223",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2352",
+      "micro safety UCB=0.197"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.23555168144168173,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.236",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2693",
+      "micro safety UCB=0.186"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.2520039717678067,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.252",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2169",
+      "micro safety UCB=0.178"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.250-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.3038824440147958,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.304",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1367",
+      "micro safety UCB=0.168"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.22513617777639805,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.225",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1599",
+      "micro safety UCB=0.055"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.2537157826663595,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.254",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1979",
+      "micro safety UCB=0.050"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.2854374671030108,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.285",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1108",
+      "micro safety UCB=0.048"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.3726807066687808,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.373",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0546",
+      "micro safety UCB=0.046"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.2218601780985305,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.222",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2008",
+      "micro safety UCB=0.048"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.25081335382341424,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.251",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2393",
+      "micro safety UCB=0.043"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.2828607213954036,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.283",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1525",
+      "micro safety UCB=0.042"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.3707108700932407,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.371",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0129",
+      "micro safety UCB=0.038"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.22886457025121915,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.229",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1629",
+      "micro safety UCB=0.047"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.2570299425096475,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.257",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2004",
+      "micro safety UCB=0.040"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.28838731005141627,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.288",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1129",
+      "micro safety UCB=0.037"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.3749447987312948,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.375",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0526",
+      "micro safety UCB=0.029"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.2517350678792871,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.252",
+      "P(success)=0.000",
+      "corrected micro benefit=0.3187",
+      "micro safety UCB=0.139"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.27758952471306764,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.278",
+      "P(success)=0.000",
+      "corrected micro benefit=0.3528",
+      "micro safety UCB=0.121"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.3068530486773853,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.307",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2627",
+      "micro safety UCB=0.111"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s257-d1.350-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.38932654029691477,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.389",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0969",
+      "micro safety UCB=0.098"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1924259433907786,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.192",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0716",
+      "micro safety UCB=0.061"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.2068693817392451,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.207",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1106",
+      "micro safety UCB=0.057"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.22542481730706476,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.225",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0623",
+      "micro safety UCB=0.055"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.28223197241202047,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.282",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0167",
+      "micro safety UCB=0.052"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1917189710150835,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.192",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0561",
+      "micro safety UCB=0.063"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.20621193287108489,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.206",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0953",
+      "micro safety UCB=0.059"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.22482163689283735,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.225",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0470",
+      "micro safety UCB=0.059"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.2817504328458624,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.282",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0320",
+      "micro safety UCB=0.054"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.19267328279124918,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.193",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0529",
+      "micro safety UCB=0.073"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.20709947202468446,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.207",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0919",
+      "micro safety UCB=0.072"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.22563598664585638,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.226",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0435",
+      "micro safety UCB=0.071"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.28240066654189233,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.282",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0355",
+      "micro safety UCB=0.064"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.20289916446839804,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.203",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1601",
+      "micro safety UCB=0.297"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.2166454900368813,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.217",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1974",
+      "micro safety UCB=0.301"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.23442840167109963,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.234",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1477",
+      "micro safety UCB=0.305"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.250-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.2894740290660328,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.289",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0684",
+      "micro safety UCB=0.292"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.22512416767500398,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.225",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1544",
+      "micro safety UCB=0.056"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.25370512549335855,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.254",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1924",
+      "micro safety UCB=0.051"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.28542799434144467,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.285",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1053",
+      "micro safety UCB=0.049"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.3726734514970704,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.373",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0601",
+      "micro safety UCB=0.047"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.22452017955768394,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.225",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1389",
+      "micro safety UCB=0.058"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.2531693323822064,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.253",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1770",
+      "micro safety UCB=0.053"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.28495185577748233,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.285",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0899",
+      "micro safety UCB=0.052"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.37230890616259843,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.372",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0755",
+      "micro safety UCB=0.046"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.2253356187625225,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.225",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1357",
+      "micro safety UCB=0.068"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.25389277444095637,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.254",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1737",
+      "micro safety UCB=0.064"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.28559480066259146,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.286",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0866",
+      "micro safety UCB=0.062"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.3728012227212577,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.373",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0788",
+      "micro safety UCB=0.054"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.234139313494138,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.234",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2431",
+      "micro safety UCB=0.282"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.26173768921143875,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.262",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2798",
+      "micro safety UCB=0.278"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.29259095544107766,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.293",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1918",
+      "micro safety UCB=0.277"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-ring-s263-d1.350-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.378187557572803,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=MILD_SHIFT DSS=0.378",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0263",
+      "micro safety UCB=0.256"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.28952061497631104,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=MILD_SHIFT DSS=0.290",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0368",
+      "micro safety UCB=0.535"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.4133588203538395,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.413",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.1218",
+      "micro safety UCB=0.833"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.5600872044198086,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.560",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.5087",
+      "micro safety UCB=0.947"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.8762908069251198,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.876",
+      "P(success)=1.000",
+      "corrected micro benefit=-1.3022",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.10620633981197304,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.106",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0857",
+      "micro safety UCB=0.623"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.10481384654483371,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.105",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1569",
+      "micro safety UCB=0.725"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.10583441879412203,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.106",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.0581",
+      "micro safety UCB=0.837"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.11571693314073032,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.116",
+      "P(success)=0.894",
+      "corrected micro benefit=0.0698",
+      "micro safety UCB=0.938"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.12099061718488846,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.121",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1739",
+      "micro safety UCB=0.652"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.11840361188900039,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.118",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.2405",
+      "micro safety UCB=0.749"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.12246799070283523,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.122",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.3126",
+      "micro safety UCB=0.732"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.12570433788926952,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.126",
+      "P(success)=0.894",
+      "corrected micro benefit=-0.2535",
+      "micro safety UCB=0.875"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.16901036522977492,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.169",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.0264",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.1681340975992928,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.168",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.0790",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.17777066616113488,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.178",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.1369",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.250-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.16935582790732392,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.169",
+      "P(success)=1.000",
+      "corrected micro benefit=-0.1935",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.4110743431608493,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=MILD_SHIFT DSS=0.411",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0013",
+      "micro safety UCB=0.522"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.5879518440815644,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.588",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.3058",
+      "micro safety UCB=0.829"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.794259831149331,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.794",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.8919",
+      "micro safety UCB=0.942"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 1.2364027562702309,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=STRONG_SHIFT DSS=1.236",
+      "P(success)=1.000",
+      "corrected micro benefit=-2.0541",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "strong domain shift requires baseline fallback",
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "STRONG_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.11224297095647852,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.112",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1802",
+      "micro safety UCB=0.639"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.11095377583358881,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.111",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.2486",
+      "micro safety UCB=0.749"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.10923883102276757,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.109",
+      "P(success)=0.148",
+      "corrected micro benefit=-0.2437",
+      "micro safety UCB=0.857"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.11125805051615668,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.111",
+      "P(success)=1.000",
+      "corrected micro benefit=-0.0282",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.12339037380110192,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.123",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.1757",
+      "micro safety UCB=0.670"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.12085645859154719,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.121",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.2465",
+      "micro safety UCB=0.766"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.11908783810108438,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.119",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.2256",
+      "micro safety UCB=0.853"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.12428551362244414,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.124",
+      "P(success)=0.894",
+      "corrected micro benefit=-0.1909",
+      "micro safety UCB=0.954"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.17649627076983632,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.176",
+      "P(success)=0.042",
+      "corrected micro benefit=0.0923",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.1705697199587059,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.171",
+      "P(success)=0.667",
+      "corrected micro benefit=0.1454",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.17741474095078097,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.177",
+      "P(success)=0.667",
+      "corrected micro benefit=0.0580",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s257-d1.350-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.17198598918510338,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.172",
+      "P(success)=1.000",
+      "corrected micro benefit=0.0009",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.28951944963483145,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=MILD_SHIFT DSS=0.290",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0327",
+      "micro safety UCB=0.541"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.4133255678177214,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.413",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.1249",
+      "micro safety UCB=0.836"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.5600983872702258,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.560",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.5128",
+      "micro safety UCB=0.951"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.8762979432735138,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.876",
+      "P(success)=1.000",
+      "corrected micro benefit=-1.3063",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.28892748141205393,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=MILD_SHIFT DSS=0.289",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0171",
+      "micro safety UCB=0.608"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.41306751419312454,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.413",
+      "P(success)=0.500",
+      "corrected micro benefit=-0.1288",
+      "micro safety UCB=0.894"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.5597356471505348,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.560",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.5287",
+      "micro safety UCB=0.987"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.8761261473167427,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.876",
+      "P(success)=1.000",
+      "corrected micro benefit=-1.3217",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.10995382983858606,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.110",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1138",
+      "micro safety UCB=0.771"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.10744742927529055,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.107",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1082",
+      "micro safety UCB=0.869"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.1224177411657989,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.122",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.1497",
+      "micro safety UCB=0.930"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.144123417454066,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.144",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.1590",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.13129644970629498,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.131",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0117",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.12965078252161488,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.130",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.0777",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.13232102079161115,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.132",
+      "P(success)=0.500",
+      "corrected micro benefit=-0.0880",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.250-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.14179186313392841,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.142",
+      "P(success)=0.345",
+      "corrected micro benefit=-0.1425",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.4110735224089701,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=MILD_SHIFT DSS=0.411",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0054",
+      "micro safety UCB=0.528"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.5879284664025346,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.588",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.3090",
+      "micro safety UCB=0.831"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.7942677169854475,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.794",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.8960",
+      "micro safety UCB=0.946"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 1.236403432680824,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=STRONG_SHIFT DSS=1.236",
+      "P(success)=1.000",
+      "corrected micro benefit=-2.0582",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "strong domain shift requires baseline fallback",
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "STRONG_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.41065681368263585,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=MILD_SHIFT DSS=0.411",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0211",
+      "micro safety UCB=0.577"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.5877470781520582,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.588",
+      "P(success)=0.500",
+      "corrected micro benefit=-0.3128",
+      "micro safety UCB=0.877"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.7940119630796474,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.794",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.9120",
+      "micro safety UCB=0.973"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 1.2362529807009077,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=STRONG_SHIFT DSS=1.236",
+      "P(success)=1.000",
+      "corrected micro benefit=-2.0739",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "strong domain shift requires baseline fallback",
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "STRONG_SHIFT"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.11262006417470943,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.113",
+      "P(success)=0.042",
+      "corrected micro benefit=-0.1108",
+      "micro safety UCB=0.785"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.11017626779700669,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.110",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1104",
+      "micro safety UCB=0.880"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.11914464193388696,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.119",
+      "P(success)=0.333",
+      "corrected micro benefit=-0.0865",
+      "micro safety UCB=0.972"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.14167210976589134,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.142",
+      "P(success)=0.894",
+      "corrected micro benefit=-0.0502",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1354161357755373,
+    "explanation": [
+      "regime=LOW_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.135",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0174",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "LOW_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.13420560548264512,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.134",
+      "P(success)=0.289",
+      "corrected micro benefit=-0.0681",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.1380334750421585,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.138",
+      "P(success)=0.667",
+      "corrected micro benefit=-0.0123",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime/shift operating cell is frozen to abstain"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-merge-s263-d1.350-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.15242000334672046,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=IN_DISTRIBUTION DSS=0.152",
+      "P(success)=0.894",
+      "corrected micro benefit=-0.0590",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.14642354164345184,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.146",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0668",
+      "micro safety UCB=0.599"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.14274148193393765,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.143",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0015",
+      "micro safety UCB=0.641"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.14220481425904505,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.142",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0600",
+      "micro safety UCB=0.668"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.15044055486060656,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.150",
+      "P(success)=0.857",
+      "corrected micro benefit=-0.0838",
+      "micro safety UCB=0.903"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.13854757169832213,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.139",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1000",
+      "micro safety UCB=0.604"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.1274016921154375,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.127",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0543",
+      "micro safety UCB=0.607"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.12680011706473138,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.127",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0014",
+      "micro safety UCB=0.631"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.13308059151996096,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.133",
+      "P(success)=0.857",
+      "corrected micro benefit=-0.0020",
+      "micro safety UCB=0.827"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1349013085229758,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.135",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0929",
+      "micro safety UCB=0.570"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.1329843608860603,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.133",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0398",
+      "micro safety UCB=0.593"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.1414526612089205,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.141",
+      "P(success)=0.077",
+      "corrected micro benefit=-0.0418",
+      "micro safety UCB=0.678"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.155504125425011,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.156",
+      "P(success)=1.000",
+      "corrected micro benefit=-0.0695",
+      "micro safety UCB=0.860"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.17196987542107225,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.172",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2501",
+      "micro safety UCB=0.902"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.17398360803034008,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.174",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1838",
+      "micro safety UCB=0.921"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.17948222172260397,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.179",
+      "P(success)=0.857",
+      "corrected micro benefit=0.1864",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.250-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.1936215012697092,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.194",
+      "P(success)=1.000",
+      "corrected micro benefit=0.1073",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1484444258262047,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.148",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0879",
+      "micro safety UCB=0.589"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.14613657904201482,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.146",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0122",
+      "micro safety UCB=0.621"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.14587746708244925,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.146",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0483",
+      "micro safety UCB=0.655"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.15768303498010372,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.158",
+      "P(success)=1.000",
+      "corrected micro benefit=-0.0772",
+      "micro safety UCB=0.905"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1406816392958286,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.141",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1212",
+      "micro safety UCB=0.592"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.1311943604858194,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.131",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0678",
+      "micro safety UCB=0.584"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.1309056755514105,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.131",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0101",
+      "micro safety UCB=0.613"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.14121622715917648,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.141",
+      "P(success)=0.857",
+      "corrected micro benefit=-0.0086",
+      "micro safety UCB=0.805"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.13709214803434594,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.137",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1140",
+      "micro safety UCB=0.550"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.1366221406276462,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.137",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0534",
+      "micro safety UCB=0.563"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.14804788397815116,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.148",
+      "P(success)=0.077",
+      "corrected micro benefit=-0.0424",
+      "micro safety UCB=0.647"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.1672803370478933,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.167",
+      "P(success)=1.000",
+      "corrected micro benefit=-0.0868",
+      "micro safety UCB=0.833"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1745242550160473,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.175",
+      "P(success)=0.000",
+      "corrected micro benefit=0.2644",
+      "micro safety UCB=0.884"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.17884326037473794,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.179",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1965",
+      "micro safety UCB=0.905"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.1882657489623878,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.188",
+      "P(success)=0.857",
+      "corrected micro benefit=0.1782",
+      "micro safety UCB=0.998"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s257-d1.350-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.2083196752136149,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.208",
+      "P(success)=1.000",
+      "corrected micro benefit=0.0770",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.14325821169429379,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.143",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0635",
+      "micro safety UCB=0.597"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.14098751432765963,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.141",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0209",
+      "micro safety UCB=0.628"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.14237071259547218,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.142",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0672",
+      "micro safety UCB=0.673"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.1499828377010637,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.150",
+      "P(success)=0.857",
+      "corrected micro benefit=-0.0890",
+      "micro safety UCB=0.902"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.1305264057335161,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.131",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0496",
+      "micro safety UCB=0.646"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.12803010025831976,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.128",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0093",
+      "micro safety UCB=0.678"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.13238308823050746,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.132",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0727",
+      "micro safety UCB=0.692"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.13609825086139127,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.136",
+      "P(success)=0.857",
+      "corrected micro benefit=-0.0658",
+      "micro safety UCB=0.840"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.20635711804405538,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.206",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0006",
+      "micro safety UCB=0.814"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.20490095556662685,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.205",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0479",
+      "micro safety UCB=0.852"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.20443634258343288,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.204",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1059",
+      "micro safety UCB=0.892"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.1307736552293499,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.131",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0277",
+      "micro safety UCB=0.833"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.22188431472727635,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.222",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1346",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.2205307020499903,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.221",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0833",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.15641323251125105,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.156",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1272",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.250-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.15676656234125289,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.157",
+      "P(success)=0.667",
+      "corrected micro benefit=0.1138",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-low-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.14532312007835163,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.145",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0847",
+      "micro safety UCB=0.588"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-low-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.14331497644180377,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.143",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0433",
+      "micro safety UCB=0.621"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-low-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.14603919339986818,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.146",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0554",
+      "micro safety UCB=0.660"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-low-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.15724640084476668,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.157",
+      "P(success)=1.000",
+      "corrected micro benefit=-0.0824",
+      "micro safety UCB=0.905"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-high-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.13278944463009998,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.133",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0707",
+      "micro safety UCB=0.635"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-high-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.13058870490351815,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.131",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0316",
+      "micro safety UCB=0.669"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-high-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.13632060832239523,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.136",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0611",
+      "micro safety UCB=0.676"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-high-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.14406357229119243,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.144",
+      "P(success)=0.857",
+      "corrected micro benefit=-0.0723",
+      "micro safety UCB=0.820"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-bimodal-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.20670261929029066,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.207",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0018",
+      "micro safety UCB=0.820"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-bimodal-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.20541635333575367,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.205",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0471",
+      "micro safety UCB=0.857"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-bimodal-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.20496887991742324,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.205",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.1077",
+      "micro safety UCB=0.899"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-bimodal-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.1335384454460462,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.134",
+      "P(success)=0.000",
+      "corrected micro benefit=-0.0110",
+      "micro safety UCB=0.832"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-long_tail-p0.25-a0.65-v1.40",
+    "domain_shift_score": 0.2222056744910256,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.222",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1323",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-long_tail-p0.50-a0.80-v1.40",
+    "domain_shift_score": 0.2210096540251217,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.221",
+      "P(success)=0.000",
+      "corrected micro benefit=0.0841",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-long_tail-p0.75-a0.65-v1.80",
+    "domain_shift_score": 0.15856021087385966,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.159",
+      "P(success)=0.000",
+      "corrected micro benefit=0.1453",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "regime-conditioned success probability below threshold"
+    ],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  },
+  {
+    "case_id": "v5_final_stress_holdout-signalized-s263-d1.350-long_tail-p1.00-a0.80-v1.80",
+    "domain_shift_score": 0.16057354649052324,
+    "explanation": [
+      "regime=STRUCTURALLY_CONSTRAINED",
+      "shift=IN_DISTRIBUTION DSS=0.161",
+      "P(success)=0.857",
+      "corrected micro benefit=0.1351",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": true,
+    "reasons": [],
+    "regime": "STRUCTURALLY_CONSTRAINED",
+    "shift_class": "IN_DISTRIBUTION"
+  }
+]

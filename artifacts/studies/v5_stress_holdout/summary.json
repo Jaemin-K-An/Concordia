@@ -1,0 +1,97 @@
+{
+  "H22_DSS_improves_shift_safety": {
+    "coverage_change": -0.01171875,
+    "supported": false
+  },
+  "case_count": 256,
+  "claim_boundary": "New post-freeze analytical stress holdout with unseen demand, acceptance and preference-variance combinations.",
+  "complete": true,
+  "label_counts": {
+    "INFEASIBLE": 15,
+    "TRADEOFF": 192,
+    "WIN": 49
+  },
+  "policy_metrics": {
+    "V5-RD": {
+      "case_count": 256,
+      "coverage": 0.10546875,
+      "coverage_ci95": [
+        0.07350191137657121,
+        0.14910097533446798
+      ],
+      "failure_avoidance_rate": 0.9806763285024155,
+      "intervention_count": 27,
+      "intervention_precision": 0.8518518518518519,
+      "intervention_precision_ci95": [
+        0.6752131457218702,
+        0.9408407222375568
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 64.79222181993177,
+      "missed_opportunity_rate": 0.5306122448979592,
+      "population_benefit_rate": 0.08984375,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 23
+    },
+    "V5-R_no_DSS": {
+      "case_count": 256,
+      "coverage": 0.1171875,
+      "coverage_ci95": [
+        0.08333128838163656,
+        0.16236260169442127
+      ],
+      "failure_avoidance_rate": 0.9806763285024155,
+      "intervention_count": 30,
+      "intervention_precision": 0.8666666666666667,
+      "intervention_precision_ci95": [
+        0.703186733179637,
+        0.9469034451594526
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 82.29220404750306,
+      "missed_opportunity_rate": 0.46938775510204084,
+      "population_benefit_rate": 0.1015625,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 26
+    }
+  },
+  "primary_metrics": {
+    "case_count": 256,
+    "coverage": 0.10546875,
+    "coverage_ci95": [
+      0.07350191137657121,
+      0.14910097533446798
+    ],
+    "failure_avoidance_rate": 0.9806763285024155,
+    "intervention_count": 27,
+    "intervention_precision": 0.8518518518518519,
+    "intervention_precision_ci95": [
+      0.6752131457218702,
+      0.9408407222375568
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 64.79222181993177,
+    "missed_opportunity_rate": 0.5306122448979592,
+    "population_benefit_rate": 0.08984375,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 23
+  },
+  "regime_counts": {
+    "HIGH_CONTROL": 32,
+    "LOW_CONTROL": 32,
+    "PARTIAL_CONTROL": 64,
+    "STRUCTURALLY_CONSTRAINED": 128
+  },
+  "rl_used": false,
+  "shift_counts": {
+    "IN_DISTRIBUTION": 201,
+    "MILD_SHIFT": 52,
+    "STRONG_SHIFT": 3
+  },
+  "stress_target_met": true,
+  "study": "v5 frozen unseen secondary stress holdout",
+  "untouched_holdout": true
+}
