@@ -1,0 +1,22 @@
+{
+  "calibration_metrics": {
+    "false_safe_count": 0,
+    "false_safe_population_rate": 0.0,
+    "false_safe_rate": 0.0,
+    "predicted_safe_count": 4,
+    "safe_coverage": 0.2,
+    "threshold": 0.1
+  },
+  "complete": true,
+  "false_safe_target_met": true,
+  "final_holdout_used": false,
+  "selected_threshold": 0.1,
+  "validation_metrics": {
+    "false_safe_count": 0,
+    "false_safe_population_rate": 0.0,
+    "false_safe_rate": 0.0,
+    "predicted_safe_count": 3,
+    "safe_coverage": 0.15,
+    "threshold": 0.1
+  }
+}

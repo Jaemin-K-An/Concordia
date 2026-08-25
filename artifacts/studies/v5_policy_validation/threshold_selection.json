@@ -1,0 +1,368 @@
+{
+  "HIGH_CONTROL::IN_DISTRIBUTION": {
+    "case_count": 63,
+    "curve": [
+      {
+        "coverage_within_cell": 0.6666666666666666,
+        "intervention_count": 42,
+        "precision": 0.9047619047619048,
+        "threshold": 0.5
+      },
+      {
+        "coverage_within_cell": 0.6666666666666666,
+        "intervention_count": 42,
+        "precision": 0.9047619047619048,
+        "threshold": 0.55
+      },
+      {
+        "coverage_within_cell": 0.6666666666666666,
+        "intervention_count": 42,
+        "precision": 0.9047619047619048,
+        "threshold": 0.6
+      },
+      {
+        "coverage_within_cell": 0.6666666666666666,
+        "intervention_count": 42,
+        "precision": 0.9047619047619048,
+        "threshold": 0.65
+      },
+      {
+        "coverage_within_cell": 0.6666666666666666,
+        "intervention_count": 42,
+        "precision": 0.9047619047619048,
+        "threshold": 0.7
+      },
+      {
+        "coverage_within_cell": 0.6666666666666666,
+        "intervention_count": 42,
+        "precision": 0.9047619047619048,
+        "threshold": 0.75
+      },
+      {
+        "coverage_within_cell": 0.6666666666666666,
+        "intervention_count": 42,
+        "precision": 0.9047619047619048,
+        "threshold": 0.8
+      },
+      {
+        "coverage_within_cell": 0.6666666666666666,
+        "intervention_count": 42,
+        "precision": 0.9047619047619048,
+        "threshold": 0.85
+      },
+      {
+        "coverage_within_cell": 0.031746031746031744,
+        "intervention_count": 2,
+        "precision": 1.0,
+        "threshold": 0.9
+      },
+      {
+        "coverage_within_cell": 0.031746031746031744,
+        "intervention_count": 2,
+        "precision": 1.0,
+        "threshold": 0.95
+      }
+    ],
+    "precision_target_met": true,
+    "selected_threshold": 0.5
+  },
+  "HIGH_CONTROL::MILD_SHIFT": {
+    "case_count": 1,
+    "reason": "sparse cell inherits conservative in-distribution threshold",
+    "selected_threshold": 0.55
+  },
+  "HIGH_CONTROL::STRONG_SHIFT": {
+    "reason": "preregistered strong-shift abstention",
+    "selected_threshold": null
+  },
+  "LOW_CONTROL::IN_DISTRIBUTION": {
+    "case_count": 41,
+    "curve": [
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.5
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.55
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.6
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.65
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.7
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.75
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.8
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.85
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.9
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.95
+      }
+    ],
+    "precision_target_met": false,
+    "selected_threshold": null
+  },
+  "LOW_CONTROL::MILD_SHIFT": {
+    "case_count": 0,
+    "reason": "sparse cell inherits conservative in-distribution threshold",
+    "selected_threshold": null
+  },
+  "LOW_CONTROL::STRONG_SHIFT": {
+    "reason": "preregistered strong-shift abstention",
+    "selected_threshold": null
+  },
+  "PARTIAL_CONTROL::IN_DISTRIBUTION": {
+    "case_count": 108,
+    "curve": [
+      {
+        "coverage_within_cell": 0.24074074074074073,
+        "intervention_count": 26,
+        "precision": 0.5769230769230769,
+        "threshold": 0.5
+      },
+      {
+        "coverage_within_cell": 0.16666666666666666,
+        "intervention_count": 18,
+        "precision": 0.6111111111111112,
+        "threshold": 0.55
+      },
+      {
+        "coverage_within_cell": 0.16666666666666666,
+        "intervention_count": 18,
+        "precision": 0.6111111111111112,
+        "threshold": 0.6
+      },
+      {
+        "coverage_within_cell": 0.16666666666666666,
+        "intervention_count": 18,
+        "precision": 0.6111111111111112,
+        "threshold": 0.65
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.7
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.75
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.8
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.85
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.9
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.95
+      }
+    ],
+    "precision_target_met": false,
+    "selected_threshold": null
+  },
+  "PARTIAL_CONTROL::MILD_SHIFT": {
+    "case_count": 0,
+    "reason": "sparse cell inherits conservative in-distribution threshold",
+    "selected_threshold": null
+  },
+  "PARTIAL_CONTROL::STRONG_SHIFT": {
+    "reason": "preregistered strong-shift abstention",
+    "selected_threshold": null
+  },
+  "STRUCTURALLY_CONSTRAINED::IN_DISTRIBUTION": {
+    "case_count": 168,
+    "curve": [
+      {
+        "coverage_within_cell": 0.1130952380952381,
+        "intervention_count": 19,
+        "precision": 0.8421052631578947,
+        "threshold": 0.5
+      },
+      {
+        "coverage_within_cell": 0.1130952380952381,
+        "intervention_count": 19,
+        "precision": 0.8421052631578947,
+        "threshold": 0.55
+      },
+      {
+        "coverage_within_cell": 0.1130952380952381,
+        "intervention_count": 19,
+        "precision": 0.8421052631578947,
+        "threshold": 0.6
+      },
+      {
+        "coverage_within_cell": 0.1130952380952381,
+        "intervention_count": 19,
+        "precision": 0.8421052631578947,
+        "threshold": 0.65
+      },
+      {
+        "coverage_within_cell": 0.1130952380952381,
+        "intervention_count": 19,
+        "precision": 0.8421052631578947,
+        "threshold": 0.7
+      },
+      {
+        "coverage_within_cell": 0.1130952380952381,
+        "intervention_count": 19,
+        "precision": 0.8421052631578947,
+        "threshold": 0.75
+      },
+      {
+        "coverage_within_cell": 0.1130952380952381,
+        "intervention_count": 19,
+        "precision": 0.8421052631578947,
+        "threshold": 0.8
+      },
+      {
+        "coverage_within_cell": 0.1130952380952381,
+        "intervention_count": 19,
+        "precision": 0.8421052631578947,
+        "threshold": 0.85
+      },
+      {
+        "coverage_within_cell": 0.07738095238095238,
+        "intervention_count": 13,
+        "precision": 0.9230769230769231,
+        "threshold": 0.9
+      },
+      {
+        "coverage_within_cell": 0.07738095238095238,
+        "intervention_count": 13,
+        "precision": 0.9230769230769231,
+        "threshold": 0.95
+      }
+    ],
+    "precision_target_met": true,
+    "selected_threshold": 0.5
+  },
+  "STRUCTURALLY_CONSTRAINED::MILD_SHIFT": {
+    "case_count": 15,
+    "curve": [
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.5
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.55
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.6
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.65
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.7
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.75
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.8
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.85
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.9
+      },
+      {
+        "coverage_within_cell": 0.0,
+        "intervention_count": 0,
+        "precision": 0.0,
+        "threshold": 0.95
+      }
+    ],
+    "precision_target_met": false,
+    "selected_threshold": null
+  },
+  "STRUCTURALLY_CONSTRAINED::STRONG_SHIFT": {
+    "reason": "preregistered strong-shift abstention",
+    "selected_threshold": null
+  }
+}

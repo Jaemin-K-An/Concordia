@@ -17,6 +17,7 @@ from .models_v4 import V4BootstrapEnsemble, V4ProbabilityModel, build_v4_candida
 from .models_v5 import V5SuccessModel
 from .regime import RegimeDefinition
 from .robust_cv import group_metrics, leave_group_out_folds, precision_constrained_threshold
+from .runtime_v5 import V5ModelBundle, V5PredictionBatch
 from .safety_prediction import SafetyPredictionModel, false_safe_rate
 from .shift import RobustShiftDetector
 from .uncertainty import BootstrapFeasibilityEnsemble
@@ -41,6 +42,8 @@ __all__ = [
     "V4ProbabilityModel",
     "V4PredictionBundle",
     "V5SuccessModel",
+    "V5ModelBundle",
+    "V5PredictionBatch",
     "FeasibilityGate",
     "FeasibilityModel",
     "GateDecision",

@@ -188,6 +188,7 @@ def _run_one(
     spacing = 3600.0 / demand
     count = int(math.floor(int(config["vehicle_generation_seconds"]) / spacing))
     epsilon = float(config["tests"][mode]["preference_epsilon"])
+    navigation_penetration = float(config.get("navigation_penetration", 1.0))
     users = generate_population(count, "origin", "destination", "high", epsilon, 5.0, seed)
     rng = random.Random(seed * 101 + (0 if policy == "B1" else 1))
     utility_model = UtilityModel()
@@ -215,7 +216,10 @@ def _run_one(
                 private_id = max(sorted(utilities), key=utilities.__getitem__)
                 fastest_id = min(routes, key=lambda route_id: routes[route_id].features.time)
                 chosen_id = fastest_id if policy == "B1" else private_id
-                if policy == "B6" and fastest_id != private_id:
+                navigation_active = (
+                    (next_vehicle * 2654435761 + seed) % 10_000
+                ) < int(navigation_penetration * 10_000)
+                if policy == "B6" and navigation_active and fastest_id != private_id:
                     offers += 1
                     selected = routes[fastest_id].features
                     current = routes[private_id].features

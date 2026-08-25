@@ -1,0 +1,161 @@
+{
+  "analytical_primary": {
+    "case_count": 396,
+    "coverage": 0.15404040404040403,
+    "coverage_ci95": [
+      0.12182528900710668,
+      0.1929031015701365
+    ],
+    "failure_avoidance_rate": 0.976271186440678,
+    "intervention_count": 61,
+    "intervention_precision": 0.8852459016393442,
+    "intervention_precision_ci95": [
+      0.7815569152759893,
+      0.9432879733926779
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 0.007894003530944167,
+    "missed_opportunity_rate": 0.46534653465346537,
+    "population_benefit_rate": 0.13636363636363635,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 54
+  },
+  "complete": true,
+  "final_holdouts_used": false,
+  "full_bridge_diagnostic": {
+    "case_count": 396,
+    "coverage": 0.0,
+    "coverage_ci95": [
+      0.0,
+      0.009607454994847843
+    ],
+    "failure_avoidance_rate": 1.0,
+    "intervention_count": 0,
+    "intervention_precision": 0.0,
+    "intervention_precision_ci95": [
+      0.0,
+      1.0
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 0.0,
+    "missed_opportunity_rate": 1.0,
+    "population_benefit_rate": 0.0,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 0
+  },
+  "policy_metrics": {
+    "V5-F": {
+      "case_count": 396,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        0.0,
+        0.009607454994847843
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 1.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    },
+    "V5-G": {
+      "case_count": 396,
+      "coverage": 0.15404040404040403,
+      "coverage_ci95": [
+        0.12182528900710668,
+        0.1929031015701365
+      ],
+      "failure_avoidance_rate": 0.976271186440678,
+      "intervention_count": 61,
+      "intervention_precision": 0.8852459016393442,
+      "intervention_precision_ci95": [
+        0.7815569152759893,
+        0.9432879733926779
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.007894003530944167,
+      "missed_opportunity_rate": 0.46534653465346537,
+      "population_benefit_rate": 0.13636363636363635,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 54
+    },
+    "V5-R": {
+      "case_count": 396,
+      "coverage": 0.15404040404040403,
+      "coverage_ci95": [
+        0.12182528900710668,
+        0.1929031015701365
+      ],
+      "failure_avoidance_rate": 0.976271186440678,
+      "intervention_count": 61,
+      "intervention_precision": 0.8852459016393442,
+      "intervention_precision_ci95": [
+        0.7815569152759893,
+        0.9432879733926779
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.007894003530944167,
+      "missed_opportunity_rate": 0.46534653465346537,
+      "population_benefit_rate": 0.13636363636363635,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 54
+    },
+    "V5-RD": {
+      "case_count": 396,
+      "coverage": 0.15404040404040403,
+      "coverage_ci95": [
+        0.12182528900710668,
+        0.1929031015701365
+      ],
+      "failure_avoidance_rate": 0.976271186440678,
+      "intervention_count": 61,
+      "intervention_precision": 0.8852459016393442,
+      "intervention_precision_ci95": [
+        0.7815569152759893,
+        0.9432879733926779
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.007894003530944167,
+      "missed_opportunity_rate": 0.46534653465346537,
+      "population_benefit_rate": 0.13636363636363635,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 54
+    },
+    "V5-RS": {
+      "case_count": 396,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        0.0,
+        0.009607454994847843
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 1.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    }
+  },
+  "validation_case_count": 396
+}

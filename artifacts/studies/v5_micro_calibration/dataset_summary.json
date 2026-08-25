@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "failure_taxonomy": {
+    "benefit_prediction_error": 31,
+    "microscopic_safety_mismatch": 29,
+    "none": 17,
+    "partial_adoption_feedback": 23
+  },
+  "final_holdout_materialized": false,
+  "final_holdout_seeds": [
+    337,
+    347,
+    349,
+    353,
+    359,
+    367,
+    373,
+    379,
+    383,
+    389
+  ],
+  "pair_count": 100,
+  "role_counts": {
+    "micro_calibration": 20,
+    "micro_development": 60,
+    "micro_validation": 20
+  },
+  "safety_violation_count": 29,
+  "source_model_hash": "6d0bddd25305d373a750a34dc5355aeea7a34a4856367b2790e098bb0c5638d1",
+  "study": "v5 seed-disjoint microscopic development dataset",
+  "success_count": 17
+}

@@ -1,7 +1,7 @@
 PYTHON ?= python3
 RUN_CONFIG ?= configs/experiments/smoke.yaml
 
-.PHONY: setup lint test benchmark experiment research rl-gate rl-evaluate conditional-rl report report-v2 phase-reports audit audit-v2 sumo-check sumo-ring-build sumo-ring-run simulation-test phantom-calibrate alignment-study microscopic-study real-topology-study scalability-study drift-study v3-audit v3-dataset feasibility-train feasibility-validate freeze-thresholds v3-holdout v3-microscopic v3-real-topology v3-tail-study v3-report v3-final-audit v4-audit v4-dataset v4-train v4-robust-cv v4-calibrate v4-benefit-model v4-safety-model v4-select-threshold v4-freeze v4-holdout v4-microscopic v4-real-topology v4-stress v4-report v4-final-audit clean
+.PHONY: setup lint test benchmark experiment research rl-gate rl-evaluate conditional-rl report report-v2 phase-reports audit audit-v2 sumo-check sumo-ring-build sumo-ring-run simulation-test phantom-calibrate alignment-study microscopic-study real-topology-study scalability-study drift-study v3-audit v3-dataset feasibility-train feasibility-validate freeze-thresholds v3-holdout v3-microscopic v3-real-topology v3-tail-study v3-report v3-final-audit v4-audit v4-dataset v4-train v4-robust-cv v4-calibrate v4-benefit-model v4-safety-model v4-select-threshold v4-freeze v4-holdout v4-microscopic v4-real-topology v4-stress v4-report v4-final-audit v5-audit v5-dataset v5-regime-discovery v5-train v5-shift-model v5-calibrate v5-micro-dataset v5-micro-correction v5-safety-veto v5-validate v5-freeze v5-holdout v5-microscopic v5-real-topology v5-stress v5-report v5-final-audit clean
 
 setup:
 	$(PYTHON) -m pip install -e '.[dev,analysis]'
@@ -155,6 +155,57 @@ v4-report:
 
 v4-final-audit:
 	PYTHONPATH=src $(PYTHON) scripts/run_v4_final_audit.py
+
+v5-audit:
+	PYTHONPATH=src $(PYTHON) scripts/run_v5_audit.py
+
+v5-dataset:
+	PYTHONPATH=src $(PYTHON) scripts/build_v5_dataset.py
+
+v5-regime-discovery:
+	PYTHONPATH=src $(PYTHON) scripts/discover_v5_regimes.py
+
+v5-train:
+	PYTHONPATH=src $(PYTHON) scripts/train_v5_models.py
+
+v5-shift-model:
+	PYTHONPATH=src $(PYTHON) scripts/train_v5_shift.py
+
+v5-calibrate:
+	PYTHONPATH=src $(PYTHON) scripts/calibrate_v5_models.py
+
+v5-micro-dataset:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/build_v5_micro_dataset.py
+
+v5-micro-correction:
+	PYTHONPATH=src $(PYTHON) scripts/train_v5_micro_correction.py
+
+v5-safety-veto:
+	PYTHONPATH=src $(PYTHON) scripts/train_v5_safety_veto.py
+
+v5-validate:
+	PYTHONPATH=src $(PYTHON) scripts/validate_v5.py
+
+v5-freeze:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/freeze_v5.py
+
+v5-holdout:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v5_holdout.py
+
+v5-microscopic:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v5_microscopic.py
+
+v5-real-topology:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v5_real_topology.py
+
+v5-stress:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v5_stress.py
+
+v5-report:
+	PYTHONPATH=src $(PYTHON) scripts/build_final_report_v5.py
+
+v5-final-audit:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v5_final_audit.py
 
 clean:
 	find src tests -type d -name __pycache__ -prune -exec rm -r {} +

@@ -37,7 +37,8 @@ def _evaluate(labels: np.ndarray, upper: np.ndarray, threshold: float) -> dict:
         "predicted_safe_count": int(safe.sum()),
         "safe_coverage": float(safe.mean()),
         "false_safe_count": false_safe,
-        "false_safe_rate": false_safe / max(1, len(labels)),
+        "false_safe_rate": false_safe / max(1, int(safe.sum())),
+        "false_safe_population_rate": false_safe / max(1, len(labels)),
     }
 
 
