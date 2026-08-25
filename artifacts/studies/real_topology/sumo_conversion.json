@@ -3,7 +3,7 @@
   "complete": true,
   "demand_provenance": "synthetic demand on real topology",
   "generated_network_bytes": 707693,
-  "generated_network_sha256": "4c42f42daa171917869081c9e61de410733eee5d63656b523e22cae64bb5c22b",
+  "generated_network_sha256": "593b4fb55e043dc161c58c655d2be5d5929764140a5d1dc64f146e7e9cd3ba30",
   "netconvert_version": "Eclipse SUMO netconvert 1.27.1",
   "simulation_executed": false,
   "source": "data/raw/gangnam_intersection.osm",

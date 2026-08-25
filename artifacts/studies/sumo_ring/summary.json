@@ -3,9 +3,9 @@
   "complete": true,
   "last_time_seconds": 1200.0,
   "output_hashes": {
-    "fcd_sha256": "dc062789298de99399c6d852bd288e9bb7f5466adb9ac7eb54d6a6b24ab488a6",
+    "fcd_sha256": "2c880d0dca0def5c87d279cf04331f9b7c7f43a0ae1ae0fe3a6084d79ba901be",
     "safety_distributions_sha256": "4e2636d8f6e78442ad84ba696a8f3a0c2270ac99e3ce7c408cbc3a39b1fb695a",
-    "ssm_sha256": "7ed4182111a7ac3a70d91d839b06112e862ecf55b9ad1cf772132de116e51334"
+    "ssm_sha256": "34ce35a389ce476bc3d75bac1eb793e8615f9d62e3d283871bb52a678298fb8d"
   },
   "phantom_event_count": 2,
   "phantom_events": [
@@ -47,6 +47,7 @@
   "safety_distribution_summary": {
     "drac_meters_per_second2": {
       "count": 23539,
+      "cvar05_lower": 0.0009988355726087824,
       "cvar95_upper": 0.47266326920769636,
       "maximum": 1.5840809412646797,
       "mean": 0.15196370694704037,
@@ -54,10 +55,13 @@
       "minimum": 1.591956950488553e-11,
       "p90": 0.3080703206061005,
       "p95": 0.3649535484719319,
-      "p99": 0.5046603755359998
+      "p99": 0.5046603755359998,
+      "risk_cvar": 0.47266326920769636,
+      "risk_tail": "upper"
     },
     "pet_seconds": {
       "count": 0,
+      "cvar05_lower": null,
       "cvar95_upper": null,
       "maximum": null,
       "mean": null,
@@ -65,10 +69,13 @@
       "minimum": null,
       "p90": null,
       "p95": null,
-      "p99": null
+      "p99": null,
+      "risk_cvar": null,
+      "risk_tail": "lower"
     },
     "ttc_seconds": {
       "count": 23539,
+      "cvar05_lower": 3.544410671040608,
       "cvar95_upper": 604.9758321434351,
       "maximum": 464068.969608218,
       "mean": 38.198169135143324,
@@ -76,7 +83,9 @@
       "minimum": 2.6437794836156123,
       "p90": 21.313647827988227,
       "p95": 40.89005289792919,
-      "p99": 193.055013975666
+      "p99": 193.055013975666,
+      "risk_cvar": 3.544410671040608,
+      "risk_tail": "lower"
     }
   },
   "safety_rates": {
