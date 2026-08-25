@@ -1,0 +1,650 @@
+[
+  {
+    "case_id": "real-high-s131-d540",
+    "computed_values": {
+      "benefit_lower": -2.2155085570647843,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.26082149559078,
+      "safety_failure_probability": 0.0030961931040446844,
+      "safety_failure_probability_upper": 0.05309619310404469
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-2.2155",
+      "safety failure probability=0.003",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "high",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": 0.0066036514307911435,
+    "realized_safety_difference": 1.735309844691722,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-high-s131-d660",
+    "computed_values": {
+      "benefit_lower": -2.29342802092162,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.26082149559078,
+      "safety_failure_probability": 0.0017984100285841477,
+      "safety_failure_probability_upper": 0.05179841002858415
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-2.2934",
+      "safety failure probability=0.002",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "high",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": 0.19491364585310306,
+    "realized_safety_difference": -2.7388791196380886,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-high-s137-d540",
+    "computed_values": {
+      "benefit_lower": -2.224996818137682,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.26082149559078,
+      "safety_failure_probability": 0.0030408003957083708,
+      "safety_failure_probability_upper": 0.053040800395708375
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-2.2250",
+      "safety failure probability=0.003",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "high",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.288294204564111,
+    "realized_safety_difference": 3.3199291477903587,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-high-s137-d660",
+    "computed_values": {
+      "benefit_lower": -2.3029163888549986,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.26082149559078,
+      "safety_failure_probability": 0.001766194294495656,
+      "safety_failure_probability_upper": 0.05176619429449566
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-2.3029",
+      "safety failure probability=0.002",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "high",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": 0.19172474831286646,
+    "realized_safety_difference": -13.469637539756302,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-high-s149-d540",
+    "computed_values": {
+      "benefit_lower": -2.2622595120200066,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.26082149559078,
+      "safety_failure_probability": 0.005264496352622362,
+      "safety_failure_probability_upper": 0.055264496352622365
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-2.2623",
+      "safety failure probability=0.005",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "high",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": 0.1265026558568633,
+    "realized_safety_difference": -7.088216253829964,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-high-s149-d660",
+    "computed_values": {
+      "benefit_lower": -2.340179673860629,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.26082149559078,
+      "safety_failure_probability": 0.003060649792023253,
+      "safety_failure_probability_upper": 0.053060649792023254
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-2.3402",
+      "safety failure probability=0.003",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "high",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": 0.06286963229622011,
+    "realized_safety_difference": -8.094976835127184,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-low-s131-d540",
+    "computed_values": {
+      "benefit_lower": -0.5126665042730141,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 0.6690266237959074,
+      "safety_failure_probability": 0.00020481458829740146,
+      "safety_failure_probability_upper": 0.050204814588297404
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-0.5127",
+      "safety failure probability=0.000",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "low",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.7955112219451371,
+    "realized_safety_difference": 0.14477092165917882,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-low-s131-d660",
+    "computed_values": {
+      "benefit_lower": -0.3007903169023787,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 0.6690266237959074,
+      "safety_failure_probability": 0.00013645756767200466,
+      "safety_failure_probability_upper": 0.05013645756767201
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-0.3008",
+      "safety failure probability=0.000",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "low",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.873598369011213,
+    "realized_safety_difference": -0.03451597979361032,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-low-s137-d540",
+    "computed_values": {
+      "benefit_lower": -0.5447929504196452,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 0.6690266237959074,
+      "safety_failure_probability": 0.00023811595542641169,
+      "safety_failure_probability_upper": 0.05023811595542641
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-0.5448",
+      "safety failure probability=0.000",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "low",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.5820707070707071,
+    "realized_safety_difference": 0.13309553062264134,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-low-s137-d660",
+    "computed_values": {
+      "benefit_lower": -0.3329261145076958,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 0.6690266237959074,
+      "safety_failure_probability": 0.00015864642771967822,
+      "safety_failure_probability_upper": 0.05015864642771968
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-0.3329",
+      "safety failure probability=0.000",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "low",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.5733471074380165,
+    "realized_safety_difference": 0.049728081881645125,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-low-s149-d540",
+    "computed_values": {
+      "benefit_lower": -0.5667588028571333,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 0.6690266237959074,
+      "safety_failure_probability": 0.00037190499834680924,
+      "safety_failure_probability_upper": 0.05037190499834681
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-0.5668",
+      "safety failure probability=0.000",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "low",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.68625,
+    "realized_safety_difference": 0.23039286707293183,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-low-s149-d660",
+    "computed_values": {
+      "benefit_lower": -0.35489710349070736,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 0.6690266237959074,
+      "safety_failure_probability": 0.00024779545346464407,
+      "safety_failure_probability_upper": 0.050247795453464646
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-0.3549",
+      "safety failure probability=0.000",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "low",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.7317574511819116,
+    "realized_safety_difference": 0.25875236365832466,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-medium-s131-d540",
+    "computed_values": {
+      "benefit_lower": -1.379230584524866,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.2775736323429168,
+      "safety_failure_probability": 0.001246395032741674,
+      "safety_failure_probability_upper": 0.05124639503274168
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-1.3792",
+      "safety failure probability=0.001",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "medium",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.10993560257589696,
+    "realized_safety_difference": -2.9964613312711723,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-medium-s131-d660",
+    "computed_values": {
+      "benefit_lower": -1.325110322946871,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.2775736323429168,
+      "safety_failure_probability": 0.000770445134339041,
+      "safety_failure_probability_upper": 0.050770445134339044
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-1.3251",
+      "safety failure probability=0.001",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "medium",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.04581245526127416,
+    "realized_safety_difference": -8.569113521364665,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-medium-s137-d540",
+    "computed_values": {
+      "benefit_lower": -1.3811138053651821,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.2775736323429168,
+      "safety_failure_probability": 0.001151595089178167,
+      "safety_failure_probability_upper": 0.05115159508917817
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-1.3811",
+      "safety failure probability=0.001",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "medium",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.030017921146953404,
+    "realized_safety_difference": -6.206871468298975,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-medium-s137-d660",
+    "computed_values": {
+      "benefit_lower": -1.3269938664241905,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.2775736323429168,
+      "safety_failure_probability": 0.0007118198222835313,
+      "safety_failure_probability_upper": 0.05071181982228353
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-1.3270",
+      "safety failure probability=0.001",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "medium",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.04556781772872909,
+    "realized_safety_difference": -34.55267637016835,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-medium-s149-d540",
+    "computed_values": {
+      "benefit_lower": -1.4487949110937626,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.2775736323429168,
+      "safety_failure_probability": 0.0024995989580869744,
+      "safety_failure_probability_upper": 0.05249959895808698
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-1.4488",
+      "safety failure probability=0.002",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "medium",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.07184816990510619,
+    "realized_safety_difference": -2.52323194838396,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "real-medium-s149-d660",
+    "computed_values": {
+      "benefit_lower": -1.3946773755787727,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.0544653150060606,
+      "safety_difference_upper": 1.2775736323429168,
+      "safety_failure_probability": 0.00154584002737764,
+      "safety_failure_probability_upper": 0.051545840027377644
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=-0.0545",
+      "benefit lower=-1.3947",
+      "safety failure probability=0.002",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "overlap_class": "medium",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "realized_relative_ttt_gain": -0.07874617737003058,
+    "realized_safety_difference": 2.661903789109494,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  }
+]

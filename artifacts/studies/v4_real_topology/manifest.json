@@ -1,0 +1,52 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 107.403401,
+  "end_timestamp_utc": "2026-08-25T06:00:29.014628+00:00",
+  "git_commit": "748f488e43e5dac2be7a0bec3559a9392eb71052",
+  "git_dirty": false,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "canonical_config": "b91b59dddf3efdc05c114c9fb716c6fcd56fb3dc4d7e06b5068798fdcb4b24bb",
+    "configs/v4/frozen_model.yaml": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "configs/v4/frozen_thresholds.yaml": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "configs/v4/real_topology.yaml": "ca241fa1854753b00b653a40e39732a79bc4b64a63a09825668b068451f3aa35",
+    "data/manifests/gangnam_intersection.json": "2c4df5aa7f000dba4e6a19204645007830cd48649bcb98b0760a41fc3326d562",
+    "data/raw/gangnam_intersection.osm": "b0388e6871d9fdf6529afc2ddf493fcb363213aa23d53af560b2a1b50c854525"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/v4_real_topology/decision_log.json": "e45ba88759c76c1a496f7f67e7f0bf5a43509846a77ccc6ae2431dbaa7e2a012",
+    "artifacts/studies/v4_real_topology/figures/activation_by_overlap.png": "0f4ff99b2f9d58da7a972950f0ecada37c6de680275eb35f7fa419e8dd27820e",
+    "artifacts/studies/v4_real_topology/gangnam_multi_od_v4_delta.geojson": "6397e16937e6273d510f9b79abbf282f35fb5d965e99958385ed52f7323c4a4a",
+    "artifacts/studies/v4_real_topology/processed_metrics.json": "5f8faba1351ce966e377649d0957bf74ed9d874dd62bccf5d595c7c3e2de3088",
+    "artifacts/studies/v4_real_topology/raw_metrics.json": "aa6deed46c5868300b001fc2354d939cdd7ea4d2871f5569486c619921283920",
+    "artifacts/studies/v4_real_topology/summary.json": "6c366dc9691366d9f9c33fdb84c07986cd1c9e35559f9d142a9dedabc447d2cb",
+    "config.json": "b91b59dddf3efdc05c114c9fb716c6fcd56fb3dc4d7e06b5068798fdcb4b24bb",
+    "metrics.json": "6c366dc9691366d9f9c33fdb84c07986cd1c9e35559f9d142a9dedabc447d2cb"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T055841.611227Z-410f5a28c2",
+  "seeds": [
+    131,
+    137,
+    149
+  ],
+  "simulator_version": "Eclipse SUMO sumo 1.27.1",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T05:58:41.611227+00:00",
+  "status": "valid"
+}

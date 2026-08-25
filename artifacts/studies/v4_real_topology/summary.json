@@ -1,0 +1,146 @@
+{
+  "activation_by_overlap_class": {
+    "high": {
+      "case_count": 6,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 1.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    },
+    "low": {
+      "case_count": 6,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    },
+    "medium": {
+      "case_count": 6,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    }
+  },
+  "all_routes_legal": true,
+  "claim_boundary": "Three synthetic OD pairs on real OSM geometry. Results are mechanism-transfer evidence, not observed or calibrated Seoul traffic effects.",
+  "complete": true,
+  "od_pairs": [
+    {
+      "destination": "3058389834",
+      "maximum_overlap": 0.25,
+      "mean_overlap": 0.15849673202614378,
+      "origin": "1326174684",
+      "overlap_class": "low"
+    },
+    {
+      "destination": "11245176923",
+      "maximum_overlap": 0.7692307692307693,
+      "mean_overlap": 0.4990573152337858,
+      "origin": "3146844230",
+      "overlap_class": "medium"
+    },
+    {
+      "destination": "cluster_13925231596_2280678660",
+      "maximum_overlap": 0.8846153846153846,
+      "mean_overlap": 0.7840161116023184,
+      "origin": "2477260921",
+      "overlap_class": "high"
+    }
+  ],
+  "policy_metrics": {
+    "B6": {
+      "case_count": 18,
+      "coverage": 1.0,
+      "coverage_ci95": [
+        0.8241207763533425,
+        1.0
+      ],
+      "failure_avoidance_rate": 0.0,
+      "intervention_count": 18,
+      "intervention_precision": 0.2222222222222222,
+      "intervention_precision_ci95": [
+        0.09000928108601694,
+        0.45214584316212625
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": -67.94444444444444,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.2222222222222222,
+      "regret_violation_count": 0,
+      "safety_violation_count": 4,
+      "successful_intervention_count": 4
+    },
+    "V4-F": {
+      "case_count": 18,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        0.0,
+        0.17587922364665765
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 1.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    }
+  },
+  "simulator_version": "Eclipse SUMO sumo 1.27.1",
+  "source_osm_sha256": "b0388e6871d9fdf6529afc2ddf493fcb363213aa23d53af560b2a1b50c854525",
+  "study": "Study XIV \u2014 Multi-OD Real Topology",
+  "sumo_network_sha256": "7f9a65e7ae27d2abaa58ae841cb83975625c87d20922d2785169a585903e5696"
+}
