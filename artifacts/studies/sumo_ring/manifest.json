@@ -8,10 +8,10 @@
     "sumolib": "1.27.1",
     "traci": "1.27.1"
   },
-  "duration_seconds": 30.768894,
-  "end_timestamp_utc": "2026-08-25T01:51:10.939965+00:00",
-  "git_commit": "acfbaaa92fe621b0fc43c256d42d80ac2945ce46",
-  "git_dirty": true,
+  "duration_seconds": 68.535344,
+  "end_timestamp_utc": "2026-08-25T03:21:20.465882+00:00",
+  "git_commit": "b37397f3af2729512943af445312b35252e26a79",
+  "git_dirty": false,
   "hardware": {
     "logical_cpu_count": 8,
     "machine": "arm64",
@@ -28,18 +28,18 @@
   "invalid_reasons": [],
   "output_hashes": {
     "/Users/jaeminahn/Desktop/development/Concordia/artifacts/studies/sumo_ring/safety_distributions.json": "4e2636d8f6e78442ad84ba696a8f3a0c2270ac99e3ce7c408cbc3a39b1fb695a",
-    "/Users/jaeminahn/Desktop/development/Concordia/artifacts/studies/sumo_ring/summary.json": "4e73a284f6088a7bee062c3809827acf1d484dd9e9b3664e55fad06cea21cc7e",
+    "/Users/jaeminahn/Desktop/development/Concordia/artifacts/studies/sumo_ring/summary.json": "685f9b267b6af3e9668f6905f8154accdaf6f0e29d6de69c9b6271696ee746de",
     "config.json": "33a8ddbb34c72a972859b0e067d38303bc1d9567c68e5fbd410e5dd08eccb740",
-    "metrics.json": "4e73a284f6088a7bee062c3809827acf1d484dd9e9b3664e55fad06cea21cc7e"
+    "metrics.json": "685f9b267b6af3e9668f6905f8154accdaf6f0e29d6de69c9b6271696ee746de"
   },
   "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
   "rl_library_version": "not-installed-not-used",
-  "run_id": "20260825T015040.171071Z-c43b79e929",
+  "run_id": "20260825T032011.930538Z-c43b79e929",
   "seeds": [
     42
   ],
   "simulator_version": "Eclipse SUMO sumo 1.27.1",
   "solver_version": "scipy-1.13.1/HiGHS",
-  "start_timestamp_utc": "2026-08-25T01:50:40.171071+00:00",
+  "start_timestamp_utc": "2026-08-25T03:20:11.930538+00:00",
   "status": "valid"
 }

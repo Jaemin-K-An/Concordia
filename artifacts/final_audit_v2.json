@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "Acceptance\u2013traffic fixed point validated?": "PASS",
+    "Alignment knee point found?": "PASS",
+    "Dynamic Gate C tested?": "PASS",
+    "H3 tested?": "PASS",
+    "H4 tested?": "PASS",
+    "Phantom detector physically validated?": "PASS",
+    "Phantom predictor SUMO-calibrated?": "FAIL",
+    "Price of Alignment measured?": "PASS",
+    "RL re-authorized?": "PASS",
+    "RL retained?": "FAIL",
+    "Real-topology B1/B6 tested?": "PASS",
+    "Scalability Gate E tested?": "PASS"
+  },
+  "claim_boundary": "Synthetic studies and surrogate safety only; no crash reduction or observed Seoul traffic-effect claim.",
+  "complete": true,
+  "evidence": {
+    "alignment": "artifacts/studies/alignment_frontier/summary.json",
+    "microscopic": "artifacts/studies/microscopic_policy_matrix/summary.json",
+    "phantom_calibration": "artifacts/studies/phantom_calibration/summary.json",
+    "preference_drift": "artifacts/studies/preference_drift/summary.json",
+    "real_topology": "artifacts/studies/real_topology_policy_matrix/summary.json",
+    "rl_gate": "artifacts/rl_gate_report_v2.json",
+    "scalability": "artifacts/studies/scalability/summary.json"
+  },
+  "final_decision": "Adaptive Navigation \u2014 Supported under specified conditions",
+  "hypotheses": {
+    "H1": "FAIL_UNCHANGED",
+    "H2": "FAIL_UNCHANGED",
+    "H3": "FAIL",
+    "H4": "FAIL",
+    "H5": "exploratory_only",
+    "H6": "FAIL_UNCHANGED",
+    "H7": "CONDITIONAL"
+  },
+  "rl_decision": "Outcome C: retained"
+}

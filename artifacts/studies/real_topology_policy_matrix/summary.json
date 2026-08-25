@@ -1,7 +1,17 @@
 {
+  "all_recommended_paths_legal": true,
   "claim_boundary": "Real OSM road geometry with synthetic OD demand and synthetic preferences. This study tests mechanism feasibility/qualitative transfer, not observed Seoul traffic effects.",
   "complete": true,
   "demand_provenance": "synthetic demand on real topology",
+  "failure_decomposition": {
+    "adaptive_ttt_improved": false,
+    "insufficient_alternative_routes": false,
+    "maximum_adaptive_bottleneck_score": 0.5308117479274613,
+    "mean_preference_cost_regret": 0.008882310680482817,
+    "new_secondary_bottleneck_edge_count": 0,
+    "route_overlap_jaccard_max": 0.7857142857142857,
+    "route_overlap_jaccard_mean": 0.6802054154995331
+  },
   "legal_route_count": 3,
   "run_count": 20,
   "source_osm_sha256": "b0388e6871d9fdf6529afc2ddf493fcb363213aa23d53af560b2a1b50c854525",
@@ -38,6 +48,6 @@
     }
   },
   "study": "Study III \u2014 Real Topology Transfer",
-  "sumo_network_sha256": "1326b8388b2118c23d033705a6ad97f98313e17fdf2593746bb98acae5dfbae5",
+  "sumo_network_sha256": "19ccd505715462bea3bac57e2a3d37ab68e05787680e5ee6cf995b00c739c82d",
   "transfer_and_calibrated_separated": true
 }

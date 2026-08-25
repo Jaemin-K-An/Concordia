@@ -8,10 +8,10 @@
     "sumolib": "1.27.1",
     "traci": "1.27.1"
   },
-  "duration_seconds": 970.910834,
-  "end_timestamp_utc": "2026-08-25T02:56:17.197450+00:00",
-  "git_commit": "fc52ef4a21e9a853b061c16df9fe41c0946823d0",
-  "git_dirty": true,
+  "duration_seconds": 958.042722,
+  "end_timestamp_utc": "2026-08-25T03:15:39.737272+00:00",
+  "git_commit": "39243f358e4db125ddd739076ea44c66088856d4",
+  "git_dirty": false,
   "hardware": {
     "logical_cpu_count": 8,
     "machine": "arm64",
@@ -29,7 +29,7 @@
     "artifacts/studies/microscopic_policy_matrix/figures/phantom_event_duration.png": "b243aad4d98a1c789ec09eae3ff0fcac8bf5774ae4565a69926476e1b193053f",
     "artifacts/studies/microscopic_policy_matrix/figures/predicted_vs_realized_safety.png": "143238bc48a71dedf527d1a07d4724e43af0180bc961081336e697efd106d358",
     "artifacts/studies/microscopic_policy_matrix/figures/safety_cvar_b1_b6.png": "37c19d9a2750dfbb29d2c832f1bdec843885802a3ca6d72c17ffd2f174480e45",
-    "artifacts/studies/microscopic_policy_matrix/raw_metrics.json": "aaf496e8de5d52e04bd8893b34085cf54c17e89fa32c0e7a295e1765bd595523",
+    "artifacts/studies/microscopic_policy_matrix/raw_metrics.json": "c171274537726229c4e0c5fc2d1b26c1e4b2a027afac9656ada9fe318cf70dc2",
     "artifacts/studies/microscopic_policy_matrix/statistical_tests.json": "bdcf9ec0ecae377314235dec57df7c51c97194cb9a973678e76f9d2850ea1191",
     "artifacts/studies/microscopic_policy_matrix/summary.json": "176cd2435bd7871dedbfc1533d6482c49ee5b886f66ef0eeca17920e2c885522",
     "artifacts/studies/phantom_calibration/dataset.json": "3d06e7b2cd8d6c77c31baca5c431a4aa277bc999e69c9b4c732cd2a1d071e291",
@@ -41,7 +41,7 @@
   },
   "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
   "rl_library_version": "not-installed-not-used",
-  "run_id": "20260825T024006.286616Z-16fb0a3356",
+  "run_id": "20260825T025941.694550Z-16fb0a3356",
   "seeds": [
     11,
     23,
@@ -51,6 +51,6 @@
   ],
   "simulator_version": "Eclipse SUMO sumo 1.27.1",
   "solver_version": "scipy-1.13.1/HiGHS",
-  "start_timestamp_utc": "2026-08-25T02:40:06.286616+00:00",
+  "start_timestamp_utc": "2026-08-25T02:59:41.694550+00:00",
   "status": "valid"
 }

@@ -1,4 +1,5 @@
 study: conditional_rl0_eligibility
+seeds: [20260825]
 source_study: artifacts/studies/alignment_frontier/raw_metrics.json
 train_seeds: [11, 23, 37, 53]
 test_seeds: [71]

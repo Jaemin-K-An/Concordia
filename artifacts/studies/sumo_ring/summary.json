@@ -3,33 +3,90 @@
   "complete": true,
   "last_time_seconds": 1200.0,
   "output_hashes": {
-    "fcd_sha256": "2c93f56a97af80ee4753fcf7edda107c3443de66a3b72edcf21f43972a708736",
+    "fcd_sha256": "df0c7e53cb10914a945a200bf56918ed3ea04ba98fb3bbdc7f4d75089cf1e60d",
     "safety_distributions_sha256": "4e2636d8f6e78442ad84ba696a8f3a0c2270ac99e3ce7c408cbc3a39b1fb695a",
-    "ssm_sha256": "005d1bd33ac8053d319780d6107678c66fda4f3265032cfea162c7c485e329ad"
+    "ssm_sha256": "4f6af952229ac998b044bb012cc776dc1f4cfcaf44e728cd47e81613a4ce5a7e"
   },
-  "phantom_event_count": 2,
+  "phantom_candidate_count": 3,
+  "phantom_event_count": 0,
   "phantom_events": [
     {
-      "affected_length": 153.08000000000004,
-      "backward_wave_speed": -76.5399999999996,
+      "affected_length": 76.54000000000002,
+      "backward_wave_speed": -38.269999999999925,
       "confidence": 0.6666666666666666,
       "detector_count": 2,
-      "end_time": 97.0,
-      "minimum_speed": 7.73212675004734,
+      "end_time": 63.0,
+      "minimum_speed": 7.394567871667286,
+      "origin_position": 306.16,
+      "oscillation_amplitude": 1.4829329886755396,
+      "start_time": 58.0,
+      "validation": {
+        "affected_length_meters": 76.54000000000002,
+        "density_elevation_vehicles_per_km_per_lane": 16.372702726243354,
+        "detector_count": 2,
+        "duration_seconds": 5.0,
+        "minimum_speed_meters_per_second": 7.394567871667286,
+        "onset_uncertainty_seconds": 1.0,
+        "oscillation_amplitude_meters_per_second": 1.4829329886755396,
+        "propagation_speed_kilometers_per_hour": -137.77199999999974,
+        "propagation_speed_meters_per_second": -38.269999999999925,
+        "propagation_speed_plausible": false,
+        "queue_evidence": true,
+        "regression_r_squared": 1.0,
+        "status": "INSUFFICIENT_DETECTORS"
+      }
+    },
+    {
+      "affected_length": 76.54000000000008,
+      "backward_wave_speed": -10.934285714285693,
+      "confidence": 0.6666666666666666,
+      "detector_count": 2,
+      "end_time": 1200.0,
+      "minimum_speed": 6.334547315096908,
       "origin_position": 535.7800000000001,
-      "oscillation_amplitude": 1.2406569022458944,
-      "start_time": 90.0
+      "oscillation_amplitude": 2.728132675948019,
+      "start_time": 112.0,
+      "validation": {
+        "affected_length_meters": 76.54000000000008,
+        "density_elevation_vehicles_per_km_per_lane": 26.7923612205865,
+        "detector_count": 2,
+        "duration_seconds": 1088.0,
+        "minimum_speed_meters_per_second": 6.334547315096908,
+        "onset_uncertainty_seconds": 1.0,
+        "oscillation_amplitude_meters_per_second": 2.728132675948019,
+        "propagation_speed_kilometers_per_hour": -39.36342857142849,
+        "propagation_speed_meters_per_second": -10.934285714285693,
+        "propagation_speed_plausible": false,
+        "queue_evidence": true,
+        "regression_r_squared": 1.0,
+        "status": "INSUFFICIENT_DETECTORS"
+      }
     },
     {
       "affected_length": 535.7800000000001,
-      "backward_wave_speed": -76.53999999999985,
+      "backward_wave_speed": -29.765555555555554,
       "confidence": 0.6666666666666666,
       "detector_count": 2,
       "end_time": 1200.0,
       "minimum_speed": 5.456593114319066,
       "origin_position": 535.7800000000001,
-      "oscillation_amplitude": 3.4852023266474266,
-      "start_time": 130.0
+      "oscillation_amplitude": 3.616755787922834,
+      "start_time": 120.0,
+      "validation": {
+        "affected_length_meters": 535.7800000000001,
+        "density_elevation_vehicles_per_km_per_lane": 26.741956379897623,
+        "detector_count": 2,
+        "duration_seconds": 1080.0,
+        "minimum_speed_meters_per_second": 5.456593114319066,
+        "onset_uncertainty_seconds": 1.0,
+        "oscillation_amplitude_meters_per_second": 3.616755787922834,
+        "propagation_speed_kilometers_per_hour": -107.15599999999999,
+        "propagation_speed_meters_per_second": -29.765555555555554,
+        "propagation_speed_plausible": false,
+        "queue_evidence": true,
+        "regression_r_squared": 1.0,
+        "status": "INSUFFICIENT_DETECTORS"
+      }
     }
   ],
   "safety": {

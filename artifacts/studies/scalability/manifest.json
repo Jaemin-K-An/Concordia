@@ -8,10 +8,10 @@
     "sumolib": "1.27.1",
     "traci": "1.27.1"
   },
-  "duration_seconds": 79.811279,
-  "end_timestamp_utc": "2026-08-25T02:39:50.842664+00:00",
-  "git_commit": "fc52ef4a21e9a853b061c16df9fe41c0946823d0",
-  "git_dirty": true,
+  "duration_seconds": 80.774726,
+  "end_timestamp_utc": "2026-08-25T02:59:18.140644+00:00",
+  "git_commit": "39243f358e4db125ddd739076ea44c66088856d4",
+  "git_dirty": false,
   "hardware": {
     "logical_cpu_count": 8,
     "machine": "arm64",
@@ -24,17 +24,17 @@
   },
   "invalid_reasons": [],
   "output_hashes": {
-    "artifacts/studies/scalability/figures/memory_vs_user_count.png": "e1cb8b7f937b14c799e16b9186d08b4eaa9ae26b6f2b5b10ab992ca774eb3b2e",
-    "artifacts/studies/scalability/figures/solve_time_vs_user_count.png": "c56d191eebb756aed2471ca39a7459a3e850cf2ba57dd5f939cc0ee165d6ec6c",
-    "artifacts/studies/scalability/raw_metrics.json": "b7ecd773b3c940d947dc02e698dd49872ae5fdbcc334f964a3897c44ac09cc79",
+    "artifacts/studies/scalability/figures/memory_vs_user_count.png": "f3db83770e882008f799ca3b5c92970751c085bbe0c6ffd39597f326906b10df",
+    "artifacts/studies/scalability/figures/solve_time_vs_user_count.png": "c60947c4fefea1f1563f4d28d3cc4e07a0f6ff6e56905a117ff15c863bf8cd06",
+    "artifacts/studies/scalability/raw_metrics.json": "27545ad76a1f6532e85177ec72364ca14585eabc409438a4b5fa37879437beec",
     "artifacts/studies/scalability/statistical_tests.json": "dd91d9b13ce90650bfd8b0bfd5af1968d2849aa53798e9799026db0b6a63b53c",
-    "artifacts/studies/scalability/summary.json": "4168715399e365273928c3f7c497e3dd9ee6824fc8ea5cf8469dcdea1119dd84",
+    "artifacts/studies/scalability/summary.json": "7f23953d8cca7f4e821946e4ccf5523a0a9e755d62a3553d2e29883512e2ac8f",
     "config.json": "1a18c0d1d298de5c7aa19071afe31ba02a788ba78dfb0488d46292a052671a5f",
-    "metrics.json": "4168715399e365273928c3f7c497e3dd9ee6824fc8ea5cf8469dcdea1119dd84"
+    "metrics.json": "7f23953d8cca7f4e821946e4ccf5523a0a9e755d62a3553d2e29883512e2ac8f"
   },
   "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
   "rl_library_version": "not-installed-not-used",
-  "run_id": "20260825T023831.031385Z-76ee425150",
+  "run_id": "20260825T025757.365918Z-76ee425150",
   "seeds": [
     11,
     23,
@@ -44,6 +44,6 @@
   ],
   "simulator_version": "analytical-no-sumo",
   "solver_version": "scipy-1.13.1/HiGHS",
-  "start_timestamp_utc": "2026-08-25T02:38:31.031385+00:00",
+  "start_timestamp_utc": "2026-08-25T02:57:57.365918+00:00",
   "status": "valid"
 }

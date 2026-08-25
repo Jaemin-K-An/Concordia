@@ -1,0 +1,13 @@
+{
+  "DOCUMENT": true,
+  "IMPLEMENT": true,
+  "PLAN": true,
+  "REGRESSION": true,
+  "RUN": true,
+  "TEST": true,
+  "VERIFY": true,
+  "evidence": "artifacts/studies/phantom_calibration/dataset.json",
+  "name": "Microscopic phantom calibration dataset",
+  "phase": 20,
+  "status": "COMPLETE"
+}

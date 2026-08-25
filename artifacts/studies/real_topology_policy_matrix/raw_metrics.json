@@ -2227,7 +2227,7 @@
     },
     "route_entropy": -0.0,
     "run_id": "transfer-B1-11",
-    "runtime_seconds": 3.9995295840000002,
+    "runtime_seconds": 3.7128901249999995,
     "safety": {
       "cvar_drac_95": 11.820071222275214,
       "hard_braking_events": 118,
@@ -4473,7 +4473,7 @@
     },
     "route_entropy": 0.7170996237435391,
     "run_id": "transfer-B6-11",
-    "runtime_seconds": 4.418904499999999,
+    "runtime_seconds": 3.9468988330000006,
     "safety": {
       "cvar_drac_95": 11.774873250845614,
       "hard_braking_events": 119,
@@ -6718,7 +6718,7 @@
     },
     "route_entropy": 0.167944147734173,
     "run_id": "transfer-B1-23",
-    "runtime_seconds": 4.244710667,
+    "runtime_seconds": 3.7932932919999995,
     "safety": {
       "cvar_drac_95": 10.651079438300847,
       "hard_braking_events": 111,
@@ -8964,7 +8964,7 @@
     },
     "route_entropy": 0.7170996237435391,
     "run_id": "transfer-B6-23",
-    "runtime_seconds": 4.138482999999999,
+    "runtime_seconds": 3.8058595410000002,
     "safety": {
       "cvar_drac_95": 10.817811337784864,
       "hard_braking_events": 114,
@@ -11209,7 +11209,7 @@
     },
     "route_entropy": 0.167944147734173,
     "run_id": "transfer-B1-37",
-    "runtime_seconds": 4.125392542,
+    "runtime_seconds": 3.7591884590000006,
     "safety": {
       "cvar_drac_95": 22.834571718132377,
       "hard_braking_events": 112,
@@ -13454,7 +13454,7 @@
     },
     "route_entropy": 0.6534181947937018,
     "run_id": "transfer-B6-37",
-    "runtime_seconds": 4.324212249999999,
+    "runtime_seconds": 3.8261358749999985,
     "safety": {
       "cvar_drac_95": 12.84382844785985,
       "hard_braking_events": 135,
@@ -15699,7 +15699,7 @@
     },
     "route_entropy": 0.098039113279732,
     "run_id": "transfer-B1-53",
-    "runtime_seconds": 3.9105996669999996,
+    "runtime_seconds": 3.7396763749999984,
     "safety": {
       "cvar_drac_95": 9.772349341683157,
       "hard_braking_events": 122,
@@ -17945,7 +17945,7 @@
     },
     "route_entropy": 0.7286666422231591,
     "run_id": "transfer-B6-53",
-    "runtime_seconds": 4.238698832999997,
+    "runtime_seconds": 3.77753375,
     "safety": {
       "cvar_drac_95": 15.181777176394363,
       "hard_braking_events": 124,
@@ -20189,7 +20189,7 @@
     },
     "route_entropy": -0.0,
     "run_id": "transfer-B1-71",
-    "runtime_seconds": 3.992339833999999,
+    "runtime_seconds": 3.6493248340000015,
     "safety": {
       "cvar_drac_95": 12.51205432817911,
       "hard_braking_events": 115,
@@ -22434,7 +22434,7 @@
     },
     "route_entropy": 0.5269079614313803,
     "run_id": "transfer-B6-71",
-    "runtime_seconds": 4.190366958999995,
+    "runtime_seconds": 3.7539909579999957,
     "safety": {
       "cvar_drac_95": 20.04303854722907,
       "hard_braking_events": 123,
@@ -24678,7 +24678,7 @@
     },
     "route_entropy": -0.0,
     "run_id": "calibrated-B1-11",
-    "runtime_seconds": 4.016265666999999,
+    "runtime_seconds": 3.667078541000002,
     "safety": {
       "cvar_drac_95": 11.820071222275214,
       "hard_braking_events": 118,
@@ -26924,7 +26924,7 @@
     },
     "route_entropy": 0.791932514445844,
     "run_id": "calibrated-B6-11",
-    "runtime_seconds": 4.175826749999999,
+    "runtime_seconds": 3.7135475420000006,
     "safety": {
       "cvar_drac_95": 16.7170324397047,
       "hard_braking_events": 118,
@@ -29169,7 +29169,7 @@
     },
     "route_entropy": 0.167944147734173,
     "run_id": "calibrated-B1-23",
-    "runtime_seconds": 4.109144958000002,
+    "runtime_seconds": 3.734015291999995,
     "safety": {
       "cvar_drac_95": 10.651079438300847,
       "hard_braking_events": 111,
@@ -31414,7 +31414,7 @@
     },
     "route_entropy": 0.6108643020548935,
     "run_id": "calibrated-B6-23",
-    "runtime_seconds": 4.379367625,
+    "runtime_seconds": 3.853249583,
     "safety": {
       "cvar_drac_95": 12.826423108473278,
       "hard_braking_events": 131,
@@ -33659,7 +33659,7 @@
     },
     "route_entropy": 0.167944147734173,
     "run_id": "calibrated-B1-37",
-    "runtime_seconds": 4.108498416000003,
+    "runtime_seconds": 4.229697833000003,
     "safety": {
       "cvar_drac_95": 22.834571718132377,
       "hard_braking_events": 112,
@@ -35905,7 +35905,7 @@
     },
     "route_entropy": 0.7286666422231591,
     "run_id": "calibrated-B6-37",
-    "runtime_seconds": 4.320487666000005,
+    "runtime_seconds": 3.9087646250000034,
     "safety": {
       "cvar_drac_95": 16.69373241920325,
       "hard_braking_events": 102,
@@ -38150,7 +38150,7 @@
     },
     "route_entropy": 0.098039113279732,
     "run_id": "calibrated-B1-53",
-    "runtime_seconds": 3.9232669579999992,
+    "runtime_seconds": 3.867753083999993,
     "safety": {
       "cvar_drac_95": 9.772349341683157,
       "hard_braking_events": 122,
@@ -40395,7 +40395,7 @@
     },
     "route_entropy": 0.5929533174474745,
     "run_id": "calibrated-B6-53",
-    "runtime_seconds": 4.231457665999997,
+    "runtime_seconds": 3.870987624999998,
     "safety": {
       "cvar_drac_95": 34.32729959716828,
       "hard_braking_events": 122,
@@ -42639,7 +42639,7 @@
     },
     "route_entropy": -0.0,
     "run_id": "calibrated-B1-71",
-    "runtime_seconds": 3.953110250000009,
+    "runtime_seconds": 3.7195962090000023,
     "safety": {
       "cvar_drac_95": 12.51205432817911,
       "hard_braking_events": 115,
@@ -44884,7 +44884,7 @@
     },
     "route_entropy": 0.5510799280869728,
     "run_id": "calibrated-B6-71",
-    "runtime_seconds": 4.250770958999993,
+    "runtime_seconds": 3.737454624999998,
     "safety": {
       "cvar_drac_95": 17.041894260983508,
       "hard_braking_events": 123,

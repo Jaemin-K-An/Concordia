@@ -1,26 +1,26 @@
 {
   "claim_boundary": "This decision applies only to the tested analytical correctness scale and does not claim that RL can never help on larger or nonstationary networks.",
-  "decision": "RL not introduced because deterministic/receding-horizon optimization was sufficient under the tested, declared small-instance conditions.",
+  "decision": "RL research is authorized because at least one quantitative gate passed.",
   "gates": {
     "A_performance_gap": {
       "qualifying_scenario_families": 0,
       "scenario_median_relative_gaps": {
-        "merge": -0.018222283847677465,
-        "ring": 0.02579024099272255,
+        "merge": -0.02823202746216519,
+        "ring": 0.0,
         "signalized": 0.0,
-        "two_route": 0.007969410179235095
+        "two_route": 0.03186106710751476
       },
       "tested": true,
       "threshold": ">5% median B6 disadvantage against regret-feasible B4 in at least 2 scenario families",
       "triggered": false
     },
     "B_runtime": {
-      "exceedance_fraction": 0.0,
-      "maximum_end_to_end_seconds": 3.3119084160000014,
-      "p95_end_to_end_seconds": 3.2309360249999988,
+      "exceedance_fraction": 0.25,
+      "maximum_end_to_end_seconds": 26.905326208,
+      "p95_end_to_end_seconds": 22.603157083300008,
       "tested": true,
       "threshold": ">5 seconds in more than 20% of focused recommendation cycles",
-      "triggered": false
+      "triggered": true
     },
     "C_dynamic_generalization": {
       "reason": "no trained policy exists and drift evidence is unit-level, not a full traffic study",
@@ -48,9 +48,9 @@
       "triggered": false
     }
   },
-  "outcome": "A",
-  "rationale": "No quantitatively demonstrated unsolved problem passed a gate. Untested dynamic generalization and large-scale behavior are limitations, not evidence for RL.",
-  "rl_authorized": false,
+  "outcome": "GATE_PASSED_REQUIRES_RL",
+  "rationale": "Quantitative gate(s) passed: B_runtime.",
+  "rl_authorized": true,
   "rl_introduced": false,
   "thresholds_frozen_before_decision": {
     "dynamic_degradation_relative": 0.1,
@@ -61,5 +61,7 @@
     "runtime_exceedance_fraction": 0.2,
     "scalability_cycle_seconds": 5.0
   },
-  "triggered_gates": []
+  "triggered_gates": [
+    "B_runtime"
+  ]
 }

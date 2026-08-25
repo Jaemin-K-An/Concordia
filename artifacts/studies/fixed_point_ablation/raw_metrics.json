@@ -7,7 +7,7 @@
       "final_ttt": 12588.590907063917,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00019058299999996642
+      "solve_time_seconds": 0.00021562499999999707
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 51.02174394336515,
@@ -20,7 +20,7 @@
       "final_ttt": 12457.936216952497,
       "iterations": 13,
       "route_reversals": 0,
-      "solve_time_seconds": 0.002827166999999964
+      "solve_time_seconds": 0.00228491599999997
     },
     "scenario": "two_route",
     "seed": 11
@@ -33,7 +33,7 @@
       "final_ttt": 12989.501791078514,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00016254200000004326
+      "solve_time_seconds": 0.00016529199999998356
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 105.35540628909757,
@@ -46,7 +46,7 @@
       "final_ttt": 12600.042671610208,
       "iterations": 14,
       "route_reversals": 0,
-      "solve_time_seconds": 0.002110416000000004
+      "solve_time_seconds": 0.002214875000000005
     },
     "scenario": "two_route",
     "seed": 23
@@ -59,7 +59,7 @@
       "final_ttt": 12585.263981994809,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00016816699999999685
+      "solve_time_seconds": 0.00015904199999999813
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 52.40857490355569,
@@ -72,7 +72,7 @@
       "final_ttt": 12452.805681197266,
       "iterations": 13,
       "route_reversals": 0,
-      "solve_time_seconds": 0.002414417000000002
+      "solve_time_seconds": 0.002648583999999954
     },
     "scenario": "two_route",
     "seed": 37
@@ -85,7 +85,7 @@
       "final_ttt": 12996.010233917894,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0001668340000000046
+      "solve_time_seconds": 0.0001998329999999826
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 103.72680449425712,
@@ -98,7 +98,7 @@
       "final_ttt": 12609.792178193253,
       "iterations": 14,
       "route_reversals": 0,
-      "solve_time_seconds": 0.002249124999999963
+      "solve_time_seconds": 0.0022183339999999885
     },
     "scenario": "two_route",
     "seed": 53
@@ -111,7 +111,7 @@
       "final_ttt": 12374.652777777777,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00013608300000000906
+      "solve_time_seconds": 0.00015241599999998856
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -124,7 +124,7 @@
       "final_ttt": 12374.652777777777,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00014445800000001396
+      "solve_time_seconds": 0.0001367080000000409
     },
     "scenario": "two_route",
     "seed": 71
@@ -137,7 +137,7 @@
       "final_ttt": 12618.482740582536,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0003102500000000119
+      "solve_time_seconds": 0.00020833300000000499
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -150,7 +150,7 @@
       "final_ttt": 12618.482740582536,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0002651250000000327
+      "solve_time_seconds": 0.00028404100000001264
     },
     "scenario": "merge",
     "seed": 11
@@ -163,7 +163,7 @@
       "final_ttt": 13558.208637673373,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00021979100000002472
+      "solve_time_seconds": 0.00022800000000000598
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 121.31828606814595,
@@ -176,7 +176,7 @@
       "final_ttt": 12251.051541742945,
       "iterations": 14,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0030327920000000064
+      "solve_time_seconds": 0.003193749999999995
     },
     "scenario": "merge",
     "seed": 23
@@ -189,7 +189,7 @@
       "final_ttt": 13516.435423432342,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00020491700000002666
+      "solve_time_seconds": 0.0003349999999999742
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -202,7 +202,7 @@
       "final_ttt": 13516.435423432342,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0003833749999999636
+      "solve_time_seconds": 0.00020975000000000854
     },
     "scenario": "merge",
     "seed": 37
@@ -215,7 +215,7 @@
       "final_ttt": 12903.919919482969,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.000231542000000029
+      "solve_time_seconds": 0.0002142920000000048
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -228,7 +228,7 @@
       "final_ttt": 12903.919919482969,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0002102499999999674
+      "solve_time_seconds": 0.0002534579999999842
     },
     "scenario": "merge",
     "seed": 53
@@ -241,7 +241,7 @@
       "final_ttt": 11922.81842574762,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0002487500000000198
+      "solve_time_seconds": 0.00021474999999998579
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -254,7 +254,7 @@
       "final_ttt": 11922.81842574762,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0001943330000000465
+      "solve_time_seconds": 0.00020720800000001427
     },
     "scenario": "merge",
     "seed": 71
@@ -267,7 +267,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00014862500000001333
+      "solve_time_seconds": 0.00020287500000004677
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -280,7 +280,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00014162499999997857
+      "solve_time_seconds": 0.0001547920000000147
     },
     "scenario": "signalized",
     "seed": 11
@@ -293,7 +293,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0001451249999999682
+      "solve_time_seconds": 0.0001567080000000054
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -306,7 +306,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00014020800000003053
+      "solve_time_seconds": 0.00014354099999996928
     },
     "scenario": "signalized",
     "seed": 23
@@ -319,7 +319,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00015262500000001733
+      "solve_time_seconds": 0.00015762499999999458
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -332,7 +332,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0002639170000000024
+      "solve_time_seconds": 0.00014254199999996775
     },
     "scenario": "signalized",
     "seed": 37
@@ -345,7 +345,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.0001531670000000096
+      "solve_time_seconds": 0.00017687500000002077
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -358,7 +358,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00014091700000001817
+      "solve_time_seconds": 0.00015133299999997574
     },
     "scenario": "signalized",
     "seed": 53
@@ -371,7 +371,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00019425000000000692
+      "solve_time_seconds": 0.00015166700000002198
     },
     "FP0_vs_FP1": {
       "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
@@ -384,7 +384,7 @@
       "final_ttt": 11862.881999999998,
       "iterations": 1,
       "route_reversals": 0,
-      "solve_time_seconds": 0.00014029199999998632
+      "solve_time_seconds": 0.00015408399999999878
     },
     "scenario": "signalized",
     "seed": 71

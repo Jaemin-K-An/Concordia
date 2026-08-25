@@ -2,7 +2,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 0.7106767919999992,
+      "latency_seconds": 0.69423525,
       "peak_memory_bytes": 126897,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -10,7 +10,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0008760420000015756,
+      "latency_seconds": 0.0007972090000000209,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 13272,
@@ -22,7 +22,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "64",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.0014903749999994886,
+      "latency_seconds": 0.0015118750000000514,
       "status": "EXECUTED",
       "total_travel_time": 85084.22073490507
     },
@@ -32,7 +32,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 0.5381839579999994,
+      "latency_seconds": 0.572219375,
       "peak_memory_bytes": 15272,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -40,7 +40,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.000665624999999892,
+      "latency_seconds": 0.0008220830000000845,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 9280,
@@ -52,7 +52,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "64",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.001363917000000825,
+      "latency_seconds": 0.0014005000000001377,
       "status": "EXECUTED",
       "total_travel_time": 85084.22073490507
     },
@@ -62,7 +62,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 0.4994665420000004,
+      "latency_seconds": 0.4863784580000001,
       "peak_memory_bytes": 15432,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -70,7 +70,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0007992090000001895,
+      "latency_seconds": 0.0007343339999998921,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 9280,
@@ -82,7 +82,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "64",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.0016921249999999333,
+      "latency_seconds": 0.0014900420000001358,
       "status": "EXECUTED",
       "total_travel_time": 85084.22073490507
     },
@@ -92,15 +92,15 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 0.4530324580000009,
-      "peak_memory_bytes": 15627,
+      "latency_seconds": 0.45883066600000033,
+      "peak_memory_bytes": 13955,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
       "total_travel_time": null
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0007570000000001187,
+      "latency_seconds": 0.0007227080000000718,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 9280,
@@ -112,7 +112,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "64",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.0015319999999992007,
+      "latency_seconds": 0.001434333999999815,
       "status": "EXECUTED",
       "total_travel_time": 85084.22073490507
     },
@@ -122,18 +122,18 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 0.44276949999999893,
-      "peak_memory_bytes": 15272,
+      "latency_seconds": 0.4445814590000001,
+      "peak_memory_bytes": 14768,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
       "total_travel_time": null
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0006751250000007758,
+      "latency_seconds": 0.000731416999999901,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 9280,
+      "peak_memory_bytes": 7768,
       "safety_limit": 230.40000000000003,
       "total_safety_risk": 230.40000000000003,
       "total_travel_time": 85084.22073490507
@@ -142,7 +142,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "64",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.0015018330000007296,
+      "latency_seconds": 0.0015563329999999098,
       "status": "EXECUTED",
       "total_travel_time": 85084.22073490507
     },
@@ -152,15 +152,75 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 5.652420042000003,
-      "peak_memory_bytes": 76087,
+      "latency_seconds": 5.847336583000001,
+      "peak_memory_bytes": 77167,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
       "total_travel_time": null
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0009422500000013656,
+      "latency_seconds": 0.0009430419999998385,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 9440,
+      "safety_limit": 204.8,
+      "total_safety_risk": 204.8,
+      "total_travel_time": 44753.94034341281
+    },
+    "candidate_count": 3,
+    "declared_limit_exceeded": false,
+    "enumerative_combinations": "729",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": 0.01629520799999984,
+      "status": "EXECUTED",
+      "total_travel_time": 44753.94034341281
+    },
+    "seed": 11,
+    "user_count": 6
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": 5.82281225,
+      "peak_memory_bytes": 77857,
+      "reason": "no receding-horizon action satisfies all hard constraints",
+      "status": "INFEASIBLE",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.0008639580000000535,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 10280,
+      "safety_limit": 204.8,
+      "total_safety_risk": 204.8,
+      "total_travel_time": 44753.94034341281
+    },
+    "candidate_count": 3,
+    "declared_limit_exceeded": false,
+    "enumerative_combinations": "729",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": 0.015133207999999954,
+      "status": "EXECUTED",
+      "total_travel_time": 44753.94034341281
+    },
+    "seed": 23,
+    "user_count": 6
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": 5.790202957999998,
+      "peak_memory_bytes": 59756,
+      "reason": "no receding-horizon action satisfies all hard constraints",
+      "status": "INFEASIBLE",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.0008784999999988941,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 10448,
@@ -172,67 +232,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "729",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.01643562499999973,
-      "status": "EXECUTED",
-      "total_travel_time": 44753.94034341281
-    },
-    "seed": 11,
-    "user_count": 6
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": 5.727491749999999,
-      "peak_memory_bytes": 77857,
-      "reason": "no receding-horizon action satisfies all hard constraints",
-      "status": "INFEASIBLE",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.0008376249999990648,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 9272,
-      "safety_limit": 204.8,
-      "total_safety_risk": 204.8,
-      "total_travel_time": 44753.94034341281
-    },
-    "candidate_count": 3,
-    "declared_limit_exceeded": false,
-    "enumerative_combinations": "729",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": 0.014976332999999897,
-      "status": "EXECUTED",
-      "total_travel_time": 44753.94034341281
-    },
-    "seed": 23,
-    "user_count": 6
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": 5.776257167000004,
-      "peak_memory_bytes": 58532,
-      "reason": "no receding-horizon action satisfies all hard constraints",
-      "status": "INFEASIBLE",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.0008265000000022837,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 9272,
-      "safety_limit": 204.8,
-      "total_safety_risk": 204.8,
-      "total_travel_time": 44753.94034341281
-    },
-    "candidate_count": 3,
-    "declared_limit_exceeded": false,
-    "enumerative_combinations": "729",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": 0.014981084000002198,
+      "latency_seconds": 0.014757915999998872,
       "status": "EXECUTED",
       "total_travel_time": 44753.94034341281
     },
@@ -242,7 +242,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 5.692531457999998,
+      "latency_seconds": 5.708884458,
       "peak_memory_bytes": 12500,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -250,10 +250,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0008291669999991313,
+      "latency_seconds": 0.0008933330000004958,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 9272,
+      "peak_memory_bytes": 10448,
       "safety_limit": 204.8,
       "total_safety_risk": 204.8,
       "total_travel_time": 44753.94034341281
@@ -262,7 +262,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "729",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.015267541000000051,
+      "latency_seconds": 0.014811791999999713,
       "status": "EXECUTED",
       "total_travel_time": 44753.94034341281
     },
@@ -272,7 +272,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 5.590776667,
+      "latency_seconds": 5.739700582999998,
       "peak_memory_bytes": 12500,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -280,10 +280,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0008417090000065741,
+      "latency_seconds": 0.0008203340000001447,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 9272,
+      "peak_memory_bytes": 10448,
       "safety_limit": 204.8,
       "total_safety_risk": 204.8,
       "total_travel_time": 44753.94034341281
@@ -292,7 +292,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "729",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.015110332999995535,
+      "latency_seconds": 0.014769707999999326,
       "status": "EXECUTED",
       "total_travel_time": 44753.94034341281
     },
@@ -309,7 +309,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0012791250000034893,
+      "latency_seconds": 0.0013114160000000652,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 13264,
@@ -338,7 +338,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.001256791999999507,
+      "latency_seconds": 0.0012908749999951397,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 13264,
@@ -367,7 +367,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0012336659999974131,
+      "latency_seconds": 0.0012662500000004684,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 13264,
@@ -396,10 +396,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0012340409999964663,
+      "latency_seconds": 0.0012924169999948276,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 13264,
+      "peak_memory_bytes": 12704,
       "safety_limit": 153.6,
       "total_safety_risk": 153.6,
       "total_travel_time": 25409.883126637098
@@ -425,10 +425,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0013003749999995762,
+      "latency_seconds": 0.0012208329999978673,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 13264,
+      "peak_memory_bytes": 11752,
       "safety_limit": 153.6,
       "total_safety_risk": 153.6,
       "total_travel_time": 25409.883126637098
@@ -454,7 +454,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0018762090000024045,
+      "latency_seconds": 0.0019446659999999838,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 17488,
@@ -483,10 +483,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0018888749999987908,
+      "latency_seconds": 0.0018782910000041397,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 15376,
+      "peak_memory_bytes": 17488,
       "safety_limit": 76.8,
       "total_safety_risk": 76.8,
       "total_travel_time": 22049.040366095214
@@ -512,10 +512,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0018473749999969868,
+      "latency_seconds": 0.001855374999998105,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 16984,
+      "peak_memory_bytes": 17488,
       "safety_limit": 76.8,
       "total_safety_risk": 76.8,
       "total_travel_time": 22049.040366095214
@@ -541,7 +541,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0018855000000002065,
+      "latency_seconds": 0.0018731669999993983,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 17560,
@@ -570,7 +570,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0018648329999990665,
+      "latency_seconds": 0.001991583000005903,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 17560,
@@ -592,7 +592,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 9.014539624999998,
+      "latency_seconds": 9.096527833000003,
       "peak_memory_bytes": 85332,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -600,10 +600,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0009782090000030053,
+      "latency_seconds": 0.0010082910000051015,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 10080,
+      "peak_memory_bytes": 7704,
       "safety_limit": 230.39999999999998,
       "total_safety_risk": 230.39999999999998,
       "total_travel_time": 85084.220734905
@@ -612,7 +612,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "1024",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.022347582999998394,
+      "latency_seconds": 0.022846416999996677,
       "status": "EXECUTED",
       "total_travel_time": 85084.220734905
     },
@@ -622,7 +622,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 9.081938749999999,
+      "latency_seconds": 9.110117416999998,
       "peak_memory_bytes": 60668,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -630,7 +630,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0009634580000010828,
+      "latency_seconds": 0.000973625000000311,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 7896,
@@ -642,7 +642,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "1024",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.02257129199999497,
+      "latency_seconds": 0.021968917000002364,
       "status": "EXECUTED",
       "total_travel_time": 85084.220734905
     },
@@ -652,7 +652,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 8.821352916999999,
+      "latency_seconds": 9.227238709000005,
       "peak_memory_bytes": 13676,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -660,7 +660,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0009774590000048988,
+      "latency_seconds": 0.0009638749999965057,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 7896,
@@ -672,7 +672,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "1024",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.022147749999994915,
+      "latency_seconds": 0.02179241600000381,
       "status": "EXECUTED",
       "total_travel_time": 85084.220734905
     },
@@ -682,7 +682,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 8.90895587499999,
+      "latency_seconds": 8.835157208000005,
       "peak_memory_bytes": 13676,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -690,7 +690,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0009471249999961628,
+      "latency_seconds": 0.0009844590000014364,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 9240,
@@ -702,7 +702,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "1024",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.022122082999999293,
+      "latency_seconds": 0.021595499999996548,
       "status": "EXECUTED",
       "total_travel_time": 85084.220734905
     },
@@ -712,7 +712,7 @@
   {
     "B6": {
       "combinations_evaluated": 0,
-      "latency_seconds": 8.81770983300001,
+      "latency_seconds": 8.808005249999994,
       "peak_memory_bytes": 13676,
       "reason": "no receding-horizon action satisfies all hard constraints",
       "status": "INFEASIBLE",
@@ -720,7 +720,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0010240830000043388,
+      "latency_seconds": 0.0009737090000072612,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 10080,
@@ -732,7 +732,7 @@
     "declared_limit_exceeded": false,
     "enumerative_combinations": "1024",
     "exact_regret_safety_oracle": {
-      "latency_seconds": 0.022041125000001216,
+      "latency_seconds": 0.0217981659999964,
       "status": "EXECUTED",
       "total_travel_time": 85084.220734905
     },
@@ -749,7 +749,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0012871250000046075,
+      "latency_seconds": 0.0012621659999894064,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 12648,
@@ -778,7 +778,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0012821250000030204,
+      "latency_seconds": 0.0013165830000048118,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 12648,
@@ -807,7 +807,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0012876669999997148,
+      "latency_seconds": 0.0012691250000074206,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 12648,
@@ -836,7 +836,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0012605419999971446,
+      "latency_seconds": 0.0012594159999963495,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 12648,
@@ -865,10 +865,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0012410420000037448,
+      "latency_seconds": 0.001310082999992801,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 12648,
+      "peak_memory_bytes": 11848,
       "safety_limit": 204.79999999999998,
       "total_safety_risk": 204.79999999999998,
       "total_travel_time": 44753.940343412796
@@ -894,123 +894,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.001843832999995243,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 14448,
-      "safety_limit": 153.60000000000002,
-      "total_safety_risk": 153.60000000000002,
-      "total_travel_time": 25409.883126637087
-    },
-    "candidate_count": 5,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "9765625",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 11,
-    "user_count": 10
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.0018298749999985375,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 14448,
-      "safety_limit": 153.60000000000002,
-      "total_safety_risk": 153.60000000000002,
-      "total_travel_time": 25409.883126637087
-    },
-    "candidate_count": 5,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "9765625",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 23,
-    "user_count": 10
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.0018402500000007649,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 14448,
-      "safety_limit": 153.60000000000002,
-      "total_safety_risk": 153.60000000000002,
-      "total_travel_time": 25409.883126637087
-    },
-    "candidate_count": 5,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "9765625",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 37,
-    "user_count": 10
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.0018842090000106282,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 12904,
-      "safety_limit": 153.60000000000002,
-      "total_safety_risk": 153.60000000000002,
-      "total_travel_time": 25409.883126637087
-    },
-    "candidate_count": 5,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "9765625",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 53,
-    "user_count": 10
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.0018152909999997746,
+      "latency_seconds": 0.0019605420000061713,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 12264,
@@ -1026,6 +910,122 @@
       "status": "NOT_EXECUTED_COMBINATION_GUARD",
       "total_travel_time": null
     },
+    "seed": 11,
+    "user_count": 10
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.0018532499999963647,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 13272,
+      "safety_limit": 153.60000000000002,
+      "total_safety_risk": 153.60000000000002,
+      "total_travel_time": 25409.883126637087
+    },
+    "candidate_count": 5,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "9765625",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "seed": 23,
+    "user_count": 10
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.0018338750000026494,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 14448,
+      "safety_limit": 153.60000000000002,
+      "total_safety_risk": 153.60000000000002,
+      "total_travel_time": 25409.883126637087
+    },
+    "candidate_count": 5,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "9765625",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "seed": 37,
+    "user_count": 10
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.0018889579999950001,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 14448,
+      "safety_limit": 153.60000000000002,
+      "total_safety_risk": 153.60000000000002,
+      "total_travel_time": 25409.883126637087
+    },
+    "candidate_count": 5,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "9765625",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "seed": 53,
+    "user_count": 10
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.0018553750000052105,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 14448,
+      "safety_limit": 153.60000000000002,
+      "total_safety_risk": 153.60000000000002,
+      "total_travel_time": 25409.883126637087
+    },
+    "candidate_count": 5,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "9765625",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
     "seed": 71,
     "user_count": 10
   },
@@ -1039,7 +1039,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0027652910000028896,
+      "latency_seconds": 0.002714459000003444,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 20048,
@@ -1068,7 +1068,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.002727790999998092,
+      "latency_seconds": 0.0029902079999999387,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 19976,
@@ -1097,10 +1097,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0027500000000060254,
+      "latency_seconds": 0.002834374999991951,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 20048,
+      "peak_memory_bytes": 18112,
       "safety_limit": 76.80000000000001,
       "total_safety_risk": 76.80000000000001,
       "total_travel_time": 22049.040366095214
@@ -1126,10 +1126,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0027459160000091742,
+      "latency_seconds": 0.00285091599999987,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 20048,
+      "peak_memory_bytes": 19544,
       "safety_limit": 76.80000000000001,
       "total_safety_risk": 76.80000000000001,
       "total_travel_time": 22049.040366095214
@@ -1155,7 +1155,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0028879999999986694,
+      "latency_seconds": 0.0027742500000016435,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 20048,
@@ -1184,7 +1184,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0017775419999992437,
+      "latency_seconds": 0.0018174160000086204,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 17248,
@@ -1213,10 +1213,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0017580840000022135,
+      "latency_seconds": 0.001905874999991397,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 11864,
+      "peak_memory_bytes": 16408,
       "safety_limit": 230.40000000000006,
       "total_safety_risk": 230.40000000000006,
       "total_travel_time": 85084.220734905
@@ -1242,10 +1242,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0017691670000061777,
+      "latency_seconds": 0.0017598329999941598,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 12800,
+      "peak_memory_bytes": 16408,
       "safety_limit": 230.40000000000006,
       "total_safety_risk": 230.40000000000006,
       "total_travel_time": 85084.220734905
@@ -1271,10 +1271,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.001794000000003848,
+      "latency_seconds": 0.001755750000000944,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 12800,
+      "peak_memory_bytes": 16408,
       "safety_limit": 230.40000000000006,
       "total_safety_risk": 230.40000000000006,
       "total_travel_time": 85084.220734905
@@ -1300,10 +1300,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0017876670000021022,
+      "latency_seconds": 0.001774541999992607,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 15736,
+      "peak_memory_bytes": 16408,
       "safety_limit": 230.40000000000006,
       "total_safety_risk": 230.40000000000006,
       "total_travel_time": 85084.220734905
@@ -1329,7 +1329,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.002294708999997397,
+      "latency_seconds": 0.0022978330000000824,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 18632,
@@ -1358,7 +1358,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0023360830000029864,
+      "latency_seconds": 0.0022712909999995645,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 18632,
@@ -1387,7 +1387,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0022647920000054,
+      "latency_seconds": 0.002415290999991271,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 18632,
@@ -1416,7 +1416,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0022806249999973716,
+      "latency_seconds": 0.002302708000001985,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 18632,
@@ -1445,10 +1445,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0022621659999941812,
+      "latency_seconds": 0.0022854169999959595,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 18632,
+      "peak_memory_bytes": 13184,
       "safety_limit": 204.80000000000004,
       "total_safety_risk": 204.80000000000004,
       "total_travel_time": 44753.940343412796
@@ -1474,94 +1474,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.003332208000003334,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 21176,
-      "safety_limit": 153.60000000000008,
-      "total_safety_risk": 153.60000000000008,
-      "total_travel_time": 25409.883126637087
-    },
-    "candidate_count": 5,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "95367431640625",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 11,
-    "user_count": 20
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.0034087089999985665,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 21176,
-      "safety_limit": 153.60000000000008,
-      "total_safety_risk": 153.60000000000008,
-      "total_travel_time": 25409.883126637087
-    },
-    "candidate_count": 5,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "95367431640625",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 23,
-    "user_count": 20
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.003523874999999066,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 20552,
-      "safety_limit": 153.60000000000008,
-      "total_safety_risk": 153.60000000000008,
-      "total_travel_time": 25409.883126637087
-    },
-    "candidate_count": 5,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "95367431640625",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 37,
-    "user_count": 20
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.0033100830000023507,
+      "latency_seconds": 0.0033882500000004256,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 17312,
@@ -1577,6 +1490,93 @@
       "status": "NOT_EXECUTED_COMBINATION_GUARD",
       "total_travel_time": null
     },
+    "seed": 11,
+    "user_count": 20
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.0036486249999967413,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 20000,
+      "safety_limit": 153.60000000000008,
+      "total_safety_risk": 153.60000000000008,
+      "total_travel_time": 25409.883126637087
+    },
+    "candidate_count": 5,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "95367431640625",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "seed": 23,
+    "user_count": 20
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.00340904200000125,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 21176,
+      "safety_limit": 153.60000000000008,
+      "total_safety_risk": 153.60000000000008,
+      "total_travel_time": 25409.883126637087
+    },
+    "candidate_count": 5,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "95367431640625",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "seed": 37,
+    "user_count": 20
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.0033863749999909487,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 21176,
+      "safety_limit": 153.60000000000008,
+      "total_safety_risk": 153.60000000000008,
+      "total_travel_time": 25409.883126637087
+    },
+    "candidate_count": 5,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "95367431640625",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
     "seed": 53,
     "user_count": 20
   },
@@ -1590,10 +1590,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.0034937079999934895,
+      "latency_seconds": 0.003389000000012743,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 20000,
+      "peak_memory_bytes": 21176,
       "safety_limit": 153.60000000000008,
       "total_safety_risk": 153.60000000000008,
       "total_travel_time": 25409.883126637087
@@ -1619,7 +1619,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.00499616599999797,
+      "latency_seconds": 0.005242916000000264,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 29096,
@@ -1648,10 +1648,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.004987291999995591,
+      "latency_seconds": 0.005228875000000244,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 29096,
+      "peak_memory_bytes": 27080,
       "safety_limit": 76.80000000000004,
       "total_safety_risk": 76.80000000000004,
       "total_travel_time": 22049.040366095214
@@ -1677,65 +1677,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.005046874999990791,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 29096,
-      "safety_limit": 76.80000000000004,
-      "total_safety_risk": 76.80000000000004,
-      "total_travel_time": 22049.040366095214
-    },
-    "candidate_count": 8,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "1152921504606846976",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 37,
-    "user_count": 20
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.005078292000007423,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 28472,
-      "safety_limit": 76.80000000000004,
-      "total_safety_risk": 76.80000000000004,
-      "total_travel_time": 22049.040366095214
-    },
-    "candidate_count": 8,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "1152921504606846976",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 53,
-    "user_count": 20
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.004960125000010862,
+      "latency_seconds": 0.005102457999996091,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 28592,
@@ -1751,6 +1693,64 @@
       "status": "NOT_EXECUTED_COMBINATION_GUARD",
       "total_travel_time": null
     },
+    "seed": 37,
+    "user_count": 20
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.004993709000004287,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 29096,
+      "safety_limit": 76.80000000000004,
+      "total_safety_risk": 76.80000000000004,
+      "total_travel_time": 22049.040366095214
+    },
+    "candidate_count": 8,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "1152921504606846976",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "seed": 53,
+    "user_count": 20
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.005115875000001324,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 29096,
+      "safety_limit": 76.80000000000004,
+      "total_safety_risk": 76.80000000000004,
+      "total_travel_time": 22049.040366095214
+    },
+    "candidate_count": 8,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "1152921504606846976",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
     "seed": 71,
     "user_count": 20
   },
@@ -1764,10 +1764,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.004193291999996518,
+      "latency_seconds": 0.004471166000001858,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 47056,
+      "peak_memory_bytes": 48064,
       "safety_limit": 230.40000000000018,
       "total_safety_risk": 230.40000000000018,
       "total_travel_time": 85084.220734905
@@ -1793,7 +1793,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.004217083000000343,
+      "latency_seconds": 0.004215249999987236,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 42184,
@@ -1822,7 +1822,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.004188249999998561,
+      "latency_seconds": 0.004310291999999549,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 42184,
@@ -1851,10 +1851,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.004232290999993893,
+      "latency_seconds": 0.004328291999996736,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 42184,
+      "peak_memory_bytes": 39840,
       "safety_limit": 230.40000000000018,
       "total_safety_risk": 230.40000000000018,
       "total_travel_time": 85084.220734905
@@ -1880,10 +1880,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.004227624999998625,
+      "latency_seconds": 0.004210666000005858,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 42184,
+      "peak_memory_bytes": 39160,
       "safety_limit": 230.40000000000018,
       "total_safety_risk": 230.40000000000018,
       "total_travel_time": 85084.220734905
@@ -1909,7 +1909,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.005419166999999447,
+      "latency_seconds": 0.005489791999991667,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 45430,
@@ -1938,7 +1938,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.005363375000001724,
+      "latency_seconds": 0.005535249999994107,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 46056,
@@ -1967,10 +1967,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.005429333999998676,
+      "latency_seconds": 0.0055529999999919255,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 45000,
+      "peak_memory_bytes": 46056,
       "safety_limit": 204.80000000000015,
       "total_safety_risk": 204.80000000000015,
       "total_travel_time": 44753.940343412796
@@ -1996,10 +1996,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.005494374999997831,
+      "latency_seconds": 0.005464416999998889,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 42360,
+      "peak_memory_bytes": 46056,
       "safety_limit": 204.80000000000015,
       "total_safety_risk": 204.80000000000015,
       "total_travel_time": 44753.940343412796
@@ -2025,7 +2025,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.005372624999992581,
+      "latency_seconds": 0.0054980000000028895,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 46056,
@@ -2054,7 +2054,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.007878707999992685,
+      "latency_seconds": 0.00803487499999278,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 51024,
@@ -2083,10 +2083,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.007832457999995768,
+      "latency_seconds": 0.007855833000007806,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 51024,
+      "peak_memory_bytes": 47328,
       "safety_limit": 153.60000000000008,
       "total_safety_risk": 153.60000000000008,
       "total_travel_time": 25409.883126637087
@@ -2112,7 +2112,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.00796554100000435,
+      "latency_seconds": 0.007920541999993702,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 51024,
@@ -2141,7 +2141,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.007937208000001306,
+      "latency_seconds": 0.007984207999996329,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 51024,
@@ -2170,10 +2170,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.00794383299999879,
+      "latency_seconds": 0.007962374999991084,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 49520,
+      "peak_memory_bytes": 51024,
       "safety_limit": 153.60000000000008,
       "total_safety_risk": 153.60000000000008,
       "total_travel_time": 25409.883126637087
@@ -2199,10 +2199,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.011660917000000381,
+      "latency_seconds": 0.012063625000010347,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 66864,
+      "peak_memory_bytes": 64776,
       "safety_limit": 76.80000000000004,
       "total_safety_risk": 76.80000000000004,
       "total_travel_time": 22049.040366095214
@@ -2228,10 +2228,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.011800875000005817,
+      "latency_seconds": 0.011884791999989375,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 67368,
+      "peak_memory_bytes": 66864,
       "safety_limit": 76.80000000000004,
       "total_safety_risk": 76.80000000000004,
       "total_travel_time": 22049.040366095214
@@ -2257,7 +2257,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.011549082999991356,
+      "latency_seconds": 0.011877583000000413,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 67368,
@@ -2286,10 +2286,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.011673208999994245,
+      "latency_seconds": 0.011872666999991566,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 65056,
+      "peak_memory_bytes": 67368,
       "safety_limit": 76.80000000000004,
       "total_safety_risk": 76.80000000000004,
       "total_travel_time": 22049.040366095214
@@ -2315,10 +2315,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.01176987499999882,
+      "latency_seconds": 0.011852458000007005,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 66864,
+      "peak_memory_bytes": 65840,
       "safety_limit": 76.80000000000004,
       "total_safety_risk": 76.80000000000004,
       "total_travel_time": 22049.040366095214
@@ -2344,10 +2344,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.008290458000004719,
+      "latency_seconds": 0.008292750000009619,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 88488,
+      "peak_memory_bytes": 84752,
       "safety_limit": 230.40000000000018,
       "total_safety_risk": 230.40000000000018,
       "total_travel_time": 85084.220734905
@@ -2373,7 +2373,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.008246166000006383,
+      "latency_seconds": 0.008376291999994123,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 84752,
@@ -2402,10 +2402,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.008497207999994316,
+      "latency_seconds": 0.00831962499999861,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 84752,
+      "peak_memory_bytes": 83616,
       "safety_limit": 230.40000000000018,
       "total_safety_risk": 230.40000000000018,
       "total_travel_time": 85084.220734905
@@ -2431,10 +2431,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.041336166999997204,
+      "latency_seconds": 0.008233291999999892,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 95896,
+      "peak_memory_bytes": 84752,
       "safety_limit": 230.40000000000018,
       "total_safety_risk": 230.40000000000018,
       "total_travel_time": 85084.220734905
@@ -2460,10 +2460,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.008399625000009792,
+      "latency_seconds": 0.008272625000003586,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 100600,
+      "peak_memory_bytes": 84752,
       "safety_limit": 230.40000000000018,
       "total_safety_risk": 230.40000000000018,
       "total_travel_time": 85084.220734905
@@ -2489,10 +2489,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.010835666999994942,
+      "latency_seconds": 0.010743125000004738,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 109952,
+      "peak_memory_bytes": 88840,
       "safety_limit": 204.80000000000015,
       "total_safety_risk": 204.80000000000015,
       "total_travel_time": 44753.940343412796
@@ -2521,7 +2521,7 @@
       "latency_seconds": 0.010767375000000357,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 109952,
+      "peak_memory_bytes": 86448,
       "safety_limit": 204.80000000000015,
       "total_safety_risk": 204.80000000000015,
       "total_travel_time": 44753.940343412796
@@ -2547,10 +2547,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.010723834000003762,
+      "latency_seconds": 0.010820207999998388,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 98136,
+      "peak_memory_bytes": 88840,
       "safety_limit": 204.80000000000015,
       "total_safety_risk": 204.80000000000015,
       "total_travel_time": 44753.940343412796
@@ -2576,7 +2576,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.010590000000007649,
+      "latency_seconds": 0.010647582999993688,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 88840,
@@ -2605,7 +2605,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.010726375000004396,
+      "latency_seconds": 0.010733250000001249,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 88840,
@@ -2634,10 +2634,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.015194917000002306,
+      "latency_seconds": 0.015303416999998376,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 82328,
+      "peak_memory_bytes": 81024,
       "safety_limit": 153.6000000000001,
       "total_safety_risk": 153.6000000000001,
       "total_travel_time": 25409.883126637087
@@ -2663,7 +2663,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.015573208999995813,
+      "latency_seconds": 0.015581166999993457,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 96136,
@@ -2692,7 +2692,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.01575066600000241,
+      "latency_seconds": 0.015436332999996694,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 96136,
@@ -2721,10 +2721,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.01539904199999853,
+      "latency_seconds": 0.015530333000000951,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 94336,
+      "peak_memory_bytes": 94632,
       "safety_limit": 153.6000000000001,
       "total_safety_risk": 153.6000000000001,
       "total_travel_time": 25409.883126637087
@@ -2750,7 +2750,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.01585866700000338,
+      "latency_seconds": 0.01587112499998966,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 96136,
@@ -2779,10 +2779,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.022581625000000827,
+      "latency_seconds": 0.022741957999997453,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 121528,
+      "peak_memory_bytes": 122744,
       "safety_limit": 76.80000000000005,
       "total_safety_risk": 76.80000000000005,
       "total_travel_time": 22049.040366095214
@@ -2808,7 +2808,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.022995833999999604,
+      "latency_seconds": 0.02307787499999847,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 125672,
@@ -2837,7 +2837,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.023032791999995084,
+      "latency_seconds": 0.023009458999993626,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 126176,
@@ -2866,7 +2866,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.02293841600000235,
+      "latency_seconds": 0.023313916999995854,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 126176,
@@ -2895,10 +2895,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.02316008400001124,
+      "latency_seconds": 0.022929417000000285,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 126176,
+      "peak_memory_bytes": 125672,
       "safety_limit": 76.80000000000005,
       "total_safety_risk": 76.80000000000005,
       "total_travel_time": 22049.040366095214
@@ -2924,10 +2924,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.020726916000000983,
+      "latency_seconds": 0.020551042000008124,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 182192,
+      "peak_memory_bytes": 193616,
       "safety_limit": 230.40000000000117,
       "total_safety_risk": 230.40000000000117,
       "total_travel_time": 85084.22073490624
@@ -2953,7 +2953,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.020721124999994345,
+      "latency_seconds": 0.020524041000001603,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 185720,
@@ -2982,7 +2982,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.020754666000001976,
+      "latency_seconds": 0.02053845800000431,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 185720,
@@ -3011,7 +3011,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.020591542000005347,
+      "latency_seconds": 0.02041137499999479,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 185720,
@@ -3040,7 +3040,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.020425416999998447,
+      "latency_seconds": 0.020363125000002924,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 185720,
@@ -3069,36 +3069,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.026370541999995112,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 193408,
-      "safety_limit": 204.79999999999922,
-      "total_safety_risk": 204.79999999999922,
-      "total_travel_time": 44753.94034341335
-    },
-    "candidate_count": 3,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "190683748116796615589766511371277507701260426349148337437043654910886245033973163156381027646240890976422037778530726249",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 11,
-    "user_count": 250
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.026594625000001315,
+      "latency_seconds": 0.026525708999997732,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 189040,
@@ -3114,6 +3085,35 @@
       "status": "NOT_EXECUTED_COMBINATION_GUARD",
       "total_travel_time": null
     },
+    "seed": 11,
+    "user_count": 250
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.026617291999997406,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 256296,
+      "safety_limit": 204.79999999999922,
+      "total_safety_risk": 204.79999999999922,
+      "total_travel_time": 44753.94034341335
+    },
+    "candidate_count": 3,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "190683748116796615589766511371277507701260426349148337437043654910886245033973163156381027646240890976422037778530726249",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
     "seed": 23,
     "user_count": 250
   },
@@ -3127,10 +3127,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.026575583000010283,
+      "latency_seconds": 0.02666629200000159,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 193408,
+      "peak_memory_bytes": 220848,
       "safety_limit": 204.79999999999922,
       "total_safety_risk": 204.79999999999922,
       "total_travel_time": 44753.94034341335
@@ -3156,7 +3156,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.026761333000010268,
+      "latency_seconds": 0.026423124999993775,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 193408,
@@ -3185,7 +3185,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.02668479100000809,
+      "latency_seconds": 0.026500833000000057,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 193408,
@@ -3214,7 +3214,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.038688833000009026,
+      "latency_seconds": 0.03858316699999875,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 207904,
@@ -3243,7 +3243,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.03836883299999272,
+      "latency_seconds": 0.03867937500000096,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 207904,
@@ -3272,7 +3272,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.03845529100000533,
+      "latency_seconds": 0.03879666699999973,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 207904,
@@ -3301,10 +3301,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.03824804199999221,
+      "latency_seconds": 0.03825741699999696,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 207904,
+      "peak_memory_bytes": 202360,
       "safety_limit": 153.60000000000008,
       "total_safety_risk": 153.60000000000008,
       "total_travel_time": 25409.88312663728
@@ -3330,7 +3330,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.038618749999997704,
+      "latency_seconds": 0.038422999999994545,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 207904,
@@ -3359,7 +3359,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.05686258299999736,
+      "latency_seconds": 0.056849916999993866,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 267440,
@@ -3388,10 +3388,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.05654254200000253,
+      "latency_seconds": 0.05674849999999765,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 267440,
+      "peak_memory_bytes": 267944,
       "safety_limit": 76.80000000000004,
       "total_safety_risk": 76.80000000000004,
       "total_travel_time": 22049.040366095312
@@ -3417,10 +3417,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.057261957999998,
+      "latency_seconds": 0.056727750000007404,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 267440,
+      "peak_memory_bytes": 267944,
       "safety_limit": 76.80000000000004,
       "total_safety_risk": 76.80000000000004,
       "total_travel_time": 22049.040366095312
@@ -3446,7 +3446,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.056829665999998724,
+      "latency_seconds": 0.05688758299999108,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 267944,
@@ -3475,7 +3475,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.056757791999999085,
+      "latency_seconds": 0.05647079199999894,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 267944,
@@ -3504,10 +3504,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.04087070799999992,
+      "latency_seconds": 0.041197916000001555,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 382416,
+      "peak_memory_bytes": 369984,
       "safety_limit": 230.4000000000021,
       "total_safety_risk": 230.4000000000021,
       "total_travel_time": 85084.22073490823
@@ -3533,10 +3533,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.04105012499999816,
+      "latency_seconds": 0.04125399999999502,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 369984,
+      "peak_memory_bytes": 373512,
       "safety_limit": 230.4000000000021,
       "total_safety_risk": 230.4000000000021,
       "total_travel_time": 85084.22073490823
@@ -3562,7 +3562,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.04076587500000528,
+      "latency_seconds": 0.04111154199999589,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 373512,
@@ -3591,10 +3591,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.04059837500000185,
+      "latency_seconds": 0.040990708999999015,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 373512,
+      "peak_memory_bytes": 369984,
       "safety_limit": 230.4000000000021,
       "total_safety_risk": 230.4000000000021,
       "total_travel_time": 85084.22073490823
@@ -3620,10 +3620,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.04071620899999573,
+      "latency_seconds": 0.04097525000000246,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 369984,
+      "peak_memory_bytes": 373512,
       "safety_limit": 230.4000000000021,
       "total_safety_risk": 230.4000000000021,
       "total_travel_time": 85084.22073490823
@@ -3649,7 +3649,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.052615790999993806,
+      "latency_seconds": 0.05298433299999772,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 387256,
@@ -3678,10 +3678,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.05238579199999549,
+      "latency_seconds": 0.052993000000000734,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 387256,
+      "peak_memory_bytes": 382888,
       "safety_limit": 204.80000000000166,
       "total_safety_risk": 204.80000000000166,
       "total_travel_time": 44753.94034341419
@@ -3707,10 +3707,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.05242124999999476,
+      "latency_seconds": 0.05391566699999828,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 373320,
+      "peak_memory_bytes": 387256,
       "safety_limit": 204.80000000000166,
       "total_safety_risk": 204.80000000000166,
       "total_travel_time": 44753.94034341419
@@ -3736,7 +3736,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.05255320800000618,
+      "latency_seconds": 0.05495812499999886,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 387256,
@@ -3765,7 +3765,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.052677166999998803,
+      "latency_seconds": 0.053703084000005674,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 387256,
@@ -3794,36 +3794,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.07619141700000398,
-      "max_regret": 0.0,
-      "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 413696,
-      "safety_limit": 153.5999999999987,
-      "total_safety_risk": 153.5999999999987,
-      "total_travel_time": 25409.883126637582
-    },
-    "candidate_count": 5,
-    "declared_limit_exceeded": true,
-    "enumerative_combinations": "30549363634996046820519793932136176997894027405723266638936139092812916265247204577018572351080152282568751526935904671553178534278042839697351331142009178896307244205337728522220355888195318837008165086679301794879136633899370525163649789227021200352450820912190874482021196014946372110934030798550767828365183620409339937395998276770114898681640625",
-    "exact_regret_safety_oracle": {
-      "latency_seconds": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "seed": 11,
-    "user_count": 500
-  },
-  {
-    "B6": {
-      "combinations_evaluated": 0,
-      "latency_seconds": null,
-      "peak_memory_bytes": null,
-      "status": "NOT_EXECUTED_COMBINATION_GUARD",
-      "total_travel_time": null
-    },
-    "approximation": {
-      "fallback_used": false,
-      "latency_seconds": 0.07650666600000022,
+      "latency_seconds": 0.07756216699999641,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 408152,
@@ -3839,6 +3810,35 @@
       "status": "NOT_EXECUTED_COMBINATION_GUARD",
       "total_travel_time": null
     },
+    "seed": 11,
+    "user_count": 500
+  },
+  {
+    "B6": {
+      "combinations_evaluated": 0,
+      "latency_seconds": null,
+      "peak_memory_bytes": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
+    "approximation": {
+      "fallback_used": false,
+      "latency_seconds": 0.07738058299999295,
+      "max_regret": 0.0,
+      "method": "dominant_preference_clustered_greedy",
+      "peak_memory_bytes": 413696,
+      "safety_limit": 153.5999999999987,
+      "total_safety_risk": 153.5999999999987,
+      "total_travel_time": 25409.883126637582
+    },
+    "candidate_count": 5,
+    "declared_limit_exceeded": true,
+    "enumerative_combinations": "30549363634996046820519793932136176997894027405723266638936139092812916265247204577018572351080152282568751526935904671553178534278042839697351331142009178896307244205337728522220355888195318837008165086679301794879136633899370525163649789227021200352450820912190874482021196014946372110934030798550767828365183620409339937395998276770114898681640625",
+    "exact_regret_safety_oracle": {
+      "latency_seconds": null,
+      "status": "NOT_EXECUTED_COMBINATION_GUARD",
+      "total_travel_time": null
+    },
     "seed": 23,
     "user_count": 500
   },
@@ -3852,7 +3852,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.07664733299999682,
+      "latency_seconds": 0.07728145800000163,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 413696,
@@ -3881,7 +3881,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.07654716600001166,
+      "latency_seconds": 0.07740195800001004,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 413696,
@@ -3910,10 +3910,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.07689254100000653,
+      "latency_seconds": 0.07710120800000198,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 413696,
+      "peak_memory_bytes": 408152,
       "safety_limit": 153.5999999999987,
       "total_safety_risk": 153.5999999999987,
       "total_travel_time": 25409.883126637582
@@ -3939,7 +3939,7 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.11301087500000051,
+      "latency_seconds": 0.1131025840000035,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
       "peak_memory_bytes": 523232,
@@ -3968,10 +3968,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.11277849999999034,
+      "latency_seconds": 0.11342924999999582,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 523232,
+      "peak_memory_bytes": 523736,
       "safety_limit": 76.79999999999934,
       "total_safety_risk": 76.79999999999934,
       "total_travel_time": 22049.040366095476
@@ -3997,10 +3997,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.11261204100000555,
+      "latency_seconds": 0.11315366699999174,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 523736,
+      "peak_memory_bytes": 516072,
       "safety_limit": 76.79999999999934,
       "total_safety_risk": 76.79999999999934,
       "total_travel_time": 22049.040366095476
@@ -4026,10 +4026,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.11282358400001158,
+      "latency_seconds": 0.11388495799999987,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 523736,
+      "peak_memory_bytes": 523232,
       "safety_limit": 76.79999999999934,
       "total_safety_risk": 76.79999999999934,
       "total_travel_time": 22049.040366095476
@@ -4055,10 +4055,10 @@
     },
     "approximation": {
       "fallback_used": false,
-      "latency_seconds": 0.1133635000000055,
+      "latency_seconds": 0.1138986659999972,
       "max_regret": 0.0,
       "method": "dominant_preference_clustered_greedy",
-      "peak_memory_bytes": 523232,
+      "peak_memory_bytes": 523736,
       "safety_limit": 76.79999999999934,
       "total_safety_risk": 76.79999999999934,
       "total_travel_time": 22049.040366095476

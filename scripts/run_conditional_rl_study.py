@@ -128,7 +128,20 @@ def run() -> Path:
         action = int(policy.act(test_states[index : index + 1], test_valid[index : index + 1])[0])
         inference_times.append((time.perf_counter_ns() - tick) / 1e9)
         rl_actions.append(action)
-    deterministic_actions = np.argmax(test_rewards, axis=1)
+    deterministic_actions = []
+    for row, valid_row in zip(test, test_valid):
+        feasible = np.flatnonzero(valid_row)
+        deterministic_actions.append(
+            int(
+                min(
+                    feasible,
+                    key=lambda action: row["frontier"][int(action)][
+                        "minimum_feasible_ttt"
+                    ],
+                )
+            )
+        )
+    deterministic_actions = np.asarray(deterministic_actions, dtype=int)
     actions = [float(value) for value in config["actions"]["preference_epsilon"]]
     fixed_b6_index = actions.index(0.08)
     raw = []

@@ -1,0 +1,13 @@
+{
+  "DOCUMENT": true,
+  "IMPLEMENT": true,
+  "PLAN": true,
+  "REGRESSION": true,
+  "RUN": true,
+  "TEST": true,
+  "VERIFY": true,
+  "evidence": "artifacts/current_head_audit/summary.json",
+  "name": "Current HEAD audit",
+  "phase": 18,
+  "status": "COMPLETE"
+}

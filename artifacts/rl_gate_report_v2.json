@@ -1,0 +1,76 @@
+{
+  "claim_boundary": "The RL0 decision is based on an offline analytical held-out-seed study. It does not establish microscopic or real-world RL effectiveness.",
+  "conditional_rl_evidence": "artifacts/studies/conditional_rl/summary.json",
+  "decision": "Outcome C: RL0 was authorized, evaluated, and retained.",
+  "gates": {
+    "A_performance_gap": {
+      "qualifying_scenario_families": 0,
+      "scenario_median_relative_gaps": {
+        "merge": -0.02823202746216519,
+        "ring": 0.0,
+        "signalized": 0.0,
+        "two_route": 0.03186106710751476
+      },
+      "tested": true,
+      "threshold": ">5% median B6 disadvantage against regret-feasible B4 in at least 2 scenario families",
+      "triggered": false
+    },
+    "B_runtime_small_scale": {
+      "exceedance_fraction": 0.25,
+      "maximum_end_to_end_seconds": 26.905326208,
+      "p95_end_to_end_seconds": 22.603157083300008,
+      "tested": true,
+      "threshold": ">5 seconds in more than 20% of focused recommendation cycles",
+      "triggered": true
+    },
+    "C_dynamic_generalization": {
+      "measured_median_nonstationarity_incremental_degradation": 0.0694375201685701,
+      "tested": true,
+      "threshold_relative": 0.1,
+      "triggered": false,
+      "triggered_for_RL": false
+    },
+    "D_feedback_instability": {
+      "qualifying_scenario_families": 0,
+      "reason": "accepted one-way route changes are not counted as feedback oscillation",
+      "scenario_median_reversal_rates": {
+        "merge": 0.05555555555555555,
+        "ring": 0.1111111111111111,
+        "signalized": 0.0,
+        "two_route": 0.05555555555555555
+      },
+      "tested": true,
+      "threshold": ">0.25 back-and-forth route reversals per user per step in at least 2 families",
+      "triggered": false
+    },
+    "E_scalability": {
+      "b6_scalability_failure": true,
+      "interpretation": "B6 enumeration failed at scale, but RL is triggered only if a comparable hard-constrained mathematical approximation leaves a residual latency/quality problem.",
+      "latency_threshold_seconds": 5.0,
+      "quality_threshold_relative": 0.05,
+      "residual_problem_after_mathematical_approximation": false,
+      "tested": true,
+      "triggered": false,
+      "triggered_for_RL": false
+    }
+  },
+  "outcome": "C",
+  "prerequisites": {
+    "acceptance_traffic_fixed_point_validated": true,
+    "microscopic_H3_H4_complete": true,
+    "nonstationarity_complete": true,
+    "real_topology_complete": true,
+    "scalability_complete": true
+  },
+  "rl_authorized": true,
+  "rl_introduced": true,
+  "rl_retained": true,
+  "thresholds_frozen_before_v2_decision": {
+    "approximation_quality_gap_relative": 0.05,
+    "dynamic_degradation_relative": 0.1,
+    "operational_latency_seconds": 5.0
+  },
+  "triggered_gates": [
+    "B_runtime_small_scale"
+  ]
+}

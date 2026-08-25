@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 2.21743,
+  "end_timestamp_utc": "2026-08-25T03:45:54.765545+00:00",
+  "git_commit": "2a5f80f5092bda5a16611bb8b15ea7035e87b14e",
+  "git_dirty": true,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "artifacts/studies/alignment_frontier/raw_metrics.json": "2167c26c304e5ed26d9159be3240e56cbe87125d9aa3dc767df754513eb7c74a",
+    "canonical_config": "3bcb00035b7b112d5e5a03495ba14f8d32dc3d719d3b59f955f14bd99d683255",
+    "configs/experiments/conditional_rl.yaml": "b1b649c8ddd687830f7625e36ecc8b8b5b8162672dfa3c65fec18fcba9e88eb5"
+  },
+  "invalid_reasons": [
+    "missing or malformed seed declaration"
+  ],
+  "output_hashes": {
+    "artifacts/studies/conditional_rl/figures/rl0_comparison.png": "ff840f2cee0498eea3288e6de2da56a0a6246de537a44b1599ab8a3ff43a2531",
+    "artifacts/studies/conditional_rl/processed_metrics.json": "aeb328b23cf54dcf504276019cb0550f169636075cf76175af53e59a91d5786d",
+    "artifacts/studies/conditional_rl/raw_metrics.json": "e361980b24eb7f20d1212caaf533f06cc38adf1412a7665afb35a889bbe6d7f3",
+    "artifacts/studies/conditional_rl/statistical_tests.json": "1a2a43fc5d4517adc0e6a711c48a6f77578d3649542aea4b4f5fd25908c95236",
+    "artifacts/studies/conditional_rl/summary.json": "aeb328b23cf54dcf504276019cb0550f169636075cf76175af53e59a91d5786d",
+    "config.json": "3bcb00035b7b112d5e5a03495ba14f8d32dc3d719d3b59f955f14bd99d683255",
+    "metrics.json": "aeb328b23cf54dcf504276019cb0550f169636075cf76175af53e59a91d5786d"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T034552.548115Z-55c3e56a6d",
+  "seeds": [
+    null
+  ],
+  "simulator_version": "analytical-no-sumo",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T03:45:52.548115+00:00",
+  "status": "invalid"
+}

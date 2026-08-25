@@ -8,10 +8,10 @@
     "sumolib": "1.27.1",
     "traci": "1.27.1"
   },
-  "duration_seconds": 3.351668,
-  "end_timestamp_utc": "2026-08-25T02:38:34.383021+00:00",
-  "git_commit": "fc52ef4a21e9a853b061c16df9fe41c0946823d0",
-  "git_dirty": true,
+  "duration_seconds": 3.181849,
+  "end_timestamp_utc": "2026-08-25T02:58:00.551778+00:00",
+  "git_commit": "39243f358e4db125ddd739076ea44c66088856d4",
+  "git_dirty": false,
   "hardware": {
     "logical_cpu_count": 8,
     "machine": "arm64",
@@ -39,7 +39,7 @@
   },
   "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
   "rl_library_version": "not-installed-not-used",
-  "run_id": "20260825T023831.031353Z-00bf6a5916",
+  "run_id": "20260825T025757.369929Z-00bf6a5916",
   "seeds": [
     11,
     23,
@@ -49,6 +49,6 @@
   ],
   "simulator_version": "analytical-no-sumo",
   "solver_version": "scipy-1.13.1/HiGHS",
-  "start_timestamp_utc": "2026-08-25T02:38:31.031353+00:00",
+  "start_timestamp_utc": "2026-08-25T02:57:57.369929+00:00",
   "status": "valid"
 }
