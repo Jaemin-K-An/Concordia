@@ -1,0 +1,30 @@
+version: concordia-v4-frozen-model-1
+frozen_before_final_holdout: true
+selected_policy: V4-P
+deployment_allowed: false
+deployment_block_reason: no candidate jointly met precision >=0.80 and coverage >=0.15
+  on validation
+selected_probability_model: M1_logistic
+calibration_method: isotonic
+benefit_mean_model: gradient_boosting
+benefit_lower_model: elastic_net_lcb
+artifact_paths:
+  probability_package: artifacts/studies/v4_precision_validation/probability_package.json
+  benefit_package: artifacts/studies/v4_precision_validation/benefit_package.json
+  safety_package: artifacts/studies/v4_precision_validation/safety_package.json
+  threshold_selection: artifacts/studies/v4_precision_validation/threshold_selection.json
+  feature_schema: artifacts/studies/v4_model_selection/feature_schema.json
+  split_manifest: artifacts/studies/v4_model_selection/split_manifest.json
+  selected_base_model: artifacts/studies/v4_model_selection/selected_base_model.json
+artifact_hashes:
+  probability_package: eb557889bb3516fa55f5588dfcff8f7133dd02395a5794061b878b963c60f42f
+  benefit_package: d4dcbae8afe2a75f09d609df28270294be6dfcfb21da1e39e04c2e19cf7df8b5
+  safety_package: 7d9635dcc6b867552b387be817d3e9e35737bbd0f5cf31d88afff63995b8ff76
+  threshold_selection: eea01e17a9ccfae93af7e821eb8bf3f09ed9eb5173bc836b3b4c7fc9d6657000
+  feature_schema: c55dea729a18e9e04e4e77354ecf931db5ae1532e351e697b0a4c50ef9b62a12
+  split_manifest: d58952fa838d15cce641fad06ae376a8386275acb52017225e43399cc573d9c5
+  selected_base_model: 8b8ad9361eadfbdceac6c682d56678f1717647cd527ff819d710783b5ba8b50b
+feature_schema_hash: 044bdff93e8f4faaef57bebdf886ee1639fb3561098d1f77eed45f0a4e95cfa3
+data_split_hash: c9aff722eafe1dd91267f45ebe99a9f8ab9254ff2f331ae2624e18664d658e8a
+final_holdout_case_ids: []
+rl_used: false

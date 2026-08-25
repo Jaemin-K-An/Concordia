@@ -1,0 +1,424 @@
+version: concordia-v4-frozen-thresholds-1
+selected_policy: V4-P
+deployment_allowed: false
+deployment_block_reason: no candidate jointly met precision >=0.80 and coverage >=0.15
+  on validation
+final_operating_point:
+  benefit_threshold: 0.0
+  coverage: 0.041666666666666664
+  group_metrics:
+    dimensions:
+      demand_band:
+        high:
+          case_count: 28
+          coverage: 0.03571428571428571
+          intervention_count: 1
+          precision: 1.0
+        low:
+          case_count: 25
+          coverage: 0.08
+          intervention_count: 2
+          precision: 1.0
+        middle:
+          case_count: 43
+          coverage: 0.023255813953488372
+          intervention_count: 1
+          precision: 1.0
+      heterogeneity:
+        bimodal:
+          case_count: 26
+          coverage: 0.11538461538461539
+          intervention_count: 3
+          precision: 1.0
+        high:
+          case_count: 24
+          coverage: 0.041666666666666664
+          intervention_count: 1
+          precision: 1.0
+        long_tail:
+          case_count: 25
+          coverage: 0.0
+          intervention_count: 0
+          precision: null
+        low:
+          case_count: 21
+          coverage: 0.0
+          intervention_count: 0
+          precision: null
+      penetration:
+        '0.5':
+          case_count: 47
+          coverage: 0.0
+          intervention_count: 0
+          precision: null
+        '1.0':
+          case_count: 49
+          coverage: 0.08163265306122448
+          intervention_count: 4
+          precision: 1.0
+      scenario:
+        merge:
+          case_count: 24
+          coverage: 0.08333333333333333
+          intervention_count: 2
+          precision: 1.0
+        ring:
+          case_count: 24
+          coverage: 0.0
+          intervention_count: 0
+          precision: null
+        signalized:
+          case_count: 24
+          coverage: 0.0
+          intervention_count: 0
+          precision: null
+        two_route:
+          case_count: 24
+          coverage: 0.08333333333333333
+          intervention_count: 2
+          precision: 1.0
+      topology_family:
+        constrained:
+          case_count: 48
+          coverage: 0.041666666666666664
+          intervention_count: 2
+          precision: 1.0
+        distributed:
+          case_count: 48
+          coverage: 0.041666666666666664
+          intervention_count: 2
+          precision: 1.0
+    median_group_precision: 1.0
+    worst_group_precision: 1.0
+  intervention_count: 4
+  mean_relative_ttt_gain: 0.08834838998111177
+  median_group_precision: 1.0
+  p10_group_precision: 1.0
+  policy: V4-P
+  population_benefit_rate: 0.041666666666666664
+  precision: 1.0
+  primary_validation_constraint_met: false
+  score_threshold: 0.05
+  successful_intervention_count: 4
+  worst_group_precision: 1.0
+policy_operating_points:
+  V4-C:
+    benefit_threshold: 0.0
+    coverage: 0.020833333333333332
+    group_metrics:
+      dimensions:
+        demand_band:
+          high:
+            case_count: 28
+            coverage: 0.03571428571428571
+            intervention_count: 1
+            precision: 1.0
+          low:
+            case_count: 25
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          middle:
+            case_count: 43
+            coverage: 0.023255813953488372
+            intervention_count: 1
+            precision: 1.0
+        heterogeneity:
+          bimodal:
+            case_count: 26
+            coverage: 0.07692307692307693
+            intervention_count: 2
+            precision: 1.0
+          high:
+            case_count: 24
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          long_tail:
+            case_count: 25
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          low:
+            case_count: 21
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+        penetration:
+          '0.5':
+            case_count: 47
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          '1.0':
+            case_count: 49
+            coverage: 0.04081632653061224
+            intervention_count: 2
+            precision: 1.0
+        scenario:
+          merge:
+            case_count: 24
+            coverage: 0.08333333333333333
+            intervention_count: 2
+            precision: 1.0
+          ring:
+            case_count: 24
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          signalized:
+            case_count: 24
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          two_route:
+            case_count: 24
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+        topology_family:
+          constrained:
+            case_count: 48
+            coverage: 0.041666666666666664
+            intervention_count: 2
+            precision: 1.0
+          distributed:
+            case_count: 48
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+      median_group_precision: 1.0
+      worst_group_precision: 1.0
+    intervention_count: 2
+    mean_relative_ttt_gain: 0.04157980928652058
+    median_group_precision: 1.0
+    p10_group_precision: 1.0
+    policy: V4-C
+    population_benefit_rate: 0.020833333333333332
+    precision: 1.0
+    primary_validation_constraint_met: false
+    score_threshold: 0.65
+    successful_intervention_count: 2
+    worst_group_precision: 1.0
+  V4-E:
+    benefit_threshold: 0.0
+    coverage: 0.041666666666666664
+    group_metrics:
+      dimensions:
+        demand_band:
+          high:
+            case_count: 28
+            coverage: 0.03571428571428571
+            intervention_count: 1
+            precision: 1.0
+          low:
+            case_count: 25
+            coverage: 0.08
+            intervention_count: 2
+            precision: 1.0
+          middle:
+            case_count: 43
+            coverage: 0.023255813953488372
+            intervention_count: 1
+            precision: 1.0
+        heterogeneity:
+          bimodal:
+            case_count: 26
+            coverage: 0.11538461538461539
+            intervention_count: 3
+            precision: 1.0
+          high:
+            case_count: 24
+            coverage: 0.041666666666666664
+            intervention_count: 1
+            precision: 1.0
+          long_tail:
+            case_count: 25
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          low:
+            case_count: 21
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+        penetration:
+          '0.5':
+            case_count: 47
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          '1.0':
+            case_count: 49
+            coverage: 0.08163265306122448
+            intervention_count: 4
+            precision: 1.0
+        scenario:
+          merge:
+            case_count: 24
+            coverage: 0.08333333333333333
+            intervention_count: 2
+            precision: 1.0
+          ring:
+            case_count: 24
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          signalized:
+            case_count: 24
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          two_route:
+            case_count: 24
+            coverage: 0.08333333333333333
+            intervention_count: 2
+            precision: 1.0
+        topology_family:
+          constrained:
+            case_count: 48
+            coverage: 0.041666666666666664
+            intervention_count: 2
+            precision: 1.0
+          distributed:
+            case_count: 48
+            coverage: 0.041666666666666664
+            intervention_count: 2
+            precision: 1.0
+      median_group_precision: 1.0
+      worst_group_precision: 1.0
+    intervention_count: 4
+    mean_relative_ttt_gain: 0.08834838998111177
+    median_group_precision: 1.0
+    p10_group_precision: 1.0
+    policy: V4-E
+    population_benefit_rate: 0.041666666666666664
+    precision: 1.0
+    primary_validation_constraint_met: false
+    score_threshold: 0.0
+    successful_intervention_count: 4
+    worst_group_precision: 1.0
+  V4-P:
+    benefit_threshold: 0.0
+    coverage: 0.041666666666666664
+    group_metrics:
+      dimensions:
+        demand_band:
+          high:
+            case_count: 28
+            coverage: 0.03571428571428571
+            intervention_count: 1
+            precision: 1.0
+          low:
+            case_count: 25
+            coverage: 0.08
+            intervention_count: 2
+            precision: 1.0
+          middle:
+            case_count: 43
+            coverage: 0.023255813953488372
+            intervention_count: 1
+            precision: 1.0
+        heterogeneity:
+          bimodal:
+            case_count: 26
+            coverage: 0.11538461538461539
+            intervention_count: 3
+            precision: 1.0
+          high:
+            case_count: 24
+            coverage: 0.041666666666666664
+            intervention_count: 1
+            precision: 1.0
+          long_tail:
+            case_count: 25
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          low:
+            case_count: 21
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+        penetration:
+          '0.5':
+            case_count: 47
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          '1.0':
+            case_count: 49
+            coverage: 0.08163265306122448
+            intervention_count: 4
+            precision: 1.0
+        scenario:
+          merge:
+            case_count: 24
+            coverage: 0.08333333333333333
+            intervention_count: 2
+            precision: 1.0
+          ring:
+            case_count: 24
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          signalized:
+            case_count: 24
+            coverage: 0.0
+            intervention_count: 0
+            precision: null
+          two_route:
+            case_count: 24
+            coverage: 0.08333333333333333
+            intervention_count: 2
+            precision: 1.0
+        topology_family:
+          constrained:
+            case_count: 48
+            coverage: 0.041666666666666664
+            intervention_count: 2
+            precision: 1.0
+          distributed:
+            case_count: 48
+            coverage: 0.041666666666666664
+            intervention_count: 2
+            precision: 1.0
+      median_group_precision: 1.0
+      worst_group_precision: 1.0
+    intervention_count: 4
+    mean_relative_ttt_gain: 0.08834838998111177
+    median_group_precision: 1.0
+    p10_group_precision: 1.0
+    policy: V4-P
+    population_benefit_rate: 0.041666666666666664
+    precision: 1.0
+    primary_validation_constraint_met: false
+    score_threshold: 0.05
+    successful_intervention_count: 4
+    worst_group_precision: 1.0
+probability_threshold: 0.05
+benefit_threshold: 0.0
+esiv_threshold: 0.0
+safety_delta: 0.25
+safety_failure_probability_threshold: 0.2
+minimum_relative_ttt_gain: 0.01
+regret_limit: 0.08
+precision_target: 0.8
+coverage_minimum: 0.2
+coverage_stretch: 0.25
+coverage_guard: 0.15
+minimum_intervention_count: 30
+target_intervention_count: 50
+strong_precision_ci_lower: 0.6
+very_strong_precision_ci_lower: 0.7
+outcome_rules:
+  S_plus:
+    precision: 0.8
+    coverage: 0.25
+  S:
+    precision: 0.8
+    coverage: 0.2
+  P:
+    precision: 0.7
+  F:
+    precision_below: 0.7
