@@ -1,0 +1,6 @@
+final_holdouts_used: false
+source_commit: 456893fa4eb2e1057eabc4910b0ebfda06c631b8
+stage1_probability_threshold: 0.0
+upstream_analytical_model: frozen_v5_model_used_as_recall_feature
+upstream_v5_manifest_hash: a8af8bef0441e30f530303cbbd9a20a7ba8752f3b45c1d3a0b49ba6c37ab6290
+version: concordia-v6-frozen-1

@@ -1,0 +1,45 @@
+{
+  "artifact_hashes": {
+    "artifacts/studies/v6_micro_calibration/calibration_comparison.json": "e2bba80f7e0efda442095c84584ba0d2ca8f6a21ef7b8b982a0145af494429d6",
+    "artifacts/studies/v6_micro_dataset/dataset_summary.json": "cecbb94ed6da6fd6760811dc24503223c9959ce224948b5487f13dfb8d7d21db",
+    "artifacts/studies/v6_micro_dataset/feature_schema.json": "764495be44a693d2f892a855882ce8b11d71d60dc65c73ceaa127e0fdd7d03e6",
+    "artifacts/studies/v6_micro_dataset/raw_metrics.json": "219eb6b9bacb768e5aad074ae8826a7ac4efd20312dc862fd1cd0599b0303c5d",
+    "artifacts/studies/v6_micro_dataset/split_manifest.json": "d4dc8caecd49fc64f3f9b278035c0302866f77c3b31c44b4d8cada761c759c1c",
+    "artifacts/studies/v6_micro_model_selection/candidate_comparison.json": "ea9e928407f2f80c8223c57a2517406e45a755147008f70ad5246343a75fe8fb",
+    "artifacts/studies/v6_micro_model_selection/penetration_analysis.json": "6148d1b73dff167b61a037e5344626ceadded449b939eaf7e8bbc156c252c2f6",
+    "artifacts/studies/v6_micro_model_selection/training_manifest.json": "4e5c383b5e7cdfb71aab05fe97533889a17b66e678456c662aba30300e184c60",
+    "artifacts/studies/v6_policy_validation/ablation.json": "f8037698f0ad495ee62376a715efe8c87a826e65f857a26e4f23ac45415e4f49",
+    "artifacts/studies/v6_policy_validation/precision_coverage_frontier.json": "0e86b8804be6161d4cbfad5f420a71c45eb4607607f6a285b136872fc8e8a4e2",
+    "artifacts/studies/v6_policy_validation/selected_policy_package.json": "f92486e02045e3db41cb853621445878816a4cb4a4e4e6464ea4c86aca10f043",
+    "artifacts/studies/v6_policy_validation/stage1_screening_frontier.json": "c00a1509ece9dd4c1094c394369950b2281c32d4a535331f6d5bc1208ef4207d",
+    "artifacts/studies/v6_policy_validation/threshold_package.json": "f624cdbdd30b837bb521ee16ff437df7e7a2ebb9ac860f700048d3cf8c495f42",
+    "artifacts/studies/v6_policy_validation/validation_summary.json": "b6f6d860a59642ede07d2bd2befafd01d579cd12fa399f75d53e4fc6e94e7fa8"
+  },
+  "complete": true,
+  "deployment_code_hashes": {
+    "scripts/run_v6_analytical_holdout.py": "97d2bfd32b45d3daf0f45b4d65d5bd5305099ef1250e8c6d9704dc0cdff68054",
+    "scripts/run_v6_microscopic_holdout.py": "36a0f52057c00c6b08c752ee6ea93a31e10fa79ab4971eb797e8362b0ee8a88a",
+    "scripts/run_v6_real_topology.py": "3d59c61bbb38ce437320327bab973f32b78109b0dbfd4aa29e20819b6517fbaa",
+    "scripts/v6_frozen.py": "68e332caeb75c6292e4acc1a6af43c6bca016d0db5931a1ebadd7f7ce40dd2d7",
+    "scripts/v6_micro_sim.py": "773aff029ea3cefd147da5b49dd4aafd108b214e451a43885c22704f6eed955a",
+    "src/concordia/micro_v6/__init__.py": "4c0725eae08ee79449dc8c02539d95d76cfa4bbf6e1993c7ca1cfcf723806815",
+    "src/concordia/micro_v6/features.py": "8fca46facdadb4e60da66e1b8ed1b2321ede755002435a8a3696f568bc11d365",
+    "src/concordia/micro_v6/labels.py": "2e4762929a7c67b935a371a04dba6e255666fd36c3c273501ad307c3fa99c31f",
+    "src/concordia/micro_v6/modeling.py": "9cb26a0c731f6cb18414703f7294e4d1e07cd87a42b22757f95aad107c4142a7",
+    "src/concordia/micro_v6/policy.py": "fbafc49002c8ea0a8f0a5fc43448c5b49cb3e76b2a7e4b5a1215172acaf19412"
+  },
+  "final_holdouts_materialized_at_freeze": false,
+  "frozen_config_hashes": {
+    "configs/v6/frozen_analytical_screener.yaml": "268c1cde8157743d9724b46fecd6bc67f4688f529049063b7b8237b88ec010a5",
+    "configs/v6/frozen_micro_calibration.yaml": "8eae58bd1faf4d8a5d6be799d33d769a50051b01b6beada81f890f1e265ff57e",
+    "configs/v6/frozen_micro_model.yaml": "cf258478c7e649359daf88aa81cd89b6e3691584cc66fbf23f336b36d6608b8c",
+    "configs/v6/frozen_safety_model.yaml": "a4aeaa9cab41e6696df94b5203929846e84e0a1ddecd4abe66f1f2a2b6f5d0c5",
+    "configs/v6/frozen_thresholds.yaml": "053695fc6196e29ea2ac3cb9164395afd958a85632f031270012b518be5222e6"
+  },
+  "manifest_self_hash": "17178971d0c52b2821a99f08bed037a3b3721c3e28a1f8cd267e37f7cd3799c3",
+  "post_freeze_code_change_detection": true,
+  "rl_used": false,
+  "source_clean_at_freeze": true,
+  "source_commit": "456893fa4eb2e1057eabc4910b0ebfda06c631b8",
+  "version": "concordia-v6-freeze-manifest-1"
+}
