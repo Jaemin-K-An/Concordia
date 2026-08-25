@@ -1,0 +1,41 @@
+study: v7_counterfactual_uplift_guided_navigation
+split_seed: 20261017
+development_split_fractions: {train: 0.60, calibration: 0.15, validation: 0.25}
+historical_sources:
+  - artifacts/studies/v6_micro_dataset/raw_metrics.json
+  - artifacts/studies/v6_frozen_micro_holdout/raw_metrics.json
+historical_pair_count: 800
+new_development_seeds: [709, 719, 727, 733, 739, 743, 751, 757, 761, 769, 773, 787, 797, 809, 811, 821, 823, 827, 829, 839]
+final_holdout_seeds: [853, 857, 859, 863, 877, 881, 883, 887, 907, 911, 919, 929, 937, 941, 947]
+new_development_pair_count: 400
+total_development_pair_count: 1200
+final_holdout_pair_count: 300
+decision_time_seconds: 30
+temporal_window_seconds: 30
+vehicle_generation_seconds: 120
+maximum_simulation_seconds: 320
+preference_epsilon: 0.08
+common_random_numbers: true
+condition_templates:
+  - {id: U01, topology: merge, demand: 840, penetration: 0.25, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: none}
+  - {id: U02, topology: merge, demand: 1080, penetration: 0.50, heterogeneity: medium, acceptance_multiplier: 0.80, perturbation: weak}
+  - {id: U03, topology: merge, demand: 1320, penetration: 0.75, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: medium}
+  - {id: U04, topology: merge, demand: 1560, penetration: 1.00, heterogeneity: bimodal, acceptance_multiplier: 0.80, perturbation: strong}
+  - {id: U05, topology: two_route, demand: 960, penetration: 0.25, heterogeneity: long_tail, acceptance_multiplier: 1.00, perturbation: weak}
+  - {id: U06, topology: two_route, demand: 1200, penetration: 0.50, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: none}
+  - {id: U07, topology: two_route, demand: 1440, penetration: 0.75, heterogeneity: medium, acceptance_multiplier: 0.80, perturbation: medium}
+  - {id: U08, topology: two_route, demand: 840, penetration: 1.00, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: strong}
+  - {id: U09, topology: signalized, demand: 1080, penetration: 0.25, heterogeneity: bimodal, acceptance_multiplier: 0.80, perturbation: none}
+  - {id: U10, topology: signalized, demand: 1320, penetration: 0.50, heterogeneity: long_tail, acceptance_multiplier: 1.00, perturbation: strong}
+  - {id: U11, topology: signalized, demand: 1560, penetration: 0.75, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: medium}
+  - {id: U12, topology: signalized, demand: 960, penetration: 1.00, heterogeneity: medium, acceptance_multiplier: 0.80, perturbation: weak}
+  - {id: U13, topology: asymmetric, demand: 1200, penetration: 0.25, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: medium}
+  - {id: U14, topology: asymmetric, demand: 1440, penetration: 0.50, heterogeneity: bimodal, acceptance_multiplier: 0.60, perturbation: strong}
+  - {id: U15, topology: asymmetric, demand: 840, penetration: 0.75, heterogeneity: long_tail, acceptance_multiplier: 0.80, perturbation: none}
+  - {id: U16, topology: asymmetric, demand: 1080, penetration: 1.00, heterogeneity: low, acceptance_multiplier: 1.00, perturbation: weak}
+  - {id: U17, topology: real_like, demand: 1320, penetration: 0.25, heterogeneity: medium, acceptance_multiplier: 0.60, perturbation: weak}
+  - {id: U18, topology: real_like, demand: 1560, penetration: 0.50, heterogeneity: high, acceptance_multiplier: 0.80, perturbation: strong}
+  - {id: U19, topology: real_like, demand: 960, penetration: 0.75, heterogeneity: bimodal, acceptance_multiplier: 1.00, perturbation: medium}
+  - {id: U20, topology: real_like, demand: 1200, penetration: 1.00, heterogeneity: long_tail, acceptance_multiplier: 0.80, perturbation: none}
+asymmetric_implementation: unequal-length unequal-capacity real-like synthetic branch network; third physical alternative is retained as a topology-transfer motif while the treatment offer compares the two executable candidate routes
+ring_role: excluded_from_new_primary_generation_but_retained_as_historical_stability_evidence

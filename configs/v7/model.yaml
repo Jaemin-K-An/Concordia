@@ -1,0 +1,14 @@
+seed: 20261031
+traffic_candidates: [ridge, elastic_net, random_forest, gradient_boosting]
+causal_formulations: [C0_direct_paired, C1_t_learner, C2_s_learner, C3_x_learner, C4_paired_dr]
+safety_candidates: [ridge, gradient_boosting]
+regret_candidates: [ridge, gradient_boosting]
+interval_methods: [bootstrap_quantile, conformalized_residual]
+traffic_lcb_thresholds: [0.00, 0.0025, 0.005, 0.0075, 0.01, 0.015, 0.02, 0.03]
+safety_ucb_thresholds: [0.00, 0.05, 0.10, 0.15, 0.20, 0.25]
+regret_ucb_thresholds: [0.04, 0.06, 0.08]
+conformal_miscoverage: [0.10, 0.15, 0.20]
+bootstrap_members: 15
+minimum_validation_interventions: 15
+placebo_seed: 20261101
+feature_ablations: [traffic_temporal, analytical, v6_score, topology, preference, penetration, safety]

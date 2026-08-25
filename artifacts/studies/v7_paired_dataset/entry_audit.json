@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "final_pair_count_preregistered": 300,
+  "final_seed_overlap_count": 0,
+  "historical_pair_count": 800,
+  "historical_source_counts": {
+    "artifacts/studies/v6_frozen_micro_holdout/raw_metrics.json": 200,
+    "artifacts/studies/v6_micro_dataset/raw_metrics.json": 600
+  },
+  "new_development_pair_count_preregistered": 400,
+  "rl_used": false,
+  "starting_head": "a7b4b7ea17c00b3764c1fb8fbbf2cb00cca49ed1",
+  "study": "v7 entry audit and historical paired-evidence promotion",
+  "total_development_pair_count_preregistered": 1200,
+  "v6_final_promoted_only_to_historical_development": true,
+  "v6_freeze_manifest_hash": "17178971d0c52b2821a99f08bed037a3b3721c3e28a1f8cd267e37f7cd3799c3",
+  "v6_freeze_verified": true
+}

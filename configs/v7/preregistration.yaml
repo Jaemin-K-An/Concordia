@@ -1,0 +1,42 @@
+version: concordia-v7-preregistered-1
+primary_domain: actual_sumo_paired_treatment_effect
+treatment: adaptive_navigation
+control: B1_eta_only
+outcomes:
+  traffic:
+    absolute: ttt_b1_minus_ttt_adaptive_seconds
+    relative: (ttt_b1_minus_ttt_adaptive)_divided_by_ttt_b1
+    minimum_relative_uplift: 0.01
+  safety:
+    metric: cvar_drac_95
+    effect: adaptive_minus_b1
+    upper_margin: 0.25
+  regret:
+    metric: maximum_affected_regret
+    upper_limit: 0.08
+  legal_required: true
+targets:
+  paired_development_minimum: 1000
+  final_micro_pairs_minimum: 300
+  deployment_precision: 0.80
+  coverage: 0.10
+  coverage_stretch: 0.15
+  interventions: 30
+  interventions_stretch: 50
+  opportunity_recovery: 0.40
+  opportunity_recovery_stretch: 0.50
+  safety_violations: 0
+  wilson_precision_lower: 0.60
+validation:
+  objective: maximize_coverage_subject_to_precision_safety_and_support
+  minimum_intervention_support: 15
+  use_wilson_lower_as_secondary_constraint: true
+historical_evidence:
+  v6_development_pairs: 600
+  v6_final_pairs_promoted_to_development: 200
+  previous_final_reused_as_v7_final: false
+claim_boundary: >-
+  Paired treatment effects are identified inside the randomized synthetic SUMO experiment.
+  They are not causal estimates for observed human traffic. OSM studies use real geometry with
+  synthetic demand and preferences. TTC, PET and DRAC remain surrogate conflict indicators.
+rl_used: false
