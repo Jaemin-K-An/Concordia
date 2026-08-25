@@ -1,0 +1,22 @@
+{
+  "case_count": 1280,
+  "coverage": 0.171875,
+  "coverage_ci95": [
+    0.1521964548076009,
+    0.19351715007036913
+  ],
+  "failure_avoidance_rate": 0.8664495114006515,
+  "intervention_count": 220,
+  "intervention_precision": 0.4409090909090909,
+  "intervention_precision_ci95": [
+    0.3768733230812539,
+    0.5069730379236258
+  ],
+  "legal_violation_count": 0,
+  "mean_network_ttt_gain": 96.51497106288562,
+  "missed_opportunity_rate": 0.7298050139275766,
+  "population_benefit_rate": 0.07578125,
+  "regret_violation_count": 0,
+  "safety_violation_count": 0,
+  "successful_intervention_count": 97
+}

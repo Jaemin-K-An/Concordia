@@ -1,0 +1,14 @@
+{
+  "coverage_stress": 0.171875,
+  "cvar_quantile": 0.95,
+  "degradation_cvar": 0.07761069560512429,
+  "degradation_var": 0.02154893489796116,
+  "loss_cvar": 0.0015338965300185036,
+  "loss_var": 0.0,
+  "precision_stress": 0.4409090909090909,
+  "safety_violation_count": 0,
+  "stress_precision_target": 0.7,
+  "stress_precision_target_met": false,
+  "tail_limit": 0.1,
+  "tail_limit_met": true
+}
