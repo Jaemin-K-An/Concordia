@@ -371,6 +371,12 @@ def _qgis_layer(network, rows: list[dict], destination: Path) -> None:
         for edge, values in row["edge_metrics"].items():
             by_policy[row["policy"]][edge].append(values)
     features = []
+    # The checked-in SUMO runtime does not depend on pyproj.  netconvert stores
+    # the UTM-to-network offset even when sumolib cannot invert it to WGS84, so
+    # export a truthful projected GeoJSON layer instead of guessing lon/lat.
+    # The Gangnam source is UTM zone 52N (EPSG:32652); QGIS reads this explicit
+    # CRS and the coordinates remain metre-valued and spatially exact.
+    offset_x, offset_y = network.getLocationOffset()
     for edge in network.getEdges(withInternal=False):
         edge_id = edge.getID()
         baseline_values = by_policy["B1"].get(edge_id, [])
@@ -383,7 +389,10 @@ def _qgis_layer(network, rows: list[dict], destination: Path) -> None:
         adaptive_flow = mean(adaptive_values, "flow")
         baseline_speed = mean(baseline_values, "speed")
         adaptive_speed = mean(adaptive_values, "speed")
-        shape = [network.convertXY2LonLat(x, y) for x, y in edge.getShape()]
+        shape = [
+            [float(x - offset_x), float(y - offset_y)]
+            for x, y in edge.getShape()
+        ]
         features.append(
             {
                 "type": "Feature",
@@ -411,6 +420,11 @@ def _qgis_layer(network, rows: list[dict], destination: Path) -> None:
         {
             "type": "FeatureCollection",
             "name": "gangnam_real_topology_policy_delta",
+            "crs": {
+                "type": "name",
+                "properties": {"name": "urn:ogc:def:crs:EPSG::32652"},
+            },
+            "coordinate_units": "metres",
             "demand_provenance": "synthetic demand on real topology",
             "features": features,
         },
