@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>CONCORDIA final report v2</title>
+<style>
+body{font:16px/1.55 -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;max-width:1120px;margin:40px auto;padding:0 24px;color:#171717}
+h1,h2{letter-spacing:-.02em} .boundary{border-left:5px solid #555;padding:12px 18px;background:#f5f5f5}
+table{border-collapse:collapse;width:100%;margin:18px 0}th,td{border:1px solid #ccc;padding:8px;text-align:left;vertical-align:top}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:18px}figure{margin:0;border:1px solid #ddd;padding:10px}img{width:100%}figcaption{font-size:13px;color:#555}
+code{background:#f3f3f3;padding:2px 4px} .decision{font-size:20px;font-weight:700}
+</style></head><body>
+<h1>CONCORDIA — Final Validation, Alignment Frontier, and Conditional RL</h1>
+<p class="boundary"><strong>Claim boundary.</strong> Every traffic experiment is synthetic.
+The real-network study uses real OSM geometry with synthetic OD demand. TTC/DRAC/PET are
+surrogate conflict indicators, never crash probabilities. Route changes occur only after
+modeled acceptance.</p>
+<h2>1. Initial hypotheses</h2>
+<p>CONCORDIA tested whether preference heterogeneity and voluntary, acceptance-aware route
+recommendations could improve traffic efficiency without worsening surrogate safety or
+forcing individual sacrifice.</p>
+<h2>2. Negative results retained</h2>
+<table><tr><th>Hypothesis</th><th>Final interpretation</th></tr>
+<tr><td>H1</td><td>FAIL unchanged. H1-R is a separate operationalization study.</td></tr>
+<tr><td>H2</td><td>FAIL unchanged. B6 did not beat B1 in the original focused aggregate.</td></tr>
+<tr><td>H6</td><td>FAIL unchanged. No pre-registered stability effect was established.</td></tr></table>
+<p>The original focused evidence contains 60 paired rows.
+No metric was changed to reverse these outcomes.</p>
+<h2>3. Efficiency–voluntariness trade-off</h2>
+<p>Study I evaluated 360 seed/topology/demand/heterogeneity frontiers
+and 3240 epsilon points. All frontiers were monotone; the knee
+epsilon median was 0.020. Sampled regions: 
+{&#x27;INFEASIBLE&#x27;: 580, &#x27;TRADEOFF&#x27;: 1335, &#x27;WIN&#x27;: 1325}.</p>
+<p>H1-R did not show that heterogeneity is uniformly a coordination resource: weighted
+alignment opportunity was 20009.2 in the low group
+versus 9960.5 in the high group. Preference
+diversity helps only when available route attributes expose useful time, reliability, or risk
+trade-offs; topology can remove that choice space.</p>
+<h2>4. Price of Alignment</h2>
+<p><code>PoAlign(epsilon) = C*(epsilon) / C_SO</code> quantifies the system cost of preserving
+the declared regret budget. Marginal finite differences report how much TTT is recovered per
+additional unit of permitted private loss.</p>
+<p>The acceptance–traffic fixed point converged in 15/
+15 cases. FP1 reduced mean acceptance Brier score from
+0.02888 to
+0.02839, at the cost of a slower analytical solve.</p>
+<h2>5. Microscopic phantom and safety</h2>
+<table><tr><th>Question</th><th>Result</th></tr>
+<tr><td>H3 matched VALID events</td><td>NOT SUPPORTED;
+B1=0.033, B6=0.100, exact paired p=0.2890625.</td></tr>
+<tr><td>H4 DRAC CVaR non-inferiority</td><td>FAILED;
+B6−B1 mean=0.1831, upper CI=0.4638, margin=0.2500.</td></tr>
+<tr><td>Phantom predictor</td><td>NOT CALIBRATED: held-out run split did not contain both VALID-event classes.</td></tr></table>
+<h2>6. Real-topology transfer</h2>
+<p>20 SUMO runs used 3 legal alternatives on the
+committed Gangnam OSM extract. Transfer and limited-retuning results are separate. Demand
+provenance remains <strong>synthetic demand on real topology</strong>.</p>
+<p>Transfer failed to improve TTT: B1=8097.2s
+and B6=8403.0s. The failure decomposition
+records mean route-overlap Jaccard
+0.680, mean accepted-route
+preference cost 0.0089, and
+0 loaded secondary
+bottleneck edges. This is mechanism failure on synthetic demand, not an observed Seoul effect.</p>
+<h2>7. Scalability and RL Gate</h2>
+<p>B6's first declared enumeration-limit failure was
+<code>{&#x27;candidate_count&#x27;: 8, &#x27;user_count&#x27;: 6}</code>. The pre-RL
+mathematical approximation reached operational p95
+0.1139s; residual Gate E trigger:
+False. Gate C median incremental degradation was
+0.0694 against a
+0.10 threshold. Its p95 was 1.0821, retained as a
+tail failure even though the pre-registered median Gate C did not authorize RL.</p>
+<p>Gate B nevertheless authorized RL0. Its held-out mean TTT gap versus the constrained
+deterministic comparator was 0.00000, p95 inference
+was 0.000034s, and regret/safety violations were
+0/0. It was rejected
+because it did not outperform the deterministic comparator.</p>
+<h2>8. Conditions of validity and failure</h2>
+<ul><li><strong>Alignment Win:</strong> regret-feasible recommendations beat sampled ETA-only cost.</li>
+<li><strong>Alignment Trade-off:</strong> voluntariness is protected but network cost is higher.</li>
+<li><strong>Alignment Infeasible:</strong> the permitted utility loss contains no useful diversion.</li>
+<li><strong>Microscopic failure:</strong> B6 increased VALID event incidence in this matrix and
+did not establish DRAC-CVaR non-inferiority.</li>
+<li><strong>Topology-transfer failure:</strong> accepted recommendations redistributed demand
+but increased TTT on the tested real geometry.</li></ul>
+<p>Evidence: <code>artifacts/studies/alignment_frontier/summary.json</code>,
+<code>artifacts/studies/microscopic_policy_matrix/summary.json</code>,
+<code>artifacts/studies/real_topology_policy_matrix/summary.json</code>,
+<code>artifacts/studies/scalability/summary.json</code>, and
+<code>artifacts/rl_gate_report_v2.json</code>.</p>
+<h2>Figures</h2><div class="grid"><figure><img src="../studies/alignment_frontier/figures/price_of_alignment.png" alt="Price of Alignment"><figcaption>Price of Alignment</figcaption></figure><figure><img src="../studies/alignment_frontier/figures/efficiency_voluntariness_frontier.png" alt="Efficiency–Voluntariness frontier"><figcaption>Efficiency–Voluntariness frontier</figcaption></figure><figure><img src="../studies/alignment_frontier/figures/marginal_value_epsilon.png" alt="Marginal value of epsilon"><figcaption>Marginal value of epsilon</figcaption></figure><figure><img src="../studies/alignment_frontier/figures/knee_point.png" alt="Knee-point distribution"><figcaption>Knee-point distribution</figcaption></figure><figure><img src="../studies/alignment_frontier/figures/alignment_feasibility_map.png" alt="WIN / TRADEOFF / INFEASIBLE regions"><figcaption>WIN / TRADEOFF / INFEASIBLE regions</figcaption></figure><figure><img src="../studies/microscopic_policy_matrix/figures/b1_b6_phantom_probability.png" alt="B1 vs B6 VALID phantom probability"><figcaption>B1 vs B6 VALID phantom probability</figcaption></figure><figure><img src="../studies/microscopic_policy_matrix/figures/phantom_event_duration.png" alt="Phantom event duration"><figcaption>Phantom event duration</figcaption></figure><figure><img src="../studies/microscopic_policy_matrix/figures/phantom_event_amplitude.png" alt="Phantom event amplitude"><figcaption>Phantom event amplitude</figcaption></figure><figure><img src="../studies/microscopic_policy_matrix/figures/safety_cvar_b1_b6.png" alt="Surrogate safety CVaR"><figcaption>Surrogate safety CVaR</figcaption></figure><figure><img src="../studies/microscopic_policy_matrix/figures/predicted_vs_realized_safety.png" alt="Predicted vs realized safety"><figcaption>Predicted vs realized safety</figcaption></figure><figure><img src="../studies/real_topology_policy_matrix/figures/real_topology_ttt_comparison.png" alt="Real topology TTT"><figcaption>Real topology TTT</figcaption></figure><figure><img src="../studies/real_topology_policy_matrix/figures/real_topology_recommendation_map.png" alt="Real topology recommendation map"><figcaption>Real topology recommendation map</figcaption></figure><figure><img src="../studies/scalability/figures/solve_time_vs_user_count.png" alt="Solve time vs user count"><figcaption>Solve time vs user count</figcaption></figure><figure><img src="../studies/scalability/figures/memory_vs_user_count.png" alt="Memory vs user count"><figcaption>Memory vs user count</figcaption></figure><figure><img src="../studies/preference_drift/figures/preference_drift_performance.png" alt="Preference-drift performance"><figcaption>Preference-drift performance</figcaption></figure><figure><img src="../figures/rl_gate_v2.png" alt="RL Gate v2 result"><figcaption>RL Gate v2 result</figcaption></figure><figure><img src="../studies/conditional_rl/figures/rl0_comparison.png" alt="Conditional RL0 comparison"><figcaption>Conditional RL0 comparison</figcaption></figure></div>
+<p class="decision">Adaptive Navigation: Supported under specified conditions. Outcome B: tested and rejected.</p>
+</body></html>

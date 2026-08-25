@@ -188,7 +188,6 @@ because it did not outperform the deterministic comparator.</p>''' if conditiona
 did not establish DRAC-CVaR non-inferiority.</li>
 <li><strong>Topology-transfer failure:</strong> accepted recommendations redistributed demand
 but increased TTT on the tested real geometry.</li></ul>
-<p class="decision">{final_decision}. {rl_decision}.</p>
 <p>Evidence: <code>artifacts/studies/alignment_frontier/summary.json</code>,
 <code>artifacts/studies/microscopic_policy_matrix/summary.json</code>,
 <code>artifacts/studies/real_topology_policy_matrix/summary.json</code>,

@@ -8,9 +8,9 @@
     "sumolib": "1.27.1",
     "traci": "1.27.1"
   },
-  "duration_seconds": 0.063085,
-  "end_timestamp_utc": "2026-08-25T02:57:57.202670+00:00",
-  "git_commit": "39243f358e4db125ddd739076ea44c66088856d4",
+  "duration_seconds": 0.04597,
+  "end_timestamp_utc": "2026-08-25T03:48:37.616005+00:00",
+  "git_commit": "37cbbea355a33967fb36bc76d747094a06a8d61d",
   "git_dirty": false,
   "hardware": {
     "logical_cpu_count": 8,
@@ -23,14 +23,14 @@
   },
   "invalid_reasons": [],
   "output_hashes": {
-    "artifacts/studies/fixed_point_ablation/raw_metrics.json": "9cdc22102aea5f9a0cb2848e3cad23024d533ec521be1c35a99db9bb19c4aca8",
-    "artifacts/studies/fixed_point_ablation/summary.json": "a550b73fa992f48b75e55fc7141660a2f5acbf2b913c46f5f09b6f08f62cbc34",
+    "artifacts/studies/fixed_point_ablation/raw_metrics.json": "83142a1421ab10dbeb62ff814dbfdea9db4a72e745cf0cb202319dca60543388",
+    "artifacts/studies/fixed_point_ablation/summary.json": "d3042f5fc9fb38e8df519a8945888d6f6a0e05e19ff283b1cbdf880601bfad80",
     "config.json": "c1cb0521a2621b4b5a6c1da0ec760d406035b198992684d3619061525dee3816",
-    "metrics.json": "a550b73fa992f48b75e55fc7141660a2f5acbf2b913c46f5f09b6f08f62cbc34"
+    "metrics.json": "d3042f5fc9fb38e8df519a8945888d6f6a0e05e19ff283b1cbdf880601bfad80"
   },
   "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
   "rl_library_version": "not-installed-not-used",
-  "run_id": "20260825T025757.139585Z-02ea211aea",
+  "run_id": "20260825T034837.570035Z-02ea211aea",
   "seeds": [
     11,
     23,
@@ -40,6 +40,6 @@
   ],
   "simulator_version": "analytical-no-sumo",
   "solver_version": "scipy-1.13.1/HiGHS",
-  "start_timestamp_utc": "2026-08-25T02:57:57.139585+00:00",
+  "start_timestamp_utc": "2026-08-25T03:48:37.570035+00:00",
   "status": "valid"
 }
