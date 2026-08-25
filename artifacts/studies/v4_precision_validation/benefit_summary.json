@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "evaluation_lower_metrics": {
+    "lower_bound_coverage": 0.9375,
+    "mae": 0.07450497881479283,
+    "pinball_loss": 0.01025622785453768,
+    "rmse": 0.09073814228057571
+  },
+  "evaluation_mean_metrics": {
+    "lower_bound_coverage": 0.3958333333333333,
+    "mae": 0.032613350424338196,
+    "pinball_loss": 0.016381512014463806,
+    "rmse": 0.05489825927995635
+  },
+  "final_holdout_used": false,
+  "selected_lower_model": "elastic_net_lcb",
+  "selected_mean_model": "gradient_boosting"
+}

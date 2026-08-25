@@ -257,7 +257,9 @@ def run() -> Path:
             )
         )
     for threshold in config["esiv_thresholds"]:
-        selected = (prediction["esiv_lower"] >= float(threshold)) & safety_eligible
+        selected = (
+            prediction["esiv_lower"] > max(0.0, float(threshold))
+        ) & safety_eligible
         candidates["V4-E"].append(
             _operating_candidate(
                 validation,
@@ -297,6 +299,10 @@ def run() -> Path:
         "validation_case_ids": [row["case_id"] for row in validation],
         "final_holdout_case_ids": [],
         "final_holdout_used": False,
+        "deployment_allowed": bool(final["primary_validation_constraint_met"]),
+        "deployment_block_reason": None
+        if final["primary_validation_constraint_met"]
+        else "no candidate jointly met precision >=0.80 and coverage >=0.15 on validation",
     }
     output = STUDY / "threshold_selection.json"
     _write(output, selected_package)
@@ -347,6 +353,7 @@ def run() -> Path:
         "validation_ece_target_met": calibration["ece"] < 0.05,
         "safety_false_safe_count": safety_validation["false_safe_count"],
         "final_holdout_used": False,
+        "deployment_allowed": bool(final["primary_validation_constraint_met"]),
         "claim_boundary": "Development validation only; not primary v4 success evidence.",
     }
     _write(STUDY / "summary.json", summary)

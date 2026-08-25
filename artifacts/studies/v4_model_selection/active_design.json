@@ -1,0 +1,2056 @@
+{
+  "excluded": [
+    {
+      "case_id": "v4_active_pool-two_route-s107-d0.750-high-p0.50",
+      "uncertainty": 0.1356533935167346
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.000-high-p1.00",
+      "uncertainty": 0.134710393211983
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d0.750-high-p1.00",
+      "uncertainty": 0.11957857502015891
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.000-high-p0.50",
+      "uncertainty": 0.0898332136983294
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.000-low-p0.50",
+      "uncertainty": 0.08664350918768161
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.000-bimodal-p0.50",
+      "uncertainty": 0.08438276346615795
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.000-bimodal-p1.00",
+      "uncertainty": 0.08171701044096795
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.000-low-p1.00",
+      "uncertainty": 0.06253129742956627
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.200-high-p1.00",
+      "uncertainty": 0.14189182193836752
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d0.750-bimodal-p1.00",
+      "uncertainty": 0.13362383134018735
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.000-high-p0.50",
+      "uncertainty": 0.09480070783331204
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.000-low-p0.50",
+      "uncertainty": 0.0876503767462231
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.000-bimodal-p0.50",
+      "uncertainty": 0.08465352300630179
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.000-low-p1.00",
+      "uncertainty": 0.06377488367352886
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.000-high-p1.00",
+      "uncertainty": 0.06248676010093271
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.000-bimodal-p1.00",
+      "uncertainty": 0.056715233677906436
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.000-high-p1.00",
+      "uncertainty": 0.08041551475516724
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.500-long_tail-p1.00",
+      "uncertainty": 0.06793507775497663
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.000-low-p1.00",
+      "uncertainty": 0.06304760484320135
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.200-long_tail-p0.50",
+      "uncertainty": 0.04824002873900842
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d0.750-long_tail-p1.00",
+      "uncertainty": 0.04306710049531595
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.000-long_tail-p0.50",
+      "uncertainty": 0.035011642825159776
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.200-long_tail-p1.00",
+      "uncertainty": 0.03440315340520653
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.000-long_tail-p1.00",
+      "uncertainty": 0.016206280491624973
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.000-high-p0.50",
+      "uncertainty": 0.1389749929796038
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.000-long_tail-p0.50",
+      "uncertainty": 0.1383360460335325
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.000-high-p1.00",
+      "uncertainty": 0.13826949442943762
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.000-long_tail-p1.00",
+      "uncertainty": 0.12250598955717765
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.000-low-p0.50",
+      "uncertainty": 0.08739931150441593
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.000-bimodal-p0.50",
+      "uncertainty": 0.08461834463586405
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.000-bimodal-p1.00",
+      "uncertainty": 0.0802676637961072
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.000-low-p1.00",
+      "uncertainty": 0.06356858920997235
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d0.750-high-p0.50",
+      "uncertainty": 0.21465167416206454
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.000-long_tail-p0.50",
+      "uncertainty": 0.20269157055353199
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.000-bimodal-p0.50",
+      "uncertainty": 0.19578226369269455
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d0.750-long_tail-p1.00",
+      "uncertainty": 0.18881338252104948
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d0.750-bimodal-p1.00",
+      "uncertainty": 0.18145448226720226
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d0.750-low-p0.50",
+      "uncertainty": 0.17692357941638906
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d0.750-long_tail-p0.50",
+      "uncertainty": 0.13690095672675548
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d0.750-bimodal-p0.50",
+      "uncertainty": 0.13216885920661472
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.000-high-p0.50",
+      "uncertainty": 0.25020535421017975
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d0.750-high-p1.00",
+      "uncertainty": 0.2410708601024024
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.000-low-p0.50",
+      "uncertainty": 0.23319207812671275
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d0.750-long_tail-p0.50",
+      "uncertainty": 0.22647972884819143
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d0.750-bimodal-p0.50",
+      "uncertainty": 0.2229491886487369
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d0.750-low-p1.00",
+      "uncertainty": 0.22213638902165064
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d0.750-high-p0.50",
+      "uncertainty": 0.19661304271514876
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d0.750-low-p0.50",
+      "uncertainty": 0.1730880033266231
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d0.750-high-p1.00",
+      "uncertainty": 0.22415315681133727
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d0.750-low-p1.00",
+      "uncertainty": 0.22346422516727485
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.000-bimodal-p1.00",
+      "uncertainty": 0.21116683907219977
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d0.750-high-p0.50",
+      "uncertainty": 0.17563020637999927
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d0.750-low-p0.50",
+      "uncertainty": 0.17470501195015753
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.000-bimodal-p0.50",
+      "uncertainty": 0.16579070771452742
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d0.750-bimodal-p1.00",
+      "uncertainty": 0.14464033179710084
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d0.750-bimodal-p0.50",
+      "uncertainty": 0.09977197729421441
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d0.750-bimodal-p1.00",
+      "uncertainty": 0.228451325329962
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d0.750-low-p1.00",
+      "uncertainty": 0.2238774368882996
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d0.750-high-p0.50",
+      "uncertainty": 0.20732187561402848
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.000-long_tail-p0.50",
+      "uncertainty": 0.20472288508924402
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d0.750-long_tail-p1.00",
+      "uncertainty": 0.1916100304445117
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d0.750-bimodal-p0.50",
+      "uncertainty": 0.18106028791241804
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d0.750-low-p0.50",
+      "uncertainty": 0.1751872845522661
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d0.750-long_tail-p0.50",
+      "uncertainty": 0.14139928927077178
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.000-high-p1.00",
+      "uncertainty": 0.10041164807101256
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d0.750-low-p1.00",
+      "uncertainty": 0.05940144365726282
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.000-low-p0.50",
+      "uncertainty": 0.02830850053163368
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.000-low-p1.00",
+      "uncertainty": 0.005568792233309532
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.200-low-p0.50",
+      "uncertainty": 0.002026598215833529
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.200-low-p1.00",
+      "uncertainty": 0.0006475543264568526
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.500-low-p0.50",
+      "uncertainty": 0.0005085109912027303
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.500-low-p1.00",
+      "uncertainty": 2.5778307642645526e-05
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.500-long_tail-p0.50",
+      "uncertainty": 0.059974396069707336
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.500-long_tail-p1.00",
+      "uncertainty": 0.04817336514252264
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.000-low-p0.50",
+      "uncertainty": 0.028705657541766124
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.000-low-p1.00",
+      "uncertainty": 0.0057349824068851024
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.200-low-p0.50",
+      "uncertainty": 0.0020641736406035696
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.200-low-p1.00",
+      "uncertainty": 0.0006698203559422914
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.500-low-p0.50",
+      "uncertainty": 0.0005108228275651032
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.500-low-p1.00",
+      "uncertainty": 2.633093153553873e-05
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.500-long_tail-p0.50",
+      "uncertainty": 0.03426137782149522
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.000-low-p0.50",
+      "uncertainty": 0.02757690637467402
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.500-long_tail-p1.00",
+      "uncertainty": 0.012125532997641379
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.000-low-p1.00",
+      "uncertainty": 0.005613598521503354
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.200-low-p0.50",
+      "uncertainty": 0.0019082164853450212
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.200-low-p1.00",
+      "uncertainty": 0.0006893657359963564
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.500-low-p0.50",
+      "uncertainty": 0.00046932726372187524
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.500-low-p1.00",
+      "uncertainty": 2.6091608853617586e-05
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.200-high-p1.00",
+      "uncertainty": 0.019955726241603088
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.500-high-p0.50",
+      "uncertainty": 0.010548179576245147
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.500-high-p1.00",
+      "uncertainty": 0.006738345756851725
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.000-low-p1.00",
+      "uncertainty": 0.005608909376646761
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.200-low-p0.50",
+      "uncertainty": 0.001970701873996506
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.200-low-p1.00",
+      "uncertainty": 0.0006798528618203505
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.500-low-p0.50",
+      "uncertainty": 0.0004883984381480297
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.500-low-p1.00",
+      "uncertainty": 2.5974973343209037e-05
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.000-high-p0.50",
+      "uncertainty": 0.12077067166922603
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.200-low-p1.00",
+      "uncertainty": 0.11895586260724937
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d0.750-bimodal-p0.50",
+      "uncertainty": 0.11374727333550373
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.000-low-p0.50",
+      "uncertainty": 0.09844830113191043
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.000-bimodal-p0.50",
+      "uncertainty": 0.09689319470496804
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d0.750-bimodal-p1.00",
+      "uncertainty": 0.09678673253858339
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.000-high-p1.00",
+      "uncertainty": 0.09275514687894762
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.000-low-p1.00",
+      "uncertainty": 0.05631872504999547
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d0.750-high-p1.00",
+      "uncertainty": 0.1272743547896665
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.200-low-p1.00",
+      "uncertainty": 0.12605847450484958
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.000-high-p0.50",
+      "uncertainty": 0.1070884761839751
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.000-low-p0.50",
+      "uncertainty": 0.0992389830058368
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.000-bimodal-p0.50",
+      "uncertainty": 0.09902765832059089
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.000-bimodal-p1.00",
+      "uncertainty": 0.08610324782972524
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.000-high-p1.00",
+      "uncertainty": 0.043637957434571016
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.000-low-p1.00",
+      "uncertainty": 0.03199893659528143
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.200-low-p1.00",
+      "uncertainty": 0.11820595120269901
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.200-high-p1.00",
+      "uncertainty": 0.1133496927855914
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.000-bimodal-p1.00",
+      "uncertainty": 0.1051530760431547
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.000-bimodal-p0.50",
+      "uncertainty": 0.10365289459287035
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.000-low-p0.50",
+      "uncertainty": 0.09861250060835493
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.000-high-p0.50",
+      "uncertainty": 0.09007267241986462
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.000-high-p1.00",
+      "uncertainty": 0.06881571516485267
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.000-low-p1.00",
+      "uncertainty": 0.05639722106210369
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.000-bimodal-p0.50",
+      "uncertainty": 0.08220620135844156
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.000-bimodal-p1.00",
+      "uncertainty": 0.08126346958683832
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.200-long_tail-p0.50",
+      "uncertainty": 0.08061938139035933
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.000-high-p0.50",
+      "uncertainty": 0.08017138939511441
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.000-long_tail-p0.50",
+      "uncertainty": 0.05608132782203102
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.000-high-p1.00",
+      "uncertainty": 0.05340584684654917
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.000-low-p0.50",
+      "uncertainty": 0.05272940515882068
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.000-low-p1.00",
+      "uncertainty": 0.0319057718651881
+    }
+  ],
+  "pool_count": 512,
+  "selected": [
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.500-bimodal-p1.00",
+      "uncertainty": 0.29979122075756415
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.500-bimodal-p0.50",
+      "uncertainty": 0.2968304673227386
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.500-long_tail-p0.50",
+      "uncertainty": 0.2796296919634924
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.500-long_tail-p1.00",
+      "uncertainty": 0.2665360492048368
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.500-low-p0.50",
+      "uncertainty": 0.25889874746583297
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.500-high-p0.50",
+      "uncertainty": 0.25800486248876825
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.500-high-p1.00",
+      "uncertainty": 0.2496183240788203
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d0.750-long_tail-p0.50",
+      "uncertainty": 0.24428228710988342
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.500-low-p1.00",
+      "uncertainty": 0.24040822078367255
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d0.750-long_tail-p1.00",
+      "uncertainty": 0.22923897054629502
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.200-long_tail-p0.50",
+      "uncertainty": 0.20575813143480887
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.200-bimodal-p0.50",
+      "uncertainty": 0.2006746952725933
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.200-bimodal-p1.00",
+      "uncertainty": 0.2001555097379458
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.000-long_tail-p0.50",
+      "uncertainty": 0.19350921988884393
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.200-high-p1.00",
+      "uncertainty": 0.18789878556365183
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.200-high-p0.50",
+      "uncertainty": 0.1842250363305859
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d0.750-low-p0.50",
+      "uncertainty": 0.18089753487326665
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.200-long_tail-p1.00",
+      "uncertainty": 0.17457743522103664
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d0.750-bimodal-p1.00",
+      "uncertainty": 0.17405612582473648
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d0.750-bimodal-p0.50",
+      "uncertainty": 0.17283109591612847
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d0.750-low-p1.00",
+      "uncertainty": 0.16983954516034552
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.000-long_tail-p1.00",
+      "uncertainty": 0.16502966029727742
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.200-low-p0.50",
+      "uncertainty": 0.15846946581615762
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s107-d1.200-low-p1.00",
+      "uncertainty": 0.140647630459838
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.500-long_tail-p0.50",
+      "uncertainty": 0.30771125683765316
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.500-long_tail-p1.00",
+      "uncertainty": 0.30531560234510746
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.500-bimodal-p0.50",
+      "uncertainty": 0.29443602891117504
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.500-bimodal-p1.00",
+      "uncertainty": 0.29443602891117504
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.500-high-p0.50",
+      "uncertainty": 0.2704447232446637
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.500-low-p0.50",
+      "uncertainty": 0.2602194000019324
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.500-high-p1.00",
+      "uncertainty": 0.2531397728230908
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.500-low-p1.00",
+      "uncertainty": 0.24182324919072784
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d0.750-long_tail-p0.50",
+      "uncertainty": 0.21819451529045425
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.200-long_tail-p0.50",
+      "uncertainty": 0.21216418679333657
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.200-long_tail-p1.00",
+      "uncertainty": 0.19530885460021183
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d0.750-long_tail-p1.00",
+      "uncertainty": 0.19227977833132923
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d0.750-low-p0.50",
+      "uncertainty": 0.18182660292781674
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.200-bimodal-p0.50",
+      "uncertainty": 0.17833362159749025
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d0.750-high-p0.50",
+      "uncertainty": 0.1725922413774662
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d0.750-low-p1.00",
+      "uncertainty": 0.17010329219550221
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.000-long_tail-p0.50",
+      "uncertainty": 0.16510838727936952
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.200-high-p0.50",
+      "uncertainty": 0.16428840813922316
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.200-bimodal-p1.00",
+      "uncertainty": 0.16158458601127518
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.200-low-p0.50",
+      "uncertainty": 0.16025441431065146
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d0.750-bimodal-p0.50",
+      "uncertainty": 0.1567085689582402
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d0.750-high-p1.00",
+      "uncertainty": 0.1554202473892381
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.200-low-p1.00",
+      "uncertainty": 0.14293325011151234
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s109-d1.000-long_tail-p1.00",
+      "uncertainty": 0.14196764214829757
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.500-bimodal-p1.00",
+      "uncertainty": 0.2963234870827283
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.500-high-p0.50",
+      "uncertainty": 0.27430909013478055
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.500-high-p1.00",
+      "uncertainty": 0.26068317941827285
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.500-low-p0.50",
+      "uncertainty": 0.25912369077791425
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.500-low-p1.00",
+      "uncertainty": 0.2406915482964602
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.500-bimodal-p0.50",
+      "uncertainty": 0.23558439911415602
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d0.750-bimodal-p1.00",
+      "uncertainty": 0.2287792708750859
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d0.750-bimodal-p0.50",
+      "uncertainty": 0.2241223379256591
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.200-bimodal-p1.00",
+      "uncertainty": 0.20241863921646475
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d0.750-high-p0.50",
+      "uncertainty": 0.1953992387459721
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.200-bimodal-p0.50",
+      "uncertainty": 0.19140274061015403
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d0.750-high-p1.00",
+      "uncertainty": 0.1835465464766325
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d0.750-low-p0.50",
+      "uncertainty": 0.18241596252663958
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d0.750-low-p1.00",
+      "uncertainty": 0.16986651822540766
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.200-high-p0.50",
+      "uncertainty": 0.16600127303389436
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.200-low-p0.50",
+      "uncertainty": 0.15982718195527956
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.200-high-p1.00",
+      "uncertainty": 0.15335787521269495
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.000-bimodal-p1.00",
+      "uncertainty": 0.1524436676078772
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.200-low-p1.00",
+      "uncertainty": 0.1427073134742436
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.000-bimodal-p0.50",
+      "uncertainty": 0.12961980032959172
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.500-long_tail-p0.50",
+      "uncertainty": 0.10344663663683812
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.000-high-p0.50",
+      "uncertainty": 0.09385802744159118
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d1.000-low-p0.50",
+      "uncertainty": 0.08674909712169143
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s113-d0.750-long_tail-p0.50",
+      "uncertainty": 0.08352686956930316
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.500-bimodal-p0.50",
+      "uncertainty": 0.30112856622381046
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.500-bimodal-p1.00",
+      "uncertainty": 0.2983893340048296
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.500-long_tail-p0.50",
+      "uncertainty": 0.26214226683510333
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.500-high-p1.00",
+      "uncertainty": 0.25984100548379335
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.500-low-p0.50",
+      "uncertainty": 0.2593245417435144
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.500-high-p0.50",
+      "uncertainty": 0.25801923330863635
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.500-long_tail-p1.00",
+      "uncertainty": 0.24297533882384278
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.500-low-p1.00",
+      "uncertainty": 0.2408121610577905
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d0.750-long_tail-p0.50",
+      "uncertainty": 0.20442850619026132
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d0.750-long_tail-p1.00",
+      "uncertainty": 0.1983183287129595
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.200-high-p1.00",
+      "uncertainty": 0.19704552106287757
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.200-high-p0.50",
+      "uncertainty": 0.19481543952617747
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d0.750-low-p0.50",
+      "uncertainty": 0.182904485879662
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d0.750-high-p0.50",
+      "uncertainty": 0.17588888686452592
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.200-bimodal-p0.50",
+      "uncertainty": 0.17482368586301247
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d0.750-bimodal-p0.50",
+      "uncertainty": 0.17118140883479652
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d0.750-low-p1.00",
+      "uncertainty": 0.16994023276550718
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.200-long_tail-p0.50",
+      "uncertainty": 0.16803787011109225
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.200-bimodal-p1.00",
+      "uncertainty": 0.16601365414855476
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.200-low-p0.50",
+      "uncertainty": 0.16053262306989582
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d0.750-bimodal-p1.00",
+      "uncertainty": 0.1496976395646553
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.200-long_tail-p1.00",
+      "uncertainty": 0.14742679413020002
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d0.750-high-p1.00",
+      "uncertainty": 0.1436390754029941
+    },
+    {
+      "case_id": "v4_active_pool-two_route-s127-d1.200-low-p1.00",
+      "uncertainty": 0.14343497716528644
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.500-long_tail-p1.00",
+      "uncertainty": 0.4089045173716107
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.500-long_tail-p0.50",
+      "uncertainty": 0.40369123616726155
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.500-high-p0.50",
+      "uncertainty": 0.38772912681070326
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.500-low-p0.50",
+      "uncertainty": 0.38649965708840983
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.500-high-p1.00",
+      "uncertainty": 0.3825077244416876
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.500-low-p1.00",
+      "uncertainty": 0.3811072631053337
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.500-bimodal-p0.50",
+      "uncertainty": 0.37840245123182337
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.500-bimodal-p1.00",
+      "uncertainty": 0.37653533027170266
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.200-high-p1.00",
+      "uncertainty": 0.30240360253594456
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.200-long_tail-p1.00",
+      "uncertainty": 0.299039610879234
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.200-low-p1.00",
+      "uncertainty": 0.29884195267053915
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.200-high-p0.50",
+      "uncertainty": 0.29455444518217205
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.000-high-p1.00",
+      "uncertainty": 0.28775113752949616
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.200-bimodal-p1.00",
+      "uncertainty": 0.2865086084495552
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.200-low-p0.50",
+      "uncertainty": 0.284198184420807
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.000-low-p1.00",
+      "uncertainty": 0.2728481365040377
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.200-long_tail-p0.50",
+      "uncertainty": 0.27004207557613313
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.000-high-p0.50",
+      "uncertainty": 0.26207951716161976
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.200-bimodal-p0.50",
+      "uncertainty": 0.25573064609232815
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d0.750-high-p1.00",
+      "uncertainty": 0.2542784390571732
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.000-long_tail-p1.00",
+      "uncertainty": 0.24814075046263726
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.000-bimodal-p1.00",
+      "uncertainty": 0.2383658737742195
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d1.000-low-p0.50",
+      "uncertainty": 0.2361204510631353
+    },
+    {
+      "case_id": "v4_active_pool-ring-s107-d0.750-low-p1.00",
+      "uncertainty": 0.22532979668003583
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.500-long_tail-p0.50",
+      "uncertainty": 0.409204081084609
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.500-long_tail-p1.00",
+      "uncertainty": 0.39986482480995755
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.500-high-p0.50",
+      "uncertainty": 0.38723085714266564
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.500-low-p0.50",
+      "uncertainty": 0.38639765889031435
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.500-bimodal-p0.50",
+      "uncertainty": 0.38315637409175557
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.500-high-p1.00",
+      "uncertainty": 0.3819673113640934
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.500-low-p1.00",
+      "uncertainty": 0.38105032189449517
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.500-bimodal-p1.00",
+      "uncertainty": 0.3797711191110671
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.200-long_tail-p1.00",
+      "uncertainty": 0.31459221758175054
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.200-long_tail-p0.50",
+      "uncertainty": 0.3047462849513096
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.200-bimodal-p1.00",
+      "uncertainty": 0.30225529502158244
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.200-high-p1.00",
+      "uncertainty": 0.3010800917603429
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.200-low-p1.00",
+      "uncertainty": 0.2983647271322928
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.200-bimodal-p0.50",
+      "uncertainty": 0.29546924605716623
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.000-bimodal-p1.00",
+      "uncertainty": 0.29026724942764826
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.000-long_tail-p1.00",
+      "uncertainty": 0.29019012149106993
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.200-high-p0.50",
+      "uncertainty": 0.29002803951285433
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.200-low-p0.50",
+      "uncertainty": 0.2828776502723562
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.000-high-p1.00",
+      "uncertainty": 0.28122746073883687
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.000-low-p1.00",
+      "uncertainty": 0.27101557417925026
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.000-long_tail-p0.50",
+      "uncertainty": 0.26902730830471044
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d1.000-bimodal-p0.50",
+      "uncertainty": 0.2665689722334414
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d0.750-long_tail-p1.00",
+      "uncertainty": 0.26068236817719975
+    },
+    {
+      "case_id": "v4_active_pool-ring-s109-d0.750-bimodal-p1.00",
+      "uncertainty": 0.2600863172311089
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.500-long_tail-p0.50",
+      "uncertainty": 0.39926486908206016
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.500-long_tail-p1.00",
+      "uncertainty": 0.3904024142686254
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.500-low-p0.50",
+      "uncertainty": 0.3862842311816895
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.500-high-p0.50",
+      "uncertainty": 0.3830235776124855
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.500-high-p1.00",
+      "uncertainty": 0.3816456222167945
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.500-low-p1.00",
+      "uncertainty": 0.38084487109617743
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.500-bimodal-p1.00",
+      "uncertainty": 0.3808372865815625
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.500-bimodal-p0.50",
+      "uncertainty": 0.37397036907481007
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.200-long_tail-p1.00",
+      "uncertainty": 0.31893057300517486
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.200-long_tail-p0.50",
+      "uncertainty": 0.312972068004943
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.000-long_tail-p1.00",
+      "uncertainty": 0.30068615862830456
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.200-high-p1.00",
+      "uncertainty": 0.2990720481872386
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.200-low-p1.00",
+      "uncertainty": 0.2984511354569226
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.000-long_tail-p0.50",
+      "uncertainty": 0.2877698960322436
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.200-low-p0.50",
+      "uncertainty": 0.283396000437372
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.200-high-p0.50",
+      "uncertainty": 0.28232229030847716
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d0.750-long_tail-p1.00",
+      "uncertainty": 0.2813211291913795
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.000-low-p1.00",
+      "uncertainty": 0.271751462962887
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.000-high-p1.00",
+      "uncertainty": 0.27153291823377806
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.200-bimodal-p1.00",
+      "uncertainty": 0.26778603117501876
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d0.750-long_tail-p0.50",
+      "uncertainty": 0.25737583432703076
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.200-bimodal-p0.50",
+      "uncertainty": 0.23924398676448572
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.000-low-p0.50",
+      "uncertainty": 0.23442842243950998
+    },
+    {
+      "case_id": "v4_active_pool-ring-s113-d1.000-high-p0.50",
+      "uncertainty": 0.23416093000358906
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.500-long_tail-p1.00",
+      "uncertainty": 0.39285313307434205
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.500-long_tail-p0.50",
+      "uncertainty": 0.3880988475563654
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.500-high-p0.50",
+      "uncertainty": 0.3871579107279946
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.500-low-p0.50",
+      "uncertainty": 0.38637461551701235
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.500-high-p1.00",
+      "uncertainty": 0.3815320012882195
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.500-low-p1.00",
+      "uncertainty": 0.38096470476568567
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.500-bimodal-p0.50",
+      "uncertainty": 0.38073896563824206
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.500-bimodal-p1.00",
+      "uncertainty": 0.3800952900371984
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.200-high-p1.00",
+      "uncertainty": 0.3014398525265633
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.200-bimodal-p1.00",
+      "uncertainty": 0.2995617332119356
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.200-low-p1.00",
+      "uncertainty": 0.2985701275567994
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.200-high-p0.50",
+      "uncertainty": 0.29274290472481856
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.200-long_tail-p1.00",
+      "uncertainty": 0.2904370398288941
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.000-high-p1.00",
+      "uncertainty": 0.28511428100271924
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.200-low-p0.50",
+      "uncertainty": 0.2835867225445686
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.200-bimodal-p0.50",
+      "uncertainty": 0.28282418037237583
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.000-bimodal-p1.00",
+      "uncertainty": 0.27288549526036154
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.000-low-p1.00",
+      "uncertainty": 0.27200546733899256
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.200-long_tail-p0.50",
+      "uncertainty": 0.26387313420782466
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.000-high-p0.50",
+      "uncertainty": 0.25746884745783305
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d0.750-high-p1.00",
+      "uncertainty": 0.24886581626384133
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.000-long_tail-p1.00",
+      "uncertainty": 0.24802261895883074
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.000-bimodal-p0.50",
+      "uncertainty": 0.23700922793364157
+    },
+    {
+      "case_id": "v4_active_pool-ring-s127-d1.000-low-p0.50",
+      "uncertainty": 0.23479966273096164
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.500-bimodal-p0.50",
+      "uncertainty": 0.2297245503047589
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.500-bimodal-p1.00",
+      "uncertainty": 0.22762082510333656
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.500-high-p0.50",
+      "uncertainty": 0.22447961310648185
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.500-high-p1.00",
+      "uncertainty": 0.18973305738354834
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.200-bimodal-p0.50",
+      "uncertainty": 0.17974529823843163
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d0.750-long_tail-p0.50",
+      "uncertainty": 0.17841424081436086
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d0.750-bimodal-p0.50",
+      "uncertainty": 0.1764386315630231
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d0.750-long_tail-p1.00",
+      "uncertainty": 0.17418851805587834
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.200-bimodal-p1.00",
+      "uncertainty": 0.17084313357530134
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d0.750-high-p0.50",
+      "uncertainty": 0.16951873606162696
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.200-high-p0.50",
+      "uncertainty": 0.16208704913748762
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d0.750-bimodal-p1.00",
+      "uncertainty": 0.15995889030294355
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.200-long_tail-p1.00",
+      "uncertainty": 0.1566388510597282
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.200-long_tail-p0.50",
+      "uncertainty": 0.15567185958858754
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d0.750-high-p1.00",
+      "uncertainty": 0.15093542950445626
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.000-long_tail-p1.00",
+      "uncertainty": 0.14058602297854447
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.000-long_tail-p0.50",
+      "uncertainty": 0.13759559284998718
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.000-bimodal-p0.50",
+      "uncertainty": 0.11676150250043997
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.200-high-p1.00",
+      "uncertainty": 0.11542133872930103
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.000-high-p0.50",
+      "uncertainty": 0.11425765388255685
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d0.750-low-p0.50",
+      "uncertainty": 0.1104808711539635
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.000-bimodal-p1.00",
+      "uncertainty": 0.11015648648034218
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.500-long_tail-p0.50",
+      "uncertainty": 0.10769864812485887
+    },
+    {
+      "case_id": "v4_active_pool-merge-s107-d1.500-long_tail-p1.00",
+      "uncertainty": 0.10054631066145932
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.500-bimodal-p0.50",
+      "uncertainty": 0.20173151394635155
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.500-high-p0.50",
+      "uncertainty": 0.18624465658356978
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.500-high-p1.00",
+      "uncertainty": 0.1684707682008255
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d0.750-high-p1.00",
+      "uncertainty": 0.16076454899270248
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.500-bimodal-p1.00",
+      "uncertainty": 0.15586282806846039
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d0.750-high-p0.50",
+      "uncertainty": 0.15386402921888492
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.200-high-p0.50",
+      "uncertainty": 0.13974473783739363
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d0.750-bimodal-p0.50",
+      "uncertainty": 0.1396592213941332
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d0.750-bimodal-p1.00",
+      "uncertainty": 0.13819641826561124
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d0.750-long_tail-p1.00",
+      "uncertainty": 0.12595959829394987
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.200-bimodal-p1.00",
+      "uncertainty": 0.12553733060948843
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d0.750-long_tail-p0.50",
+      "uncertainty": 0.12109485994433715
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d0.750-low-p0.50",
+      "uncertainty": 0.11164850338390292
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.000-high-p0.50",
+      "uncertainty": 0.1101102970230851
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.200-high-p1.00",
+      "uncertainty": 0.10614850992005187
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.200-bimodal-p0.50",
+      "uncertainty": 0.10458659382770087
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.000-long_tail-p1.00",
+      "uncertainty": 0.10050103868303827
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.000-bimodal-p1.00",
+      "uncertainty": 0.09810984389782298
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.000-high-p1.00",
+      "uncertainty": 0.0979582307769901
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.200-long_tail-p0.50",
+      "uncertainty": 0.08914133545699911
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.000-bimodal-p0.50",
+      "uncertainty": 0.0870122617997027
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.000-long_tail-p0.50",
+      "uncertainty": 0.08118323606860102
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d1.200-long_tail-p1.00",
+      "uncertainty": 0.07445741068742862
+    },
+    {
+      "case_id": "v4_active_pool-merge-s109-d0.750-low-p1.00",
+      "uncertainty": 0.06029396152569665
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.500-bimodal-p0.50",
+      "uncertainty": 0.24569571537722326
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d0.750-bimodal-p0.50",
+      "uncertainty": 0.22977692345496417
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.500-bimodal-p1.00",
+      "uncertainty": 0.20824329636161173
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.500-high-p0.50",
+      "uncertainty": 0.19042210659801723
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d0.750-bimodal-p1.00",
+      "uncertainty": 0.1796076366137408
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.200-bimodal-p1.00",
+      "uncertainty": 0.17303470494012277
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d0.750-high-p0.50",
+      "uncertainty": 0.16279092766656866
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d0.750-high-p1.00",
+      "uncertainty": 0.16222360317444676
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.500-high-p1.00",
+      "uncertainty": 0.16089995661102835
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.200-bimodal-p0.50",
+      "uncertainty": 0.15272792899406334
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.000-bimodal-p0.50",
+      "uncertainty": 0.14143595888109498
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.000-bimodal-p1.00",
+      "uncertainty": 0.13361077839985905
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.200-high-p0.50",
+      "uncertainty": 0.13210945064966076
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.000-high-p0.50",
+      "uncertainty": 0.11997440826070888
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.000-long_tail-p0.50",
+      "uncertainty": 0.11888858459196089
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d0.750-long_tail-p0.50",
+      "uncertainty": 0.11600557231896377
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d0.750-long_tail-p1.00",
+      "uncertainty": 0.11269305400810962
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d0.750-low-p0.50",
+      "uncertainty": 0.1098808494600656
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.200-high-p1.00",
+      "uncertainty": 0.10292296251358482
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.000-high-p1.00",
+      "uncertainty": 0.07869914301053683
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.000-long_tail-p1.00",
+      "uncertainty": 0.07815473168986337
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.200-long_tail-p0.50",
+      "uncertainty": 0.07463506826444609
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d0.750-low-p1.00",
+      "uncertainty": 0.05972268096821553
+    },
+    {
+      "case_id": "v4_active_pool-merge-s113-d1.200-long_tail-p1.00",
+      "uncertainty": 0.05428677911401361
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.200-long_tail-p0.50",
+      "uncertainty": 0.19810627844422718
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.500-long_tail-p0.50",
+      "uncertainty": 0.19265413130726966
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.000-long_tail-p1.00",
+      "uncertainty": 0.18647043251083392
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d0.750-long_tail-p0.50",
+      "uncertainty": 0.18103273882449047
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.200-long_tail-p1.00",
+      "uncertainty": 0.17886820333882064
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d0.750-long_tail-p1.00",
+      "uncertainty": 0.17641538444474636
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.500-long_tail-p1.00",
+      "uncertainty": 0.17045829977184365
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d0.750-bimodal-p1.00",
+      "uncertainty": 0.15191241128764
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.000-long_tail-p0.50",
+      "uncertainty": 0.14908020007255152
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d0.750-bimodal-p0.50",
+      "uncertainty": 0.14120888884394261
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d0.750-high-p0.50",
+      "uncertainty": 0.13995074254045634
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d0.750-high-p1.00",
+      "uncertainty": 0.1303218178052867
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d0.750-low-p0.50",
+      "uncertainty": 0.11010744788999469
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.200-bimodal-p0.50",
+      "uncertainty": 0.09305849716158247
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.000-high-p0.50",
+      "uncertainty": 0.08348896414383487
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.500-bimodal-p0.50",
+      "uncertainty": 0.08116927593523833
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.000-high-p1.00",
+      "uncertainty": 0.0811559541175281
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.500-bimodal-p1.00",
+      "uncertainty": 0.07692081152970084
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.200-bimodal-p1.00",
+      "uncertainty": 0.06915721383287256
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.000-bimodal-p1.00",
+      "uncertainty": 0.06747486067180032
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d0.750-low-p1.00",
+      "uncertainty": 0.05974655643453334
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.000-bimodal-p0.50",
+      "uncertainty": 0.05850471112329935
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.200-high-p0.50",
+      "uncertainty": 0.03422502129680803
+    },
+    {
+      "case_id": "v4_active_pool-merge-s127-d1.000-low-p0.50",
+      "uncertainty": 0.027889954528304083
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.500-bimodal-p0.50",
+      "uncertainty": 0.27676929596007893
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.500-bimodal-p1.00",
+      "uncertainty": 0.263316691231187
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.500-low-p1.00",
+      "uncertainty": 0.24940372664209184
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.500-high-p0.50",
+      "uncertainty": 0.24680447108868117
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.500-long_tail-p1.00",
+      "uncertainty": 0.24586879728396943
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.500-low-p0.50",
+      "uncertainty": 0.23982441866525012
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.500-high-p1.00",
+      "uncertainty": 0.2392175004525693
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d0.750-long_tail-p0.50",
+      "uncertainty": 0.23857995651059966
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.500-long_tail-p0.50",
+      "uncertainty": 0.2213467762966672
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d0.750-long_tail-p1.00",
+      "uncertainty": 0.2174709829677096
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.200-long_tail-p1.00",
+      "uncertainty": 0.214618189459775
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.000-long_tail-p0.50",
+      "uncertainty": 0.1976110831770469
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.000-long_tail-p1.00",
+      "uncertainty": 0.19608329075696085
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.200-long_tail-p0.50",
+      "uncertainty": 0.19508296140863982
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.200-bimodal-p1.00",
+      "uncertainty": 0.1889713364115344
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d0.750-low-p0.50",
+      "uncertainty": 0.18460807384138742
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d0.750-high-p0.50",
+      "uncertainty": 0.18347489617346696
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d0.750-high-p1.00",
+      "uncertainty": 0.1679195869016707
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.200-high-p0.50",
+      "uncertainty": 0.16492923349816815
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.200-bimodal-p0.50",
+      "uncertainty": 0.16028324207099712
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.200-high-p1.00",
+      "uncertainty": 0.15562235141456393
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d0.750-low-p1.00",
+      "uncertainty": 0.15346348392390685
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.200-low-p0.50",
+      "uncertainty": 0.13325894371394192
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s107-d1.000-bimodal-p1.00",
+      "uncertainty": 0.12210845742629794
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.500-high-p1.00",
+      "uncertainty": 0.25655620587768085
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.500-low-p1.00",
+      "uncertainty": 0.25423789413728937
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.500-bimodal-p1.00",
+      "uncertainty": 0.2433340118076151
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.500-bimodal-p0.50",
+      "uncertainty": 0.2372416062152234
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.500-high-p0.50",
+      "uncertainty": 0.2371914555923273
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.500-low-p0.50",
+      "uncertainty": 0.23568755912317896
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d0.750-long_tail-p0.50",
+      "uncertainty": 0.21450879447881444
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.500-long_tail-p1.00",
+      "uncertainty": 0.20637600331832787
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.500-long_tail-p0.50",
+      "uncertainty": 0.2021289256138571
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d0.750-long_tail-p1.00",
+      "uncertainty": 0.1953757277547293
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.200-long_tail-p1.00",
+      "uncertainty": 0.19520697343539262
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d0.750-high-p0.50",
+      "uncertainty": 0.18865645607540293
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d0.750-low-p0.50",
+      "uncertainty": 0.18692101939255482
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.200-long_tail-p0.50",
+      "uncertainty": 0.16637731346783177
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.000-long_tail-p1.00",
+      "uncertainty": 0.16627966750981002
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d0.750-bimodal-p0.50",
+      "uncertainty": 0.1662354526827691
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.200-bimodal-p1.00",
+      "uncertainty": 0.15537249996284844
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.200-bimodal-p0.50",
+      "uncertainty": 0.1542554809243191
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.000-long_tail-p0.50",
+      "uncertainty": 0.15281804925811276
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.200-high-p0.50",
+      "uncertainty": 0.1453292577897828
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d0.750-bimodal-p1.00",
+      "uncertainty": 0.1397660226488898
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d0.750-low-p1.00",
+      "uncertainty": 0.13553890118805081
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.200-low-p0.50",
+      "uncertainty": 0.13162126329957652
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s109-d1.200-high-p1.00",
+      "uncertainty": 0.1312682090302283
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.500-bimodal-p1.00",
+      "uncertainty": 0.27318706510905155
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.500-high-p1.00",
+      "uncertainty": 0.266570614362492
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.500-bimodal-p0.50",
+      "uncertainty": 0.2627923925440782
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.500-high-p0.50",
+      "uncertainty": 0.26014301319493444
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.500-low-p1.00",
+      "uncertainty": 0.24484585115077753
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.500-low-p0.50",
+      "uncertainty": 0.2367126019631692
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.500-long_tail-p0.50",
+      "uncertainty": 0.20773201101282643
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.500-long_tail-p1.00",
+      "uncertainty": 0.19679602893272366
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d0.750-long_tail-p1.00",
+      "uncertainty": 0.19434754447441435
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d0.750-long_tail-p0.50",
+      "uncertainty": 0.18844507657607223
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d0.750-low-p0.50",
+      "uncertainty": 0.18609947240559005
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.200-long_tail-p1.00",
+      "uncertainty": 0.17218701692959468
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d0.750-high-p0.50",
+      "uncertainty": 0.16713305648685917
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.200-long_tail-p0.50",
+      "uncertainty": 0.16457686486166154
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d0.750-bimodal-p0.50",
+      "uncertainty": 0.16188977254665404
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d0.750-low-p1.00",
+      "uncertainty": 0.15832966663646308
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.000-long_tail-p1.00",
+      "uncertainty": 0.1554160839911932
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.200-bimodal-p1.00",
+      "uncertainty": 0.13993039717673408
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d0.750-high-p1.00",
+      "uncertainty": 0.1332644578680038
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.200-low-p0.50",
+      "uncertainty": 0.1313554768657627
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d0.750-bimodal-p1.00",
+      "uncertainty": 0.1288818120220491
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.200-bimodal-p0.50",
+      "uncertainty": 0.12736112841199237
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.000-long_tail-p0.50",
+      "uncertainty": 0.12609682766407146
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s113-d1.200-high-p0.50",
+      "uncertainty": 0.12371344131149574
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.500-low-p1.00",
+      "uncertainty": 0.253611950788321
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.500-high-p1.00",
+      "uncertainty": 0.2515299278550255
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.500-bimodal-p1.00",
+      "uncertainty": 0.25046407147484284
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.500-high-p0.50",
+      "uncertainty": 0.24411840881130414
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.500-low-p0.50",
+      "uncertainty": 0.244113086584468
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.500-long_tail-p1.00",
+      "uncertainty": 0.2226433449684912
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.500-bimodal-p0.50",
+      "uncertainty": 0.21510368534259805
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d0.750-long_tail-p1.00",
+      "uncertainty": 0.20634781580351283
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d0.750-bimodal-p0.50",
+      "uncertainty": 0.18916684127999808
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.500-long_tail-p0.50",
+      "uncertainty": 0.1830289721179763
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d0.750-high-p0.50",
+      "uncertainty": 0.1654226865632152
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d0.750-low-p0.50",
+      "uncertainty": 0.16228834463532574
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.200-long_tail-p1.00",
+      "uncertainty": 0.15151902692808725
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d0.750-bimodal-p1.00",
+      "uncertainty": 0.14467112342157376
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.200-high-p0.50",
+      "uncertainty": 0.1414387677866621
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d0.750-low-p1.00",
+      "uncertainty": 0.13607263944974465
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.200-high-p1.00",
+      "uncertainty": 0.13469083820490707
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d0.750-high-p1.00",
+      "uncertainty": 0.13324481539747673
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.200-bimodal-p1.00",
+      "uncertainty": 0.13129401651494774
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.200-low-p1.00",
+      "uncertainty": 0.125718723731501
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.200-low-p0.50",
+      "uncertainty": 0.12325566544183804
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.000-long_tail-p1.00",
+      "uncertainty": 0.12315247056885945
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d1.200-bimodal-p0.50",
+      "uncertainty": 0.12185238751805988
+    },
+    {
+      "case_id": "v4_active_pool-signalized-s127-d0.750-long_tail-p0.50",
+      "uncertainty": 0.08269445027611745
+    }
+  ],
+  "target_blind_selection": true
+}

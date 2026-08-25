@@ -1,0 +1,11 @@
+{
+  "calibration_false_safe_metrics": {
+    "false_safe_count": 0,
+    "false_safe_rate": 0.0,
+    "predicted_safe_count": 85,
+    "unsafe_count": 2
+  },
+  "complete": true,
+  "final_holdout_used": false,
+  "upper_adjustment": 0.02932293849081602
+}

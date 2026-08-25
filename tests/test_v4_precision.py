@@ -66,6 +66,33 @@ class V4PrecisionTests(unittest.TestCase):
         self.assertGreater(low_risk, high_risk)
         self.assertGreaterEqual(risk_adjusted_esiv(0.7, -0.1, 0.2), 0.0)
 
+    def test_zero_esiv_never_intervenes(self):
+        policy = PrecisionConstrainedPolicy(
+            "V4-E",
+            probability_threshold=0.0,
+            benefit_threshold=0.0,
+            safety_delta=0.25,
+            safety_probability_threshold=0.20,
+            esiv_threshold=0.0,
+            use_esiv=True,
+        )
+        decision = policy.decide(
+            V4DecisionInputs(
+                case_id="zero-esiv",
+                success_probability=0.9,
+                success_probability_lower=0.8,
+                expected_benefit=0.0,
+                benefit_lower=0.0,
+                safety_difference_upper=0.0,
+                safety_failure_probability=0.0,
+                safety_failure_probability_upper=0.0,
+                esiv=0.0,
+                esiv_lower=0.0,
+                legal=True,
+            )
+        )
+        self.assertFalse(decision.intervene)
+
     def test_predicted_unsafe_never_intervenes(self):
         policy = PrecisionConstrainedPolicy(
             "V4-P",

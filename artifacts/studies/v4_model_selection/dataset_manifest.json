@@ -1,0 +1,60 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 3.804043,
+  "end_timestamp_utc": "2026-08-25T05:47:21.050896+00:00",
+  "git_commit": "b02b9ce62afb59f368547de8e0107f2161797421",
+  "git_dirty": true,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "artifacts/studies/v3_feasibility_prediction/raw_metrics.json": "654498460e4b5d7e2d03c31dd0f8e895084fb0fb6350191230d467b20698af8c",
+    "artifacts/studies/v3_selective_holdout/raw_metrics.json": "a6538a07983f371e29e12b52bc5761b327ce276708d0a8a6ac7d29628b538d38",
+    "canonical_config": "24a71f10e96693e2a7d4f5bfb7668952e5e3421e7855e6bd33b68db77dfb9c04",
+    "configs/v4/feature_schema.yaml": "950300522172c674ab3a7983b3ecb5139230c66f347b2c78119f1d52f34a67e8",
+    "configs/v4/preregistration.yaml": "f9cc453ba37e4fac0633fe1b7bf02b95af245d567d64e2476caba5becff59222",
+    "configs/v4/splits.yaml": "cac60115d25542799eda490353b316955c5b225caf6ebd496d37ea4ce0e162d9"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/v4_model_selection/active_design.json": "294361a0b9719aaa37d4cc3608c99bec39e2f8a3883fd9ddfdb0b11b8b9210db",
+    "artifacts/studies/v4_model_selection/dataset_summary.json": "fd38716ce81848d7cf3e8db982edc1a97ebaabbb968ba15e351788205b7ba385",
+    "artifacts/studies/v4_model_selection/feature_schema.json": "c55dea729a18e9e04e4e77354ecf931db5ae1532e351e697b0a4c50ef9b62a12",
+    "artifacts/studies/v4_model_selection/raw_metrics.json": "a6fa410c797e9243d4c50d980911c53b98ded74dcaaa93e1207e5861a5952293",
+    "artifacts/studies/v4_model_selection/split_manifest.json": "d58952fa838d15cce641fad06ae376a8386275acb52017225e43399cc573d9c5",
+    "config.json": "24a71f10e96693e2a7d4f5bfb7668952e5e3421e7855e6bd33b68db77dfb9c04",
+    "metrics.json": "fd38716ce81848d7cf3e8db982edc1a97ebaabbb968ba15e351788205b7ba385"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T054717.246853Z-43c7346aac",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    97,
+    101,
+    107,
+    109,
+    113,
+    127
+  ],
+  "simulator_version": "analytical-no-sumo",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T05:47:17.246853+00:00",
+  "status": "valid"
+}

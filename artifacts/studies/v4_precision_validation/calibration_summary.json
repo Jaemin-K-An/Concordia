@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "ece_target": 0.05,
+  "ece_target_met": false,
+  "final_holdout_used": false,
+  "selected_brier_score": 0.1343407666628421,
+  "selected_ece": 0.09269568151147102,
+  "selected_method": "isotonic"
+}

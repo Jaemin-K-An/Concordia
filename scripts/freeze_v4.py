@@ -57,6 +57,8 @@ def run() -> Path:
         "version": "concordia-v4-frozen-model-1",
         "frozen_before_final_holdout": True,
         "selected_policy": selection["selected_policy"],
+        "deployment_allowed": selection["deployment_allowed"],
+        "deployment_block_reason": selection["deployment_block_reason"],
         "selected_probability_model": json.loads(
             inputs["selected_base_model"].read_text(encoding="utf-8")
         )["name"],
@@ -75,6 +77,8 @@ def run() -> Path:
     threshold_payload = {
         "version": "concordia-v4-frozen-thresholds-1",
         "selected_policy": selection["selected_policy"],
+        "deployment_allowed": selection["deployment_allowed"],
+        "deployment_block_reason": selection["deployment_block_reason"],
         "final_operating_point": selection["selected_operating_point"],
         "policy_operating_points": selection["policy_operating_points"],
         "probability_threshold": selection["probability_threshold"],

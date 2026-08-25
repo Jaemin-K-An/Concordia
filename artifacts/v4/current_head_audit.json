@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "evidence_hashes": {
+    "FINAL_AUDIT_V2.md": "d170c625ea85bab35f51e4fce3c6dc0f90c967a2af1278a8f838521e4e050a2f",
+    "FINAL_AUDIT_V3.md": "28484a11d2f2f09808f8c184232de93d240f5f11bc3018b739e61adf9f5a5025",
+    "artifacts/studies/v3_feasibility_prediction/summary.json": "17fdcfcc1dc34cecc6e3b5d8ad2204c82bc4d2d9b3d17921130367518bc3abe1",
+    "artifacts/studies/v3_microscopic_selective/summary.json": "8a8b258aa5cb2b4f12c1a319f412be06e1b4a8d71d95a96c0780cc4b2de47155",
+    "artifacts/studies/v3_real_topology_selective/summary.json": "99f41c6126b24ab94d2f3907a72523f22e90d3e91473f216aac93eb2ea3df707",
+    "artifacts/studies/v3_selective_holdout/summary.json": "90b57e2a54f0b6b9c359cbd323355b705e6f9aa0c7aeba765fcea8b6b2207b62",
+    "artifacts/studies/v3_tail_robustness/summary.json": "5542ae7d9994b05fee43fc4771302caba886f884ccf0fa9720945becc9c09d1f",
+    "configs/v3/frozen_thresholds.yaml": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0"
+  },
+  "rl_used": false,
+  "starting_head": "b02b9ce62afb59f368547de8e0107f2161797421",
+  "v3_coverage": 0.052083333333333336,
+  "v3_holdout_role_v4": "historical development only",
+  "v3_outcome_preserved": true,
+  "v3_precision": 0.5333333333333333,
+  "v4_final_holdout_materialized": false
+}

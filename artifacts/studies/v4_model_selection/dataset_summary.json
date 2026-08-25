@@ -1,0 +1,27 @@
+{
+  "active_pool_count": 512,
+  "active_selected_count": 384,
+  "active_selection_rule": "top 24 v3 ensemble uncertainty cases within each seed-scenario group; labels unused",
+  "case_count": 1032,
+  "complete": true,
+  "feature_schema_hash": "044bdff93e8f4faaef57bebdf886ee1639fb3561098d1f77eed45f0a4e95cfa3",
+  "final_holdout_materialized": false,
+  "label_counts": {
+    "INFEASIBLE": 52,
+    "TRADEOFF": 592,
+    "WIN": 388
+  },
+  "role_counts": {
+    "calibration_evaluation": 96,
+    "calibration_fit": 96,
+    "training": 744,
+    "validation": 96
+  },
+  "source_counts": {
+    "active_uncertainty_design": 384,
+    "artifacts/studies/v3_feasibility_prediction/raw_metrics.json": 360,
+    "artifacts/studies/v3_selective_holdout/raw_metrics.json": 288
+  },
+  "split_hash": "c9aff722eafe1dd91267f45ebe99a9f8ab9254ff2f331ae2624e18664d658e8a",
+  "study": "Study X \u2014 Robust Feasibility Model Selection dataset"
+}

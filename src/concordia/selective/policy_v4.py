@@ -33,7 +33,10 @@ class PrecisionConstrainedPolicy:
     def decide(self, inputs: V4DecisionInputs) -> SelectiveDecision:
         if self.use_esiv:
             primary_checks = (
-                (inputs.esiv_lower >= self.esiv_threshold, "ESIV lower bound below threshold"),
+                (
+                    inputs.esiv_lower > max(0.0, self.esiv_threshold),
+                    "ESIV lower bound is nonpositive or below threshold",
+                ),
             )
         else:
             primary_checks = (

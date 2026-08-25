@@ -1,0 +1,515 @@
+{
+  "final_holdout_used": false,
+  "objective": [
+    "worst-group precision >= 0.80",
+    "p10 group precision >= 0.80",
+    "maximize coverage",
+    "minimize ECE",
+    "maximize selected mean TTT gain"
+  ],
+  "selected_metrics": {
+    "calibration": {
+      "brier_score": 0.23036343388425953,
+      "curve": [
+        {
+          "count": 756,
+          "lower": 0.0,
+          "mean_probability": 0.03355031996706627,
+          "observed_rate": 0.021164021164021163,
+          "upper": 0.1
+        },
+        {
+          "count": 213,
+          "lower": 0.1,
+          "mean_probability": 0.14583418055655217,
+          "observed_rate": 0.22065727699530516,
+          "upper": 0.2
+        },
+        {
+          "count": 254,
+          "lower": 0.2,
+          "mean_probability": 0.25174539826365844,
+          "observed_rate": 0.3228346456692913,
+          "upper": 0.30000000000000004
+        },
+        {
+          "count": 264,
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.34911134732447,
+          "observed_rate": 0.42803030303030304,
+          "upper": 0.4
+        },
+        {
+          "count": 302,
+          "lower": 0.4,
+          "mean_probability": 0.450641186227736,
+          "observed_rate": 0.5231788079470199,
+          "upper": 0.5
+        },
+        {
+          "count": 258,
+          "lower": 0.5,
+          "mean_probability": 0.548009613166216,
+          "observed_rate": 0.49612403100775193,
+          "upper": 0.6000000000000001
+        },
+        {
+          "count": 360,
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6508984731167707,
+          "observed_rate": 0.5555555555555556,
+          "upper": 0.7000000000000001
+        },
+        {
+          "count": 407,
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.7480618726495603,
+          "observed_rate": 0.5724815724815725,
+          "upper": 0.8
+        },
+        {
+          "count": 423,
+          "lower": 0.8,
+          "mean_probability": 0.8505711226918382,
+          "observed_rate": 0.5555555555555556,
+          "upper": 0.9
+        },
+        {
+          "count": 483,
+          "lower": 0.9,
+          "mean_probability": 0.9524033383462782,
+          "observed_rate": 0.5652173913043478,
+          "upper": 1.0
+        }
+      ],
+      "ece": 0.1389979855780492,
+      "high_probability_around_0_8_count": 412,
+      "high_probability_around_0_8_observed_rate": 0.5097087378640777
+    },
+    "family_worst_precision": {
+      "CV-A_seed": 0.7586206896551724,
+      "CV-B_demand_band": 0.6959459459459459,
+      "CV-C_preference": 0.5857142857142857,
+      "CV-D_scenario": 0.0,
+      "CV-E_topology": 0.36637931034482757
+    },
+    "fold_count": 24,
+    "folds": [
+      {
+        "coverage": 0.22916666666666666,
+        "family": "CV-A_seed",
+        "group": "107",
+        "intervention_count": 22,
+        "mean_relative_ttt_gain": 0.04376190129347593,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.7727272727272727,
+        "precision_ci95": [
+          0.5656004682477829,
+          0.8987696001475147
+        ],
+        "success_count": 17,
+        "threshold": 0.55,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 0.3125,
+        "family": "CV-A_seed",
+        "group": "109",
+        "intervention_count": 30,
+        "mean_relative_ttt_gain": 0.04322335965347408,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8,
+        "precision_ci95": [
+          0.6269430358685175,
+          0.9049489282271013
+        ],
+        "success_count": 24,
+        "threshold": 0.5,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.4444444444444444,
+        "family": "CV-A_seed",
+        "group": "11",
+        "intervention_count": 32,
+        "mean_relative_ttt_gain": 0.04252575710494553,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8125,
+        "precision_ci95": [
+          0.6469084479862404,
+          0.9111045531043405
+        ],
+        "success_count": 26,
+        "threshold": 0.5,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.5,
+        "family": "CV-A_seed",
+        "group": "23",
+        "intervention_count": 36,
+        "mean_relative_ttt_gain": 0.03516680222771245,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8055555555555556,
+        "precision_ci95": [
+          0.6497195700482261,
+          0.9024690458107127
+        ],
+        "success_count": 29,
+        "threshold": 0.6,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.4166666666666667,
+        "family": "CV-A_seed",
+        "group": "37",
+        "intervention_count": 30,
+        "mean_relative_ttt_gain": 0.03105425762851641,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8,
+        "precision_ci95": [
+          0.6269430358685175,
+          0.9049489282271013
+        ],
+        "success_count": 24,
+        "threshold": 0.6,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.4027777777777778,
+        "family": "CV-A_seed",
+        "group": "53",
+        "intervention_count": 29,
+        "mean_relative_ttt_gain": 0.03115387408318325,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.7586206896551724,
+        "precision_ci95": [
+          0.5789239838218867,
+          0.8778157755747991
+        ],
+        "success_count": 22,
+        "threshold": 0.6,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 0.19444444444444445,
+        "family": "CV-A_seed",
+        "group": "71",
+        "intervention_count": 14,
+        "mean_relative_ttt_gain": 0.03234387347788987,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8571428571428571,
+        "precision_ci95": [
+          0.6005862050302965,
+          0.9599060787285351
+        ],
+        "success_count": 12,
+        "threshold": 0.8,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.19791666666666666,
+        "family": "CV-A_seed",
+        "group": "89",
+        "intervention_count": 19,
+        "mean_relative_ttt_gain": 0.06669917416918272,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8421052631578947,
+        "precision_ci95": [
+          0.6243452472967093,
+          0.9447952836146585
+        ],
+        "success_count": 16,
+        "threshold": 0.7,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.20833333333333334,
+        "family": "CV-A_seed",
+        "group": "97",
+        "intervention_count": 20,
+        "mean_relative_ttt_gain": 0.06152879145284371,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8,
+        "precision_ci95": [
+          0.5839825677481064,
+          0.919342337420202
+        ],
+        "success_count": 16,
+        "threshold": 0.6,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.6037735849056604,
+        "family": "CV-B_demand_band",
+        "group": "high",
+        "intervention_count": 64,
+        "mean_relative_ttt_gain": 0.032881180033384416,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.84375,
+        "precision_ci95": [
+          0.7357193822745122,
+          0.912851576617934
+        ],
+        "success_count": 54,
+        "threshold": 0.1,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.18787878787878787,
+        "family": "CV-B_demand_band",
+        "group": "low",
+        "intervention_count": 31,
+        "mean_relative_ttt_gain": 0.027435749932905183,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8064516129032258,
+        "precision_ci95": [
+          0.6371974218820453,
+          0.908129916384139
+        ],
+        "success_count": 25,
+        "threshold": 0.55,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.3128964059196617,
+        "family": "CV-B_demand_band",
+        "group": "middle",
+        "intervention_count": 148,
+        "mean_relative_ttt_gain": 0.0309735580537069,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.6959459459459459,
+        "precision_ci95": [
+          0.6176538029488693,
+          0.7643235598245665
+        ],
+        "success_count": 103,
+        "threshold": 0.85,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 0.40229885057471265,
+        "family": "CV-C_preference",
+        "group": "bimodal",
+        "intervention_count": 70,
+        "mean_relative_ttt_gain": 0.03942357694075948,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.5857142857142857,
+        "precision_ci95": [
+          0.46881211784560456,
+          0.6936982143126353
+        ],
+        "success_count": 41,
+        "threshold": 0.6,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 0.49707602339181284,
+        "family": "CV-C_preference",
+        "group": "high",
+        "intervention_count": 85,
+        "mean_relative_ttt_gain": 0.044305430365312724,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8,
+        "precision_ci95": [
+          0.7028462911516961,
+          0.8712100185598731
+        ],
+        "success_count": 68,
+        "threshold": 0.3,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.33516483516483514,
+        "family": "CV-C_preference",
+        "group": "long_tail",
+        "intervention_count": 61,
+        "mean_relative_ttt_gain": 0.03914220865866003,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.6721311475409836,
+        "precision_ci95": [
+          0.5472180631353664,
+          0.7766488020144636
+        ],
+        "success_count": 41,
+        "threshold": 0.75,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 0.4329896907216495,
+        "family": "CV-C_preference",
+        "group": "low",
+        "intervention_count": 42,
+        "mean_relative_ttt_gain": 0.04673341772704004,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8333333333333334,
+        "precision_ci95": [
+          0.6939599725535115,
+          0.9168408335360192
+        ],
+        "success_count": 35,
+        "threshold": 0.6,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.5833333333333334,
+        "family": "CV-C_preference",
+        "group": "medium",
+        "intervention_count": 35,
+        "mean_relative_ttt_gain": 0.04375423316044467,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8285714285714286,
+        "precision_ci95": [
+          0.6731771770095504,
+          0.9189735994629841
+        ],
+        "success_count": 29,
+        "threshold": 0.45,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.5,
+        "family": "CV-C_preference",
+        "group": "none",
+        "intervention_count": 30,
+        "mean_relative_ttt_gain": 0.031780118339364,
+        "meets_coverage_guard": true,
+        "meets_precision": true,
+        "precision": 0.8333333333333334,
+        "precision_ci95": [
+          0.6643564949358398,
+          0.9266345762815145
+        ],
+        "success_count": 25,
+        "threshold": 0.15,
+        "threshold_feasible": true
+      },
+      {
+        "coverage": 0.6075268817204301,
+        "family": "CV-D_scenario",
+        "group": "merge",
+        "intervention_count": 113,
+        "mean_relative_ttt_gain": 0.0358950961994575,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.7876106194690266,
+        "precision_ci95": [
+          0.7033939238268223,
+          0.8529154603255062
+        ],
+        "success_count": 89,
+        "threshold": 0.65,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 1.0,
+        "family": "CV-D_scenario",
+        "group": "ring",
+        "intervention_count": 186,
+        "mean_relative_ttt_gain": 0.0,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.0,
+        "precision_ci95": [
+          0.0,
+          0.020235089029327337
+        ],
+        "success_count": 0,
+        "threshold": 0.05,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 0.5161290322580645,
+        "family": "CV-D_scenario",
+        "group": "signalized",
+        "intervention_count": 96,
+        "mean_relative_ttt_gain": -0.013864960507121752,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.4166666666666667,
+        "precision_ci95": [
+          0.32311561071330697,
+          0.5166303205963058
+        ],
+        "success_count": 40,
+        "threshold": 0.55,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 0.8279569892473119,
+        "family": "CV-D_scenario",
+        "group": "two_route",
+        "intervention_count": 154,
+        "mean_relative_ttt_gain": 0.03606157577717814,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.6623376623376623,
+        "precision_ci95": [
+          0.5845044730415633,
+          0.7322690817239143
+        ],
+        "success_count": 102,
+        "threshold": 0.1,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 0.8467741935483871,
+        "family": "CV-E_topology",
+        "group": "constrained",
+        "intervention_count": 315,
+        "mean_relative_ttt_gain": -0.010028514517972088,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.5301587301587302,
+        "precision_ci95": [
+          0.4750119966833634,
+          0.584578748103327
+        ],
+        "success_count": 167,
+        "threshold": 0.5,
+        "threshold_feasible": false
+      },
+      {
+        "coverage": 0.6236559139784946,
+        "family": "CV-E_topology",
+        "group": "distributed",
+        "intervention_count": 232,
+        "mean_relative_ttt_gain": 0.017906253972726344,
+        "meets_coverage_guard": true,
+        "meets_precision": false,
+        "precision": 0.36637931034482757,
+        "precision_ci95": [
+          0.3070253256415104,
+          0.4300862055115535
+        ],
+        "success_count": 85,
+        "threshold": 0.65,
+        "threshold_feasible": false
+      }
+    ],
+    "mean_coverage": 0.46598768844346417,
+    "mean_selected_gain": 0.03291069646779456,
+    "median_group_precision": 0.8,
+    "p10_group_precision": 0.45071428571428573,
+    "worst_group_precision": 0.0
+  },
+  "selected_model": "M1_logistic",
+  "target_met_in_robust_cv": false
+}

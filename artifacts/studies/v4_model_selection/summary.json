@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "ece": 0.1389979855780492,
+  "final_holdout_used": false,
+  "mean_coverage": 0.46598768844346417,
+  "p10_group_precision": 0.45071428571428573,
+  "selected_model": "M1_logistic",
+  "study": "Study X \u2014 Robust Feasibility Model Selection",
+  "worst_group_precision": 0.0
+}

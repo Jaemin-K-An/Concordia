@@ -1,0 +1,85 @@
+{
+  "H19_interaction": {
+    "approximate_ci95": [
+      -0.46139326391821667,
+      1.1828913902942326
+    ],
+    "incremental_information": 0.0023993243488296123,
+    "interaction": "heterogeneity_rad_interaction",
+    "standardized_coefficient": 0.36074906318800803,
+    "supports_H19": true,
+    "validation_log_loss_full": 0.39660987202540493,
+    "validation_log_loss_reduced": 0.39900919637423454
+  },
+  "H20_ESIV_better": false,
+  "H20_ESIV_coverage_at_precision80": 0.041666666666666664,
+  "H20_probability_coverage_at_precision80": 0.041666666666666664,
+  "calibration": {
+    "brier_score": 0.13577493150037792,
+    "curve": [
+      {
+        "count": 38,
+        "lower": 0.0,
+        "mean_probability": 0.0,
+        "observed_rate": 0.0,
+        "upper": 0.1
+      },
+      {
+        "count": 4,
+        "lower": 0.1,
+        "mean_probability": 0.13333333333333333,
+        "observed_rate": 0.25,
+        "upper": 0.2
+      },
+      {
+        "count": 8,
+        "lower": 0.2,
+        "mean_probability": 0.21428571428571427,
+        "observed_rate": 0.125,
+        "upper": 0.30000000000000004
+      },
+      {
+        "count": 18,
+        "lower": 0.5,
+        "mean_probability": 0.5142857142857142,
+        "observed_rate": 0.5,
+        "upper": 0.6000000000000001
+      },
+      {
+        "count": 15,
+        "lower": 0.6000000000000001,
+        "mean_probability": 0.625,
+        "observed_rate": 0.6666666666666666,
+        "upper": 0.7000000000000001
+      },
+      {
+        "count": 5,
+        "lower": 0.8,
+        "mean_probability": 0.875,
+        "observed_rate": 0.6,
+        "upper": 0.9
+      },
+      {
+        "count": 8,
+        "lower": 0.9,
+        "mean_probability": 0.9375,
+        "observed_rate": 0.75,
+        "upper": 1.0
+      }
+    ],
+    "ece": 0.05143849206349205,
+    "high_probability_around_0_8_count": 0,
+    "high_probability_around_0_8_observed_rate": null
+  },
+  "latency": {
+    "batch_seconds": 0.0032962080000000227,
+    "mean_per_case_seconds": 0.0015558277187500038,
+    "p95_per_case_seconds": 0.001722104000000002
+  },
+  "safety_false_safe": {
+    "false_safe_count": 0,
+    "false_safe_rate": 0.0,
+    "predicted_safe_count": 78,
+    "unsafe_count": 6
+  }
+}
