@@ -1,0 +1,486 @@
+[
+  {
+    "case_id": "micro-s131-d800-p0.5-low",
+    "computed_values": {
+      "benefit_lower": -0.09474502485375591,
+      "esiv": 0.00041144300135350465,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.001961640687101501,
+      "safety_difference_upper": 0.11203107965467289,
+      "safety_failure_probability": 0.021193151082750356,
+      "safety_failure_probability_upper": 0.07119315108275036
+    },
+    "explanation": [
+      "P(success)=0.214",
+      "expected benefit=0.0020",
+      "benefit lower=-0.0947",
+      "safety failure probability=0.021",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.21428571428571427,
+    "p_win_lower": 0.0,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_beneficial",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.21428571428571427
+  },
+  {
+    "case_id": "micro-s131-d800-p0.5-high",
+    "computed_values": {
+      "benefit_lower": -0.04974742756035094,
+      "esiv": 0.005420644926490631,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.011125382057178607,
+      "safety_difference_upper": 0.3204162105409217,
+      "safety_failure_probability": 0.05260395926630782,
+      "safety_failure_probability_upper": 0.10260395926630783
+    },
+    "explanation": [
+      "P(success)=0.514",
+      "expected benefit=0.0111",
+      "benefit lower=-0.0497",
+      "safety failure probability=0.053",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.5142857142857142,
+    "p_win_lower": 0.13333333333333333,
+    "reasons": [
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "regime": "potentially_beneficial",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.38095238095238093
+  },
+  {
+    "case_id": "micro-s131-d1200-p0.5-high",
+    "computed_values": {
+      "benefit_lower": -0.04607845556535617,
+      "esiv": 0.0077577449684039755,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.015497740887062766,
+      "safety_difference_upper": 0.17524212367040787,
+      "safety_failure_probability": 0.026664323842049538,
+      "safety_failure_probability_upper": 0.07666432384204955
+    },
+    "explanation": [
+      "P(success)=0.514",
+      "expected benefit=0.0155",
+      "benefit lower=-0.0461",
+      "safety failure probability=0.027",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.5142857142857142,
+    "p_win_lower": 0.21428571428571427,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_beneficial",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.29999999999999993
+  },
+  {
+    "case_id": "micro-s131-d1600-p1.0-low",
+    "computed_values": {
+      "benefit_lower": -0.02881789735441398,
+      "esiv": 0.02176732229549501,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.021998643220174526,
+      "safety_difference_upper": 0.04551830113265523,
+      "safety_failure_probability": 0.010515235979070508,
+      "safety_failure_probability_upper": 0.06051523597907051
+    },
+    "explanation": [
+      "P(success)=1.000",
+      "expected benefit=0.0220",
+      "benefit lower=-0.0288",
+      "safety failure probability=0.011",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 1.0,
+    "p_win_lower": 0.9965325124850841,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_risky",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.003467487514915879
+  },
+  {
+    "case_id": "micro-s131-d1600-p1.0-high",
+    "computed_values": {
+      "benefit_lower": -0.013875177143427675,
+      "esiv": 0.045794317726765,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.04613334469397828,
+      "safety_difference_upper": 0.05957369236103161,
+      "safety_failure_probability": 0.007348848635670833,
+      "safety_failure_probability_upper": 0.057348848635670836
+    },
+    "explanation": [
+      "P(success)=1.000",
+      "expected benefit=0.0461",
+      "benefit lower=-0.0139",
+      "safety failure probability=0.007",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 1.0,
+    "p_win_lower": 0.9719237498547182,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_risky",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.02807625014528181
+  },
+  {
+    "case_id": "micro-s137-d800-p0.5-low",
+    "computed_values": {
+      "benefit_lower": -0.09530536394865263,
+      "esiv": 0.0004118492309203496,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.001961640687101501,
+      "safety_difference_upper": 0.11203107965467289,
+      "safety_failure_probability": 0.02022674679114133,
+      "safety_failure_probability_upper": 0.07022674679114133
+    },
+    "explanation": [
+      "P(success)=0.214",
+      "expected benefit=0.0020",
+      "benefit lower=-0.0953",
+      "safety failure probability=0.020",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.21428571428571427,
+    "p_win_lower": 0.0,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_beneficial",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.21428571428571427
+  },
+  {
+    "case_id": "micro-s137-d800-p0.5-high",
+    "computed_values": {
+      "benefit_lower": -0.053523874162324736,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.018361507151713037,
+      "safety_difference_upper": 0.3204162105409217,
+      "safety_failure_probability": 0.1761579534059662,
+      "safety_failure_probability_upper": 0.22615795340596623
+    },
+    "explanation": [
+      "P(success)=0.000",
+      "expected benefit=0.0184",
+      "benefit lower=-0.0535",
+      "safety failure probability=0.176",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.0,
+    "p_win_lower": 0.0,
+    "reasons": [
+      "calibrated success probability below threshold",
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin",
+      "safety-failure probability exceeds threshold"
+    ],
+    "regime": "potentially_beneficial",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0
+  },
+  {
+    "case_id": "micro-s137-d1200-p0.5-high",
+    "computed_values": {
+      "benefit_lower": -0.05427533801770362,
+      "esiv": 0.007019222630858733,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.03694123514570101,
+      "safety_difference_upper": 0.3204162105409217,
+      "safety_failure_probability": 0.11328432446437213,
+      "safety_failure_probability_upper": 0.16328432446437213
+    },
+    "explanation": [
+      "P(success)=0.214",
+      "expected benefit=0.0369",
+      "benefit lower=-0.0543",
+      "safety failure probability=0.113",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.21428571428571427,
+    "p_win_lower": 0.13333333333333333,
+    "reasons": [
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "regime": "potentially_beneficial",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.08095238095238094
+  },
+  {
+    "case_id": "micro-s137-d1600-p1.0-low",
+    "computed_values": {
+      "benefit_lower": -0.029913267566872737,
+      "esiv": 0.02177742791542604,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.021998643220174526,
+      "safety_difference_upper": 0.04551830113265523,
+      "safety_failure_probability": 0.010055861288100444,
+      "safety_failure_probability_upper": 0.06005586128810045
+    },
+    "explanation": [
+      "P(success)=1.000",
+      "expected benefit=0.0220",
+      "benefit lower=-0.0299",
+      "safety failure probability=0.010",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 1.0,
+    "p_win_lower": 0.9967995410002743,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_risky",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0032004589997256527
+  },
+  {
+    "case_id": "micro-s137-d1600-p1.0-high",
+    "computed_values": {
+      "benefit_lower": -0.015769020092834152,
+      "esiv": 0.06423201218476284,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.07371527208209841,
+      "safety_difference_upper": 0.17229552947824717,
+      "safety_failure_probability": 0.03183017017112744,
+      "safety_failure_probability_upper": 0.08183017017112745
+    },
+    "explanation": [
+      "P(success)=0.900",
+      "expected benefit=0.0737",
+      "benefit lower=-0.0158",
+      "safety failure probability=0.032",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.9,
+    "p_win_lower": 0.8461017436239645,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_risky",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.053898256376035514
+  },
+  {
+    "case_id": "micro-s149-d800-p0.5-low",
+    "computed_values": {
+      "benefit_lower": -0.09506091103854741,
+      "esiv": 0.00041116853668405283,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.001961640687101501,
+      "safety_difference_upper": 0.1422590366439202,
+      "safety_failure_probability": 0.021846091823901653,
+      "safety_failure_probability_upper": 0.07184609182390166
+    },
+    "explanation": [
+      "P(success)=0.214",
+      "expected benefit=0.0020",
+      "benefit lower=-0.0951",
+      "safety failure probability=0.022",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.21428571428571427,
+    "p_win_lower": 0.0,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_beneficial",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.21428571428571427
+  },
+  {
+    "case_id": "micro-s149-d800-p0.5-high",
+    "computed_values": {
+      "benefit_lower": -0.0546854487838373,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.03157818268859184,
+      "safety_difference_upper": 0.3204162105409217,
+      "safety_failure_probability": 0.04895401429911966,
+      "safety_failure_probability_upper": 0.09895401429911965
+    },
+    "explanation": [
+      "P(success)=0.133",
+      "expected benefit=-0.0316",
+      "benefit lower=-0.0547",
+      "safety failure probability=0.049",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.13333333333333333,
+    "p_win_lower": 0.0,
+    "reasons": [
+      "benefit lower bound below threshold",
+      "safety UCB exceeds margin"
+    ],
+    "regime": "potentially_beneficial",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.13333333333333333
+  },
+  {
+    "case_id": "micro-s149-d1200-p0.5-high",
+    "computed_values": {
+      "benefit_lower": -0.052805988152482275,
+      "esiv": 0.0,
+      "esiv_lower": 0.0,
+      "expected_benefit": -0.012998454694603857,
+      "safety_difference_upper": 0.22276687614565485,
+      "safety_failure_probability": 0.03254762005980184,
+      "safety_failure_probability_upper": 0.08254762005980185
+    },
+    "explanation": [
+      "P(success)=0.214",
+      "expected benefit=-0.0130",
+      "benefit lower=-0.0528",
+      "safety failure probability=0.033",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 0.21428571428571427,
+    "p_win_lower": 0.13333333333333333,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_beneficial",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.08095238095238094
+  },
+  {
+    "case_id": "micro-s149-d1600-p1.0-low",
+    "computed_values": {
+      "benefit_lower": -0.028027370921710926,
+      "esiv": 0.02175959043536901,
+      "esiv_lower": 0.0,
+      "expected_benefit": 0.021998643220174526,
+      "safety_difference_upper": 0.04551830113265523,
+      "safety_failure_probability": 0.010866705842398844,
+      "safety_failure_probability_upper": 0.060866705842398845
+    },
+    "explanation": [
+      "P(success)=1.000",
+      "expected benefit=0.0220",
+      "benefit lower=-0.0280",
+      "safety failure probability=0.011",
+      "ESIV lower=0.000000"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": false,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "ABSTAIN",
+    "p_win": 1.0,
+    "p_win_lower": 0.9962913562890197,
+    "reasons": [
+      "benefit lower bound below threshold"
+    ],
+    "regime": "potentially_risky",
+    "selected_policy": "B1_ETA_BASELINE",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.0037086437109803416
+  },
+  {
+    "case_id": "micro-s149-d1600-p1.0-high",
+    "computed_values": {
+      "benefit_lower": 0.008108279480718128,
+      "esiv": 0.04879299551468388,
+      "esiv_lower": 0.006227146296043109,
+      "expected_benefit": 0.05576942260804717,
+      "safety_difference_upper": 0.19253891915640753,
+      "safety_failure_probability": 0.027882360522465482,
+      "safety_failure_probability_upper": 0.07788236052246549
+    },
+    "explanation": [
+      "P(success)=0.900",
+      "expected benefit=0.0558",
+      "benefit lower=0.0081",
+      "safety failure probability=0.028",
+      "ESIV lower=0.006227"
+    ],
+    "frozen_threshold": 0.05,
+    "intervene": true,
+    "model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "outcome": "PENDING_ACTUAL_SUMO",
+    "p_win": 0.9,
+    "p_win_lower": 0.8328638826375976,
+    "reasons": [],
+    "regime": "potentially_risky",
+    "selected_policy": "CONCORDIA_V4",
+    "threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "uncertainty": 0.06713611736240244
+  }
+]

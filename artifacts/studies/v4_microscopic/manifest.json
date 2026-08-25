@@ -1,0 +1,49 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 237.660059,
+  "end_timestamp_utc": "2026-08-25T05:58:12.024148+00:00",
+  "git_commit": "d8f09eb35aa1ea2314f5f58e4914ebc9023c61af",
+  "git_dirty": false,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "canonical_config": "70bd6e36f69f88ef518d852ebe1af75b75c44938e9a3d1ab5a76703e7714e858",
+    "configs/v4/frozen_model.yaml": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "configs/v4/frozen_thresholds.yaml": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+    "configs/v4/microscopic.yaml": "bd48d24de7d654e5dcc04bfc9cb7cb19d95f72fb7e46ac37ffc487fd5055f987"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/v4_microscopic/decision_log.json": "cd02446faeb4b35b870eb9a2c8b01aa36b2c6e104e6698aec31f201244a1af4c",
+    "artifacts/studies/v4_microscopic/figures/microscopic_v4_selectivity.png": "c68c01d93fdd739f097fe24c7ce469c34bc17aa687ba449d7eb690691ab9eca8",
+    "artifacts/studies/v4_microscopic/processed_metrics.json": "9309c38e388fa455e87f988d180c47d7455ff39579a1f5b29f2be9015506c726",
+    "artifacts/studies/v4_microscopic/raw_metrics.json": "71f117d5ef2b0dd7771a61f040b4c30c4178a67774a04d134ef5635f33c72847",
+    "artifacts/studies/v4_microscopic/summary.json": "7b44ac9f878fc636fbb8e1acbe06c8fda970a2caf401d23bd7b1214a5b7bb14a",
+    "config.json": "70bd6e36f69f88ef518d852ebe1af75b75c44938e9a3d1ab5a76703e7714e858",
+    "metrics.json": "7b44ac9f878fc636fbb8e1acbe06c8fda970a2caf401d23bd7b1214a5b7bb14a"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T055414.364089Z-3d1b0a9b2a",
+  "seeds": [
+    131,
+    137,
+    149
+  ],
+  "simulator_version": "Eclipse SUMO sumo 1.27.1",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T05:54:14.364089+00:00",
+  "status": "valid"
+}

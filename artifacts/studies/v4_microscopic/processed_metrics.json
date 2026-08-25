@@ -1,0 +1,384 @@
+{
+  "metrics": {
+    "B6": {
+      "case_count": 15,
+      "coverage": 1.0,
+      "coverage_ci95": [
+        0.7961166989641515,
+        1.0
+      ],
+      "failure_avoidance_rate": 0.0,
+      "intervention_count": 15,
+      "intervention_precision": 0.3333333333333333,
+      "intervention_precision_ci95": [
+        0.1517632443971473,
+        0.5828645226148023
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": -392.6666666666667,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.3333333333333333,
+      "regret_violation_count": 0,
+      "safety_violation_count": 9,
+      "successful_intervention_count": 5
+    },
+    "V4-F": {
+      "case_count": 15,
+      "coverage": 0.06666666666666667,
+      "coverage_ci95": [
+        0.011866895493268553,
+        0.2981652987378003
+      ],
+      "failure_avoidance_rate": 0.9,
+      "intervention_count": 1,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        0.7934506856227626
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 52.666666666666664,
+      "missed_opportunity_rate": 1.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 1,
+      "successful_intervention_count": 0
+    }
+  },
+  "policy": {
+    "B6": [
+      {
+        "case_id": "micro-s131-d800-p0.5-high",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": -362.0
+      },
+      {
+        "case_id": "micro-s131-d800-p0.5-low",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": -147.0
+      },
+      {
+        "case_id": "micro-s131-d1200-p0.5-high",
+        "counterfactual_success": true,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": true,
+        "system_ttt_gain": 573.0
+      },
+      {
+        "case_id": "micro-s131-d1600-p1.0-high",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": -2289.0
+      },
+      {
+        "case_id": "micro-s131-d1600-p1.0-low",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": -703.0
+      },
+      {
+        "case_id": "micro-s137-d800-p0.5-high",
+        "counterfactual_success": true,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": true,
+        "system_ttt_gain": 1094.0
+      },
+      {
+        "case_id": "micro-s137-d800-p0.5-low",
+        "counterfactual_success": true,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": true,
+        "system_ttt_gain": 1094.0
+      },
+      {
+        "case_id": "micro-s137-d1200-p0.5-high",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": false,
+        "system_ttt_gain": -437.0
+      },
+      {
+        "case_id": "micro-s137-d1600-p1.0-high",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": -2992.0
+      },
+      {
+        "case_id": "micro-s137-d1600-p1.0-low",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": -2897.0
+      },
+      {
+        "case_id": "micro-s149-d800-p0.5-high",
+        "counterfactual_success": true,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": true,
+        "system_ttt_gain": 1265.0
+      },
+      {
+        "case_id": "micro-s149-d800-p0.5-low",
+        "counterfactual_success": true,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": true,
+        "system_ttt_gain": 1233.0
+      },
+      {
+        "case_id": "micro-s149-d1200-p0.5-high",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": -2111.0
+      },
+      {
+        "case_id": "micro-s149-d1600-p1.0-high",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 790.0
+      },
+      {
+        "case_id": "micro-s149-d1600-p1.0-low",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": -1.0
+      }
+    ],
+    "V4-F": [
+      {
+        "case_id": "micro-s131-d800-p0.5-high",
+        "counterfactual_success": false,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s131-d800-p0.5-low",
+        "counterfactual_success": false,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s131-d1200-p0.5-high",
+        "counterfactual_success": true,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s131-d1600-p1.0-high",
+        "counterfactual_success": false,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s131-d1600-p1.0-low",
+        "counterfactual_success": false,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s137-d800-p0.5-high",
+        "counterfactual_success": true,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s137-d800-p0.5-low",
+        "counterfactual_success": true,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s137-d1200-p0.5-high",
+        "counterfactual_success": false,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s137-d1600-p1.0-high",
+        "counterfactual_success": false,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s137-d1600-p1.0-low",
+        "counterfactual_success": false,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s149-d800-p0.5-high",
+        "counterfactual_success": true,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s149-d800-p0.5-low",
+        "counterfactual_success": true,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": false,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s149-d1200-p0.5-high",
+        "counterfactual_success": false,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_beneficial",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 0.0
+      },
+      {
+        "case_id": "micro-s149-d1600-p1.0-high",
+        "counterfactual_success": false,
+        "intervene": true,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 790.0
+      },
+      {
+        "case_id": "micro-s149-d1600-p1.0-low",
+        "counterfactual_success": false,
+        "intervene": false,
+        "legal_violation": false,
+        "regime": "potentially_risky",
+        "regret_violation": false,
+        "safety_violation": true,
+        "success": false,
+        "system_ttt_gain": 0.0
+      }
+    ]
+  }
+}
