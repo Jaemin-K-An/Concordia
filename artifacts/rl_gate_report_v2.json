@@ -1,7 +1,7 @@
 {
   "claim_boundary": "The RL0 decision is based on an offline analytical held-out-seed study. It does not establish microscopic or real-world RL effectiveness.",
   "conditional_rl_evidence": "artifacts/studies/conditional_rl/summary.json",
-  "decision": "Outcome C: RL0 was authorized, evaluated, and retained.",
+  "decision": "Outcome B: RL0 was authorized and evaluated, but rejected.",
   "gates": {
     "A_performance_gap": {
       "qualifying_scenario_families": 0,
@@ -54,7 +54,7 @@
       "triggered_for_RL": false
     }
   },
-  "outcome": "C",
+  "outcome": "B",
   "prerequisites": {
     "acceptance_traffic_fixed_point_validated": true,
     "microscopic_H3_H4_complete": true,
@@ -64,7 +64,7 @@
   },
   "rl_authorized": true,
   "rl_introduced": true,
-  "rl_retained": true,
+  "rl_retained": false,
   "thresholds_frozen_before_v2_decision": {
     "approximation_quality_gap_relative": 0.05,
     "dynamic_degradation_relative": 0.1,

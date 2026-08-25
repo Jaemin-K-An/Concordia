@@ -1,12 +1,12 @@
 {
   "RL0_vs_deterministic": {
-    "bootstrap_ci95_high": 16.044333058126742,
-    "bootstrap_ci95_low": 1.697069958847755,
-    "cohens_dz": 0.24255223428179418,
-    "mean_improvement": 7.842924533003447,
+    "bootstrap_ci95_high": 0.0,
+    "bootstrap_ci95_low": 0.0,
+    "cohens_dz": 0.0,
+    "mean_improvement": 0.0,
     "paired_count": 72,
-    "relative_improvement": 0.0007315541359806178,
-    "wilcoxon_one_sided_p": 0.02061341666858184
+    "relative_improvement": 0.0,
+    "wilcoxon_one_sided_p": 1.0
   },
   "RL0_vs_fixed_B6": {
     "bootstrap_ci95_high": -734.2265235936386,

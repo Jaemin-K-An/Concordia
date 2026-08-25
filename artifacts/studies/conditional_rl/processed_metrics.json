@@ -4,22 +4,22 @@
   "claim_boundary": "Offline analytical contextual PPO baseline over recommendation-eligibility actions. It uses no vehicle controls and is not evidence of microscopic or real-world RL effectiveness.",
   "complete": true,
   "held_out_case_count": 72,
-  "mean_ttt_gap_vs_deterministic": -0.0006778371522286076,
-  "nonstationarity_superior_to_deterministic": true,
-  "outcome": "C",
-  "p95_inference_seconds": 1.3027050000000003e-05,
+  "mean_ttt_gap_vs_deterministic": 0.0,
+  "nonstationarity_superior_to_deterministic": false,
+  "outcome": "B",
+  "p95_inference_seconds": 3.4200000000000005e-05,
   "regret_violation_count": 0,
-  "retained": true,
+  "retained": false,
   "safety_violation_count": 0,
   "statistics": {
     "RL0_vs_deterministic": {
-      "bootstrap_ci95_high": 16.044333058126742,
-      "bootstrap_ci95_low": 1.697069958847755,
-      "cohens_dz": 0.24255223428179418,
-      "mean_improvement": 7.842924533003447,
+      "bootstrap_ci95_high": 0.0,
+      "bootstrap_ci95_low": 0.0,
+      "cohens_dz": 0.0,
+      "mean_improvement": 0.0,
       "paired_count": 72,
-      "relative_improvement": 0.0007315541359806178,
-      "wilcoxon_one_sided_p": 0.02061341666858184
+      "relative_improvement": 0.0,
+      "wilcoxon_one_sided_p": 1.0
     },
     "RL0_vs_fixed_B6": {
       "bootstrap_ci95_high": -734.2265235936386,

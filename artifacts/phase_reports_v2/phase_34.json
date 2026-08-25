@@ -6,7 +6,7 @@
   "RUN": true,
   "TEST": true,
   "VERIFY": true,
-  "evidence": "artifacts/rl_gate_report_v2.json",
+  "evidence": "artifacts/studies/conditional_rl/summary.json",
   "name": "Conditional RL",
   "phase": 34,
   "status": "COMPLETE"

@@ -17,6 +17,7 @@
   "complete": true,
   "evidence": {
     "alignment": "artifacts/studies/alignment_frontier/summary.json",
+    "conditional_rl": "artifacts/studies/conditional_rl/summary.json",
     "microscopic": "artifacts/studies/microscopic_policy_matrix/summary.json",
     "phantom_calibration": "artifacts/studies/phantom_calibration/summary.json",
     "preference_drift": "artifacts/studies/preference_drift/summary.json",
@@ -32,7 +33,7 @@
     "H4": "FAIL",
     "H5": "exploratory_only",
     "H6": "FAIL_UNCHANGED",
-    "H7": "CONDITIONAL"
+    "H7": "TESTED_REJECTED"
   },
-  "rl_decision": "Outcome C: retained"
+  "rl_decision": "Outcome B: tested and rejected"
 }

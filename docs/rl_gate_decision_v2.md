@@ -1,8 +1,8 @@
 # RL gate decision v2
 
-## Outcome C
+## Outcome B
 
-**Outcome C: RL0 was authorized, evaluated, and retained.**
+**Outcome B: RL0 was authorized and evaluated, but rejected.**
 
 | Gate | Tested | Triggered |
 |---|---:|---:|

@@ -8,10 +8,10 @@
     "sumolib": "1.27.1",
     "traci": "1.27.1"
   },
-  "duration_seconds": 2.21743,
-  "end_timestamp_utc": "2026-08-25T03:45:54.765545+00:00",
-  "git_commit": "2a5f80f5092bda5a16611bb8b15ea7035e87b14e",
-  "git_dirty": true,
+  "duration_seconds": 2.395523,
+  "end_timestamp_utc": "2026-08-25T03:46:44.692715+00:00",
+  "git_commit": "855b51f725b1e4192e386c11e4d62d212731ce21",
+  "git_dirty": false,
   "hardware": {
     "logical_cpu_count": 8,
     "machine": "arm64",
@@ -20,29 +20,27 @@
   },
   "input_hashes": {
     "artifacts/studies/alignment_frontier/raw_metrics.json": "2167c26c304e5ed26d9159be3240e56cbe87125d9aa3dc767df754513eb7c74a",
-    "canonical_config": "3bcb00035b7b112d5e5a03495ba14f8d32dc3d719d3b59f955f14bd99d683255",
-    "configs/experiments/conditional_rl.yaml": "b1b649c8ddd687830f7625e36ecc8b8b5b8162672dfa3c65fec18fcba9e88eb5"
+    "canonical_config": "217211bc8a1314c76bd8f8f926fddec68944ce98718945cdb978acb0c68e5ecc",
+    "configs/experiments/conditional_rl.yaml": "03b49c640f3f5dd1c17dde397f6f258a2207cc86c2dc7501fd2b8e4991b41100"
   },
-  "invalid_reasons": [
-    "missing or malformed seed declaration"
-  ],
+  "invalid_reasons": [],
   "output_hashes": {
-    "artifacts/studies/conditional_rl/figures/rl0_comparison.png": "ff840f2cee0498eea3288e6de2da56a0a6246de537a44b1599ab8a3ff43a2531",
-    "artifacts/studies/conditional_rl/processed_metrics.json": "aeb328b23cf54dcf504276019cb0550f169636075cf76175af53e59a91d5786d",
-    "artifacts/studies/conditional_rl/raw_metrics.json": "e361980b24eb7f20d1212caaf533f06cc38adf1412a7665afb35a889bbe6d7f3",
-    "artifacts/studies/conditional_rl/statistical_tests.json": "1a2a43fc5d4517adc0e6a711c48a6f77578d3649542aea4b4f5fd25908c95236",
-    "artifacts/studies/conditional_rl/summary.json": "aeb328b23cf54dcf504276019cb0550f169636075cf76175af53e59a91d5786d",
-    "config.json": "3bcb00035b7b112d5e5a03495ba14f8d32dc3d719d3b59f955f14bd99d683255",
-    "metrics.json": "aeb328b23cf54dcf504276019cb0550f169636075cf76175af53e59a91d5786d"
+    "artifacts/studies/conditional_rl/figures/rl0_comparison.png": "85c5581e7f52ed285aedc4821c1b73b92c5fc31f2539c64b1c1c06e496868c0e",
+    "artifacts/studies/conditional_rl/processed_metrics.json": "607723d86d3f52f349bb272bebe7b1817aca3eb817e5e89ccd88c79e1c954854",
+    "artifacts/studies/conditional_rl/raw_metrics.json": "125ff2b3410fb3c15b34e41579b7acd7cf17f31b765325e0df18c8c41f62f0ca",
+    "artifacts/studies/conditional_rl/statistical_tests.json": "8d390d88f84f83f48da4095c7509937c171a1eea7e399e0b34eae0786fbfb2ba",
+    "artifacts/studies/conditional_rl/summary.json": "607723d86d3f52f349bb272bebe7b1817aca3eb817e5e89ccd88c79e1c954854",
+    "config.json": "217211bc8a1314c76bd8f8f926fddec68944ce98718945cdb978acb0c68e5ecc",
+    "metrics.json": "607723d86d3f52f349bb272bebe7b1817aca3eb817e5e89ccd88c79e1c954854"
   },
   "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
   "rl_library_version": "not-installed-not-used",
-  "run_id": "20260825T034552.548115Z-55c3e56a6d",
+  "run_id": "20260825T034642.297192Z-00e3209b4c",
   "seeds": [
-    null
+    20260825
   ],
   "simulator_version": "analytical-no-sumo",
   "solver_version": "scipy-1.13.1/HiGHS",
-  "start_timestamp_utc": "2026-08-25T03:45:52.548115+00:00",
-  "status": "invalid"
+  "start_timestamp_utc": "2026-08-25T03:46:42.297192+00:00",
+  "status": "valid"
 }

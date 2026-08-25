@@ -36,3 +36,7 @@
 14. **Mathematical approximation precedes RL.** Enumeration failure reopens scalability work,
     but RL is authorized only if the clustered hard-constrained approximation leaves a measured
     latency or quality problem under the frozen Gate E thresholds.
+15. **Gate-authorized RL0 was evaluated and rejected.** The fixed-point-aware focused cycle
+    triggered frozen Gate B. A compact masked PPO policy could only choose recommendation
+    eligibility, preserved hard regret/safety masks, and matched—but did not outperform—the
+    deterministic comparator on held-out cases. The final decision is Outcome B.

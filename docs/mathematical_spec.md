@@ -273,3 +273,9 @@ also misses the frozen five-second latency or five-percent small-scale quality t
 C measures the median incremental degradation induced by nonstationarity after subtracting the
 same approximation's stationary oracle gap. A high p95 remains a documented failure condition
 even when the pre-registered median gate does not trigger.
+
+The final rerun triggered the separately frozen small-scale Gate B after fixed-point iteration
+increased exact-cycle runtime. Conditional RL0 therefore used a masked clipped-PPO actor whose
+actions were eligibility-epsilon choices only. Invalid regret/safety actions were unavailable.
+On held-out analytical conditions it matched, but did not improve upon, the constrained
+deterministic minimum-TTT comparator, so it was rejected (Outcome B).

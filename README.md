@@ -10,8 +10,8 @@
 <p align="center">
   <img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-111111?style=flat-square" />
   <img alt="SUMO 1.27.1" src="https://img.shields.io/badge/SUMO-1.27.1-404040?style=flat-square" />
-  <img alt="Tests 44 passing" src="https://img.shields.io/badge/tests-44%20passing-111111?style=flat-square" />
-  <img alt="RL gate Outcome A" src="https://img.shields.io/badge/RL%20gate-Outcome%20A-737373?style=flat-square" />
+  <img alt="Tests 45 passing" src="https://img.shields.io/badge/tests-45%20passing-111111?style=flat-square" />
+  <img alt="RL gate Outcome B" src="https://img.shields.io/badge/RL%20gate-Outcome%20B-737373?style=flat-square" />
 </p>
 
 <p align="center">
@@ -140,12 +140,13 @@ it behind an aggregate objective.
 
 ### RL decision
 
-> **Outcome A — RL not introduced. B6 enumeration reached a declared scale limit, but the
-> hard-constrained clustered approximation met the frozen latency/quality thresholds; median
-> Gate C degradation also stayed below its threshold.**
+> **Outcome B — Gate B authorized RL0 after the fixed-point-aware exact cycle exceeded its
+> frozen runtime threshold. Compact eligibility-only PPO was evaluated, matched the constrained
+> deterministic comparator on held-out TTT, and was rejected because it was not superior.**
 
-This outcome does not claim that RL can never help. The preference-drift p95 remained a recorded
-failure tail even though the pre-registered median Gate C did not trigger.
+RL0 had zero regret/safety violations and microsecond inference, but speed alone was not enough
+to retain it when the deterministic approximation already met operational limits. The drift p95
+remains a recorded failure tail even though median Gate C did not trigger.
 
 ## Evidence
 
@@ -170,7 +171,8 @@ failure tail even though the pre-registered median Gate C did not trigger.
 | [`real_topology_policy_matrix/summary.json`](artifacts/studies/real_topology_policy_matrix/summary.json) | Actual B1/B6 SUMO transfer on Gangnam geometry with synthetic demand |
 | [`scalability/summary.json`](artifacts/studies/scalability/summary.json) | Enumeration boundary, approximation runtime/memory, and Gate E |
 | [`preference_drift/summary.json`](artifacts/studies/preference_drift/summary.json) | Nonstationarity performance, tail behavior, and Gate C |
-| [`artifacts/rl_gate_report_v2.json`](artifacts/rl_gate_report_v2.json) | Frozen Gate C/E reevaluation and Outcome A |
+| [`artifacts/rl_gate_report_v2.json`](artifacts/rl_gate_report_v2.json) | Frozen A–E reevaluation and Outcome B |
+| [`conditional_rl/summary.json`](artifacts/studies/conditional_rl/summary.json) | Gate-authorized held-out PPO evaluation and Outcome B rejection |
 | [`analytical_matrix/summary.json`](artifacts/studies/analytical_matrix/summary.json) | Screening, focused B0–B6 rows, paired statistics, and failure cases |
 | [`analytical_matrix/manifest.json`](artifacts/studies/analytical_matrix/manifest.json) | Clean source commit, runtime, dependencies, and hashes |
 | [`sumo_ring/summary.json`](artifacts/studies/sumo_ring/summary.json) | Microscopic traffic, wave candidates, safety distributions, and claim boundary |

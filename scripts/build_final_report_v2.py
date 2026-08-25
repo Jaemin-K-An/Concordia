@@ -61,6 +61,11 @@ def run() -> Path:
     scalability = _load("artifacts/studies/scalability/summary.json")
     drift = _load("artifacts/studies/preference_drift/summary.json")
     gate = _load("artifacts/rl_gate_report_v2.json")
+    conditional = (
+        _load("artifacts/studies/conditional_rl/summary.json")
+        if gate.get("rl_introduced")
+        else None
+    )
     _gate_figure(gate)
     h3 = microscopic["H3"]
     h4 = microscopic["H4"]
@@ -170,6 +175,11 @@ mathematical approximation reached operational p95
 {drift['Gate_C']['measured_median_nonstationarity_incremental_degradation']:.4f} against a
 0.10 threshold. Its p95 was {drift['adaptive_p95_incremental_degradation']:.4f}, retained as a
 tail failure even though the pre-registered median Gate C did not authorize RL.</p>
+{f'''<p>Gate B nevertheless authorized RL0. Its held-out mean TTT gap versus the constrained
+deterministic comparator was {conditional['mean_ttt_gap_vs_deterministic']:.5f}, p95 inference
+was {conditional['p95_inference_seconds']:.6f}s, and regret/safety violations were
+{conditional['regret_violation_count']}/{conditional['safety_violation_count']}. It was rejected
+because it did not outperform the deterministic comparator.</p>''' if conditional else ''}
 <h2>8. Conditions of validity and failure</h2>
 <ul><li><strong>Alignment Win:</strong> regret-feasible recommendations beat sampled ETA-only cost.</li>
 <li><strong>Alignment Trade-off:</strong> voluntariness is protected but network cost is higher.</li>

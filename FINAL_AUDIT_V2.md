@@ -29,13 +29,13 @@ The original `FINAL_AUDIT.md` remains unchanged as the pre-v2 record.
 | H4 | **FAIL** |
 | H5 | **exploratory_only** |
 | H6 | **FAIL_UNCHANGED** |
-| H7 | **CONDITIONAL** |
+| H7 | **TESTED_REJECTED** |
 
 ## Final decision
 
 **Adaptive Navigation — Supported under specified conditions.**
 
-**Outcome C: retained.**
+**Outcome B: tested and rejected.**
 
 Every conclusion is bounded by the machine-readable artifacts under 
 `artifacts/studies/` and `artifacts/rl_gate_report_v2.json`.

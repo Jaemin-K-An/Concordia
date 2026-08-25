@@ -59,7 +59,13 @@ def run() -> Path:
         "H4": "SUPPORTED_NONINFERIOR" if h4["noninferior"] else "FAIL",
         "H5": baseline.get("hypotheses", {}).get("H5", {}).get("status", "PARTIAL"),
         "H6": "FAIL_UNCHANGED",
-        "H7": "NOT_TESTED_RL_NOT_AUTHORIZED" if gate["outcome"] == "A" else "CONDITIONAL",
+        "H7": (
+            "NOT_TESTED_RL_NOT_AUTHORIZED"
+            if gate["outcome"] == "A"
+            else "TESTED_REJECTED"
+            if gate["outcome"] == "B"
+            else "SUPPORTED_RETAINED"
+        ),
     }
     final_decision = "Adaptive Navigation — Supported under specified conditions"
     rl_decision = (
@@ -82,6 +88,7 @@ def run() -> Path:
             "real_topology": "artifacts/studies/real_topology_policy_matrix/summary.json",
             "scalability": "artifacts/studies/scalability/summary.json",
             "preference_drift": "artifacts/studies/preference_drift/summary.json",
+            "conditional_rl": "artifacts/studies/conditional_rl/summary.json",
             "rl_gate": "artifacts/rl_gate_report_v2.json",
         },
         "claim_boundary": (
