@@ -1,0 +1,12 @@
+bootstrap_interval_quantiles:
+- 0.1
+- 0.9
+conformal:
+  miscoverage: 0.1
+  regret_upper_adjustment: 0.029732644460347228
+  safety_upper_adjustment: 1.033061838109671
+  traffic_radius: 0.06789921300549491
+development_only_selection: true
+final_holdouts_used: false
+source_commit: ac7a0431662ee4cc023cda7846952262086520fa
+version: concordia-v7-frozen-1
