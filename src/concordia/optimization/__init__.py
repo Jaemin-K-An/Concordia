@@ -8,6 +8,7 @@ from .fixed_point import (
 from .mip import MIPAssignmentResult, MIPAssignmentSolver
 from .receding_horizon import RecedingHorizonOptimizer, RecedingHorizonPlan
 from .scalable import clustered_greedy_assignment
+from .rl0 import PPOEligibilityPolicy, PPOTrainingResult
 
 __all__ = [
     "AdaptiveOptimizer",
@@ -21,4 +22,6 @@ __all__ = [
     "RecedingHorizonPlan",
     "solve_fixed_point",
     "clustered_greedy_assignment",
+    "PPOEligibilityPolicy",
+    "PPOTrainingResult",
 ]

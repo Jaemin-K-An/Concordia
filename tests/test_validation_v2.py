@@ -2,8 +2,10 @@ import json
 import unittest
 from pathlib import Path
 
+import numpy as np
+
 from concordia.alignment import compute_alignment_frontier
-from concordia.optimization import solve_fixed_point
+from concordia.optimization import PPOEligibilityPolicy, solve_fixed_point
 from concordia.populations import generate_population
 from concordia.scenarios import two_route
 from concordia.traffic import (
@@ -110,6 +112,15 @@ class FinalValidationV2Tests(unittest.TestCase):
         )
         summary = json.loads(summary_path.read_text(encoding="utf-8"))
         self.assertTrue(summary["all_recommended_paths_legal"])
+
+    def test_rl0_actions_are_masked_eligibility_choices(self):
+        policy = PPOEligibilityPolicy(3, 3, seed=7)
+        states = np.asarray([[0.1, 0.2, 0.3], [0.3, 0.2, 0.1]])
+        mask = np.asarray([[True, False, True], [True, True, False]])
+        probabilities = policy.probabilities(states, mask)
+        self.assertTrue(np.allclose(probabilities.sum(axis=1), 1.0))
+        self.assertEqual(probabilities[0, 1], 0.0)
+        self.assertEqual(probabilities[1, 2], 0.0)
 
 
 if __name__ == "__main__":

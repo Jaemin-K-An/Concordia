@@ -95,6 +95,10 @@ def run() -> Path:
         ("artifacts/studies/preference_drift/figures/preference_drift_performance.png", "Preference-drift performance"),
         ("artifacts/figures/rl_gate_v2.png", "RL Gate v2 result"),
     ]
+    if gate.get("rl_introduced"):
+        figures.append(
+            ("artifacts/studies/conditional_rl/figures/rl0_comparison.png", "Conditional RL0 comparison")
+        )
     figure_html = "".join(_image(path, title) for path, title in figures if (ROOT / path).is_file())
     document = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><title>CONCORDIA final report v2</title>

@@ -1,7 +1,7 @@
 PYTHON ?= python3
 RUN_CONFIG ?= configs/experiments/smoke.yaml
 
-.PHONY: setup lint test benchmark experiment research rl-gate rl-evaluate report report-v2 phase-reports audit audit-v2 sumo-check sumo-ring-build sumo-ring-run simulation-test phantom-calibrate alignment-study microscopic-study real-topology-study scalability-study drift-study clean
+.PHONY: setup lint test benchmark experiment research rl-gate rl-evaluate conditional-rl report report-v2 phase-reports audit audit-v2 sumo-check sumo-ring-build sumo-ring-run simulation-test phantom-calibrate alignment-study microscopic-study real-topology-study scalability-study drift-study clean
 
 setup:
 	$(PYTHON) -m pip install -e '.[dev,analysis]'
@@ -27,6 +27,9 @@ rl-gate:
 
 rl-evaluate:
 	PYTHONPATH=src $(PYTHON) -m concordia.cli rl-evaluate
+
+conditional-rl:
+	PYTHONPATH=src $(PYTHON) scripts/run_conditional_rl_study.py
 
 report:
 	PYTHONPATH=src $(PYTHON) -m concordia.cli report --runs artifacts/runs --output artifacts/reports/report.html

@@ -42,17 +42,33 @@ def run() -> Path:
     }
     triggered = [name for name, gate in gates.items() if gate.get("triggered", False)]
     authorized = bool(triggered)
+    conditional_path = ROOT / "artifacts" / "studies" / "conditional_rl" / "summary.json"
+    conditional = (
+        json.loads(conditional_path.read_text(encoding="utf-8"))
+        if conditional_path.is_file()
+        else None
+    )
+    evaluated = bool(authorized and conditional and conditional.get("complete"))
+    retained = bool(evaluated and conditional.get("retained"))
+    outcome = "C" if retained else "B" if evaluated else "AUTHORIZED_PENDING_EVALUATION" if authorized else "A"
     result = {
-        "outcome": "AUTHORIZED_PENDING_EVALUATION" if authorized else "A",
+        "outcome": outcome,
         "decision": (
-            "RL is authorized and requires the conditional baseline evaluation."
+            "Outcome C: RL0 was authorized, evaluated, and retained."
+            if outcome == "C"
+            else "Outcome B: RL0 was authorized and evaluated, but rejected."
+            if outcome == "B"
+            else "RL is authorized and requires the conditional baseline evaluation."
             if authorized
             else "Outcome A: RL not needed after measured Gate C/E and the scalable "
             "mathematical approximation."
         ),
         "rl_authorized": authorized,
-        "rl_introduced": False,
-        "rl_retained": False,
+        "rl_introduced": evaluated,
+        "rl_retained": retained,
+        "conditional_rl_evidence": (
+            "artifacts/studies/conditional_rl/summary.json" if evaluated else None
+        ),
         "triggered_gates": triggered,
         "gates": gates,
         "prerequisites": {
@@ -68,7 +84,10 @@ def run() -> Path:
             "approximation_quality_gap_relative": 0.05,
         },
         "claim_boundary": (
-            "Outcome A means RL was unnecessary for the tested synthetic analytical and "
+            "The RL0 decision is based on an offline analytical held-out-seed study. It does "
+            "not establish microscopic or real-world RL effectiveness."
+            if evaluated
+            else "Outcome A means RL was unnecessary for the tested synthetic analytical and "
             "microscopic conditions; it is not a universal impossibility claim."
         ),
     }

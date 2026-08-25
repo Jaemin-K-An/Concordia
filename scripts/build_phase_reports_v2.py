@@ -26,7 +26,7 @@ PHASES = {
     31: ("Scalability", "artifacts/studies/scalability/summary.json"),
     32: ("Preference drift", "artifacts/studies/preference_drift/summary.json"),
     33: ("RL Gate v2", "artifacts/rl_gate_report_v2.json"),
-    34: ("Conditional RL", "artifacts/rl_gate_report_v2.json"),
+    34: ("Conditional RL", "artifacts/studies/conditional_rl/summary.json"),
     35: ("Ablation and performance", "artifacts/studies/scalability/statistical_tests.json"),
     36: ("Final report and audit v2", "artifacts/reports/final_report_v2.html"),
 }

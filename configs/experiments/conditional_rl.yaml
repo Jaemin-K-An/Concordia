@@ -1,0 +1,39 @@
+study: conditional_rl0_eligibility
+source_study: artifacts/studies/alignment_frontier/raw_metrics.json
+train_seeds: [11, 23, 37, 53]
+test_seeds: [71]
+policy_seed: 20260825
+actions:
+  preference_epsilon: [0.0, 0.01, 0.02, 0.04, 0.06, 0.08, 0.12, 0.16, 0.24]
+state:
+  - flow
+  - density
+  - speed
+  - occupancy
+  - phantom_risk
+  - demand_scale
+  - preference_heterogeneity
+  - private_to_eta_ttt_ratio
+  - baseline_safety_risk
+  - scenario_one_hot
+ppo:
+  epochs: 600
+  update_epochs: 4
+  learning_rate: 0.015
+  value_learning_rate: 0.02
+  clip_ratio: 0.20
+  entropy_coefficient: 0.002
+reward:
+  normalized_ttt_weight: 1.0
+  nonacceptance_weight: 0.05
+  invalid_action_penalty: 10.0
+safety_delta: 0.0
+retention:
+  maximum_mean_ttt_gap_vs_deterministic: 0.05
+  maximum_p95_inference_seconds: 5.0
+  require_zero_regret_violations: true
+  require_zero_safety_violations: true
+  require_nonstationarity_superiority: true
+claim_boundary: >-
+  Offline analytical contextual PPO baseline over recommendation-eligibility actions. It uses
+  no vehicle controls and is not evidence of microscopic or real-world RL effectiveness.

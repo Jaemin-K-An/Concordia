@@ -145,7 +145,13 @@ def main(argv: Sequence[str] = ()) -> int:
             result = json.loads(path.read_text(encoding="utf-8"))
             if result.get("rl_authorized") and not result.get("rl_introduced"):
                 raise ConcordiaError("RL evaluation implementation is required after a passing gate")
-            print("RL evaluation SKIPPED: Outcome A did not authorize an RL implementation.")
+            if result.get("rl_introduced"):
+                print(
+                    f"RL evaluation complete: Outcome {result.get('outcome')} — "
+                    f"retained={bool(result.get('rl_retained'))}."
+                )
+            else:
+                print("RL evaluation SKIPPED: Outcome A did not authorize an RL implementation.")
         return 0
     except ConcordiaError as exc:
         print(f"error: {exc}", file=sys.stderr)
