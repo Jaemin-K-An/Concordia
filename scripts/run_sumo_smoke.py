@@ -36,7 +36,9 @@ def checksum(path: Path) -> str:
     return digest.hexdigest()
 
 
-def distribution_summary(values: list[float]) -> dict:
+def distribution_summary(values: list[float], risk_tail: str) -> dict:
+    if risk_tail not in {"lower", "upper"}:
+        raise ValueError("risk_tail must be lower or upper")
     if not values:
         return {
             "count": 0,
@@ -47,20 +49,29 @@ def distribution_summary(values: list[float]) -> dict:
             "p99": None,
             "minimum": None,
             "maximum": None,
+            "risk_tail": risk_tail,
+            "risk_cvar": None,
+            "cvar05_lower": None,
             "cvar95_upper": None,
         }
     data = np.asarray(values, dtype=float)
-    threshold = float(np.percentile(data, 95))
+    lower_threshold = float(np.percentile(data, 5))
+    upper_threshold = float(np.percentile(data, 95))
+    lower_cvar = float(data[data <= lower_threshold].mean())
+    upper_cvar = float(data[data >= upper_threshold].mean())
     return {
         "count": int(len(data)),
         "mean": float(data.mean()),
         "median": float(np.median(data)),
         "p90": float(np.percentile(data, 90)),
-        "p95": threshold,
+        "p95": upper_threshold,
         "p99": float(np.percentile(data, 99)),
         "minimum": float(data.min()),
         "maximum": float(data.max()),
-        "cvar95_upper": float(data[data >= threshold].mean()),
+        "risk_tail": risk_tail,
+        "risk_cvar": lower_cvar if risk_tail == "lower" else upper_cvar,
+        "cvar05_lower": lower_cvar,
+        "cvar95_upper": upper_cvar,
     }
 
 
@@ -229,7 +240,11 @@ def run() -> Path:
             ),
         },
         "safety_distribution_summary": {
-            name: distribution_summary(values) for name, values in distributions.items()
+            name: distribution_summary(
+                values,
+                risk_tail=("lower" if name in {"ttc_seconds", "pet_seconds"} else "upper"),
+            )
+            for name, values in distributions.items()
         },
         "ssm_extrema": {
             "min_ttc_seconds": min(
