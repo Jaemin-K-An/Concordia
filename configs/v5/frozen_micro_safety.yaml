@@ -1,0 +1,9 @@
+correction_artifact_hash: 0146fa7d30037d1b49686eb2bc395870e163213b2b9d91ae8cec19fcd9aef453
+correction_artifact_path: artifacts/studies/v5_micro_calibration/micro_correction_package.json
+final_holdouts_used: false
+micro_success_threshold: 0.4
+probability_threshold: 0.1
+safety_artifact_hash: 6345fba850d4bf31b39f2c1588fc1375b96151a6191002f52ad02208b0dc5be0
+safety_artifact_path: artifacts/studies/v5_micro_calibration/micro_safety_package.json
+source_commit: 15a8723fdfe6cfa06583441ea18d89fcb6de1b86
+version: concordia-v5-frozen-1

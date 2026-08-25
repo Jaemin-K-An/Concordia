@@ -1,0 +1,9 @@
+artifact_hash: 6d0bddd25305d373a750a34dc5355aeea7a34a4856367b2790e098bb0c5638d1
+artifact_path: artifacts/studies/v5_shift_detection/calibrated_model.json
+feature_schema_path: artifacts/studies/v5_model_selection/feature_schema.json
+final_holdouts_used: false
+selected_calibration: isotonic
+selected_key: M3_regime_specific::isotonic
+selected_model: M3_regime_specific
+source_commit: 15a8723fdfe6cfa06583441ea18d89fcb6de1b86
+version: concordia-v5-frozen-1

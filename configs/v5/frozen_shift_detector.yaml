@@ -1,0 +1,159 @@
+artifact_hash: e96b3be04da8883c0419a0d9d48bc2467b293322e50e7898e63e140215827960
+artifact_path: artifacts/studies/v5_shift_detection/shift_detector.json
+detector:
+  definition: root mean squared robust standardized feature distance
+  median:
+  - 1200.0
+  - 0.23809523809523808
+  - 1.2482400321234235
+  - 0.0
+  - 1.0
+  - 2.3846153846153846
+  - 0.125
+  - 0.5
+  - 1.0
+  - 0.9977777777777779
+  - 0.013162240104954216
+  - 1.5805238628823275
+  - 0.05761389736115371
+  - 0.3517073226732391
+  - 0.0
+  - 1.0
+  - 0.35999999999999993
+  - 0.16
+  - 0.10000000000000002
+  - 0.18000000000000002
+  - 0.10000000000000002
+  - 0.10000000000000002
+  - 0.04803118766688613
+  - 3.389862752420413
+  - 3548.76135012502
+  - 3.0
+  - 1235.5110893554665
+  - 0.6224593312018546
+  - 0.25
+  - 0.11765621543622433
+  - 0.75
+  - 0.012048323943227328
+  - 2.0
+  - 0.26999999999999996
+  - 3.0
+  - 0.018575060108898988
+  - 0.0354361717996976
+  - 0.027777777777777776
+  - 0.2
+  - 0.6
+  - 0.25000000000000006
+  - 0.0
+  - 5.327210541354168
+  - 0.0
+  - 1.0474253116384877
+  - 244.99999999999997
+  - 2.390600828329722
+  - 1.25
+  - 0.0
+  mild_distance: 2.397490476702984
+  scale:
+  - 355.82399999999996
+  - 0.0706
+  - 0.28093378566743393
+  - 0.05708028327476188
+  - 0.057080283274762104
+  - 0.1710692307692308
+  - 0.02882833333333333
+  - 1.0
+  - 0.057080283274762104
+  - 0.37671392649471425
+  - 0.006551664478064932
+  - 0.08717638411021135
+  - 0.030040950285594087
+  - 0.021401564687866175
+  - 0.4591690471388612
+  - 0.49826696108980156
+  - 0.031087175980793174
+  - 0.029890301731220856
+  - 0.023776772040056692
+  - 0.032649711907313445
+  - 0.023330278228042126
+  - 0.018954097075212697
+  - 0.07121103883492538
+  - 3.575689719592995
+  - 4048.1726243292214
+  - 1.4826
+  - 1247.2245689819356
+  - 0.03705753754586673
+  - 0.07517184947656072
+  - 0.028846409140833237
+  - 0.37065
+  - 0.008784788191284625
+  - 0.4281021245607292
+  - 0.08260199999999995
+  - 1.4826
+  - 0.027539384117453637
+  - 0.05253766831023166
+  - 0.04118333333333333
+  - 0.049420000000000026
+  - 0.2992256315958233
+  - 0.29432853624900934
+  - 1.0
+  - 5.724247701701231
+  - 78.12463053608154
+  - 0.5953829732480787
+  - 120.38712000000007
+  - 2.9418352632821945
+  - 0.9266249999999999
+  - 0.045679673757651806
+  strong_distance: 9.508846801158548
+feature_names:
+- demand
+- volume_capacity_ratio
+- price_of_anarchy
+- route_overlap
+- edge_disjointness
+- alternative_capacity_ratio
+- bottleneck_centrality
+- cut_sensitivity
+- route_diversity
+- route_attribute_diversity
+- preference_variance
+- preference_entropy
+- preference_p10
+- preference_p90
+- preference_bimodality
+- preference_long_tail
+- mean_preference_time
+- mean_preference_variability
+- mean_preference_cost
+- mean_preference_risk
+- mean_preference_complexity
+- mean_preference_familiarity
+- slack_mass
+- alignment_potential_score
+- alignment_opportunity_mass
+- alignment_opportunity_count
+- maximum_single_benefit
+- acceptance_probability
+- safety_margin
+- phantom_risk
+- navigation_penetration
+- heterogeneity_rad_interaction
+- route_count
+- bottleneck_load
+- beneficial_alternative_count
+- mean_preference_slack
+- p90_preference_slack
+- preference_long_tail_mass
+- eta_dispersion
+- reliability_dispersion
+- safety_dispersion
+- cost_dispersion
+- aps_alternative_capacity_interaction
+- route_overlap_demand_interaction
+- poa_penetration_interaction
+- safety_margin_demand_interaction
+- penetration_aps_interaction
+- penetration_alternative_capacity_interaction
+- penetration_route_overlap_interaction
+final_holdouts_used: false
+source_commit: 15a8723fdfe6cfa06583441ea18d89fcb6de1b86
+version: concordia-v5-frozen-1

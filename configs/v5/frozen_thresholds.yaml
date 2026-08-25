@@ -1,0 +1,52 @@
+final_holdouts_used: false
+source_commit: 15a8723fdfe6cfa06583441ea18d89fcb6de1b86
+thresholds:
+  analytical_primary_policy: V5-RD
+  complete: true
+  final_holdouts_used: false
+  full_bridge_policy: V5-F
+  global_probability_threshold: 0.7
+  micro_benefit_threshold: 0.0
+  micro_safety_threshold: 0.1
+  micro_success_threshold: 0.4
+  microscopic_probability_thresholds:
+    HIGH_CONTROL:
+      IN_DISTRIBUTION: 0.0
+      MILD_SHIFT: 0.0
+      STRONG_SHIFT: null
+    LOW_CONTROL:
+      IN_DISTRIBUTION: 0.0
+      MILD_SHIFT: 0.0
+      STRONG_SHIFT: null
+    PARTIAL_CONTROL:
+      IN_DISTRIBUTION: 0.0
+      MILD_SHIFT: 0.0
+      STRONG_SHIFT: null
+    STRUCTURALLY_CONSTRAINED:
+      IN_DISTRIBUTION: 0.0
+      MILD_SHIFT: 0.0
+      STRONG_SHIFT: null
+  microscopic_shift_probability_penalty: 0.0
+  probability_thresholds:
+    HIGH_CONTROL:
+      IN_DISTRIBUTION: 0.5
+      MILD_SHIFT: 0.55
+      STRONG_SHIFT: null
+    LOW_CONTROL:
+      IN_DISTRIBUTION: null
+      MILD_SHIFT: null
+      STRONG_SHIFT: null
+    PARTIAL_CONTROL:
+      IN_DISTRIBUTION: null
+      MILD_SHIFT: null
+      STRONG_SHIFT: null
+    STRUCTURALLY_CONSTRAINED:
+      IN_DISTRIBUTION: 0.5
+      MILD_SHIFT: null
+      STRONG_SHIFT: null
+  selection_roles:
+  - validation
+  - micro_calibration
+  shift_probability_penalty: 0.08
+  strong_shift_action: abstain
+version: concordia-v5-frozen-1

@@ -1,0 +1,11 @@
+artifact_hash: b2e04c3c9991e32d30e5cd7de6baa03736fc66c601a60fc5774e2f8ac888188c
+artifact_path: artifacts/studies/v5_shift_detection/regime_definition.json
+definition:
+  discovery_score: -0.15826935720406884
+  high_overlap_boundary: 0.0
+  high_penetration_boundary: 0.875
+  low_alternative_capacity_boundary: 1.25
+  low_penetration_boundary: 0.375
+final_holdouts_used: false
+source_commit: 15a8723fdfe6cfa06583441ea18d89fcb6de1b86
+version: concordia-v5-frozen-1
