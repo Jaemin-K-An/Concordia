@@ -1,0 +1,358 @@
+{
+  "case_count": 640,
+  "claim_boundary": "Primary evidence is a new synthetic analytical holdout. Microscopic tests use actual SUMO with synthetic demand. OSM studies use real geometry with synthetic OD demand. Safety measures are surrogate conflicts, never crash probabilities.",
+  "complete": true,
+  "frozen_immutable": true,
+  "group_metrics": {
+    "dimensions": {
+      "demand_band": {
+        "high": {
+          "case_count": 256,
+          "coverage": 0.13671875,
+          "intervention_count": 35,
+          "precision": 0.8285714285714286
+        },
+        "low": {
+          "case_count": 128,
+          "coverage": 0.0859375,
+          "intervention_count": 11,
+          "precision": 1.0
+        },
+        "middle": {
+          "case_count": 256,
+          "coverage": 0.03515625,
+          "intervention_count": 9,
+          "precision": 0.8888888888888888
+        }
+      },
+      "heterogeneity": {
+        "bimodal": {
+          "case_count": 160,
+          "coverage": 0.14375,
+          "intervention_count": 23,
+          "precision": 0.8260869565217391
+        },
+        "high": {
+          "case_count": 160,
+          "coverage": 0.08125,
+          "intervention_count": 13,
+          "precision": 1.0
+        },
+        "long_tail": {
+          "case_count": 160,
+          "coverage": 0.1125,
+          "intervention_count": 18,
+          "precision": 0.8333333333333334
+        },
+        "low": {
+          "case_count": 160,
+          "coverage": 0.00625,
+          "intervention_count": 1,
+          "precision": 1.0
+        }
+      },
+      "penetration": {
+        "0.5": {
+          "case_count": 320,
+          "coverage": 0.03125,
+          "intervention_count": 10,
+          "precision": 0.4
+        },
+        "1.0": {
+          "case_count": 320,
+          "coverage": 0.140625,
+          "intervention_count": 45,
+          "precision": 0.9777777777777777
+        }
+      },
+      "scenario": {
+        "merge": {
+          "case_count": 160,
+          "coverage": 0.13125,
+          "intervention_count": 21,
+          "precision": 0.9047619047619048
+        },
+        "ring": {
+          "case_count": 160,
+          "coverage": 0.0,
+          "intervention_count": 0,
+          "precision": null
+        },
+        "signalized": {
+          "case_count": 160,
+          "coverage": 0.1125,
+          "intervention_count": 18,
+          "precision": 0.7777777777777778
+        },
+        "two_route": {
+          "case_count": 160,
+          "coverage": 0.1,
+          "intervention_count": 16,
+          "precision": 0.9375
+        }
+      },
+      "topology_family": {
+        "constrained": {
+          "case_count": 320,
+          "coverage": 0.121875,
+          "intervention_count": 39,
+          "precision": 0.8461538461538461
+        },
+        "distributed": {
+          "case_count": 320,
+          "coverage": 0.05,
+          "intervention_count": 16,
+          "precision": 0.9375
+        }
+      }
+    },
+    "median_group_precision": 0.8968253968253967,
+    "worst_group_precision": 0.4
+  },
+  "holdout_case_ids_absent_from_development": true,
+  "label_counts": {
+    "INFEASIBLE": 40,
+    "TRADEOFF": 394,
+    "WIN": 206
+  },
+  "model_hash_after": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+  "model_hash_before": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+  "outcome": "P",
+  "outcome_text": "High-precision CONCORDIA partially supported.",
+  "policy_metrics": {
+    "B6": {
+      "case_count": 640,
+      "coverage": 1.0,
+      "coverage_ci95": [
+        0.9940335329947058,
+        0.9999999999999999
+      ],
+      "failure_avoidance_rate": 0.0,
+      "intervention_count": 640,
+      "intervention_precision": 0.321875,
+      "intervention_precision_ci95": [
+        0.2868346038817724,
+        0.3590409499888636
+      ],
+      "legal_violation_count": 0,
+      "maximum_regret": 0.07903595279344225,
+      "mean_decision_latency_seconds": 8.667187499999949e-06,
+      "mean_network_ttt_gain": -48.57231495640515,
+      "median_relative_ttt_gain": 0.0,
+      "missed_opportunity_rate": 0.0,
+      "p10_relative_ttt_gain": -0.10054811855909428,
+      "p95_decision_latency_seconds": 8.66718749999995e-06,
+      "population_benefit_rate": 0.321875,
+      "regret_violation_count": 0,
+      "safety_violation_count": 4,
+      "successful_intervention_count": 206
+    },
+    "V3-C": {
+      "case_count": 640,
+      "coverage": 0.2546875,
+      "coverage_ci95": [
+        0.22246572717025742,
+        0.28983657070421504
+      ],
+      "failure_avoidance_rate": 0.8709677419354839,
+      "intervention_count": 163,
+      "intervention_precision": 0.656441717791411,
+      "intervention_precision_ci95": [
+        0.5806897161072183,
+        0.7249897017094894
+      ],
+      "legal_violation_count": 0,
+      "maximum_regret": 0.07857362652533405,
+      "mean_decision_latency_seconds": 8.667187499999949e-06,
+      "mean_network_ttt_gain": 115.95692760936302,
+      "median_relative_ttt_gain": 0.019174617535822384,
+      "missed_opportunity_rate": 0.48058252427184467,
+      "p10_relative_ttt_gain": -0.06961126157943331,
+      "p95_decision_latency_seconds": 8.66718749999995e-06,
+      "population_benefit_rate": 0.1671875,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 107
+    },
+    "V3-D": {
+      "case_count": 640,
+      "coverage": 0.0796875,
+      "coverage_ci95": [
+        0.061127434185829055,
+        0.10326312714049632
+      ],
+      "failure_avoidance_rate": 0.9608294930875576,
+      "intervention_count": 51,
+      "intervention_precision": 0.6666666666666666,
+      "intervention_precision_ci95": [
+        0.529683778569708,
+        0.7803006814641148
+      ],
+      "legal_violation_count": 0,
+      "maximum_regret": 0.06284739761310118,
+      "mean_decision_latency_seconds": 8.667187499999949e-06,
+      "mean_network_ttt_gain": 76.88294504905761,
+      "median_relative_ttt_gain": 0.02154893489796116,
+      "missed_opportunity_rate": 0.8349514563106796,
+      "p10_relative_ttt_gain": 0.0,
+      "p95_decision_latency_seconds": 8.66718749999995e-06,
+      "population_benefit_rate": 0.053125,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 34
+    },
+    "V4-C": {
+      "case_count": 640,
+      "coverage": 0.0359375,
+      "coverage_ci95": [
+        0.024064574583147195,
+        0.05334805260614143
+      ],
+      "failure_avoidance_rate": 0.9976958525345622,
+      "intervention_count": 23,
+      "intervention_precision": 0.9565217391304348,
+      "intervention_precision_ci95": [
+        0.7900884492974114,
+        0.9922833338565469
+      ],
+      "legal_violation_count": 0,
+      "maximum_regret": 0.07752088320228845,
+      "mean_decision_latency_seconds": 8.667187499999949e-06,
+      "mean_network_ttt_gain": 54.31434023089473,
+      "median_relative_ttt_gain": 0.049220787207796615,
+      "missed_opportunity_rate": 0.8932038834951457,
+      "p10_relative_ttt_gain": 0.024528819289340767,
+      "p95_decision_latency_seconds": 8.66718749999995e-06,
+      "population_benefit_rate": 0.034375,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 22
+    },
+    "V4-E": {
+      "case_count": 640,
+      "coverage": 0.08125,
+      "coverage_ci95": [
+        0.06249687618768773,
+        0.10500003992924611
+      ],
+      "failure_avoidance_rate": 0.9907834101382489,
+      "intervention_count": 52,
+      "intervention_precision": 0.9230769230769231,
+      "intervention_precision_ci95": [
+        0.8182643761570466,
+        0.9696806548150699
+      ],
+      "legal_violation_count": 0,
+      "maximum_regret": 0.07903595279344225,
+      "mean_decision_latency_seconds": 8.667187499999949e-06,
+      "mean_network_ttt_gain": 84.76776634702746,
+      "median_relative_ttt_gain": 0.059028167826409766,
+      "missed_opportunity_rate": 0.7669902912621359,
+      "p10_relative_ttt_gain": 0.02154893489796116,
+      "p95_decision_latency_seconds": 8.66718749999995e-06,
+      "population_benefit_rate": 0.075,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 48
+    },
+    "V4-F": {
+      "case_count": 640,
+      "coverage": 0.0859375,
+      "coverage_ci95": [
+        0.06661848115037566,
+        0.11019749933838355
+      ],
+      "failure_avoidance_rate": 0.9838709677419355,
+      "intervention_count": 55,
+      "intervention_precision": 0.8727272727272727,
+      "intervention_precision_ci95": [
+        0.7598297234409093,
+        0.9369578957263536
+      ],
+      "legal_violation_count": 0,
+      "maximum_regret": 0.07903595279344225,
+      "mean_decision_latency_seconds": 8.667187499999949e-06,
+      "mean_network_ttt_gain": 84.76776634702746,
+      "median_relative_ttt_gain": 0.059028167826409766,
+      "missed_opportunity_rate": 0.7669902912621359,
+      "p10_relative_ttt_gain": 0.0,
+      "p95_decision_latency_seconds": 8.66718749999995e-06,
+      "population_benefit_rate": 0.075,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 48
+    },
+    "V4-P": {
+      "case_count": 640,
+      "coverage": 0.0859375,
+      "coverage_ci95": [
+        0.06661848115037566,
+        0.11019749933838355
+      ],
+      "failure_avoidance_rate": 0.9838709677419355,
+      "intervention_count": 55,
+      "intervention_precision": 0.8727272727272727,
+      "intervention_precision_ci95": [
+        0.7598297234409093,
+        0.9369578957263536
+      ],
+      "legal_violation_count": 0,
+      "maximum_regret": 0.07903595279344225,
+      "mean_decision_latency_seconds": 8.667187499999949e-06,
+      "mean_network_ttt_gain": 84.76776634702746,
+      "median_relative_ttt_gain": 0.059028167826409766,
+      "missed_opportunity_rate": 0.7669902912621359,
+      "p10_relative_ttt_gain": 0.0,
+      "p95_decision_latency_seconds": 8.66718749999995e-06,
+      "population_benefit_rate": 0.075,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 48
+    }
+  },
+  "primary_metrics": {
+    "case_count": 640,
+    "coverage": 0.0859375,
+    "coverage_ci95": [
+      0.06661848115037566,
+      0.11019749933838355
+    ],
+    "failure_avoidance_rate": 0.9838709677419355,
+    "intervention_count": 55,
+    "intervention_precision": 0.8727272727272727,
+    "intervention_precision_ci95": [
+      0.7598297234409093,
+      0.9369578957263536
+    ],
+    "legal_violation_count": 0,
+    "maximum_regret": 0.07903595279344225,
+    "mean_decision_latency_seconds": 8.667187499999949e-06,
+    "mean_network_ttt_gain": 84.76776634702746,
+    "median_relative_ttt_gain": 0.059028167826409766,
+    "missed_opportunity_rate": 0.7669902912621359,
+    "p10_relative_ttt_gain": 0.0,
+    "p95_decision_latency_seconds": 8.66718749999995e-06,
+    "population_benefit_rate": 0.075,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 48
+  },
+  "rl_used": false,
+  "selected_policy": "V4-P",
+  "statistical_tests": {
+    "H15_precision_at_least_0_80": true,
+    "H16_coverage_at_least_0_20": false,
+    "H16_coverage_exceeds_v3D": true,
+    "H17_zero_safety_violations": true,
+    "H18_PBR_exceeds_v3D": true,
+    "median_group_precision": 0.8968253968253967,
+    "minimum_intervention_count_met": true,
+    "strong_scientific_support": true,
+    "very_strong_scientific_support": true,
+    "worst_group_precision": 0.4
+  },
+  "study": "Study XII \u2014 Frozen v4 Holdout",
+  "threshold_hash_after": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+  "threshold_hash_before": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+  "untouched_holdout": true
+}

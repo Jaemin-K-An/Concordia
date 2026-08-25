@@ -1,0 +1,12 @@
+{
+  "H15_precision_at_least_0_80": true,
+  "H16_coverage_at_least_0_20": false,
+  "H16_coverage_exceeds_v3D": true,
+  "H17_zero_safety_violations": true,
+  "H18_PBR_exceeds_v3D": true,
+  "median_group_precision": 0.8968253968253967,
+  "minimum_intervention_count_met": true,
+  "strong_scientific_support": true,
+  "very_strong_scientific_support": true,
+  "worst_group_precision": 0.4
+}

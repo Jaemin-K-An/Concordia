@@ -1,0 +1,191 @@
+{
+  "B6": {
+    "case_count": 640,
+    "coverage": 1.0,
+    "coverage_ci95": [
+      0.9940335329947058,
+      0.9999999999999999
+    ],
+    "failure_avoidance_rate": 0.0,
+    "intervention_count": 640,
+    "intervention_precision": 0.321875,
+    "intervention_precision_ci95": [
+      0.2868346038817724,
+      0.3590409499888636
+    ],
+    "legal_violation_count": 0,
+    "maximum_regret": 0.07903595279344225,
+    "mean_decision_latency_seconds": 8.667187499999949e-06,
+    "mean_network_ttt_gain": -48.57231495640515,
+    "median_relative_ttt_gain": 0.0,
+    "missed_opportunity_rate": 0.0,
+    "p10_relative_ttt_gain": -0.10054811855909428,
+    "p95_decision_latency_seconds": 8.66718749999995e-06,
+    "population_benefit_rate": 0.321875,
+    "regret_violation_count": 0,
+    "safety_violation_count": 4,
+    "successful_intervention_count": 206
+  },
+  "V3-C": {
+    "case_count": 640,
+    "coverage": 0.2546875,
+    "coverage_ci95": [
+      0.22246572717025742,
+      0.28983657070421504
+    ],
+    "failure_avoidance_rate": 0.8709677419354839,
+    "intervention_count": 163,
+    "intervention_precision": 0.656441717791411,
+    "intervention_precision_ci95": [
+      0.5806897161072183,
+      0.7249897017094894
+    ],
+    "legal_violation_count": 0,
+    "maximum_regret": 0.07857362652533405,
+    "mean_decision_latency_seconds": 8.667187499999949e-06,
+    "mean_network_ttt_gain": 115.95692760936302,
+    "median_relative_ttt_gain": 0.019174617535822384,
+    "missed_opportunity_rate": 0.48058252427184467,
+    "p10_relative_ttt_gain": -0.06961126157943331,
+    "p95_decision_latency_seconds": 8.66718749999995e-06,
+    "population_benefit_rate": 0.1671875,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 107
+  },
+  "V3-D": {
+    "case_count": 640,
+    "coverage": 0.0796875,
+    "coverage_ci95": [
+      0.061127434185829055,
+      0.10326312714049632
+    ],
+    "failure_avoidance_rate": 0.9608294930875576,
+    "intervention_count": 51,
+    "intervention_precision": 0.6666666666666666,
+    "intervention_precision_ci95": [
+      0.529683778569708,
+      0.7803006814641148
+    ],
+    "legal_violation_count": 0,
+    "maximum_regret": 0.06284739761310118,
+    "mean_decision_latency_seconds": 8.667187499999949e-06,
+    "mean_network_ttt_gain": 76.88294504905761,
+    "median_relative_ttt_gain": 0.02154893489796116,
+    "missed_opportunity_rate": 0.8349514563106796,
+    "p10_relative_ttt_gain": 0.0,
+    "p95_decision_latency_seconds": 8.66718749999995e-06,
+    "population_benefit_rate": 0.053125,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 34
+  },
+  "V4-C": {
+    "case_count": 640,
+    "coverage": 0.0359375,
+    "coverage_ci95": [
+      0.024064574583147195,
+      0.05334805260614143
+    ],
+    "failure_avoidance_rate": 0.9976958525345622,
+    "intervention_count": 23,
+    "intervention_precision": 0.9565217391304348,
+    "intervention_precision_ci95": [
+      0.7900884492974114,
+      0.9922833338565469
+    ],
+    "legal_violation_count": 0,
+    "maximum_regret": 0.07752088320228845,
+    "mean_decision_latency_seconds": 8.667187499999949e-06,
+    "mean_network_ttt_gain": 54.31434023089473,
+    "median_relative_ttt_gain": 0.049220787207796615,
+    "missed_opportunity_rate": 0.8932038834951457,
+    "p10_relative_ttt_gain": 0.024528819289340767,
+    "p95_decision_latency_seconds": 8.66718749999995e-06,
+    "population_benefit_rate": 0.034375,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 22
+  },
+  "V4-E": {
+    "case_count": 640,
+    "coverage": 0.08125,
+    "coverage_ci95": [
+      0.06249687618768773,
+      0.10500003992924611
+    ],
+    "failure_avoidance_rate": 0.9907834101382489,
+    "intervention_count": 52,
+    "intervention_precision": 0.9230769230769231,
+    "intervention_precision_ci95": [
+      0.8182643761570466,
+      0.9696806548150699
+    ],
+    "legal_violation_count": 0,
+    "maximum_regret": 0.07903595279344225,
+    "mean_decision_latency_seconds": 8.667187499999949e-06,
+    "mean_network_ttt_gain": 84.76776634702746,
+    "median_relative_ttt_gain": 0.059028167826409766,
+    "missed_opportunity_rate": 0.7669902912621359,
+    "p10_relative_ttt_gain": 0.02154893489796116,
+    "p95_decision_latency_seconds": 8.66718749999995e-06,
+    "population_benefit_rate": 0.075,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 48
+  },
+  "V4-F": {
+    "case_count": 640,
+    "coverage": 0.0859375,
+    "coverage_ci95": [
+      0.06661848115037566,
+      0.11019749933838355
+    ],
+    "failure_avoidance_rate": 0.9838709677419355,
+    "intervention_count": 55,
+    "intervention_precision": 0.8727272727272727,
+    "intervention_precision_ci95": [
+      0.7598297234409093,
+      0.9369578957263536
+    ],
+    "legal_violation_count": 0,
+    "maximum_regret": 0.07903595279344225,
+    "mean_decision_latency_seconds": 8.667187499999949e-06,
+    "mean_network_ttt_gain": 84.76776634702746,
+    "median_relative_ttt_gain": 0.059028167826409766,
+    "missed_opportunity_rate": 0.7669902912621359,
+    "p10_relative_ttt_gain": 0.0,
+    "p95_decision_latency_seconds": 8.66718749999995e-06,
+    "population_benefit_rate": 0.075,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 48
+  },
+  "V4-P": {
+    "case_count": 640,
+    "coverage": 0.0859375,
+    "coverage_ci95": [
+      0.06661848115037566,
+      0.11019749933838355
+    ],
+    "failure_avoidance_rate": 0.9838709677419355,
+    "intervention_count": 55,
+    "intervention_precision": 0.8727272727272727,
+    "intervention_precision_ci95": [
+      0.7598297234409093,
+      0.9369578957263536
+    ],
+    "legal_violation_count": 0,
+    "maximum_regret": 0.07903595279344225,
+    "mean_decision_latency_seconds": 8.667187499999949e-06,
+    "mean_network_ttt_gain": 84.76776634702746,
+    "median_relative_ttt_gain": 0.059028167826409766,
+    "missed_opportunity_rate": 0.7669902912621359,
+    "p10_relative_ttt_gain": 0.0,
+    "p95_decision_latency_seconds": 8.66718749999995e-06,
+    "population_benefit_rate": 0.075,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 48
+  }
+}
