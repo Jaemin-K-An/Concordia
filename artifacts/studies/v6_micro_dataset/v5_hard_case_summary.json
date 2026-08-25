@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "hard_case_counts": {
+    "hard_negative": 9,
+    "hard_positive": 20,
+    "ordinary_negative": 70,
+    "selected_positive": 1
+  },
+  "hard_negative_by_scenario": {
+    "ring": 9
+  },
+  "hard_positive_by_scenario": {
+    "merge": 11,
+    "signalized": 5,
+    "two_route": 4
+  },
+  "historical_cases_used_for_final_holdout": false,
+  "rl_used": false,
+  "starting_head": "9e2dc95d48a05d97c77edc1e6dbcc61df221a42b",
+  "study": "v6 entry audit and v5 hard-case extraction",
+  "v5_freeze_source_commit": "15a8723fdfe6cfa06583441ea18d89fcb6de1b86",
+  "v5_freeze_verified": true,
+  "v5_historical_case_count": 100
+}

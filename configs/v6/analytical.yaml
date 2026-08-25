@@ -1,0 +1,7 @@
+final_holdout:
+  seeds: [661, 673]
+  scenarios: [two_route, ring, merge, signalized]
+  demand_scale: [0.85, 1.05, 1.15, 1.30]
+  heterogeneity: [low, high, bimodal, long_tail]
+  navigation_penetration: [0.25, 0.50, 0.75, 1.00]
+  expected_case_count: 512

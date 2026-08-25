@@ -1,0 +1,14 @@
+study: v6_sumo_native_real_osm_bridge
+source_osm: data/raw/gangnam_intersection.osm
+source_manifest: data/manifests/gangnam_intersection.json
+od_pair_count: 10
+overlap_strata: [low, medium, high]
+stratum_counts: {low: 3, medium: 4, high: 3}
+minimum_legal_alternatives: 3
+seeds: [691, 701]
+demand_vehicles_per_hour: [600, 720]
+navigation_penetration: [0.75, 1.00]
+vehicle_generation_seconds: 180
+maximum_simulation_seconds: 480
+selection_rule: deterministic nearest-to-overlap-quantile after legality/connectivity/path-length filters
+claim_boundary: real road geometry with synthetic OD demand and preferences; not observed Seoul traffic

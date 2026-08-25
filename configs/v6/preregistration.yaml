@@ -1,0 +1,38 @@
+version: concordia-v6-preregistered-1
+primary_domain: actual_sumo_microscopic
+label:
+  name: SafeMicroSuccess
+  minimum_relative_ttt_gain: 0.01
+  safety_cvar_drac_margin: 0.25
+  regret_limit: 0.08
+  legal_required: true
+targets:
+  micro_precision: 0.80
+  micro_coverage: 0.10
+  micro_coverage_stretch: 0.15
+  micro_interventions: 30
+  micro_interventions_recommended: 50
+  opportunity_recovery: 0.40
+  opportunity_recovery_stretch: 0.60
+  safety_violations: 0
+  false_safe_rate: 0.05
+  analytical_precision: 0.80
+  micro_calibration_ece: 0.08
+statistics:
+  strong_precision_ci_lower: 0.60
+  very_strong_precision_ci_lower: 0.70
+stage_1:
+  safe_micro_success_recall: 0.95
+  stretch_recall: 0.98
+stage_2:
+  objective: maximize_recall_subject_to_precision_and_zero_validation_safety_violations
+outcomes:
+  S_plus: {precision: 0.80, coverage: 0.15, opportunity_recovery: 0.50, interventions: 50, safety_violations: 0, real_osm_safe_success: true}
+  S: {precision: 0.80, coverage: 0.10, opportunity_recovery: 0.40, interventions: 30, safety_violations: 0}
+  P: {precision: 0.60, safety_violations: 0}
+  F: {precision_below: 0.60, or_safety_violation: true}
+claim_boundary: >-
+  Analytical evidence is synthetic. Microscopic studies use actual SUMO with synthetic demand,
+  preferences and acceptance. OSM studies use real geometry with synthetic OD demand. TTC, PET
+  and DRAC remain surrogate conflict indicators and are never crash probabilities.
+rl_used: false

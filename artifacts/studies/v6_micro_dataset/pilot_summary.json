@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "design_changed_after_pilot": false,
+  "diagnostic_counts": {
+    "S1_safe_beneficial": 3,
+    "S2_safe_neutral": 6,
+    "S3_safe_harmful": 7,
+    "U1_unsafe_beneficial": 2,
+    "U2_unsafe_harmful": 2
+  },
+  "pair_count": 20,
+  "safe_micro_success_count": 3
+}
