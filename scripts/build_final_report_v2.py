@@ -53,6 +53,8 @@ def _image(path: str, title: str) -> str:
 def run() -> Path:
     analytical = _load("artifacts/studies/analytical_matrix/summary.json")
     alignment = _load("artifacts/studies/alignment_frontier/summary.json")
+    h1r = _load("artifacts/studies/alignment_frontier/h1_robustness.json")
+    fixed_point = _load("artifacts/studies/fixed_point_ablation/summary.json")
     microscopic = _load("artifacts/studies/microscopic_policy_matrix/summary.json")
     calibration = _load("artifacts/studies/phantom_calibration/summary.json")
     real = _load("artifacts/studies/real_topology_policy_matrix/summary.json")
@@ -124,10 +126,19 @@ No metric was changed to reverse these outcomes.</p>
 and {alignment['sampled_point_count']} epsilon points. All frontiers were monotone; the knee
 epsilon median was {alignment['knee_epsilon']['median']:.3f}. Sampled regions: 
 {html.escape(str(alignment['phase_counts']))}.</p>
+<p>H1-R did not show that heterogeneity is uniformly a coordination resource: weighted
+alignment opportunity was {h1r['low']['weighted_alignment_opportunity']:.1f} in the low group
+versus {h1r['high']['weighted_alignment_opportunity']:.1f} in the high group. Preference
+diversity helps only when available route attributes expose useful time, reliability, or risk
+trade-offs; topology can remove that choice space.</p>
 <h2>4. Price of Alignment</h2>
 <p><code>PoAlign(epsilon) = C*(epsilon) / C_SO</code> quantifies the system cost of preserving
 the declared regret budget. Marginal finite differences report how much TTT is recovered per
 additional unit of permitted private loss.</p>
+<p>The acceptance–traffic fixed point converged in {fixed_point['FP1_converged_count']}/
+{fixed_point['run_count']} cases. FP1 reduced mean acceptance Brier score from
+{fixed_point['mean_FP0_acceptance_brier']:.5f} to
+{fixed_point['mean_FP1_acceptance_brier']:.5f}, at the cost of a slower analytical solve.</p>
 <h2>5. Microscopic phantom and safety</h2>
 <table><tr><th>Question</th><th>Result</th></tr>
 <tr><td>H3 matched VALID events</td><td>{'SUPPORTED' if h3_supported else 'NOT SUPPORTED'};
@@ -139,6 +150,13 @@ B6−B1 mean={h4['paired_mean_difference_B6_minus_B1']:.4f}, upper CI={h4['boots
 <p>{real['run_count']} SUMO runs used {real['legal_route_count']} legal alternatives on the
 committed Gangnam OSM extract. Transfer and limited-retuning results are separate. Demand
 provenance remains <strong>{html.escape(real['demand_provenance'])}</strong>.</p>
+<p>Transfer failed to improve TTT: B1={real['statistics']['transfer']['B1_mean_TTT_seconds']:.1f}s
+and B6={real['statistics']['transfer']['B6_mean_TTT_seconds']:.1f}s. The failure decomposition
+records mean route-overlap Jaccard
+{real['failure_decomposition']['route_overlap_jaccard_mean']:.3f}, mean accepted-route
+preference cost {real['failure_decomposition']['mean_preference_cost_regret']:.4f}, and
+{real['failure_decomposition']['new_secondary_bottleneck_edge_count']} loaded secondary
+bottleneck edges. This is mechanism failure on synthetic demand, not an observed Seoul effect.</p>
 <h2>7. Scalability and RL Gate</h2>
 <p>B6's first declared enumeration-limit failure was
 <code>{html.escape(str(scalability['B6_first_declared_limit_failure']))}</code>. The pre-RL
@@ -146,11 +164,16 @@ mathematical approximation reached operational p95
 {scalability['approximation_operational_p95_seconds']:.4f}s; residual Gate E trigger:
 {scalability['Gate_E']['triggered_for_RL']}. Gate C median incremental degradation was
 {drift['Gate_C']['measured_median_nonstationarity_incremental_degradation']:.4f} against a
-0.10 threshold.</p>
+0.10 threshold. Its p95 was {drift['adaptive_p95_incremental_degradation']:.4f}, retained as a
+tail failure even though the pre-registered median Gate C did not authorize RL.</p>
 <h2>8. Conditions of validity and failure</h2>
 <ul><li><strong>Alignment Win:</strong> regret-feasible recommendations beat sampled ETA-only cost.</li>
 <li><strong>Alignment Trade-off:</strong> voluntariness is protected but network cost is higher.</li>
-<li><strong>Alignment Infeasible:</strong> the permitted utility loss contains no useful diversion.</li></ul>
+<li><strong>Alignment Infeasible:</strong> the permitted utility loss contains no useful diversion.</li>
+<li><strong>Microscopic failure:</strong> B6 increased VALID event incidence in this matrix and
+did not establish DRAC-CVaR non-inferiority.</li>
+<li><strong>Topology-transfer failure:</strong> accepted recommendations redistributed demand
+but increased TTT on the tested real geometry.</li></ul>
 <p class="decision">{final_decision}. {rl_decision}.</p>
 <p>Evidence: <code>artifacts/studies/alignment_frontier/summary.json</code>,
 <code>artifacts/studies/microscopic_policy_matrix/summary.json</code>,
@@ -158,6 +181,7 @@ mathematical approximation reached operational p95
 <code>artifacts/studies/scalability/summary.json</code>, and
 <code>artifacts/rl_gate_report_v2.json</code>.</p>
 <h2>Figures</h2><div class="grid">{figure_html}</div>
+<p class="decision">{final_decision}. {rl_decision}.</p>
 </body></html>"""
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(document, encoding="utf-8")

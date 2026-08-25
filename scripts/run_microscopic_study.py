@@ -729,6 +729,17 @@ def _calibration_figure(calibration: dict) -> Path:
     return path
 
 
+def _materialize_processed_contract() -> list[Path]:
+    """Expose canonical raw/processed names without changing recorded evidence."""
+    micro_processed = MICRO / "processed_metrics.json"
+    calibration_raw = CALIBRATION / "raw_metrics.json"
+    calibration_processed = CALIBRATION / "processed_metrics.json"
+    shutil.copyfile(MICRO / "statistical_tests.json", micro_processed)
+    shutil.copyfile(CALIBRATION / "dataset.json", calibration_raw)
+    shutil.copyfile(CALIBRATION / "summary.json", calibration_processed)
+    return [micro_processed, calibration_raw, calibration_processed]
+
+
 def run() -> Path:
     source_commit, source_dirty = capture_source_state()
     started = datetime.now(timezone.utc)
@@ -774,6 +785,7 @@ def run() -> Path:
     _write_json(CALIBRATION / "summary.json", calibration["summary"])
     _write_json(CALIBRATION / "statistical_tests.json", calibration["summary"].get("models", {}))
     calibration_figure = _calibration_figure(calibration["summary"])
+    contract_outputs = _materialize_processed_contract()
     ended = datetime.now(timezone.utc)
     outputs = [
         MICRO / "raw_metrics.json",
@@ -783,6 +795,7 @@ def run() -> Path:
         CALIBRATION / "summary.json",
         CALIBRATION / "statistical_tests.json",
         calibration_figure,
+        *contract_outputs,
         *figures,
     ]
     run_dir = ExperimentRegistry(str(ROOT / "artifacts" / "runs")).create(
@@ -810,6 +823,7 @@ if __name__ == "__main__":
     if arguments.reuse_if_valid and existing.is_file() and json.loads(
         existing.read_text(encoding="utf-8")
     ).get("complete"):
+        _materialize_processed_contract()
         print(existing)
     else:
         run()

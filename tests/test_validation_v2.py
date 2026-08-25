@@ -1,4 +1,6 @@
+import json
 import unittest
+from pathlib import Path
 
 from concordia.alignment import compute_alignment_frontier
 from concordia.optimization import solve_fixed_point
@@ -97,6 +99,17 @@ class FinalValidationV2Tests(unittest.TestCase):
         costs = [point.minimum_feasible_ttt for point in frontier.points]
         self.assertTrue(frontier.monotonic)
         self.assertTrue(all(right <= left + 1e-8 for left, right in zip(costs, costs[1:])))
+
+    def test_real_topology_recommended_paths_are_legal(self):
+        summary_path = (
+            Path(__file__).resolve().parents[1]
+            / "artifacts"
+            / "studies"
+            / "real_topology_policy_matrix"
+            / "summary.json"
+        )
+        summary = json.loads(summary_path.read_text(encoding="utf-8"))
+        self.assertTrue(summary["all_recommended_paths_legal"])
 
 
 if __name__ == "__main__":

@@ -329,12 +329,14 @@ def run() -> Path:
     raw_path = OUTPUT / "raw_metrics.json"
     summary_path = OUTPUT / "summary.json"
     statistics_path = OUTPUT / "statistical_tests.json"
+    processed_path = OUTPUT / "processed_metrics.json"
     _write_json(raw_path, rows)
     _write_json(summary_path, summary)
     _write_json(statistics_path, summary["Gate_E"])
+    _write_json(processed_path, summary)
     figures = _figures(rows)
     ended = datetime.now(timezone.utc)
-    outputs = [raw_path, summary_path, statistics_path, *figures]
+    outputs = [raw_path, processed_path, summary_path, statistics_path, *figures]
     run_dir = ExperimentRegistry(str(ROOT / "artifacts" / "runs")).create(
         config,
         summary,
@@ -358,6 +360,7 @@ if __name__ == "__main__":
     if arguments.reuse_if_valid and existing.is_file() and json.loads(
         existing.read_text(encoding="utf-8")
     ).get("complete"):
+        _write_json(OUTPUT / "processed_metrics.json", json.loads(existing.read_text(encoding="utf-8")))
         print(existing)
     else:
         run()

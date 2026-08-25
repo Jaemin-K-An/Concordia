@@ -107,6 +107,19 @@ def _legal_routes(network_path: Path, origin: str, destination: str, count: int 
     return network, paths
 
 
+def _paths_are_legal(network, paths) -> bool:
+    for _nodes, edge_ids in paths:
+        edges = [network.getEdge(edge_id) for edge_id in edge_ids]
+        if any(not edge.allows("passenger") for edge in edges):
+            return False
+        if any(
+            left.getToNode().getID() != right.getFromNode().getID()
+            for left, right in zip(edges, edges[1:])
+        ):
+            return False
+    return True
+
+
 def _write_config(directory: Path, network: Path, paths) -> Path:
     route_path = directory / "routes.rou.xml"
     route_lines = [
@@ -507,12 +520,27 @@ def run() -> Path:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     raw_path = OUTPUT / "raw_metrics.json"
     statistics_path = OUTPUT / "statistical_tests.json"
+    processed_path = OUTPUT / "processed_metrics.json"
     layer_path = OUTPUT / "gangnam_policy_delta.geojson"
     _write_json(raw_path, rows)
     statistics = _statistics(rows)
     _write_json(statistics_path, statistics)
+    _write_json(processed_path, statistics)
     _qgis_layer(network, rows, layer_path)
     figures = _figures(rows, layer_path)
+    overlap = []
+    edge_sets = [set(edge_ids) for _nodes, edge_ids in paths]
+    for left_index, left in enumerate(edge_sets):
+        for right in edge_sets[left_index + 1 :]:
+            overlap.append(len(left & right) / max(1, len(left | right)))
+    layer = json.loads(layer_path.read_text(encoding="utf-8"))
+    secondary = [
+        feature
+        for feature in layer["features"]
+        if feature["properties"]["delta_flow"] > 0
+        and feature["properties"]["bottleneck_score"] >= 1.0
+    ]
+    transfer = statistics["transfer"]
     summary = {
         "complete": True,
         "study": "Study III — Real Topology Transfer",
@@ -522,13 +550,26 @@ def run() -> Path:
         "sumo_network_sha256": network_hash,
         "demand_provenance": config["demand_provenance"],
         "transfer_and_calibrated_separated": True,
+        "all_recommended_paths_legal": _paths_are_legal(network, paths),
+        "failure_decomposition": {
+            "adaptive_ttt_improved": transfer["B6_mean_TTT_seconds"] < transfer["B1_mean_TTT_seconds"],
+            "insufficient_alternative_routes": len(paths) < 3,
+            "route_overlap_jaccard_mean": float(np.mean(overlap)) if overlap else 0.0,
+            "route_overlap_jaccard_max": float(np.max(overlap)) if overlap else 0.0,
+            "mean_preference_cost_regret": transfer["B6_mean_regret"],
+            "new_secondary_bottleneck_edge_count": len(secondary),
+            "maximum_adaptive_bottleneck_score": max(
+                (feature["properties"]["bottleneck_score"] for feature in layer["features"]),
+                default=0.0,
+            ),
+        },
         "statistics": statistics,
         "claim_boundary": config["claim_boundary"],
     }
     summary_path = OUTPUT / "summary.json"
     _write_json(summary_path, summary)
     ended = datetime.now(timezone.utc)
-    outputs = [raw_path, statistics_path, layer_path, summary_path, *figures]
+    outputs = [raw_path, processed_path, statistics_path, layer_path, summary_path, *figures]
     run_dir = ExperimentRegistry(str(ROOT / "artifacts" / "runs")).create(
         config,
         summary,
@@ -557,6 +598,7 @@ if __name__ == "__main__":
     if arguments.reuse_if_valid and existing.is_file() and json.loads(
         existing.read_text(encoding="utf-8")
     ).get("complete"):
+        shutil.copyfile(OUTPUT / "statistical_tests.json", OUTPUT / "processed_metrics.json")
         print(existing)
     else:
         run()
