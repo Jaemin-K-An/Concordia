@@ -1,27 +1,80 @@
-# Concordia Adaptive Navigation
+<p align="center">
+  <img src="assets/brand/concordia-lockup.svg" width="750" alt="Concordia" />
+</p>
 
-Concordia is a reproducible research system for **truthful, preference-aligned,
-safety-constrained route recommendation**. It does not control speed, steering, acceleration,
-or lane changes. It observes a traffic network, estimates dynamic route attributes, proposes a
-route, models the user's independent acceptance/rejection, and changes a simulator route only
-after acceptance.
+<p align="center">
+  <strong>Truthful, preference-aligned, safety-constrained adaptive navigation.</strong><br />
+  A reproducible research system for voluntary route coordination—not vehicle control.
+</p>
 
-The repository now contains:
+<p align="center">
+  <img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-111111?style=flat-square" />
+  <img alt="SUMO 1.27.1" src="https://img.shields.io/badge/SUMO-1.27.1-404040?style=flat-square" />
+  <img alt="Tests 38 passing" src="https://img.shields.io/badge/tests-38%20passing-111111?style=flat-square" />
+  <img alt="RL gate Outcome A" src="https://img.shields.io/badge/RL%20gate-Outcome%20A-737373?style=flat-square" />
+</p>
 
-- explicit `RouteOffer`, `RecommendationDecision`, and `AcceptanceOutcome` domain stages;
-- behavioral softmax choice, a provenance-labelled logistic acceptance model, population
-  priors, online user posteriors, pairwise preference learning, and preference forgetting;
-- count/density/flow/speed/occupancy state with explicit units and an analytical/SUMO boundary;
-- multi-objective ETA/reliability/cost/risk/complexity candidates with deduplication, overlap,
-  and Pareto filtering;
-- dynamic horizon route prediction and Preference Slack;
-- a closed-loop acceptance-aware MPC controller that executes only its first accepted action;
-- B0–B6 baselines: static, ETA-only, preference-only, SO oracle, greedy VDE, HiGHS MIP, and MPC;
-- separate phantom-jam predictor/detector APIs, calibration metrics, SUMO SSM parsing, TTC,
-  PET, DRAC, hard-braking and safety-tail non-degradation checks;
-- a real OSM topology/geometry/provenance pipeline and QGIS-compatible GeoJSON;
-- screening and focused paired-seed experiments, immutable run manifests, automatic figures,
-  a mandatory RL gate, and a hypothesis-indexed audit.
+<p align="center">
+  <a href="#system">System</a> ·
+  <a href="#architecture">Architecture</a> ·
+  <a href="#reproduce">Reproduce</a> ·
+  <a href="#research-status">Research status</a> ·
+  <a href="#evidence">Evidence</a>
+</p>
+
+---
+
+> [!IMPORTANT]
+> CONCORDIA recommends legal routes using truthful computed attributes. It never controls
+> speed, steering, acceleration, or lane changes. A route is changed only after the modeled
+> user explicitly accepts the offer.
+
+## System
+
+CONCORDIA asks whether heterogeneous private preferences can become a coordination resource:
+can the network reduce congestion externalities by finding routes that some users genuinely
+prefer—or can accept with very little regret—without forcing sacrifice or degrading safety?
+
+| Behavioral layer | Adaptive layer | Research layer |
+|---|---|---|
+| Independent route choice and acceptance | Dynamic state and horizon prediction | B0–B6 matched policy comparisons |
+| Population prior and user posterior | Multi-objective candidate generation | Paired seeds, bootstrap CI, effect sizes |
+| Pairwise learning and preference drift | Acceptance-aware receding-horizon MPC | SUMO/SSM and real OSM verification |
+| Accepted-only route execution | Exact, greedy, HiGHS MIP, and MPC baselines | Mandatory quantitative RL gate |
+
+### What is implemented
+
+- Explicit `RouteOffer` → `RecommendationDecision` → `AcceptanceOutcome` domain stages.
+- Count, density, flow, speed, and occupancy state with documented units and provenance.
+- ETA, reliability, cost, risk, complexity, and familiarity route candidates with overlap and
+  Pareto filtering.
+- Dynamic route attributes and Preference Slack over a projected traffic horizon.
+- Closed-loop MPC that offers only its first action, observes again, and never executes a
+  rejected recommendation.
+- Separate phantom-jam risk predictor and multi-event trajectory detector.
+- TTC, PET, DRAC, hard-braking, SSM conflict typing, and direction-aware safety-tail metrics.
+- Original-geometry OSM import, topology audit, SUMO conversion, and QGIS-ready GeoJSON.
+- Immutable run manifests containing commit/dirty state, timing, versions, hardware, seeds,
+  validity, and input/output hashes.
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A["SUMO / analytical network"] --> B["Network state estimator"]
+    B --> C["Risk + route prediction"]
+    C --> D["Preference posterior"]
+    D --> E["Constrained MPC optimizer"]
+    E --> F["Truthful route offer"]
+    F --> G{"User accepts?"}
+    G -->|"yes"| H["Execute route change"]
+    G -->|"no"| I["Keep current/private route"]
+    H --> A
+    I --> A
+```
+
+The analytical layer is a BPR correctness harness. The microscopic layer is actual SUMO
+1.27.1 through TraCI. They are never silently substituted for one another.
 
 ## Reproduce
 
@@ -39,59 +92,81 @@ make report
 make audit
 ```
 
-`make simulation-test` needs the official SUMO/TraCI packages from the `sumo` optional extra:
+Install the official SUMO/TraCI optional dependencies before microscopic validation:
 
 ```bash
 python3 -m pip install -e '.[dev,analysis,sumo]'
 ```
 
-The fast test suite does not open SUMO. CI separates the analytical and microscopic jobs.
+The fast test suite does not open SUMO. CI separates analytical, microscopic, and manually
+dispatched research-matrix workflows.
 
-## Current results — read before citing
+## Research status
 
-The committed B0–B6 study is a **synthetic analytical correctness-scale experiment**, not an
-observed traffic result. Its 240 screening rows and 60 focused paired rows did not support
-aggregate H1 or H2; H5 is exploratory and H6 is not supported by a pre-registered stability
-criterion. The signalized case exposes a useful failure mode: ETA-only may reduce TTT while
-violating some users' regret budget, whereas the constrained policies preserve the budget.
+The committed study contains **240 screening rows** and **60 focused paired B0–B6 rows**.
+These are synthetic analytical correctness-scale experiments, not observed traffic results.
 
-The SUMO 1.27.1 ring smoke run produced complete trajectories, explicit traffic state, SSM
-output, safety distributions, and two detector candidates for backward-propagating waves.
-Because there is no matched adaptive-vs-ETA microscopic probability matrix, **H3 phantom-jam
-prevention is NOT TESTED**. Microscopic safety non-degradation H4 is **PARTIAL**, not a crash
-claim. The real Gangnam-area OSM extract preserves geometry and converts successfully with
-`netconvert`; its OD demand is explicitly **synthetic demand on real topology**, and the same
-mechanism has not yet been demonstrated there.
+| Hypothesis | Status | Finding |
+|---|---|---|
+| H1 · Preference diversity creates more diversion opportunities | **FAIL** | Not supported by the declared synthetic population and routes. |
+| H2 · B6 reduces TTT under bounded regret | **FAIL** | B6 respected the regret bound but did not beat B1 in aggregate. |
+| H3 · Adaptive routing prevents phantom jams | **NOT TESTED** | No matched microscopic adaptive-vs-ETA probability matrix. |
+| H4 · Safety tails do not degrade | **PARTIAL** | Pipeline and smoke evidence exist; paired policy non-inferiority does not. |
+| H5 · Variance/tails explain more than means | **PARTIAL** | Exploratory in-sample association only. |
+| H6 · Closed-loop feedback is more stable | **FAIL** | No pre-registered stability effect was met. |
+| H7 · RL exceeds constrained MPC | **NOT TESTED** | The mandatory gate did not authorize RL. |
 
-The mandatory quantitative gate produced **Outcome A**:
+The signalized scenario exposes an important failure condition: ETA-only can lower network TTT
+while exceeding some users' regret budget. CONCORDIA reports that trade-off instead of hiding
+it behind an aggregate objective.
 
-> RL not introduced because deterministic/receding-horizon optimization was sufficient under
-> the tested, declared small-instance conditions.
+### Microscopic and real-topology boundary
 
-This does not claim that RL can never help. Larger networks and full nonstationary traffic
-studies remain untested, and absence of evidence is not treated as a gate trigger.
+- The SUMO ring smoke run completed 6,000 steps and 37,802 trajectory frames, with full FCD,
+  SSM, traffic, and safety-distribution hashes.
+- Two backward-wave detector candidates were observed in that single synthetic run. This is
+  detector evidence, **not** phantom-jam prevention evidence.
+- The Gangnam-area OSM extract preserves its geometry, has three audited alternatives, and
+  converts with `netconvert`. Its OD is explicitly **synthetic demand on real topology**.
+- Surrogate conflicts are never interpreted as crash probabilities.
 
-## Evidence map
+### RL decision
 
-- [`docs/mathematical_spec.md`](docs/mathematical_spec.md) — units, objectives, constraints,
-  acceptance-aware MPC, and claim boundary.
-- [`docs/implementation_gap_audit.md`](docs/implementation_gap_audit.md) — baseline audit made
-  before implementation.
-- [`artifacts/studies/analytical_matrix/summary.json`](artifacts/studies/analytical_matrix/summary.json)
-  — screening/focused B0–B6 rows and paired hypothesis statistics.
-- [`artifacts/studies/sumo_ring/summary.json`](artifacts/studies/sumo_ring/summary.json) — actual
-  microscopic smoke-run version, hashes, wave candidates, and safety summary.
-- [`artifacts/studies/real_topology/topology_audit.json`](artifacts/studies/real_topology/topology_audit.json)
-  and [`sumo_conversion.json`](artifacts/studies/real_topology/sumo_conversion.json) — OSM and
-  SUMO topology verification.
-- [`artifacts/rl_gate_report.json`](artifacts/rl_gate_report.json) and
-  [`docs/rl_gate_decision.md`](docs/rl_gate_decision.md) — RL thresholds and Outcome A.
-- [`artifacts/reports/report.html`](artifacts/reports/report.html) — generated research report.
-- [`FINAL_AUDIT.md`](FINAL_AUDIT.md) — PASS/PARTIAL/NOT TESTED status by claim.
+> **Outcome A — RL not introduced because deterministic/receding-horizon optimization was
+> sufficient under the tested, declared small-instance conditions.**
+
+This outcome does not claim that RL can never help. Large-scale and fully nonstationary traffic
+studies remain untested; missing evidence is not treated as permission to add RL.
+
+## Evidence
+
+<table>
+  <tr>
+    <td width="50%"><img src="artifacts/figures/ttt_vs_demand.png" alt="TTT versus demand" /></td>
+    <td width="50%"><img src="artifacts/figures/phase_diagram.png" alt="Beneficial-diversion phase diagram" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Synthetic analytical TTT across B0–B6</sub></td>
+    <td align="center"><sub>Screened opportunity surface—not a real-world effect map</sub></td>
+  </tr>
+</table>
+
+| Artifact | Contents |
+|---|---|
+| [`FINAL_AUDIT.md`](FINAL_AUDIT.md) | PASS / FAIL / PARTIAL / NOT TESTED status for every claim |
+| [`artifacts/reports/report.html`](artifacts/reports/report.html) | Generated hypothesis-indexed research report and figures |
+| [`analytical_matrix/summary.json`](artifacts/studies/analytical_matrix/summary.json) | Screening, focused B0–B6 rows, paired statistics, and failure cases |
+| [`analytical_matrix/manifest.json`](artifacts/studies/analytical_matrix/manifest.json) | Clean source commit, runtime, dependencies, and hashes |
+| [`sumo_ring/summary.json`](artifacts/studies/sumo_ring/summary.json) | Microscopic traffic, wave candidates, safety distributions, and claim boundary |
+| [`sumo_ring/manifest.json`](artifacts/studies/sumo_ring/manifest.json) | Clean source commit, SUMO version, inputs, runtime, and output hashes |
+| [`real_topology/topology_audit.json`](artifacts/studies/real_topology/topology_audit.json) | OSM topology, components, route diversity, and demand provenance |
+| [`artifacts/rl_gate_report.json`](artifacts/rl_gate_report.json) | Frozen RL thresholds, measured gates, and Outcome A |
+| [`docs/mathematical_spec.md`](docs/mathematical_spec.md) | Units, utility, constraints, MPC, safety, and scientific assumptions |
 
 ## Repository map
 
 ```text
+assets/        Figma-derived Concordia brand assets
 configs/       scenario, population, policy, screening, and focused experiment inputs
 data/          immutable OSM source, processed geometry, and provenance manifests
 docs/          mathematical specification, decisions, gap audit, and RL gate decision
@@ -102,6 +177,9 @@ scripts/       SUMO and real-topology verification helpers
 artifacts/     phase reports, study evidence, figures, registry, gate, and report
 ```
 
-Safety metrics throughout this project are surrogate conflict indicators, never accident
-probabilities. Synthetic preference/acceptance coefficients are labelled as assumptions and
-must not be presented as calibrated human behavior.
+---
+
+<p align="center">
+  <sub>Safety metrics are surrogate conflict indicators, never accident probabilities.<br />
+  Synthetic preference and acceptance coefficients are assumptions, not calibrated human behavior.</sub>
+</p>
