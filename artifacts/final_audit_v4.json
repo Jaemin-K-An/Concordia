@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "frozen_model_hash": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+  "frozen_threshold_hash": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3",
+  "holdout_result_hash": "fe1dda14b6533750117504f6c51a30c2acb8a0de87aeb87e2acb26a1bf68054b",
+  "hypotheses": {
+    "H15 precision \u22650.80": "PASS",
+    "H16 coverage >v3-D": "PASS",
+    "H16 coverage \u22650.20": "FAIL",
+    "H17 zero safety violations": "PASS",
+    "H18 PBR >v3-D": "PASS",
+    "H19 interaction retained": "DESCRIPTIVE \u2014 see validation CI/effect",
+    "H20 ESIV improves Coverage@Precision80": "FAIL"
+  },
+  "outcome": "P",
+  "outcome_text": "High-precision CONCORDIA partially supported.",
+  "questions": {
+    "Coverage \u226520%?": "FAIL",
+    "Coverage \u226525%?": "FAIL",
+    "ECE < 0.05?": "FAIL",
+    "Feasibility calibrated?": "PASS",
+    "Holdout untouched?": "PASS",
+    "Intervention count \u226550?": "PASS",
+    "Mean TTT gain positive?": "PASS",
+    "Microscopic interventions >0?": "PASS",
+    "Precision \u226580%?": "PASS",
+    "RL used?": "NO",
+    "Real-topology tested?": "PASS",
+    "Regret violations = 0?": "PASS",
+    "Safety violations = 0?": "PASS",
+    "Stress precision": "0.4409",
+    "Threshold frozen?": "PASS",
+    "Worst-group precision": "0.4000"
+  },
+  "rl_used": false,
+  "stress_result_hash": "0662607dc3e4f3bbaec76599e3204b6364affd60e003923af807378d11adc263"
+}

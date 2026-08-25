@@ -50,7 +50,9 @@ def run() -> Path:
     stress = _load("artifacts/studies/v4_stress/summary.json")
     primary = holdout["primary_metrics"]
 
-    policy_rows = "".join(
+    policy_rows = (
+        "<tr><td>B1</td><td>0</td><td>—</td><td>0.0%</td><td>0.00000</td></tr>"
+        + "".join(
         "<tr>"
         f"<td>{html.escape(name)}</td>"
         f"<td>{metrics['intervention_count']}</td>"
@@ -59,6 +61,7 @@ def run() -> Path:
         f"<td>{metrics['mean_network_ttt_gain']:.5f}</td>"
         "</tr>"
         for name, metrics in holdout["policy_metrics"].items()
+        )
     )
     group_rows = []
     for dimension, groups in holdout["group_metrics"]["dimensions"].items():
@@ -142,7 +145,7 @@ table{{border-collapse:collapse;width:100%;margin:18px 0}}th,td{{border-bottom:1
 
 <h2>2. Model selection and calibration</h2>
 <p>Robust CV selected <strong>{html.escape(model['selected_model'])}</strong> using worst-group and lower-tail precision before coverage, ECE, and mean selected gain. CV worst-group precision was {_pct(model['worst_group_precision'])}; mean coverage was {_pct(model['mean_coverage'])}. The probability calibrator was <strong>{html.escape(calibration['selected_method'])}</strong>, with ECE {calibration['selected_ece']:.4f} against the preregistered 0.05 target. Benefit models were <code>{html.escape(benefit['selected_mean_model'])}</code> and <code>{html.escape(benefit['selected_lower_model'])}</code>. The calibration false-safe count for the conservative safety UCB was {safety['calibration_false_safe_metrics']['false_safe_count']}.</p>
-<p>The frozen policy was <strong>{html.escape(validation['selected_policy'])}</strong>. Validation-only H20 Coverage@Precision80 was {_pct(h20['H20_ESIV_coverage_at_precision80'])} for ESIV and {_pct(h20['H20_probability_coverage_at_precision80'])} for probability gating. H19 interaction coefficient/effect: {html.escape(str(h19))}.</p>
+<p>The frozen research candidate was <strong>{html.escape(validation['selected_policy'])}</strong>. Deployment was <strong>{'allowed' if validation['deployment_allowed'] else 'blocked'}</strong> because no validation candidate jointly met precision ≥80% and coverage ≥15%. Validation-only H20 Coverage@Precision80 was {_pct(h20['H20_ESIV_coverage_at_precision80'])} for ESIV and {_pct(h20['H20_probability_coverage_at_precision80'])} for probability gating. H19 interaction coefficient/effect: {html.escape(str(h19))}.</p>
 
 <h2>3. Untouched holdout comparisons</h2>
 <table><tr><th>Policy</th><th>Interventions</th><th>Precision</th><th>Coverage</th><th>Mean TTT gain</th></tr>{policy_rows}</table>
@@ -152,7 +155,7 @@ table{{border-collapse:collapse;width:100%;margin:18px 0}}th,td{{border-bottom:1
 <table><tr><th>Dimension</th><th>Group</th><th>N intervention</th><th>Precision</th><th>Coverage</th></tr>{''.join(group_rows)}</table>
 
 <h2>5. Actual microscopic and real-geometry validation</h2>
-<p>The actual SUMO matrix contained {microscopic['pair_count']} paired cases. V4-F made {microscopic['policy_metrics']['V4-F']['intervention_count']} interventions with precision {_pct(microscopic['policy_metrics']['V4-F']['intervention_precision'])}; adaptive success is claimed only when that count is positive. Phantom-jam prediction remained secondary and was not a v4 gate.</p>
+<p>The actual SUMO matrix contained {microscopic['pair_count']} paired cases. V4-F made {microscopic['policy_metrics']['V4-F']['intervention_count']} intervention with precision {_pct(microscopic['policy_metrics']['V4-F']['intervention_precision'])} and {microscopic['policy_metrics']['V4-F']['safety_violation_count']} surrogate safety violation. This non-degenerate activation test failed; no microscopic adaptive-success or safety-transfer claim is made. Phantom-jam prediction remained secondary and was not a v4 gate.</p>
 <p>The real-geometry study used {len(real['od_pairs'])} passenger-legal OD pairs spanning low, medium, and high route overlap. Demand is synthetic and the result is mechanism-transfer evidence, not a Seoul effect estimate.</p>
 <table><tr><th>Overlap class</th><th>Interventions</th><th>Precision</th><th>Coverage</th></tr>{overlap_rows}</table>
 

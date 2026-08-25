@@ -165,7 +165,7 @@ Median activated-group precision: **{holdout['group_metrics']['median_group_prec
 
 ## External validation and boundaries
 
-- Actual SUMO microscopic paired cases: {micro['pair_count']}; V4-F interventions: {micro['policy_metrics']['V4-F']['intervention_count']}; adaptive-success claim allowed: **{micro['adaptive_success_claim_allowed']}**.
+- Actual SUMO microscopic paired cases: {micro['pair_count']}; V4-F interventions / successes / surrogate safety violations: {micro['policy_metrics']['V4-F']['intervention_count']} / {micro['policy_metrics']['V4-F']['successful_intervention_count']} / {micro['policy_metrics']['V4-F']['safety_violation_count']}. The non-degenerate activation test failed, so no microscopic adaptive-success or safety-transfer claim is made.
 - Real OSM-geometry OD pairs: {len(real['od_pairs'])}; all recommended paths passenger-legal: **{real['all_routes_legal']}**; demand is synthetic.
 - Stress precision / coverage: {stress['policy_metrics']['intervention_precision']:.4f} / {stress['policy_metrics']['coverage']:.4f}; safety violations: {stress['policy_metrics']['safety_violation_count']}; loss CVaR: {stress['statistics']['loss_cvar']:.6f}.
 - Phantom-jam prediction is secondary and not a v4 primary gate.

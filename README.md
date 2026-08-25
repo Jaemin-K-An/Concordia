@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
-  <strong>Alignment-feasibility-gated, safety-constrained adaptive navigation.</strong><br />
-  Predict when voluntary route coordination is worth attempting—and abstain when it is not.
+  <strong>Precision-constrained, safety-gated adaptive navigation.</strong><br />
+  Estimate success, traffic benefit, and safety risk—then intervene only on the calibrated frontier.
 </p>
 
 <p align="center">
   <img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-111111?style=flat-square" />
   <img alt="SUMO 1.27.1" src="https://img.shields.io/badge/SUMO-1.27.1-404040?style=flat-square" />
-  <img alt="Tests 51 passing" src="https://img.shields.io/badge/tests-51%20passing-111111?style=flat-square" />
-  <img alt="Selective Outcome P" src="https://img.shields.io/badge/selective%20v3-Outcome%20P-0b6e4f?style=flat-square" />
+  <img alt="Tests 60 passing" src="https://img.shields.io/badge/tests-60%20passing-111111?style=flat-square" />
+  <img alt="Selective v4 Outcome P" src="https://img.shields.io/badge/selective%20v4-Outcome%20P-0b6e4f?style=flat-square" />
   <img alt="RL gate Outcome B" src="https://img.shields.io/badge/RL%20gate-Outcome%20B-737373?style=flat-square" />
 </p>
 
@@ -29,13 +29,15 @@
 > CONCORDIA recommends legal routes using truthful computed attributes. It never controls
 > speed, steering, acceleration, or lane changes. A route is changed only after the modeled
 > user explicitly accepts the offer. If feasibility, uncertainty, benefit, acceptance, tail,
-> or safety gates fail, v3 leaves the ETA baseline route unchanged.
+> or safety gates fail, v4 leaves the ETA baseline route unchanged. The frozen v4 candidate is
+> research-only: validation did not satisfy the preregistered 15% coverage guard.
 
 ## System
 
-CONCORDIA v3 asks a narrower, harder question: under which topology, demand, and preference
-conditions is voluntary coordination likely to help? It estimates alignment feasibility before
-acting, applies B6 only to high-confidence opportunities, and otherwise falls back to B1.
+CONCORDIA v4 asks how much coverage can be obtained while constraining successful-intervention
+precision to at least 80%. It predicts intervention success, expected traffic benefit, and safety
+failure separately; combines those estimates through probability, ESIV, and conformal candidates;
+and otherwise falls back to B1.
 
 | Behavioral layer | Adaptive layer | Research layer |
 |---|---|---|
@@ -58,18 +60,20 @@ acting, applies B6 only to high-confidence opportunities, and otherwise falls ba
 - Original-geometry OSM import, topology audit, SUMO conversion, and QGIS-ready GeoJSON.
 - Immutable run manifests containing commit/dirty state, timing, versions, hardware, seeds,
   validity, and input/output hashes.
-- A 32-feature alignment-feasibility schema with Alignment Potential, topology, preference,
-  acceptance, predicted benefit, uncertainty, and safety-margin inputs.
-- Frozen selective decision thresholds, B1 fallback, risk–coverage metrics, and complete
-  decision logs explaining every intervention or abstention.
+- A 46-feature v4 schema that preserves the v3 prefix and adds route-count, bottleneck,
+  preference-slack, dispersion, capacity, demand, penetration, and safety interactions.
+- Raw/Platt/isotonic/beta probability calibration, lower-bound benefit regression, conservative
+  safety UCB prediction, conformal comparison, and risk-adjusted ESIV.
+- Five families of leave-group-out CV, precision-constrained threshold selection, an explicit
+  coverage guard, immutable model/threshold checksums, and complete decision logs.
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    A["Topology · demand · preferences"] --> B["Alignment Potential + feature schema"]
-    B --> C["Bootstrap feasibility ensemble"]
-    C --> D{"Benefit, uncertainty, safety, acceptance and tail gates pass?"}
+    A["Topology · demand · preferences"] --> B["46-feature feasibility schema"]
+    B --> C["Calibrated P(success) · benefit LCB · safety UCB"]
+    C --> D{"Frozen probability/ESIV rule and safety constraints pass?"}
     D -->|"no"| E["B1 ETA baseline · abstain"]
     D -->|"yes"| F["B6 voluntary route offer"]
     F --> G{"User accepts?"}
@@ -113,6 +117,23 @@ make v3-real-topology
 make v3-tail-study
 make v3-report
 make v3-final-audit
+
+# v4 preregistered sequence
+make v4-audit
+make v4-dataset
+make v4-train
+make v4-robust-cv
+make v4-calibrate
+make v4-benefit-model
+make v4-safety-model
+make v4-select-threshold
+make v4-freeze
+make v4-holdout
+make v4-microscopic
+make v4-real-topology
+make v4-stress
+make v4-report
+make v4-final-audit
 ```
 
 Install the official SUMO/TraCI optional dependencies before microscopic validation:
@@ -126,11 +147,32 @@ dispatched research-matrix workflows.
 
 ## Research status
 
-The v3 primary evaluation contains **288 untouched holdout cases**. Frozen V3-D intervened in
-15 cases: precision **53.3%** (95% CI **30.1–75.2%**), coverage **5.2%**, positive mean TTT
-gain, and zero regret/safety/legal violations among interventions. This is **Outcome P**:
-point precision exceeded 50%, but the 65% engineering target, 40% coverage target, and lower-CI
-scientific criterion were not met.
+The v4 primary evaluation contains **640 untouched holdout cases**. Frozen V4-P intervened in
+55 cases: precision **87.3%** (95% CI **76.0–93.7%**), coverage **8.6%**, positive mean TTT
+gain, and zero regret/safety/legal violations among analytical interventions. Precision, the
+50-intervention target, and both scientific lower-CI criteria passed. Coverage missed the 20%
+minimum and the preregistered validation guard had already blocked deployment. The final decision
+is therefore **Outcome P**, not S or S+.
+
+| v4 hypothesis | Status | Finding |
+|---|---|---|
+| H15 · Holdout precision ≥80% | **PASS** | 48/55 interventions succeeded; lower 95% bound was 76.0%. |
+| H16 · Coverage improves and reaches 20% | **PARTIAL** | 8.6% exceeded V3-D's historical holdout coverage but missed 20%. |
+| H17 · Analytical safety violations are zero | **PASS** | No analytical safety, regret, or legal violations among interventions. |
+| H18 · Population benefit rate improves | **PASS** | Holdout PBR was 7.5%, above historical V3-D. |
+| H19 · Heterogeneity × route diversity generalizes | **DESCRIPTIVE** | Validation log-loss improved slightly, but the approximate coefficient CI crossed zero. |
+| H20 · ESIV improves Coverage@Precision80 | **FAIL** | ESIV and probability gating both reached 4.2% on validation. |
+
+Worst activated-group precision was **40.0%** at 50% navigation penetration, despite a median
+activated-group precision of **89.7%**. Isotonic validation ECE was **0.0514**, narrowly missing
+the 0.05 target. Under post-holdout demand/preference/acceptance shift, precision fell to
+**44.1%** at **17.2%** coverage, although safety violations remained zero.
+
+### Preserved v3 outcome
+
+The v3 primary evaluation remains **Outcome P**: 15 interventions on 288 untouched cases,
+precision **53.3%** (95% CI **30.1–75.2%**), coverage **5.2%**, positive mean TTT gain, and
+zero regret/safety/legal violations. v4 does not rewrite that result.
 
 | v3 hypothesis | Status | Finding |
 |---|---|---|
@@ -161,6 +203,12 @@ it behind an aggregate objective.
 
 ### Microscopic and real-topology boundary
 
+- The v4 actual-SUMO matrix contained 15 paired cases. V4-F made one intervention; it was not
+  successful and incurred one surrogate safety violation. Analytical holdout safety therefore
+  did **not** transfer cleanly to microscopic simulation.
+- The v4 real-geometry study used three passenger-legal OD pairs spanning low, medium, and high
+  route overlap. V4-F abstained in all 18 cases, so it supports fallback safety only—not adaptive
+  benefit or topology-transfer activation.
 - The v3 SUMO metastable search completed 21 B1 runs with 2,967/2,967 arrivals. It found no
   positive VALID-event runs, so the separate phantom predictor remains **NOT CALIBRATED** and
   its gate is excluded.
@@ -201,8 +249,15 @@ remains a recorded failure tail even though median Gate C did not trigger.
 
 | Artifact | Contents |
 |---|---|
+| [`FINAL_AUDIT_V4.md`](FINAL_AUDIT_V4.md) | Freeze, untouched holdout, H15–H20, worst groups, SUMO/OSM/stress boundaries, and Outcome P |
+| [`artifacts/report.html`](artifacts/report.html) | Current v4 paper-style report |
+| [`v4_model_selection/summary.json`](artifacts/studies/v4_model_selection/summary.json) | 1,032-case development set and five-family robust CV |
+| [`v4_precision_validation/summary.json`](artifacts/studies/v4_precision_validation/summary.json) | Calibration, benefit/safety models, precision–coverage frontier, and deployment block |
+| [`v4_frozen_holdout/summary.json`](artifacts/studies/v4_frozen_holdout/summary.json) | Untouched 640-case holdout, policy comparisons, group audit, and Outcome P |
+| [`v4_microscopic/summary.json`](artifacts/studies/v4_microscopic/summary.json) | Actual SUMO non-degenerate selective test and observed failure |
+| [`v4_real_topology/summary.json`](artifacts/studies/v4_real_topology/summary.json) | Three synthetic ODs on real OSM geometry |
+| [`v4_stress/summary.json`](artifacts/studies/v4_stress/summary.json) | Frozen demand/preference/acceptance distribution shift and CVaR |
 | [`FINAL_AUDIT_V3.md`](FINAL_AUDIT_V3.md) | Leakage, freeze, targets, H8–H14, evidence boundaries, and Outcome P |
-| [`artifacts/report.html`](artifacts/report.html) | Current v3 paper-style report with holdout, SUMO, OSM, and stress evidence |
 | [`v3_feasibility_prediction/summary.json`](artifacts/studies/v3_feasibility_prediction/summary.json) | Development-only model selection, calibration, feature importance, and frozen candidate |
 | [`v3_selective_holdout/summary.json`](artifacts/studies/v3_selective_holdout/summary.json) | Untouched 288-case primary holdout and Outcome P |
 | [`v3_microscopic_selective/summary.json`](artifacts/studies/v3_microscopic_selective/summary.json) | Actual SUMO safety-selectivity and phantom calibration exclusion |
