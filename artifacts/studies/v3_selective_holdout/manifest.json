@@ -1,0 +1,53 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 3.003198,
+  "end_timestamp_utc": "2026-08-25T04:55:14.590209+00:00",
+  "git_commit": "b7c2c7b2c9f761caa63d7b438e0155b6181e812b",
+  "git_dirty": false,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "artifacts/studies/v3_feasibility_prediction/selected_model.json": "60768e03e87e8bca0d802d6e56eb12386f05382887dd82121c910848a8842740",
+    "canonical_config": "92a1fd14b4aca16042d6173340f7f01b442b21bde9cd433ae92b977c04b04d43",
+    "configs/v3/frozen_thresholds.yaml": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+    "configs/v3/preregistration.yaml": "c293df070eeecebe07f3e388ba9c1e84bbe446d4e5d45cc7c3be320771f3bfd9",
+    "configs/v3/splits.yaml": "66effa7d9898c3124c6e535434e7cfdc7ec6e22abee6c6017735523c86295058"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/v3_selective_holdout/ablations.json": "53e1cbb50e83371c71b323250df21770ca1f1dd4d8caf29ee2cc7c1666c99b76",
+    "artifacts/studies/v3_selective_holdout/decision_log.json": "3603dddee2232664963dc0eed9c81fe592dfcc68972c638626f3840e1c657d62",
+    "artifacts/studies/v3_selective_holdout/figures/holdout_risk_coverage.png": "9f5d98e18db3d37dab103300b5128c84a898007f64e1f561b050e9de970ed6a5",
+    "artifacts/studies/v3_selective_holdout/figures/policy_precision_coverage.png": "7ddea87c87d282e977d56630e6106d631609bab1f73c225f5b2fa961f8dc6f11",
+    "artifacts/studies/v3_selective_holdout/processed_metrics.json": "738ba5591218b1ca1d5c24735bb7907dd1494fa23aa24f6cf630723e2fa04eb1",
+    "artifacts/studies/v3_selective_holdout/raw_metrics.json": "a6538a07983f371e29e12b52bc5761b327ce276708d0a8a6ac7d29628b538d38",
+    "artifacts/studies/v3_selective_holdout/statistical_tests.json": "c4f11f11eda04e3fbc9b284651e73f630c46d390295ce58d3eea8740fb579af2",
+    "artifacts/studies/v3_selective_holdout/summary.json": "90b57e2a54f0b6b9c359cbd323355b705e6f9aa0c7aeba765fcea8b6b2207b62",
+    "config.json": "92a1fd14b4aca16042d6173340f7f01b442b21bde9cd433ae92b977c04b04d43",
+    "metrics.json": "90b57e2a54f0b6b9c359cbd323355b705e6f9aa0c7aeba765fcea8b6b2207b62"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T045511.587011Z-bd19173db1",
+  "seeds": [
+    89,
+    97,
+    101
+  ],
+  "simulator_version": "analytical-no-sumo",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T04:55:11.587011+00:00",
+  "status": "valid"
+}

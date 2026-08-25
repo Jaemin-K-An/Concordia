@@ -1,0 +1,178 @@
+{
+  "A0_no_gate": {
+    "case_count": 288,
+    "coverage": 1.0,
+    "coverage_ci95": [
+      0.9868371723598931,
+      0.9999999999999999
+    ],
+    "failure_avoidance_rate": 0.0,
+    "intervention_count": 288,
+    "intervention_precision": 0.3402777777777778,
+    "intervention_precision_ci95": [
+      0.2879804716063555,
+      0.3967798761120119
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 96.2999934841261,
+    "missed_opportunity_rate": 0.0,
+    "population_benefit_rate": 0.3402777777777778,
+    "regret_violation_count": 0,
+    "safety_violation_count": 4,
+    "successful_intervention_count": 98
+  },
+  "A1_APS_only": {
+    "case_count": 288,
+    "coverage": 0.9166666666666666,
+    "coverage_ci95": [
+      0.8790018250608985,
+      0.943362485239012
+    ],
+    "failure_avoidance_rate": 0.05789473684210526,
+    "intervention_count": 264,
+    "intervention_precision": 0.32196969696969696,
+    "intervention_precision_ci95": [
+      0.2685095294029483,
+      0.3805365876026788
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 32.29210309326844,
+    "missed_opportunity_rate": 0.1326530612244898,
+    "population_benefit_rate": 0.2951388888888889,
+    "regret_violation_count": 0,
+    "safety_violation_count": 4,
+    "successful_intervention_count": 85
+  },
+  "A2_topology_only": {
+    "case_count": 288,
+    "coverage": 0.75,
+    "coverage_ci95": [
+      0.6969211525895718,
+      0.7964974335903747
+    ],
+    "failure_avoidance_rate": 0.16842105263157894,
+    "intervention_count": 216,
+    "intervention_precision": 0.26851851851851855,
+    "intervention_precision_ci95": [
+      0.21383949081086062,
+      0.33128725399680814
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": -104.04340003611497,
+    "missed_opportunity_rate": 0.40816326530612246,
+    "population_benefit_rate": 0.2013888888888889,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 58
+  },
+  "A3_preference_only": {
+    "case_count": 288,
+    "coverage": 1.0,
+    "coverage_ci95": [
+      0.9868371723598931,
+      0.9999999999999999
+    ],
+    "failure_avoidance_rate": 0.0,
+    "intervention_count": 288,
+    "intervention_precision": 0.3402777777777778,
+    "intervention_precision_ci95": [
+      0.2879804716063555,
+      0.3967798761120119
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 96.2999934841261,
+    "missed_opportunity_rate": 0.0,
+    "population_benefit_rate": 0.3402777777777778,
+    "regret_violation_count": 0,
+    "safety_violation_count": 4,
+    "successful_intervention_count": 98
+  },
+  "A4_APS_topology": {
+    "case_count": 288,
+    "coverage": 0.6805555555555556,
+    "coverage_ci95": [
+      0.6246322907088502,
+      0.731725577087778
+    ],
+    "failure_avoidance_rate": 0.22631578947368422,
+    "intervention_count": 196,
+    "intervention_precision": 0.25,
+    "intervention_precision_ci95": [
+      0.19457840622168235,
+      0.31503285973725176
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": -135.49421988463655,
+    "missed_opportunity_rate": 0.5,
+    "population_benefit_rate": 0.1701388888888889,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 49
+  },
+  "A5_learned": {
+    "case_count": 288,
+    "coverage": 0.3055555555555556,
+    "coverage_ci95": [
+      0.2552038517799586,
+      0.3610261367467496
+    ],
+    "failure_avoidance_rate": 0.7631578947368421,
+    "intervention_count": 88,
+    "intervention_precision": 0.48863636363636365,
+    "intervention_precision_ci95": [
+      0.3868786464057155,
+      0.5913446960184866
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 123.26936322345166,
+    "missed_opportunity_rate": 0.5612244897959183,
+    "population_benefit_rate": 0.14930555555555555,
+    "regret_violation_count": 0,
+    "safety_violation_count": 2,
+    "successful_intervention_count": 43
+  },
+  "A6_learned_safety": {
+    "case_count": 288,
+    "coverage": 0.2986111111111111,
+    "coverage_ci95": [
+      0.2486893160081191,
+      0.3538346006802571
+    ],
+    "failure_avoidance_rate": 0.7736842105263158,
+    "intervention_count": 86,
+    "intervention_precision": 0.5,
+    "intervention_precision_ci95": [
+      0.3966097232742094,
+      0.6033902767257906
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 122.81264169059217,
+    "missed_opportunity_rate": 0.5612244897959183,
+    "population_benefit_rate": 0.14930555555555555,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 43
+  },
+  "A7_full_v3": {
+    "case_count": 288,
+    "coverage": 0.052083333333333336,
+    "coverage_ci95": [
+      0.03181396717771383,
+      0.08414439924988185
+    ],
+    "failure_avoidance_rate": 0.9631578947368421,
+    "intervention_count": 15,
+    "intervention_precision": 0.5333333333333333,
+    "intervention_precision_ci95": [
+      0.30116980025498397,
+      0.7519046463426261
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 39.9296457795397,
+    "missed_opportunity_rate": 0.9183673469387755,
+    "population_benefit_rate": 0.027777777777777776,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 8
+  }
+}

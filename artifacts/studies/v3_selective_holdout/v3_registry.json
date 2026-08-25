@@ -1,0 +1,10 @@
+{
+  "data_split_hash": "e678c219166539e0e6458b2ac8537e8facb371c2fedc1f5db55a7561ecdb9fc7",
+  "feature_schema_hash": "bfe7839c12827f73fb41a38f4e5a1b17914c6267ba7624b79d3c2b16f4875b4c",
+  "git_commit": "b7c2c7b2c9f761caa63d7b438e0155b6181e812b",
+  "git_dirty": false,
+  "model_hash": "60768e03e87e8bca0d802d6e56eb12386f05382887dd82121c910848a8842740",
+  "result_hash": "90b57e2a54f0b6b9c359cbd323355b705e6f9aa0c7aeba765fcea8b6b2207b62",
+  "threshold_config_hash": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+  "threshold_immutable": true
+}

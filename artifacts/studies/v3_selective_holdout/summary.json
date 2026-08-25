@@ -1,0 +1,171 @@
+{
+  "always_on_conclusion": "Always-on Adaptive Navigation: rejected as universal policy.",
+  "case_count": 288,
+  "claim_boundary": "Synthetic analytical and microscopic research harness. Real-topology studies use synthetic demand on OSM geometry. Safety measures are surrogate conflicts, never crash probabilities.",
+  "complete": true,
+  "holdout_case_ids_absent_from_training": true,
+  "label_counts": {
+    "INFEASIBLE": 8,
+    "TRADEOFF": 182,
+    "WIN": 98
+  },
+  "outcome": "P",
+  "outcome_text": "Selective CONCORDIA partially supported.",
+  "policy_metrics": {
+    "B6": {
+      "case_count": 288,
+      "coverage": 1.0,
+      "coverage_ci95": [
+        0.9868371723598931,
+        0.9999999999999999
+      ],
+      "failure_avoidance_rate": 0.0,
+      "intervention_count": 288,
+      "intervention_precision": 0.3402777777777778,
+      "intervention_precision_ci95": [
+        0.2879804716063555,
+        0.3967798761120119
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 96.2999934841261,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.3402777777777778,
+      "regret_violation_count": 0,
+      "safety_violation_count": 4,
+      "successful_intervention_count": 98
+    },
+    "V3-A": {
+      "case_count": 288,
+      "coverage": 0.9166666666666666,
+      "coverage_ci95": [
+        0.8790018250608985,
+        0.943362485239012
+      ],
+      "failure_avoidance_rate": 0.05789473684210526,
+      "intervention_count": 264,
+      "intervention_precision": 0.32196969696969696,
+      "intervention_precision_ci95": [
+        0.2685095294029483,
+        0.3805365876026788
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 32.29210309326844,
+      "missed_opportunity_rate": 0.1326530612244898,
+      "population_benefit_rate": 0.2951388888888889,
+      "regret_violation_count": 0,
+      "safety_violation_count": 4,
+      "successful_intervention_count": 85
+    },
+    "V3-B": {
+      "case_count": 288,
+      "coverage": 0.3055555555555556,
+      "coverage_ci95": [
+        0.2552038517799586,
+        0.3610261367467496
+      ],
+      "failure_avoidance_rate": 0.7631578947368421,
+      "intervention_count": 88,
+      "intervention_precision": 0.48863636363636365,
+      "intervention_precision_ci95": [
+        0.3868786464057155,
+        0.5913446960184866
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 123.26936322345166,
+      "missed_opportunity_rate": 0.5612244897959183,
+      "population_benefit_rate": 0.14930555555555555,
+      "regret_violation_count": 0,
+      "safety_violation_count": 2,
+      "successful_intervention_count": 43
+    },
+    "V3-C": {
+      "case_count": 288,
+      "coverage": 0.2986111111111111,
+      "coverage_ci95": [
+        0.2486893160081191,
+        0.3538346006802571
+      ],
+      "failure_avoidance_rate": 0.7736842105263158,
+      "intervention_count": 86,
+      "intervention_precision": 0.5,
+      "intervention_precision_ci95": [
+        0.3966097232742094,
+        0.6033902767257906
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 122.81264169059217,
+      "missed_opportunity_rate": 0.5612244897959183,
+      "population_benefit_rate": 0.14930555555555555,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 43
+    },
+    "V3-D": {
+      "case_count": 288,
+      "coverage": 0.052083333333333336,
+      "coverage_ci95": [
+        0.03181396717771383,
+        0.08414439924988185
+      ],
+      "failure_avoidance_rate": 0.9631578947368421,
+      "intervention_count": 15,
+      "intervention_precision": 0.5333333333333333,
+      "intervention_precision_ci95": [
+        0.30116980025498397,
+        0.7519046463426261
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 39.9296457795397,
+      "missed_opportunity_rate": 0.9183673469387755,
+      "population_benefit_rate": 0.027777777777777776,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 8
+    }
+  },
+  "primary_metrics": {
+    "case_count": 288,
+    "coverage": 0.052083333333333336,
+    "coverage_ci95": [
+      0.03181396717771383,
+      0.08414439924988185
+    ],
+    "failure_avoidance_rate": 0.9631578947368421,
+    "intervention_count": 15,
+    "intervention_precision": 0.5333333333333333,
+    "intervention_precision_ci95": [
+      0.30116980025498397,
+      0.7519046463426261
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 39.9296457795397,
+    "missed_opportunity_rate": 0.9183673469387755,
+    "population_benefit_rate": 0.027777777777777776,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 8
+  },
+  "primary_policy": "V3-D",
+  "statistical_tests": {
+    "H10_mean_network_cost_noninferior": true,
+    "H13_overlap_win_correlation": 0.2623259315790266,
+    "H14_interaction_win_correlation": 0.20435108533147456,
+    "H8_point_precision_above_half": true,
+    "H8_scientific_lower_ci_above_half": false,
+    "H9_failure_rate_reduced_vs_B6": true,
+    "paired_ttt_B1_vs_V3D": {
+      "bootstrap_ci95_high": 76.60239433870417,
+      "bootstrap_ci95_low": 10.639222906324196,
+      "cohens_dz": 0.13677431743500418,
+      "mean_improvement": 39.9296457795397,
+      "paired_count": 288,
+      "relative_improvement": 0.003310094739997405,
+      "wilcoxon_one_sided_p": 0.005756914038422709
+    }
+  },
+  "study": "Study VI \u2014 Selective Intervention Holdout",
+  "threshold_hash_after": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+  "threshold_hash_before": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0",
+  "threshold_immutable": true,
+  "untouched_holdout": true
+}
