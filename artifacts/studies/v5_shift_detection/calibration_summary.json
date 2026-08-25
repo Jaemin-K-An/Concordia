@@ -1,0 +1,239 @@
+{
+  "complete": true,
+  "coverage_at_precision80": 0.15404040404040403,
+  "critical_regime_ece_target_met": true,
+  "final_holdouts_used": false,
+  "overall_ece_target_met": true,
+  "overall_metrics": {
+    "bin_count": 10,
+    "brier_score": 0.08951367354764665,
+    "curve": [
+      {
+        "count": 204,
+        "lower": 0.0,
+        "mean_probability": 0.008264203117144292,
+        "observed_rate": 0.0196078431372549,
+        "upper": 0.1
+      },
+      {
+        "count": 25,
+        "lower": 0.1,
+        "mean_probability": 0.14814814814814814,
+        "observed_rate": 0.08,
+        "upper": 0.2
+      },
+      {
+        "count": 25,
+        "lower": 0.2,
+        "mean_probability": 0.27873684210526317,
+        "observed_rate": 0.24,
+        "upper": 0.30000000000000004
+      },
+      {
+        "count": 40,
+        "lower": 0.30000000000000004,
+        "mean_probability": 0.33965517241379306,
+        "observed_rate": 0.375,
+        "upper": 0.4
+      },
+      {
+        "count": 15,
+        "lower": 0.4,
+        "mean_probability": 0.4166666666666668,
+        "observed_rate": 0.3333333333333333,
+        "upper": 0.5
+      },
+      {
+        "count": 8,
+        "lower": 0.5,
+        "mean_probability": 0.5,
+        "observed_rate": 0.5,
+        "upper": 0.6000000000000001
+      },
+      {
+        "count": 18,
+        "lower": 0.6000000000000001,
+        "mean_probability": 0.6666666666666665,
+        "observed_rate": 0.6111111111111112,
+        "upper": 0.7000000000000001
+      },
+      {
+        "count": 46,
+        "lower": 0.8,
+        "mean_probability": 0.8888595216069778,
+        "observed_rate": 0.8695652173913043,
+        "upper": 0.9
+      },
+      {
+        "count": 15,
+        "lower": 0.9,
+        "mean_probability": 1.0,
+        "observed_rate": 0.9333333333333333,
+        "upper": 1.0
+      }
+    ],
+    "ece": 0.02660999600456339,
+    "ece_definition": "sum_b (n_b/N) * abs(mean_probability_b-observed_rate_b)",
+    "evaluation_only": true,
+    "high_probability_around_0_8_count": 0,
+    "high_probability_around_0_8_observed_rate": null,
+    "protocol": "equal-width bins on [0,1]; empty bins omitted"
+  },
+  "regime_metrics": {
+    "HIGH_CONTROL": {
+      "bin_count": 10,
+      "brier_score": 0.1310933891000442,
+      "curve": [
+        {
+          "count": 22,
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.34482758620689663,
+          "observed_rate": 0.3181818181818182,
+          "upper": 0.4
+        },
+        {
+          "count": 40,
+          "lower": 0.8,
+          "mean_probability": 0.8936170212765957,
+          "observed_rate": 0.9,
+          "upper": 0.9
+        },
+        {
+          "count": 2,
+          "lower": 0.9,
+          "mean_probability": 1.0,
+          "observed_rate": 1.0,
+          "upper": 1.0
+        }
+      ],
+      "ece": 0.013148844460748418,
+      "ece_definition": "sum_b (n_b/N) * abs(mean_probability_b-observed_rate_b)",
+      "evaluation_only": true,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "protocol": "equal-width bins on [0,1]; empty bins omitted"
+    },
+    "LOW_CONTROL": {
+      "bin_count": 10,
+      "brier_score": 0.04564701897018971,
+      "curve": [
+        {
+          "count": 41,
+          "lower": 0.0,
+          "mean_probability": 0.022357723577235773,
+          "observed_rate": 0.04878048780487805,
+          "upper": 0.1
+        }
+      ],
+      "ece": 0.026422764227642278,
+      "ece_definition": "sum_b (n_b/N) * abs(mean_probability_b-observed_rate_b)",
+      "evaluation_only": true,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "protocol": "equal-width bins on [0,1]; empty bins omitted"
+    },
+    "PARTIAL_CONTROL": {
+      "bin_count": 10,
+      "brier_score": 0.1922537995054016,
+      "curve": [
+        {
+          "count": 2,
+          "lower": 0.0,
+          "mean_probability": 0.0,
+          "observed_rate": 0.0,
+          "upper": 0.1
+        },
+        {
+          "count": 25,
+          "lower": 0.1,
+          "mean_probability": 0.14814814814814814,
+          "observed_rate": 0.08,
+          "upper": 0.2
+        },
+        {
+          "count": 22,
+          "lower": 0.2,
+          "mean_probability": 0.2894736842105264,
+          "observed_rate": 0.2727272727272727,
+          "upper": 0.30000000000000004
+        },
+        {
+          "count": 18,
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.33333333333333326,
+          "observed_rate": 0.4444444444444444,
+          "upper": 0.4
+        },
+        {
+          "count": 15,
+          "lower": 0.4,
+          "mean_probability": 0.4166666666666668,
+          "observed_rate": 0.3333333333333333,
+          "upper": 0.5
+        },
+        {
+          "count": 8,
+          "lower": 0.5,
+          "mean_probability": 0.5,
+          "observed_rate": 0.5,
+          "upper": 0.6000000000000001
+        },
+        {
+          "count": 18,
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6666666666666665,
+          "observed_rate": 0.6111111111111112,
+          "upper": 0.7000000000000001
+        }
+      ],
+      "ece": 0.058538192188289664,
+      "ece_definition": "sum_b (n_b/N) * abs(mean_probability_b-observed_rate_b)",
+      "evaluation_only": true,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "protocol": "equal-width bins on [0,1]; empty bins omitted"
+    },
+    "STRUCTURALLY_CONSTRAINED": {
+      "bin_count": 10,
+      "brier_score": 0.024166665016962265,
+      "curve": [
+        {
+          "count": 161,
+          "lower": 0.0,
+          "mean_probability": 0.004777830864787388,
+          "observed_rate": 0.012422360248447204,
+          "upper": 0.1
+        },
+        {
+          "count": 3,
+          "lower": 0.2,
+          "mean_probability": 0.20000000000000004,
+          "observed_rate": 0.0,
+          "upper": 0.30000000000000004
+        },
+        {
+          "count": 6,
+          "lower": 0.8,
+          "mean_probability": 0.8571428571428571,
+          "observed_rate": 0.6666666666666666,
+          "upper": 0.9
+        },
+        {
+          "count": 13,
+          "lower": 0.9,
+          "mean_probability": 1.0,
+          "observed_rate": 0.9230769230769231,
+          "upper": 1.0
+        }
+      ],
+      "ece": 0.021713805320362694,
+      "ece_definition": "sum_b (n_b/N) * abs(mean_probability_b-observed_rate_b)",
+      "evaluation_only": true,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "protocol": "equal-width bins on [0,1]; empty bins omitted"
+    }
+  },
+  "selected_key": "M3_regime_specific::isotonic",
+  "selected_threshold": 0.7
+}

@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "definition": {
+    "discovery_score": -0.15826935720406884,
+    "high_overlap_boundary": 0.0,
+    "high_penetration_boundary": 0.875,
+    "low_alternative_capacity_boundary": 1.25,
+    "low_penetration_boundary": 0.375
+  },
+  "discovery_roles": [
+    "training"
+  ],
+  "final_holdouts_used": false,
+  "regime_counts": {
+    "HIGH_CONTROL": 742,
+    "LOW_CONTROL": 238,
+    "PARTIAL_CONTROL": 828,
+    "STRUCTURALLY_CONSTRAINED": 1664
+  },
+  "traffic_response_by_penetration": {
+    "0.25": {
+      "case_count": 209,
+      "success_rate": 0.05741626794258373
+    },
+    "0.5": {
+      "case_count": 751,
+      "success_rate": 0.15978695073235685
+    },
+    "0.75": {
+      "case_count": 220,
+      "success_rate": 0.2409090909090909
+    },
+    "1.0": {
+      "case_count": 1104,
+      "success_rate": 0.46467391304347827
+    }
+  }
+}

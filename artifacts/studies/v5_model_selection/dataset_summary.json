@@ -1,0 +1,24 @@
+{
+  "case_count": 3472,
+  "complete": true,
+  "feature_schema_hash": "db3b218d71c998378f30ac64294ca93f50e13c84cc1f27d350c71e7b4a8632d7",
+  "final_holdouts_materialized": false,
+  "historical_case_count": 1672,
+  "label_counts": {
+    "INFEASIBLE": 170,
+    "TRADEOFF": 2305,
+    "WIN": 997
+  },
+  "new_pool_count": 2304,
+  "new_selected_case_count": 1800,
+  "raw_hash": "d9b9cfbc90a265a53b5431a6231e5775237ad16b4985deadfc03bff2dc8904d9",
+  "rl_used": false,
+  "role_counts": {
+    "calibration_fit": 492,
+    "shift_validation": 300,
+    "training": 2284,
+    "validation": 396
+  },
+  "split_hash": "d17c74ec8a89895598dae8a9b09919505ffd8f773b1d189241c619f6ec6e8630",
+  "study": "v5 expanded analytical development dataset"
+}

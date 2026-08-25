@@ -11,7 +11,7 @@ from .features_v5 import V5_FEATURE_SCHEMA, expand_v5_features
 from .gate import FeasibilityGate, GateDecision
 from .labels import AlignmentLabel, classify_alignment_case
 from .hierarchical import HierarchicalSuccessModel
-from .micro_correction import MicroscopicCorrectionModel
+from .micro_correction import MICRO_ADDITIONAL_FEATURES, MicroscopicCorrectionModel
 from .models import FeasibilityModel, build_candidate_models, load_model
 from .models_v4 import V4BootstrapEnsemble, V4ProbabilityModel, build_v4_candidate_models
 from .models_v5 import V5SuccessModel
@@ -31,6 +31,7 @@ __all__ = [
     "FEATURE_SCHEMA",
     "HierarchicalSuccessModel",
     "MicroscopicCorrectionModel",
+    "MICRO_ADDITIONAL_FEATURES",
     "RegimeDefinition",
     "RegimeProbabilityCalibrator",
     "RobustShiftDetector",

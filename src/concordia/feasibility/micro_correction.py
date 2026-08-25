@@ -9,6 +9,12 @@ from concordia.feasibility.benefit import BenefitModel
 from concordia.feasibility.models import FeasibilityModel
 
 
+MICRO_ADDITIONAL_FEATURES = (
+    "analytical_success_probability",
+    "analytical_benefit",
+)
+
+
 @dataclass
 class MicroscopicCorrectionModel:
     correction_model: BenefitModel

@@ -1,0 +1,14 @@
+{
+  "candidate_names": [
+    "M1_global_logistic",
+    "M2_interaction_logistic",
+    "M3_regime_specific",
+    "M4_hierarchical",
+    "M5_gradient_boosting",
+    "M6_mixture"
+  ],
+  "complete": true,
+  "final_holdouts_used": false,
+  "success_prevalence": 0.30560420315236425,
+  "training_count": 2284
+}

@@ -90,8 +90,15 @@ def _adjust_case(case: dict, acceptance: float, preference_variance: float) -> d
 
 
 def _upgrade(case: dict, split: dict, source: str) -> dict:
-    upgraded = dict(case)
-    upgraded["features"] = expand_v5_features(case)
+    upgraded = {
+        "case_id": case["case_id"],
+        "seed": int(case["seed"]),
+        "scenario": case["scenario"],
+        "condition": dict(case["condition"]),
+        "source_split": case["source_split"],
+        "label": case["label"],
+        "features": expand_v5_features(case),
+    }
     upgraded["features"]["preference_variance"] *= float(
         case["condition"].get("preference_variance_multiplier", 1.0)
     )

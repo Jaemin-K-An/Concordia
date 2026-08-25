@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "evidence_hashes": {
+    "FINAL_AUDIT_V3.md": "28484a11d2f2f09808f8c184232de93d240f5f11bc3018b739e61adf9f5a5025",
+    "FINAL_AUDIT_V4.md": "048dfd212b099e71811e6ca1b131845c5878be948cd657364ae190db6b00e043",
+    "artifacts/studies/v4_frozen_holdout/summary.json": "fe1dda14b6533750117504f6c51a30c2acb8a0de87aeb87e2acb26a1bf68054b",
+    "artifacts/studies/v4_microscopic/summary.json": "7b44ac9f878fc636fbb8e1acbe06c8fda970a2caf401d23bd7b1214a5b7bb14a",
+    "artifacts/studies/v4_real_topology/summary.json": "6c366dc9691366d9f9c33fdb84c07986cd1c9e35559f9d142a9dedabc447d2cb",
+    "artifacts/studies/v4_stress/summary.json": "0662607dc3e4f3bbaec76599e3204b6364affd60e003923af807378d11adc263",
+    "configs/v4/frozen_model.yaml": "8878678e55f7088bc7a539f7f575727178c3c6b141e5978fa84383ecb22352a0",
+    "configs/v4/frozen_thresholds.yaml": "d7eab2eb62bf1c3f3848fa39b044c759b1c3c1d521c1f96c7d464c5075a975d3"
+  },
+  "rl_used": false,
+  "starting_head": "81bf6586480f9cfbad40e314d4cab3d1dbc49435",
+  "v4_claim_flag_bug_confirmed": true,
+  "v4_claim_flag_recomputed": false,
+  "v4_claim_flag_stored": true,
+  "v4_coverage": 0.0859375,
+  "v4_outcome_preserved": true,
+  "v4_precision": 0.8727272727272727,
+  "v4_role": "pilot and historical development evidence only",
+  "v5_final_holdouts_materialized": false
+}
