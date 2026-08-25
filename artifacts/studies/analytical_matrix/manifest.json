@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 57.694025,
+  "end_timestamp_utc": "2026-08-25T01:27:39.494490+00:00",
+  "git_commit": "1b3c2340094c4c2083ec8a8b688891e0abe3baf1",
+  "git_dirty": false,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "canonical_config": "be670196b96723487b3c2df325adfb13b2a17efdbc1c3edeb17619d1140a412b",
+    "configs/experiments/research_matrix.yaml": "44f8968b2b337d243ae037e9e7516ba2edaa40e51c3402a107308a46c32e4ec8"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/analytical_matrix/summary.json": "12b28135f2e81eaa15e13c6884258a4940ab1c72334c9569f329ae0068572daa",
+    "config.json": "be670196b96723487b3c2df325adfb13b2a17efdbc1c3edeb17619d1140a412b",
+    "metrics.json": "cb35db200d7eaebdc08d89c1b377014f84deed8d3dd6c686b8851728cd7ae5f7"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T012641.800465Z-5ebbb6fe8f",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "simulator_version": "analytical-no-sumo",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T01:26:41.800465+00:00",
+  "status": "valid"
+}
