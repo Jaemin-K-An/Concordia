@@ -1,0 +1,7 @@
+name: braess
+kind: synthetic
+od: [S, T]
+base_demand_veh_per_hour: 4000
+expected_behavior: >-
+  Adding the low-cost A-to-B connector increases Wardrop-equilibrium total travel time
+  in the configured demand range.

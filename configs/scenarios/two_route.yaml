@@ -1,0 +1,7 @@
+name: two_route
+kind: synthetic
+od: [O, D]
+base_demand_veh_per_hour: 1000
+expected_behavior: >-
+  Congestion on the short low-capacity route creates an efficiency opportunity on the
+  longer reliable bypass. This is an analytical scenario, not observed traffic.

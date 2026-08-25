@@ -1,0 +1,11 @@
+demand_scale: [0.6, 0.8, 1.0, 1.2, 1.4]
+navigation_penetration: [0.0, 0.25, 0.5, 0.75, 1.0]
+population: [low, medium, high]
+rationality: [1.0, 5.0, 20.0]
+safety_weight: [0.0, 1.0, 5.0]
+utility_epsilon: [0.0, 0.02, 0.08]
+seeds: [11, 23, 37, 53, 71]
+note: >-
+  This is the predeclared full-factor input space. The smoke command intentionally executes
+  only configs/experiments/smoke.yaml; full-matrix execution should be scheduled with explicit
+  compute and SUMO availability.

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.DS_Store
+artifacts/runs/*
+!artifacts/runs/.gitkeep
+artifacts/reports/*
+!artifacts/reports/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+scenarios/sumo/ring/ring.net.xml
+scenarios/sumo/ring/fcd.xml
+scenarios/sumo/ring/ssm.xml

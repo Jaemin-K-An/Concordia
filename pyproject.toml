@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "concordia-navigation"
+version = "0.1.0"
+description = "Safety-constrained, preference-aligned adaptive navigation research harness"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Jaemin K. An"}]
+dependencies = [
+  "networkx>=3.1,<4",
+  "numpy>=1.24,<3",
+  "PyYAML>=6,<7",
+]
+
+[project.optional-dependencies]
+analysis = ["matplotlib>=3.7,<4", "pandas>=2,<3"]
+dev = ["pytest>=7.4,<9", "hypothesis>=6.90,<7", "ruff>=0.6,<1"]
+sumo = ["traci>=1.19"]
+
+[project.scripts]
+concordia = "concordia.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

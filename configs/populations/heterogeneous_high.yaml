@@ -1,0 +1,12 @@
+name: high
+source: synthetic_antithetic_pairs
+mean_weights:
+  time: 0.36
+  variability: 0.16
+  cost: 0.10
+  risk: 0.18
+  complexity: 0.10
+  familiarity: 0.10
+maximum_pair_perturbation: 0.085
+mean_preservation: exact_for_each_generated_population
+claim_boundary: synthetic_preferences_not_calibrated_human_behavior

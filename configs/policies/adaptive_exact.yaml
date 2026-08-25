@@ -1,0 +1,5 @@
+name: exact
+optimizer: exhaustive_enumeration
+preference_constraint: hard
+safety_constraint: hard
+maximum_combinations: 1000000
