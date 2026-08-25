@@ -1,0 +1,35 @@
+PYTHONPATH=src python3 scripts/run_sumo_smoke.py
+***Starting server on port 57576 ***
+Loading net-file from '/Users/jaeminahn/Desktop/development/Concordia/scenarios/sumo/ring/ring.net.xml' ... done (3ms).
+Loading route-files incrementally from '/Users/jaeminahn/Desktop/development/Concordia/scenarios/sumo/ring/ring.rou.xml'
+Loading done.
+Simulation version 1.27.1 started with time: 0.00.
+Vehicle 'ring_flow.0' does not supply vehicle parameter 'device.ssm.trajectories'. Using default of '0'.
+Vehicle 'ring_flow.0' does not supply vehicle parameter 'device.ssm.range'. Using default of '50.00'.
+Vehicle 'ring_flow.0' does not supply vehicle parameter 'device.ssm.extratime'. Using default of '5.00'.
+Vehicle 'ring_flow.0' does not supply vehicle parameter 'device.ssm.geo'. Using default of '0'.
+Vehicle 'ring_flow.0' does not supply vehicle parameter 'device.ssm.write-positions'. Using default of '0'.
+Vehicle 'ring_flow.0' does not supply vehicle parameter 'device.ssm.write-lane-positions'. Using default of '0'.
+Vehicle 'ring_flow.0' does not supply vehicle parameter 'device.ssm.exclude-conflict-types'. Using default of ''.
+Simulation ended at time: 1200.00.
+Reason: TraCI requested termination.
+Performance:
+ Duration: 28.60s
+ TraCI-Duration: 26.48s
+ Real time factor: 41.9536
+ UPS: 6605.321120
+Vehicles:
+ Inserted: 98 (Loaded: 250)
+ Running: 34
+ Waiting: 152
+Statistics (avg of 64):
+ RouteLength: 3106.04
+ Speed: 7.57
+ Duration: 410.46
+ WaitingTime: 0.00
+ TimeLoss: 179.07
+ DepartDelay: 169.67
+ Retrying in 1 seconds
+/Users/jaeminahn/Desktop/development/Concordia/artifacts/studies/sumo_ring/summary.json
+PYTHONPATH=src python3 scripts/verify_real_sumo.py
+/Users/jaeminahn/Desktop/development/Concordia/artifacts/studies/real_topology/sumo_conversion.json

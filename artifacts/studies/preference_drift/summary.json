@@ -1,0 +1,27 @@
+{
+  "Gate_C": {
+    "measured_median_nonstationarity_incremental_degradation": 0.0694375201685701,
+    "tested": true,
+    "threshold_relative": 0.1,
+    "triggered_for_RL": false
+  },
+  "adaptive_absolute_median_gap_vs_oracle": 0.17298952133597445,
+  "adaptive_p95_incremental_degradation": 1.082062200761525,
+  "adaptive_regret_violation_case_count": 0,
+  "claim_boundary": "Synthetic analytical nonstationarity study; preference drift is a declared scenario shift, not calibrated human adaptation.",
+  "complete": true,
+  "frozen_median_relative_degradation": 0.07084818558459478,
+  "frozen_regret_violation_case_count": 0,
+  "median_nonstationarity_incremental_degradation": 0.0694375201685701,
+  "paired_adaptation_effect": {
+    "bootstrap_ci95_high": -0.07914114849214962,
+    "bootstrap_ci95_low": -0.4493962960893882,
+    "cohens_dz": -0.6229522863758358,
+    "mean_improvement": -0.2416777288479007,
+    "paired_count": 15,
+    "relative_improvement": -1.5158905882098699,
+    "wilcoxon_one_sided_p": 0.9945688876475922
+  },
+  "study": "Study IV \u2014 Preference Drift / RL Gate C",
+  "traffic_level_case_count": 15
+}

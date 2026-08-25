@@ -22,6 +22,10 @@ class EdgeObservation:
     occupancy_percent: Optional[float]
     lane_count: int
     length_meters: float
+    speed_coefficient_of_variation: float = 0.0
+    acceleration_variance_meters2_per_second4: float = 0.0
+    headway_mean_seconds: Optional[float] = None
+    headway_variance_seconds2: Optional[float] = None
 
     def __post_init__(self) -> None:
         if self.vehicle_count < 0 or self.lane_count < 1 or self.length_meters <= 0:
@@ -30,11 +34,16 @@ class EdgeObservation:
             self.density_vehicles_per_km_per_lane,
             self.flow_vehicles_per_hour_per_lane,
             self.mean_speed_meters_per_second,
+            self.speed_coefficient_of_variation,
+            self.acceleration_variance_meters2_per_second4,
         )
         if any(value < 0 for value in values):
             raise ValidationError("edge traffic quantities cannot be negative")
         if self.occupancy_percent is not None and not 0 <= self.occupancy_percent <= 100:
             raise ValidationError("edge occupancy must be a percentage")
+        headways = (self.headway_mean_seconds, self.headway_variance_seconds2)
+        if any(value is not None and value < 0 for value in headways):
+            raise ValidationError("edge headway statistics cannot be negative")
 
 
 @dataclass(frozen=True)

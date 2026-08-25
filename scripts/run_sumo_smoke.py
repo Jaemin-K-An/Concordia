@@ -11,6 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
+import yaml
 
 from concordia.safety import (
     TrajectoryFrame,
@@ -173,13 +174,34 @@ def run() -> Path:
                         speed=edge.mean_speed_meters_per_second,
                     )
                 )
+    detector_config = yaml.safe_load(
+        (ROOT / "configs" / "validation" / "phantom_detector.yaml").read_text(
+            encoding="utf-8"
+        )
+    )
+    onset_config = detector_config["onset"]
+    quality_config = detector_config["quality"]
+    physical_config = detector_config["physical_plausibility"]
     detector = PhantomJamEventDetector(
         critical_density=25.0,
         low_speed_threshold=9.0,
         minimum_duration=3.0,
         minimum_amplitude=0.5,
+        minimum_absolute_wave_speed_meters_per_second=physical_config[
+            "minimum_absolute_wave_speed_meters_per_second"
+        ],
+        maximum_absolute_wave_speed_meters_per_second=physical_config[
+            "maximum_absolute_wave_speed_meters_per_second"
+        ],
+        minimum_detectors=quality_config["minimum_detectors"],
+        minimum_regression_r_squared=quality_config[
+            "minimum_regression_r_squared"
+        ],
+        ewma_alpha=onset_config["ewma_alpha"],
+        sustained_samples=onset_config["sustained_samples"],
     )
     events = detector.detect(observations)
+    valid_events = [event for event in events if event.is_valid]
     ssm_path = SCENARIO / "ssm.xml"
     fcd_path = SCENARIO / "fcd.xml"
     if not ssm_path.is_file() or not fcd_path.is_file():
@@ -225,7 +247,8 @@ def run() -> Path:
                 )
             ),
         },
-        "phantom_event_count": len(events),
+        "phantom_event_count": len(valid_events),
+        "phantom_candidate_count": len(events),
         "phantom_events": [asdict(event) for event in events],
         "ssm_conflict_count": len(conflicts),
         "ssm_conflict_types": summarize_ssm_conflict_types(conflicts),

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 import shutil
+import statistics
 from pathlib import Path
 from typing import Optional
 
@@ -72,6 +73,28 @@ class SumoAdapter(SimulationAdapter):
             density = vehicle_count / lane_kilometers
             flow_estimate = density * mean_speed_mps * 3.6
             occupancy = float(self._traci.edge.getLastStepOccupancy(edge_id))
+            vehicle_id_getter = getattr(self._traci.edge, "getLastStepVehicleIDs", None)
+            vehicle_ids = (
+                tuple(vehicle_id_getter(edge_id)) if callable(vehicle_id_getter) else ()
+            )
+            speeds = [max(0.0, float(self._traci.vehicle.getSpeed(item))) for item in vehicle_ids]
+            accelerations = [
+                float(self._traci.vehicle.getAcceleration(item)) for item in vehicle_ids
+            ]
+            speed_cv = (
+                statistics.pstdev(speeds) / statistics.fmean(speeds)
+                if len(speeds) > 1 and statistics.fmean(speeds) > 1e-12
+                else 0.0
+            )
+            acceleration_variance = (
+                statistics.pvariance(accelerations) if len(accelerations) > 1 else 0.0
+            )
+            headways = []
+            for vehicle_id in vehicle_ids:
+                leader = self._traci.vehicle.getLeader(vehicle_id, 200.0)
+                vehicle_speed = max(0.0, float(self._traci.vehicle.getSpeed(vehicle_id)))
+                if leader and vehicle_speed > 1e-6:
+                    headways.append(max(0.0, float(leader[1])) / vehicle_speed)
             observations[edge_id] = EdgeObservation(
                 vehicle_count=vehicle_count,
                 density_vehicles_per_km_per_lane=density,
@@ -80,6 +103,12 @@ class SumoAdapter(SimulationAdapter):
                 occupancy_percent=occupancy,
                 lane_count=lane_count,
                 length_meters=length_meters,
+                speed_coefficient_of_variation=speed_cv,
+                acceleration_variance_meters2_per_second4=acceleration_variance,
+                headway_mean_seconds=(statistics.fmean(headways) if headways else None),
+                headway_variance_seconds2=(
+                    statistics.pvariance(headways) if len(headways) > 1 else None
+                ),
             )
         return SimulationSnapshot(time=float(self._traci.simulation.getTime()), edges=observations)
 

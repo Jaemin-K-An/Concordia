@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 0.058925,
+  "end_timestamp_utc": "2026-08-25T02:33:11.744900+00:00",
+  "git_commit": "acfbaaa92fe621b0fc43c256d42d80ac2945ce46",
+  "git_dirty": true,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "canonical_config": "c1cb0521a2621b4b5a6c1da0ec760d406035b198992684d3619061525dee3816"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/fixed_point_ablation/raw_metrics.json": "746f6a22203638d517f5c65963bb6cd2b948d1e06a6f466e551f1e147133a8eb",
+    "artifacts/studies/fixed_point_ablation/summary.json": "cda4cda6c1f2c2e9f54e57608940d4c2e7c7d521c53cb6d527dcee4b35a2a1a6",
+    "config.json": "c1cb0521a2621b4b5a6c1da0ec760d406035b198992684d3619061525dee3816",
+    "metrics.json": "cda4cda6c1f2c2e9f54e57608940d4c2e7c7d521c53cb6d527dcee4b35a2a1a6"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T023311.685975Z-02ea211aea",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "simulator_version": "analytical-no-sumo",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T02:33:11.685975+00:00",
+  "status": "valid"
+}

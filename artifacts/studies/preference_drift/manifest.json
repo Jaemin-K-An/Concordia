@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 1.050092,
+  "end_timestamp_utc": "2026-08-25T02:24:30.016529+00:00",
+  "git_commit": "acfbaaa92fe621b0fc43c256d42d80ac2945ce46",
+  "git_dirty": true,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "canonical_config": "245888acaee925fbb87318cb656483782aa9f6ad26a3959e1aca2c184d017826",
+    "configs/experiments/preference_drift.yaml": "e07fc9cd53d1bebab14314c83021cd36039408da47667e50bcc2fcf83e3e2111"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/preference_drift/figures/preference_drift_performance.png": "1887886a481065af8be80c1568cc632554477d9fd50590222866f49b4f700111",
+    "artifacts/studies/preference_drift/raw_metrics.json": "527b9b6448c8a4a92006de12c7491d550fdd6458896404a35d1dd9f9593361d6",
+    "artifacts/studies/preference_drift/statistical_tests.json": "415a318364ba64d7dc5169f437545f57a04d999e5d6c6d5ba1746ce757683051",
+    "artifacts/studies/preference_drift/summary.json": "f7739dbf4ed4f1aa3ea08d139e5ad35f158db49d9bdc651fa8bb1e9d54f97ae5",
+    "config.json": "245888acaee925fbb87318cb656483782aa9f6ad26a3959e1aca2c184d017826",
+    "metrics.json": "f7739dbf4ed4f1aa3ea08d139e5ad35f158db49d9bdc651fa8bb1e9d54f97ae5"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T022428.966437Z-1bf580c768",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "simulator_version": "analytical-no-sumo",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T02:24:28.966437+00:00",
+  "status": "valid"
+}

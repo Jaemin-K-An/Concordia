@@ -1,0 +1,9 @@
+{
+  "bootstrap_ci95_high": -0.07914114849214962,
+  "bootstrap_ci95_low": -0.4493962960893882,
+  "cohens_dz": -0.6229522863758358,
+  "mean_improvement": -0.2416777288479007,
+  "paired_count": 15,
+  "relative_improvement": -1.5158905882098699,
+  "wilcoxon_one_sided_p": 0.9945688876475922
+}

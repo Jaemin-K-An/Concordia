@@ -1,0 +1,8 @@
+{
+  "b6_scalability_failure": true,
+  "latency_threshold_seconds": 5.0,
+  "quality_threshold_relative": 0.05,
+  "residual_problem_after_mathematical_approximation": false,
+  "tested": true,
+  "triggered_for_RL": false
+}

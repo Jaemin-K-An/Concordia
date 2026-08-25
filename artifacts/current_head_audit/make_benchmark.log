@@ -1,0 +1,17 @@
+PYTHONPATH=src python3 -m concordia.cli benchmark
+{
+  "braess": {
+    "base_gap": 9.214978605768671e-09,
+    "connected_gap": 0.0,
+    "paradox_observed": true,
+    "with_connector_ue_ttt": 320120.0,
+    "without_connector_ue_ttt": 260040.0000000001
+  },
+  "two_route": {
+    "poa": 1.1318330162043149,
+    "so_gap": 8.253656785082293e-09,
+    "so_ttt": 12370.399832000829,
+    "ue_gap": 6.748414051045667e-10,
+    "ue_ttt": 14001.226953506848
+  }
+}

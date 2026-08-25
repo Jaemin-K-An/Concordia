@@ -1,0 +1,44 @@
+{
+  "bimodal": {
+    "binary_opportunity_count": 7.5,
+    "maximum_attainable_ttt_reduction": 2823.2785428131097,
+    "route_diversity": 2.0,
+    "slack_mass": 1.5924421676235572,
+    "weighted_alignment_opportunity": 8805.226768745513
+  },
+  "high": {
+    "binary_opportunity_count": 7.5,
+    "maximum_attainable_ttt_reduction": 2820.4203984563896,
+    "route_diversity": 2.0,
+    "slack_mass": 1.6123094632252133,
+    "weighted_alignment_opportunity": 9960.470274026531
+  },
+  "long_tail": {
+    "binary_opportunity_count": 7.35,
+    "maximum_attainable_ttt_reduction": 2640.191465300057,
+    "route_diversity": 2.033333333333333,
+    "slack_mass": 1.529809331839953,
+    "weighted_alignment_opportunity": 8417.203790548463
+  },
+  "low": {
+    "binary_opportunity_count": 7.5,
+    "maximum_attainable_ttt_reduction": 4685.221714481756,
+    "route_diversity": 2.0,
+    "slack_mass": 1.6350999999999998,
+    "weighted_alignment_opportunity": 20009.243414814002
+  },
+  "medium": {
+    "binary_opportunity_count": 7.5,
+    "maximum_attainable_ttt_reduction": 3810.1537816521623,
+    "route_diversity": 2.0,
+    "slack_mass": 1.6316555621454853,
+    "weighted_alignment_opportunity": 15625.610344187318
+  },
+  "none": {
+    "binary_opportunity_count": 7.5,
+    "maximum_attainable_ttt_reduction": 4685.221714481756,
+    "route_diversity": 2.0,
+    "slack_mass": 1.6350999999999998,
+    "weighted_alignment_opportunity": 20009.243414814002
+  }
+}

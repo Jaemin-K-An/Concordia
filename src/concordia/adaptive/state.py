@@ -18,6 +18,10 @@ class EdgeState:
     vehicle_count: int
     occupancy_percent: Optional[float]
     saturation: float
+    speed_coefficient_of_variation: float
+    acceleration_variance_meters2_per_second4: float
+    headway_mean_seconds: Optional[float]
+    headway_variance_seconds2: Optional[float]
     ghost_risk_probability: float
     safety_risk_index: float
 
@@ -27,6 +31,8 @@ class EdgeState:
             self.density_vehicles_per_km_per_lane,
             self.mean_speed_meters_per_second,
             self.saturation,
+            self.speed_coefficient_of_variation,
+            self.acceleration_variance_meters2_per_second4,
             self.ghost_risk_probability,
             self.safety_risk_index,
         )
@@ -77,7 +83,19 @@ class NetworkStateEstimator:
                 vehicle_count=observation.vehicle_count,
                 occupancy_percent=observation.occupancy_percent,
                 saturation=saturation,
-                ghost_risk_probability=self.ghost_model.probability(saturation, 0.0, 0.0),
+                speed_coefficient_of_variation=(
+                    observation.speed_coefficient_of_variation
+                ),
+                acceleration_variance_meters2_per_second4=(
+                    observation.acceleration_variance_meters2_per_second4
+                ),
+                headway_mean_seconds=observation.headway_mean_seconds,
+                headway_variance_seconds2=observation.headway_variance_seconds2,
+                ghost_risk_probability=self.ghost_model.probability(
+                    saturation,
+                    observation.speed_coefficient_of_variation,
+                    observation.acceleration_variance_meters2_per_second4,
+                ),
                 safety_risk_index=data.risk,
             )
         missing = set(self.network.edges) - set(states)
@@ -101,6 +119,8 @@ class NetworkStateEstimator:
             speed_kph = data.length / travel_time_hours if travel_time_hours > 0 else 0.0
             density = flow / speed_kph if speed_kph > 0 else 0.0
             saturation = flow / data.capacity
+            speed_cv = 0.05 * min(2.0, saturation)
+            acceleration_variance = 0.10 * max(0.0, saturation - 0.70) ** 2
             states[edge] = EdgeState(
                 flow_vehicles_per_hour=flow,
                 density_vehicles_per_km_per_lane=density,
@@ -108,8 +128,13 @@ class NetworkStateEstimator:
                 vehicle_count=max(0, round(density * data.length)),
                 occupancy_percent=None,
                 saturation=saturation,
-                ghost_risk_probability=self.ghost_model.probability(saturation, 0.0, 0.0),
+                speed_coefficient_of_variation=speed_cv,
+                acceleration_variance_meters2_per_second4=acceleration_variance,
+                headway_mean_seconds=(3600.0 / flow if flow > 0 else None),
+                headway_variance_seconds2=None,
+                ghost_risk_probability=self.ghost_model.probability(
+                    saturation, speed_cv, acceleration_variance
+                ),
                 safety_risk_index=data.risk,
             )
         return NetworkState(timestamp_seconds, states, source)
-

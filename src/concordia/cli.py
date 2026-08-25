@@ -138,13 +138,14 @@ def main(argv: Sequence[str] = ()) -> int:
             write_rl_gate(result, arguments.output, arguments.document)
             print(json.dumps(result, indent=2, sort_keys=True))
         elif arguments.command == "rl-evaluate":
-            path = Path("artifacts/rl_gate_report.json")
+            v2_path = Path("artifacts/rl_gate_report_v2.json")
+            path = v2_path if v2_path.is_file() else Path("artifacts/rl_gate_report.json")
             if not path.is_file():
                 raise ConcordiaError("run the mandatory RL gate before RL evaluation")
             result = json.loads(path.read_text(encoding="utf-8"))
             if result.get("rl_authorized") and not result.get("rl_introduced"):
                 raise ConcordiaError("RL evaluation implementation is required after a passing gate")
-            print("RL evaluation skipped: Outcome A authorized no RL implementation.")
+            print("RL evaluation SKIPPED: Outcome A did not authorize an RL implementation.")
         return 0
     except ConcordiaError as exc:
         print(f"error: {exc}", file=sys.stderr)

@@ -1,0 +1,28 @@
+study: microscopic_phantom_safety
+seeds: [11, 23, 37, 53, 71]
+demand_vehicles_per_hour: [800, 1200, 1600]
+navigation_penetration: [0.5, 1.0]
+heterogeneity: [low, high]
+policies: [B1, B6]
+vehicle_generation_seconds: 300
+maximum_simulation_seconds: 650
+preference_epsilon: 0.08
+phantom_prediction_horizon_seconds: 30
+detector:
+  critical_density_vehicles_per_km_per_lane: 28.0
+  low_speed_threshold_meters_per_second: 8.0
+  minimum_duration_seconds: 8.0
+  minimum_amplitude_meters_per_second: 2.0
+  minimum_absolute_wave_speed_meters_per_second: 0.8333333333
+  maximum_absolute_wave_speed_meters_per_second: 6.9444444444
+  minimum_detectors: 3
+  minimum_regression_r_squared: 0.60
+  ewma_alpha: 0.80
+  sustained_samples: 2
+safety:
+  primary_metric: cvar_drac_95_meters_per_second2
+  noninferiority_margin: 0.25
+  margin_basis: frozen before runs; sub-0.25 m/s2 differences are below the declared study resolution
+claim_boundary: >-
+  Synthetic microscopic SUMO mechanism study; safety metrics are surrogate conflict
+  indicators, not crash probabilities, and preferences/acceptance remain synthetic.

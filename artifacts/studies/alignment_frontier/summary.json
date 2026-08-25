@@ -1,0 +1,27 @@
+{
+  "claim_boundary": "Synthetic analytical assignment study. Existing H1/H2 outcomes are not redefined; the frontier and H1-R are explicitly post-hoc mechanism/operationalization analyses.",
+  "complete": true,
+  "frontier_count": 360,
+  "h1_status": "FAIL_UNCHANGED",
+  "h2_status": "FAIL_UNCHANGED",
+  "knee_epsilon": {
+    "ci95_high": 0.022416666666666668,
+    "ci95_low": 0.018583333333333334,
+    "count": 360,
+    "max": 0.16,
+    "mean": 0.020444444444444442,
+    "median": 0.02,
+    "p90": 0.04,
+    "p95": 0.06,
+    "std": 0.019228061614498325
+  },
+  "monotonicity_violations": 0,
+  "phase_counts": {
+    "INFEASIBLE": 580,
+    "TRADEOFF": 1335,
+    "WIN": 1325
+  },
+  "sampled_point_count": 3240,
+  "study": "Study I \u2014 Alignment Frontier",
+  "synthetic": true
+}

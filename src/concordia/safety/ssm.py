@@ -29,6 +29,8 @@ def _measure(conflict: ET.Element, tag: str) -> Optional[float]:
     raw = node.get("value")
     if raw is None:
         return None
+    if raw.strip().upper() in {"", "NA", "N/A", "NAN"}:
+        return None
     value = float(raw)
     return value if math.isfinite(value) and value >= 0 else None
 

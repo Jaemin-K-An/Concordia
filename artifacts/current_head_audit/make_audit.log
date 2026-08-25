@@ -1,0 +1,227 @@
+python3 -m ruff check src tests scripts
+All checks passed!
+PYTHONPATH=src python3 -m unittest discover -s tests -p 'test_*.py' -v
+test_acceptance_probability_decreases_with_slack (test_behavior_and_sumo_state.BehaviorAndSumoStateTests) ... ok
+test_count_density_flow_speed_and_occupancy_have_distinct_units (test_behavior_and_sumo_state.BehaviorAndSumoStateTests) ... ok
+test_only_accepted_offer_executes_candidate_edges (test_behavior_and_sumo_state.BehaviorAndSumoStateTests) ... ok
+test_rejected_offer_never_calls_set_route (test_behavior_and_sumo_state.BehaviorAndSumoStateTests) ... ok
+test_dynamic_slack_uses_projected_congestion (test_dynamic_closed_loop.DynamicClosedLoopTests) ... ok
+test_mip_enforces_assignment_regret_acceptance_and_safety (test_dynamic_closed_loop.DynamicClosedLoopTests) ... ok
+test_multiobjective_generation_covers_distinct_tradeoffs (test_dynamic_closed_loop.DynamicClosedLoopTests) ... ok
+test_receding_horizon_executes_first_action_then_replans (test_dynamic_closed_loop.DynamicClosedLoopTests) ... ok
+test_matched_population_mean_and_variance (test_integration.IntegrationTests) ... ok
+test_osm_import_preserves_provenance_and_real_geometry (test_integration.IntegrationTests) ... ok
+test_qgis_export_and_ssm_parser (test_integration.IntegrationTests) ... ok
+test_registered_experiment_and_report (test_integration.IntegrationTests) ... ok
+test_registry_marks_incomplete_and_nonfinite_runs_invalid (test_integration.IntegrationTests) ... ok
+test_sumo_missing_fails_explicitly (test_integration.IntegrationTests) ... ok
+test_zero_penetration_preserves_private_assignment (test_integration.IntegrationTests) ... ok
+test_invalid_route_features_fail_fast (test_models_and_preferences.UtilityTests) ... ok
+test_preference_slack_nonnegative_and_best_zero (test_models_and_preferences.UtilityTests) ... ok
+test_softmax_normalizes_for_random_utilities (test_models_and_preferences.UtilityTests) ... ok
+test_time_monotonicity (test_models_and_preferences.UtilityTests) ... ok
+test_zero_rationality_is_uniform (test_models_and_preferences.UtilityTests) ... ok
+test_candidate_paths_are_connected_and_distinct (test_network.NetworkTests) ... ok
+test_illegal_edges_are_never_candidates (test_network.NetworkTests) ... ok
+test_pareto_filter_removes_dominated_route (test_network.NetworkTests) ... ok
+test_exact_guard_rejects_unbounded_enumeration (test_optimizer.OptimizerTests) ... ok
+test_exact_oracle_is_no_worse_than_greedy (test_optimizer.OptimizerTests) ... ok
+test_hard_safety_constraint_rejects_riskier_improvement (test_optimizer.OptimizerTests) ... ok
+test_no_sacrifice_consumes_no_slack (test_optimizer.OptimizerTests) ... ok
+test_learning_moves_estimate_toward_rewarded_feature (test_safety_and_learning.BanditTests) ... ok
+test_population_prior_posterior_dueling_and_drift (test_safety_and_learning.BanditTests) ... ok
+test_tail_non_degradation_detects_worse_proposed_risk (test_safety_and_learning.SafetyTests) ... ok
+test_ttc_drac_hard_braking_and_tail (test_safety_and_learning.SafetyTests) ... ok
+test_braess_golden_regression (test_traffic_assignment.TrafficAssignmentTests) ... ok
+test_detector_tracks_multiple_separated_events (test_traffic_assignment.TrafficAssignmentTests) ... ok
+test_flow_conservation (test_traffic_assignment.TrafficAssignmentTests) ... ok
+test_phantom_jam_requires_backward_sustained_wave (test_traffic_assignment.TrafficAssignmentTests) ... ok
+test_phantom_predictor_calibration_metrics (test_traffic_assignment.TrafficAssignmentTests) ... ok
+test_speed_drop_without_propagation_is_not_phantom_jam (test_traffic_assignment.TrafficAssignmentTests) ... ok
+test_ue_and_so_converge_and_poa_is_valid (test_traffic_assignment.TrafficAssignmentTests) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.619s
+
+OK
+PYTHONPATH=src python3 -m concordia.cli benchmark
+{
+  "braess": {
+    "base_gap": 9.214978605768671e-09,
+    "connected_gap": 0.0,
+    "paradox_observed": true,
+    "with_connector_ue_ttt": 320120.0,
+    "without_connector_ue_ttt": 260040.0000000001
+  },
+  "two_route": {
+    "poa": 1.1318330162043149,
+    "so_gap": 8.253656785082293e-09,
+    "so_ttt": 12370.399832000829,
+    "ue_gap": 6.748414051045667e-10,
+    "ue_ttt": 14001.226953506848
+  }
+}
+PYTHONPATH=src python3 -m concordia.cli experiment --config configs/experiments/smoke.yaml
+{
+  "decision_count": 40,
+  "metrics": {
+    "b0_static_shortest_ttt": {
+      "ci95_high": 21574.074074074077,
+      "ci95_low": 21574.074074074077,
+      "count": 5,
+      "max": 21574.074074074077,
+      "mean": 21574.074074074077,
+      "median": 21574.074074074077,
+      "p90": 21574.074074074077,
+      "p95": 21574.074074074077,
+      "std": 0.0
+    },
+    "b1_dynamic_eta_analytical_proxy": {
+      "limitation": "static Wardrop proxy; time-varying B1 requires SUMO",
+      "total_travel_time": 14001.226953506848
+    },
+    "demand": 1000.0,
+    "paired_effect_size": -1.6754450261654834,
+    "price_of_anarchy": 1.1318330162043149,
+    "private_best_ttt": {
+      "ci95_high": 13012.870347764756,
+      "ci95_low": 12625.390511971935,
+      "count": 5,
+      "max": 13109.74030671296,
+      "mean": 12819.130429868346,
+      "median": 12625.390511971935,
+      "p90": 13109.74030671296,
+      "p95": 13109.74030671296,
+      "std": 265.28930830265654
+    },
+    "proposed_regret": {
+      "ci95_high": 0.013278089981519157,
+      "ci95_low": 0.005607761853645494,
+      "count": 40,
+      "max": 0.04443422526656404,
+      "mean": 0.00907902814139255,
+      "median": 0.004100673710934755,
+      "p90": 0.026833386290868778,
+      "p95": 0.03350691154876945,
+      "std": 0.011751939550830197
+    },
+    "proposed_ttt": {
+      "ci95_high": 12374.652777777777,
+      "ci95_low": 12374.652777777777,
+      "count": 5,
+      "max": 12374.652777777777,
+      "mean": 12374.652777777777,
+      "median": 12374.652777777777,
+      "p90": 12374.652777777777,
+      "p95": 12374.652777777777,
+      "std": 0.0
+    },
+    "route_entropy": {
+      "ci95_high": 0.6931471805599453,
+      "ci95_low": 0.6931471805599453,
+      "count": 5,
+      "max": 0.6931471805599453,
+      "mean": 0.6931471805599453,
+      "median": 0.6931471805599453,
+      "p90": 0.6931471805599453,
+      "p95": 0.6931471805599453,
+      "std": 0.0
+    },
+    "scenario": "two_route",
+    "so": {
+      "converged": true,
+      "relative_gap": 8.253656785082293e-09,
+      "total_travel_time": 12370.399832000829
+    },
+    "surrogate_route_risk": {
+      "ci95_high": 60.0,
+      "ci95_low": 60.0,
+      "count": 5,
+      "max": 60.0,
+      "mean": 60.0,
+      "median": 60.0,
+      "p90": 60.0,
+      "p95": 60.0,
+      "std": 0.0
+    },
+    "synthetic": true,
+    "ue": {
+      "converged": true,
+      "relative_gap": 6.748414051045667e-10,
+      "total_travel_time": 14001.226953506848
+    }
+  },
+  "run_dir": "artifacts/runs/20260825T014952.132942Z-43685f2f48"
+}
+PYTHONPATH=src python3 -m concordia.cli rl-gate
+{
+  "claim_boundary": "This decision applies only to the tested analytical correctness scale and does not claim that RL can never help on larger or nonstationary networks.",
+  "decision": "RL not introduced because deterministic/receding-horizon optimization was sufficient under the tested, declared small-instance conditions.",
+  "gates": {
+    "A_performance_gap": {
+      "qualifying_scenario_families": 0,
+      "scenario_median_relative_gaps": {
+        "merge": -0.018222283847677465,
+        "ring": 0.02579024099272255,
+        "signalized": 0.0,
+        "two_route": 0.007969410179235095
+      },
+      "tested": true,
+      "threshold": ">5% median B6 disadvantage against regret-feasible B4 in at least 2 scenario families",
+      "triggered": false
+    },
+    "B_runtime": {
+      "exceedance_fraction": 0.0,
+      "maximum_end_to_end_seconds": 3.3119084160000014,
+      "p95_end_to_end_seconds": 3.2309360249999988,
+      "tested": true,
+      "threshold": ">5 seconds in more than 20% of focused recommendation cycles",
+      "triggered": false
+    },
+    "C_dynamic_generalization": {
+      "reason": "no trained policy exists and drift evidence is unit-level, not a full traffic study",
+      "tested": false,
+      "threshold": ">10% degradation under a pre-registered nonstationary environment",
+      "triggered": false
+    },
+    "D_feedback_instability": {
+      "qualifying_scenario_families": 0,
+      "reason": "accepted one-way route changes are not counted as feedback oscillation",
+      "scenario_median_reversal_rates": {
+        "merge": 0.05555555555555555,
+        "ring": 0.1111111111111111,
+        "signalized": 0.0,
+        "two_route": 0.05555555555555555
+      },
+      "tested": true,
+      "threshold": ">0.25 back-and-forth route reversals per user per step in at least 2 families",
+      "triggered": false
+    },
+    "E_scalability": {
+      "reason": "focused study is a 6-user correctness scale; large-scale solver evidence is absent",
+      "tested": false,
+      "threshold": ">5 seconds at the declared operational scale",
+      "triggered": false
+    }
+  },
+  "outcome": "A",
+  "rationale": "No quantitatively demonstrated unsolved problem passed a gate. Untested dynamic generalization and large-scale behavior are limitations, not evidence for RL.",
+  "rl_authorized": false,
+  "rl_introduced": false,
+  "thresholds_frozen_before_decision": {
+    "dynamic_degradation_relative": 0.1,
+    "oscillation_switches_per_user_step": 0.25,
+    "performance_gap_relative": 0.05,
+    "performance_gap_scenario_families": 2,
+    "runtime_cycle_seconds": 5.0,
+    "runtime_exceedance_fraction": 0.2,
+    "scalability_cycle_seconds": 5.0
+  },
+  "triggered_gates": []
+}
+PYTHONPATH=src python3 -m concordia.cli rl-evaluate
+RL evaluation skipped: Outcome A authorized no RL implementation.
+PYTHONPATH=src python3 -m concordia.cli report --runs artifacts/runs --output artifacts/reports/report.html
+artifacts/reports/report.html
+PYTHONPATH=src python3 scripts/build_phase_reports.py
+wrote 18 phase reports to /Users/jaeminahn/Desktop/development/Concordia/artifacts/phase_reports

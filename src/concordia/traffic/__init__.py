@@ -1,6 +1,7 @@
 from .assignment import TrafficAssignment, TrafficAssignmentResult
 from .ghost import GhostRiskModel
 from .phantom import (
+    PHANTOM_FEATURES,
     CalibrationMetrics,
     LogisticPhantomJamRiskPredictor,
     StumpEnsemblePhantomJamRiskPredictor,
@@ -10,6 +11,8 @@ from .waves import (
     DetectorObservation,
     PhantomJamEvent,
     PhantomJamEventDetector,
+    PhantomJamEventValidation,
+    PhantomJamValidationStatus,
     detect_phantom_jam,
 )
 
@@ -19,8 +22,11 @@ __all__ = [
     "GhostRiskModel",
     "DetectorObservation",
     "CalibrationMetrics",
+    "PHANTOM_FEATURES",
     "PhantomJamEvent",
     "PhantomJamEventDetector",
+    "PhantomJamEventValidation",
+    "PhantomJamValidationStatus",
     "LogisticPhantomJamRiskPredictor",
     "StumpEnsemblePhantomJamRiskPredictor",
     "detect_phantom_jam",

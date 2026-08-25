@@ -1,0 +1,5 @@
+PYTHONPATH=src python3 -m concordia.cli research
+{
+  "summary": "artifacts/studies/analytical_matrix/summary.json",
+  "run_dir": "artifacts/runs/20260825T014837.225406Z-5ebbb6fe8f"
+}

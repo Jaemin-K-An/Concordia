@@ -1,0 +1,2 @@
+PYTHONPATH=src python3 -m concordia.cli report --runs artifacts/runs --output artifacts/reports/report.html
+artifacts/reports/report.html

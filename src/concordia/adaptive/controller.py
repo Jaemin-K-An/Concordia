@@ -79,7 +79,7 @@ class ClosedLoopController:
     ) -> RouteOffer:
         selected_id = plan.first_assignments[user.user_id]
         current_id = self.assignments[user.user_id]
-        target_flows = self.optimizer._flows(plan.first_assignments)
+        target_flows = plan.expected_flows
         selected_prediction = self.optimizer.predictor.predict(
             self.routes[selected_id], state, target_flows
         )
@@ -169,4 +169,3 @@ class ClosedLoopController:
         finally:
             self.simulator.close()
         return ClosedLoopResult(tuple(records), dict(self.assignments))
-

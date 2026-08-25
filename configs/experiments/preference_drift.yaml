@@ -1,0 +1,16 @@
+study: traffic_level_preference_drift
+seeds: [11, 23, 37, 53, 71]
+scenarios: [two_route, merge, signalized]
+user_count: 6
+preference_epsilon: 0.08
+phase_1_demand_scale: 0.8
+phase_2_demand_scale: 1.2
+phase_2_preference_shift:
+  time_multiplier: 0.65
+  variability_multiplier: 1.30
+  risk_multiplier: 1.80
+gate_c_degradation_threshold_relative: 0.10
+gate_c_aggregation: median
+claim_boundary: >-
+  Synthetic analytical nonstationarity study; preference drift is a declared scenario shift,
+  not calibrated human adaptation.

@@ -1,0 +1,24 @@
+PYTHONPATH=src python3 scripts/run_sumo_smoke.py
+Traceback (most recent call last):
+  File "/Users/jaeminahn/Desktop/development/Concordia/scripts/run_sumo_smoke.py", line 307, in <module>
+    raise SystemExit(main())
+  File "/Users/jaeminahn/Desktop/development/Concordia/scripts/run_sumo_smoke.py", line 302, in main
+    run()
+  File "/Users/jaeminahn/Desktop/development/Concordia/scripts/run_sumo_smoke.py", line 118, in run
+    adapter.start(seed=42)
+  File "/Users/jaeminahn/Desktop/development/Concordia/src/concordia/simulation/sumo.py", line 58, in start
+    traci.start([executable, "-c", str(self.config_path), "--seed", str(seed)])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/traci/main.py", line 147, in start
+    result = init(sumoPort, numRetries, "localhost", label, sumoProcess, doSwitch, traceFile, traceGetters)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/traci/main.py", line 116, in init
+    con = connect(port, numRetries, host, proc, 1, traceFile, traceGetters, label)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/traci/main.py", line 97, in connect
+    return connection.Connection(host, port, proc, traceFile, traceGetters, label)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/traci/connection.py", line 83, in __init__
+    self._socket.connect((host, port))
+TypeError: an integer is required (got type NoneType)
+make: *** [simulation-test] Error 1
+Error: While processing option 'remote-port':
+ 'None' is not a valid integer.
+Error: Could not parse commandline options.
+Quitting (on error).

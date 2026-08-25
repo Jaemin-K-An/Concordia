@@ -1,0 +1,12 @@
+{
+  "figures/alignment_feasibility_map.png": "f5d560411f04ed70f81350f901bf10fe2984f083b19c751a610546fa6528e664",
+  "figures/efficiency_voluntariness_frontier.png": "49e38420f036a4196fc4c6ae59a88cd6cd242cd2f39acda40332bc7b83fc4812",
+  "figures/knee_point.png": "486e7a621ad77abbd790225315ea51d3eebdcb47c195d0df8693859a45b45802",
+  "figures/marginal_value_epsilon.png": "82fc36ac5ce3b5ac0475cbbbbe65c66a638b97e68898e5b342048de5e547811e",
+  "figures/price_of_alignment.png": "f6bfcfe390cdc79932b6fa6d2a29e7481db98ca366723cfb1fece09dbf35d388",
+  "h1_robustness.json": "172d9d2e0635291ea0ed3636763d010f3220501bc4c1876cdc57983c817b6e81",
+  "processed_metrics.json": "ea60ea242e4b4f18068677150628f849d2f9fbbc35d2218097f7c82165140cf3",
+  "raw_metrics.json": "2167c26c304e5ed26d9159be3240e56cbe87125d9aa3dc767df754513eb7c74a",
+  "statistical_tests.json": "8f8b56e5611cb197e2bbd60fa2918968cec1b038b4373daaf6fa048feb4d4725",
+  "summary.json": "ce58421e4f121ce1b2522a37f364b3982a08032f60d45c68c908140ea984d6b1"
+}

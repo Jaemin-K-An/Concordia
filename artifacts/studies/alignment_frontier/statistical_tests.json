@@ -1,0 +1,23 @@
+{
+  "frontier_count": 360,
+  "h1_original_status": "FAIL_UNCHANGED",
+  "h1_r_interpretation": "Separate operationalization study; it does not replace the pre-registered H1.",
+  "knee_epsilon": {
+    "ci95_high": 0.022416666666666668,
+    "ci95_low": 0.018583333333333334,
+    "count": 360,
+    "max": 0.16,
+    "mean": 0.020444444444444442,
+    "median": 0.02,
+    "p90": 0.04,
+    "p95": 0.06,
+    "std": 0.019228061614498325
+  },
+  "monotonic_frontier_count": 360,
+  "monotonicity_violations": [],
+  "phase_counts": {
+    "INFEASIBLE": 580,
+    "TRADEOFF": 1335,
+    "WIN": 1325
+  }
+}

@@ -1,0 +1,23 @@
+units:
+  position: meters_increasing_downstream
+  time: seconds_from_simulation_start
+  propagation_speed_output: [meters_per_second, kilometers_per_hour]
+onset:
+  method: ewma_then_sustained_threshold
+  ewma_alpha: 0.80
+  sustained_samples: 2
+quality:
+  minimum_detectors: 3
+  minimum_regression_r_squared: 0.60
+physical_plausibility:
+  minimum_absolute_wave_speed_meters_per_second: 0.8333333333
+  maximum_absolute_wave_speed_meters_per_second: 6.9444444444
+  equivalent_kilometers_per_hour: [3.0, 25.0]
+  basis: conservative envelope around empirical wide-moving-jam propagation near -15 km/h
+  references:
+    - Kerner and Rehborn (1996), Experimental properties of complexity in traffic flow
+    - Schonhof, Treiber, Kesting, and Helbing (2007), Autonomous Detection and Anticipation of Jam Fronts
+claim_boundary: >-
+  This configurable envelope rejects kinematically impossible detector associations; it is
+  not a universal calibration for every road class. Scenario-specific calibration remains
+  required before a real-world phantom-jam claim.

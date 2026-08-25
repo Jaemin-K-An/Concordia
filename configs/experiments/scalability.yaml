@@ -1,0 +1,13 @@
+study: scalability_and_rl_gate_e
+seeds: [11, 23, 37, 53, 71]
+user_count: [6, 10, 20, 50, 100, 250, 500]
+candidate_count: [2, 3, 5, 8]
+demand_vehicles_per_hour: 1600
+preference_epsilon: 0.08
+b6_execution_combination_limit: 1024
+b6_declared_enumeration_limit: 100000
+operational_latency_seconds: 5.0
+approximation_quality_gap_relative: 0.05
+claim_boundary: >-
+  Synthetic analytical runtime and Python-memory study. It identifies an algorithmic
+  scaling boundary; it is not production hardware benchmarking.

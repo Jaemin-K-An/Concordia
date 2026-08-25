@@ -1,0 +1,302 @@
+{
+  "B6_enumerative_bottleneck_confirmed": true,
+  "B6_first_declared_limit_failure": {
+    "candidate_count": 8,
+    "user_count": 6
+  },
+  "Gate_E": {
+    "b6_scalability_failure": true,
+    "latency_threshold_seconds": 5.0,
+    "quality_threshold_relative": 0.05,
+    "residual_problem_after_mathematical_approximation": false,
+    "tested": true,
+    "triggered_for_RL": false
+  },
+  "approximation_max_small_scale_gap_vs_exact_or_B6": 0.0,
+  "approximation_operational_p95_seconds": 0.11276484179999784,
+  "claim_boundary": "Synthetic analytical runtime and Python-memory study. It identifies an algorithmic scaling boundary; it is not production hardware benchmarking.",
+  "complete": true,
+  "scale_results": [
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 13272,
+      "approximation_mean_gap_vs_exact_or_B6": 0.0,
+      "approximation_median_latency_seconds": 0.0006705419999999407,
+      "approximation_p95_latency_seconds": 0.0007348165999996326,
+      "candidate_count": 2,
+      "user_count": 6
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 10448,
+      "approximation_mean_gap_vs_exact_or_B6": 0.0,
+      "approximation_median_latency_seconds": 0.0008507500000014545,
+      "approximation_p95_latency_seconds": 0.0009157250000015437,
+      "candidate_count": 3,
+      "user_count": 6
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 13264,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.0012743749999941656,
+      "approximation_p95_latency_seconds": 0.0013615831999985062,
+      "candidate_count": 5,
+      "user_count": 6
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 17560,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.001869958000000338,
+      "approximation_p95_latency_seconds": 0.0018939743999993653,
+      "candidate_count": 8,
+      "user_count": 6
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 10080,
+      "approximation_mean_gap_vs_exact_or_B6": 0.0,
+      "approximation_median_latency_seconds": 0.0009835420000001704,
+      "approximation_p95_latency_seconds": 0.0010209500000030402,
+      "candidate_count": 2,
+      "user_count": 10
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 12648,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.0013004160000065212,
+      "approximation_p95_latency_seconds": 0.0013203502000038725,
+      "candidate_count": 3,
+      "user_count": 10
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 14448,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.0018235830000037367,
+      "approximation_p95_latency_seconds": 0.0018865997999967022,
+      "candidate_count": 5,
+      "user_count": 10
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 20048,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.0027953749999909405,
+      "approximation_p95_latency_seconds": 0.00287940019999553,
+      "candidate_count": 8,
+      "user_count": 10
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 17248,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.0017799169999932474,
+      "approximation_p95_latency_seconds": 0.0019455913999991026,
+      "candidate_count": 2,
+      "user_count": 20
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 18632,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.002273707999989938,
+      "approximation_p95_latency_seconds": 0.002310741599998778,
+      "candidate_count": 3,
+      "user_count": 20
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 21176,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.0033047919999944497,
+      "approximation_p95_latency_seconds": 0.0035865670000049476,
+      "candidate_count": 5,
+      "user_count": 20
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 29096,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.005051334000000907,
+      "approximation_p95_latency_seconds": 0.005173591800007671,
+      "candidate_count": 8,
+      "user_count": 20
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 48064,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.0042802079999972875,
+      "approximation_p95_latency_seconds": 0.004790167199999473,
+      "candidate_count": 2,
+      "user_count": 50
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 46056,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.005425290999994559,
+      "approximation_p95_latency_seconds": 0.0055551914000005805,
+      "candidate_count": 3,
+      "user_count": 50
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 51024,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.007994250000010084,
+      "approximation_p95_latency_seconds": 0.008104933200004893,
+      "candidate_count": 5,
+      "user_count": 50
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 67368,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.011721833999999376,
+      "approximation_p95_latency_seconds": 0.011864291199998434,
+      "candidate_count": 8,
+      "user_count": 50
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 84752,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.008277790999997592,
+      "approximation_p95_latency_seconds": 0.008349116400000866,
+      "candidate_count": 2,
+      "user_count": 100
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 88840,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.010789540999994074,
+      "approximation_p95_latency_seconds": 0.011185766600004855,
+      "candidate_count": 3,
+      "user_count": 100
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 128936,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.015494667000012896,
+      "approximation_p95_latency_seconds": 0.03479172539999808,
+      "candidate_count": 5,
+      "user_count": 100
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 126176,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.022728250000000116,
+      "approximation_p95_latency_seconds": 0.022760124999999222,
+      "candidate_count": 8,
+      "user_count": 100
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 194624,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.02021387499999605,
+      "approximation_p95_latency_seconds": 0.020345832799995377,
+      "candidate_count": 2,
+      "user_count": 250
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 193408,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.026103709000011577,
+      "approximation_p95_latency_seconds": 0.029577975000000832,
+      "candidate_count": 3,
+      "user_count": 250
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 207904,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.0381661250000036,
+      "approximation_p95_latency_seconds": 0.04253668279999658,
+      "candidate_count": 5,
+      "user_count": 250
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 267944,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.05615216700000758,
+      "approximation_p95_latency_seconds": 0.056291516999996814,
+      "candidate_count": 8,
+      "user_count": 250
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 382416,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.040737833999997974,
+      "approximation_p95_latency_seconds": 0.04863560060000225,
+      "candidate_count": 2,
+      "user_count": 500
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 387256,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.052613540999999486,
+      "approximation_p95_latency_seconds": 0.0530526913999978,
+      "candidate_count": 3,
+      "user_count": 500
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 413696,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.07612362499999392,
+      "approximation_p95_latency_seconds": 0.07622051700000157,
+      "candidate_count": 5,
+      "user_count": 500
+    },
+    {
+      "B6_executed_seed_count": 0,
+      "B6_p95_latency_seconds": null,
+      "approximation_max_memory_bytes": 523736,
+      "approximation_mean_gap_vs_exact_or_B6": null,
+      "approximation_median_latency_seconds": 0.11231895900000666,
+      "approximation_p95_latency_seconds": 0.11276484179999784,
+      "candidate_count": 8,
+      "user_count": 500
+    }
+  ],
+  "study": "Study IV \u2014 Scalability / RL Gate E"
+}

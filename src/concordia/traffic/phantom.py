@@ -27,6 +27,7 @@ class CalibrationMetrics:
     pr_auc: float
     brier_score: float
     expected_calibration_error: float
+    recall: float
     false_negative_rate: float
     threshold: float
     sample_count: int
@@ -79,6 +80,7 @@ def calibration_metrics(
         pr_auc=pr_auc,
         brier_score=float(np.mean((p - y) ** 2)),
         expected_calibration_error=ece,
+        recall=1.0 - false_negatives / max(1, int(y.sum())),
         false_negative_rate=false_negatives / max(1, int(y.sum())),
         threshold=threshold,
         sample_count=len(y),

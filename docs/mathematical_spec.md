@@ -212,3 +212,64 @@ can reduce TTT while violating the configured regret budget for some users; this
 feasibility and network efficiency are reported separately. H3 is NOT TESTED and microscopic
 H4 is PARTIAL. These negative/partial findings supersede any generic expectation stated in
 Section 8.
+
+## 15. Physical phantom-event validation
+
+Detector position is measured in metres increasing downstream and onset time in seconds. An
+EWMA followed by a sustained threshold estimates each detector onset. For a candidate cluster,
+
+\[
+x_j=a+v_w t^{onset}_j+\epsilon_j
+\]
+
+is fitted directly, so the slope is (v_w) in m/s; km/h is (3.6v_w). Validation records
+detector count, (R^2), onset uncertainty, duration, affected length, oscillation amplitude,
+minimum speed, density elevation, and queue evidence. The event is classified `VALID`,
+`LOW_CONFIDENCE`, `PHYSICALLY_IMPLAUSIBLE`, or `INSUFFICIENT_DETECTORS`. H3 counts only
+`VALID`. Speed limits are configuration, not code constants.
+
+## 16. Acceptance–traffic fixed point
+
+For a proposed route assignment, acceptance (Q(\hat x)) depends on the traffic state used to
+predict its features, while the expected traffic state is (F(Q)). The final prediction solves
+
+\[
+\hat x^*=F(Q(\hat x^*)).
+\]
+
+Relaxed Picard iteration uses
+
+\[
+\hat x^{k+1}=(1-\eta)\hat x^k+\eta F(Q(\hat x^k))
+\]
+
+and stops when the edge-flow (L_\infty) residual is below the configured tolerance. Every
+plan records convergence, iterations, residual, and solve time. A non-converged candidate is
+not executed. FP0/FP1 evidence separately reports whether the added iteration improves ETA,
+acceptance Brier score, expected flow, or TTT enough to justify its compute cost.
+
+## 17. Price of Alignment
+
+Let (C^*(\epsilon)) be the minimum assignment TTT whose individual regret does not exceed
+(\epsilon), and let (C_{SO}) be the minimum discrete assignment TTT over the same users and
+routes without the alignment constraint. The reported measure is
+
+\[
+PoAlign(\epsilon)=\frac{C^*(\epsilon)}{C_{SO}}.
+\]
+
+Because the feasible set at (epsilon_1) is contained in that at (epsilon_2\ge\epsilon_1),
+(C^*(\epsilon)) must be non-increasing; a controlled regression test enforces this property.
+The marginal value is the negative finite difference (-dC^*/d\epsilon). A normalized
+curvature calculation selects a knee point without visual judgement. WIN, TRADEOFF, and
+INFEASIBLE regions are reported across demand, epsilon, heterogeneity, and penetration rather
+than collapsed into a single success rate.
+
+## 18. RL Gate v2 boundary
+
+B6 enumeration failure is measured separately from the residual problem after a hard-
+constrained mathematical approximation. Gate E authorizes RL only when that approximation
+also misses the frozen five-second latency or five-percent small-scale quality threshold. Gate
+C measures the median incremental degradation induced by nonstationarity after subtracting the
+same approximation's stationary oracle gap. A high p95 remains a documented failure condition
+even when the pre-registered median gate does not trigger.

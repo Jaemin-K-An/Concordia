@@ -1,0 +1,29 @@
+{
+  "audit_head": "acfbaaa92fe621b0fc43c256d42d80ac2945ce46",
+  "audit_date": "2026-08-25",
+  "commands": {
+    "make lint": {"status": "PASS", "log": "make_lint.log"},
+    "make test": {"status": "PASS", "log": "make_test.log", "tests": 38},
+    "make benchmark": {"status": "PASS", "log": "make_benchmark.log"},
+    "make simulation-test": {
+      "status": "PASS_WITH_LOCAL_SOCKET_PERMISSION",
+      "sandbox_attempt": "FAIL",
+      "sandbox_reason": "TraCI could not bind a localhost port and received remote-port=None",
+      "sandbox_log": "make_simulation-test.log",
+      "verified_log": "make_simulation-test-escalated.log"
+    },
+    "make research": {"status": "PASS", "log": "make_research.log"},
+    "make rl-gate": {"status": "PASS", "log": "make_rl-gate.log", "outcome": "A"},
+    "make report": {"status": "PASS", "log": "make_report.log"},
+    "make audit": {"status": "PASS", "log": "make_audit.log"}
+  },
+  "gap_status": {
+    "A_H3_microscopic_phantom_prevention": "NOT TESTED",
+    "B_H4_microscopic_safety_non_degradation": "PARTIAL",
+    "C_wave_speed_physical_plausibility": "FAIL",
+    "D_acceptance_traffic_fixed_point": "NOT TESTED",
+    "E_real_OSM_B1_B6_simulation": "NOT TESTED",
+    "F_price_of_alignment_frontier": "NOT TESTED"
+  },
+  "claim_boundary": "This is the re-audit of the pre-v2 implementation HEAD, not final v2 evidence."
+}

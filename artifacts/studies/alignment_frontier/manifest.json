@@ -1,0 +1,54 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 2.799204,
+  "end_timestamp_utc": "2026-08-25T02:23:39.150661+00:00",
+  "git_commit": "acfbaaa92fe621b0fc43c256d42d80ac2945ce46",
+  "git_dirty": true,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "canonical_config": "e5bfc75b4d0799244a774e59dfaf102e82a2c934eea3cac9957bb22029094c3f",
+    "configs/experiments/alignment_frontier.yaml": "b217d82b77b23f4ac3e1733f749981e61e36685ea0a955b05877654743484cba"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/alignment_frontier/figures/alignment_feasibility_map.png": "f5d560411f04ed70f81350f901bf10fe2984f083b19c751a610546fa6528e664",
+    "artifacts/studies/alignment_frontier/figures/efficiency_voluntariness_frontier.png": "49e38420f036a4196fc4c6ae59a88cd6cd242cd2f39acda40332bc7b83fc4812",
+    "artifacts/studies/alignment_frontier/figures/knee_point.png": "486e7a621ad77abbd790225315ea51d3eebdcb47c195d0df8693859a45b45802",
+    "artifacts/studies/alignment_frontier/figures/marginal_value_epsilon.png": "82fc36ac5ce3b5ac0475cbbbbe65c66a638b97e68898e5b342048de5e547811e",
+    "artifacts/studies/alignment_frontier/figures/price_of_alignment.png": "f6bfcfe390cdc79932b6fa6d2a29e7481db98ca366723cfb1fece09dbf35d388",
+    "artifacts/studies/alignment_frontier/h1_robustness.json": "172d9d2e0635291ea0ed3636763d010f3220501bc4c1876cdc57983c817b6e81",
+    "artifacts/studies/alignment_frontier/processed_metrics.json": "ea60ea242e4b4f18068677150628f849d2f9fbbc35d2218097f7c82165140cf3",
+    "artifacts/studies/alignment_frontier/raw_metrics.json": "2167c26c304e5ed26d9159be3240e56cbe87125d9aa3dc767df754513eb7c74a",
+    "artifacts/studies/alignment_frontier/statistical_tests.json": "8f8b56e5611cb197e2bbd60fa2918968cec1b038b4373daaf6fa048feb4d4725",
+    "artifacts/studies/alignment_frontier/summary.json": "ce58421e4f121ce1b2522a37f364b3982a08032f60d45c68c908140ea984d6b1",
+    "config.json": "e5bfc75b4d0799244a774e59dfaf102e82a2c934eea3cac9957bb22029094c3f",
+    "metrics.json": "ce58421e4f121ce1b2522a37f364b3982a08032f60d45c68c908140ea984d6b1"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T022336.351457Z-00bf6a5916",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "simulator_version": "analytical-no-sumo",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T02:23:36.351457+00:00",
+  "status": "valid"
+}

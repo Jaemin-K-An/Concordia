@@ -25,3 +25,14 @@
 10. **Negative results remain results.** The 2026-08-25 matrix did not support aggregate H1,
     H2, or H6. H3 was not tested by a matched microscopic policy matrix; H4 is partial.
     These outcomes are preserved in the audit instead of being tuned away.
+11. **Only physically validated events count.** Wave speed is fitted as position over onset
+    time in SI units. Implausible, low-confidence, and under-instrumented candidates remain in
+    raw evidence but are excluded from H3.
+12. **Acceptance and traffic are solved jointly.** MPC uses a relaxed fixed point and records
+    convergence telemetry. Non-convergence is an explicit infeasible candidate, never a hidden
+    last-iterate success.
+13. **H1-R and Price of Alignment are follow-up studies.** They explain the original H1/H2
+    failures but do not redefine or replace those pre-registered outcomes.
+14. **Mathematical approximation precedes RL.** Enumeration failure reopens scalability work,
+    but RL is authorized only if the clustered hard-constrained approximation leaves a measured
+    latency or quality problem under the frozen Gate E thresholds.

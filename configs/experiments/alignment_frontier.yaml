@@ -1,0 +1,11 @@
+study: alignment_frontier
+seeds: [11, 23, 37, 53, 71]
+scenarios: [two_route, merge, signalized, ring]
+demand_scale: [0.8, 1.0, 1.2]
+heterogeneity: [none, low, medium, high, bimodal, long_tail]
+user_count: 6
+utility_epsilon: [0.0, 0.01, 0.02, 0.04, 0.06, 0.08, 0.12, 0.16, 0.24]
+maximum_combinations: 1000000
+claim_boundary: >-
+  Synthetic analytical assignment study. Existing H1/H2 outcomes are not redefined; the
+  frontier and H1-R are explicitly post-hoc mechanism/operationalization analyses.

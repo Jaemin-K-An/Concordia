@@ -1,0 +1,392 @@
+[
+  {
+    "FP0": {
+      "acceptance_brier": 0.02201968423746758,
+      "converged": false,
+      "final_residual": 53.59499402080263,
+      "final_ttt": 12588.590907063917,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00017495899999997455
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 51.02174394336515,
+      "mean_eta_prediction_error_minutes": 0.0917805698656915
+    },
+    "FP1": {
+      "acceptance_brier": 0.02309472628362232,
+      "converged": true,
+      "final_residual": 0.008942953199948533,
+      "final_ttt": 12457.936216952497,
+      "iterations": 13,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.0018436250000000154
+    },
+    "scenario": "two_route",
+    "seed": 11
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.14541437351807307,
+      "converged": false,
+      "final_residual": 111.12012831885957,
+      "final_ttt": 12989.501791078514,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.0001530410000000204
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 105.35540628909757,
+      "mean_eta_prediction_error_minutes": 0.11664578558176153
+    },
+    "FP1": {
+      "acceptance_brier": 0.1406129293111004,
+      "converged": true,
+      "final_residual": 0.007728822490491893,
+      "final_ttt": 12600.042671610208,
+      "iterations": 14,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.0020696250000000194
+    },
+    "scenario": "two_route",
+    "seed": 23
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.020342405669867596,
+      "converged": false,
+      "final_residual": 54.708670421415604,
+      "final_ttt": 12585.263981994809,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.0001531670000000096
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 52.40857490355569,
+      "mean_eta_prediction_error_minutes": 0.09533813527293322
+    },
+    "FP1": {
+      "acceptance_brier": 0.021270161649766074,
+      "converged": true,
+      "final_residual": 0.009573855224232375,
+      "final_ttt": 12452.805681197266,
+      "iterations": 13,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.001835042000000009
+    },
+    "scenario": "two_route",
+    "seed": 37
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.040672993152272435,
+      "converged": false,
+      "final_residual": 109.57999304646387,
+      "final_ttt": 12996.010233917894,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00015137500000000914
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 103.72680449425712,
+      "mean_eta_prediction_error_minutes": 0.11319004101566765
+    },
+    "FP1": {
+      "acceptance_brier": 0.0432138541633748,
+      "converged": true,
+      "final_residual": 0.007661487676386969,
+      "final_ttt": 12609.792178193253,
+      "iterations": 14,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.0022066669999999955
+    },
+    "scenario": "two_route",
+    "seed": 53
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 12374.652777777777,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00013774999999999205
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 12374.652777777777,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00013491700000001217
+    },
+    "scenario": "two_route",
+    "seed": 71
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 12618.482740582536,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00019783400000000784
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 12618.482740582536,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00018974999999998854
+    },
+    "scenario": "merge",
+    "seed": 11
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.20473403090265907,
+      "converged": false,
+      "final_residual": 292.744511883432,
+      "final_ttt": 13558.208637673373,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00021458400000001765
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 121.31828606814595,
+      "mean_eta_prediction_error_minutes": 0.5937852505927493
+    },
+    "FP1": {
+      "acceptance_brier": 0.19770004884712014,
+      "converged": true,
+      "final_residual": 0.009720799850242656,
+      "final_ttt": 12251.051541742945,
+      "iterations": 14,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.0027060839999999975
+    },
+    "scenario": "merge",
+    "seed": 23
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 13516.435423432342,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.0001954579999999817
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 13516.435423432342,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00019245899999997818
+    },
+    "scenario": "merge",
+    "seed": 37
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 12903.919919482969,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00019329200000001157
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 12903.919919482969,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00018854199999995824
+    },
+    "scenario": "merge",
+    "seed": 53
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11922.81842574762,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00019283399999997508
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11922.81842574762,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.000187875000000004
+    },
+    "scenario": "merge",
+    "seed": 71
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00014554099999997128
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00014062500000000533
+    },
+    "scenario": "signalized",
+    "seed": 11
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00024579200000002244
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.0001407920000000007
+    },
+    "scenario": "signalized",
+    "seed": 23
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00014166700000001198
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00014220899999994874
+    },
+    "scenario": "signalized",
+    "seed": 37
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00014258299999997393
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00013849999999998586
+    },
+    "scenario": "signalized",
+    "seed": 53
+  },
+  {
+    "FP0": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00014287499999998676
+    },
+    "FP0_vs_FP1": {
+      "mean_edge_flow_prediction_error_vehicles_per_hour": 0.0,
+      "mean_eta_prediction_error_minutes": 0.0
+    },
+    "FP1": {
+      "acceptance_brier": 0.0,
+      "converged": true,
+      "final_residual": 0.0,
+      "final_ttt": 11862.881999999998,
+      "iterations": 1,
+      "route_reversals": 0,
+      "solve_time_seconds": 0.00013895799999996683
+    },
+    "scenario": "signalized",
+    "seed": 71
+  }
+]

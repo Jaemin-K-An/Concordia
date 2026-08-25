@@ -11,8 +11,8 @@ from concordia.errors import InfeasibleAssignment, ValidationError
 from concordia.models import EdgeKey, Route, User
 from concordia.network import RoadNetwork
 from concordia.optimization.adaptive import ObjectiveWeights
+from concordia.optimization.fixed_point import AcceptanceTrafficFixedPointSolver
 from concordia.optimization.objective import route_concentration, total_travel_time, upper_cvar
-from concordia.preferences import UtilityModel, preference_slack
 from concordia.traffic import GhostRiskModel
 
 
@@ -23,13 +23,19 @@ class RecedingHorizonPlan:
     first_assignments: Mapping[str, str]
     acceptance_probabilities: Mapping[str, float]
     dynamic_regrets: Mapping[str, float]
+    expected_flows: Mapping[EdgeKey, float]
     horizon_objectives: Tuple[float, ...]
     expected_safety_cvar: float
     baseline_safety_cvar: float
     objective: float
     solve_time_seconds: float
     combinations_evaluated: int
-    method: str = "receding_horizon_constant_action_rollout"
+    fixed_point_converged: bool
+    fixed_point_iterations: int
+    fixed_point_final_residual: float
+    fixed_point_solve_time_seconds: float
+    nonconverged_candidate_count: int
+    method: str = "receding_horizon_acceptance_traffic_fixed_point"
 
 
 class RecedingHorizonOptimizer:
@@ -52,6 +58,9 @@ class RecedingHorizonOptimizer:
         weights: Optional[ObjectiveWeights] = None,
         acceptance_model: Optional[AcceptanceModel] = None,
         max_combinations: int = 100_000,
+        fixed_point_relaxation: float = 0.5,
+        fixed_point_tolerance: float = 1e-2,
+        fixed_point_max_iterations: int = 30,
     ) -> None:
         if vehicle_flow <= 0 or not 0 < discount <= 1:
             raise ValidationError("MPC vehicle flow/discount is invalid")
@@ -66,9 +75,17 @@ class RecedingHorizonOptimizer:
         self.safety_delta = safety_delta
         self.weights = weights or ObjectiveWeights()
         self.acceptance_model = acceptance_model or AcceptanceModel()
-        self.utility_model = UtilityModel()
         self.max_combinations = max_combinations
         self.ghost_model = GhostRiskModel()
+        self.fixed_point_solver = AcceptanceTrafficFixedPointSolver(
+            network,
+            routes,
+            vehicle_flow,
+            self.acceptance_model,
+            relaxation=fixed_point_relaxation,
+            tolerance=fixed_point_tolerance,
+            max_iterations=fixed_point_max_iterations,
+        )
 
     def _flows(self, assignments: Mapping[str, str]) -> Dict[EdgeKey, float]:
         flows = {edge: 0.0 for edge in self.network.edges}
@@ -117,55 +134,32 @@ class RecedingHorizonOptimizer:
             self.routes[current_assignments[user.user_id]].features.risk for user in users
         ]
         baseline_cvar = upper_cvar(baseline_risks)
-        current_ttt = total_travel_time(self.network, state.flows)
         best = None
         evaluated = 0
+        nonconverged = 0
         for selected in itertools.product(*option_lists):
             proposed = {user.user_id: route_id for user, route_id in zip(users, selected)}
-            full_target_flows = self._flows(proposed)
-            predictions = {
-                route_id: self.predictor.predict(route, state, full_target_flows)
-                for route_id, route in self.routes.items()
-            }
-            acceptance = {}
-            regrets = {}
+            fixed_point = self.fixed_point_solver.solve(
+                state.flows,
+                users,
+                candidates,
+                current_assignments,
+                proposed,
+            )
+            if not fixed_point.converged:
+                nonconverged += 1
+                continue
+            expected_target = fixed_point.expected_flows
+            acceptance = fixed_point.acceptance_probabilities
+            regrets = fixed_point.dynamic_regrets
             feasible = True
             for user in users:
-                predicted_routes = [
-                    Route(
-                        route_id=route_id,
-                        nodes=self.routes[route_id].nodes,
-                        features=predictions[route_id].expected_features,
-                    )
-                    for route_id in candidates[user.user_id]
-                ]
-                utilities = self.utility_model.utilities(user.preferences, predicted_routes)
-                slacks = preference_slack(utilities)
-                selected_route = proposed[user.user_id]
-                current_route = current_assignments[user.user_id]
-                regret = slacks[selected_route]
-                regrets[user.user_id] = regret
-                if regret > user.epsilon + 1e-10:
+                if regrets[user.user_id] > user.epsilon + 1e-10:
                     feasible = False
                     break
-                if selected_route == current_route:
-                    probability = 1.0
-                else:
-                    selected_features = predictions[selected_route].expected_features
-                    current_features = predictions[current_route].expected_features
-                    probability = self.acceptance_model.probability(
-                        preference_slack=regret,
-                        utility_gain=utilities[selected_route] - utilities[current_route],
-                        eta_gain_minutes=current_features.time - selected_features.time,
-                        reliability_gain_minutes2=(
-                            current_features.variability - selected_features.variability
-                        ),
-                        network_benefit=max(0.0, current_ttt - total_travel_time(self.network, full_target_flows)),
-                    )
-                if probability < self.minimum_acceptance_probability:
+                if acceptance[user.user_id] < self.minimum_acceptance_probability:
                     feasible = False
                     break
-                acceptance[user.user_id] = probability
             if not feasible:
                 continue
             expected_risks = []
@@ -178,7 +172,6 @@ class RecedingHorizonOptimizer:
             safety_cvar = upper_cvar(expected_risks)
             if safety_cvar > baseline_cvar + self.safety_delta + 1e-10:
                 continue
-            expected_target = self._expected_flows(current_assignments, proposed, acceptance)
             trajectory = self.predictor.project_flows(state, expected_target)
             objectives = []
             hhi, _ = route_concentration(proposed)
@@ -187,8 +180,8 @@ class RecedingHorizonOptimizer:
                 ghost = sum(
                     self.ghost_model.probability(
                         flows[edge] / self.network.edge_data(edge).capacity,
-                        0.0,
-                        0.0,
+                        state.edges[edge].speed_coefficient_of_variation,
+                        state.edges[edge].acceleration_variance_meters2_per_second4,
                     )
                     * flows[edge]
                     for edge in self.network.edges
@@ -205,18 +198,42 @@ class RecedingHorizonOptimizer:
             evaluated += 1
             key = (objective, tuple(sorted(proposed.items())))
             if best is None or key < best[0]:
-                best = (key, proposed, acceptance, regrets, objectives, safety_cvar)
+                best = (
+                    key,
+                    proposed,
+                    acceptance,
+                    regrets,
+                    expected_target,
+                    objectives,
+                    safety_cvar,
+                    fixed_point,
+                )
         if best is None:
             raise InfeasibleAssignment("no receding-horizon action satisfies all hard constraints")
-        _, proposed, acceptance, regrets, objectives, safety_cvar = best
+        (
+            _,
+            proposed,
+            acceptance,
+            regrets,
+            expected_target,
+            objectives,
+            safety_cvar,
+            fixed_point,
+        ) = best
         return RecedingHorizonPlan(
             first_assignments=proposed,
             acceptance_probabilities=acceptance,
             dynamic_regrets=regrets,
+            expected_flows=expected_target,
             horizon_objectives=tuple(objectives),
             expected_safety_cvar=safety_cvar,
             baseline_safety_cvar=baseline_cvar,
             objective=sum((self.discount**i) * value for i, value in enumerate(objectives)),
             solve_time_seconds=time.perf_counter() - started,
             combinations_evaluated=evaluated,
+            fixed_point_converged=fixed_point.converged,
+            fixed_point_iterations=fixed_point.iterations,
+            fixed_point_final_residual=fixed_point.final_residual,
+            fixed_point_solve_time_seconds=fixed_point.solve_time_seconds,
+            nonconverged_candidate_count=nonconverged,
         )

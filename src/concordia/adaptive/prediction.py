@@ -78,8 +78,8 @@ class DynamicRoutePredictor:
         ghost_risk = sum(
             self.ghost_model.probability(
                 final_flows[edge] / self.network.edge_data(edge).capacity,
-                0.0,
-                0.0,
+                state.edges[edge].speed_coefficient_of_variation,
+                state.edges[edge].acceleration_variance_meters2_per_second4,
             )
             for edge in route.edges
         )
