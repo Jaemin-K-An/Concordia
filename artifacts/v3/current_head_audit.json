@@ -1,0 +1,19 @@
+{
+  "complete": true,
+  "evidence_hashes": {
+    "FINAL_AUDIT_V2.md": "d170c625ea85bab35f51e4fce3c6dc0f90c967a2af1278a8f838521e4e050a2f",
+    "artifacts/rl_gate_report_v2.json": "3d449a5c171af1b595769371528109946afa1115e5c81c9231f1449c3fa702ca",
+    "artifacts/studies/alignment_frontier/raw_metrics.json": "2167c26c304e5ed26d9159be3240e56cbe87125d9aa3dc767df754513eb7c74a",
+    "artifacts/studies/conditional_rl/summary.json": "607723d86d3f52f349bb272bebe7b1817aca3eb817e5e89ccd88c79e1c954854",
+    "artifacts/studies/microscopic_policy_matrix/summary.json": "176cd2435bd7871dedbfc1533d6482c49ee5b886f66ef0eeca17920e2c885522",
+    "artifacts/studies/phantom_calibration/summary.json": "9fef280414138abeacd3121c727b17375dc6554ff1c0c37f1dd75faeabdfe63a",
+    "artifacts/studies/preference_drift/summary.json": "e78ee76dad42226fd9f758642678ce8eb86bf722ad93c615decee972d60ebdd0",
+    "artifacts/studies/real_topology_policy_matrix/summary.json": "dea4c610ef1e6c61cdd484a62a04c7e56ccd5ea4aebef43626cc19d01e9e0d52",
+    "artifacts/studies/scalability/summary.json": "7f23953d8cca7f4e821946e4ccf5523a0a9e755d62a3553d2e29883512e2ac8f"
+  },
+  "head": "08ca267497b236663907b61ac7e139c3ed7dfe95",
+  "holdout_executed": false,
+  "v2_failures_preserved": true,
+  "v2_role": "pilot_development_evidence",
+  "v3_question": "Know when optimization is worth attempting."
+}

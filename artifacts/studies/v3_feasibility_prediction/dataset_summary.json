@@ -1,0 +1,16 @@
+{
+  "case_count": 360,
+  "complete": true,
+  "feature_schema_hash": "f95d73eace14341addf145a18c405ae9744be1b9b6415c568d1fa161b56c7698",
+  "holdout_materialized": false,
+  "label_counts": {
+    "INFEASIBLE": 29,
+    "TRADEOFF": 172,
+    "WIN": 159
+  },
+  "split_hash": "e678c219166539e0e6458b2ac8537e8facb371c2fedc1f5db55a7561ecdb9fc7",
+  "stage": "development_dataset",
+  "training_count": 216,
+  "v2_evidence_role": "development_only",
+  "validation_count": 144
+}

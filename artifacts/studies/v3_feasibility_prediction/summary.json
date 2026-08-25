@@ -1,0 +1,130 @@
+{
+  "claim_boundary": "Study V is not primary success evidence.",
+  "complete": true,
+  "development_validation_only": true,
+  "feature_importance_top10": [
+    [
+      "heterogeneity_rad_interaction",
+      0.9383787976168483
+    ],
+    [
+      "maximum_single_benefit",
+      0.8064086772948252
+    ],
+    [
+      "safety_margin",
+      0.7960964122357768
+    ],
+    [
+      "route_attribute_diversity",
+      0.767648993732487
+    ],
+    [
+      "alternative_capacity_ratio",
+      0.7041652816762468
+    ],
+    [
+      "price_of_anarchy",
+      0.5449179560579834
+    ],
+    [
+      "bottleneck_centrality",
+      0.5355206633764604
+    ],
+    [
+      "phantom_risk",
+      0.5181310930785366
+    ],
+    [
+      "acceptance_probability",
+      0.44546714830522016
+    ],
+    [
+      "alignment_opportunity_count",
+      0.37389001767946645
+    ]
+  ],
+  "holdout_used_for_selection": false,
+  "selected_aps_threshold_candidate": {
+    "coverage": 0.9166666666666666,
+    "precision": 0.44696969696969696,
+    "threshold": 0.05
+  },
+  "selected_model": "M1_logistic",
+  "selected_threshold_candidate": {
+    "coverage": 0.4930555555555556,
+    "intervention_count": 71,
+    "meets_coverage": true,
+    "meets_precision": true,
+    "precision": 0.7605633802816901,
+    "threshold": 0.35
+  },
+  "study": "Study V \u2014 Alignment Feasibility Prediction",
+  "validation_metrics": {
+    "brier_score": 0.1337286202699039,
+    "calibration_curve": [
+      {
+        "count": 11,
+        "mean_predicted_probability": 0.05240865011375022,
+        "observed_win_rate": 0.0
+      },
+      {
+        "count": 31,
+        "mean_predicted_probability": 0.13199599300887166,
+        "observed_win_rate": 0.0
+      },
+      {
+        "count": 11,
+        "mean_predicted_probability": 0.2582393606867574,
+        "observed_win_rate": 0.09090909090909091
+      },
+      {
+        "count": 9,
+        "mean_predicted_probability": 0.3516126812598612,
+        "observed_win_rate": 0.2222222222222222
+      },
+      {
+        "count": 9,
+        "mean_predicted_probability": 0.45412517456944834,
+        "observed_win_rate": 0.6666666666666666
+      },
+      {
+        "count": 12,
+        "mean_predicted_probability": 0.5498233034110813,
+        "observed_win_rate": 0.75
+      },
+      {
+        "count": 23,
+        "mean_predicted_probability": 0.6589407092737147,
+        "observed_win_rate": 0.5652173913043478
+      },
+      {
+        "count": 14,
+        "mean_predicted_probability": 0.7548640157181025,
+        "observed_win_rate": 0.6428571428571429
+      },
+      {
+        "count": 9,
+        "mean_predicted_probability": 0.8537864325333052,
+        "observed_win_rate": 0.7777777777777778
+      },
+      {
+        "count": 15,
+        "mean_predicted_probability": 0.9686865113828644,
+        "observed_win_rate": 1.0
+      }
+    ],
+    "confusion_matrix": {
+      "fn": 1,
+      "fp": 26,
+      "tn": 56,
+      "tp": 61
+    },
+    "ece": 0.11712517067199305,
+    "f1": 0.8187919463087249,
+    "pr_auc": 0.8460945723593529,
+    "precision": 0.7011494252873564,
+    "recall": 0.9838709677419355,
+    "roc_auc": 0.8851298190401259
+  }
+}

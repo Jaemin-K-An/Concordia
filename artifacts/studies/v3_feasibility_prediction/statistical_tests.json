@@ -1,0 +1,297 @@
+{
+  "candidate_model_validation": {
+    "M0_APS": {
+      "brier_score": 0.2392894856346557,
+      "calibration_curve": [
+        {
+          "count": 73,
+          "mean_predicted_probability": 0.38247363749981933,
+          "observed_win_rate": 0.3561643835616438
+        },
+        {
+          "count": 48,
+          "mean_predicted_probability": 0.4333116775425654,
+          "observed_win_rate": 0.5416666666666666
+        },
+        {
+          "count": 13,
+          "mean_predicted_probability": 0.5539367826119275,
+          "observed_win_rate": 0.0
+        },
+        {
+          "count": 5,
+          "mean_predicted_probability": 0.6641945092908474,
+          "observed_win_rate": 1.0
+        },
+        {
+          "count": 5,
+          "mean_predicted_probability": 0.9013836300035332,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "confusion_matrix": {
+        "fn": 52,
+        "fp": 13,
+        "tn": 69,
+        "tp": 10
+      },
+      "ece": 0.1145479339786585,
+      "f1": 0.23529411764705882,
+      "pr_auc": 0.5304105526507111,
+      "precision": 0.43478260869565216,
+      "recall": 0.16129032258064516,
+      "roc_auc": 0.5163257277734068
+    },
+    "M1_logistic": {
+      "brier_score": 0.13471062942210982,
+      "calibration_curve": [
+        {
+          "count": 42,
+          "mean_predicted_probability": 0.025316326201300705,
+          "observed_win_rate": 0.0
+        },
+        {
+          "count": 2,
+          "mean_predicted_probability": 0.29622786832972264,
+          "observed_win_rate": 0.5
+        },
+        {
+          "count": 21,
+          "mean_predicted_probability": 0.344359525682126,
+          "observed_win_rate": 0.3333333333333333
+        },
+        {
+          "count": 7,
+          "mean_predicted_probability": 0.45292570863564385,
+          "observed_win_rate": 0.2857142857142857
+        },
+        {
+          "count": 10,
+          "mean_predicted_probability": 0.5451324365877757,
+          "observed_win_rate": 0.2
+        },
+        {
+          "count": 19,
+          "mean_predicted_probability": 0.6532230052167691,
+          "observed_win_rate": 0.7894736842105263
+        },
+        {
+          "count": 10,
+          "mean_predicted_probability": 0.7476922416338079,
+          "observed_win_rate": 0.8
+        },
+        {
+          "count": 16,
+          "mean_predicted_probability": 0.8531560937770158,
+          "observed_win_rate": 0.625
+        },
+        {
+          "count": 17,
+          "mean_predicted_probability": 0.9726807795107507,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "confusion_matrix": {
+        "fn": 10,
+        "fp": 20,
+        "tn": 62,
+        "tp": 52
+      },
+      "ece": 0.09410381293569371,
+      "f1": 0.7761194029850746,
+      "pr_auc": 0.8475360546012443,
+      "precision": 0.7222222222222222,
+      "recall": 0.8387096774193549,
+      "roc_auc": 0.8874901652242329
+    },
+    "M2_regularized_interactions": {
+      "brier_score": 0.1382420363200668,
+      "calibration_curve": [
+        {
+          "count": 42,
+          "mean_predicted_probability": 0.04224654054505626,
+          "observed_win_rate": 0.0
+        },
+        {
+          "count": 19,
+          "mean_predicted_probability": 0.34706668793090406,
+          "observed_win_rate": 0.3684210526315789
+        },
+        {
+          "count": 9,
+          "mean_predicted_probability": 0.451920797423053,
+          "observed_win_rate": 0.2222222222222222
+        },
+        {
+          "count": 12,
+          "mean_predicted_probability": 0.5523478470963451,
+          "observed_win_rate": 0.25
+        },
+        {
+          "count": 20,
+          "mean_predicted_probability": 0.6498383311300889,
+          "observed_win_rate": 0.8
+        },
+        {
+          "count": 14,
+          "mean_predicted_probability": 0.7443170689783812,
+          "observed_win_rate": 0.7857142857142857
+        },
+        {
+          "count": 13,
+          "mean_predicted_probability": 0.8252594057191344,
+          "observed_win_rate": 0.6153846153846154
+        },
+        {
+          "count": 15,
+          "mean_predicted_probability": 0.9628707569606069,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "confusion_matrix": {
+        "fn": 9,
+        "fp": 21,
+        "tn": 61,
+        "tp": 53
+      },
+      "ece": 0.10238648823478702,
+      "f1": 0.7794117647058824,
+      "pr_auc": 0.837866919085781,
+      "precision": 0.7162162162162162,
+      "recall": 0.8548387096774194,
+      "roc_auc": 0.8774586939417781
+    },
+    "M3_random_stump_forest": {
+      "brier_score": 0.23337683143650068,
+      "calibration_curve": [
+        {
+          "count": 144,
+          "mean_predicted_probability": 0.44894885522242434,
+          "observed_win_rate": 0.4305555555555556
+        }
+      ],
+      "confusion_matrix": {
+        "fn": 62,
+        "fp": 0,
+        "tn": 82,
+        "tp": 0
+      },
+      "ece": 0.018393299666868757,
+      "f1": 0.0,
+      "pr_auc": 0.8011880056465315,
+      "precision": 0.0,
+      "recall": 0.0,
+      "roc_auc": 0.8512981904012589
+    },
+    "M4_gradient_boosted_stumps": {
+      "brier_score": 0.14271910845968236,
+      "calibration_curve": [
+        {
+          "count": 12,
+          "mean_predicted_probability": 0.09298219885880911,
+          "observed_win_rate": 0.0
+        },
+        {
+          "count": 32,
+          "mean_predicted_probability": 0.233343506177829,
+          "observed_win_rate": 0.0
+        },
+        {
+          "count": 43,
+          "mean_predicted_probability": 0.4198235826875516,
+          "observed_win_rate": 0.32558139534883723
+        },
+        {
+          "count": 57,
+          "mean_predicted_probability": 0.6780623457479853,
+          "observed_win_rate": 0.8421052631578947
+        }
+      ],
+      "confusion_matrix": {
+        "fn": 14,
+        "fp": 9,
+        "tn": 73,
+        "tp": 48
+      },
+      "ece": 0.15267804813837355,
+      "f1": 0.8067226890756302,
+      "pr_auc": 0.790851851444808,
+      "precision": 0.8421052631578947,
+      "recall": 0.7741935483870968,
+      "roc_auc": 0.8939811172305271
+    }
+  },
+  "secondary_three_class_available": true,
+  "selected_ensemble_validation": {
+    "brier_score": 0.1337286202699039,
+    "calibration_curve": [
+      {
+        "count": 11,
+        "mean_predicted_probability": 0.05240865011375022,
+        "observed_win_rate": 0.0
+      },
+      {
+        "count": 31,
+        "mean_predicted_probability": 0.13199599300887166,
+        "observed_win_rate": 0.0
+      },
+      {
+        "count": 11,
+        "mean_predicted_probability": 0.2582393606867574,
+        "observed_win_rate": 0.09090909090909091
+      },
+      {
+        "count": 9,
+        "mean_predicted_probability": 0.3516126812598612,
+        "observed_win_rate": 0.2222222222222222
+      },
+      {
+        "count": 9,
+        "mean_predicted_probability": 0.45412517456944834,
+        "observed_win_rate": 0.6666666666666666
+      },
+      {
+        "count": 12,
+        "mean_predicted_probability": 0.5498233034110813,
+        "observed_win_rate": 0.75
+      },
+      {
+        "count": 23,
+        "mean_predicted_probability": 0.6589407092737147,
+        "observed_win_rate": 0.5652173913043478
+      },
+      {
+        "count": 14,
+        "mean_predicted_probability": 0.7548640157181025,
+        "observed_win_rate": 0.6428571428571429
+      },
+      {
+        "count": 9,
+        "mean_predicted_probability": 0.8537864325333052,
+        "observed_win_rate": 0.7777777777777778
+      },
+      {
+        "count": 15,
+        "mean_predicted_probability": 0.9686865113828644,
+        "observed_win_rate": 1.0
+      }
+    ],
+    "confusion_matrix": {
+      "fn": 1,
+      "fp": 26,
+      "tn": 56,
+      "tp": 61
+    },
+    "ece": 0.11712517067199305,
+    "f1": 0.8187919463087249,
+    "pr_auc": 0.8460945723593529,
+    "precision": 0.7011494252873564,
+    "recall": 0.9838709677419355,
+    "roc_auc": 0.8851298190401259
+  },
+  "validation_label_counts": {
+    "INFEASIBLE": 13,
+    "TRADEOFF": 69,
+    "WIN": 62
+  }
+}

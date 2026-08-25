@@ -1,0 +1,51 @@
+{
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "eclipse-sumo": "1.27.1",
+    "networkx": "3.2.1",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sumolib": "1.27.1",
+    "traci": "1.27.1"
+  },
+  "duration_seconds": 0.517129,
+  "end_timestamp_utc": "2026-08-25T04:53:12.696181+00:00",
+  "git_commit": "08ca267497b236663907b61ac7e139c3ed7dfe95",
+  "git_dirty": true,
+  "hardware": {
+    "logical_cpu_count": 8,
+    "machine": "arm64",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm"
+  },
+  "input_hashes": {
+    "artifacts/studies/alignment_frontier/raw_metrics.json": "2167c26c304e5ed26d9159be3240e56cbe87125d9aa3dc767df754513eb7c74a",
+    "canonical_config": "a45436a7d2326b9a1825b5cdd109a2bdd51a738f84efa010021c18805457faeb",
+    "configs/v3/feature_schema.yaml": "959b60b3387cb36ca950d9eb2033271e4ab7844b9fa854533ebc5c29aa9361fa",
+    "configs/v3/preregistration.yaml": "c293df070eeecebe07f3e388ba9c1e84bbe446d4e5d45cc7c3be320771f3bfd9",
+    "configs/v3/splits.yaml": "66effa7d9898c3124c6e535434e7cfdc7ec6e22abee6c6017735523c86295058"
+  },
+  "invalid_reasons": [],
+  "output_hashes": {
+    "artifacts/studies/v3_feasibility_prediction/dataset_summary.json": "bdcabb83e754c9bb1ab533b7c2cee36806a838798759983c16653b6ab880d461",
+    "artifacts/studies/v3_feasibility_prediction/feature_schema.json": "bfe7839c12827f73fb41a38f4e5a1b17914c6267ba7624b79d3c2b16f4875b4c",
+    "artifacts/studies/v3_feasibility_prediction/raw_metrics.json": "654498460e4b5d7e2d03c31dd0f8e895084fb0fb6350191230d467b20698af8c",
+    "artifacts/studies/v3_feasibility_prediction/split_manifest.json": "de3c3a8c3fee40fa42657fc77a2dac3b62ddca6bd528c2ab609331e8eb640951",
+    "config.json": "a45436a7d2326b9a1825b5cdd109a2bdd51a738f84efa010021c18805457faeb",
+    "metrics.json": "bdcabb83e754c9bb1ab533b7c2cee36806a838798759983c16653b6ab880d461"
+  },
+  "python": "3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+  "rl_library_version": "not-installed-not-used",
+  "run_id": "20260825T045312.179052Z-25d2108120",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "simulator_version": "analytical-no-sumo",
+  "solver_version": "scipy-1.13.1/HiGHS",
+  "start_timestamp_utc": "2026-08-25T04:53:12.179052+00:00",
+  "status": "valid"
+}

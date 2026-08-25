@@ -1,0 +1,10 @@
+{
+  "benefit_regression_r_squared": 0.8417224025098909,
+  "complete": true,
+  "model_count": 5,
+  "model_package_hash": "8a214f60525ada1e32dec68cb29df2abdff7f522777bd52d873afde7c9d13c06",
+  "nonwin_count": 119,
+  "safety_regression_r_squared": 0.9999999998568591,
+  "training_count": 216,
+  "win_count": 97
+}
