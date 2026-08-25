@@ -2,15 +2,49 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from typing import Mapping
+from typing import Mapping, Optional
+
+from concordia.behavior import RecommendationDecision
+from concordia.errors import ValidationError
+
+
+@dataclass(frozen=True)
+class EdgeObservation:
+    """Instantaneous edge quantities with explicit units.
+
+    Flow is the traffic-state estimate q=k*v in vehicles/hour/lane, not detector throughput.
+    """
+
+    vehicle_count: int
+    density_vehicles_per_km_per_lane: float
+    flow_vehicles_per_hour_per_lane: float
+    mean_speed_meters_per_second: float
+    occupancy_percent: Optional[float]
+    lane_count: int
+    length_meters: float
+
+    def __post_init__(self) -> None:
+        if self.vehicle_count < 0 or self.lane_count < 1 or self.length_meters <= 0:
+            raise ValidationError("edge count/geometry quantities are invalid")
+        values = (
+            self.density_vehicles_per_km_per_lane,
+            self.flow_vehicles_per_hour_per_lane,
+            self.mean_speed_meters_per_second,
+        )
+        if any(value < 0 for value in values):
+            raise ValidationError("edge traffic quantities cannot be negative")
+        if self.occupancy_percent is not None and not 0 <= self.occupancy_percent <= 100:
+            raise ValidationError("edge occupancy must be a percentage")
 
 
 @dataclass(frozen=True)
 class SimulationSnapshot:
     time: float
-    edge_speed: Mapping[str, float]
-    edge_density: Mapping[str, float]
-    edge_flow: Mapping[str, float]
+    edges: Mapping[str, EdgeObservation]
+
+    def __post_init__(self) -> None:
+        if self.time < 0:
+            raise ValidationError("simulation time cannot be negative")
 
 
 class SimulationAdapter(ABC):
@@ -25,8 +59,8 @@ class SimulationAdapter(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def recommend_route(self, vehicle_id: str, edge_ids: list[str]) -> None:
-        """Change only the route recommendation/assignment, never vehicle controls."""
+    def execute_accepted_route(self, decision: RecommendationDecision) -> bool:
+        """Apply a route only after a domain-level accepted decision; return whether applied."""
         raise NotImplementedError
 
     @abstractmethod

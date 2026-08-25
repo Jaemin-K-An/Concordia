@@ -1,0 +1,28 @@
+{
+  "failed_tests": [],
+  "goal": "Real GIS topology verification",
+  "metrics": {
+    "alternatives": 3,
+    "edges": 427,
+    "nodes": 278,
+    "sumo_conversion": true
+  },
+  "modified_files": [
+    "data/raw/gangnam_intersection.osm",
+    "data/processed/gangnam_edges.geojson",
+    "artifacts/studies/real_topology/sumo_conversion.json"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 11,
+  "status": "PARTIAL",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": [
+    "no calibrated OD",
+    "no real-topology mechanism simulation"
+  ]
+}

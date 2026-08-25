@@ -1,0 +1,14 @@
+{
+  "checksum_sha256": "b0388e6871d9fdf6529afc2ddf493fcb363213aa23d53af560b2a1b50c854525",
+  "crs": "EPSG:4326",
+  "demand_provenance": "synthetic demand on real topology",
+  "license": "OpenStreetMap contributors, ODbL 1.0",
+  "preprocessing": "scripts/prepare_real_network.py",
+  "retrieval_date": "2026-08-25",
+  "source": "https://api.openstreetmap.org/api/0.6/map?bbox=127.0250,37.4970,127.0300,37.5015",
+  "units": {
+    "capacity": "vehicles/hour",
+    "free_flow_time": "minutes",
+    "length": "kilometres"
+  }
+}

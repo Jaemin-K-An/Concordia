@@ -1,0 +1,21 @@
+{
+  "failed_tests": [],
+  "goal": "Behavior and accepted-only execution",
+  "metrics": {
+    "rejection_setRoute_calls": 0
+  },
+  "modified_files": [
+    "src/concordia/behavior/",
+    "tests/test_behavior_and_sumo_state.py"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 2,
+  "status": "PASS",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": []
+}

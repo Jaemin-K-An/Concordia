@@ -1,0 +1,22 @@
+{
+  "failed_tests": [],
+  "goal": "Mandatory RL gate",
+  "metrics": {
+    "outcome": "A",
+    "triggered_gates": []
+  },
+  "modified_files": [
+    "artifacts/rl_gate_report.json",
+    "docs/rl_gate_decision.md"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 13,
+  "status": "PASS",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": []
+}

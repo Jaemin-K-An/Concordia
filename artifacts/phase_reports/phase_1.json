@@ -1,0 +1,21 @@
+{
+  "failed_tests": [],
+  "goal": "Known SUMO quantity correctness",
+  "metrics": {
+    "unit_semantics": "N,k,q,v,o separated"
+  },
+  "modified_files": [
+    "src/concordia/simulation/base.py",
+    "src/concordia/simulation/sumo.py"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 1,
+  "status": "PASS",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": []
+}

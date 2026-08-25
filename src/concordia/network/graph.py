@@ -125,6 +125,65 @@ class RoadNetwork:
         ]
         return self.pareto_front(routes) if pareto_filter else routes
 
+    def multiobjective_candidate_routes(
+        self,
+        origin: str,
+        destination: str,
+        flows: Optional[Mapping[EdgeKey, float]] = None,
+        k_per_objective: int = 2,
+        max_overlap: float = 0.95,
+        pareto_filter: bool = True,
+    ) -> List[Route]:
+        """Union paths generated from ETA, reliability, cost, risk, and complexity costs."""
+        self.validate_od(origin, destination)
+        if k_per_objective < 1:
+            raise ValidationError("k_per_objective must be positive")
+        flows = flows or {}
+        objectives = ("eta", "reliability", "cost", "risk", "complexity")
+        discovered: List[Tuple[str, ...]] = []
+        graph = self.legal_graph()
+        for objective in objectives:
+            weight_name = f"candidate_{objective}"
+            for edge in graph.edges:
+                data = graph.edges[edge]["data"]
+                edge_flow = float(flows.get(edge, 0.0))
+                value = {
+                    "eta": data.travel_time(edge_flow),
+                    "reliability": data.variability,
+                    "cost": data.monetary_cost,
+                    "risk": data.risk,
+                    "complexity": data.complexity,
+                }[objective]
+                # A tiny ETA tie-break makes zero-valued criteria deterministic.
+                graph.edges[edge][weight_name] = float(value) + 1e-9 * data.free_flow_time
+            generator = nx.shortest_simple_paths(
+                graph,
+                origin,
+                destination,
+                weight=weight_name,
+            )
+            accepted_for_objective = 0
+            for nodes in generator:
+                path = tuple(nodes)
+                if path not in discovered:
+                    discovered.append(path)
+                accepted_for_objective += 1
+                if accepted_for_objective >= k_per_objective:
+                    break
+        diverse: List[Tuple[str, ...]] = []
+        for path in discovered:
+            if not diverse or all(
+                self.overlap_coefficient(path, existing) <= max_overlap for existing in diverse
+            ):
+                diverse.append(path)
+        routes = [
+            self.make_route(f"{origin}-{destination}-mo-{index}", path, flows=flows)
+            for index, path in enumerate(diverse)
+        ]
+        if not routes:
+            raise ValidationError("multi-objective generation produced no diverse route")
+        return self.pareto_front(routes) if pareto_filter else routes
+
     @staticmethod
     def pareto_front(routes: Iterable[Route]) -> List[Route]:
         routes = list(routes)

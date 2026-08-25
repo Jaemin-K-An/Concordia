@@ -1,7 +1,16 @@
 import unittest
 
 from concordia.scenarios import braess, two_route
-from concordia.traffic import DetectorObservation, TrafficAssignment, detect_phantom_jam
+import numpy as np
+
+from concordia.traffic import (
+    DetectorObservation,
+    LogisticPhantomJamRiskPredictor,
+    StumpEnsemblePhantomJamRiskPredictor,
+    TrafficAssignment,
+    calibration_metrics,
+    detect_phantom_jam,
+)
 
 
 class TrafficAssignmentTests(unittest.TestCase):
@@ -60,6 +69,39 @@ class TrafficAssignmentTests(unittest.TestCase):
             for time in range(12)
         ]
         self.assertEqual(detect_phantom_jam(observations, 30, 10, 3, 2), [])
+
+    def test_detector_tracks_multiple_separated_events(self):
+        observations = []
+        for event_start in (10, 40):
+            for position, offset in ((0.0, 4), (100.0, 2), (200.0, 0)):
+                for time in range(event_start, event_start + 10):
+                    active = event_start + offset <= time <= event_start + offset + 4
+                    observations.append(
+                        DetectorObservation(
+                            time,
+                            position,
+                            45 if active else 10,
+                            4 + (time % 2) * 4 if active else 20,
+                        )
+                    )
+        events = detect_phantom_jam(observations, 30, 9, 3, 3)
+        self.assertEqual(len(events), 2)
+        self.assertTrue(all(event.affected_length == 200 for event in events))
+        self.assertTrue(all(0 < event.confidence <= 1 for event in events))
+
+    def test_phantom_predictor_calibration_metrics(self):
+        rng = np.random.default_rng(4)
+        features = rng.normal(size=(240, 8))
+        labels = ((1.8 * features[:, 6] + features[:, 0] - features[:, 1]) > 0).astype(int)
+        train_x, test_x = features[:180], features[180:]
+        train_y, test_y = labels[:180], labels[180:]
+        logistic = LogisticPhantomJamRiskPredictor(iterations=1200).fit(train_x, train_y)
+        tree = StumpEnsemblePhantomJamRiskPredictor().fit(train_x, train_y)
+        logistic_metrics = calibration_metrics(test_y, logistic.predict_proba(test_x))
+        tree_metrics = calibration_metrics(test_y, tree.predict_proba(test_x))
+        self.assertGreater(logistic_metrics.roc_auc, 0.85)
+        self.assertGreater(tree_metrics.roc_auc, 0.65)
+        self.assertIn("coefficients", logistic.model_card())
 
 
 if __name__ == "__main__":

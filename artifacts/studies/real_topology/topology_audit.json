@@ -1,0 +1,12 @@
+{
+  "alternative_route_count": 3,
+  "demand_provenance": "synthetic demand on real topology",
+  "edge_count": 427,
+  "geojson": "data/processed/gangnam_edges.geojson",
+  "largest_component_fraction": 1.0,
+  "node_count": 278,
+  "raw_checksum_sha256": "b0388e6871d9fdf6529afc2ddf493fcb363213aa23d53af560b2a1b50c854525",
+  "reasons": [],
+  "valid": true,
+  "weak_component_count": 1
+}

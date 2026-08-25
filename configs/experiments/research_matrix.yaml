@@ -1,0 +1,14 @@
+seeds: [11, 23, 37, 53, 71]
+screening:
+  user_count: 8
+  scenarios: [two_route, merge]
+  demand_scale: [0.8, 1.0, 1.2]
+  heterogeneity: [none, low, high, long_tail]
+  utility_epsilon: [0.0, 0.08]
+focused:
+  user_count: 6
+  scenarios: [two_route, merge, signalized, ring]
+  demand_scale: [0.8, 1.0, 1.2]
+  heterogeneity: high
+  utility_epsilon: 0.08
+claim_boundary: synthetic analytical screening followed by focused paired-seed comparisons

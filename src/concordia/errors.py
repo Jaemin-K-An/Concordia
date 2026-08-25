@@ -12,3 +12,7 @@ class InfeasibleAssignment(ConcordiaError):
 
 class SimulatorUnavailable(ConcordiaError):
     """Raised when a requested external simulator is not installed."""
+
+
+class SolverUnavailable(ConcordiaError):
+    """Raised when an explicitly requested optimization solver is unavailable."""

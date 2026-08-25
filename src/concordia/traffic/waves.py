@@ -28,6 +28,26 @@ class PhantomJamEvent:
     oscillation_amplitude: float
     backward_wave_speed: float
     detector_count: int
+    origin_position: float
+    affected_length: float
+    confidence: float
+
+
+@dataclass(frozen=True)
+class PhantomJamEventDetector:
+    critical_density: float
+    low_speed_threshold: float
+    minimum_duration: float
+    minimum_amplitude: float
+
+    def detect(self, observations: Iterable[DetectorObservation]) -> List[PhantomJamEvent]:
+        return detect_phantom_jam(
+            observations,
+            self.critical_density,
+            self.low_speed_threshold,
+            self.minimum_duration,
+            self.minimum_amplitude,
+        )
 
 
 def detect_phantom_jam(
@@ -48,8 +68,7 @@ def detect_phantom_jam(
     grouped = {}
     for observation in observations:
         grouped.setdefault(observation.position, []).append(observation)
-    onsets = []
-    all_event_observations: List[DetectorObservation] = []
+    qualified_episodes = []
     for position, samples in sorted(grouped.items()):
         samples.sort(key=lambda sample: sample.time)
         active = [
@@ -69,38 +88,73 @@ def detect_phantom_jam(
                 episodes[-1].append(sample)
             else:
                 episodes.append([sample])
-        qualifying = next(
+        for episode in episodes:
+            if episode[-1].time - episode[0].time >= minimum_duration:
+                qualified_episodes.append(
+                    {
+                        "position": position,
+                        "onset": episode[0].time,
+                        "end": episode[-1].time,
+                        "samples": episode,
+                    }
+                )
+    if len(qualified_episodes) < 2:
+        return []
+    association_window = max(minimum_duration * 3.0, 1.0)
+    clusters = []
+    for episode in sorted(qualified_episodes, key=lambda item: item["onset"]):
+        compatible = next(
             (
-                episode
-                for episode in episodes
-                if episode[-1].time - episode[0].time >= minimum_duration
+                cluster
+                for cluster in reversed(clusters)
+                if episode["onset"] - max(item["onset"] for item in cluster)
+                <= association_window
+                and episode["position"] not in {item["position"] for item in cluster}
             ),
             None,
         )
-        if qualifying:
-            onsets.append((position, qualifying[0].time))
-            all_event_observations.extend(qualifying)
-    if len(onsets) < 2:
-        return []
-    positions = np.asarray([value[0] for value in onsets], dtype=float)
-    onset_times = np.asarray([value[1] for value in onsets], dtype=float)
-    if np.ptp(positions) <= 0:
-        return []
-    slope, _ = np.polyfit(positions, onset_times, 1)
-    if abs(slope) < 1e-12:
-        return []
-    wave_speed = float(1.0 / slope)
-    speeds = [sample.speed for sample in all_event_observations]
-    amplitude = max(speeds) - min(speeds)
-    if wave_speed >= 0 or amplitude < minimum_amplitude:
-        return []
-    return [
-        PhantomJamEvent(
-            start_time=min(sample.time for sample in all_event_observations),
-            end_time=max(sample.time for sample in all_event_observations),
-            minimum_speed=min(speeds),
-            oscillation_amplitude=amplitude,
-            backward_wave_speed=wave_speed,
-            detector_count=len(onsets),
+        if compatible is None:
+            clusters.append([episode])
+        else:
+            compatible.append(episode)
+    events = []
+    for cluster in clusters:
+        if len({item["position"] for item in cluster}) < 2:
+            continue
+        positions = np.asarray([item["position"] for item in cluster], dtype=float)
+        onset_times = np.asarray([item["onset"] for item in cluster], dtype=float)
+        if np.ptp(positions) <= 0:
+            continue
+        slope, _ = np.polyfit(positions, onset_times, 1)
+        if abs(slope) < 1e-12:
+            continue
+        wave_speed = float(1.0 / slope)
+        samples = [sample for item in cluster for sample in item["samples"]]
+        speeds = [sample.speed for sample in samples]
+        amplitude = max(speeds) - min(speeds)
+        if wave_speed >= 0 or amplitude < minimum_amplitude:
+            continue
+        earliest = min(cluster, key=lambda item: item["onset"])
+        duration = max(item["end"] for item in cluster) - min(
+            item["onset"] for item in cluster
         )
-    ]
+        confidence = min(
+            1.0,
+            (len(cluster) / 3.0)
+            * min(1.0, duration / minimum_duration)
+            * min(1.0, amplitude / minimum_amplitude),
+        )
+        events.append(
+            PhantomJamEvent(
+                start_time=min(item["onset"] for item in cluster),
+                end_time=max(item["end"] for item in cluster),
+                minimum_speed=min(speeds),
+                oscillation_amplitude=amplitude,
+                backward_wave_speed=wave_speed,
+                detector_count=len(cluster),
+                origin_position=float(earliest["position"]),
+                affected_length=float(np.ptp(positions)),
+                confidence=confidence,
+            )
+        )
+    return events

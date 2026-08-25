@@ -4,7 +4,7 @@ import hashlib
 import json
 from datetime import date
 from pathlib import Path
-from typing import Mapping, Optional, Tuple
+from typing import Mapping, Optional, Sequence, Tuple
 
 from concordia.errors import ValidationError
 from concordia.models import EdgeKey
@@ -16,6 +16,8 @@ def export_edge_geojson(
     coordinates: Mapping[str, Tuple[float, float]],
     output: str,
     metrics: Optional[Mapping[EdgeKey, Mapping[str, float]]] = None,
+    geometries: Optional[Mapping[EdgeKey, Sequence[Tuple[float, float]]]] = None,
+    provenance_source: str = "concordia_synthetic_network",
     crs: str = "EPSG:4326",
 ) -> Path:
     """Reproducibly export a QGIS-readable edge layer and provenance manifest."""
@@ -44,7 +46,14 @@ def export_edge_geojson(
                 "id": f"{source}->{target}",
                 "geometry": {
                     "type": "LineString",
-                    "coordinates": [list(coordinates[source]), list(coordinates[target])],
+                    "coordinates": [
+                        list(point)
+                        for point in (
+                            geometries[(source, target)]
+                            if geometries and (source, target) in geometries
+                            else (coordinates[source], coordinates[target])
+                        )
+                    ],
                 },
                 "properties": properties,
             }
@@ -55,7 +64,7 @@ def export_edge_geojson(
     payload = json.dumps(collection, indent=2, sort_keys=True, allow_nan=False) + "\n"
     destination.write_text(payload, encoding="utf-8")
     manifest = {
-        "source": "concordia_synthetic_network",
+        "source": provenance_source,
         "retrieval_date": date.today().isoformat(),
         "license": "MIT",
         "checksum_sha256": hashlib.sha256(payload.encode("utf-8")).hexdigest(),

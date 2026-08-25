@@ -1,0 +1,12 @@
+name: gangnam_intersection_real_topology
+kind: real_osm_topology
+raw_network: data/raw/gangnam_intersection.osm
+manifest: data/manifests/gangnam_intersection.json
+origin_osm_node: "1906756262"
+destination_osm_node: "5376448907"
+demand_veh_per_hour: 600
+demand_provenance: synthetic demand on real topology
+minimum_candidate_routes: 3
+network_processing: largest_weak_component
+claim_boundary: topology_is_real_but_demand_and_route_preferences_are_synthetic
+

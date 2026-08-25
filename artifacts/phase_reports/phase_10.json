@@ -1,0 +1,23 @@
+{
+  "failed_tests": [],
+  "goal": "Synthetic policy validation",
+  "metrics": {
+    "focused_rows": 60,
+    "screening_rows": 240
+  },
+  "modified_files": [
+    "artifacts/studies/analytical_matrix/summary.json"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 10,
+  "status": "PARTIAL",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": [
+    "microscopic merge and signalized policy matrices absent"
+  ]
+}

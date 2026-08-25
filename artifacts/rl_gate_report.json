@@ -1,0 +1,65 @@
+{
+  "claim_boundary": "This decision applies only to the tested analytical correctness scale and does not claim that RL can never help on larger or nonstationary networks.",
+  "decision": "RL not introduced because deterministic/receding-horizon optimization was sufficient under the tested, declared small-instance conditions.",
+  "gates": {
+    "A_performance_gap": {
+      "qualifying_scenario_families": 0,
+      "scenario_median_relative_gaps": {
+        "merge": -0.018222283847677465,
+        "ring": 0.02579024099272255,
+        "signalized": 0.0,
+        "two_route": 0.007969410179235095
+      },
+      "tested": true,
+      "threshold": ">5% median B6 disadvantage against regret-feasible B4 in at least 2 scenario families",
+      "triggered": false
+    },
+    "B_runtime": {
+      "exceedance_fraction": 0.0,
+      "maximum_end_to_end_seconds": 3.442365125000002,
+      "p95_end_to_end_seconds": 3.3246364684000014,
+      "tested": true,
+      "threshold": ">5 seconds in more than 20% of focused recommendation cycles",
+      "triggered": false
+    },
+    "C_dynamic_generalization": {
+      "reason": "no trained policy exists and drift evidence is unit-level, not a full traffic study",
+      "tested": false,
+      "threshold": ">10% degradation under a pre-registered nonstationary environment",
+      "triggered": false
+    },
+    "D_feedback_instability": {
+      "qualifying_scenario_families": 0,
+      "reason": "accepted one-way route changes are not counted as feedback oscillation",
+      "scenario_median_reversal_rates": {
+        "merge": 0.05555555555555555,
+        "ring": 0.1111111111111111,
+        "signalized": 0.0,
+        "two_route": 0.05555555555555555
+      },
+      "tested": true,
+      "threshold": ">0.25 back-and-forth route reversals per user per step in at least 2 families",
+      "triggered": false
+    },
+    "E_scalability": {
+      "reason": "focused study is a 6-user correctness scale; large-scale solver evidence is absent",
+      "tested": false,
+      "threshold": ">5 seconds at the declared operational scale",
+      "triggered": false
+    }
+  },
+  "outcome": "A",
+  "rationale": "No quantitatively demonstrated unsolved problem passed a gate. Untested dynamic generalization and large-scale behavior are limitations, not evidence for RL.",
+  "rl_authorized": false,
+  "rl_introduced": false,
+  "thresholds_frozen_before_decision": {
+    "dynamic_degradation_relative": 0.1,
+    "oscillation_switches_per_user_step": 0.25,
+    "performance_gap_relative": 0.05,
+    "performance_gap_scenario_families": 2,
+    "runtime_cycle_seconds": 5.0,
+    "runtime_exceedance_fraction": 0.2,
+    "scalability_cycle_seconds": 5.0
+  },
+  "triggered_gates": []
+}

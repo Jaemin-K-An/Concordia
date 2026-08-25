@@ -3,6 +3,7 @@
     <vType id="heterogeneous" accel="2.6" decel="4.5" emergencyDecel="8.0" sigma="0.3" tau="1.0" speedDev="0.08">
         <param key="device.ssm.probability" value="1"/>
         <param key="device.ssm.measures" value="TTC PET DRAC"/>
+        <param key="device.ssm.thresholds" value="3.0 2.0 3.0"/>
         <param key="device.ssm.file" value="ssm.xml"/>
     </vType>
     <route id="five_laps" edges="e0 e1 e2 e3 e4 e5 e6 e7 e0 e1 e2 e3 e4 e5 e6 e7 e0 e1 e2 e3 e4 e5 e6 e7 e0 e1 e2 e3 e4 e5 e6 e7 e0 e1 e2 e3 e4 e5 e6 e7"/>

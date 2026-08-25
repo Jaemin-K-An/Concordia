@@ -1,0 +1,57 @@
+{
+  "claim_boundary": "synthetic microscopic ring fixture; surrogate conflicts are not crash probability",
+  "complete": true,
+  "last_time_seconds": 1200.0,
+  "output_hashes": {
+    "fcd_sha256": "1e0caa782414e3f7440d91ba8008d2d8ed70f4e0e6b66982b0481dd2b9c697da",
+    "safety_distributions_sha256": "4e2636d8f6e78442ad84ba696a8f3a0c2270ac99e3ce7c408cbc3a39b1fb695a",
+    "ssm_sha256": "707fe51fbe6028b347b0898a352da2d017eb6a16446b9ca0cfa365e0e1e4979f"
+  },
+  "phantom_event_count": 2,
+  "phantom_events": [
+    {
+      "affected_length": 153.08000000000004,
+      "backward_wave_speed": -76.5399999999996,
+      "confidence": 0.6666666666666666,
+      "detector_count": 2,
+      "end_time": 97.0,
+      "minimum_speed": 7.73212675004734,
+      "origin_position": 535.7800000000001,
+      "oscillation_amplitude": 1.2406569022458944,
+      "start_time": 90.0
+    },
+    {
+      "affected_length": 535.7800000000001,
+      "backward_wave_speed": -76.53999999999985,
+      "confidence": 0.6666666666666666,
+      "detector_count": 2,
+      "end_time": 1200.0,
+      "minimum_speed": 5.456593114319066,
+      "origin_position": 535.7800000000001,
+      "oscillation_amplitude": 3.4852023266474266,
+      "start_time": 130.0
+    }
+  ],
+  "safety": {
+    "cvar_drac_95": 0.4726632692076962,
+    "hard_braking_events": 961,
+    "high_closing_speed_conflicts": 0,
+    "median_ttc": 6.3252940546834076,
+    "min_ttc": 2.6437794836156123,
+    "observation_count": 37802,
+    "p90_drac": 0.3080703206061005,
+    "p95_drac": 0.3649535484719319,
+    "p99_drac": 0.5046603755359998,
+    "ttc_conflicts": 0
+  },
+  "seed": 42,
+  "simulator_version": "Eclipse SUMO sumo 1.27.1",
+  "ssm_conflict_count": 0,
+  "ssm_extrema": {
+    "max_drac_meters_per_second2": null,
+    "min_pet_seconds": null,
+    "min_ttc_seconds": null
+  },
+  "steps": 6000,
+  "trajectory_frames": 37802
+}

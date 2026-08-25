@@ -1,0 +1,22 @@
+{
+  "failed_tests": [],
+  "goal": "Conditional RL evaluation",
+  "metrics": {
+    "rl_introduced": false
+  },
+  "modified_files": [
+    "artifacts/rl_gate_report.json"
+  ],
+  "next_decision": "skip because RL gate Outcome A does not authorize this phase",
+  "phase": 15,
+  "status": "NOT_APPLICABLE",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": [
+    "Skipped by Outcome A"
+  ]
+}

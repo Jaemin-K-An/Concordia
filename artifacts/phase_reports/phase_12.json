@@ -1,0 +1,77 @@
+{
+  "failed_tests": [],
+  "goal": "Statistical hypothesis tests",
+  "metrics": {
+    "H1": {
+      "high_or_long_tail": {
+        "ci95_high": 2.558333333333333,
+        "ci95_low": 1.6664583333333334,
+        "count": 120,
+        "max": 7.0,
+        "mean": 2.091666666666667,
+        "median": 0.0,
+        "p90": 6.0,
+        "p95": 7.0,
+        "std": 2.6851469243976656
+      },
+      "low_or_none": {
+        "ci95_high": 4.733333333333333,
+        "ci95_low": 3.3333333333333335,
+        "count": 120,
+        "max": 8.0,
+        "mean": 4.0,
+        "median": 4.0,
+        "p90": 8.0,
+        "p95": 8.0,
+        "std": 4.01677156202747
+      },
+      "primary_metric": "beneficial_diversion_opportunities_per_population",
+      "status": "not_supported"
+    },
+    "H2": {
+      "all_b6_regret_constraints_met": true,
+      "bootstrap_ci95_high": -447.7716717832707,
+      "bootstrap_ci95_low": -1072.2630868264257,
+      "cohens_dz": -0.6015573240543156,
+      "maximum_b6_regret": 0.04443422526656404,
+      "mean_improvement": -751.2309000259024,
+      "paired_count": 60,
+      "primary_metric": "B1_minus_B6_TTT_under_regret_constraint",
+      "relative_improvement": -0.07716741810773098,
+      "status": "not_supported",
+      "wilcoxon_one_sided_p": 0.999586734337525
+    },
+    "H5": {
+      "limitation": "in-sample screening association; not causal or out-of-sample evidence",
+      "mean_weight_in_sample_r_squared": 0.0011813237951658895,
+      "primary_metric": "out_of_sample_explanatory_analysis_not_available",
+      "status": "exploratory_only",
+      "variance_tail_in_sample_r_squared": 0.0719969192500226
+    },
+    "H6": {
+      "b4_coefficient_of_variation": 0.39519459890060016,
+      "b6_coefficient_of_variation": 0.3945018321926699,
+      "limitation": "Analytical three-step feedback did not pre-register a validated stability threshold; result is descriptive.",
+      "primary_metric": "B4_vs_B6_TTT_variability_and_constraint_violations",
+      "status": "not_supported"
+    }
+  },
+  "modified_files": [
+    "artifacts/studies/analytical_matrix/summary.json"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 12,
+  "status": "PARTIAL",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": [
+    "H3 NOT TESTED",
+    "H4 PARTIAL",
+    "H5 exploratory",
+    "H7 conditional"
+  ]
+}

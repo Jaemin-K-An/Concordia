@@ -1,0 +1,22 @@
+{
+  "failed_tests": [],
+  "goal": "SUMO microscopic integration",
+  "metrics": {
+    "sumo_version": "Eclipse SUMO sumo 1.27.1",
+    "trajectory_frames": 37802
+  },
+  "modified_files": [
+    "scripts/run_sumo_smoke.py",
+    "artifacts/studies/sumo_ring/summary.json"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 6,
+  "status": "PASS",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": []
+}

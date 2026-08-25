@@ -1,0 +1,12 @@
+{
+  "checksum_sha256": "303877c007a235958500132938598c5e5d88392cc5afd1c0e0749d50a40ecc75",
+  "crs": "EPSG:4326",
+  "license": "MIT",
+  "preprocessing": "concordia.gis.export.export_edge_geojson",
+  "retrieval_date": "2026-08-25",
+  "source": "https://api.openstreetmap.org/api/0.6/map?bbox=127.0250,37.4970,127.0300,37.5015",
+  "units": {
+    "capacity_vph": "vehicles/hour",
+    "free_flow_min": "minutes"
+  }
+}

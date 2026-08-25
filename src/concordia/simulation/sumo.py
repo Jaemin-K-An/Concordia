@@ -3,9 +3,11 @@ from __future__ import annotations
 import importlib.util
 import shutil
 from pathlib import Path
+from typing import Optional
 
+from concordia.behavior import RecommendationDecision
 from concordia.errors import SimulatorUnavailable, ValidationError
-from concordia.simulation.base import SimulationAdapter, SimulationSnapshot
+from concordia.simulation.base import EdgeObservation, SimulationAdapter, SimulationSnapshot
 
 
 class SumoAdapter(SimulationAdapter):
@@ -14,8 +16,21 @@ class SumoAdapter(SimulationAdapter):
         self.binary = binary
         self._traci = None
 
+    @staticmethod
+    def resolve_binary(binary: str) -> Optional[str]:
+        executable = shutil.which(binary)
+        if executable is not None:
+            return executable
+        if importlib.util.find_spec("sumo") is not None:
+            import sumo  # type: ignore
+
+            packaged = Path(sumo.SUMO_HOME) / "bin" / binary
+            if packaged.is_file():
+                return str(packaged)
+        return None
+
     def _validate_environment(self) -> str:
-        executable = shutil.which(self.binary)
+        executable = self.resolve_binary(self.binary)
         if executable is None or importlib.util.find_spec("traci") is None:
             raise SimulatorUnavailable(
                 "SUMO/TraCI was requested but is unavailable; install SUMO and the 'sumo' extra"
@@ -23,6 +38,16 @@ class SumoAdapter(SimulationAdapter):
         if not self.config_path.is_file():
             raise ValidationError(f"SUMO config does not exist: {self.config_path}")
         return executable
+
+    @classmethod
+    def simulator_version(cls, binary: str = "sumo") -> str:
+        executable = cls.resolve_binary(binary)
+        if executable is None:
+            raise SimulatorUnavailable(f"SUMO binary is unavailable: {binary}")
+        import subprocess
+
+        output = subprocess.check_output([executable, "--version"], text=True)
+        return output.splitlines()[0].strip()
 
     def start(self, seed: int) -> None:
         if seed < 0:
@@ -37,24 +62,37 @@ class SumoAdapter(SimulationAdapter):
         if self._traci is None:
             raise ValidationError("SUMO adapter has not been started")
         self._traci.simulationStep()
-        edge_ids = tuple(self._traci.edge.getIDList())
-        return SimulationSnapshot(
-            time=float(self._traci.simulation.getTime()),
-            edge_speed={edge: float(self._traci.edge.getLastStepMeanSpeed(edge)) for edge in edge_ids},
-            edge_density={
-                edge: float(self._traci.edge.getLastStepVehicleNumber(edge)) for edge in edge_ids
-            },
-            edge_flow={
-                edge: float(self._traci.edge.getLastStepVehicleNumber(edge)) for edge in edge_ids
-            },
-        )
+        observations = {}
+        for edge_id in self._traci.edge.getIDList():
+            vehicle_count = int(self._traci.edge.getLastStepVehicleNumber(edge_id))
+            lane_count = int(self._traci.edge.getLaneNumber(edge_id))
+            length_meters = float(self._traci.lane.getLength(f"{edge_id}_0"))
+            mean_speed_mps = max(0.0, float(self._traci.edge.getLastStepMeanSpeed(edge_id)))
+            lane_kilometers = lane_count * length_meters / 1000.0
+            density = vehicle_count / lane_kilometers
+            flow_estimate = density * mean_speed_mps * 3.6
+            occupancy = float(self._traci.edge.getLastStepOccupancy(edge_id))
+            observations[edge_id] = EdgeObservation(
+                vehicle_count=vehicle_count,
+                density_vehicles_per_km_per_lane=density,
+                flow_vehicles_per_hour_per_lane=flow_estimate,
+                mean_speed_meters_per_second=mean_speed_mps,
+                occupancy_percent=occupancy,
+                lane_count=lane_count,
+                length_meters=length_meters,
+            )
+        return SimulationSnapshot(time=float(self._traci.simulation.getTime()), edges=observations)
 
-    def recommend_route(self, vehicle_id: str, edge_ids: list[str]) -> None:
+    def execute_accepted_route(self, decision: RecommendationDecision) -> bool:
         if self._traci is None:
             raise ValidationError("SUMO adapter has not been started")
-        if not vehicle_id or not edge_ids:
-            raise ValidationError("vehicle id and a non-empty route are required")
-        self._traci.vehicle.setRoute(vehicle_id, edge_ids)
+        if not decision.accepted:
+            return False
+        self._traci.vehicle.setRoute(
+            decision.offer.user_id,
+            list(decision.offer.executable_edge_ids),
+        )
+        return True
 
     def close(self) -> None:
         if self._traci is not None:

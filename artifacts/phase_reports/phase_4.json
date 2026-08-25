@@ -1,0 +1,20 @@
+{
+  "failed_tests": [],
+  "goal": "Closed-loop recommendation",
+  "metrics": {
+    "first_action_replanning_tested": true
+  },
+  "modified_files": [
+    "src/concordia/adaptive/controller.py"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 4,
+  "status": "PASS",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": []
+}

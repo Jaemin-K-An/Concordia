@@ -1,0 +1,32 @@
+{
+  "failed_tests": [],
+  "goal": "Ablation and computational performance",
+  "metrics": {
+    "policies": [
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ]
+  },
+  "modified_files": [
+    "artifacts/studies/analytical_matrix/summary.json",
+    "artifacts/figures/latency_scaling.png"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 16,
+  "status": "PARTIAL",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": [
+    "component-wise full ablation absent",
+    "large-scale memory/scaling not tested"
+  ]
+}

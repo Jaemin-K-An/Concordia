@@ -1,0 +1,24 @@
+{
+  "failed_tests": [],
+  "goal": "Phantom detector and predictor calibration",
+  "metrics": {
+    "smoke_event_candidates": 2
+  },
+  "modified_files": [
+    "src/concordia/traffic/phantom.py",
+    "src/concordia/traffic/waves.py"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 7,
+  "status": "PARTIAL",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": [
+    "no multi-demand SUMO train/test calibration",
+    "no matched H3 policy probability study"
+  ]
+}

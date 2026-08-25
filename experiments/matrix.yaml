@@ -1,11 +1,16 @@
 demand_scale: [0.6, 0.8, 1.0, 1.2, 1.4]
 navigation_penetration: [0.0, 0.25, 0.5, 0.75, 1.0]
-population: [low, medium, high]
+population: [none, low, medium, high, bimodal, long_tail]
 rationality: [1.0, 5.0, 20.0]
 safety_weight: [0.0, 1.0, 5.0]
 utility_epsilon: [0.0, 0.02, 0.08]
+acceptance_noise_scale: [0.5, 1.0, 2.0]
+preference_drift: [none, commute_eta_shift, night_safety_shift]
+incident_capacity_multiplier: [1.0, 0.8, 0.5]
+ghost_risk_threshold: [0.3, 0.5, 0.7]
 seeds: [11, 23, 37, 53, 71]
 note: >-
-  This is the predeclared full-factor input space. The smoke command intentionally executes
-  only configs/experiments/smoke.yaml; full-matrix execution should be scheduled with explicit
-  compute and SUMO availability.
+  This is the declared candidate factor space, not a promise to run a wasteful full factorial.
+  configs/experiments/research_matrix.yaml first screens demand, heterogeneity, and epsilon,
+  then executes the focused paired B0-B6 analytical matrix. Microscopic demand/penetration
+  effects require a separately budgeted matched SUMO workflow.

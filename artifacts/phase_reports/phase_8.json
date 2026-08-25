@@ -1,0 +1,25 @@
+{
+  "failed_tests": [],
+  "goal": "SUMO SSM safety integration",
+  "metrics": {
+    "ssm_conflicts": 0,
+    "trajectory_frames": 37802
+  },
+  "modified_files": [
+    "artifacts/studies/sumo_ring/safety_distributions.json",
+    "src/concordia/safety/metrics.py"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 8,
+  "status": "PARTIAL",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": [
+    "no matched policy safety non-inferiority study",
+    "single smoke run had no thresholded SSM conflict"
+  ]
+}

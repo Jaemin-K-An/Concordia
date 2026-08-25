@@ -2,8 +2,9 @@ import unittest
 
 import numpy as np
 
+from concordia.behavior import DuelingPreferenceLearner, PopulationPrior, UserPreferencePosterior
 from concordia.learning import LinUCBPreferenceLearner
-from concordia.safety import TrajectoryFrame, summarize_safety
+from concordia.safety import TrajectoryFrame, safety_non_degradation, summarize_safety
 
 
 class SafetyTests(unittest.TestCase):
@@ -19,6 +20,16 @@ class SafetyTests(unittest.TestCase):
         self.assertEqual(summary.ttc_conflicts, 1)
         self.assertEqual(summary.hard_braking_events, 1)
         self.assertGreaterEqual(summary.cvar_drac_95, max(summary.drac_values))
+        self.assertEqual(summary.high_closing_speed_conflicts, 1)
+        self.assertEqual(summary.observation_count, 3)
+        self.assertGreaterEqual(summary.p99_drac, summary.p95_drac)
+
+    def test_tail_non_degradation_detects_worse_proposed_risk(self):
+        baseline = summarize_safety([TrajectoryFrame(0, "f", "l", 20, 15, 10)])
+        proposed = summarize_safety([TrajectoryFrame(0, "f", "l", 5, 25, 5)])
+        comparison = safety_non_degradation(baseline, proposed, delta=0.0)
+        self.assertFalse(comparison.passed)
+        self.assertIn("cvar_drac_95", comparison.reasons)
 
 
 class BanditTests(unittest.TestCase):
@@ -30,6 +41,22 @@ class BanditTests(unittest.TestCase):
         self.assertGreater(learner.estimate[0], learner.estimate[1])
         self.assertEqual(learner.choose({"good": [1, 0], "bad": [0, 1]}), "good")
         self.assertTrue(np.all(np.isfinite(learner.estimate)))
+
+    def test_population_prior_posterior_dueling_and_drift(self):
+        posterior = UserPreferencePosterior(PopulationPrior.synthetic_default(), forgetting_factor=0.95)
+        learner = DuelingPreferenceLearner(posterior)
+        candidates = [
+            [1, 0, 0, 0, 0, 0],
+            [0, 1, 0, 0, 0, 0],
+            [0, 0, 1, 0, 0, 0],
+        ]
+        first, second = learner.choose_pair(candidates)
+        learner.update(candidates[first], candidates[second], chose_first=True)
+        self.assertEqual(posterior.observations, 1)
+        before_risk = posterior.mean[3]
+        posterior.apply_drift([1, 1, 1, 2, 1, 1])
+        self.assertGreater(posterior.mean[3], before_risk)
+        self.assertAlmostEqual(sum(posterior.preference_vector().as_dict().values()), 1.0)
 
 
 if __name__ == "__main__":

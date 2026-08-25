@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>CONCORDIA research report</title>
+<style>body{font:16px/1.55 system-ui;max-width:1180px;margin:2rem auto;padding:0 1.2rem;color:#17202a}
+h1,h2{line-height:1.2}.warning{background:#fff3cd;border-left:5px solid #f0ad4e;padding:1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:1rem}figure{margin:0;border:1px solid #ddd;padding:.5rem}img{width:100%}code{background:#f4f6f7;padding:.1rem .25rem}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccd1d1;padding:.5rem;text-align:left}</style>
+</head><body><h1>CONCORDIA Adaptive Navigation — reproducible research report</h1>
+<p class="warning"><strong>Claim boundary.</strong> The B0–B6 matrix is synthetic analytical BPR evidence. SUMO evidence is a microscopic synthetic smoke study. Safety metrics are surrogate conflict indicators, not crash probabilities. Demand on the real OSM topology is synthetic.</p>
+<h2>1. Research question</h2><p>Can truthful, voluntarily accepted route recommendations use heterogeneous private preference slack to reduce network externality without violating declared regret and safety-surrogate constraints?</p>
+<h2>2. Mathematical model and system</h2><p>The controller observes explicit count/density/flow/speed state, predicts horizon route attributes, solves a constrained first-action MPC plan, offers a route, samples a separately parameterized acceptance model, executes only accepted routes, and observes again. Exact enumeration remains a small-instance oracle; B5 is a HiGHS linearized MIP baseline.</p>
+<h2>3. Experimental design</h2><p>240 screening cases selected the focused factors; 60 paired focused rows compare B0–B6 across two-route, merge, signalized, and analytical ring families. Seeds are matched. The research registry contains config, commit/dirty state, versions, timestamps, hardware, and hashes.</p>
+<h2>4. Baselines</h2><table><tr><th>ID</th><th>Definition</th></tr><tr><td>B0</td><td>static_free_flow_fastest</td></tr><tr><td>B1</td><td>dynamic_eta_only_best_response</td></tr><tr><td>B2</td><td>preference_only_private_best</td></tr><tr><td>B3</td><td>small_instance_system_optimal_oracle</td></tr><tr><td>B4</td><td>greedy_vde</td></tr><tr><td>B5</td><td>linearized_constrained_mip</td></tr><tr><td>B6</td><td>receding_horizon_acceptance_aware_closed_loop</td></tr></table>
+<h2>5. Hypothesis results</h2><table><tr><th>Hypothesis</th><th>Status</th><th>Primary evidence</th></tr>
+<tr><td>H1</td><td>not_supported</td><td>Beneficial low-regret diversion opportunities</td></tr>
+<tr><td>H2</td><td>not_supported</td><td>B1−B6 paired TTT CI [-1072.263, -447.772]</td></tr>
+<tr><td>H3</td><td>NOT TESTED</td><td>No matched microscopic adaptive-vs-ETA probability matrix</td></tr>
+<tr><td>H4</td><td>PARTIAL</td><td>Microscopic SSM/trajectory smoke only; no matched policy non-inferiority</td></tr>
+<tr><td>H5</td><td>exploratory_only</td><td>In-sample exploratory variance/tail association</td></tr>
+<tr><td>H6</td><td>not_supported</td><td>Descriptive feedback stability only</td></tr>
+<tr><td>H7</td><td>NOT TESTED</td><td>RL gate did not authorize RL</td></tr></table>
+<h2>6. Safety and phantom-jam evidence</h2><p>synthetic microscopic ring fixture; surrogate conflicts are not crash probability</p><p>The detector found 2 candidate wave events in one synthetic ring run. This does not establish prevention. SSM output and full trajectory-derived distributions are stored, including TTC, DRAC, hard braking and CVaR.</p>
+<h2>7. Preference heterogeneity and user outcomes</h2><p>H1 status: not_supported. All B6 focused rows satisfy the configured regret bound: True.</p>
+<h2>8. RL gate</h2><p><strong>RL not introduced because deterministic/receding-horizon optimization was sufficient under the tested, declared small-instance conditions.</strong> Untested larger-scale and nonstationary settings remain limitations rather than justification to insert RL.</p>
+<h2>9. Ablation, counterfactuals, and failure cases</h2><p>B0/B1/B2/B4/B6 separate static routing, ETA response, preference-only choice, externality-aware greedy assignment, and feedback-aware MPC. This is a policy-layer ablation, not a complete component-wise causal ablation. B5 exposes linearization failure cases; B6 enumeration is explicitly restricted to correctness scale. H3, matched microscopic H4, full preference-drift traffic evaluation, and calibrated real demand remain unresolved.</p>
+<h2>10. Real topology</h2><p>OSM topology valid: True; nodes: 278; edges: 427; alternate routes: 3. Geometry and ODbL provenance are preserved. Demand is synthetic on real topology.</p>
+<h2>11. Figures</h2><div class="grid"><figure><img src="../figures/ttt_vs_demand.png" alt="ttt_vs_demand"><figcaption>ttt vs demand</figcaption></figure>
+<figure><img src="../figures/phantom_probability_vs_demand.png" alt="phantom_probability_vs_demand"><figcaption>phantom probability vs demand</figcaption></figure>
+<figure><img src="../figures/regret_distribution.png" alt="regret_distribution"><figcaption>regret distribution</figcaption></figure>
+<figure><img src="../figures/acceptance_rate.png" alt="acceptance_rate"><figcaption>acceptance rate</figcaption></figure>
+<figure><img src="../figures/route_entropy.png" alt="route_entropy"><figcaption>route entropy</figcaption></figure>
+<figure><img src="../figures/safety_cvar.png" alt="safety_cvar"><figcaption>safety cvar</figcaption></figure>
+<figure><img src="../figures/preference_slack.png" alt="preference_slack"><figcaption>preference slack</figcaption></figure>
+<figure><img src="../figures/heterogeneity_diversion.png" alt="heterogeneity_diversion"><figcaption>heterogeneity diversion</figcaption></figure>
+<figure><img src="../figures/rl_vs_optimizer.png" alt="rl_vs_optimizer"><figcaption>rl vs optimizer</figcaption></figure>
+<figure><img src="../figures/latency_scaling.png" alt="latency_scaling"><figcaption>latency scaling</figcaption></figure>
+<figure><img src="../figures/phase_diagram.png" alt="phase_diagram"><figcaption>phase diagram</figcaption></figure></div>
+<h2>12. Reproducibility</h2><p>Run <code>make lint test benchmark simulation-test research rl-gate rl-evaluate report</code>. Heavy microscopic full matrices are not silently substituted by analytical output. Valid registry runs included: 7.</p>
+<h2>13. Conclusion</h2><p>CONCORDIA demonstrates a working truthful, acceptance-separated, constrained closed loop and synthetic analytical low-regret coordination opportunities. It does <em>not</em> yet establish statistically meaningful microscopic phantom-jam prevention or real-world transfer. RL outcome: A.</p>
+</body></html>

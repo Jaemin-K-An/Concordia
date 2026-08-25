@@ -1,0 +1,12 @@
+{
+  "claim_boundary": "conversion/topology verification only; no calibrated OD or real-topology traffic-mechanism result",
+  "complete": true,
+  "demand_provenance": "synthetic demand on real topology",
+  "generated_network_bytes": 707693,
+  "generated_network_sha256": "179b6d228f6a57ae5b796bfeb199e4c2e17b9e842877937bf68f2030427ab2ae",
+  "netconvert_version": "Eclipse SUMO netconvert 1.27.1",
+  "simulation_executed": false,
+  "source": "data/raw/gangnam_intersection.osm",
+  "sumo_edge_element_count_including_internal": 835,
+  "sumo_junction_element_count_including_internal": 257
+}

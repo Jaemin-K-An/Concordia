@@ -159,3 +159,56 @@ Every run records canonical config, UTC timestamp, run ID, Python/platform/depen
 Python/NumPy/SUMO seeds, simulator version, and Git commit. Input validation precedes execution.
 Missing SUMO, disconnected OD pairs, empty candidates, invalid probability vectors, negative
 flows/features, or infeasible safety constraints raise explicit errors.
+
+## 11. Microscopic network-state semantics
+
+For SUMO edge \(e\), the adapter records vehicle count \(N_e\), mean speed \(v_e\) in m/s,
+lane count \(L_e\), lane length \(d_e\) in metres, and occupancy \(o_e\) in percent when
+available. The instantaneous density estimate is
+
+\[
+k_e=\frac{1000N_e}{L_ed_e}\quad[\text{veh/km/lane}],
+\]
+
+and, without an interval detector, the instantaneous traffic-state flow estimate is
+
+\[
+q_e=3.6k_ev_e\quad[\text{veh/hour/lane}].
+\]
+
+This \(q=kv\) estimate is not reported as counted detector throughput.
+
+## 12. Acceptance-aware receding horizon
+
+At state \(x_t\), each candidate assignment produces a relaxed BPR flow trajectory
+\(\hat x_{t+1:t+H}\). Route features and Preference Slack are recomputed on that trajectory.
+The objective discounts TTT, analytical ghost-risk exposure, route-risk exposure, and HHI.
+Hard filters enforce individual dynamic regret, minimum predicted acceptance, and upper-tail
+route-risk CVaR relative to the current baseline plus \(\delta\). Expected flow is a mixture
+of proposed and current routes under the synthetic acceptance probability. Only the first
+assignment is offered; acceptance is sampled separately and only accepted routes execute.
+
+The current implementation enumerates constant target assignments and is intentionally a
+small-instance correctness baseline. It is not a scalable nonlinear stochastic optimizer.
+The B5 HiGHS MIP instead minimizes route costs linearized at the observed state, and is
+reported separately from the nonlinear exact oracle.
+
+## 13. Predictor, detector, and calibration boundary
+
+`PhantomJamRiskPredictor` features are density, mean speed, speed CV, acceleration variance,
+headway variance, flow, saturation, and geometry complexity. Logistic and interpretable
+decision-stump models report ROC-AUC, PR-AUC, Brier score, ECE, and false-negative rate.
+The event detector independently requires sustained high-density/low-speed episodes at two
+or more detectors, sufficient amplitude, and negative fitted propagation speed. The current
+SUMO artifact is one synthetic ring smoke run; it exercises the detector but does not provide
+the multi-demand train/test calibration or matched prevention probability required for H3.
+
+## 14. Research outcome boundary
+
+The focused B0–B6 matrix uses six synthetic users, matched seeds, and analytical BPR state.
+It found no aggregate support for H1 or H2 and no pre-registered stability support for H6.
+H5 is exploratory in-sample association only. A signalized failure case shows that ETA-only
+can reduce TTT while violating the configured regret budget for some users; this is why
+feasibility and network efficiency are reported separately. H3 is NOT TESTED and microscopic
+H4 is PARTIAL. These negative/partial findings supersede any generic expectation stated in
+Section 8.

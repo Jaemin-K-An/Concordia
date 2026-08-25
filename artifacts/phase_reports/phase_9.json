@@ -1,0 +1,26 @@
+{
+  "failed_tests": [],
+  "goal": "Preference learning and drift",
+  "metrics": {
+    "dueling": true,
+    "forgetting_factor": true,
+    "population_prior": true
+  },
+  "modified_files": [
+    "src/concordia/behavior/posterior.py",
+    "tests/test_safety_and_learning.py"
+  ],
+  "next_decision": "advance with explicit claim boundary",
+  "phase": 9,
+  "status": "PARTIAL",
+  "tests_passed": 38,
+  "tests_run": [
+    "make lint",
+    "make test (38 tests)",
+    "make benchmark"
+  ],
+  "unresolved_issues": [
+    "preference drift not evaluated in a traffic matrix",
+    "coefficients are synthetic"
+  ]
+}

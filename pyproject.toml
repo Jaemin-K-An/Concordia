@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "concordia-navigation"
-version = "0.1.0"
+version = "0.2.0"
 description = "Safety-constrained, preference-aligned adaptive navigation research harness"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -14,12 +14,17 @@ dependencies = [
   "networkx>=3.1,<4",
   "numpy>=1.24,<3",
   "PyYAML>=6,<7",
+  "scipy>=1.11,<2",
 ]
 
 [project.optional-dependencies]
 analysis = ["matplotlib>=3.7,<4", "pandas>=2,<3"]
 dev = ["pytest>=7.4,<9", "hypothesis>=6.90,<7", "ruff>=0.6,<1"]
-sumo = ["traci>=1.19"]
+sumo = [
+  "eclipse-sumo==1.27.1",
+  "sumolib==1.27.1",
+  "traci==1.27.1",
+]
 
 [project.scripts]
 concordia = "concordia.cli:main"

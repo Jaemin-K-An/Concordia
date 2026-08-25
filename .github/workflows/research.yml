@@ -1,0 +1,26 @@
+name: research-matrix
+
+on:
+  workflow_dispatch:
+
+jobs:
+  focused-analytical-matrix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e '.[dev,analysis]'
+      - run: make lint test benchmark research rl-gate rl-evaluate report phase-reports
+      - uses: actions/upload-artifact@v4
+        with:
+          name: concordia-research-evidence
+          path: |
+            artifacts/studies/analytical_matrix/summary.json
+            artifacts/rl_gate_report.json
+            artifacts/reports/report.html
+            artifacts/figures
+            artifacts/phase_reports
+            docs/rl_gate_decision.md
