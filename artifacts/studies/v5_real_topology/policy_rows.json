@@ -1,0 +1,1298 @@
+[
+  {
+    "case_id": "real-od0-s397-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8508466096347997,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.851",
+      "P(success)=0.667",
+      "corrected micro benefit=3.2838",
+      "micro safety UCB=0.942"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.9615384615384616,
+    "realized_safety_difference": 0.6700885715838723,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od0-s397-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8521705195586119,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.852",
+      "P(success)=0.345",
+      "corrected micro benefit=2.8780",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.8522267206477733,
+    "realized_safety_difference": 0.2976407704826032,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od0-s397-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8564357977532151,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.856",
+      "P(success)=0.667",
+      "corrected micro benefit=3.3567",
+      "micro safety UCB=0.895"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -1.0530679933665008,
+    "realized_safety_difference": 1.2634410418344202,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od0-s397-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8581217598274343,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.858",
+      "P(success)=0.345",
+      "corrected micro benefit=2.9644",
+      "micro safety UCB=0.997"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.8043117744610282,
+    "realized_safety_difference": 3.5456924342901552,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od0-s401-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8509661641269183,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.851",
+      "P(success)=0.667",
+      "corrected micro benefit=3.3030",
+      "micro safety UCB=0.922"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.8865979381443299,
+    "realized_safety_difference": -0.006822682640163169,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od0-s401-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8522898878927205,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.852",
+      "P(success)=0.345",
+      "corrected micro benefit=2.8971",
+      "micro safety UCB=0.999"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.7237113402061855,
+    "realized_safety_difference": -0.0016089222982420548,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od0-s401-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8565545720617194,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.857",
+      "P(success)=0.667",
+      "corrected micro benefit=3.3758",
+      "micro safety UCB=0.867"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -1.0508474576271187,
+    "realized_safety_difference": 1.1338499940392082,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od0-s401-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8582403003667011,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.858",
+      "P(success)=0.345",
+      "corrected micro benefit=2.9835",
+      "micro safety UCB=0.973"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.7864406779661017,
+    "realized_safety_difference": -0.010306250765627079,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od1-s397-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8149410081805253,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.815",
+      "P(success)=0.667",
+      "corrected micro benefit=3.5308",
+      "micro safety UCB=0.870"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.49624060150375937,
+    "realized_safety_difference": 2.486823183714189,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od1-s397-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8160347303641928,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.816",
+      "P(success)=0.894",
+      "corrected micro benefit=3.1846",
+      "micro safety UCB=0.936"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.3593984962406015,
+    "realized_safety_difference": 3.180977325365574,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od1-s397-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.819682477869313,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.820",
+      "P(success)=0.667",
+      "corrected micro benefit=3.6040",
+      "micro safety UCB=0.800"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.538083538083538,
+    "realized_safety_difference": 0.8642659562803433,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od1-s397-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8211572544955275,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.821",
+      "P(success)=0.894",
+      "corrected micro benefit=3.2718",
+      "micro safety UCB=0.897"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.3894348894348894,
+    "realized_safety_difference": 4.014735463676997,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od1-s401-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8043202469209033,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.804",
+      "P(success)=0.667",
+      "corrected micro benefit=3.4677",
+      "micro safety UCB=0.836"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.47720364741641336,
+    "realized_safety_difference": 0.919236180399964,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od1-s401-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8054284590201671,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.805",
+      "P(success)=0.894",
+      "corrected micro benefit=3.1255",
+      "micro safety UCB=0.913"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.3829787234042553,
+    "realized_safety_difference": 0.1435978450494948,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od1-s401-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8091239692710362,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.809",
+      "P(success)=0.667",
+      "corrected micro benefit=3.5410",
+      "micro safety UCB=0.755"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.46371463714637146,
+    "realized_safety_difference": 2.213020370245074,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od1-s401-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8106180224865472,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.811",
+      "P(success)=0.894",
+      "corrected micro benefit=3.2126",
+      "micro safety UCB=0.865"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "low",
+    "realized_relative_ttt_gain": -0.3370233702337023,
+    "realized_safety_difference": 3.348653629130852,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od2-s397-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8438499313161161,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.844",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7680",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.023047375160051217,
+    "realized_safety_difference": -3.366432193878593,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od2-s397-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8562512168147827,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.856",
+      "P(success)=0.894",
+      "corrected micro benefit=3.3880",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.03137003841229193,
+    "realized_safety_difference": -7.450094755081076,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od2-s397-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8564313104252687,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.856",
+      "P(success)=0.667",
+      "corrected micro benefit=3.8778",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.07396950875211744,
+    "realized_safety_difference": -1.9763137839180267,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od2-s397-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8690190256431158,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.869",
+      "P(success)=0.345",
+      "corrected micro benefit=3.4605",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": 0.0016939582156973462,
+    "realized_safety_difference": -2.7380435683437967,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od2-s401-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.82336724355516,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.823",
+      "P(success)=0.667",
+      "corrected micro benefit=3.6225",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.10534351145038168,
+    "realized_safety_difference": 0.14726500875944382,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od2-s401-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8360723964681221,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.836",
+      "P(success)=0.894",
+      "corrected micro benefit=3.2497",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.14198473282442747,
+    "realized_safety_difference": -1.0871300885635597,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od2-s401-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.836256838430189,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.836",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7322",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.07226107226107226,
+    "realized_safety_difference": -14.755655028826158,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od2-s401-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8491436697850179,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.849",
+      "P(success)=0.345",
+      "corrected micro benefit=3.3220",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.02564102564102564,
+    "realized_safety_difference": -16.080248439692244,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od3-s397-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8226260800864982,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.823",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7325",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.12636165577342048,
+    "realized_safety_difference": -99.15619330636653,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od3-s397-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8350717084061979,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.835",
+      "P(success)=1.000",
+      "corrected micro benefit=3.4253",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.12091503267973856,
+    "realized_safety_difference": -99.23786679641422,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od3-s397-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.835601032738246,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.836",
+      "P(success)=0.667",
+      "corrected micro benefit=3.8424",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.1365392872477458,
+    "realized_safety_difference": -15.384837603192043,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od3-s397-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8482312268441768,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.848",
+      "P(success)=0.894",
+      "corrected micro benefit=3.5369",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.053241734650064404,
+    "realized_safety_difference": -1.3719221529367829,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od3-s401-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8123628709731061,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.812",
+      "P(success)=0.667",
+      "corrected micro benefit=3.6693",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.058305830583058306,
+    "realized_safety_difference": -6.192419009376737,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od3-s401-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8249633581295509,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.825",
+      "P(success)=1.000",
+      "corrected micro benefit=3.3657",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.057755775577557754,
+    "realized_safety_difference": -3.3847913128948477,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od3-s401-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8254991553768042,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.825",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7792",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.04439655172413793,
+    "realized_safety_difference": -16.24407914631631,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od3-s401-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8382815764329555,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.838",
+      "P(success)=0.894",
+      "corrected micro benefit=3.4772",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "medium",
+    "realized_relative_ttt_gain": -0.0625,
+    "realized_safety_difference": -21.19911442052847,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od4-s397-d540-p0.50",
+    "counterfactual_success": true,
+    "domain_shift_score": 0.8842077712517187,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.884",
+      "P(success)=0.667",
+      "corrected micro benefit=4.0148",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": 0.18149934239368698,
+    "realized_safety_difference": -2.036671011960457,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od4-s397-d540-p1.00",
+    "counterfactual_success": true,
+    "domain_shift_score": 0.9120921444381352,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.912",
+      "P(success)=1.000",
+      "corrected micro benefit=3.7057",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": 0.19158263919333626,
+    "realized_safety_difference": -2.1122677804256034,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od4-s397-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.9057848958897751,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.906",
+      "P(success)=0.667",
+      "corrected micro benefit=4.1544",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.10021413276231263,
+    "realized_safety_difference": 7.750408644526017,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od4-s397-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.933365422845876,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.933",
+      "P(success)=1.000",
+      "corrected micro benefit=3.8535",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.03640256959314775,
+    "realized_safety_difference": 2.878641468467004,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od4-s401-d540-p0.50",
+    "counterfactual_success": true,
+    "domain_shift_score": 0.854946959620932,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.855",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7862",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": 0.03472599023331525,
+    "realized_safety_difference": -14.856308130502176,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od4-s401-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8837550715281118,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.884",
+      "P(success)=1.000",
+      "corrected micro benefit=3.4870",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.10336408030385241,
+    "realized_safety_difference": -13.576504003584763,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od4-s401-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.877244095744164,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.877",
+      "P(success)=0.667",
+      "corrected micro benefit=3.9255",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.08786316776007498,
+    "realized_safety_difference": 5.30903935653701,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od4-s401-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.9056941889749344,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.906",
+      "P(success)=1.000",
+      "corrected micro benefit=3.6343",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.18064667291471415,
+    "realized_safety_difference": 3.8821598214790973,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od5-s397-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8754328249066319,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.875",
+      "P(success)=0.667",
+      "corrected micro benefit=4.0041",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.09667156142927068,
+    "realized_safety_difference": -0.4713182037330066,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od5-s397-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.9025551273131099,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.903",
+      "P(success)=1.000",
+      "corrected micro benefit=3.6968",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.06852667645619187,
+    "realized_safety_difference": -0.430498364026767,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od5-s397-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8966309158524763,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.897",
+      "P(success)=0.667",
+      "corrected micro benefit=4.1420",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.07266104294478527,
+    "realized_safety_difference": -2.6880954494393086,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od5-s397-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.9234750478036831,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.923",
+      "P(success)=1.000",
+      "corrected micro benefit=3.8431",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.05809049079754601,
+    "realized_safety_difference": -2.937683247148449,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od5-s401-d540-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8655570494424452,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.866",
+      "P(success)=0.667",
+      "corrected micro benefit=3.9407",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.11888806155373542,
+    "realized_safety_difference": 9.687159276340475,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od5-s401-d540-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.8929793874942505,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.893",
+      "P(success)=1.000",
+      "corrected micro benefit=3.6368",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.10995284189625217,
+    "realized_safety_difference": 10.07009124517817,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": true,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od5-s401-d660-p0.50",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.88699119727874,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.887",
+      "P(success)=0.667",
+      "corrected micro benefit=4.0786",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 0.5,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.03210741389375365,
+    "realized_safety_difference": -10.632032421424018,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  },
+  {
+    "case_id": "real-od5-s401-d660-p1.00",
+    "counterfactual_success": false,
+    "domain_shift_score": 0.9141184838074621,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.914",
+      "P(success)=1.000",
+      "corrected micro benefit=3.7830",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "legal_violation": false,
+    "navigation_penetration": 1.0,
+    "overlap_class": "high",
+    "realized_relative_ttt_gain": -0.017707725238373224,
+    "realized_safety_difference": -10.990776647075943,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "regret_violation": false,
+    "safety_violation": false,
+    "shift_class": "MILD_SHIFT",
+    "success": false,
+    "system_ttt_gain": 0.0
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "activation_by_overlap_class": {
+    "high": {
+      "case_count": 16,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        0.0,
+        0.1936076805344365
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 1.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    },
+    "low": {
+      "case_count": 16,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        0.0,
+        0.1936076805344365
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    },
+    "medium": {
+      "case_count": 16,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        0.0,
+        0.1936076805344365
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    }
+  },
+  "all_routes_legal": true,
+  "claim_boundary": "Six prespecified synthetic OD pairs on committed real OSM geometry; not observed Seoul traffic.",
+  "complete": true,
+  "od_pair_count": 6,
+  "od_pairs": [
+    {
+      "destination": "3058389834",
+      "maximum_overlap": 0.25,
+      "mean_overlap": 0.15849673202614378,
+      "origin": "1326174684",
+      "overlap_class": "low",
+      "stratum_rank": 1
+    },
+    {
+      "destination": "1430674331",
+      "maximum_overlap": 0.4166666666666667,
+      "mean_overlap": 0.1388888888888889,
+      "origin": "1326174684",
+      "overlap_class": "low",
+      "stratum_rank": 2
+    },
+    {
+      "destination": "11245176923",
+      "maximum_overlap": 0.7692307692307693,
+      "mean_overlap": 0.4990573152337858,
+      "origin": "3146844230",
+      "overlap_class": "medium",
+      "stratum_rank": 1
+    },
+    {
+      "destination": "4867295778",
+      "maximum_overlap": 0.6,
+      "mean_overlap": 0.5015873015873015,
+      "origin": "2477260916",
+      "overlap_class": "medium",
+      "stratum_rank": 2
+    },
+    {
+      "destination": "cluster_13925231596_2280678660",
+      "maximum_overlap": 0.8846153846153846,
+      "mean_overlap": 0.7840161116023184,
+      "origin": "2477260921",
+      "overlap_class": "high",
+      "stratum_rank": 1
+    },
+    {
+      "destination": "1326174684",
+      "maximum_overlap": 0.8076923076923077,
+      "mean_overlap": 0.7692307692307692,
+      "origin": "2280678787",
+      "overlap_class": "high",
+      "stratum_rank": 2
+    }
+  ],
+  "paired_condition_count": 48,
+  "primary_metrics": {
+    "case_count": 48,
+    "coverage": 0.0,
+    "coverage_ci95": [
+      6.938893903907228e-18,
+      0.07410012966611748
+    ],
+    "failure_avoidance_rate": 1.0,
+    "intervention_count": 0,
+    "intervention_precision": 0.0,
+    "intervention_precision_ci95": [
+      0.0,
+      1.0
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 0.0,
+    "missed_opportunity_rate": 1.0,
+    "population_benefit_rate": 0.0,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 0
+  },
+  "real_geometry_synthetic_demand": true,
+  "source_osm_sha256": "b0388e6871d9fdf6529afc2ddf493fcb363213aa23d53af560b2a1b50c854525",
+  "study": "v5 frozen stratified multi-OD real topology",
+  "sumo_network_sha256": "576d1de9dc7dbaebb769514e29d81f0e1ea8f7d96dc429a216cee806e05cb1d2"
+}

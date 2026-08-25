@@ -1,0 +1,818 @@
+[
+  {
+    "case_id": "real-od0-s397-d540-p0.50",
+    "domain_shift_score": 0.8508466096347997,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.851",
+      "P(success)=0.667",
+      "corrected micro benefit=3.2838",
+      "micro safety UCB=0.942"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od0-s397-d540-p1.00",
+    "domain_shift_score": 0.8521705195586119,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.852",
+      "P(success)=0.345",
+      "corrected micro benefit=2.8780",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od0-s401-d540-p0.50",
+    "domain_shift_score": 0.8509661641269183,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.851",
+      "P(success)=0.667",
+      "corrected micro benefit=3.3030",
+      "micro safety UCB=0.922"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od0-s401-d540-p1.00",
+    "domain_shift_score": 0.8522898878927205,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.852",
+      "P(success)=0.345",
+      "corrected micro benefit=2.8971",
+      "micro safety UCB=0.999"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od0-s397-d660-p0.50",
+    "domain_shift_score": 0.8564357977532151,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.856",
+      "P(success)=0.667",
+      "corrected micro benefit=3.3567",
+      "micro safety UCB=0.895"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od0-s397-d660-p1.00",
+    "domain_shift_score": 0.8581217598274343,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.858",
+      "P(success)=0.345",
+      "corrected micro benefit=2.9644",
+      "micro safety UCB=0.997"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od0-s401-d660-p0.50",
+    "domain_shift_score": 0.8565545720617194,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.857",
+      "P(success)=0.667",
+      "corrected micro benefit=3.3758",
+      "micro safety UCB=0.867"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od0-s401-d660-p1.00",
+    "domain_shift_score": 0.8582403003667011,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.858",
+      "P(success)=0.345",
+      "corrected micro benefit=2.9835",
+      "micro safety UCB=0.973"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od1-s397-d540-p0.50",
+    "domain_shift_score": 0.8149410081805253,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.815",
+      "P(success)=0.667",
+      "corrected micro benefit=3.5308",
+      "micro safety UCB=0.870"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od1-s397-d540-p1.00",
+    "domain_shift_score": 0.8160347303641928,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.816",
+      "P(success)=0.894",
+      "corrected micro benefit=3.1846",
+      "micro safety UCB=0.936"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od1-s401-d540-p0.50",
+    "domain_shift_score": 0.8043202469209033,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.804",
+      "P(success)=0.667",
+      "corrected micro benefit=3.4677",
+      "micro safety UCB=0.836"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od1-s401-d540-p1.00",
+    "domain_shift_score": 0.8054284590201671,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.805",
+      "P(success)=0.894",
+      "corrected micro benefit=3.1255",
+      "micro safety UCB=0.913"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od1-s397-d660-p0.50",
+    "domain_shift_score": 0.819682477869313,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.820",
+      "P(success)=0.667",
+      "corrected micro benefit=3.6040",
+      "micro safety UCB=0.800"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od1-s397-d660-p1.00",
+    "domain_shift_score": 0.8211572544955275,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.821",
+      "P(success)=0.894",
+      "corrected micro benefit=3.2718",
+      "micro safety UCB=0.897"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od1-s401-d660-p0.50",
+    "domain_shift_score": 0.8091239692710362,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.809",
+      "P(success)=0.667",
+      "corrected micro benefit=3.5410",
+      "micro safety UCB=0.755"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od1-s401-d660-p1.00",
+    "domain_shift_score": 0.8106180224865472,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.811",
+      "P(success)=0.894",
+      "corrected micro benefit=3.2126",
+      "micro safety UCB=0.865"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od2-s397-d540-p0.50",
+    "domain_shift_score": 0.8438499313161161,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.844",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7680",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od2-s397-d540-p1.00",
+    "domain_shift_score": 0.8562512168147827,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.856",
+      "P(success)=0.894",
+      "corrected micro benefit=3.3880",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od2-s401-d540-p0.50",
+    "domain_shift_score": 0.82336724355516,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.823",
+      "P(success)=0.667",
+      "corrected micro benefit=3.6225",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od2-s401-d540-p1.00",
+    "domain_shift_score": 0.8360723964681221,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.836",
+      "P(success)=0.894",
+      "corrected micro benefit=3.2497",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od2-s397-d660-p0.50",
+    "domain_shift_score": 0.8564313104252687,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.856",
+      "P(success)=0.667",
+      "corrected micro benefit=3.8778",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od2-s397-d660-p1.00",
+    "domain_shift_score": 0.8690190256431158,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.869",
+      "P(success)=0.345",
+      "corrected micro benefit=3.4605",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od2-s401-d660-p0.50",
+    "domain_shift_score": 0.836256838430189,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.836",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7322",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od2-s401-d660-p1.00",
+    "domain_shift_score": 0.8491436697850179,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.849",
+      "P(success)=0.345",
+      "corrected micro benefit=3.3220",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od3-s397-d540-p0.50",
+    "domain_shift_score": 0.8226260800864982,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.823",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7325",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od3-s397-d540-p1.00",
+    "domain_shift_score": 0.8350717084061979,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.835",
+      "P(success)=1.000",
+      "corrected micro benefit=3.4253",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od3-s401-d540-p0.50",
+    "domain_shift_score": 0.8123628709731061,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.812",
+      "P(success)=0.667",
+      "corrected micro benefit=3.6693",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od3-s401-d540-p1.00",
+    "domain_shift_score": 0.8249633581295509,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.825",
+      "P(success)=1.000",
+      "corrected micro benefit=3.3657",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od3-s397-d660-p0.50",
+    "domain_shift_score": 0.835601032738246,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.836",
+      "P(success)=0.667",
+      "corrected micro benefit=3.8424",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od3-s397-d660-p1.00",
+    "domain_shift_score": 0.8482312268441768,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.848",
+      "P(success)=0.894",
+      "corrected micro benefit=3.5369",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od3-s401-d660-p0.50",
+    "domain_shift_score": 0.8254991553768042,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.825",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7792",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od3-s401-d660-p1.00",
+    "domain_shift_score": 0.8382815764329555,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.838",
+      "P(success)=0.894",
+      "corrected micro benefit=3.4772",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od4-s397-d540-p0.50",
+    "domain_shift_score": 0.8842077712517187,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.884",
+      "P(success)=0.667",
+      "corrected micro benefit=4.0148",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od4-s397-d540-p1.00",
+    "domain_shift_score": 0.9120921444381352,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.912",
+      "P(success)=1.000",
+      "corrected micro benefit=3.7057",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od4-s401-d540-p0.50",
+    "domain_shift_score": 0.854946959620932,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.855",
+      "P(success)=0.667",
+      "corrected micro benefit=3.7862",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od4-s401-d540-p1.00",
+    "domain_shift_score": 0.8837550715281118,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.884",
+      "P(success)=1.000",
+      "corrected micro benefit=3.4870",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od4-s397-d660-p0.50",
+    "domain_shift_score": 0.9057848958897751,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.906",
+      "P(success)=0.667",
+      "corrected micro benefit=4.1544",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od4-s397-d660-p1.00",
+    "domain_shift_score": 0.933365422845876,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.933",
+      "P(success)=1.000",
+      "corrected micro benefit=3.8535",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od4-s401-d660-p0.50",
+    "domain_shift_score": 0.877244095744164,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.877",
+      "P(success)=0.667",
+      "corrected micro benefit=3.9255",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od4-s401-d660-p1.00",
+    "domain_shift_score": 0.9056941889749344,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.906",
+      "P(success)=1.000",
+      "corrected micro benefit=3.6343",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od5-s397-d540-p0.50",
+    "domain_shift_score": 0.8754328249066319,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.875",
+      "P(success)=0.667",
+      "corrected micro benefit=4.0041",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od5-s397-d540-p1.00",
+    "domain_shift_score": 0.9025551273131099,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.903",
+      "P(success)=1.000",
+      "corrected micro benefit=3.6968",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od5-s401-d540-p0.50",
+    "domain_shift_score": 0.8655570494424452,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.866",
+      "P(success)=0.667",
+      "corrected micro benefit=3.9407",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od5-s401-d540-p1.00",
+    "domain_shift_score": 0.8929793874942505,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.893",
+      "P(success)=1.000",
+      "corrected micro benefit=3.6368",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od5-s397-d660-p0.50",
+    "domain_shift_score": 0.8966309158524763,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.897",
+      "P(success)=0.667",
+      "corrected micro benefit=4.1420",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od5-s397-d660-p1.00",
+    "domain_shift_score": 0.9234750478036831,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.923",
+      "P(success)=1.000",
+      "corrected micro benefit=3.8431",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od5-s401-d660-p0.50",
+    "domain_shift_score": 0.88699119727874,
+    "explanation": [
+      "regime=PARTIAL_CONTROL",
+      "shift=MILD_SHIFT DSS=0.887",
+      "P(success)=0.667",
+      "corrected micro benefit=4.0786",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "PARTIAL_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  },
+  {
+    "case_id": "real-od5-s401-d660-p1.00",
+    "domain_shift_score": 0.9141184838074621,
+    "explanation": [
+      "regime=HIGH_CONTROL",
+      "shift=MILD_SHIFT DSS=0.914",
+      "P(success)=1.000",
+      "corrected micro benefit=3.7830",
+      "micro safety UCB=1.000"
+    ],
+    "intervene": false,
+    "reasons": [
+      "microscopic safety veto"
+    ],
+    "regime": "HIGH_CONTROL",
+    "shift_class": "MILD_SHIFT"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "actual_sumo": true,
+  "always_adapt_metrics": {
+    "case_count": 100,
+    "coverage": 1.0,
+    "coverage_ci95": [
+      0.9630065017930143,
+      1.0
+    ],
+    "failure_avoidance_rate": 0.0,
+    "false_safe_rate": 0.25,
+    "intervention_count": 100,
+    "intervention_precision": 0.21,
+    "intervention_precision_ci95": [
+      0.141656540619153,
+      0.29979968834089865
+    ],
+    "legal_violation_count": 0,
+    "mean_microscopic_relative_ttt_gain": -0.0014560009330652898,
+    "mean_network_ttt_gain": -15.55,
+    "missed_opportunity_rate": 0.0,
+    "population_benefit_rate": 0.21,
+    "regret_violation_count": 0,
+    "safe_success_count": 21,
+    "safety_violation_count": 25,
+    "successful_intervention_count": 21
+  },
+  "claim_boundary": "Actual SUMO paired conditions with synthetic demand/preferences. Seed-disjoint development, calibration, validation and final holdout roles. Surrogate safety is not crash probability.",
+  "claim_eligible": false,
+  "complete": true,
+  "failure_taxonomy": {
+    "benefit_prediction_error": 35,
+    "microscopic_safety_mismatch": 25,
+    "none": 21,
+    "partial_adoption_feedback": 19
+  },
+  "final_seed_disjoint_from_development": true,
+  "hypotheses": {
+    "H24_micro_correction_reduces_benefit_mae": {
+      "analytical_mae": 0.05454862753004661,
+      "corrected_mae": 0.05469584165327035
+    },
+    "H25_false_safe_target": false,
+    "H25_zero_safety_violations": false
+  },
+  "pair_count": 100,
+  "primary_metrics": {
+    "case_count": 100,
+    "coverage": 0.1,
+    "coverage_ci95": [
+      0.0552291370606751,
+      0.17436566150491345
+    ],
+    "failure_avoidance_rate": 0.8860759493670886,
+    "false_safe_rate": 0.1,
+    "intervention_count": 10,
+    "intervention_precision": 0.1,
+    "intervention_precision_ci95": [
+      0.017876213095072896,
+      0.4041500267952385
+    ],
+    "legal_violation_count": 0,
+    "mean_microscopic_relative_ttt_gain": 0.00370196184302547,
+    "mean_network_ttt_gain": -15.55,
+    "missed_opportunity_rate": 0.9523809523809523,
+    "population_benefit_rate": 0.01,
+    "regret_violation_count": 0,
+    "safe_success_count": 1,
+    "safety_violation_count": 1,
+    "successful_intervention_count": 1
+  },
+  "rl_used": false,
+  "selected_policy": "V5-F-microscopic",
+  "study": "v5 frozen microscopic domain bridge",
+  "untouched_holdout": true
+}
