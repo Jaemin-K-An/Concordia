@@ -1,0 +1,270 @@
+[
+  {
+    "pair_id": "v7-final-U01-s859",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U01-s877",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U01-s881",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U01-s887",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U01-s907",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U01-s911",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U01-s919",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U01-s929",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U01-s941",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U01-s947",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U02-s853",
+    "taxonomy": "conservative quantile bound"
+  },
+  {
+    "pair_id": "v7-final-U02-s911",
+    "taxonomy": "conservative quantile bound"
+  },
+  {
+    "pair_id": "v7-final-U02-s929",
+    "taxonomy": "conservative quantile bound"
+  },
+  {
+    "pair_id": "v7-final-U02-s937",
+    "taxonomy": "weak uplift uncertainty"
+  },
+  {
+    "pair_id": "v7-final-U02-s941",
+    "taxonomy": "conservative quantile bound"
+  },
+  {
+    "pair_id": "v7-final-U03-s887",
+    "taxonomy": "conservative quantile bound"
+  },
+  {
+    "pair_id": "v7-final-U03-s919",
+    "taxonomy": "weak uplift uncertainty"
+  },
+  {
+    "pair_id": "v7-final-U04-s857",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U04-s881",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U04-s947",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U05-s907",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U06-s857",
+    "taxonomy": "weak uplift uncertainty"
+  },
+  {
+    "pair_id": "v7-final-U06-s859",
+    "taxonomy": "weak uplift uncertainty"
+  },
+  {
+    "pair_id": "v7-final-U06-s911",
+    "taxonomy": "weak uplift uncertainty"
+  },
+  {
+    "pair_id": "v7-final-U07-s881",
+    "taxonomy": "conservative quantile bound"
+  },
+  {
+    "pair_id": "v7-final-U07-s883",
+    "taxonomy": "weak uplift uncertainty"
+  },
+  {
+    "pair_id": "v7-final-U07-s911",
+    "taxonomy": "weak uplift uncertainty"
+  },
+  {
+    "pair_id": "v7-final-U08-s857",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U08-s883",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U12-s877",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U12-s929",
+    "taxonomy": "penetration regime"
+  },
+  {
+    "pair_id": "v7-final-U13-s853",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U13-s857",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U13-s859",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U13-s863",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U13-s877",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U13-s907",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U13-s911",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U13-s919",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U13-s937",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U13-s947",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s863",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s877",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s881",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s883",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s887",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s911",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s919",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s929",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s941",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U14-s947",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U15-s881",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U15-s883",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U15-s907",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U16-s877",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U16-s883",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U16-s919",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U16-s929",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U16-s937",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U16-s941",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U18-s857",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U18-s859",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U18-s883",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U18-s887",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U18-s907",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U18-s919",
+    "taxonomy": "topology extrapolation"
+  },
+  {
+    "pair_id": "v7-final-U18-s937",
+    "taxonomy": "topology extrapolation"
+  }
+]

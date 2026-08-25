@@ -1,0 +1,137 @@
+[
+  {
+    "axis": "acceptance",
+    "count": 75,
+    "mean_relative_treatment_effect": -0.00690045134996738,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.28,
+    "structurally_negative_descriptive": true,
+    "value": "0.6"
+  },
+  {
+    "axis": "acceptance",
+    "count": 120,
+    "mean_relative_treatment_effect": -0.004437468185123817,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.375,
+    "structurally_negative_descriptive": true,
+    "value": "0.8"
+  },
+  {
+    "axis": "acceptance",
+    "count": 105,
+    "mean_relative_treatment_effect": -0.01263136218811968,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.3142857142857143,
+    "structurally_negative_descriptive": true,
+    "value": "1.0"
+  },
+  {
+    "axis": "demand_band",
+    "count": 120,
+    "mean_relative_treatment_effect": -0.028034319959260326,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.48333333333333334,
+    "structurally_negative_descriptive": true,
+    "value": "high"
+  },
+  {
+    "axis": "demand_band",
+    "count": 90,
+    "mean_relative_treatment_effect": 0.009811254036772257,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.15555555555555556,
+    "structurally_negative_descriptive": false,
+    "value": "low"
+  },
+  {
+    "axis": "demand_band",
+    "count": 90,
+    "mean_relative_treatment_effect": 0.0011642496509639746,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.3,
+    "structurally_negative_descriptive": false,
+    "value": "medium"
+  },
+  {
+    "axis": "penetration",
+    "count": 75,
+    "mean_relative_treatment_effect": 0.007073122473544798,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.22666666666666666,
+    "structurally_negative_descriptive": false,
+    "value": "0.25"
+  },
+  {
+    "axis": "penetration",
+    "count": 75,
+    "mean_relative_treatment_effect": -0.009291650190476737,
+    "median_relative_treatment_effect": 0.0024236548715462916,
+    "negative_effect_rate": 0.3466666666666667,
+    "structurally_negative_descriptive": true,
+    "value": "0.5"
+  },
+  {
+    "axis": "penetration",
+    "count": 75,
+    "mean_relative_treatment_effect": -0.02687495032911412,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.41333333333333333,
+    "structurally_negative_descriptive": true,
+    "value": "0.75"
+  },
+  {
+    "axis": "penetration",
+    "count": 75,
+    "mean_relative_treatment_effect": -0.0025908294634869864,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.3333333333333333,
+    "structurally_negative_descriptive": true,
+    "value": "1.0"
+  },
+  {
+    "axis": "topology",
+    "count": 60,
+    "mean_relative_treatment_effect": 0.017138011724048042,
+    "median_relative_treatment_effect": 0.00800808621378326,
+    "negative_effect_rate": 0.16666666666666666,
+    "structurally_negative_descriptive": false,
+    "value": "asymmetric"
+  },
+  {
+    "axis": "topology",
+    "count": 60,
+    "mean_relative_treatment_effect": 0.0009118755840297148,
+    "median_relative_treatment_effect": 0.0041234622303462885,
+    "negative_effect_rate": 0.4666666666666667,
+    "structurally_negative_descriptive": false,
+    "value": "merge"
+  },
+  {
+    "axis": "topology",
+    "count": 60,
+    "mean_relative_treatment_effect": 0.004887976829005176,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.06666666666666667,
+    "structurally_negative_descriptive": false,
+    "value": "real_like"
+  },
+  {
+    "axis": "topology",
+    "count": 60,
+    "mean_relative_treatment_effect": -0.06643957314765332,
+    "median_relative_treatment_effect": -0.0627285050051925,
+    "negative_effect_rate": 0.8666666666666667,
+    "structurally_negative_descriptive": true,
+    "value": "signalized"
+  },
+  {
+    "axis": "topology",
+    "count": 60,
+    "mean_relative_treatment_effect": 0.0038963246236540616,
+    "median_relative_treatment_effect": 0.0,
+    "negative_effect_rate": 0.08333333333333333,
+    "structurally_negative_descriptive": false,
+    "value": "two_route"
+  }
+]

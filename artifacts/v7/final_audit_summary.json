@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "analytical_precision_at_least_80": true,
+    "coverage_at_least_10": false,
+    "deployment_precision_at_least_80": false,
+    "failure_analysis_complete": true,
+    "final_micro_holdout_at_least_300": true,
+    "final_split_untouched": true,
+    "future_leakage_zero": true,
+    "interventions_at_least_30": false,
+    "orr_at_least_40": false,
+    "osm_interventions_positive": false,
+    "osm_safe_successes_positive": false,
+    "paired_sumo_development_at_least_1000": true,
+    "pairing_failures_zero": true,
+    "placebo_test_passed": true,
+    "precision_lower_ci_above_60": false,
+    "rl_used": false,
+    "safety_violations_zero": true,
+    "v6_frozen_evidence_preserved": true,
+    "v7_beats_v6_binary_selector": false,
+    "v7_post_freeze_hashes_immutable": true,
+    "v7_unit_and_contract_tests_pass": true
+  },
+  "complete": true,
+  "outcome": "Outcome F",
+  "rl_used": false,
+  "unit_test_output": ".............                                                            [100%]\n13 passed in 1.06s\n"
+}

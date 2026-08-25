@@ -1,0 +1,14 @@
+{
+  "claim_boundary": "negative regimes are descriptive within randomized synthetic SUMO conditions",
+  "complete": true,
+  "false_negative_count": 67,
+  "false_positive_count": 0,
+  "false_positive_taxonomy": {},
+  "missed_opportunity_taxonomy": {
+    "conservative quantile bound": 6,
+    "penetration regime": 18,
+    "topology extrapolation": 36,
+    "weak uplift uncertainty": 7
+  },
+  "structurally_negative_condition_count": 8
+}

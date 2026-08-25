@@ -109,6 +109,9 @@ def run() -> Path:
     negative_conditions = [
         row for row in negative if row["structurally_negative_descriptive"]
     ]
+    negative_labels = ", ".join(
+        f"{row['axis']}={row['value']}" for row in negative_conditions
+    )
     topology_lines = "\n".join(
         f"| {row['topology']} | {row['count']} | {row['mean']:.4f} | {row['median']:.4f} | {row['positive_rate']:.3f} |"
         for row in topology
@@ -146,9 +149,10 @@ violations. The 95% Wilson precision lower bound is **{primary['precision_wilson
 1. **Why was binary classification insufficient?** v6 collapses benefit magnitude, safety effect,
    and regret into one label. On the same v7 final holdout V6-Binary recovered
    {policies['V6-Binary']['opportunity_recovery_rate']:.3f} of safe opportunities, while the
-   continuous model can separately rank traffic benefit and veto safety/regret. The v7 result
-   shows whether that extra information translated into deployment gain without inferring it from
-   historical v6 numbers.
+   continuous model ranked traffic effects at Spearman
+   {micro['traffic_effect_metrics']['spearman']:.3f} and separately exposed poor safety-effect
+   transfer. That magnitude information was scientifically useful, but V7-F also recovered zero
+   opportunities: replacing the binary target did not by itself solve safe deployment.
 
 2. **How predictable was the continuous paired effect?** Final PEHE-like traffic-effect MAE was
    **{micro['traffic_effect_metrics']['mae']:.4f}**, RMSE **{micro['traffic_effect_metrics']['rmse']:.4f}**,
@@ -168,7 +172,8 @@ violations. The 95% Wilson precision lower bound is **{primary['precision_wilson
    holdout, V7-mean precision was **{policies['V7_mean']['deployment_precision']:.3f}**,
    bootstrap-quantile precision **{policies['V7_quantile']['deployment_precision']:.3f}**, and
    conformal precision **{policies['V7_conformal']['deployment_precision']:.3f}**. H38 is reported
-   strictly from these frozen comparisons.
+   strictly from these frozen comparisons; zero-intervention variants are not credited with
+   perfect precision.
 
 6. **Did treatment-effect selection improve ORR over v6?** V7-F ORR was
    **{primary['opportunity_recovery_rate']:.3f}** versus V6-Binary
@@ -186,12 +191,15 @@ violations. The 95% Wilson precision lower bound is **{primary['precision_wilson
 9. **Was positive uplift identified on real OSM geometry?** The frozen policy made
    **{osm['primary_metrics']['intervention_count']}** interventions and recovered
    **{osm['primary_metrics']['success_count']}** safe beneficial cases across
-   **{osm['od_pair_count']}** prespecified Gangnam OD pairs. Demand and preferences remain
+   **{osm['od_pair_count']}** prespecified Gangnam OD pairs, despite
+   **{osm['primary_metrics']['opportunity_count']}** paired counterfactual safe opportunities.
+   Demand and preferences remain
    synthetic; this is not an observed-Seoul causal claim.
 
 10. **Where was Adaptive structurally negative?** The condition analysis found
     **{len(negative_conditions)}** descriptive axis levels with negative mean paired effect.
-    These regimes are preserved in the failure artifact; plausible mechanisms include secondary
+    They were `{negative_labels}`. These regimes are preserved in the failure artifact;
+    plausible mechanisms include secondary
     bottlenecks, partial adoption mismatch, and topology transfer, but the mechanism labels are
     diagnostics rather than separately identified causal effects.
 

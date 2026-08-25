@@ -1,0 +1,119 @@
+{
+  "all_routes_legal": true,
+  "case_count": 512,
+  "complete": true,
+  "freeze_manifest_hash_after": "2a0402533fd994da80d70b7eb6561e510b4e8e97692960c6c88d6e913999ea91",
+  "freeze_manifest_hash_before": "2a0402533fd994da80d70b7eb6561e510b4e8e97692960c6c88d6e913999ea91",
+  "frozen_immutable": true,
+  "historical_analytical_calibration_reference": {
+    "bin_count": 10,
+    "brier_score": 0.08706664255288465,
+    "curve": [
+      {
+        "count": 311,
+        "lower": 0.0,
+        "mean_probability": 0.008100420479841702,
+        "observed_rate": 0.01607717041800643,
+        "upper": 0.1
+      },
+      {
+        "count": 17,
+        "lower": 0.1,
+        "mean_probability": 0.14814814814814814,
+        "observed_rate": 0.0,
+        "upper": 0.2
+      },
+      {
+        "count": 40,
+        "lower": 0.2,
+        "mean_probability": 0.2693421052631579,
+        "observed_rate": 0.35,
+        "upper": 0.30000000000000004
+      },
+      {
+        "count": 47,
+        "lower": 0.30000000000000004,
+        "mean_probability": 0.3399364147713378,
+        "observed_rate": 0.3191489361702128,
+        "upper": 0.4
+      },
+      {
+        "count": 6,
+        "lower": 0.4,
+        "mean_probability": 0.4166666666666667,
+        "observed_rate": 0.3333333333333333,
+        "upper": 0.5
+      },
+      {
+        "count": 26,
+        "lower": 0.5,
+        "mean_probability": 0.5,
+        "observed_rate": 0.34615384615384615,
+        "upper": 0.6000000000000001
+      },
+      {
+        "count": 15,
+        "lower": 0.6000000000000001,
+        "mean_probability": 0.6666666666666665,
+        "observed_rate": 0.6,
+        "upper": 0.7000000000000001
+      },
+      {
+        "count": 42,
+        "lower": 0.8,
+        "mean_probability": 0.882327399044724,
+        "observed_rate": 0.8571428571428571,
+        "upper": 0.9
+      },
+      {
+        "count": 8,
+        "lower": 0.9,
+        "mean_probability": 1.0,
+        "observed_rate": 0.75,
+        "upper": 1.0
+      }
+    ],
+    "ece": 0.034688214439243595,
+    "ece_definition": "sum_b (n_b/N) * abs(mean_probability_b-observed_rate_b)",
+    "evaluation_only": true,
+    "high_probability_around_0_8_count": 0,
+    "high_probability_around_0_8_observed_rate": null,
+    "protocol": "equal-width bins on [0,1]; empty bins omitted"
+  },
+  "historical_analytical_precision_at_least_80_percent": true,
+  "historical_v5_rd_reference_metrics": {
+    "case_count": 512,
+    "coverage": 0.09375,
+    "coverage_ci95": [
+      0.07144048271189146,
+      0.12211018506295077
+    ],
+    "failure_avoidance_rate": 0.9807692307692307,
+    "intervention_count": 48,
+    "intervention_precision": 0.8333333333333334,
+    "intervention_precision_ci95": [
+      0.7042217159874441,
+      0.9130448642351444
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 73.8385276860498,
+    "missed_opportunity_rate": 0.5833333333333334,
+    "population_benefit_rate": 0.078125,
+    "regret_violation_count": 0,
+    "safety_violation_count": 1,
+    "successful_intervention_count": 40
+  },
+  "label_counts": {
+    "INFEASIBLE": 15,
+    "TRADEOFF": 401,
+    "WIN": 96
+  },
+  "mean_reference_inference_seconds": 0.0008830398769531251,
+  "paired_effect_formula_failure_count": 0,
+  "positive_uplift_count": 100,
+  "rl_used": false,
+  "role": "analytical correctness and continuity diagnostic; actual SUMO is primary",
+  "seed_disjoint_from_micro_development": true,
+  "study": "v7 frozen analytical paired-effect correctness check",
+  "untouched_before_freeze": true
+}

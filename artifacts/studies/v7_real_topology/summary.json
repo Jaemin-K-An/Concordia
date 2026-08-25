@@ -1,0 +1,138 @@
+{
+  "actual_sumo_run_count_including_predecision_probes": 288,
+  "all_routes_legal": true,
+  "claim_boundary": "real road geometry with synthetic OD demand and preferences; not observed Seoul traffic",
+  "complete": true,
+  "freeze_manifest_hash_after": "2a0402533fd994da80d70b7eb6561e510b4e8e97692960c6c88d6e913999ea91",
+  "freeze_manifest_hash_before": "2a0402533fd994da80d70b7eb6561e510b4e8e97692960c6c88d6e913999ea91",
+  "frozen_immutable": true,
+  "intervention_target_met": false,
+  "od_pair_count": 12,
+  "od_pairs": [
+    {
+      "destination": "cluster_1326174741_5376448906",
+      "maximum_overlap": 0.4166666666666667,
+      "mean_overlap": 0.1388888888888889,
+      "origin": "1430656073",
+      "overlap_class": "low",
+      "stratum_rank": 1
+    },
+    {
+      "destination": "1430674331",
+      "maximum_overlap": 0.25,
+      "mean_overlap": 0.13888888888888887,
+      "origin": "1430656073",
+      "overlap_class": "low",
+      "stratum_rank": 2
+    },
+    {
+      "destination": "cluster_1326174741_5376448906",
+      "maximum_overlap": 0.3076923076923077,
+      "mean_overlap": 0.1358974358974359,
+      "origin": "1430656078",
+      "overlap_class": "low",
+      "stratum_rank": 3
+    },
+    {
+      "destination": "2477255859",
+      "maximum_overlap": 0.25,
+      "mean_overlap": 0.16477272727272727,
+      "origin": "1430656078",
+      "overlap_class": "low",
+      "stratum_rank": 4
+    },
+    {
+      "destination": "9889607763",
+      "maximum_overlap": 0.8285714285714286,
+      "mean_overlap": 0.4984126984126984,
+      "origin": "10220955574",
+      "overlap_class": "medium",
+      "stratum_rank": 1
+    },
+    {
+      "destination": "1430655021",
+      "maximum_overlap": 0.6153846153846154,
+      "mean_overlap": 0.50402359174289,
+      "origin": "1430656073",
+      "overlap_class": "medium",
+      "stratum_rank": 2
+    },
+    {
+      "destination": "4182408150",
+      "maximum_overlap": 0.6666666666666666,
+      "mean_overlap": 0.5040849673202614,
+      "origin": "3827606156",
+      "overlap_class": "medium",
+      "stratum_rank": 3
+    },
+    {
+      "destination": "3827606156",
+      "maximum_overlap": 0.5833333333333334,
+      "mean_overlap": 0.492979242979243,
+      "origin": "2477260916",
+      "overlap_class": "medium",
+      "stratum_rank": 4
+    },
+    {
+      "destination": "2280678728",
+      "maximum_overlap": 0.8846153846153846,
+      "mean_overlap": 0.7840161116023184,
+      "origin": "1326174782",
+      "overlap_class": "high",
+      "stratum_rank": 1
+    },
+    {
+      "destination": "1326174782",
+      "maximum_overlap": 0.8148148148148148,
+      "mean_overlap": 0.7769812823576263,
+      "origin": "1906756396",
+      "overlap_class": "high",
+      "stratum_rank": 2
+    },
+    {
+      "destination": "2280678728",
+      "maximum_overlap": 0.8928571428571429,
+      "mean_overlap": 0.7762990624503416,
+      "origin": "4182408150",
+      "overlap_class": "high",
+      "stratum_rank": 3
+    },
+    {
+      "destination": "2280678728",
+      "maximum_overlap": 0.88,
+      "mean_overlap": 0.775934065934066,
+      "origin": "2477260919",
+      "overlap_class": "high",
+      "stratum_rank": 4
+    }
+  ],
+  "overlap_stratum_counts": {
+    "high": 4,
+    "low": 4,
+    "medium": 4
+  },
+  "paired_condition_count": 96,
+  "primary_metrics": {
+    "coverage": 0.0,
+    "deployment_precision": 0.0,
+    "failure_count": 0,
+    "false_safe_rate": 0.0,
+    "intervention_count": 0,
+    "mean_selected_relative_uplift": 0.0,
+    "opportunity_count": 17,
+    "opportunity_recovery_rate": 0.0,
+    "precision_wilson_95_lower": 0.0,
+    "precision_wilson_95_upper": 1.0,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "sample_count": 96,
+    "success_count": 0,
+    "uplift_precision": 0.0
+  },
+  "real_geometry_synthetic_demand": true,
+  "rl_used": false,
+  "safe_success_target_met": false,
+  "source_osm_sha256": "b0388e6871d9fdf6529afc2ddf493fcb363213aa23d53af560b2a1b50c854525",
+  "study": "v7 frozen 12-OD real OSM geometry uplift transfer",
+  "sumo_network_sha256": "8ac780daa3fdbb444f1c067352d6393fda30033b7ac6baaea354f603aa5928ea"
+}

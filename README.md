@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
-  <strong>SUMO-native, safety-gated selective adaptive navigation.</strong><br />
-  Predict SafeMicroSuccess from pre-decision traffic state—or preserve the ETA baseline when the evidence is insufficient.
+  <strong>Counterfactual uplift-guided, safety-gated adaptive navigation.</strong><br />
+  Predict the paired effect of intervening—or preserve the ETA baseline when the evidence is insufficient.
 </p>
 
 <p align="center">
   <img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-111111?style=flat-square" />
   <img alt="SUMO 1.27.1" src="https://img.shields.io/badge/SUMO-1.27.1-404040?style=flat-square" />
-  <img alt="Tests 77 passing" src="https://img.shields.io/badge/tests-77%20passing-111111?style=flat-square" />
-  <img alt="Selective v6 Outcome F" src="https://img.shields.io/badge/selective%20v6-Outcome%20F-a43f32?style=flat-square" />
+  <img alt="Tests 90 passing" src="https://img.shields.io/badge/tests-90%20passing-111111?style=flat-square" />
+  <img alt="Uplift v7 Outcome F" src="https://img.shields.io/badge/uplift%20v7-Outcome%20F-a43f32?style=flat-square" />
   <img alt="RL gate Outcome B" src="https://img.shields.io/badge/RL%20gate-Outcome%20B-737373?style=flat-square" />
 </p>
 
@@ -28,18 +28,19 @@
 > [!IMPORTANT]
 > CONCORDIA recommends legal routes using truthful computed attributes. It never controls
 > speed, steering, acceleration, or lane changes. A route is changed only after the modeled
-> user explicitly accepts the offer. v6 predicts the joint SafeMicroSuccess label from 49 strictly
-> pre-decision features and otherwise leaves the ETA baseline route unchanged. Development
-> validation found no non-empty point satisfying precision ≥80% with zero safety violations, so
-> the frozen v6 package safely abstains. Its final result is Outcome F, not a deployment claim.
+> user explicitly accepts the offer. v7 predicts paired traffic and safety treatment effects plus
+> maximum regret from 54 strictly pre-decision features. It intervenes only when the traffic-effect
+> lower bound exceeds 1%, the safety-effect upper bound is at most 0.25, predicted regret is at
+> most 0.08, and the route is legal. Development validation found no eligible non-empty point, so
+> the frozen package safely abstains. Its final result is Outcome F, not a deployment claim.
 
 ## System
 
-CONCORDIA v6 asks whether an actual-SUMO-native classifier can recover safe microscopic
-opportunities that v5 missed while retaining at least 80% precision and zero safety violations.
-It uses analytical prediction only as a recall-oriented screening feature, learns the joint
-SafeMicroSuccess outcome directly, compares composite and independent safety-veto architectures,
-and otherwise falls back to B1.
+CONCORDIA v7 asks a counterfactual question: for this pre-decision state, how much would applying
+Adaptive Navigation change total travel time, safety-tail risk, and affected-user regret compared
+with the B1 ETA baseline? It estimates these effects from common-random-number paired SUMO runs,
+uses conservative lower/upper uncertainty bounds, and otherwise falls back to B1. The previous
+SafeMicroSuccess binary label remains an evaluation diagnostic rather than the primary selector.
 
 | Behavioral layer | Adaptive layer | Research layer |
 |---|---|---|
@@ -82,15 +83,27 @@ and otherwise falls back to B1.
   candidates; Platt/isotonic/beta calibration; classical and conformal selective frontiers.
 - Five frozen v6 packages plus a code/artifact checksum manifest created before 512 analytical,
   200 microscopic, and 80 real-OSM paired final conditions were materialized.
+- A 54-feature v7 pre-decision schema, adding route disjointness, alternative count, preference
+  entropy, asymmetric topology, and the historical v6 score without making either historical
+  model score a primary decision rule.
+- 1,200 paired development cases: 800 immutable v6 pairs promoted to historical development plus
+  400 newly generated v7 actual-SUMO pairs, split by seed family into 720/180/300
+  train/calibration/validation cases with zero pairing or future-state leakage failures.
+- Direct paired, T-, S-, X-, and paired-DR formulations with Ridge, ElasticNet, random forest,
+  gradient boosting, direct pinball quantiles, bootstrap intervals, and conformalized residuals.
+- Paired placebo, zero-effect and strong-effect fixtures, effect calibration, PEHE-like error,
+  sign accuracy, cumulative gain, ablations, and topology/demand/penetration family holdouts.
+- Five frozen v7 YAML packages plus a manifest covering features, outcomes, split, learned models,
+  intervals, thresholds, policy code, and all development artifacts before any v7 final evidence.
 
 ## Architecture
 
 ```mermaid
 flowchart LR
     A["Topology · demand · preferences"] --> B["30 s pre-decision SUMO state"]
-    B --> C["49-feature v6 schema"]
-    C --> D["Calibrated SafeMicroSuccess · benefit · safety veto"]
-    D --> E{"Frozen precision and safety gates pass?"}
+    B --> C["54-feature v7 schema"]
+    C --> D["Traffic LCB · safety UCB · regret UCB"]
+    D --> E{"All frozen counterfactual gates pass?"}
     E -->|"no"| F["B1 ETA baseline · abstain"]
     E -->|"yes"| G["B6 voluntary route offer"]
     G --> H{"User accepts?"}
@@ -189,6 +202,26 @@ make v6-real-topology
 make v6-failure-analysis
 make v6-report
 make v6-final-audit
+
+# v7 counterfactual-uplift preregistered sequence
+make v7-audit
+make v7-paired-dataset
+make v7-effect-labels
+make v7-train-uplift
+make v7-train-safety-effect
+make v7-train-regret
+make v7-quantiles
+make v7-conformal
+make v7-validate
+make v7-placebo
+make v7-ablation
+make v7-freeze
+make v7-microscopic-holdout
+make v7-analytical-check
+make v7-real-topology
+make v7-failure-analysis
+make v7-report
+make v7-final-audit
 ```
 
 Install the official SUMO/TraCI optional dependencies before microscopic validation:
@@ -201,6 +234,39 @@ The fast test suite does not open SUMO. CI separates analytical, microscopic, an
 dispatched research-matrix workflows.
 
 ## Research status
+
+v7 used **1,200 paired development cases / 2,400 underlying actual SUMO runs**, including 221
+SafeMicroSuccess diagnostics. Direct paired random-forest regression beat the more elaborate
+T/S/X/paired-DR candidates on validation (MAE **0.0254**, RMSE **0.0388**, Spearman **0.459**).
+The target-permutation placebo collapsed Spearman to **0.010**, so a continuous traffic-effect
+signal existed. It was not strong or safe enough for deployment: no non-empty validation point
+satisfied precision ≥80%, zero safety violations, and support ≥15. The pre-registered fallback
+therefore froze safe abstention before any v7 final data was materialized.
+
+On the **300-pair untouched microscopic holdout**, 67 counterfactual safe opportunities existed.
+Traffic-effect MAE was **0.0280**, sign accuracy **52.3%**, and Spearman **0.482**; safety-effect
+MAE was **1.095**. Frozen V7-F intervened zero times: precision 0 by non-empty-claim convention,
+coverage 0, ORR 0, and zero safety violations. The diagnostic mean-effect selector made 26
+interventions at 65.4% precision but incurred two safety violations, confirming why it could not
+replace the frozen interval policy. Always-on B6 had 22.3% precision and 48 safety violations.
+
+The real-topology bridge used **12 prespecified Gangnam OSM OD pairs**, 96 paired conditions, and
+288 SUMO runs including pre-decision probes. Seventeen counterfactual safe opportunities existed;
+V7-F safely abstained from all of them. The final decision is **Outcome F**. See the
+[v7 final research report](reports/v7_final_report.md) and [final audit](FINAL_AUDIT_V7.md).
+
+| v7 hypothesis | Status | Finding |
+|---|---|---|
+| H37 · Treatment effects improve Coverage@Precision80 over v6 | **FAIL** | V7-F and V6-Binary both had zero final coverage. |
+| H38 · Conservative quantiles improve precision over mean effects | **FAIL** | Quantile selection was empty; mean selection reached 65.4% but had two safety violations. |
+| H39 · Safety-effect modeling reduces false-safe interventions | **NOT ESTIMABLE / FAIL** | Frozen V7-T and V7-TS were both empty; safety-effect MAE remained 1.095. |
+| H40 · v7 improves microscopic ORR over v6 | **FAIL** | Both frozen selectors had final ORR 0. |
+| H41 · Final microscopic precision ≥80% | **FAIL** | No non-empty policy was frozen. |
+| H42 · Final microscopic coverage ≥10% | **FAIL** | Frozen coverage was 0. |
+| H43 · Final microscopic safety violations are zero | **PASS** | Safe abstention executed only B1. |
+| H44 · At least one safe OSM intervention | **FAIL** | 0 interventions and 0 recovered safe successes. |
+
+### Preserved v6 outcome
 
 v6 used **600 paired development cases / 1,200 actual SUMO runs**, including 101
 SafeMicroSuccess labels. No non-empty validation operating point satisfied both 80% precision and

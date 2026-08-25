@@ -1,0 +1,841 @@
+{
+  "false_negative_count": 67,
+  "false_negatives": [
+    {
+      "pair_id": "v7-final-U01-s887",
+      "predicted_relative_uplift": 0.007670921287264127,
+      "realized_relative_uplift": 0.14945200929923613,
+      "regret": 0.004973205728537405,
+      "safety_effect": -4.750296087728382,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U01-s877",
+      "predicted_relative_uplift": 0.010234729703504843,
+      "realized_relative_uplift": 0.14619883040935672,
+      "regret": 0.0011549216565158935,
+      "safety_effect": -1.102132827228209,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U02-s929",
+      "predicted_relative_uplift": 0.0024999050551813428,
+      "realized_relative_uplift": 0.1442356526155409,
+      "regret": 0.0,
+      "safety_effect": -1.6785951248100641,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U13-s853",
+      "predicted_relative_uplift": 0.004492238929094836,
+      "realized_relative_uplift": 0.1140215716486903,
+      "regret": 0.0,
+      "safety_effect": -0.4940789396347254,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U02-s941",
+      "predicted_relative_uplift": -0.0016998977576305322,
+      "realized_relative_uplift": 0.1111689664149961,
+      "regret": 0.012544208461419154,
+      "safety_effect": -2.146353554886013,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U01-s929",
+      "predicted_relative_uplift": 0.01627918890662169,
+      "realized_relative_uplift": 0.10848056537102474,
+      "regret": 0.0,
+      "safety_effect": -2.1025502706049286,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U13-s877",
+      "predicted_relative_uplift": 0.00645170741911024,
+      "realized_relative_uplift": 0.10190518387239698,
+      "regret": 0.018445160835738536,
+      "safety_effect": -0.2574602023549012,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U14-s887",
+      "predicted_relative_uplift": 0.01064897100237184,
+      "realized_relative_uplift": 0.10148098283406261,
+      "regret": 0.023034680414717,
+      "safety_effect": -0.10308557566023913,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U15-s883",
+      "predicted_relative_uplift": 0.004052420473233326,
+      "realized_relative_uplift": 0.09225225225225225,
+      "regret": 0.014081422671955265,
+      "safety_effect": -1.1275689588109705,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U16-s883",
+      "predicted_relative_uplift": 0.006258241759984584,
+      "realized_relative_uplift": 0.08781226343679031,
+      "regret": 0.0012809036440730032,
+      "safety_effect": -0.08304802072763717,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U14-s881",
+      "predicted_relative_uplift": 0.010186634705881003,
+      "realized_relative_uplift": 0.08625120462576293,
+      "regret": 0.022403050005892794,
+      "safety_effect": -0.14402715786842202,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U14-s883",
+      "predicted_relative_uplift": 0.011352261142293672,
+      "realized_relative_uplift": 0.08284616669450476,
+      "regret": 0.00595640170039171,
+      "safety_effect": -1.1753989260295978,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U04-s881",
+      "predicted_relative_uplift": -0.05631738263771047,
+      "realized_relative_uplift": 0.08212134567357132,
+      "regret": 0.04525376735119516,
+      "safety_effect": -0.04785985689317518,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U01-s947",
+      "predicted_relative_uplift": 0.00823775035080575,
+      "realized_relative_uplift": 0.08061807188444743,
+      "regret": 0.012762555531411614,
+      "safety_effect": -1.144769890683968,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U01-s911",
+      "predicted_relative_uplift": 0.014172174405381172,
+      "realized_relative_uplift": 0.06854838709677419,
+      "regret": 0.010510085150838566,
+      "safety_effect": -1.6247171755948895,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U01-s941",
+      "predicted_relative_uplift": 0.012925935570076067,
+      "realized_relative_uplift": 0.06835066864784546,
+      "regret": 0.012251322975221402,
+      "safety_effect": -2.3283585249920677,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U01-s859",
+      "predicted_relative_uplift": 0.020805793162468427,
+      "realized_relative_uplift": 0.06485724356714839,
+      "regret": 0.0007116402096632307,
+      "safety_effect": -0.9920978187947465,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U13-s907",
+      "predicted_relative_uplift": 0.005581649941333495,
+      "realized_relative_uplift": 0.06391478029294274,
+      "regret": 0.0,
+      "safety_effect": -0.6615033103871901,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U04-s857",
+      "predicted_relative_uplift": -0.054079551862230256,
+      "realized_relative_uplift": 0.061979500320307496,
+      "regret": 0.06195969360746779,
+      "safety_effect": -0.3064098383637308,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U18-s907",
+      "predicted_relative_uplift": 0.0010318601588040109,
+      "realized_relative_uplift": 0.06058703500235442,
+      "regret": 0.04111736349294036,
+      "safety_effect": -0.1048392074976543,
+      "topology": "real_like"
+    },
+    {
+      "pair_id": "v7-final-U18-s857",
+      "predicted_relative_uplift": -0.000171084364374152,
+      "realized_relative_uplift": 0.05710206995003569,
+      "regret": 0.0,
+      "safety_effect": -0.5354612354473043,
+      "topology": "real_like"
+    },
+    {
+      "pair_id": "v7-final-U01-s881",
+      "predicted_relative_uplift": 0.003116093473256164,
+      "realized_relative_uplift": 0.056528081692195475,
+      "regret": 0.0,
+      "safety_effect": -2.0934174357213573,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U02-s853",
+      "predicted_relative_uplift": -0.008396415318764191,
+      "realized_relative_uplift": 0.05360043313481321,
+      "regret": 0.024489868304273323,
+      "safety_effect": -0.3770352050262098,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U18-s919",
+      "predicted_relative_uplift": 0.0011258773300651733,
+      "realized_relative_uplift": 0.05277337559429477,
+      "regret": 0.06103122197094137,
+      "safety_effect": -0.19009511335435736,
+      "topology": "real_like"
+    },
+    {
+      "pair_id": "v7-final-U03-s887",
+      "predicted_relative_uplift": -0.048857514931399164,
+      "realized_relative_uplift": 0.0521882062872406,
+      "regret": 0.07130505125761047,
+      "safety_effect": -0.938803432914014,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U16-s877",
+      "predicted_relative_uplift": 0.006206479489917246,
+      "realized_relative_uplift": 0.05160581937963217,
+      "regret": 0.004409942421994398,
+      "safety_effect": -0.7112917506270384,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U14-s877",
+      "predicted_relative_uplift": 0.01158765288707399,
+      "realized_relative_uplift": 0.05109157064887811,
+      "regret": 0.018859636300263563,
+      "safety_effect": -0.05768643354939851,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U18-s937",
+      "predicted_relative_uplift": 0.0010823860662810155,
+      "realized_relative_uplift": 0.04995021573182874,
+      "regret": 0.004291923447013846,
+      "safety_effect": 0.0864808056520574,
+      "topology": "real_like"
+    },
+    {
+      "pair_id": "v7-final-U13-s857",
+      "predicted_relative_uplift": 0.0033410401983660363,
+      "realized_relative_uplift": 0.04965959150981177,
+      "regret": 0.06741199352146927,
+      "safety_effect": -0.16749908669986957,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U01-s907",
+      "predicted_relative_uplift": 0.014171885735088392,
+      "realized_relative_uplift": 0.04706298655343241,
+      "regret": 0.013911992567975647,
+      "safety_effect": -0.48153037512944863,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U14-s947",
+      "predicted_relative_uplift": 0.015387411151099881,
+      "realized_relative_uplift": 0.04668435013262599,
+      "regret": 0.014450688059892098,
+      "safety_effect": -0.7780540403159373,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U14-s929",
+      "predicted_relative_uplift": 0.012824312612004354,
+      "realized_relative_uplift": 0.04142516195022162,
+      "regret": 0.024439735808189308,
+      "safety_effect": -0.10037077869472522,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U02-s911",
+      "predicted_relative_uplift": -0.014411863678326675,
+      "realized_relative_uplift": 0.03543831601385558,
+      "regret": 0.03786839362899586,
+      "safety_effect": -0.8645991750394302,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U18-s887",
+      "predicted_relative_uplift": 0.0007855489591060094,
+      "realized_relative_uplift": 0.03469387755102041,
+      "regret": 0.03075402881264168,
+      "safety_effect": -0.44032471471756196,
+      "topology": "real_like"
+    },
+    {
+      "pair_id": "v7-final-U13-s859",
+      "predicted_relative_uplift": 0.0036405966884170238,
+      "realized_relative_uplift": 0.03341067285382831,
+      "regret": 0.039399602799358335,
+      "safety_effect": -0.7570865298307825,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U13-s947",
+      "predicted_relative_uplift": 0.005177236148092384,
+      "realized_relative_uplift": 0.031341821743388835,
+      "regret": 0.0,
+      "safety_effect": -0.2058818234801605,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U04-s947",
+      "predicted_relative_uplift": -0.047282380970717006,
+      "realized_relative_uplift": 0.03096026490066225,
+      "regret": 0.07581841875973919,
+      "safety_effect": -0.14649673331132163,
+      "topology": "merge"
+    },
+    {
+      "pair_id": "v7-final-U07-s881",
+      "predicted_relative_uplift": -0.0022747440002038257,
+      "realized_relative_uplift": 0.030520278574354773,
+      "regret": 0.016108128798598756,
+      "safety_effect": 0.16440698126863018,
+      "topology": "two_route"
+    },
+    {
+      "pair_id": "v7-final-U06-s857",
+      "predicted_relative_uplift": -0.00028898315808022944,
+      "realized_relative_uplift": 0.027294621354027295,
+      "regret": 0.006829733116787966,
+      "safety_effect": -0.251932751284647,
+      "topology": "two_route"
+    },
+    {
+      "pair_id": "v7-final-U16-s929",
+      "predicted_relative_uplift": 0.006120502517128739,
+      "realized_relative_uplift": 0.02621951219512195,
+      "regret": 0.010138192092733596,
+      "safety_effect": -0.39202907868362036,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U06-s859",
+      "predicted_relative_uplift": -0.002131948031848069,
+      "realized_relative_uplift": 0.025974025974025976,
+      "regret": 0.0077959541110303315,
+      "safety_effect": -1.3627715782818433,
+      "topology": "two_route"
+    },
+    {
+      "pair_id": "v7-final-U14-s911",
+      "predicted_relative_uplift": 0.012364475303850802,
+      "realized_relative_uplift": 0.025776602775941838,
+      "regret": 0.007373569999602481,
+      "safety_effect": -0.9197631731912972,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U16-s919",
+      "predicted_relative_uplift": 0.005176068930467539,
+      "realized_relative_uplift": 0.025364431486880466,
+      "regret": 0.007520181396342002,
+      "safety_effect": -0.26425176015440255,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U13-s911",
+      "predicted_relative_uplift": 0.006006677574171358,
+      "realized_relative_uplift": 0.02535421327367636,
+      "regret": 0.0,
+      "safety_effect": -0.6349032424026555,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U16-s937",
+      "predicted_relative_uplift": 0.002361293800372072,
+      "realized_relative_uplift": 0.025308641975308643,
+      "regret": 0.0,
+      "safety_effect": -1.342693775889813,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U14-s919",
+      "predicted_relative_uplift": 0.011131494099130503,
+      "realized_relative_uplift": 0.02502218278615794,
+      "regret": 0.0,
+      "safety_effect": -1.188397669161379,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U13-s919",
+      "predicted_relative_uplift": 0.005768967552735187,
+      "realized_relative_uplift": 0.02501238236750867,
+      "regret": 0.06118609444941593,
+      "safety_effect": -0.7941828994792615,
+      "topology": "asymmetric"
+    },
+    {
+      "pair_id": "v7-final-U18-s859",
+      "predicted_relative_uplift": 0.0021661479121402997,
+      "realized_relative_uplift": 0.023422053231939164,
+      "regret": 0.06660321849994089,
+      "safety_effect": -0.34727113818931654,
+      "topology": "real_like"
+    },
+    {
+      "pair_id": "v7-final-U07-s883",
+      "predicted_relative_uplift": 0.0036509865114874008,
+      "realized_relative_uplift": 0.02247696111485727,
+      "regret": 0.040530466625575245,
+      "safety_effect": -0.2085691648855864,
+      "topology": "two_route"
+    },
+    {
+      "pair_id": "v7-final-U08-s857",
+      "predicted_relative_uplift": 0.0026004800175316177,
+      "realized_relative_uplift": 0.02141802067946824,
+      "regret": 0.011873506611853268,
+      "safety_effect": -0.3736761857050461,
+      "topology": "two_route"
+    }
+  ],
+  "false_positive_count": 0,
+  "false_positives": [],
+  "scenario_cells": [
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 5,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 5,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 5,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 0,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 3,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 3,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 2,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 2,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 1,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 1,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 12,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 0,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 1,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 1,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 1,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 1,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 4,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 4,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 5,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 0,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 4,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 4,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 2,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 2,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 3,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 3,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 9,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 0,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 2,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 2,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 1,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 1,
+      "topology": "asymmetric"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 1,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 0,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 11,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 0,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 1,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 1,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 2,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 1,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 1,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 1,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 5,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 0,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 8,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 8,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 1,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 1,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 3,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 1,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 10,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 0,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 2,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 2,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 3,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 2,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 7,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 0,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 5,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 3,
+      "topology": "merge"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 15,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 0,
+      "topology": "real_like"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 15,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 0,
+      "topology": "real_like"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 3,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 3,
+      "topology": "real_like"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 8,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 0,
+      "topology": "real_like"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 3,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 3,
+      "topology": "real_like"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 1,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 1,
+      "topology": "real_like"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 15,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 0,
+      "topology": "real_like"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 15,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 0,
+      "topology": "signalized"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 15,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 0,
+      "topology": "signalized"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 15,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 0,
+      "topology": "signalized"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 10,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 0,
+      "topology": "signalized"
+    },
+    {
+      "benefit_magnitude_bin": "strong_above_5_percent",
+      "count": 2,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 0,
+      "topology": "signalized"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 3,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 2,
+      "topology": "signalized"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 4,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 3,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 10,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 0,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 1,
+      "perturbation": "medium",
+      "selected": 0,
+      "success": 0,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 2,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 2,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 12,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 0,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 1,
+      "perturbation": "none",
+      "selected": 0,
+      "success": 1,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "moderate_2_to_5_percent",
+      "count": 1,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 1,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 13,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 0,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 1,
+      "perturbation": "strong",
+      "selected": 0,
+      "success": 1,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "non_positive_or_below_minimum",
+      "count": 14,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 0,
+      "topology": "two_route"
+    },
+    {
+      "benefit_magnitude_bin": "weak_1_to_2_percent",
+      "count": 1,
+      "perturbation": "weak",
+      "selected": 0,
+      "success": 1,
+      "topology": "two_route"
+    }
+  ]
+}
