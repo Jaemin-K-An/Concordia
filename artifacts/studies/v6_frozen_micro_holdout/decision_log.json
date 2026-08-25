@@ -1,0 +1,2002 @@
+[
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T01-s607",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T01-s613",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T01-s617",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T01-s619",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T01-s631",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T01-s641",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T01-s643",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T01-s647",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T01-s653",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T01-s659",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T02-s607",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T02-s613",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T02-s617",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T02-s619",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T02-s631",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T02-s641",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T02-s643",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T02-s647",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T02-s653",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T02-s659",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3333333333333333,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T03-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T03-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T03-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T03-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T03-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.4166666666666667,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T03-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.25
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T03-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T03-s647",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T03-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.4166666666666667,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T03-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T04-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T04-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T04-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T04-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T04-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T04-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T04-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T04-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T04-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T04-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.3333333333333333,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s607",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s613",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s617",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s619",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s631",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s641",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s643",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s647",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s653",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T05-s659",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.041666666666666664,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T06-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.041666666666666664,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T06-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T06-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.041666666666666664,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T06-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.041666666666666664,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T06-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.041666666666666664,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T06-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.041666666666666664,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T06-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.041666666666666664,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T06-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.041666666666666664,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T06-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.041666666666666664,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T06-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T07-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.3333333333333333,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T07-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T07-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T07-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T07-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T07-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T07-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T07-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T07-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.2894736842105263,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T07-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T08-s607",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.4166666666666667,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T08-s613",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3333333333333333,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T08-s617",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T08-s619",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T08-s631",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.4166666666666667,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T08-s641",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T08-s643",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T08-s647",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T08-s653",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T08-s659",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T09-s607",
+    "composite_probability": 0.3333333333333333,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T09-s613",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T09-s617",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.25
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T09-s619",
+    "composite_probability": 0.3333333333333333,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.25
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T09-s631",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T09-s641",
+    "composite_probability": 0.3333333333333333,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T09-s643",
+    "composite_probability": 0.3333333333333333,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T09-s647",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T09-s653",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T09-s659",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.4166666666666667,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T10-s607",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T10-s613",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3333333333333333,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T10-s617",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T10-s619",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T10-s631",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T10-s641",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.4166666666666667,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T10-s643",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3333333333333333,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T10-s647",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.25
+  },
+  {
+    "analytical_probability": 0.4166666666666667,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T10-s653",
+    "composite_probability": 0.3333333333333333,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.4166666666666667,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T10-s659",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T11-s607",
+    "composite_probability": 0.0,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T11-s613",
+    "composite_probability": 0.0,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T11-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T11-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T11-s631",
+    "composite_probability": 0.0,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T11-s641",
+    "composite_probability": 0.0,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T11-s643",
+    "composite_probability": 0.0,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T11-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T11-s653",
+    "composite_probability": 0.0,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T11-s659",
+    "composite_probability": 0.0,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T12-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T12-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T12-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T12-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T12-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T12-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T12-s643",
+    "composite_probability": 0.0,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T12-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T12-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T12-s659",
+    "composite_probability": 0.0,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T13-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T13-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T13-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T13-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T13-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T13-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T13-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T13-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T13-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T13-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.25
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T14-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 1.0
+  },
+  {
+    "analytical_probability": 0.2,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T14-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T14-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.2,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T14-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.2,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T14-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.2,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T14-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T14-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T14-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T14-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T14-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T15-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T15-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T15-s617",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T15-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T15-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T15-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.07692307692307693,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T15-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.25
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T15-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T15-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.6153846153846154
+  },
+  {
+    "analytical_probability": 0.8571428571428571,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T15-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T16-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T16-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T16-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T16-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T16-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T16-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T16-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T16-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T16-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.14814814814814814,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T16-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T17-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T17-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.3333333333333333,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T17-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3333333333333333,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T17-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T17-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T17-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T17-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.4166666666666667,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T17-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T17-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T17-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T18-s607",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T18-s613",
+    "composite_probability": 0.3333333333333333,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T18-s617",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T18-s619",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T18-s631",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T18-s641",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T18-s643",
+    "composite_probability": 0.3333333333333333,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T18-s647",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T18-s653",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T18-s659",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T19-s607",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T19-s613",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T19-s617",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T19-s619",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T19-s631",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T19-s641",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T19-s643",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T19-s647",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.0,
+    "case_id": "v6-final-T19-s653",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.13333333333333333,
+    "case_id": "v6-final-T19-s659",
+    "composite_probability": 0.07692307692307693,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T20-s607",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T20-s613",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T20-s617",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T20-s619",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T20-s631",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T20-s641",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4782608695652174
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-final-T20-s643",
+    "composite_probability": 0.3333333333333333,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.1724137931034483,
+    "case_id": "v6-final-T20-s647",
+    "composite_probability": 0.1111111111111111,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-final-T20-s653",
+    "composite_probability": 0.3333333333333333,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.25
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.18181818181818182,
+    "case_id": "v6-final-T20-s659",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  }
+]

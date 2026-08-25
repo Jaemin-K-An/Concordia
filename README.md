@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
-  <strong>Regime-conditioned, shift-aware selective adaptive navigation.</strong><br />
-  Estimate analytical and microscopic success, benefit, and safety—then abstain outside the frozen frontier.
+  <strong>SUMO-native, safety-gated selective adaptive navigation.</strong><br />
+  Predict SafeMicroSuccess from pre-decision traffic state—or preserve the ETA baseline when the evidence is insufficient.
 </p>
 
 <p align="center">
   <img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-111111?style=flat-square" />
   <img alt="SUMO 1.27.1" src="https://img.shields.io/badge/SUMO-1.27.1-404040?style=flat-square" />
-  <img alt="Tests 68 passing" src="https://img.shields.io/badge/tests-68%20passing-111111?style=flat-square" />
-  <img alt="Selective v5 Outcome F" src="https://img.shields.io/badge/selective%20v5-Outcome%20F-a43f32?style=flat-square" />
+  <img alt="Tests 77 passing" src="https://img.shields.io/badge/tests-77%20passing-111111?style=flat-square" />
+  <img alt="Selective v6 Outcome F" src="https://img.shields.io/badge/selective%20v6-Outcome%20F-a43f32?style=flat-square" />
   <img alt="RL gate Outcome B" src="https://img.shields.io/badge/RL%20gate-Outcome%20B-737373?style=flat-square" />
 </p>
 
@@ -28,17 +28,18 @@
 > [!IMPORTANT]
 > CONCORDIA recommends legal routes using truthful computed attributes. It never controls
 > speed, steering, acceleration, or lane changes. A route is changed only after the modeled
-> user explicitly accepts the offer. If regime, shift, analytical benefit, microscopic transfer,
-> or safety gates fail, v5 leaves the ETA baseline route unchanged. The frozen v5 candidate is
-> rejected for deployment: analytical coverage missed 15%, and the final actual-SUMO holdout
-> contained a surrogate safety violation.
+> user explicitly accepts the offer. v6 predicts the joint SafeMicroSuccess label from 49 strictly
+> pre-decision features and otherwise leaves the ETA baseline route unchanged. Development
+> validation found no non-empty point satisfying precision ≥80% with zero safety violations, so
+> the frozen v6 package safely abstains. Its final result is Outcome F, not a deployment claim.
 
 ## System
 
-CONCORDIA v5 asks whether regime conditioning and an explicit analytical-to-microscopic bridge can
-retain at least 80% analytical intervention precision without repeating v4's global-policy failure.
-It learns control/structure regimes, scores distribution shift, corrects predicted benefit in the
-SUMO domain, applies a bootstrap safety UCB veto, and otherwise falls back to B1.
+CONCORDIA v6 asks whether an actual-SUMO-native classifier can recover safe microscopic
+opportunities that v5 missed while retaining at least 80% precision and zero safety violations.
+It uses analytical prediction only as a recall-oriented screening feature, learns the joint
+SafeMicroSuccess outcome directly, compares composite and independent safety-veto architectures,
+and otherwise falls back to B1.
 
 | Behavioral layer | Adaptive layer | Research layer |
 |---|---|---|
@@ -73,15 +74,23 @@ SUMO domain, applies a bootstrap safety UCB veto, and otherwise falls back to B1
 - Seed-disjoint actual-SUMO micro development (60/20/20) plus a 100-pair untouched final holdout.
 - Five frozen v5 YAML packages and a manifest covering 104 deployment-code checksums and nine
   learned artifacts before any final holdout was materialized.
+- A 49-feature v6 schema spanning static/temporal traffic state, topology, preference slack,
+  navigation penetration, microscopic safety proxies, and analytical screening signals.
+- 600 seed-family-disjoint paired development cases (1,200 actual SUMO runs), with 360/120/120
+  train/calibration/validation roles and zero pairing or future-state leakage failures.
+- Logistic, interaction, gradient-boosted tree, random-forest, regime-specific, and hierarchical
+  candidates; Platt/isotonic/beta calibration; classical and conformal selective frontiers.
+- Five frozen v6 packages plus a code/artifact checksum manifest created before 512 analytical,
+  200 microscopic, and 80 real-OSM paired final conditions were materialized.
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    A["Topology · demand · preferences"] --> B["50-feature v5 schema"]
-    B --> C["Regime · DSS · calibrated analytical success"]
-    C --> D["Microscopic benefit correction · success · safety UCB"]
-    D --> E{"Frozen regime/shift and micro gates pass?"}
+    A["Topology · demand · preferences"] --> B["30 s pre-decision SUMO state"]
+    B --> C["49-feature v6 schema"]
+    C --> D["Calibrated SafeMicroSuccess · benefit · safety veto"]
+    D --> E{"Frozen precision and safety gates pass?"}
     E -->|"no"| F["B1 ETA baseline · abstain"]
     E -->|"yes"| G["B6 voluntary route offer"]
     G --> H{"User accepts?"}
@@ -161,6 +170,25 @@ make v5-real-topology
 make v5-stress
 make v5-report
 make v5-final-audit
+
+# v6 SUMO-native preregistered sequence
+make v6-audit
+make v6-micro-design
+make v6-micro-dataset
+make v6-label
+make v6-train
+make v6-temporal-model
+make v6-safety-model
+make v6-calibrate
+make v6-select-threshold
+make v6-validate
+make v6-freeze
+make v6-analytical-holdout
+make v6-microscopic-holdout
+make v6-real-topology
+make v6-failure-analysis
+make v6-report
+make v6-final-audit
 ```
 
 Install the official SUMO/TraCI optional dependencies before microscopic validation:
@@ -173,6 +201,34 @@ The fast test suite does not open SUMO. CI separates analytical, microscopic, an
 dispatched research-matrix workflows.
 
 ## Research status
+
+v6 used **600 paired development cases / 1,200 actual SUMO runs**, including 101
+SafeMicroSuccess labels. No non-empty validation operating point satisfied both 80% precision and
+zero safety violations; the best diagnostic point reached 60% precision with two safety
+violations. The pre-registered fallback therefore froze a safe-abstention policy before final data.
+
+On the **200-pair untouched microscopic holdout**, 37 counterfactual safe opportunities existed,
+but frozen V6-F intervened zero times: precision 0 by non-empty-claim convention, coverage 0,
+ORR 0, and zero safety violations. Always-on B6 had 18.5% precision and 36 safety violations;
+historical V5-F reached 45.5% precision over 11 interventions. The frozen analytical reference
+retained 84.7% precision over 59/512 interventions, but microscopic evidence is primary.
+
+The real-topology bridge used **10 stratified Gangnam OSM OD pairs**, 80 paired conditions, and
+240 SUMO runs including pre-decision probes. Seven counterfactual safe opportunities existed;
+V6-F safely abstained from all of them. The final decision is **Outcome F**.
+
+| v6 hypothesis | Status | Finding |
+|---|---|---|
+| H29 · v6 improves microscopic precision over V5-F | **NOT ESTIMABLE / FAIL** | v6 made no interventions; V5-F precision was 45.5%. |
+| H30 · Microscopic precision ≥80% | **FAIL** | No eligible non-empty policy was frozen. |
+| H31 · Opportunity Recovery Rate ≥40% | **FAIL** | Final ORR was 0%. |
+| H32 · Final microscopic safety violations are zero | **PASS** | Safe abstention executed only B1. |
+| H33 · Temporal features improve prediction | **ABLATION-TESTED** | Development-only ablation is preserved; it did not change the claim. |
+| H34 · Analytical score adds micro information | **ABLATION-TESTED** | Development-only ablation is preserved; final outcomes were never reused. |
+| H35 · Penetration modifies microscopic success | **DESCRIPTIVE** | Stratified development rates vary; no causal claim is made. |
+| H36 · At least one safe OSM intervention | **FAIL** | 0 interventions and 0 recovered safe successes. |
+
+### Preserved v5 outcome
 
 The v5 primary analytical holdout contains **1,024 untouched cases**. Frozen V5-RD intervened
 in 132 cases: precision **82.6%**, coverage **12.9%**, and zero analytical safety violations.

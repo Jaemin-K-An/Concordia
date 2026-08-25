@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 from pathlib import Path
 
@@ -52,7 +53,7 @@ def run() -> Path:
     tests = subprocess.run(
         ["python3", "-m", "pytest", "tests/test_v6_micro.py", "-q"],
         cwd=ROOT,
-        env={"PYTHONPATH": "src:."},
+        env={**os.environ, "PYTHONPATH": "src:."},
         capture_output=True,
         text=True,
         check=False,
@@ -115,7 +116,7 @@ def run() -> Path:
         "",
         f"- v5 frozen source commit preserved: `{v5['source_commit']}`",
         f"- v6 frozen source commit: `{before['source_commit']}`",
-        f"- v6 unit tests: `{tests.stdout.strip()}`",
+        f"- v6 unit tests: `{' / '.join(tests.stdout.strip().splitlines())}`",
         f"- validation selection: `{validation['selected']['method']}`",
     ]
     path = ROOT / "FINAL_AUDIT_V6.md"

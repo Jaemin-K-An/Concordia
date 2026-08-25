@@ -1,0 +1,15 @@
+{
+  "analysis_basis": "highest_score_counterfactual_B6_failures_under_safe_abstention",
+  "complete": true,
+  "executed_false_positive_count": 0,
+  "failure_taxonomy": {
+    "micro_safety_misclassification": 1,
+    "penetration_mismatch": 2
+  },
+  "full_flow_speed_queue_drac_ttc_series": true,
+  "route_load_plots": true,
+  "spatiotemporal_speed_density_heatmaps": true,
+  "study": "v6 microscopic failure mechanism analysis",
+  "thresholds_changed": false,
+  "visualized_case_count": 3
+}

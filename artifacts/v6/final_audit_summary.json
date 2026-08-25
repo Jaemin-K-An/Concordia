@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "analytical_precision_at_least_80_percent": true,
+    "analytical_score_useful_in_micro_model": true,
+    "failure_visualization_complete": true,
+    "false_safe_rate_at_most_5_percent": true,
+    "final_micro_holdout_untouched_and_disjoint": true,
+    "micro_coverage_at_least_10_percent": false,
+    "micro_interventions_at_least_30": false,
+    "micro_precision_at_least_80_percent": false,
+    "micro_safety_violations_zero": true,
+    "new_microscopic_dataset_at_least_500": true,
+    "opportunity_recovery_at_least_40_percent": false,
+    "precision_lower_ci_above_60_percent": false,
+    "real_osm_interventions_positive": false,
+    "real_osm_safe_success_positive": false,
+    "rl_used": false,
+    "temporal_features_useful": true,
+    "v5_frozen_artifacts_preserved": true,
+    "v6_post_freeze_hashes_immutable": true,
+    "v6_unit_tests_pass": true
+  },
+  "complete": true,
+  "outcome": "F",
+  "unit_test_output": ".........                                                                [100%]\n9 passed in 0.75s\n"
+}

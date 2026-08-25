@@ -1,0 +1,139 @@
+{
+  "calibration": {
+    "bin_count": 10,
+    "brier_score": 0.11154465780296383,
+    "curve": [
+      {
+        "count": 307,
+        "lower": 0.0,
+        "mean_probability": 0.007840557921991146,
+        "observed_rate": 0.05537459283387622,
+        "upper": 0.1
+      },
+      {
+        "count": 18,
+        "lower": 0.1,
+        "mean_probability": 0.1481481481481481,
+        "observed_rate": 0.1111111111111111,
+        "upper": 0.2
+      },
+      {
+        "count": 25,
+        "lower": 0.2,
+        "mean_probability": 0.2715789473684211,
+        "observed_rate": 0.36,
+        "upper": 0.30000000000000004
+      },
+      {
+        "count": 35,
+        "lower": 0.30000000000000004,
+        "mean_probability": 0.3389162561576355,
+        "observed_rate": 0.45714285714285713,
+        "upper": 0.4
+      },
+      {
+        "count": 11,
+        "lower": 0.4,
+        "mean_probability": 0.41666666666666674,
+        "observed_rate": 0.7272727272727273,
+        "upper": 0.5
+      },
+      {
+        "count": 24,
+        "lower": 0.5,
+        "mean_probability": 0.5,
+        "observed_rate": 0.6666666666666666,
+        "upper": 0.6000000000000001
+      },
+      {
+        "count": 33,
+        "lower": 0.6000000000000001,
+        "mean_probability": 0.6666666666666666,
+        "observed_rate": 0.7272727272727273,
+        "upper": 0.7000000000000001
+      },
+      {
+        "count": 42,
+        "lower": 0.8,
+        "mean_probability": 0.8866695614415977,
+        "observed_rate": 0.8571428571428571,
+        "upper": 0.9
+      },
+      {
+        "count": 17,
+        "lower": 0.9,
+        "mean_probability": 1.0,
+        "observed_rate": 0.8235294117647058,
+        "upper": 1.0
+      }
+    ],
+    "ece": 0.06887668160566676,
+    "ece_definition": "sum_b (n_b/N) * abs(mean_probability_b-observed_rate_b)",
+    "evaluation_only": true,
+    "high_probability_around_0_8_count": 0,
+    "high_probability_around_0_8_observed_rate": null,
+    "protocol": "equal-width bins on [0,1]; empty bins omitted"
+  },
+  "case_count": 512,
+  "complete": true,
+  "freeze_manifest_hash_after": "17178971d0c52b2821a99f08bed037a3b3721c3e28a1f8cd267e37f7cd3799c3",
+  "freeze_manifest_hash_before": "17178971d0c52b2821a99f08bed037a3b3721c3e28a1f8cd267e37f7cd3799c3",
+  "frozen_immutable": true,
+  "label_counts": {
+    "INFEASIBLE": 30,
+    "TRADEOFF": 340,
+    "WIN": 142
+  },
+  "mean_inference_seconds": 0.0009026710605468747,
+  "precision_preserving_reference": "V5-RD",
+  "reference_metrics": {
+    "case_count": 512,
+    "coverage": 0.115234375,
+    "coverage_ci95": [
+      0.0903964723828324,
+      0.1458029581539172
+    ],
+    "failure_avoidance_rate": 0.9756756756756757,
+    "intervention_count": 59,
+    "intervention_precision": 0.847457627118644,
+    "intervention_precision_ci95": [
+      0.7348201621622644,
+      0.9176153600140352
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 81.94156878764866,
+    "missed_opportunity_rate": 0.647887323943662,
+    "population_benefit_rate": 0.09765625,
+    "regret_violation_count": 0,
+    "safety_violation_count": 0,
+    "successful_intervention_count": 50
+  },
+  "reference_precision_target_met": true,
+  "rl_used": false,
+  "study": "v6 frozen analytical holdout and recall-oriented stage-1 audit",
+  "untouched_before_freeze": true,
+  "v6_stage1_metrics_not_a_deployment_claim": {
+    "case_count": 512,
+    "coverage": 1.0,
+    "coverage_ci95": [
+      0.9925530242771171,
+      0.9999999999999999
+    ],
+    "failure_avoidance_rate": 0.0,
+    "intervention_count": 512,
+    "intervention_precision": 0.27734375,
+    "intervention_precision_ci95": [
+      0.2403327118685694,
+      0.3176710195080268
+    ],
+    "legal_violation_count": 0,
+    "mean_network_ttt_gain": 8.68649611344108,
+    "missed_opportunity_rate": 0.0,
+    "population_benefit_rate": 0.27734375,
+    "regret_violation_count": 0,
+    "safety_violation_count": 2,
+    "successful_intervention_count": 142
+  },
+  "v6_stage1_opportunity_recall": 1.0,
+  "v6_stage1_recall_target_met": true
+}

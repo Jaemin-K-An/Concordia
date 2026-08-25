@@ -1,0 +1,802 @@
+[
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od0-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od0-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od0-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od0-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od0-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od0-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od0-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od0-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od1-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od1-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od1-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od1-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od1-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od1-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od1-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od1-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od2-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od2-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od2-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od2-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od2-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od2-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od2-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.3448275862068966,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od2-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od3-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od3-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od3-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.0
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od3-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od3-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.07692307692307693,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od3-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od3-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.07692307692307693,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od3-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od4-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od4-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od4-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od4-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od4-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.5,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od4-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od4-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od4-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od5-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od5-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od5-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od5-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od5-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od5-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od5-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od5-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od6-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od6-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od6-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od6-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od6-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od6-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od6-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.8936170212765957,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od6-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od7-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od7-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od7-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od7-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od7-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od7-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od7-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od7-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od8-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od8-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od8-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od8-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od8-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od8-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od8-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od8-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od9-s691-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od9-s691-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od9-s701-d600-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od9-s701-d600-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od9-s691-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od9-s691-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.4166666666666667
+  },
+  {
+    "analytical_probability": 0.6666666666666666,
+    "benefit_probability": 0.38461538461538464,
+    "case_id": "v6-real-od9-s701-d720-p0.75",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.044444444444444446
+  },
+  {
+    "analytical_probability": 1.0,
+    "benefit_probability": 0.5,
+    "case_id": "v6-real-od9-s701-d720-p1.00",
+    "composite_probability": 0.3548387096774194,
+    "executed_policy": "B1",
+    "intervene": false,
+    "reason": "micro_abstain",
+    "unsafe_probability": 0.14285714285714285
+  }
+]

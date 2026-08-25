@@ -1,0 +1,47 @@
+[
+  {
+    "case_id": "v6-final-T01-s613",
+    "executed_by_v6": false,
+    "failure_type": "micro_safety_misclassification",
+    "figures": [
+      "artifacts/studies/v6_failure_analysis/figures/v6-final-T01-s613_timeseries.png",
+      "artifacts/studies/v6_failure_analysis/figures/v6-final-T01-s613_route_load.png",
+      "artifacts/studies/v6_failure_analysis/figures/v6-final-T01-s613_xt_heatmap.png"
+    ],
+    "penetration": 0.25,
+    "predicted_safe_success_probability": 0.3548387096774194,
+    "realized_safe_success": false,
+    "safety_violation": true,
+    "traffic_gain": 0.01061493411420205
+  },
+  {
+    "case_id": "v6-final-T01-s631",
+    "executed_by_v6": false,
+    "failure_type": "penetration_mismatch",
+    "figures": [
+      "artifacts/studies/v6_failure_analysis/figures/v6-final-T01-s631_timeseries.png",
+      "artifacts/studies/v6_failure_analysis/figures/v6-final-T01-s631_route_load.png",
+      "artifacts/studies/v6_failure_analysis/figures/v6-final-T01-s631_xt_heatmap.png"
+    ],
+    "penetration": 0.25,
+    "predicted_safe_success_probability": 0.3548387096774194,
+    "realized_safe_success": false,
+    "safety_violation": false,
+    "traffic_gain": -0.002167630057803468
+  },
+  {
+    "case_id": "v6-final-T01-s643",
+    "executed_by_v6": false,
+    "failure_type": "penetration_mismatch",
+    "figures": [
+      "artifacts/studies/v6_failure_analysis/figures/v6-final-T01-s643_timeseries.png",
+      "artifacts/studies/v6_failure_analysis/figures/v6-final-T01-s643_route_load.png",
+      "artifacts/studies/v6_failure_analysis/figures/v6-final-T01-s643_xt_heatmap.png"
+    ],
+    "penetration": 0.25,
+    "predicted_safe_success_probability": 0.3548387096774194,
+    "realized_safe_success": false,
+    "safety_violation": false,
+    "traffic_gain": -0.0032245062474808546
+  }
+]

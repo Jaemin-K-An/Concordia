@@ -1,0 +1,3074 @@
+[
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d0.850-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.050-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.150-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s661-d1.300-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d0.850-long_tail-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.050-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.150-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-two_route-s673-d1.300-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d0.850-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.050-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.150-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s661-d1.300-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d0.850-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.050-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.150-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-ring-s673-d1.300-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d0.850-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.050-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.150-long_tail-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s661-d1.300-long_tail-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d0.850-long_tail-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.050-long_tail-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.14814814814814814,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.150-long_tail-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3333333333333333,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.4166666666666667,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2894736842105263,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.3448275862068966,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.041666666666666664,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.5,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8936170212765957,
+    "case_id": "v6_final_analytical_holdout-merge-s673-d1.300-long_tail-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.07692307692307693,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-bimodal-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d0.850-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8571428571428571,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.07692307692307693,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.050-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8571428571428571,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8571428571428571,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.150-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.07692307692307693,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8571428571428571,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.07692307692307693,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8571428571428571,
+    "case_id": "v6_final_analytical_holdout-signalized-s661-d1.300-long_tail-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.07692307692307693,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-low-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.07692307692307693,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-high-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d0.850-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.6666666666666666,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.07692307692307693,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.050-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8571428571428571,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8571428571428571,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-bimodal-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.07692307692307693,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.150-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-low-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-low-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-low-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-low-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-high-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-high-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-high-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-high-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-bimodal-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-bimodal-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.8571428571428571,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-bimodal-p0.75",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 1.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-bimodal-p1.00",
+    "v5_rd_reference_intervene": true,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-long_tail-p0.25",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-long_tail-p0.50",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.0,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-long_tail-p0.75",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  },
+  {
+    "analytical_success_probability": 0.2,
+    "case_id": "v6_final_analytical_holdout-signalized-s673-d1.300-long_tail-p1.00",
+    "v5_rd_reference_intervene": false,
+    "v6_recall_screen_pass": true
+  }
+]
