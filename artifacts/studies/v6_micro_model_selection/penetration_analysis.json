@@ -1,0 +1,26 @@
+[
+  {
+    "penetration": 0.25,
+    "sample_count": 90,
+    "success_rate": 0.2,
+    "unsafe_rate": 0.14444444444444443
+  },
+  {
+    "penetration": 0.5,
+    "sample_count": 180,
+    "success_rate": 0.17222222222222222,
+    "unsafe_rate": 0.13333333333333333
+  },
+  {
+    "penetration": 0.75,
+    "sample_count": 150,
+    "success_rate": 0.12,
+    "unsafe_rate": 0.19333333333333333
+  },
+  {
+    "penetration": 1.0,
+    "sample_count": 180,
+    "success_rate": 0.18888888888888888,
+    "unsafe_rate": 0.43333333333333335
+  }
+]

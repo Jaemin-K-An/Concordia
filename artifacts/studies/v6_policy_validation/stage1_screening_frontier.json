@@ -1,0 +1,32 @@
+[
+  {
+    "screen_coverage": 1.0,
+    "screen_recall": 1.0,
+    "threshold": 0.0
+  },
+  {
+    "screen_coverage": 0.625,
+    "screen_recall": 0.5,
+    "threshold": 0.01
+  },
+  {
+    "screen_coverage": 0.575,
+    "screen_recall": 0.5,
+    "threshold": 0.05
+  },
+  {
+    "screen_coverage": 0.5583333333333333,
+    "screen_recall": 0.5,
+    "threshold": 0.1
+  },
+  {
+    "screen_coverage": 0.49166666666666664,
+    "screen_recall": 0.45454545454545453,
+    "threshold": 0.2
+  },
+  {
+    "screen_coverage": 0.4083333333333333,
+    "screen_recall": 0.36363636363636365,
+    "threshold": 0.3
+  }
+]

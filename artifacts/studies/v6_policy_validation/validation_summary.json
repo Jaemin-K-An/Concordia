@@ -1,0 +1,70 @@
+{
+  "metrics": {
+    "coverage": 0.0,
+    "failure_count": 0,
+    "false_safe_rate": 0.0,
+    "intervention_count": 0,
+    "missed_opportunity_rate": 1.0,
+    "opportunity_count": 22,
+    "opportunity_recovery_rate": 0.0,
+    "precision": 0.0,
+    "precision_wilson_95_lower": 0.0,
+    "precision_wilson_95_upper": 1.0,
+    "safety_violation_count": 0,
+    "sample_count": 120,
+    "success_count": 0
+  },
+  "precision_constraint_met": false,
+  "rl_used": false,
+  "selected": {
+    "architecture": "C_composite_plus_safety_veto",
+    "feasible": false,
+    "key": "MH_hierarchical_logistic|constraint_infeasible|safe_abstention",
+    "method": "safe_abstention_when_validation_constraints_infeasible",
+    "metrics": {
+      "coverage": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "missed_opportunity_rate": 1.0,
+      "opportunity_count": 22,
+      "opportunity_recovery_rate": 0.0,
+      "precision": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0
+    },
+    "model": "MH_hierarchical_logistic",
+    "safety_threshold": 0.05,
+    "success_threshold": 1.000001,
+    "validation_frontier_best_diagnostic": {
+      "architecture": "C_composite_plus_safety_veto",
+      "feasible": false,
+      "key": "MR_regime_boosting|C_composite_plus_safety_veto|p=0.400000000000|s=0.05|classical",
+      "method": "classical",
+      "metrics": {
+        "coverage": 0.041666666666666664,
+        "failure_count": 2,
+        "false_safe_rate": 0.4,
+        "intervention_count": 5,
+        "missed_opportunity_rate": 0.8636363636363636,
+        "opportunity_count": 22,
+        "opportunity_recovery_rate": 0.13636363636363635,
+        "precision": 0.6,
+        "precision_wilson_95_lower": 0.23072428127601297,
+        "precision_wilson_95_upper": 0.8823792257673521,
+        "safety_violation_count": 2,
+        "sample_count": 120,
+        "success_count": 3
+      },
+      "model": "MR_regime_boosting",
+      "safety_threshold": 0.05,
+      "success_threshold": 0.4
+    }
+  },
+  "selection_data": "development_validation_only",
+  "stage1_threshold": 0.0,
+  "validation_safety_constraint_met": true
+}

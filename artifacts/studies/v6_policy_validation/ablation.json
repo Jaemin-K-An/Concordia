@@ -1,0 +1,164 @@
+[
+  {
+    "ablation": "without_traffic_temporal",
+    "auc": 0.663961038961039,
+    "average_precision": 0.4294058774422723,
+    "feature_count": 43,
+    "metrics": {
+      "coverage": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "missed_opportunity_rate": 1.0,
+      "opportunity_count": 22,
+      "opportunity_recovery_rate": 0.0,
+      "precision": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0
+    }
+  },
+  {
+    "ablation": "without_analytical",
+    "auc": 0.6767161410018553,
+    "average_precision": 0.43501459917031243,
+    "feature_count": 47,
+    "metrics": {
+      "coverage": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "missed_opportunity_rate": 1.0,
+      "opportunity_count": 22,
+      "opportunity_recovery_rate": 0.0,
+      "precision": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0
+    }
+  },
+  {
+    "ablation": "without_topology",
+    "auc": 0.6403061224489796,
+    "average_precision": 0.4150939615079008,
+    "feature_count": 38,
+    "metrics": {
+      "coverage": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "missed_opportunity_rate": 1.0,
+      "opportunity_count": 22,
+      "opportunity_recovery_rate": 0.0,
+      "precision": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0
+    }
+  },
+  {
+    "ablation": "without_preference",
+    "auc": 0.6917903525046383,
+    "average_precision": 0.4244103489609339,
+    "feature_count": 39,
+    "metrics": {
+      "coverage": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "missed_opportunity_rate": 1.0,
+      "opportunity_count": 22,
+      "opportunity_recovery_rate": 0.0,
+      "precision": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0
+    }
+  },
+  {
+    "ablation": "without_penetration",
+    "auc": 0.6711502782931354,
+    "average_precision": 0.43387947619733624,
+    "feature_count": 48,
+    "metrics": {
+      "coverage": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "missed_opportunity_rate": 1.0,
+      "opportunity_count": 22,
+      "opportunity_recovery_rate": 0.0,
+      "precision": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0
+    }
+  },
+  {
+    "ablation": "without_safety",
+    "auc": 0.663961038961039,
+    "average_precision": 0.42579079893403604,
+    "feature_count": 42,
+    "metrics": {
+      "coverage": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "missed_opportunity_rate": 1.0,
+      "opportunity_count": 22,
+      "opportunity_recovery_rate": 0.0,
+      "precision": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0
+    }
+  },
+  {
+    "ablation": "no_stage1_screener",
+    "metrics": {
+      "coverage": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "missed_opportunity_rate": 1.0,
+      "opportunity_count": 22,
+      "opportunity_recovery_rate": 0.0,
+      "precision": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0
+    }
+  },
+  {
+    "ablation": "no_safety_veto",
+    "metrics": {
+      "coverage": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "missed_opportunity_rate": 1.0,
+      "opportunity_count": 22,
+      "opportunity_recovery_rate": 0.0,
+      "precision": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0
+    }
+  }
+]

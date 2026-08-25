@@ -135,6 +135,12 @@ def _analytical_predictions(config: dict, tasks: list[tuple[int, dict]]) -> dict
 
 def run(*, pilot: bool = False, workers: int = 4) -> Path:
     existing = OUTPUT / "raw_metrics.json"
+    summary_path = OUTPUT / "dataset_summary.json"
+    if existing.is_file() and summary_path.is_file() and not pilot:
+        summary = json.loads(summary_path.read_text())
+        if summary.get("complete") and int(summary.get("pair_count", 0)) >= 500:
+            print(existing)
+            return existing
     if (ROOT / "configs/v6/frozen_micro_model.yaml").is_file():
         if not existing.is_file():
             raise RuntimeError("v6 is frozen but its micro dataset is missing")

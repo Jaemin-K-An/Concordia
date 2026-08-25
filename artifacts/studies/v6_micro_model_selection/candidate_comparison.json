@@ -1,0 +1,2142 @@
+[
+  {
+    "calibration_comparison": [
+      {
+        "method": "raw",
+        "metrics": {
+          "auc": 0.6615,
+          "average_precision": 0.2730028472534742,
+          "brier_score": 0.1363676264705072,
+          "curve": [
+            {
+              "count": 58,
+              "lower": 0.0,
+              "mean_probability": 0.06629313064901374,
+              "observed_rate": 0.08620689655172414,
+              "upper": 0.1
+            },
+            {
+              "count": 25,
+              "lower": 0.1,
+              "mean_probability": 0.153508506604908,
+              "observed_rate": 0.16,
+              "upper": 0.2
+            },
+            {
+              "count": 20,
+              "lower": 0.2,
+              "mean_probability": 0.23086782734704672,
+              "observed_rate": 0.35,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 9,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.36499809733142885,
+              "observed_rate": 0.2222222222222222,
+              "upper": 0.4
+            },
+            {
+              "count": 6,
+              "lower": 0.4,
+              "mean_probability": 0.44243633099660157,
+              "observed_rate": 0.3333333333333333,
+              "upper": 0.5
+            },
+            {
+              "count": 2,
+              "lower": 0.5,
+              "mean_probability": 0.539984140603788,
+              "observed_rate": 0.0,
+              "upper": 0.6000000000000001
+            }
+          ],
+          "ece": 0.055995819612196775,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.3613209040266192,
+          "slope": 0.696654132720727
+        }
+      },
+      {
+        "method": "platt",
+        "metrics": {
+          "auc": 0.6615,
+          "average_precision": 0.2730028472534742,
+          "brier_score": 0.13351827623165047,
+          "curve": [
+            {
+              "count": 19,
+              "lower": 0.0,
+              "mean_probability": 0.08833715136457121,
+              "observed_rate": 0.15789473684210525,
+              "upper": 0.1
+            },
+            {
+              "count": 70,
+              "lower": 0.1,
+              "mean_probability": 0.14331354944259198,
+              "observed_rate": 0.11428571428571428,
+              "upper": 0.2
+            },
+            {
+              "count": 27,
+              "lower": 0.2,
+              "mean_probability": 0.23662774042542656,
+              "observed_rate": 0.2962962962962963,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 4,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3208597808298204,
+              "observed_rate": 0.25,
+              "upper": 0.4
+            }
+          ],
+          "ece": 0.04373360597406125,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 0.09493716438012398,
+          "slope": 1.0447133418062313
+        }
+      },
+      {
+        "method": "isotonic",
+        "metrics": {
+          "auc": 0.725,
+          "average_precision": 0.282244044974827,
+          "brier_score": 0.1234809027777778,
+          "curve": [
+            {
+              "count": 70,
+              "lower": 0.0,
+              "mean_probability": 0.07142857142857142,
+              "observed_rate": 0.07142857142857142,
+              "upper": 0.1
+            },
+            {
+              "count": 8,
+              "lower": 0.1,
+              "mean_probability": 0.125,
+              "observed_rate": 0.125,
+              "upper": 0.2
+            },
+            {
+              "count": 42,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3333333333333333,
+              "observed_rate": 0.3333333333333333,
+              "upper": 0.4
+            }
+          ],
+          "ece": 0.0,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 5.824262381929344e-06,
+          "slope": 1.0000052968722792
+        }
+      },
+      {
+        "method": "beta",
+        "metrics": {
+          "auc": 0.6615,
+          "average_precision": 0.2730028472534742,
+          "brier_score": 0.13381015135208935,
+          "curve": [
+            {
+              "count": 32,
+              "lower": 0.0,
+              "mean_probability": 0.07816937352508888,
+              "observed_rate": 0.09375,
+              "upper": 0.1
+            },
+            {
+              "count": 45,
+              "lower": 0.1,
+              "mean_probability": 0.13577801014032398,
+              "observed_rate": 0.06666666666666667,
+              "upper": 0.2
+            },
+            {
+              "count": 27,
+              "lower": 0.2,
+              "mean_probability": 0.22817201387570163,
+              "observed_rate": 0.4074074074074074,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 13,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.34337103122528967,
+              "observed_rate": 0.15384615384615385,
+              "upper": 0.4
+            },
+            {
+              "count": 3,
+              "lower": 0.4,
+              "mean_probability": 0.4313975361088411,
+              "observed_rate": 0.3333333333333333,
+              "upper": 0.5
+            }
+          ],
+          "ece": 0.093383017859359,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.14178924103680676,
+          "slope": 0.9124566478813176
+        }
+      }
+    ],
+    "importance": {
+      "acceleration_variance": 0.09907115721703873,
+      "acceptance_multiplier": 0.02009473378768017,
+      "alternative_capacity_ratio": 0.024422439592145243,
+      "analytical_predicted_ttt_gain": 0.1238429204707965,
+      "analytical_success_probability": 0.012652131660982308,
+      "bottleneck_centrality": 4.727621912869093e-17,
+      "closing_speed_p90": 0.06309465883341649,
+      "demand_vehicles_per_hour": 0.1940193613150504,
+      "density_mean": 0.050728738063754955,
+      "density_slope_30s": 0.05734628032600828,
+      "drac_proxy_p95": 0.3202799263940538,
+      "flow_instability": 0.2345512693001638,
+      "flow_mean": 0.13093992966267512,
+      "halting_count": 0.0,
+      "hard_braking_recent_rate": 0.022891710413930986,
+      "headway_mean": 0.4853422959830569,
+      "headway_variance": 0.13381078121754342,
+      "heterogeneity_bimodal": 0.13883569838730542,
+      "heterogeneity_high": 0.09968182634919905,
+      "heterogeneity_long_tail": 0.0734164678922433,
+      "heterogeneity_low": 0.019770228030005277,
+      "heterogeneity_medium": 0.02484105333595031,
+      "lane_change_density": 0.05820324873721912,
+      "lane_occupancy": 0.023605260856288963,
+      "mean_speed": 0.14178393828006924,
+      "merge_interaction_density": 0.0,
+      "minimum_headway": 0.07864153524636439,
+      "navigation_penetration": 0.07145967522658622,
+      "occupancy_mean": 0.05002623196768434,
+      "occupancy_variance_30s": 0.06372334454580363,
+      "perturbation_strength": 0.04459283227995553,
+      "predicted_acceptance": 0.0499642777153414,
+      "preference_slack_mean": 0.13476148198484145,
+      "preference_slack_std": 0.14303682894134254,
+      "preference_variance": 0.02294896664578953,
+      "queue_growth_rate": 0.0,
+      "queue_length": 0.0,
+      "route_length_ratio": 0.08738481039396447,
+      "route_overlap": 4.727621912869093e-17,
+      "short_horizon_speed_oscillation": 0.1557336453981825,
+      "speed_differential": 0.08073605510585219,
+      "speed_slope_30s": 0.02398755785637786,
+      "speed_variance": 0.02921725039492854,
+      "topology_merge": 0.21618504575925238,
+      "topology_real_like": 0.10134212996732922,
+      "topology_ring": 0.19825007947254525,
+      "topology_signalized": 0.23277238616433063,
+      "topology_two_route": 0.07037016326941074,
+      "volume_capacity_ratio": 0.19401936131505013
+    },
+    "name": "M0_logistic",
+    "regime_models": [],
+    "selected_calibration": "isotonic",
+    "strategy": "global",
+    "validation_metrics": {
+      "auc": 0.6667439703153989,
+      "average_precision": 0.4276853238371841,
+      "brier_score": 0.14094984266493057,
+      "curve": [
+        {
+          "count": 65,
+          "lower": 0.0,
+          "mean_probability": 0.0733173076923077,
+          "observed_rate": 0.09230769230769231,
+          "upper": 0.1
+        },
+        {
+          "count": 10,
+          "lower": 0.1,
+          "mean_probability": 0.125,
+          "observed_rate": 0.2,
+          "upper": 0.2
+        },
+        {
+          "count": 45,
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.33333333333333337,
+          "observed_rate": 0.3111111111111111,
+          "upper": 0.4
+        }
+      ],
+      "ece": 0.02486979166666668,
+      "high_confidence_count": 0,
+      "high_confidence_observed_success": null,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "intercept": -1.0111463859839296,
+      "slope": 0.2112687365657416
+    }
+  },
+  {
+    "calibration_comparison": [
+      {
+        "method": "raw",
+        "metrics": {
+          "auc": 0.666,
+          "average_precision": 0.2728850328301996,
+          "brier_score": 0.1352833575997237,
+          "curve": [
+            {
+              "count": 54,
+              "lower": 0.0,
+              "mean_probability": 0.07029760107757278,
+              "observed_rate": 0.09259259259259259,
+              "upper": 0.1
+            },
+            {
+              "count": 26,
+              "lower": 0.1,
+              "mean_probability": 0.14460292553947973,
+              "observed_rate": 0.07692307692307693,
+              "upper": 0.2
+            },
+            {
+              "count": 23,
+              "lower": 0.2,
+              "mean_probability": 0.21889344122329013,
+              "observed_rate": 0.391304347826087,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 11,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3535102276259343,
+              "observed_rate": 0.2727272727272727,
+              "upper": 0.4
+            },
+            {
+              "count": 5,
+              "lower": 0.4,
+              "mean_probability": 0.432318804271712,
+              "observed_rate": 0.2,
+              "upper": 0.5
+            },
+            {
+              "count": 1,
+              "lower": 0.5,
+              "mean_probability": 0.5215820560195303,
+              "observed_rate": 0.0,
+              "upper": 0.6000000000000001
+            }
+          ],
+          "ece": 0.07917370865804364,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.2722405106076743,
+          "slope": 0.7587220683823976
+        }
+      },
+      {
+        "method": "platt",
+        "metrics": {
+          "auc": 0.666,
+          "average_precision": 0.2728850328301996,
+          "brier_score": 0.13367696859050157,
+          "curve": [
+            {
+              "count": 15,
+              "lower": 0.0,
+              "mean_probability": 0.08820507425905352,
+              "observed_rate": 0.13333333333333333,
+              "upper": 0.1
+            },
+            {
+              "count": 82,
+              "lower": 0.1,
+              "mean_probability": 0.1475149857741325,
+              "observed_rate": 0.13414634146341464,
+              "upper": 0.2
+            },
+            {
+              "count": 21,
+              "lower": 0.2,
+              "mean_probability": 0.2490671580611621,
+              "observed_rate": 0.3333333333333333,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 2,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.32317811116068795,
+              "observed_rate": 0.0,
+              "upper": 0.4
+            }
+          ],
+          "ece": 0.034909155188583604,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 0.11325146084705125,
+          "slope": 1.0544761015894244
+        }
+      },
+      {
+        "method": "isotonic",
+        "metrics": {
+          "auc": 0.7295,
+          "average_precision": 0.30296846259503984,
+          "brier_score": 0.12319695827048767,
+          "curve": [
+            {
+              "count": 72,
+              "lower": 0.0,
+              "mean_probability": 0.06944444444444445,
+              "observed_rate": 0.06944444444444445,
+              "upper": 0.1
+            },
+            {
+              "count": 6,
+              "lower": 0.1,
+              "mean_probability": 0.16666666666666666,
+              "observed_rate": 0.16666666666666666,
+              "upper": 0.2
+            },
+            {
+              "count": 10,
+              "lower": 0.2,
+              "mean_probability": 0.29999999999999993,
+              "observed_rate": 0.3,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 32,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.34375,
+              "observed_rate": 0.34375,
+              "upper": 0.4
+            }
+          ],
+          "ece": 4.625929269271485e-18,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 3.7707127684668044e-06,
+          "slope": 1.000003423474233
+        }
+      },
+      {
+        "method": "beta",
+        "metrics": {
+          "auc": 0.666,
+          "average_precision": 0.2728850328301996,
+          "brier_score": 0.13378291655499364,
+          "curve": [
+            {
+              "count": 29,
+              "lower": 0.0,
+              "mean_probability": 0.07768963466352705,
+              "observed_rate": 0.10344827586206896,
+              "upper": 0.1
+            },
+            {
+              "count": 48,
+              "lower": 0.1,
+              "mean_probability": 0.13386897111819224,
+              "observed_rate": 0.0625,
+              "upper": 0.2
+            },
+            {
+              "count": 26,
+              "lower": 0.2,
+              "mean_probability": 0.22268683889516744,
+              "observed_rate": 0.38461538461538464,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 15,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3399431599721855,
+              "observed_rate": 0.26666666666666666,
+              "upper": 0.4
+            },
+            {
+              "count": 2,
+              "lower": 0.4,
+              "mean_probability": 0.43941325579391394,
+              "observed_rate": 0.0,
+              "upper": 0.5
+            }
+          ],
+          "ece": 0.08634022756939334,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.12733434820308448,
+          "slope": 0.9203817279120318
+        }
+      }
+    ],
+    "importance": {
+      "acceleration_variance": 0.07016346657627238,
+      "acceptance_multiplier": 0.0399807855495672,
+      "alternative_capacity_ratio": 0.026626741875057255,
+      "analytical_predicted_ttt_gain": 0.12059556902889787,
+      "analytical_success_probability": 0.0018209814362698117,
+      "analytical_success_probability\u00d7queue_growth_rate": 0.0,
+      "bottleneck_centrality": 9.470229657554715e-18,
+      "closing_speed_p90": 0.04671633062565379,
+      "demand_vehicles_per_hour": 0.1261128530788567,
+      "density_mean": 0.02958972528338368,
+      "density_slope_30s": 0.04179243290655449,
+      "drac_proxy_p95": 0.2275339798013075,
+      "drac_proxy_p95\u00d7speed_differential": 0.0715738845253261,
+      "flow_instability": 0.19146568572215386,
+      "flow_mean": 0.08347370534908952,
+      "halting_count": 0.0,
+      "hard_braking_recent_rate": 0.03786377767977681,
+      "headway_mean": 0.36180623219866825,
+      "headway_variance": 0.14728787087767864,
+      "heterogeneity_bimodal": 0.10160203252831865,
+      "heterogeneity_high": 0.0992239066210231,
+      "heterogeneity_long_tail": 0.03842051403298158,
+      "heterogeneity_low": 0.029533221562949408,
+      "heterogeneity_medium": 0.01786783774332657,
+      "lane_change_density": 0.0367250323206129,
+      "lane_occupancy": 0.0069528931115293135,
+      "mean_speed": 0.10221386188553513,
+      "merge_interaction_density": 0.0,
+      "minimum_headway": 0.02294169449589767,
+      "navigation_penetration": 0.018940059088631323,
+      "navigation_penetration\u00d7density_mean": 0.07718623874058675,
+      "navigation_penetration\u00d7flow_instability": 0.004856967985731457,
+      "occupancy_mean": 0.02886160951900814,
+      "occupancy_variance_30s": 0.043604260282505136,
+      "perturbation_strength": 0.006862779572841639,
+      "predicted_acceptance": 0.06284886769833273,
+      "predicted_acceptance\u00d7preference_variance": 0.005171314315648908,
+      "preference_slack_mean": 0.09917271442712736,
+      "preference_slack_std": 0.11617859528077147,
+      "preference_variance": 0.0057228423507866355,
+      "queue_growth_rate": 0.0,
+      "queue_length": 0.0,
+      "route_length_ratio": 0.06966945773235032,
+      "route_overlap": 9.470229657554715e-18,
+      "route_overlap\u00d7volume_capacity_ratio": 0.12611285307885664,
+      "short_horizon_speed_oscillation": 0.1472421639248463,
+      "speed_differential": 0.10014073287844451,
+      "speed_slope_30s": 0.0038668077578992437,
+      "speed_variance": 0.003055488865653022,
+      "topology_merge": 0.18155017757492517,
+      "topology_real_like": 0.0611419378265558,
+      "topology_ring": 0.12966746855412567,
+      "topology_signalized": 0.19850812279401575,
+      "topology_two_route": 0.05637526910615737,
+      "volume_capacity_ratio": 0.12611285307885667
+    },
+    "name": "M1_interaction_logistic",
+    "regime_models": [],
+    "selected_calibration": "isotonic",
+    "strategy": "global",
+    "validation_metrics": {
+      "auc": 0.6883116883116883,
+      "average_precision": 0.4310333529650634,
+      "brier_score": 0.1381056813132106,
+      "curve": [
+        {
+          "count": 70,
+          "lower": 0.0,
+          "mean_probability": 0.07037815126050417,
+          "observed_rate": 0.08571428571428572,
+          "upper": 0.1
+        },
+        {
+          "count": 6,
+          "lower": 0.1,
+          "mean_probability": 0.16666666666666666,
+          "observed_rate": 0.3333333333333333,
+          "upper": 0.2
+        },
+        {
+          "count": 6,
+          "lower": 0.2,
+          "mean_probability": 0.3,
+          "observed_rate": 0.3333333333333333,
+          "upper": 0.30000000000000004
+        },
+        {
+          "count": 38,
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.34345479082321195,
+          "observed_rate": 0.3157894736842105,
+          "upper": 0.4
+        }
+      ],
+      "ece": 0.027706762192056353,
+      "high_confidence_count": 0,
+      "high_confidence_observed_success": null,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "intercept": -0.11049012106810586,
+      "slope": 0.8478523933243353
+    }
+  },
+  {
+    "calibration_comparison": [
+      {
+        "method": "raw",
+        "metrics": {
+          "auc": 0.675,
+          "average_precision": 0.33197447289328486,
+          "brier_score": 0.13126396064864598,
+          "curve": [
+            {
+              "count": 64,
+              "lower": 0.0,
+              "mean_probability": 0.050410363007573386,
+              "observed_rate": 0.078125,
+              "upper": 0.1
+            },
+            {
+              "count": 24,
+              "lower": 0.1,
+              "mean_probability": 0.13722932979003113,
+              "observed_rate": 0.20833333333333334,
+              "upper": 0.2
+            },
+            {
+              "count": 12,
+              "lower": 0.2,
+              "mean_probability": 0.24880519787264987,
+              "observed_rate": 0.3333333333333333,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 15,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3478286530323419,
+              "observed_rate": 0.2,
+              "upper": 0.4
+            },
+            {
+              "count": 4,
+              "lower": 0.4,
+              "mean_probability": 0.4384209226027456,
+              "observed_rate": 0.75,
+              "upper": 0.5
+            },
+            {
+              "count": 1,
+              "lower": 0.5,
+              "mean_probability": 0.535323672649746,
+              "observed_rate": 0.0,
+              "upper": 0.6000000000000001
+            }
+          ],
+          "ece": 0.07078033546505541,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.25900684001040974,
+          "slope": 0.6799602519090673
+        }
+      },
+      {
+        "method": "platt",
+        "metrics": {
+          "auc": 0.675,
+          "average_precision": 0.33197447289328486,
+          "brier_score": 0.1304626039023576,
+          "curve": [
+            {
+              "count": 26,
+              "lower": 0.0,
+              "mean_probability": 0.08091920504968905,
+              "observed_rate": 0.11538461538461539,
+              "upper": 0.1
+            },
+            {
+              "count": 62,
+              "lower": 0.1,
+              "mean_probability": 0.1381506097957244,
+              "observed_rate": 0.11290322580645161,
+              "upper": 0.2
+            },
+            {
+              "count": 27,
+              "lower": 0.2,
+              "mean_probability": 0.2562211088611545,
+              "observed_rate": 0.25925925925925924,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 5,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3264372369487246,
+              "observed_rate": 0.6,
+              "upper": 0.4
+            }
+          ],
+          "ece": 0.032594019600401695,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 0.12510650658541975,
+          "slope": 1.0600406801650024
+        }
+      },
+      {
+        "method": "isotonic",
+        "metrics": {
+          "auc": 0.7345,
+          "average_precision": 0.39571271384613704,
+          "brier_score": 0.11855034722222223,
+          "curve": [
+            {
+              "count": 68,
+              "lower": 0.0,
+              "mean_probability": 0.07352941176470588,
+              "observed_rate": 0.07352941176470588,
+              "upper": 0.1
+            },
+            {
+              "count": 7,
+              "lower": 0.1,
+              "mean_probability": 0.14285714285714282,
+              "observed_rate": 0.14285714285714285,
+              "upper": 0.2
+            },
+            {
+              "count": 41,
+              "lower": 0.2,
+              "mean_probability": 0.2682926829268293,
+              "observed_rate": 0.2682926829268293,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 4,
+              "lower": 0.7000000000000001,
+              "mean_probability": 0.75,
+              "observed_rate": 0.75,
+              "upper": 0.8
+            }
+          ],
+          "ece": 1.61907524424502e-18,
+          "high_confidence_count": 4,
+          "high_confidence_observed_success": 0.75,
+          "high_probability_around_0_8_count": 4,
+          "high_probability_around_0_8_observed_rate": 0.75,
+          "intercept": 3.64646026388221e-06,
+          "slope": 1.000003125228863
+        }
+      },
+      {
+        "method": "beta",
+        "metrics": {
+          "auc": 0.675,
+          "average_precision": 0.33197447289328486,
+          "brier_score": 0.12997203531929055,
+          "curve": [
+            {
+              "count": 43,
+              "lower": 0.0,
+              "mean_probability": 0.07702723393632518,
+              "observed_rate": 0.09302325581395349,
+              "upper": 0.1
+            },
+            {
+              "count": 39,
+              "lower": 0.1,
+              "mean_probability": 0.14265559226429025,
+              "observed_rate": 0.1282051282051282,
+              "upper": 0.2
+            },
+            {
+              "count": 17,
+              "lower": 0.2,
+              "mean_probability": 0.24663374782257536,
+              "observed_rate": 0.23529411764705882,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 18,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.344719220782718,
+              "observed_rate": 0.2777777777777778,
+              "upper": 0.4
+            },
+            {
+              "count": 3,
+              "lower": 0.4,
+              "mean_probability": 0.4350599246213254,
+              "observed_rate": 0.6666666666666666,
+              "upper": 0.5
+            }
+          ],
+          "ece": 0.02786614126878388,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.12051956863314037,
+          "slope": 0.9306135770536245
+        }
+      }
+    ],
+    "importance": {
+      "acceleration_variance": 0.9714562062860658,
+      "acceptance_multiplier": 0.0,
+      "alternative_capacity_ratio": 0.06721420976510917,
+      "analytical_predicted_ttt_gain": 1.966320311673656,
+      "analytical_success_probability": 0.9433743598164677,
+      "bottleneck_centrality": 0.0,
+      "closing_speed_p90": 0.6029293152886815,
+      "demand_vehicles_per_hour": 1.0994792126699664,
+      "density_mean": 0.6977904586124699,
+      "density_slope_30s": 0.6949175425808329,
+      "drac_proxy_p95": 1.0480285537447243,
+      "flow_instability": 2.5187725019753318,
+      "flow_mean": 1.8216758733797054,
+      "halting_count": 0.0,
+      "hard_braking_recent_rate": 0.8058164266188378,
+      "headway_mean": 2.816238264744533,
+      "headway_variance": 0.9650899449632075,
+      "heterogeneity_bimodal": 0.0,
+      "heterogeneity_high": 0.0,
+      "heterogeneity_long_tail": 0.0,
+      "heterogeneity_low": 0.0,
+      "heterogeneity_medium": 0.0,
+      "lane_change_density": 1.4913094764111352,
+      "lane_occupancy": 0.8713540870220361,
+      "mean_speed": 1.3237283170449257,
+      "merge_interaction_density": 0.0,
+      "minimum_headway": 3.7956009848994454,
+      "navigation_penetration": 0.0,
+      "occupancy_mean": 1.5648143718733232,
+      "occupancy_variance_30s": 0.09380489885485632,
+      "perturbation_strength": 0.5036200436674579,
+      "predicted_acceptance": 1.188715637316944,
+      "preference_slack_mean": 0.46871762910086456,
+      "preference_slack_std": 1.0312827492913348,
+      "preference_variance": 1.1059530206623958,
+      "queue_growth_rate": 0.0,
+      "queue_length": 0.0,
+      "route_length_ratio": 0.0,
+      "route_overlap": 0.0,
+      "short_horizon_speed_oscillation": 2.4359354929294668,
+      "speed_differential": 4.0874305804333115,
+      "speed_slope_30s": 1.214034369694571,
+      "speed_variance": 1.800917135143241,
+      "topology_merge": 0.0,
+      "topology_real_like": 0.0,
+      "topology_ring": 0.0,
+      "topology_signalized": 0.0,
+      "topology_two_route": 0.0,
+      "volume_capacity_ratio": 0.0
+    },
+    "name": "M2_gradient_boosting",
+    "regime_models": [],
+    "selected_calibration": "isotonic",
+    "strategy": "global",
+    "validation_metrics": {
+      "auc": 0.6641929499072357,
+      "average_precision": 0.3318669940926174,
+      "brier_score": 0.16565230204494993,
+      "curve": [
+        {
+          "count": 62,
+          "lower": 0.0,
+          "mean_probability": 0.078125,
+          "observed_rate": 0.0967741935483871,
+          "upper": 0.1
+        },
+        {
+          "count": 6,
+          "lower": 0.1,
+          "mean_probability": 0.14285714285714282,
+          "observed_rate": 0.3333333333333333,
+          "upper": 0.2
+        },
+        {
+          "count": 42,
+          "lower": 0.2,
+          "mean_probability": 0.2749433106575963,
+          "observed_rate": 0.2857142857142857,
+          "upper": 0.30000000000000004
+        },
+        {
+          "count": 10,
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.75,
+          "observed_rate": 0.2,
+          "upper": 0.8
+        }
+      ],
+      "ece": 0.06876240079365081,
+      "high_confidence_count": 10,
+      "high_confidence_observed_success": 0.2,
+      "high_probability_around_0_8_count": 10,
+      "high_probability_around_0_8_observed_rate": 0.2,
+      "intercept": -0.8288499936307635,
+      "slope": 0.4261298095739804
+    }
+  },
+  {
+    "calibration_comparison": [
+      {
+        "method": "raw",
+        "metrics": {
+          "auc": 0.7335,
+          "average_precision": 0.3825728334287913,
+          "brier_score": 0.1663371477196464,
+          "curve": [
+            {
+              "count": 3,
+              "lower": 0.0,
+              "mean_probability": 0.07513312677911797,
+              "observed_rate": 0.0,
+              "upper": 0.1
+            },
+            {
+              "count": 24,
+              "lower": 0.1,
+              "mean_probability": 0.1571627671429258,
+              "observed_rate": 0.041666666666666664,
+              "upper": 0.2
+            },
+            {
+              "count": 32,
+              "lower": 0.2,
+              "mean_probability": 0.24394670722962733,
+              "observed_rate": 0.125,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 15,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3423460662192541,
+              "observed_rate": 0.0,
+              "upper": 0.4
+            },
+            {
+              "count": 15,
+              "lower": 0.4,
+              "mean_probability": 0.4620824967393856,
+              "observed_rate": 0.13333333333333333,
+              "upper": 0.5
+            },
+            {
+              "count": 14,
+              "lower": 0.5,
+              "mean_probability": 0.5328736456417216,
+              "observed_rate": 0.5714285714285714,
+              "upper": 0.6000000000000001
+            },
+            {
+              "count": 10,
+              "lower": 0.6000000000000001,
+              "mean_probability": 0.6428538946789155,
+              "observed_rate": 0.2,
+              "upper": 0.7000000000000001
+            },
+            {
+              "count": 7,
+              "lower": 0.7000000000000001,
+              "mean_probability": 0.7247980689486372,
+              "observed_rate": 0.42857142857142855,
+              "upper": 0.8
+            }
+          ],
+          "ece": 0.19926602714950628,
+          "high_confidence_count": 7,
+          "high_confidence_observed_success": 0.42857142857142855,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -1.1573316332542518,
+          "slope": 0.9991967220331873
+        }
+      },
+      {
+        "method": "platt",
+        "metrics": {
+          "auc": 0.7335,
+          "average_precision": 0.3825728334287913,
+          "brier_score": 0.12562528174572565,
+          "curve": [
+            {
+              "count": 51,
+              "lower": 0.0,
+              "mean_probability": 0.06990010646313624,
+              "observed_rate": 0.0784313725490196,
+              "upper": 0.1
+            },
+            {
+              "count": 26,
+              "lower": 0.1,
+              "mean_probability": 0.13627397181390205,
+              "observed_rate": 0.038461538461538464,
+              "upper": 0.2
+            },
+            {
+              "count": 25,
+              "lower": 0.2,
+              "mean_probability": 0.23733693369934886,
+              "observed_rate": 0.4,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 11,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.34914802463228245,
+              "observed_rate": 0.18181818181818182,
+              "upper": 0.4
+            },
+            {
+              "count": 7,
+              "lower": 0.4,
+              "mean_probability": 0.4408921911779547,
+              "observed_rate": 0.42857142857142855,
+              "upper": 0.5
+            }
+          ],
+          "ece": 0.07476390086882144,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 0.005338901956101296,
+          "slope": 1.0027539572872681
+        }
+      },
+      {
+        "method": "isotonic",
+        "metrics": {
+          "auc": 0.79225,
+          "average_precision": 0.3894181523312715,
+          "brier_score": 0.10965094339622643,
+          "curve": [
+            {
+              "count": 82,
+              "lower": 0.0,
+              "mean_probability": 0.06097560975609756,
+              "observed_rate": 0.06097560975609756,
+              "upper": 0.1
+            },
+            {
+              "count": 5,
+              "lower": 0.2,
+              "mean_probability": 0.2,
+              "observed_rate": 0.2,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 30,
+              "lower": 0.4,
+              "mean_probability": 0.40000000000000013,
+              "observed_rate": 0.4,
+              "upper": 0.5
+            },
+            {
+              "count": 2,
+              "lower": 0.5,
+              "mean_probability": 0.5,
+              "observed_rate": 0.5,
+              "upper": 0.6000000000000001
+            },
+            {
+              "count": 1,
+              "lower": 0.9,
+              "mean_probability": 1.0,
+              "observed_rate": 1.0,
+              "upper": 1.0
+            }
+          ],
+          "ece": 2.7755575615628914e-17,
+          "high_confidence_count": 1,
+          "high_confidence_observed_success": 1.0,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 3.816140808724332e-06,
+          "slope": 1.0000036047669576
+        }
+      },
+      {
+        "method": "beta",
+        "metrics": {
+          "auc": 0.7335,
+          "average_precision": 0.3825728334287913,
+          "brier_score": 0.1253471543134944,
+          "curve": [
+            {
+              "count": 51,
+              "lower": 0.0,
+              "mean_probability": 0.06591350306879407,
+              "observed_rate": 0.0784313725490196,
+              "upper": 0.1
+            },
+            {
+              "count": 26,
+              "lower": 0.1,
+              "mean_probability": 0.14146576304349345,
+              "observed_rate": 0.038461538461538464,
+              "upper": 0.2
+            },
+            {
+              "count": 24,
+              "lower": 0.2,
+              "mean_probability": 0.24675626946027251,
+              "observed_rate": 0.4166666666666667,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 12,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.34751356987186316,
+              "observed_rate": 0.16666666666666666,
+              "upper": 0.4
+            },
+            {
+              "count": 7,
+              "lower": 0.4,
+              "mean_probability": 0.42610421720274244,
+              "observed_rate": 0.42857142857142855,
+              "upper": 0.5
+            }
+          ],
+          "ece": 0.07984836694682461,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.024368078807065367,
+          "slope": 0.9857250892325845
+        }
+      }
+    ],
+    "importance": {
+      "acceleration_variance": 295.06534009369284,
+      "acceptance_multiplier": 30.987975761797617,
+      "alternative_capacity_ratio": 16.626051184710832,
+      "analytical_predicted_ttt_gain": 223.89468487389342,
+      "analytical_success_probability": 78.25316866998408,
+      "bottleneck_centrality": 0.0,
+      "closing_speed_p90": 194.4242327909274,
+      "demand_vehicles_per_hour": 151.64012150095542,
+      "density_mean": 147.0973863018816,
+      "density_slope_30s": 140.20006857986724,
+      "drac_proxy_p95": 88.19742733258856,
+      "flow_instability": 386.9632543457406,
+      "flow_mean": 228.85615825881536,
+      "halting_count": 0.0,
+      "hard_braking_recent_rate": 106.62158388338528,
+      "headway_mean": 272.33053547970457,
+      "headway_variance": 156.9484507697559,
+      "heterogeneity_bimodal": 3.892146714718896,
+      "heterogeneity_high": 99.34906069074336,
+      "heterogeneity_long_tail": 18.290380537014517,
+      "heterogeneity_low": 9.284652127694795,
+      "heterogeneity_medium": 26.41403632873828,
+      "lane_change_density": 80.35161963734532,
+      "lane_occupancy": 131.68633467279759,
+      "mean_speed": 198.0961220913353,
+      "merge_interaction_density": 0.0,
+      "minimum_headway": 268.09971003017466,
+      "navigation_penetration": 54.19465190801545,
+      "occupancy_mean": 143.43924644486017,
+      "occupancy_variance_30s": 157.53599553433156,
+      "perturbation_strength": 75.27269069789574,
+      "predicted_acceptance": 110.79555525278803,
+      "preference_slack_mean": 92.32215458431,
+      "preference_slack_std": 145.79596639988594,
+      "preference_variance": 177.15394840006638,
+      "queue_growth_rate": 0.0,
+      "queue_length": 0.0,
+      "route_length_ratio": 95.52007610818546,
+      "route_overlap": 0.0,
+      "short_horizon_speed_oscillation": 243.66293190568422,
+      "speed_differential": 259.8878707029704,
+      "speed_slope_30s": 114.00023135048002,
+      "speed_variance": 165.40776442073874,
+      "topology_merge": 45.18606539297701,
+      "topology_real_like": 3.0724441541962264,
+      "topology_ring": 0.0,
+      "topology_signalized": 67.77661013801475,
+      "topology_two_route": 17.082764651660785,
+      "volume_capacity_ratio": 116.9655180778403
+    },
+    "name": "M3_random_forest",
+    "regime_models": [],
+    "selected_calibration": "isotonic",
+    "strategy": "global",
+    "validation_metrics": {
+      "auc": 0.6797309833024119,
+      "average_precision": 0.4064908503985766,
+      "brier_score": 0.1476138886911119,
+      "curve": [
+        {
+          "count": 79,
+          "lower": 0.0,
+          "mean_probability": 0.058294721757821834,
+          "observed_rate": 0.11392405063291139,
+          "upper": 0.1
+        },
+        {
+          "count": 4,
+          "lower": 0.2,
+          "mean_probability": 0.2,
+          "observed_rate": 0.25,
+          "upper": 0.30000000000000004
+        },
+        {
+          "count": 35,
+          "lower": 0.4,
+          "mean_probability": 0.4000000000000001,
+          "observed_rate": 0.3142857142857143,
+          "upper": 0.5
+        },
+        {
+          "count": 2,
+          "lower": 0.9,
+          "mean_probability": 1.0,
+          "observed_rate": 0.5,
+          "upper": 1.0
+        }
+      ],
+      "ece": 0.07162264150943398,
+      "high_confidence_count": 2,
+      "high_confidence_observed_success": 0.5,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "intercept": -1.1448744630248178,
+      "slope": 0.1884049688105399
+    }
+  },
+  {
+    "calibration_comparison": [
+      {
+        "method": "raw",
+        "metrics": {
+          "auc": 0.6935,
+          "average_precision": 0.3034582374286622,
+          "brier_score": 0.13162563928781976,
+          "curve": [
+            {
+              "count": 58,
+              "lower": 0.0,
+              "mean_probability": 0.05446706963297092,
+              "observed_rate": 0.06896551724137931,
+              "upper": 0.1
+            },
+            {
+              "count": 29,
+              "lower": 0.1,
+              "mean_probability": 0.13822065084955118,
+              "observed_rate": 0.1724137931034483,
+              "upper": 0.2
+            },
+            {
+              "count": 13,
+              "lower": 0.2,
+              "mean_probability": 0.23730337441891802,
+              "observed_rate": 0.46153846153846156,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 13,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.35708872870478314,
+              "observed_rate": 0.15384615384615385,
+              "upper": 0.4
+            },
+            {
+              "count": 6,
+              "lower": 0.4,
+              "mean_probability": 0.4522905800746468,
+              "observed_rate": 0.5,
+              "upper": 0.5
+            },
+            {
+              "count": 1,
+              "lower": 0.5,
+              "mean_probability": 0.5683230405927411,
+              "observed_rate": 0.0,
+              "upper": 0.6000000000000001
+            }
+          ],
+          "ece": 0.0687025021042651,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.2182101172397737,
+          "slope": 0.7519453315033535
+        }
+      },
+      {
+        "method": "platt",
+        "metrics": {
+          "auc": 0.6935,
+          "average_precision": 0.3034582374286622,
+          "brier_score": 0.12998971103493148,
+          "curve": [
+            {
+              "count": 34,
+              "lower": 0.0,
+              "mean_probability": 0.08197266866425522,
+              "observed_rate": 0.08823529411764706,
+              "upper": 0.1
+            },
+            {
+              "count": 53,
+              "lower": 0.1,
+              "mean_probability": 0.13979041063437284,
+              "observed_rate": 0.11320754716981132,
+              "upper": 0.2
+            },
+            {
+              "count": 25,
+              "lower": 0.2,
+              "mean_probability": 0.25083787366511606,
+              "observed_rate": 0.32,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 8,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3374460699368116,
+              "observed_rate": 0.375,
+              "upper": 0.4
+            }
+          ],
+          "ece": 0.030427546899289074,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 0.14000602931767397,
+          "slope": 1.0687525113513525
+        }
+      },
+      {
+        "method": "isotonic",
+        "metrics": {
+          "auc": 0.75675,
+          "average_precision": 0.3320169281152857,
+          "brier_score": 0.11826597744360899,
+          "curve": [
+            {
+              "count": 75,
+              "lower": 0.0,
+              "mean_probability": 0.06666666666666667,
+              "observed_rate": 0.06666666666666667,
+              "upper": 0.1
+            },
+            {
+              "count": 8,
+              "lower": 0.1,
+              "mean_probability": 0.125,
+              "observed_rate": 0.125,
+              "upper": 0.2
+            },
+            {
+              "count": 30,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.36666666666666675,
+              "observed_rate": 0.36666666666666664,
+              "upper": 0.4
+            },
+            {
+              "count": 7,
+              "lower": 0.4,
+              "mean_probability": 0.4285714285714285,
+              "observed_rate": 0.42857142857142855,
+              "upper": 0.5
+            }
+          ],
+          "ece": 3.0993726104118954e-17,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 4.799946141626137e-06,
+          "slope": 1.0000046004590482
+        }
+      },
+      {
+        "method": "beta",
+        "metrics": {
+          "auc": 0.6935,
+          "average_precision": 0.3034582374286622,
+          "brier_score": 0.1299072147441385,
+          "curve": [
+            {
+              "count": 43,
+              "lower": 0.0,
+              "mean_probability": 0.0727984549384935,
+              "observed_rate": 0.09302325581395349,
+              "upper": 0.1
+            },
+            {
+              "count": 39,
+              "lower": 0.1,
+              "mean_probability": 0.13985197511910552,
+              "observed_rate": 0.05128205128205128,
+              "upper": 0.2
+            },
+            {
+              "count": 18,
+              "lower": 0.2,
+              "mean_probability": 0.23977314214131,
+              "observed_rate": 0.5,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 15,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3470994533154951,
+              "observed_rate": 0.2,
+              "upper": 0.4
+            },
+            {
+              "count": 5,
+              "lower": 0.4,
+              "mean_probability": 0.4424138479816341,
+              "observed_rate": 0.4,
+              "upper": 0.5
+            }
+          ],
+          "ece": 0.09522114956989092,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.08871013716718079,
+          "slope": 0.944357457318323
+        }
+      }
+    ],
+    "importance": {
+      "acceleration_variance": 2.2266861940264118,
+      "acceptance_multiplier": 0.0,
+      "alternative_capacity_ratio": 0.0,
+      "analytical_predicted_ttt_gain": 1.7693267090123144,
+      "analytical_success_probability": 0.9684648557201199,
+      "bottleneck_centrality": 0.0,
+      "closing_speed_p90": 0.9972692192701993,
+      "demand_vehicles_per_hour": 1.0110942265369833,
+      "density_mean": 0.0,
+      "density_slope_30s": 0.5355632045487912,
+      "drac_proxy_p95": 1.2417414057222613,
+      "flow_instability": 2.2615977794884365,
+      "flow_mean": 2.369579605011622,
+      "halting_count": 0.0,
+      "hard_braking_recent_rate": 0.44426047781209943,
+      "headway_mean": 2.8356249040721315,
+      "headway_variance": 0.7568751526799513,
+      "heterogeneity_bimodal": 0.0,
+      "heterogeneity_high": 0.0,
+      "heterogeneity_long_tail": 0.0,
+      "heterogeneity_low": 0.0,
+      "heterogeneity_medium": 0.0,
+      "lane_change_density": 1.23953467704692,
+      "lane_occupancy": 1.1045564172310778,
+      "mean_speed": 0.9895363173928511,
+      "merge_interaction_density": 0.0,
+      "minimum_headway": 3.3653740103192313,
+      "navigation_penetration": 0.05863653614687703,
+      "occupancy_mean": 0.8186480027785802,
+      "occupancy_variance_30s": 0.7374119077913983,
+      "perturbation_strength": 0.09959706916081534,
+      "predicted_acceptance": 1.375956078979204,
+      "preference_slack_mean": 0.4133201032411046,
+      "preference_slack_std": 1.3976545458964318,
+      "preference_variance": 1.226967059925404,
+      "queue_growth_rate": 0.0,
+      "queue_length": 0.0,
+      "route_length_ratio": 0.0,
+      "route_overlap": 0.0,
+      "short_horizon_speed_oscillation": 1.8500184766627727,
+      "speed_differential": 3.3125342676400145,
+      "speed_slope_30s": 1.6353659174563129,
+      "speed_variance": 1.4101391058227255,
+      "topology_merge": 0.26694288756096185,
+      "topology_real_like": 0.0,
+      "topology_ring": 0.0,
+      "topology_signalized": 0.0,
+      "topology_two_route": 0.0,
+      "volume_capacity_ratio": 0.0
+    },
+    "name": "M4_calibrated_gradient_boosting",
+    "regime_models": [],
+    "selected_calibration": "isotonic",
+    "strategy": "global",
+    "validation_metrics": {
+      "auc": 0.6396103896103896,
+      "average_precision": 0.3251075994437802,
+      "brier_score": 0.1436588234304956,
+      "curve": [
+        {
+          "count": 70,
+          "lower": 0.0,
+          "mean_probability": 0.06885964912280702,
+          "observed_rate": 0.11428571428571428,
+          "upper": 0.1
+        },
+        {
+          "count": 7,
+          "lower": 0.1,
+          "mean_probability": 0.125,
+          "observed_rate": 0.0,
+          "upper": 0.2
+        },
+        {
+          "count": 27,
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.3666666666666667,
+          "observed_rate": 0.4074074074074074,
+          "upper": 0.4
+        },
+        {
+          "count": 16,
+          "lower": 0.4,
+          "mean_probability": 0.42857142857142855,
+          "observed_rate": 0.1875,
+          "upper": 0.5
+        }
+      ],
+      "ece": 0.07509972848788637,
+      "high_confidence_count": 0,
+      "high_confidence_observed_success": null,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "intercept": -0.41858788385663526,
+      "slope": 0.6570995640386337
+    }
+  },
+  {
+    "calibration_comparison": [
+      {
+        "method": "raw",
+        "metrics": {
+          "auc": 0.65,
+          "average_precision": 0.2649592019328324,
+          "brier_score": 0.1579559912679231,
+          "curve": [
+            {
+              "count": 81,
+              "lower": 0.0,
+              "mean_probability": 0.022772975130257098,
+              "observed_rate": 0.12345679012345678,
+              "upper": 0.1
+            },
+            {
+              "count": 11,
+              "lower": 0.1,
+              "mean_probability": 0.15338599680209908,
+              "observed_rate": 0.2727272727272727,
+              "upper": 0.2
+            },
+            {
+              "count": 5,
+              "lower": 0.2,
+              "mean_probability": 0.24847468474490583,
+              "observed_rate": 0.2,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 2,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3662552033388058,
+              "observed_rate": 0.5,
+              "upper": 0.4
+            },
+            {
+              "count": 7,
+              "lower": 0.4,
+              "mean_probability": 0.4507434951790682,
+              "observed_rate": 0.2857142857142857,
+              "upper": 0.5
+            },
+            {
+              "count": 8,
+              "lower": 0.5,
+              "mean_probability": 0.5452749490465412,
+              "observed_rate": 0.125,
+              "upper": 0.6000000000000001
+            },
+            {
+              "count": 4,
+              "lower": 0.6000000000000001,
+              "mean_probability": 0.6112043437835842,
+              "observed_rate": 0.25,
+              "upper": 0.7000000000000001
+            },
+            {
+              "count": 1,
+              "lower": 0.7000000000000001,
+              "mean_probability": 0.7421205370436834,
+              "observed_rate": 1.0,
+              "upper": 0.8
+            },
+            {
+              "count": 1,
+              "lower": 0.8,
+              "mean_probability": 0.8343701450296173,
+              "observed_rate": 0.0,
+              "upper": 0.9
+            }
+          ],
+          "ece": 0.14193730923682565,
+          "high_confidence_count": 2,
+          "high_confidence_observed_success": 0.5,
+          "high_probability_around_0_8_count": 1,
+          "high_probability_around_0_8_observed_rate": 0.0,
+          "intercept": -0.8898755645906298,
+          "slope": 0.23146542134472217
+        }
+      },
+      {
+        "method": "platt",
+        "metrics": {
+          "auc": 0.65,
+          "average_precision": 0.2649592019328324,
+          "brier_score": 0.13392735361403824,
+          "curve": [
+            {
+              "count": 22,
+              "lower": 0.0,
+              "mean_probability": 0.08085423176960206,
+              "observed_rate": 0.13636363636363635,
+              "upper": 0.1
+            },
+            {
+              "count": 64,
+              "lower": 0.1,
+              "mean_probability": 0.1465578073336265,
+              "observed_rate": 0.109375,
+              "upper": 0.2
+            },
+            {
+              "count": 32,
+              "lower": 0.2,
+              "mean_probability": 0.2501599469578435,
+              "observed_rate": 0.28125,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 2,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3227471263032276,
+              "observed_rate": 0.5,
+              "upper": 0.4
+            }
+          ],
+          "ece": 0.04125245012636169,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 0.018535613218939356,
+          "slope": 1.0059509122677937
+        }
+      },
+      {
+        "method": "isotonic",
+        "metrics": {
+          "auc": 0.709,
+          "average_precision": 0.31232163980697664,
+          "brier_score": 0.1270393804451605,
+          "curve": [
+            {
+              "count": 52,
+              "lower": 0.0,
+              "mean_probability": 0.057692307692307675,
+              "observed_rate": 0.057692307692307696,
+              "upper": 0.1
+            },
+            {
+              "count": 19,
+              "lower": 0.1,
+              "mean_probability": 0.15789473684210525,
+              "observed_rate": 0.15789473684210525,
+              "upper": 0.2
+            },
+            {
+              "count": 47,
+              "lower": 0.2,
+              "mean_probability": 0.27659574468085113,
+              "observed_rate": 0.2765957446808511,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 2,
+              "lower": 0.5,
+              "mean_probability": 0.5,
+              "observed_rate": 0.5,
+              "upper": 0.6000000000000001
+            }
+          ],
+          "ece": 3.076242964065538e-17,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 3.3138227358735903e-06,
+          "slope": 1.0000028966938324
+        }
+      },
+      {
+        "method": "beta",
+        "metrics": {
+          "auc": 0.65,
+          "average_precision": 0.2649592019328324,
+          "brier_score": 0.13370016088262027,
+          "curve": [
+            {
+              "count": 26,
+              "lower": 0.0,
+              "mean_probability": 0.07634546670328597,
+              "observed_rate": 0.11538461538461539,
+              "upper": 0.1
+            },
+            {
+              "count": 55,
+              "lower": 0.1,
+              "mean_probability": 0.1483280860202406,
+              "observed_rate": 0.12727272727272726,
+              "upper": 0.2
+            },
+            {
+              "count": 36,
+              "lower": 0.2,
+              "mean_probability": 0.25878423368297976,
+              "observed_rate": 0.25,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 3,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3193832696150561,
+              "observed_rate": 0.3333333333333333,
+              "upper": 0.4
+            }
+          ],
+          "ece": 0.021092876671415853,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.05421516344449617,
+          "slope": 0.9759012963108268
+        }
+      }
+    ],
+    "importance": {
+      "acceleration_variance": 1.8083070742489538,
+      "acceptance_multiplier": 0.0,
+      "alternative_capacity_ratio": 0.0,
+      "analytical_predicted_ttt_gain": 1.4538667531821825,
+      "analytical_success_probability": 1.1305970393379725,
+      "bottleneck_centrality": 0.0,
+      "closing_speed_p90": 1.5695119993435607,
+      "demand_vehicles_per_hour": 0.6727590224249649,
+      "density_mean": 0.2893663325110776,
+      "density_slope_30s": 0.21159665175636588,
+      "drac_proxy_p95": 1.9077796262038258,
+      "flow_instability": 2.7156793334214813,
+      "flow_mean": 2.144522246356796,
+      "halting_count": 0.0,
+      "hard_braking_recent_rate": 0.8264836324652832,
+      "headway_mean": 3.319710541378689,
+      "headway_variance": 0.3819945581700819,
+      "heterogeneity_bimodal": 0.0,
+      "heterogeneity_high": 0.0,
+      "heterogeneity_long_tail": 0.0,
+      "heterogeneity_low": 0.0,
+      "heterogeneity_medium": 0.0,
+      "lane_change_density": 1.0070169653461958,
+      "lane_occupancy": 1.3945157331412417,
+      "mean_speed": 0.9413295181207952,
+      "merge_interaction_density": 0.0,
+      "minimum_headway": 3.1695206509957305,
+      "navigation_penetration": 0.15721351545973006,
+      "occupancy_mean": 0.15810260941945342,
+      "occupancy_variance_30s": 0.6162798968012084,
+      "perturbation_strength": 0.05646754558034073,
+      "predicted_acceptance": 1.0073830663623529,
+      "preference_slack_mean": 0.6794436521869813,
+      "preference_slack_std": 1.0936804490036396,
+      "preference_variance": 1.227668094128135,
+      "queue_growth_rate": 0.0,
+      "queue_length": 0.0,
+      "route_length_ratio": 0.0,
+      "route_overlap": 0.0,
+      "short_horizon_speed_oscillation": 1.8438253309521189,
+      "speed_differential": 4.848333135572118,
+      "speed_slope_30s": 1.432017599307569,
+      "speed_variance": 0.6206006269013402,
+      "topology_merge": 0.11069517514933924,
+      "topology_real_like": 0.0,
+      "topology_ring": 0.0,
+      "topology_signalized": 0.0,
+      "topology_two_route": 0.0,
+      "volume_capacity_ratio": 0.0
+    },
+    "name": "MR_regime_boosting",
+    "regime_models": [
+      "constrained",
+      "high_control_unstable",
+      "merge_dominant",
+      "partial_control",
+      "signalized"
+    ],
+    "selected_calibration": "isotonic",
+    "strategy": "regime",
+    "validation_metrics": {
+      "auc": 0.7045454545454546,
+      "average_precision": 0.4343571869155531,
+      "brier_score": 0.13538144919786935,
+      "curve": [
+        {
+          "count": 50,
+          "lower": 0.0,
+          "mean_probability": 0.06,
+          "observed_rate": 0.08,
+          "upper": 0.1
+        },
+        {
+          "count": 16,
+          "lower": 0.1,
+          "mean_probability": 0.15789473684210525,
+          "observed_rate": 0.125,
+          "upper": 0.2
+        },
+        {
+          "count": 44,
+          "lower": 0.2,
+          "mean_probability": 0.2772727272727273,
+          "observed_rate": 0.25,
+          "upper": 0.30000000000000004
+        },
+        {
+          "count": 10,
+          "lower": 0.5,
+          "mean_probability": 0.5,
+          "observed_rate": 0.5,
+          "upper": 0.6000000000000001
+        }
+      ],
+      "ece": 0.02271929824561404,
+      "high_confidence_count": 0,
+      "high_confidence_observed_success": null,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "intercept": -0.15534952052272694,
+      "slope": 0.8982175548485023
+    }
+  },
+  {
+    "calibration_comparison": [
+      {
+        "method": "raw",
+        "metrics": {
+          "auc": 0.663,
+          "average_precision": 0.2747469147701175,
+          "brier_score": 0.13544558282391844,
+          "curve": [
+            {
+              "count": 54,
+              "lower": 0.0,
+              "mean_probability": 0.06375096280990374,
+              "observed_rate": 0.09259259259259259,
+              "upper": 0.1
+            },
+            {
+              "count": 21,
+              "lower": 0.1,
+              "mean_probability": 0.1361966476012507,
+              "observed_rate": 0.047619047619047616,
+              "upper": 0.2
+            },
+            {
+              "count": 28,
+              "lower": 0.2,
+              "mean_probability": 0.23459791128631907,
+              "observed_rate": 0.35714285714285715,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 8,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3665775662170527,
+              "observed_rate": 0.25,
+              "upper": 0.4
+            },
+            {
+              "count": 7,
+              "lower": 0.4,
+              "mean_probability": 0.4301474356556086,
+              "observed_rate": 0.2857142857142857,
+              "upper": 0.5
+            },
+            {
+              "count": 2,
+              "lower": 0.5,
+              "mean_probability": 0.5303686906208176,
+              "observed_rate": 0.0,
+              "upper": 0.6000000000000001
+            }
+          ],
+          "ece": 0.08211021710368203,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.3643092225826824,
+          "slope": 0.7120263122686232
+        }
+      },
+      {
+        "method": "platt",
+        "metrics": {
+          "auc": 0.663,
+          "average_precision": 0.2747469147701175,
+          "brier_score": 0.13307973846172527,
+          "curve": [
+            {
+              "count": 20,
+              "lower": 0.0,
+              "mean_probability": 0.08588527668869754,
+              "observed_rate": 0.15,
+              "upper": 0.1
+            },
+            {
+              "count": 65,
+              "lower": 0.1,
+              "mean_probability": 0.14000526007840075,
+              "observed_rate": 0.09230769230769231,
+              "upper": 0.2
+            },
+            {
+              "count": 32,
+              "lower": 0.2,
+              "mean_probability": 0.23716377200341116,
+              "observed_rate": 0.3125,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 3,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.3248414298561053,
+              "observed_rate": 0.3333333333333333,
+              "upper": 0.4
+            }
+          ],
+          "ece": 0.05682392814703853,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 0.09633209221903231,
+          "slope": 1.0457633620520934
+        }
+      },
+      {
+        "method": "isotonic",
+        "metrics": {
+          "auc": 0.7355,
+          "average_precision": 0.2998754974689591,
+          "brier_score": 0.12167539748184913,
+          "curve": [
+            {
+              "count": 71,
+              "lower": 0.0,
+              "mean_probability": 0.07042253521126758,
+              "observed_rate": 0.07042253521126761,
+              "upper": 0.1
+            },
+            {
+              "count": 9,
+              "lower": 0.1,
+              "mean_probability": 0.1111111111111111,
+              "observed_rate": 0.1111111111111111,
+              "upper": 0.2
+            },
+            {
+              "count": 40,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.35,
+              "observed_rate": 0.35,
+              "upper": 0.4
+            }
+          ],
+          "ece": 1.6422048905913774e-17,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": 5.431191127965571e-06,
+          "slope": 1.0000050226746797
+        }
+      },
+      {
+        "method": "beta",
+        "metrics": {
+          "auc": 0.663,
+          "average_precision": 0.2747469147701175,
+          "brier_score": 0.13324059886448297,
+          "curve": [
+            {
+              "count": 34,
+              "lower": 0.0,
+              "mean_probability": 0.07666917462755876,
+              "observed_rate": 0.11764705882352941,
+              "upper": 0.1
+            },
+            {
+              "count": 40,
+              "lower": 0.1,
+              "mean_probability": 0.13095655596622177,
+              "observed_rate": 0.05,
+              "upper": 0.2
+            },
+            {
+              "count": 29,
+              "lower": 0.2,
+              "mean_probability": 0.23009830881686125,
+              "observed_rate": 0.3448275862068966,
+              "upper": 0.30000000000000004
+            },
+            {
+              "count": 15,
+              "lower": 0.30000000000000004,
+              "mean_probability": 0.34283806005009887,
+              "observed_rate": 0.26666666666666666,
+              "upper": 0.4
+            },
+            {
+              "count": 2,
+              "lower": 0.4,
+              "mean_probability": 0.4341499718066347,
+              "observed_rate": 0.0,
+              "upper": 0.5
+            }
+          ],
+          "ece": 0.08307941824989708,
+          "high_confidence_count": 0,
+          "high_confidence_observed_success": null,
+          "high_probability_around_0_8_count": 0,
+          "high_probability_around_0_8_observed_rate": null,
+          "intercept": -0.13836336383113074,
+          "slope": 0.9147566865921996
+        }
+      }
+    ],
+    "importance": {
+      "acceleration_variance": 0.0798245846644125,
+      "acceptance_multiplier": 0.02995791184394262,
+      "alternative_capacity_ratio": 0.023362940582059313,
+      "analytical_predicted_ttt_gain": 0.12951974004222788,
+      "analytical_success_probability": 0.0006077288640859451,
+      "bottleneck_centrality": 3.430023575133056e-17,
+      "closing_speed_p90": 0.0662187892227944,
+      "demand_vehicles_per_hour": 0.1718968968922922,
+      "density_mean": 0.04449085316699439,
+      "density_slope_30s": 0.057891307930850525,
+      "drac_proxy_p95": 0.27671797730952613,
+      "flow_instability": 0.21585621394265941,
+      "flow_mean": 0.10428639857695557,
+      "halting_count": 0.0,
+      "hard_braking_recent_rate": 0.03255259552666341,
+      "headway_mean": 0.40025204032478173,
+      "headway_variance": 0.14280565915004131,
+      "heterogeneity_bimodal": 0.11645963751953152,
+      "heterogeneity_high": 0.1022831888793539,
+      "heterogeneity_long_tail": 0.05379201529388031,
+      "heterogeneity_low": 0.031234642283804463,
+      "heterogeneity_medium": 0.020174682416235948,
+      "lane_change_density": 0.04703839408666084,
+      "lane_occupancy": 0.023403868269235024,
+      "mean_speed": 0.1152059252098043,
+      "merge_interaction_density": 0.0,
+      "minimum_headway": 0.04010348992145551,
+      "navigation_penetration": 0.061820503343185756,
+      "occupancy_mean": 0.04371377418918453,
+      "occupancy_variance_30s": 0.06377386317865563,
+      "perturbation_strength": 0.025761793314642505,
+      "predicted_acceptance": 0.05475155688702058,
+      "preference_slack_mean": 0.1111284760464989,
+      "preference_slack_std": 0.12605973980361254,
+      "preference_variance": 0.01424485281217485,
+      "queue_growth_rate": 0.0,
+      "queue_length": 0.0,
+      "route_length_ratio": 0.07362781856923863,
+      "route_overlap": 3.430023575133056e-17,
+      "short_horizon_speed_oscillation": 0.14655158657301248,
+      "speed_differential": 0.07858956869815775,
+      "speed_slope_30s": 0.009729196669488672,
+      "speed_variance": 0.01113979484647867,
+      "topology_merge": 0.1924990855915331,
+      "topology_real_like": 0.08068876017000527,
+      "topology_ring": 0.16511893714217987,
+      "topology_signalized": 0.20525343537153914,
+      "topology_two_route": 0.060614448952604066,
+      "volume_capacity_ratio": 0.1718968968922921
+    },
+    "name": "MH_hierarchical_logistic",
+    "regime_models": [],
+    "selected_calibration": "isotonic",
+    "strategy": "hierarchical",
+    "validation_metrics": {
+      "auc": 0.6776437847866419,
+      "average_precision": 0.4368288004221253,
+      "brier_score": 0.1425500344137003,
+      "curve": [
+        {
+          "count": 72,
+          "lower": 0.0,
+          "mean_probability": 0.07371794871794873,
+          "observed_rate": 0.09722222222222222,
+          "upper": 0.1
+        },
+        {
+          "count": 5,
+          "lower": 0.1,
+          "mean_probability": 0.11111111111111112,
+          "observed_rate": 0.4,
+          "upper": 0.2
+        },
+        {
+          "count": 43,
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.35233808452113036,
+          "observed_rate": 0.3023255813953488,
+          "upper": 0.4
+        }
+      ],
+      "ece": 0.04406074809300618,
+      "high_confidence_count": 0,
+      "high_confidence_observed_success": null,
+      "high_probability_around_0_8_count": 0,
+      "high_probability_around_0_8_observed_rate": null,
+      "intercept": -0.2800963325127493,
+      "slope": 0.7229821047385361
+    }
+  }
+]

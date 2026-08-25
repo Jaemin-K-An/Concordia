@@ -1,0 +1,38 @@
+{
+  "actual_sumo_run_count": 1200,
+  "complete": true,
+  "diagnostic_counts": {
+    "S1_safe_beneficial": 101,
+    "S2_safe_neutral": 239,
+    "S3_safe_harmful": 116,
+    "U1_unsafe_beneficial": 30,
+    "U2_unsafe_harmful": 114
+  },
+  "feature_schema_hash": "239893eaed6687b49b2d786a9a011b92147bcf1efcdcbb21bd2d4707adbab81d",
+  "final_holdout_materialized": false,
+  "final_holdout_seeds": [
+    607,
+    613,
+    617,
+    619,
+    631,
+    641,
+    643,
+    647,
+    653,
+    659
+  ],
+  "future_state_leakage_count": 0,
+  "pair_count": 600,
+  "pairing_failure_count": 0,
+  "raw_metrics_hash": "219eb6b9bacb768e5aad074ae8826a7ac4efd20312dc862fd1cd0599b0303c5d",
+  "rl_used": false,
+  "role_counts": {
+    "calibration": 120,
+    "train": 360,
+    "validation": 120
+  },
+  "safe_micro_success_count": 101,
+  "safe_micro_success_rate": 0.16833333333333333,
+  "study": "v6 actual-SUMO seed-disjoint SafeMicroSuccess development dataset"
+}

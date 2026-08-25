@@ -224,6 +224,7 @@ def _run_policy(
     seed: int,
     policy: str,
     analytical: Mapping[str, float],
+    capture_diagnostics: bool = False,
 ) -> dict:
     with tempfile.TemporaryDirectory(prefix="concordia-v6-run-") as temporary:
         directory = Path(temporary)
@@ -254,6 +255,8 @@ def _run_policy(
         decision_time = float(config["decision_time_seconds"])
         temporal_window = float(config["temporal_window_seconds"])
         series = []
+        diagnostic_series = []
+        spatiotemporal = []
         frames = []
         departures = {}
         travel_times = []
@@ -386,6 +389,34 @@ def _run_policy(
                             follower_acceleration=accel,
                         )
                     )
+                if capture_diagnostics and int(round(now)) % 5 == 0:
+                    diagnostic_edges = tuple(dict.fromkeys((*MAIN_EDGES, *ALTERNATE_EDGES)))
+                    edge_rows = []
+                    for position, edge in enumerate(diagnostic_edges):
+                        state = snapshot.edges[edge]
+                        queue = int(adapter._traci.edge.getLastStepHaltingNumber(edge))
+                        edge_row = {
+                            "time": now,
+                            "edge": edge,
+                            "position_index": position,
+                            "density": float(state.density_vehicles_per_km_per_lane),
+                            "flow": float(state.flow_vehicles_per_hour_per_lane),
+                            "speed": float(state.mean_speed_meters_per_second),
+                            "queue": queue,
+                        }
+                        edge_rows.append(edge_row)
+                        spatiotemporal.append(edge_row)
+                    diagnostic_series.append(
+                        {
+                            "time": now,
+                            "density": float(np.mean([row["density"] for row in edge_rows])),
+                            "flow": float(np.mean([row["flow"] for row in edge_rows])),
+                            "speed": float(np.mean([row["speed"] for row in edge_rows])),
+                            "queue": float(sum(row["queue"] for row in edge_rows)),
+                            "drac_proxy_p95": float(np.percentile(drac, 95)) if drac else 0.0,
+                            "minimum_ttc": min(headways, default=150.0),
+                        }
+                    )
                 if decision_time - temporal_window < now <= decision_time:
                     selected = [snapshot.edges[edge] for edge in (*MAIN_EDGES[1:-1], *ALTERNATE_EDGES[1:-1])]
                     main_speed = float(np.mean([snapshot.edges[edge].mean_speed_meters_per_second for edge in MAIN_EDGES[1:-1]]))
@@ -449,7 +480,7 @@ def _run_policy(
         safety_dict.pop("ttc_values")
         safety_dict.pop("drac_values")
         safety_dict.pop("pet_values")
-        return {
+        result = {
             "policy": policy,
             "seed": seed,
             "condition": dict(condition),
@@ -472,6 +503,10 @@ def _run_policy(
             "network_hash": _sha(network),
             "route_file_hash": _sha(route_file),
         }
+        if capture_diagnostics:
+            result["diagnostic_series"] = diagnostic_series
+            result["spatiotemporal"] = spatiotemporal
+        return result
 
 
 def run_v6_pair(
@@ -481,9 +516,14 @@ def run_v6_pair(
     condition: Mapping[str, object],
     seed: int,
     analytical: Mapping[str, float],
+    capture_diagnostics: bool = False,
 ) -> tuple[dict, dict]:
-    baseline = _run_policy(network, metadata, config, condition, seed, "B1", analytical)
-    adaptive = _run_policy(network, metadata, config, condition, seed, "B6", analytical)
+    baseline = _run_policy(
+        network, metadata, config, condition, seed, "B1", analytical, capture_diagnostics
+    )
+    adaptive = _run_policy(
+        network, metadata, config, condition, seed, "B6", analytical, capture_diagnostics
+    )
     pairing_names = tuple(
         name
         for name in MICRO_V6_FEATURE_SCHEMA
