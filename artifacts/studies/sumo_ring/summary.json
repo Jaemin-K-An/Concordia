@@ -3,9 +3,9 @@
   "complete": true,
   "last_time_seconds": 1200.0,
   "output_hashes": {
-    "fcd_sha256": "1e0caa782414e3f7440d91ba8008d2d8ed70f4e0e6b66982b0481dd2b9c697da",
+    "fcd_sha256": "a7e81348edb62acadeedbbac62a72a0fce4c4ca54aa1b926ae927a8fb18dea0f",
     "safety_distributions_sha256": "4e2636d8f6e78442ad84ba696a8f3a0c2270ac99e3ce7c408cbc3a39b1fb695a",
-    "ssm_sha256": "707fe51fbe6028b347b0898a352da2d017eb6a16446b9ca0cfa365e0e1e4979f"
+    "ssm_sha256": "404f0b0d022b5172a295e5830877cebdf4e01da28afc33457ddd0a38966c3e46"
   },
   "phantom_event_count": 2,
   "phantom_events": [
@@ -44,14 +44,67 @@
     "p99_drac": 0.5046603755359998,
     "ttc_conflicts": 0
   },
+  "safety_distribution_summary": {
+    "drac_meters_per_second2": {
+      "count": 23539,
+      "cvar95_upper": 0.47266326920769636,
+      "maximum": 1.5840809412646797,
+      "mean": 0.15196370694704037,
+      "median": 0.13572517405673734,
+      "minimum": 1.591956950488553e-11,
+      "p90": 0.3080703206061005,
+      "p95": 0.3649535484719319,
+      "p99": 0.5046603755359998
+    },
+    "pet_seconds": {
+      "count": 0,
+      "cvar95_upper": null,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null,
+      "p90": null,
+      "p95": null,
+      "p99": null
+    },
+    "ttc_seconds": {
+      "count": 23539,
+      "cvar95_upper": 604.9758321434351,
+      "maximum": 464068.969608218,
+      "mean": 38.198169135143324,
+      "median": 6.3252940546834076,
+      "minimum": 2.6437794836156123,
+      "p90": 21.313647827988227,
+      "p95": 40.89005289792919,
+      "p99": 193.055013975666
+    }
+  },
+  "safety_rates": {
+    "hard_braking_events_per_observation": 0.02542193534733612,
+    "high_closing_speed_conflicts_per_observation": 0.0,
+    "ttc_conflicts_per_observation": 0.0
+  },
   "seed": 42,
   "simulator_version": "Eclipse SUMO sumo 1.27.1",
   "ssm_conflict_count": 0,
+  "ssm_conflict_types": {
+    "lane_change": 0,
+    "merge": 0,
+    "other_or_unknown": 0
+  },
   "ssm_extrema": {
     "max_drac_meters_per_second2": null,
     "min_pet_seconds": null,
     "min_ttc_seconds": null
   },
   "steps": 6000,
+  "traffic": {
+    "arrived_vehicles": 64,
+    "departed_vehicles": 98,
+    "maximum_halting_vehicles": 0,
+    "mean_edge_speed_meters_per_second": 5.9756825682727985,
+    "throughput_vehicles": 64,
+    "total_lost_time_seconds": 16818.70898875126
+  },
   "trajectory_frames": 37802
 }

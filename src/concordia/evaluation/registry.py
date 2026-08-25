@@ -178,7 +178,15 @@ class ExperimentRegistry:
             },
             "dependencies": {
                 package: _version(package)
-                for package in ("numpy", "networkx", "PyYAML", "scipy", "traci")
+                for package in (
+                    "numpy",
+                    "networkx",
+                    "PyYAML",
+                    "scipy",
+                    "eclipse-sumo",
+                    "sumolib",
+                    "traci",
+                )
             },
             "solver_version": f"scipy-{_version('scipy')}/HiGHS",
             "rl_library_version": "not-installed-not-used",

@@ -16,8 +16,8 @@
     },
     "B_runtime": {
       "exceedance_fraction": 0.0,
-      "maximum_end_to_end_seconds": 3.442365125000002,
-      "p95_end_to_end_seconds": 3.3246364684000014,
+      "maximum_end_to_end_seconds": 3.2367007920000006,
+      "p95_end_to_end_seconds": 3.209581491349997,
       "tested": true,
       "threshold": ">5 seconds in more than 20% of focused recommendation cycles",
       "triggered": false

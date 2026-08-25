@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -127,6 +128,8 @@ def main(argv: Sequence[str] = ()) -> int:
                 source_commit=source_commit,
                 source_dirty=source_dirty,
             )
+            study_manifest = Path(arguments.output).with_name("manifest.json")
+            shutil.copyfile(run_dir / "manifest.json", study_manifest)
             print(json.dumps({"summary": str(path), "run_dir": str(run_dir)}, indent=2))
         elif arguments.command == "rl-gate":
             with Path(arguments.research).open("r", encoding="utf-8") as handle:

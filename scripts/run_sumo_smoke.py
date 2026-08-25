@@ -4,8 +4,10 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import shutil
 import subprocess
 from dataclasses import asdict
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -16,6 +18,7 @@ from concordia.safety import (
     summarize_safety,
     summarize_ssm_conflict_types,
 )
+from concordia.evaluation import ExperimentRegistry, capture_source_state
 from concordia.simulation import SumoAdapter
 from concordia.traffic import DetectorObservation, PhantomJamEventDetector
 
@@ -88,6 +91,8 @@ def build_network() -> Path:
 
 
 def run() -> Path:
+    source_commit, source_dirty = capture_source_state()
+    started = datetime.now(timezone.utc)
     build_network()
     binary = SumoAdapter.resolve_binary("sumo")
     if binary is None:
@@ -250,6 +255,24 @@ def run() -> Path:
         ),
     }
     output.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    ended = datetime.now(timezone.utc)
+    run_dir = ExperimentRegistry(str(ROOT / "artifacts" / "runs")).create(
+        {"scenario": "sumo_ring_smoke", "seed": 42, "seeds": [42]},
+        payload,
+        simulator_version=payload["simulator_version"],
+        input_paths=(
+            str(SCENARIO / "ring.nod.xml"),
+            str(SCENARIO / "ring.edg.xml"),
+            str(SCENARIO / "ring.rou.xml"),
+            str(SCENARIO / "ring.sumocfg"),
+        ),
+        external_output_paths=(str(output), str(distribution_path)),
+        started_at=started,
+        ended_at=ended,
+        source_commit=source_commit,
+        source_dirty=source_dirty,
+    )
+    shutil.copyfile(run_dir / "manifest.json", ARTIFACT / "manifest.json")
     print(output)
     return output
 
