@@ -1,0 +1,7 @@
+study: v5_unseen_secondary_stress_holdout
+precision_target: 0.70
+safety_violations_target: 0
+coverage_positive: true
+cvar_quantile: 0.95
+claim_boundary: >-
+  New post-freeze analytical stress holdout with unseen demand, acceptance and preference-variance combinations.

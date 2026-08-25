@@ -1,0 +1,15 @@
+study: v5_stratified_multi_od_real_topology
+source_osm: data/raw/gangnam_intersection.osm
+source_manifest: data/manifests/gangnam_intersection.json
+od_pair_count: 6
+overlap_strata: [low, medium, high]
+pairs_per_stratum: 2
+minimum_legal_alternatives: 3
+seeds: [397, 401]
+demand_vehicles_per_hour: [540, 660]
+navigation_penetration: [0.50, 1.00]
+vehicle_generation_seconds: 180
+maximum_simulation_seconds: 480
+selection_rule: deterministic nearest-to-overlap-quantile after legality/connectivity/path-length filters
+claim_boundary: >-
+  Six prespecified synthetic OD pairs on committed real OSM geometry; not observed Seoul traffic.

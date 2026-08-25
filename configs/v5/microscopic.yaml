@@ -1,0 +1,29 @@
+study: v5_microscopic_domain_bridge
+development_seeds: [271, 277, 281, 283, 293, 307, 311, 313, 317, 331]
+development_roles:
+  micro_development: [271, 277, 281, 283, 293, 307]
+  micro_calibration: [311, 313]
+  micro_validation: [317, 331]
+final_holdout_seeds: [337, 347, 349, 353, 359, 367, 373, 379, 383, 389]
+condition_templates:
+  - [merge, 800, 0.25, low]
+  - [merge, 1200, 0.50, high]
+  - [merge, 1600, 1.00, high]
+  - [signalized, 800, 0.50, low]
+  - [signalized, 1200, 0.75, high]
+  - [signalized, 1600, 1.00, bimodal]
+  - [two_route, 800, 0.25, long_tail]
+  - [two_route, 1200, 0.75, low]
+  - [ring, 1200, 0.50, high]
+  - [ring, 1600, 1.00, long_tail]
+development_pair_count: 100
+final_holdout_pair_count: 100
+vehicle_generation_seconds: 120
+maximum_simulation_seconds: 320
+preference_epsilon: 0.08
+micro_success_probability_thresholds: [0.40, 0.50, 0.60, 0.70, 0.80]
+micro_safety_probability_thresholds: [0.05, 0.10, 0.15, 0.20, 0.30]
+minimum_claim_interventions: 10
+claim_boundary: >-
+  Actual SUMO paired conditions with synthetic demand/preferences. Seed-disjoint development,
+  calibration, validation and final holdout roles. Surrogate safety is not crash probability.

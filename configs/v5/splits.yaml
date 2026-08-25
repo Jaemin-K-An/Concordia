@@ -1,0 +1,36 @@
+historical_sources:
+  - artifacts/studies/v4_model_selection/raw_metrics.json
+  - artifacts/studies/v4_frozen_holdout/raw_metrics.json
+development:
+  seeds: [193, 197, 199, 211, 223, 227]
+  training_seeds: [193, 197, 199]
+  calibration_fit_seeds: [211]
+  validation_seeds: [223]
+  shift_validation_seeds: [227]
+  scenarios: [two_route, ring, merge, signalized]
+  demand_scale: [0.80, 0.90, 1.00, 1.10, 1.20, 1.30]
+  heterogeneity: [low, high, bimodal, long_tail]
+  navigation_penetration: [0.25, 0.50, 0.75, 1.00]
+  acceptance_multiplier: [0.70, 0.85, 1.00]
+  preference_variance_multiplier: [0.70, 1.00, 1.30, 1.60]
+  selected_case_target: 1800
+  boundary_probability: [0.50, 0.90]
+  acquisition: uncertainty_times_decision_relevance
+final_analytical_holdout:
+  seeds: [233, 239, 241, 251]
+  scenarios: [two_route, ring, merge, signalized]
+  demand_scale: [0.85, 1.05, 1.15, 1.30]
+  heterogeneity: [low, high, bimodal, long_tail]
+  navigation_penetration: [0.25, 0.50, 0.75, 1.00]
+  expected_case_count: 1024
+final_stress_holdout:
+  seeds: [257, 263]
+  scenarios: [two_route, ring, merge, signalized]
+  demand_scale: [1.25, 1.35]
+  heterogeneity: [low, high, bimodal, long_tail]
+  navigation_penetration: [0.25, 0.50, 0.75, 1.00]
+  acceptance_multiplier: [0.65, 0.80]
+  preference_variance_multiplier: [1.40, 1.80]
+  expected_case_count: 256
+anti_leakage:
+  final_ids_must_be_absent_from: [training, calibration, regime_fitting, shift_fitting, micro_correction, safety_veto, threshold_selection]

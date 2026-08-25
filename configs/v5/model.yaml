@@ -1,0 +1,19 @@
+seed: 20260829
+candidate_models: [M1_global_logistic, M2_interaction_logistic, M3_regime_specific, M4_hierarchical, M5_gradient_boosting, M6_mixture]
+calibration_methods: [platt, isotonic, beta]
+probability_thresholds: [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95]
+regime_cut_candidates: [0.375, 0.625, 0.875]
+minimum_regime_size: 40
+hierarchical_pooling_strength: 30.0
+shift_mild_quantile: 0.90
+shift_strong_quantile: 0.99
+shift_probability_penalty: 0.08
+strong_shift_action: abstain
+critical_group_minimum_interventions: 10
+freeze_paths:
+  regimes: configs/v5/frozen_regimes.yaml
+  model: configs/v5/frozen_model.yaml
+  thresholds: configs/v5/frozen_thresholds.yaml
+  shift: configs/v5/frozen_shift_detector.yaml
+  micro_safety: configs/v5/frozen_micro_safety.yaml
+  manifest: artifacts/v5/freeze_manifest.json

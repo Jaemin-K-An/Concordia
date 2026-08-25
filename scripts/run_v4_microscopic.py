@@ -20,7 +20,12 @@ import yaml
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from concordia.evaluation import ExperimentRegistry, capture_source_state, summarize_selective_policy
+from concordia.evaluation import (
+    ExperimentRegistry,
+    adaptive_success_claim_allowed,
+    capture_source_state,
+    summarize_selective_policy,
+)
 from concordia.feasibility import (
     V4PredictionBundle,
     V4_FEATURE_SCHEMA,
@@ -205,6 +210,7 @@ def run() -> Path:
         selected = [row for row in policy_rows["V4-F"] if row["regime"] == regime]
         regime_metrics[regime] = summarize_selective_policy(selected)
     intervention_count = metrics["V4-F"]["intervention_count"]
+    safety_violation_count = metrics["V4-F"]["safety_violation_count"]
     summary = {
         "complete": True,
         "study": "Study XIII — Microscopic v4",
@@ -213,8 +219,10 @@ def run() -> Path:
         "policy_metrics": metrics,
         "regime_metrics": regime_metrics,
         "microscopic_interventions_positive": intervention_count > 0,
-        "adaptive_success_claim_allowed": intervention_count > 0,
-        "safety_abstention_claim_allowed": metrics["V4-F"]["safety_violation_count"] == 0,
+        "adaptive_success_claim_allowed": adaptive_success_claim_allowed(
+            metrics["V4-F"], 1
+        ),
+        "safety_abstention_claim_allowed": safety_violation_count == 0,
         "phantom_role": "secondary event analysis only; no phantom predictor in V4-F",
         "claim_boundary": config["claim_boundary"],
     }

@@ -7,6 +7,14 @@ import numpy as np
 from concordia.feasibility.calibration import wilson_interval
 
 
+def adaptive_success_claim_allowed(metrics: Mapping[str, object], minimum_interventions: int) -> bool:
+    return bool(
+        int(metrics["intervention_count"]) >= int(minimum_interventions)
+        and int(metrics["successful_intervention_count"]) > 0
+        and int(metrics["safety_violation_count"]) == 0
+    )
+
+
 def summarize_selective_policy(rows: Sequence[Mapping[str, object]]) -> dict:
     count = len(rows)
     interventions = [row for row in rows if bool(row["intervene"])]
