@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "holdout_result_hash": "90b57e2a54f0b6b9c359cbd323355b705e6f9aa0c7aeba765fcea8b6b2207b62",
+  "hypotheses": {
+    "H10": "PASS",
+    "H11": "PASS",
+    "H12": "FAIL",
+    "H13": "DESCRIPTIVE",
+    "H14": "DESCRIPTIVE",
+    "H8": "FAIL",
+    "H8_point": "PASS",
+    "H9": "PASS"
+  },
+  "outcome": "P",
+  "outcome_text": "Selective CONCORDIA partially supported.",
+  "questions": {
+    "Coverage \u226540%?": "FAIL",
+    "Feasibility predictor calibrated?": "PARTIAL \u2014 calibration evaluated; ECE=0.117",
+    "Intervention precision > 50%?": "PASS",
+    "Leakage-free holdout?": "PASS",
+    "Mean TTT gain positive?": "PASS",
+    "Precision engineering target \u226565%?": "FAIL",
+    "RL used?": "NO",
+    "Real-topology selective policy tested?": "PASS",
+    "Safety non-inferiority?": "PASS",
+    "Tail robustness evaluated?": "PASS",
+    "Threshold frozen before holdout?": "PASS"
+  },
+  "selected_model_hash": "60768e03e87e8bca0d802d6e56eb12386f05382887dd82121c910848a8842740",
+  "threshold_hash": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0"
+}

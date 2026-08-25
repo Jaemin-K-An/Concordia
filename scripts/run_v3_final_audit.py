@@ -39,10 +39,7 @@ def run() -> Path:
     frozen = yaml.safe_load(frozen_path.read_text(encoding="utf-8"))
     selected_path = ROOT / "artifacts/studies/v3_feasibility_prediction/selected_model.json"
     primary = holdout["primary_metrics"]
-    calibrated = (
-        feasibility["validation_metrics"]["brier_score"] >= 0
-        and feasibility["validation_metrics"]["ece"] <= 1
-    )
+    calibration_ece = feasibility["validation_metrics"]["ece"]
     leakage_free = holdout["untouched_holdout"] and holdout[
         "holdout_case_ids_absent_from_training"
     ]
@@ -55,7 +52,9 @@ def run() -> Path:
     )
     safety_pass = primary["safety_violation_count"] == 0
     questions = {
-        "Feasibility predictor calibrated?": _status(calibrated),
+        "Feasibility predictor calibrated?": (
+            f"PARTIAL — calibration evaluated; ECE={calibration_ece:.3f}"
+        ),
         "Leakage-free holdout?": _status(leakage_free),
         "Threshold frozen before holdout?": _status(frozen_before),
         "Intervention precision > 50%?": _status(primary["intervention_precision"] > 0.50),

@@ -121,7 +121,10 @@ table{{border-collapse:collapse;width:100%;margin:18px 0}}th,td{{border-bottom:1
 </body></html>"""
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(document, encoding="utf-8")
-    CANONICAL.write_text(document, encoding="utf-8")
+    CANONICAL.write_text(
+        document.replace('src="../studies/', 'src="studies/'),
+        encoding="utf-8",
+    )
     print(OUTPUT)
     return OUTPUT
 
