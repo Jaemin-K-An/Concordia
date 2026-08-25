@@ -1,0 +1,8 @@
+study: v4_frozen_distribution_shift
+demand_multipliers: [1.10, 1.20]
+preference_variance_multiplier: 1.30
+acceptance_probability_multiplier: 0.80
+cvar_quantile: 0.95
+maximum_tail_loss: 0.10
+stress_precision_target: 0.70
+claim_boundary: Synthetic post-holdout stress evaluation with immutable v4 model and thresholds.

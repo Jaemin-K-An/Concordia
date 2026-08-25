@@ -1,0 +1,26 @@
+historical_sources:
+  - artifacts/studies/v3_feasibility_prediction/raw_metrics.json
+  - artifacts/studies/v3_selective_holdout/raw_metrics.json
+historical_policy: v3 holdout promoted to v4 historical development; never reused as v4 final test
+active_design:
+  scenarios: [two_route, ring, merge, signalized]
+  seeds: [107, 109, 113, 127]
+  demand_scale: [0.75, 1.0, 1.2, 1.5]
+  heterogeneity: [low, high, bimodal, long_tail]
+  navigation_penetration: [0.5, 1.0]
+roles:
+  training_seeds: [11, 23, 37, 53, 71, 89, 97, 107, 109]
+  calibration_fit_seeds: [101]
+  calibration_evaluation_seeds: [113]
+  validation_seeds: [127]
+final_holdout:
+  scenarios: [two_route, ring, merge, signalized]
+  seeds: [131, 137, 149, 157]
+  demand_scale: [0.7, 0.95, 1.25, 1.55, 1.7]
+  heterogeneity: [low, high, bimodal, long_tail]
+  navigation_penetration: [0.5, 1.0]
+  expected_case_count: 640
+anti_leakage:
+  group_unit: [scenario, seed, demand_scale, heterogeneity, navigation_penetration]
+  final_holdout_materialized_only_after_freeze: true
+  final_holdout_seeds_absent_from_all_fitting: true

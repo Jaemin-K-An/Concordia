@@ -99,7 +99,7 @@ class FeasibilityModel:
         base = float(math.log((labels.mean() + 1e-4) / (1.0 - labels.mean() + 1e-4)))
         score = np.full(len(labels), base, dtype=float)
         stumps = []
-        for _ in range(100):
+        for _ in range(min(self.iterations, 100)):
             residual = labels - _sigmoid(score)
             best = None
             for feature in range(matrix.shape[1]):

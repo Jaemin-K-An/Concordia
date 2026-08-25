@@ -1,0 +1,12 @@
+study: v4_multi_od_real_topology
+source_osm: data/raw/gangnam_intersection.osm
+source_manifest: data/manifests/gangnam_intersection.json
+development_od: ["1906756262", "5376448907"]
+seeds: [131, 137, 149]
+demand_vehicles_per_hour: [540, 660]
+vehicle_generation_seconds: 300
+maximum_simulation_seconds: 600
+od_overlap_classes: [low, medium, high]
+claim_boundary: >-
+  Three synthetic OD pairs on real OSM geometry. Results are mechanism-transfer evidence,
+  not observed or calibrated Seoul traffic effects.

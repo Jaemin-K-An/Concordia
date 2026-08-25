@@ -1,7 +1,7 @@
 PYTHON ?= python3
 RUN_CONFIG ?= configs/experiments/smoke.yaml
 
-.PHONY: setup lint test benchmark experiment research rl-gate rl-evaluate conditional-rl report report-v2 phase-reports audit audit-v2 sumo-check sumo-ring-build sumo-ring-run simulation-test phantom-calibrate alignment-study microscopic-study real-topology-study scalability-study drift-study v3-audit v3-dataset feasibility-train feasibility-validate freeze-thresholds v3-holdout v3-microscopic v3-real-topology v3-tail-study v3-report v3-final-audit clean
+.PHONY: setup lint test benchmark experiment research rl-gate rl-evaluate conditional-rl report report-v2 phase-reports audit audit-v2 sumo-check sumo-ring-build sumo-ring-run simulation-test phantom-calibrate alignment-study microscopic-study real-topology-study scalability-study drift-study v3-audit v3-dataset feasibility-train feasibility-validate freeze-thresholds v3-holdout v3-microscopic v3-real-topology v3-tail-study v3-report v3-final-audit v4-audit v4-dataset v4-train v4-robust-cv v4-calibrate v4-benefit-model v4-safety-model v4-select-threshold v4-freeze v4-holdout v4-microscopic v4-real-topology v4-stress v4-report v4-final-audit clean
 
 setup:
 	$(PYTHON) -m pip install -e '.[dev,analysis]'
@@ -110,6 +110,51 @@ v3-report:
 
 v3-final-audit:
 	PYTHONPATH=src $(PYTHON) scripts/run_v3_final_audit.py
+
+v4-audit:
+	PYTHONPATH=src $(PYTHON) scripts/run_v4_audit.py
+
+v4-dataset:
+	PYTHONPATH=src $(PYTHON) scripts/build_v4_dataset.py
+
+v4-train:
+	PYTHONPATH=src $(PYTHON) scripts/train_v4_models.py
+
+v4-robust-cv:
+	PYTHONPATH=src $(PYTHON) scripts/run_v4_robust_cv.py
+
+v4-calibrate:
+	PYTHONPATH=src $(PYTHON) scripts/calibrate_v4_models.py
+
+v4-benefit-model:
+	PYTHONPATH=src $(PYTHON) scripts/train_v4_benefit.py
+
+v4-safety-model:
+	PYTHONPATH=src $(PYTHON) scripts/train_v4_safety.py
+
+v4-select-threshold:
+	PYTHONPATH=src $(PYTHON) scripts/select_v4_threshold.py
+
+v4-freeze:
+	PYTHONPATH=src $(PYTHON) scripts/freeze_v4.py
+
+v4-holdout:
+	PYTHONPATH=src $(PYTHON) scripts/run_v4_holdout.py
+
+v4-microscopic:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v4_microscopic.py
+
+v4-real-topology:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v4_real_topology.py
+
+v4-stress:
+	PYTHONPATH=src $(PYTHON) scripts/run_v4_stress.py
+
+v4-report:
+	PYTHONPATH=src $(PYTHON) scripts/build_final_report_v4.py
+
+v4-final-audit:
+	PYTHONPATH=src $(PYTHON) scripts/run_v4_final_audit.py
 
 clean:
 	find src tests -type d -name __pycache__ -prune -exec rm -r {} +

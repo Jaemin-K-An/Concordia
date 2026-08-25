@@ -1,0 +1,40 @@
+version: concordia-v4-preregistered-1
+primary:
+  intervention_precision_target: 0.80
+  coverage_minimum: 0.20
+  coverage_stretch: 0.25
+  coverage_guard: 0.15
+  intervention_count_target: 50
+  intervention_count_minimum: 30
+  strong_precision_ci_lower: 0.60
+  very_strong_precision_ci_lower: 0.70
+success_definition:
+  minimum_relative_ttt_gain: 0.01
+  regret_limit: 0.08
+  safety_delta: 0.25
+  legal: true
+  executable: true
+  accepted_only: true
+secondary:
+  failure_avoidance_target: 0.80
+  missed_opportunity_maximum: 0.60
+  validation_ece_target: 0.05
+  stress_precision_target: 0.70
+  inference_p95_seconds: 0.50
+  pipeline_p95_seconds: 5.0
+outcomes:
+  S_plus: {precision: 0.80, coverage: 0.25, safety_violations: 0, positive_mean_gain: true}
+  S: {precision: 0.80, coverage: 0.20, safety_violations: 0, positive_mean_gain: true}
+  P: {precision: 0.70, safety_violations: 0}
+  F: {precision_below: 0.70}
+claim_boundary: >-
+  Primary evidence is a new synthetic analytical holdout. Microscopic tests use actual SUMO
+  with synthetic demand. OSM studies use real geometry with synthetic OD demand. Safety
+  measures are surrogate conflicts, never crash probabilities.
+hypotheses:
+  H15: untouched holdout intervention precision is at least 0.80
+  H16: coverage exceeds v3-D and reaches at least 0.20
+  H17: no safety violations among interventions
+  H18: population benefit rate exceeds v3-D
+  H19: heterogeneity by route-attribute-diversity interaction adds explanatory information
+  H20: ESIV improves Coverage@Precision80 over binary probability gating

@@ -1,0 +1,18 @@
+version: concordia-v4-feature-schema-1
+contract: v3 features remain frozen; v4 appends network, slack, diversity, and interaction features
+additional_features:
+  - route_count
+  - bottleneck_load
+  - beneficial_alternative_count
+  - mean_preference_slack
+  - p90_preference_slack
+  - preference_long_tail_mass
+  - eta_dispersion
+  - reliability_dispersion
+  - safety_dispersion
+  - cost_dispersion
+  - aps_alternative_capacity_interaction
+  - route_overlap_demand_interaction
+  - poa_penetration_interaction
+  - safety_margin_demand_interaction
+core_interaction: heterogeneity_rad_interaction

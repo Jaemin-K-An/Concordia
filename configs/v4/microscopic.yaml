@@ -1,0 +1,13 @@
+study: v4_microscopic_precision_selectivity
+seeds: [131, 137, 149]
+demand_vehicles_per_hour: [800, 1200, 1600]
+navigation_penetration: [0.5, 1.0]
+heterogeneity: [low, high]
+vehicle_generation_seconds: 300
+maximum_simulation_seconds: 650
+known_regimes:
+  potentially_beneficial: {demand: [800, 1200], penetration: 0.5}
+  potentially_risky: {demand: [1600], penetration: 1.0}
+claim_boundary: >-
+  Actual SUMO with synthetic demand and preferences. V4 decisions are frozen before outcomes;
+  zero intervention permits only a safety-abstention claim, not adaptive success.
