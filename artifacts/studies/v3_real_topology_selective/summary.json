@@ -1,0 +1,116 @@
+{
+  "all_recommended_paths_legal": true,
+  "claim_boundary": "Unseen synthetic OD/demand/seeds on real OSM geometry. This is mechanism transfer evidence, not an observed Seoul traffic-effect estimate.",
+  "complete": true,
+  "development_od": [
+    "1906756262",
+    "5376448907"
+  ],
+  "evaluation_od": [
+    "cluster_12061673697_12061673699_4944067989",
+    "5376448907"
+  ],
+  "evaluation_od_unseen": true,
+  "legal_route_count": 3,
+  "policy_metrics": {
+    "B6": {
+      "case_count": 6,
+      "coverage": 1.0,
+      "coverage_ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "failure_avoidance_rate": 0.0,
+      "intervention_count": 6,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": -253.83333333333334,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 3,
+      "successful_intervention_count": 0
+    },
+    "V3": {
+      "case_count": 6,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    }
+  },
+  "route_overlap_jaccard_max": 0.7777777777777778,
+  "route_overlap_jaccard_mean": 0.6695692557761523,
+  "simulator_version": "Eclipse SUMO sumo 1.27.1",
+  "source_osm_sha256": "b0388e6871d9fdf6529afc2ddf493fcb363213aa23d53af560b2a1b50c854525",
+  "statistics": {
+    "B6": {
+      "case_count": 6,
+      "coverage": 1.0,
+      "coverage_ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "failure_avoidance_rate": 0.0,
+      "intervention_count": 6,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": -253.83333333333334,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 3,
+      "successful_intervention_count": 0
+    },
+    "H12_all_recommended_paths_legal": true,
+    "H12_positive_net_benefit": false,
+    "H12_unseen_od": true,
+    "V3": {
+      "case_count": 6,
+      "coverage": 0.0,
+      "coverage_ci95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ],
+      "failure_avoidance_rate": 1.0,
+      "intervention_count": 0,
+      "intervention_precision": 0.0,
+      "intervention_precision_ci95": [
+        0.0,
+        1.0
+      ],
+      "legal_violation_count": 0,
+      "mean_network_ttt_gain": 0.0,
+      "missed_opportunity_rate": 0.0,
+      "population_benefit_rate": 0.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "successful_intervention_count": 0
+    }
+  },
+  "study": "Study VIII \u2014 Real-Topology Selective Transfer",
+  "sumo_network_sha256": "71d1cca84183fa226dd9a7f4d809d1a4e49f10f5aebd31be0edc561418e0f9bc"
+}
