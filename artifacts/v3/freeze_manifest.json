@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "data_split_hash": "e678c219166539e0e6458b2ac8537e8facb371c2fedc1f5db55a7561ecdb9fc7",
+  "feature_schema_hash": "bfe7839c12827f73fb41a38f4e5a1b17914c6267ba7624b79d3c2b16f4875b4c",
+  "frozen_at_utc": "2026-08-25T04:54:58.322079+00:00",
+  "git_commit": "6f24cd6fa7d0d7e5278f2ebedce31fa37ff85fae",
+  "holdout_started": false,
+  "immutable": true,
+  "selected_model_hash": "60768e03e87e8bca0d802d6e56eb12386f05382887dd82121c910848a8842740",
+  "threshold_config": "configs/v3/frozen_thresholds.yaml",
+  "threshold_config_hash": "6319f526d6ede05099f414e132275aa253821ad968abf5b6d2b5a272052ad3b0"
+}
