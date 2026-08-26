@@ -1,0 +1,12 @@
+decision_rollout_seed_floor: 100000
+decision_rollout_seed_ceiling: 999999
+decision_rollout_seed_algorithm: sha256_state_id_action_id_stage_replica_mod_900000_plus_floor
+development_evaluation_seed_is_seed_family: true
+validation_evaluation_seed_is_seed_family: true
+decision_evaluation_seed_overlap_forbidden: true
+stage_seed_overlap_forbidden: true
+verification_seed_overlap_forbidden: true
+common_random_numbers_within_state_action_stage_replica: true
+cache_key_fields: [state_id, action_id, stage, replica, horizon_seconds, simulator_parameter_hash]
+final_realized_cache_forbidden: true
+

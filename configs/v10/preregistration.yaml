@@ -1,0 +1,56 @@
+study: CONCORDIA_v10_multi_fidelity_action_racing
+registered_at_utc: 2026-08-26T00:00:00Z
+immutable_predecessor_commit: fff093ebef3cf506e7912a7475d184b11185bad4
+v9_actionability_raw_hash: dfaed53032d04b158a1723ed4725843e0859b46d08a9a5c26f20a578590d4f1c
+v9_gate_validation_hash: 99c4c5748147046d93f95204926fff904a9a701b7f615b04c64c992c194b8aaf
+v9_final_design_hash: 055071fdf530545af01e62f8b4cbfee49f9eaf30264bd28e8af5fa9f71fc5112
+v9_final_holdout_materialized: false
+v9_policy_frozen: false
+v9_reserved_final_seed_family_disposition: permanently_unused_historical_reservation
+primary_question: Can staged multi-fidelity SUMO racing select safe beneficial actions without one-shot surrogate elimination?
+primary_domain: synthetic_microscopic_SUMO
+action_library_source: concordia.v9.action_space.generate_action_library
+adaptive_action_count: 24
+null_action_always_available: true
+minimum_relative_benefit: 0.005
+safety_delta: 0.25
+maximum_realized_regret: 0.08
+rl_used: false
+new_ml_training: minimized_existing_v9_models_are_tie_breakers_only
+validation_authorization:
+  state_count: 400
+  minimum_precision: 0.85
+  safety_violation_count: 0
+  minimum_interventions: 30
+  minimum_coverage: 0.10
+final_targets:
+  state_count: 500
+  minimum_precision: 0.80
+  safety_violation_count: 0
+  minimum_interventions: 40
+  minimum_coverage: 0.10
+outcomes:
+  S_plus: {minimum_precision: 0.85, minimum_coverage: 0.15, minimum_interventions: 40, safety_violations: 0, population_ttt_gain_strictly_positive: true}
+  S: {minimum_precision: 0.80, minimum_coverage: 0.10, minimum_interventions: 40, safety_violations: 0}
+  P: {minimum_precision: 0.70, coverage_strictly_positive: true, safety_violations: 0}
+  F: {otherwise: true}
+hypotheses:
+  H66: Multi-fidelity racing improves oracle-action recall over v9 static Top-5 ranking.
+  H67: Realized precision conditional on Stage-3 qualification is at least 0.80.
+  H68: Final microscopic coverage is at least 0.10.
+  H69: Final safety-violation count is zero.
+  H70: Replicated robust rollout reduces false positives versus a single-rollout selector.
+  H71: V10-selected actions have higher mean traffic benefit than B6.
+forbidden:
+  - deep_learning
+  - reinforcement_learning
+  - new_CATE_framework
+  - surrogate_only_action_elimination
+  - safety_margin_relaxation
+  - benefit_threshold_relaxation
+  - validation_precision_relaxation
+  - final_seed_replacement
+  - final_rerun_selection
+final_holdout_single_use: true
+final_holdout_materialized: false
+

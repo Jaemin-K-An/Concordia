@@ -1,0 +1,17 @@
+{
+  "adaptive_action_count": 24,
+  "development_state_count": 200,
+  "final_holdout_materialized": false,
+  "final_state_count": 500,
+  "immutable_predecessor_commit": "fff093ebef3cf506e7912a7475d184b11185bad4",
+  "null_action_always_available": true,
+  "primary_domain": "synthetic_microscopic_SUMO",
+  "repair_round_budget": 3,
+  "rl_used": false,
+  "stage_survivors": [24, 12, 6, 3, 1],
+  "study": "CONCORDIA v10 multi-fidelity action racing preregistration",
+  "surrogate_only_elimination_forbidden": true,
+  "v10_final_seed_manifest_materialized": false,
+  "v9_final_holdout_materialized": false,
+  "validation_state_count": 400
+}

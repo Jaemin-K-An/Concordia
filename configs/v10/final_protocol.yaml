@@ -1,0 +1,15 @@
+study: v10_single_use_untouched_microscopic_holdout
+state_count: 500
+condition_templates_source: configs/v9/development_design.yaml
+condition_template_count: 20
+seed_manifest_materialization_condition: frozen_commit_exists_on_remote_main
+seed_generation_rule: first_25_prime_numbers_at_or_above_5003
+seed_list_canonical_json_sha256: 9ada7f84b093e34a69611dc6c4162dd6f879fd37dc8a204fc986deee48ea3b82
+seed_list_materialized: false
+disjoint_from_v9_reserved_final_family: true
+disjoint_from_v10_development_and_validation: true
+single_materialization_only: true
+single_realized_evaluation_only: true
+threshold_changes_after_materialization_forbidden: true
+final_holdout_materialized: false
+

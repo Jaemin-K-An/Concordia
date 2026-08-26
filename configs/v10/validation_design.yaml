@@ -1,0 +1,19 @@
+study: v10_racing_authorization_validation
+state_count: 400
+seed_families: [4001, 4003, 4007, 4013, 4019, 4021, 4027, 4049, 4051, 4057, 4073, 4079, 4091, 4093, 4099, 4111, 4127, 4129, 4133, 4139]
+condition_templates_source: configs/v9/development_design.yaml
+condition_template_count: 20
+partition_role: independent_authorization_only
+minimum_precision: 0.85
+maximum_safety_violations: 0
+minimum_interventions: 30
+minimum_coverage: 0.10
+decision_rollout_parameterization:
+  demand_multiplier: 1.0
+  car_following_reaction_multiplier: 1.0
+realized_evaluation_mismatch:
+  demand_multiplier_range: [0.97, 1.03]
+  car_following_reaction_multiplier_range: [0.95, 1.05]
+  stochastic_acceptance: true
+final_holdout_materialized: false
+

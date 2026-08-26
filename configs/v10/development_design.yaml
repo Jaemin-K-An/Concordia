@@ -1,0 +1,31 @@
+study: v10_racing_development
+state_count: 200
+seed_families: [3001, 3007, 3011, 3019, 3023, 3037, 3041, 3049, 3061, 3067]
+condition_templates_source: configs/v9/development_design.yaml
+condition_template_count: 20
+historical_v9_exhaustive_states_allowed_for_diagnostic_only: true
+historical_v9_rows_allowed_for_threshold_tuning: false
+final_seed_access_forbidden: true
+repair_budget:
+  maximum_rounds: 3
+  round_1_candidate_retention:
+    allowed_changes:
+      - increase_stage1_survivor_count
+      - increase_stage1_uncertainty_margin
+  round_2_rollout_fidelity:
+    allowed_changes:
+      - stage1_horizon_45_or_60
+      - stage2_horizon_90_or_120
+      - stage3_horizon_240_or_300
+      - increase_stage2_or_stage3_replicas
+  round_3_robust_criterion:
+    allowed_changes:
+      - strengthen_variance_penalty
+      - choose_registered_empirical_LCB
+      - enable_or_strengthen_fresh_top3_verification
+  forbidden_changes:
+    - lower_validation_precision_target
+    - raise_safety_delta
+    - raise_regret_limit
+    - lower_minimum_benefit
+

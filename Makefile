@@ -5,6 +5,7 @@ RUN_CONFIG ?= configs/experiments/smoke.yaml
 .PHONY: v7-audit v7-paired-dataset v7-effect-labels v7-train-uplift v7-train-safety-effect v7-train-regret v7-quantiles v7-conformal v7-validate v7-placebo v7-ablation v7-freeze v7-microscopic-holdout v7-analytical-check v7-real-topology v7-failure-analysis v7-report v7-final-audit
 .PHONY: v8-audit v8-safety-dataset v8-action-features v8-train-safety v8-calibrate-safety v8-traffic-ranking-check v8-integrate-policy v8-validate v8-ablation v8-freeze v8-microscopic-holdout v8-real-topology v8-failure-analysis v8-report v8-final-audit
 .PHONY: v9-audit v9-preregister v9-action-space v9-actionability v9-train-surrogate v9-train-safety v9-rollout-validation v9-policy-validation v9-repair v9-freeze v9-micro-holdout v9-mismatch-stress v9-real-topology v9-failure-analysis v9-report v9-final-audit
+.PHONY: v10-audit v10-preregister v10-racing-engine v10-development v10-validation v10-repair v10-freeze v10-micro-holdout v10-report v10-final-audit
 
 setup:
 	$(PYTHON) -m pip install -e '.[dev,analysis]'
@@ -369,6 +370,9 @@ v9-policy-validation:
 
 v9-repair:
 	PYTHONPATH=src:scripts $(PYTHON) scripts/validate_v9_optimizer.py
+
+v10-preregister:
+	PYTHONPATH=src:scripts $(PYTHON) -c "from pathlib import Path; assert Path('configs/v10/preregistration.yaml').is_file(); assert not Path('artifacts/studies/v10_micro_holdout/summary.json').exists(); assert not Path('artifacts/v10/final_seed_manifest.json').exists(); print('v10 preregistration present; final absent')"
 
 clean:
 	find src tests -type d -name __pycache__ -prune -exec rm -r {} +
