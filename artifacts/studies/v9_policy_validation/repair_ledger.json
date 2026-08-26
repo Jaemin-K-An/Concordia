@@ -1,0 +1,15 @@
+{
+  "changes": [
+    "state_action_interactions",
+    "pairwise_within_state_ranker",
+    "calibration_selected_candidate_ensemble",
+    "top_7_development_only_comparison"
+  ],
+  "final_seeds_inspected": false,
+  "forbidden_changes_made": [],
+  "maximum_registered_rounds": 3,
+  "maximum_regret_unchanged": 0.08,
+  "minimum_benefit_unchanged": 0.005,
+  "rounds_consumed": 1,
+  "safety_delta_unchanged": 0.25
+}

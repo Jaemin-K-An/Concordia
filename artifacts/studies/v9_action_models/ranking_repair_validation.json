@@ -1,0 +1,145 @@
+{
+  "calibration": {
+    "mean_action_regret": 0.012865835287179767,
+    "ndcg_action": 0.4447259857974167,
+    "state_count": 16,
+    "top1_action_accuracy": 0.4375,
+    "top_5_oracle_recall": 0.8125
+  },
+  "gate_B_pass": false,
+  "gate_B_threshold": 0.8,
+  "pairwise_only_validation": {
+    "mean_action_regret": 0.018590495607915706,
+    "ndcg_action": 0.37293938536856314,
+    "state_count": 24,
+    "top1_action_accuracy": 0.20833333333333334,
+    "top_5_oracle_recall": 0.5416666666666666
+  },
+  "registered_changes": [
+    "state_action_interactions",
+    "pairwise_within_state_ranker",
+    "calibration_selected_candidate_ensemble",
+    "top_7_development_only_comparison"
+  ],
+  "repair_round": 2,
+  "selected_safety_model_validation": {
+    "calibration_classification_at_0_5": {
+      "false_negative": 166,
+      "false_positive": 59,
+      "false_safe_rate_all_candidates": 0.17008196721311475,
+      "false_safe_rate_given_predicted_safe": 0.21899736147757257,
+      "pr_auc_average_precision": 0.7311745272810027,
+      "sample_count": 976,
+      "specificity": 0.9093701996927803,
+      "threshold": 0.5,
+      "true_negative": 592,
+      "true_positive": 159,
+      "unsafe_count": 325,
+      "unsafe_precision": 0.7293577981651376,
+      "unsafe_recall": 0.48923076923076925
+    },
+    "calibration_diagnostics": {
+      "brier_score": 0.14933170284365616,
+      "curve": [
+        {
+          "count": 266,
+          "lower": 0.0,
+          "mean_probability": 0.018796992481203006,
+          "observed_rate": 0.018796992481203006,
+          "upper": 0.1
+        },
+        {
+          "count": 42,
+          "lower": 0.1,
+          "mean_probability": 0.14285714285714288,
+          "observed_rate": 0.14285714285714285,
+          "upper": 0.2
+        },
+        {
+          "count": 180,
+          "lower": 0.2,
+          "mean_probability": 0.23888888888888893,
+          "observed_rate": 0.2388888888888889,
+          "upper": 0.30000000000000004
+        },
+        {
+          "count": 56,
+          "lower": 0.30000000000000004,
+          "mean_probability": 0.30357142857142855,
+          "observed_rate": 0.30357142857142855,
+          "upper": 0.4
+        },
+        {
+          "count": 214,
+          "lower": 0.4,
+          "mean_probability": 0.44392523364485975,
+          "observed_rate": 0.4439252336448598,
+          "upper": 0.5
+        },
+        {
+          "count": 102,
+          "lower": 0.6000000000000001,
+          "mean_probability": 0.6078431372549019,
+          "observed_rate": 0.6078431372549019,
+          "upper": 0.7000000000000001
+        },
+        {
+          "count": 57,
+          "lower": 0.7000000000000001,
+          "mean_probability": 0.7368421052631579,
+          "observed_rate": 0.7368421052631579,
+          "upper": 0.8
+        },
+        {
+          "count": 22,
+          "lower": 0.8,
+          "mean_probability": 0.8181818181818183,
+          "observed_rate": 0.8181818181818182,
+          "upper": 0.9
+        },
+        {
+          "count": 37,
+          "lower": 0.9,
+          "mean_probability": 1.0,
+          "observed_rate": 1.0,
+          "upper": 1.0
+        }
+      ],
+      "ece": 2.0987310250342353e-17,
+      "high_probability_around_0_8_count": 45,
+      "high_probability_around_0_8_observed_rate": 0.8
+    },
+    "kind": "logistic",
+    "model_id": "S0_logistic_interactions",
+    "selected_calibration": "isotonic",
+    "validation_classification_at_0_5": {
+      "false_negative": 186,
+      "false_positive": 147,
+      "false_safe_rate_all_candidates": 0.12704918032786885,
+      "false_safe_rate_given_predicted_safe": 0.17111315547378106,
+      "pr_auc_average_precision": 0.592212758403479,
+      "sample_count": 1464,
+      "specificity": 0.8597328244274809,
+      "threshold": 0.5,
+      "true_negative": 901,
+      "true_positive": 230,
+      "unsafe_count": 416,
+      "unsafe_precision": 0.610079575596817,
+      "unsafe_recall": 0.5528846153846154
+    }
+  },
+  "validation_top_5": {
+    "mean_action_regret": 0.023435721515553214,
+    "ndcg_action": 0.3545110330019736,
+    "state_count": 24,
+    "top1_action_accuracy": 0.125,
+    "top_5_oracle_recall": 0.375
+  },
+  "validation_top_7_diagnostic": {
+    "mean_action_regret": 0.023435721515553214,
+    "ndcg_action": 0.3545110330019736,
+    "state_count": 24,
+    "top1_action_accuracy": 0.125,
+    "top_5_oracle_recall": 0.4583333333333333
+  }
+}

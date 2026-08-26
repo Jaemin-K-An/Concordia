@@ -35,7 +35,7 @@ def within_state_ranking_metrics(
         dcg = float((gain[order] * discount).sum())
         idcg = float((np.sort(gain)[::-1] * discount).sum())
         ndcg_values.append(dcg / idcg if idcg else 0.0)
-        action_regret.append(float(oracle_value - safe_value[order[0]]))
+        action_regret.append(float(max(0.0, oracle_value - actual[order[0]])))
     count = len(grouped)
     return {
         "state_count": count,

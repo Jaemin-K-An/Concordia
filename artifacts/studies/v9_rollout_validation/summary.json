@@ -1,0 +1,8 @@
+{
+  "actual_rollout_count": 0,
+  "evaluation_rollout_seed_overlap": 0,
+  "final_holdout_materialized": false,
+  "gate_C_threshold": 0.7,
+  "reason": "Gate B failed after registered ranking repair",
+  "status": "not_reached"
+}

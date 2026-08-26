@@ -12,6 +12,7 @@ from concordia.v9.action_space import (
 from concordia.v9.optimizer import RobustActionOptimizer
 from concordia.v9.oracle import oracle_actionability
 from concordia.v9.rollout import assert_seed_disjoint, rollout_seeds
+from concordia.v9.safety import unsafe_label
 
 
 class V9MultiActionTests(unittest.TestCase):
@@ -78,6 +79,20 @@ class V9MultiActionTests(unittest.TestCase):
         seeds = rollout_seeds("s1", "A01", 5, realized_seed=1409)
         self.assertEqual(len(set(seeds)), 5)
         assert_seed_disjoint([1409], seeds)
+
+    def test_unsafe_label_includes_safety_regret_and_legality(self):
+        safe = {"outcomes": {
+            "tau_s": 0.25, "max_regret": 0.08, "legal": True,
+        }}
+        unsafe = {"outcomes": {
+            "tau_s": 0.251, "max_regret": 0.01, "legal": True,
+        }}
+        illegal = {"outcomes": {
+            "tau_s": 0.0, "max_regret": 0.0, "legal": False,
+        }}
+        self.assertEqual(unsafe_label(safe), 0)
+        self.assertEqual(unsafe_label(unsafe), 1)
+        self.assertEqual(unsafe_label(illegal), 1)
 
 
 if __name__ == "__main__":

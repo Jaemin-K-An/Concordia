@@ -7,6 +7,9 @@ import numpy as np
 
 from concordia.uplift_v7.learners import RegressionModel, build_regression_model
 
+from .action_features import feature_matrix
+from .pairwise import PairwiseActionRanker
+
 
 @dataclass
 class StateActionTrafficModel:
@@ -72,3 +75,52 @@ class StateActionTrafficModel:
         if value.get("bin_edges") is not None:
             model.bin_edges = tuple(tuple(map(float, edges)) for edges in value["bin_edges"])
         return model
+
+
+@dataclass
+class CandidateScreen:
+    traffic_models: tuple[StateActionTrafficModel, ...]
+    pairwise_ranker: PairwiseActionRanker
+    heuristic_names: tuple[str, ...]
+    weights: tuple[float, ...]
+
+    def component_scores(self, rows: Sequence[Mapping[str, object]]) -> np.ndarray:
+        components = [model.predict(feature_matrix(rows)) for model in self.traffic_models]
+        components.append(self.pairwise_ranker.predict(rows))
+        components.extend(
+            np.asarray([float(row["action_features"][name]) for row in rows])
+            for name in self.heuristic_names
+        )
+        matrix = np.asarray(components, dtype=float)
+        groups: dict[str, list[int]] = {}
+        for index, row in enumerate(rows):
+            groups.setdefault(str(row["state_id"]), []).append(index)
+        normalized = matrix.copy()
+        for component in range(len(matrix)):
+            for indices in groups.values():
+                values = matrix[component, indices]
+                normalized[component, indices] = (
+                    values - values.mean()
+                ) / max(float(values.std()), 1e-9)
+        return normalized
+
+    def predict(self, rows: Sequence[Mapping[str, object]]) -> np.ndarray:
+        return np.asarray(self.weights, dtype=float) @ self.component_scores(rows)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "implementation": "v9_calibration_selected_pairwise_interaction_ensemble",
+            "traffic_models": [model.to_dict() for model in self.traffic_models],
+            "pairwise_ranker": self.pairwise_ranker.to_dict(),
+            "heuristic_names": list(self.heuristic_names),
+            "weights": list(self.weights),
+        }
+
+    @classmethod
+    def from_dict(cls, value: Mapping[str, Any]) -> "CandidateScreen":
+        return cls(
+            tuple(StateActionTrafficModel.from_dict(item) for item in value["traffic_models"]),
+            PairwiseActionRanker.from_dict(value["pairwise_ranker"]),
+            tuple(value["heuristic_names"]),
+            tuple(map(float, value["weights"])),
+        )

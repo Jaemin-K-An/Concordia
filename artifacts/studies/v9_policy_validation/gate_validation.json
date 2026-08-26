@@ -1,0 +1,31 @@
+{
+  "development_repair_rounds_used": 1,
+  "final_holdout_authorized": false,
+  "final_model_selection": "none_safe_gate_preserving_stop",
+  "gate_A": {
+    "passed": true,
+    "threshold": 0.4,
+    "value": 0.458
+  },
+  "gate_B": {
+    "passed": false,
+    "threshold": 0.8,
+    "value": 0.375
+  },
+  "gate_C": {
+    "passed": false,
+    "status": "not_reached",
+    "threshold": 0.7,
+    "value": null
+  },
+  "gate_D": {
+    "passed": false,
+    "status": "not_reached",
+    "value": null
+  },
+  "policy_freeze_authorized": false,
+  "rl_used": false,
+  "round_1_action_space": "not_triggered_gate_A_passed",
+  "round_2_ranking": "applied_and_exhausted",
+  "round_3_rollout_safety": "not_eligible_gate_B_failed"
+}

@@ -358,5 +358,17 @@ v9-actionability:
 v9-train-surrogate:
 	PYTHONPATH=src:scripts $(PYTHON) scripts/train_v9_surrogate.py
 
+v9-train-safety:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/validate_v9_optimizer.py
+
+v9-rollout-validation:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/validate_v9_optimizer.py
+
+v9-policy-validation:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/validate_v9_optimizer.py
+
+v9-repair:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/validate_v9_optimizer.py
+
 clean:
 	find src tests -type d -name __pycache__ -prune -exec rm -r {} +
