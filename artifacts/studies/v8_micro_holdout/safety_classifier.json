@@ -1,0 +1,63 @@
+{
+  "false_negative": 0,
+  "false_positive": 309,
+  "false_safe_rate_all_candidates": 0.0,
+  "false_safe_rate_given_predicted_safe": 0.0,
+  "groups": {
+    "penetration=0.25": {
+      "sample_count": 100,
+      "unsafe_count": 16,
+      "unsafe_recall": 1.0
+    },
+    "penetration=0.50": {
+      "sample_count": 140,
+      "unsafe_count": 26,
+      "unsafe_recall": 1.0
+    },
+    "penetration=0.75": {
+      "sample_count": 100,
+      "unsafe_count": 18,
+      "unsafe_recall": 1.0
+    },
+    "penetration=1.00": {
+      "sample_count": 60,
+      "unsafe_count": 31,
+      "unsafe_recall": 1.0
+    },
+    "topology=asymmetric": {
+      "sample_count": 60,
+      "unsafe_count": 6,
+      "unsafe_recall": 1.0
+    },
+    "topology=merge": {
+      "sample_count": 100,
+      "unsafe_count": 27,
+      "unsafe_recall": 1.0
+    },
+    "topology=real_like": {
+      "sample_count": 60,
+      "unsafe_count": 0,
+      "unsafe_recall": null
+    },
+    "topology=signalized": {
+      "sample_count": 120,
+      "unsafe_count": 55,
+      "unsafe_recall": 1.0
+    },
+    "topology=two_route": {
+      "sample_count": 60,
+      "unsafe_count": 3,
+      "unsafe_recall": 1.0
+    }
+  },
+  "pr_auc_average_precision": 0.450444641846326,
+  "sample_count": 400,
+  "specificity": 0.0,
+  "threshold": 0.0,
+  "true_negative": 0,
+  "true_positive": 91,
+  "unsafe_count": 91,
+  "unsafe_precision": 0.2275,
+  "unsafe_recall": 1.0,
+  "worst_critical_group_recall": 1.0
+}

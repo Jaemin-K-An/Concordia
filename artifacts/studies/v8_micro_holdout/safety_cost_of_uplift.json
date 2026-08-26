@@ -1,0 +1,8 @@
+{
+  "high_rank_candidate_count": 0,
+  "high_rank_unsafe_count": 0,
+  "mean_uplift_high_rank_safe": null,
+  "mean_uplift_high_rank_unsafe": null,
+  "safe_success_retention": 0.0,
+  "unsafe_candidate_removal": 1.0
+}

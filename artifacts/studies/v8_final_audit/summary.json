@@ -1,0 +1,116 @@
+{
+  "check_count": 21,
+  "checks": [
+    {
+      "passed": true,
+      "requirement": "development pairs >= 2000",
+      "value": 2000
+    },
+    {
+      "passed": true,
+      "requirement": "unsafe development pairs >= 300",
+      "value": 379
+    },
+    {
+      "passed": true,
+      "requirement": "new final pairs >= 400",
+      "value": 400
+    },
+    {
+      "passed": true,
+      "requirement": "future-state leakage = 0",
+      "value": 0
+    },
+    {
+      "passed": true,
+      "requirement": "pairing failures = 0",
+      "value": 0
+    },
+    {
+      "passed": true,
+      "requirement": "traffic top-10% mean uplift positive",
+      "value": 0.007610019661685054
+    },
+    {
+      "passed": true,
+      "requirement": "safety classifier PR-AUC reported",
+      "value": 0.450444641846326
+    },
+    {
+      "passed": true,
+      "requirement": "unsafe recall >= 0.95",
+      "value": 1.0
+    },
+    {
+      "passed": true,
+      "requirement": "false-safe rate <= 0.05",
+      "value": 0.0
+    },
+    {
+      "passed": true,
+      "requirement": "worst critical-group recall >= 0.85",
+      "value": 1.0
+    },
+    {
+      "passed": false,
+      "requirement": "deployment precision >= 0.80",
+      "value": 0.0
+    },
+    {
+      "passed": false,
+      "requirement": "coverage >= 0.08",
+      "value": 0.0
+    },
+    {
+      "passed": false,
+      "requirement": "ORR >= 0.35",
+      "value": 0.0
+    },
+    {
+      "passed": false,
+      "requirement": "interventions >= 30",
+      "value": 0
+    },
+    {
+      "passed": true,
+      "requirement": "safety violations = 0",
+      "value": 0
+    },
+    {
+      "passed": false,
+      "requirement": "safe-success retention >= 0.70",
+      "value": 0.0
+    },
+    {
+      "passed": false,
+      "requirement": "OSM interventions > 0",
+      "value": 0
+    },
+    {
+      "passed": false,
+      "requirement": "OSM safe interventions > 0",
+      "value": 0
+    },
+    {
+      "passed": true,
+      "requirement": "action-aware beats state-only PR-AUC",
+      "value": true
+    },
+    {
+      "passed": true,
+      "requirement": "action-aware beats state-only false-safe rate",
+      "value": true
+    },
+    {
+      "passed": true,
+      "requirement": "RL decision = NO",
+      "value": "NO"
+    }
+  ],
+  "freeze_manifest_self_hash": "3e2c5b173dad223e5aa6a4a137a85871f1eca60d8f5212257aef17462f7e2ece",
+  "integrity_passed": true,
+  "outcome": "F",
+  "passed_count": 14,
+  "rl_decision": "NO",
+  "study": "CONCORDIA v8 FINAL_AUDIT_V8"
+}

@@ -1,0 +1,7 @@
+study: v8_new_microscopic_final_holdout
+seeds: [1201, 1213, 1217, 1223, 1229, 1231, 1237, 1249, 1259, 1277, 1279, 1283, 1289, 1291, 1297, 1301, 1303, 1307, 1319, 1321]
+condition_templates_source: configs/v8/safety_design.yaml
+pair_count: 400
+actual_sumo_run_count: 800
+prior_v7_final_seed_overlap_allowed: false
+common_random_numbers: true

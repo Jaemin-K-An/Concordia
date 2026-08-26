@@ -1,0 +1,4002 @@
+[
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1201",
+    "predicted_regret": 0.04233535656459865,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.25083333333333335,
+    "traffic_uplift_score": -0.033034959914559306,
+    "unsafe_probability": 0.3098339951896629
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1213",
+    "predicted_regret": 0.0432559790905869,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.20583333333333334,
+    "traffic_uplift_score": -0.03816837134944018,
+    "unsafe_probability": 0.31508173074787843
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1217",
+    "predicted_regret": 0.042113569908727666,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.25916666666666666,
+    "traffic_uplift_score": -0.031076763417663338,
+    "unsafe_probability": 0.2845382950517297
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1223",
+    "predicted_regret": 0.046752508388942925,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1875,
+    "traffic_uplift_score": -0.04087902189258779,
+    "unsafe_probability": 0.30512487736099575
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1229",
+    "predicted_regret": 0.0380652348407027,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.12833333333333333,
+    "traffic_uplift_score": -0.04793408772152767,
+    "unsafe_probability": 0.31434666525280647
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1231",
+    "predicted_regret": 0.03749139343050485,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1875,
+    "traffic_uplift_score": -0.040900696051787234,
+    "unsafe_probability": 0.28537876690290054
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1237",
+    "predicted_regret": 0.04451587452449238,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1775,
+    "traffic_uplift_score": -0.042225845148983664,
+    "unsafe_probability": 0.2925751237235792
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1249",
+    "predicted_regret": 0.04279809591299992,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.23083333333333333,
+    "traffic_uplift_score": -0.03524619059145297,
+    "unsafe_probability": 0.2882125805882042
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1259",
+    "predicted_regret": 0.040478746720611594,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.285,
+    "traffic_uplift_score": -0.02681401636350645,
+    "unsafe_probability": 0.2910814398063147
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1277",
+    "predicted_regret": 0.03659984071383914,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1725,
+    "traffic_uplift_score": -0.04363985402901212,
+    "unsafe_probability": 0.3162632124720002
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1279",
+    "predicted_regret": 0.042609639430773616,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.23833333333333334,
+    "traffic_uplift_score": -0.03467312714770023,
+    "unsafe_probability": 0.30788682599914463
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1283",
+    "predicted_regret": 0.042503299885775454,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2525,
+    "traffic_uplift_score": -0.032444313786123044,
+    "unsafe_probability": 0.3027219658802563
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1289",
+    "predicted_regret": 0.04388323820534855,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.22333333333333333,
+    "traffic_uplift_score": -0.036327131194864505,
+    "unsafe_probability": 0.3032613946769428
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1291",
+    "predicted_regret": 0.037353470339411374,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.21916666666666668,
+    "traffic_uplift_score": -0.03673858790039419,
+    "unsafe_probability": 0.283853729062314
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1297",
+    "predicted_regret": 0.0367620339509063,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2841666666666667,
+    "traffic_uplift_score": -0.027002585307542057,
+    "unsafe_probability": 0.2635935275462556
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1301",
+    "predicted_regret": 0.03912570199506859,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.22333333333333333,
+    "traffic_uplift_score": -0.0362674431896677,
+    "unsafe_probability": 0.29574906273482543
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1303",
+    "predicted_regret": 0.03819546002694938,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14333333333333334,
+    "traffic_uplift_score": -0.04633563472281434,
+    "unsafe_probability": 0.3094609826761562
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1307",
+    "predicted_regret": 0.036828798632330656,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17666666666666667,
+    "traffic_uplift_score": -0.042754447294076514,
+    "unsafe_probability": 0.2906573048125897
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1319",
+    "predicted_regret": 0.038706703775779894,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2783333333333333,
+    "traffic_uplift_score": -0.027889675917892546,
+    "unsafe_probability": 0.275063480382292
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S01-s1321",
+    "predicted_regret": 0.03612803419327368,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.29333333333333333,
+    "traffic_uplift_score": -0.0241809595320778,
+    "unsafe_probability": 0.27094459714899344
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1201",
+    "predicted_regret": 0.04265116686953646,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.18416666666666667,
+    "traffic_uplift_score": -0.04120816262954901,
+    "unsafe_probability": 0.3861201534528263
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1213",
+    "predicted_regret": 0.051259138900814655,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.13,
+    "traffic_uplift_score": -0.047609466727951626,
+    "unsafe_probability": 0.3425218898667007
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1217",
+    "predicted_regret": 0.054783155925221406,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.20166666666666666,
+    "traffic_uplift_score": -0.03883613986152202,
+    "unsafe_probability": 0.38002247331303796
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1223",
+    "predicted_regret": 0.05813786907960276,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1075,
+    "traffic_uplift_score": -0.0504115792057955,
+    "unsafe_probability": 0.3675808304148087
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1229",
+    "predicted_regret": 0.04865456446769075,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.06166666666666667,
+    "traffic_uplift_score": -0.055524486003553815,
+    "unsafe_probability": 0.3547729738338365
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1231",
+    "predicted_regret": 0.050053970043884864,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1325,
+    "traffic_uplift_score": -0.04737456524526076,
+    "unsafe_probability": 0.34621821419764315
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1237",
+    "predicted_regret": 0.04169388760314722,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17666666666666667,
+    "traffic_uplift_score": -0.04252842159058673,
+    "unsafe_probability": 0.3755732174407883
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1249",
+    "predicted_regret": 0.053455949892991,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.07666666666666666,
+    "traffic_uplift_score": -0.05363323877594816,
+    "unsafe_probability": 0.38146228075384697
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1259",
+    "predicted_regret": 0.049962333649372574,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17333333333333334,
+    "traffic_uplift_score": -0.04341620582056547,
+    "unsafe_probability": 0.356827488880616
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1277",
+    "predicted_regret": 0.04325975907262594,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.08083333333333333,
+    "traffic_uplift_score": -0.05333148243049164,
+    "unsafe_probability": 0.36094660517755883
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1279",
+    "predicted_regret": 0.051366381804154884,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14333333333333334,
+    "traffic_uplift_score": -0.046393104614469494,
+    "unsafe_probability": 0.37037704480729616
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1283",
+    "predicted_regret": 0.05866526112002862,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1675,
+    "traffic_uplift_score": -0.04402532444067728,
+    "unsafe_probability": 0.36239101554788805
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1289",
+    "predicted_regret": 0.049740602288547354,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.11916666666666667,
+    "traffic_uplift_score": -0.04907559801028753,
+    "unsafe_probability": 0.37351127662307504
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1291",
+    "predicted_regret": 0.0518888314933972,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.11833333333333333,
+    "traffic_uplift_score": -0.04922294863884761,
+    "unsafe_probability": 0.37706711842538215
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1297",
+    "predicted_regret": 0.044289166503454026,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.09083333333333334,
+    "traffic_uplift_score": -0.05138339282777017,
+    "unsafe_probability": 0.3566788260239499
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1301",
+    "predicted_regret": 0.04951769668682732,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.09666666666666666,
+    "traffic_uplift_score": -0.05109397987653272,
+    "unsafe_probability": 0.3634687587015276
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1303",
+    "predicted_regret": 0.041292959115936494,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.10166666666666667,
+    "traffic_uplift_score": -0.05080614173904463,
+    "unsafe_probability": 0.36908436957620105
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1307",
+    "predicted_regret": 0.049409286336303954,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.10666666666666667,
+    "traffic_uplift_score": -0.05050076453388786,
+    "unsafe_probability": 0.3548063264488594
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1319",
+    "predicted_regret": 0.054576909714331365,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.09333333333333334,
+    "traffic_uplift_score": -0.051340530223987116,
+    "unsafe_probability": 0.37316366563789405
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S02-s1321",
+    "predicted_regret": 0.042040912271445526,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.07916666666666666,
+    "traffic_uplift_score": -0.05342640323316943,
+    "unsafe_probability": 0.3597793773585771
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1201",
+    "predicted_regret": 0.05785828473171398,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17666666666666667,
+    "traffic_uplift_score": -0.04228740675919899,
+    "unsafe_probability": 0.32957378110422975
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1213",
+    "predicted_regret": 0.059473657521123324,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.11833333333333333,
+    "traffic_uplift_score": -0.04921034100602033,
+    "unsafe_probability": 0.3727018088984927
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1217",
+    "predicted_regret": 0.05831296935389989,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.20416666666666666,
+    "traffic_uplift_score": -0.03838985988999195,
+    "unsafe_probability": 0.36156033601835
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1223",
+    "predicted_regret": 0.05388963853179732,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.11666666666666667,
+    "traffic_uplift_score": -0.04934477772196432,
+    "unsafe_probability": 0.3626747715528937
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1229",
+    "predicted_regret": 0.05320088219933248,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.0825,
+    "traffic_uplift_score": -0.05285654156288721,
+    "unsafe_probability": 0.36703735726876385
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1231",
+    "predicted_regret": 0.0551121539423815,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.09,
+    "traffic_uplift_score": -0.05158802478634906,
+    "unsafe_probability": 0.3736756936461076
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1237",
+    "predicted_regret": 0.057720798777372344,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.16583333333333333,
+    "traffic_uplift_score": -0.04437604267436418,
+    "unsafe_probability": 0.3693481840517678
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1249",
+    "predicted_regret": 0.053743352742798144,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.10916666666666666,
+    "traffic_uplift_score": -0.05021061105723927,
+    "unsafe_probability": 0.3773932083891253
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1259",
+    "predicted_regret": 0.06014804324880256,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.15,
+    "traffic_uplift_score": -0.04556374955320591,
+    "unsafe_probability": 0.3678339594723521
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1277",
+    "predicted_regret": 0.05358386266466131,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1275,
+    "traffic_uplift_score": -0.048100652906757614,
+    "unsafe_probability": 0.36365404317727645
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1279",
+    "predicted_regret": 0.059636782237263854,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.15666666666666668,
+    "traffic_uplift_score": -0.04512505249992791,
+    "unsafe_probability": 0.349195339708441
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1283",
+    "predicted_regret": 0.05981183861181611,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17666666666666667,
+    "traffic_uplift_score": -0.04253866623614418,
+    "unsafe_probability": 0.34634515058453513
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1289",
+    "predicted_regret": 0.05386207287108971,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.06166666666666667,
+    "traffic_uplift_score": -0.05547903345058012,
+    "unsafe_probability": 0.36648679828844405
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1291",
+    "predicted_regret": 0.054167258960984205,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.09916666666666667,
+    "traffic_uplift_score": -0.050949705532497926,
+    "unsafe_probability": 0.3857155182910557
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1297",
+    "predicted_regret": 0.05289884201545128,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.08833333333333333,
+    "traffic_uplift_score": -0.051739232810240655,
+    "unsafe_probability": 0.36315800684775246
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1301",
+    "predicted_regret": 0.054354194060024466,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.11583333333333333,
+    "traffic_uplift_score": -0.04943837350208509,
+    "unsafe_probability": 0.3630305996329993
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1303",
+    "predicted_regret": 0.054212045124420016,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.08083333333333333,
+    "traffic_uplift_score": -0.05320228253249645,
+    "unsafe_probability": 0.37129754671460924
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1307",
+    "predicted_regret": 0.05362411274974433,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.18,
+    "traffic_uplift_score": -0.04176961372276277,
+    "unsafe_probability": 0.3750216433891294
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1319",
+    "predicted_regret": 0.05891180330663607,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1325,
+    "traffic_uplift_score": -0.04734485958317498,
+    "unsafe_probability": 0.3707841843381264
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S03-s1321",
+    "predicted_regret": 0.05460020495729879,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.12583333333333332,
+    "traffic_uplift_score": -0.048251563342101025,
+    "unsafe_probability": 0.34476084242799654
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1201",
+    "predicted_regret": 0.015030507427703597,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3875,
+    "traffic_uplift_score": -0.0049019531475172455,
+    "unsafe_probability": 0.2026198212426025
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1213",
+    "predicted_regret": 0.025910789000184314,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2866666666666667,
+    "traffic_uplift_score": -0.026371156262833317,
+    "unsafe_probability": 0.19003480130179473
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1217",
+    "predicted_regret": 0.01563404582696241,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3491666666666667,
+    "traffic_uplift_score": -0.009330803154099563,
+    "unsafe_probability": 0.1923751338871157
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1223",
+    "predicted_regret": 0.013160520076776682,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3416666666666667,
+    "traffic_uplift_score": -0.010181664981225757,
+    "unsafe_probability": 0.19105715306145882
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1229",
+    "predicted_regret": 0.024481691419960497,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.21916666666666668,
+    "traffic_uplift_score": -0.0367386427041437,
+    "unsafe_probability": 0.18180271848610632
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1231",
+    "predicted_regret": 0.020812603508893066,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3283333333333333,
+    "traffic_uplift_score": -0.01316369110670055,
+    "unsafe_probability": 0.18766614476261065
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1237",
+    "predicted_regret": 0.024020735349856864,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3275,
+    "traffic_uplift_score": -0.014165174078706492,
+    "unsafe_probability": 0.20894883016636526
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1249",
+    "predicted_regret": 0.02608676135205142,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.31166666666666665,
+    "traffic_uplift_score": -0.018439810238753893,
+    "unsafe_probability": 0.18019956717908983
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1259",
+    "predicted_regret": 0.02061943410593722,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.32916666666666666,
+    "traffic_uplift_score": -0.01295338918397893,
+    "unsafe_probability": 0.1798110950645098
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1277",
+    "predicted_regret": 0.020374131891694573,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2925,
+    "traffic_uplift_score": -0.02463053322400172,
+    "unsafe_probability": 0.18569869440135267
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1279",
+    "predicted_regret": 0.022202261281569918,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.29,
+    "traffic_uplift_score": -0.02490547707153006,
+    "unsafe_probability": 0.20568585437070705
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1283",
+    "predicted_regret": 0.02112678867832171,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.31333333333333335,
+    "traffic_uplift_score": -0.017421556190315362,
+    "unsafe_probability": 0.1873538078799834
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1289",
+    "predicted_regret": 0.01897220231984887,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.29833333333333334,
+    "traffic_uplift_score": -0.022772627850688915,
+    "unsafe_probability": 0.185799110097484
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1291",
+    "predicted_regret": 0.017247589416470595,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.32666666666666666,
+    "traffic_uplift_score": -0.014795883694056032,
+    "unsafe_probability": 0.19520195004362975
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1297",
+    "predicted_regret": 0.019837540295946015,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.35833333333333334,
+    "traffic_uplift_score": -0.00804430767188731,
+    "unsafe_probability": 0.19450200537801648
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1301",
+    "predicted_regret": 0.023743541438395896,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2866666666666667,
+    "traffic_uplift_score": -0.026312372819999125,
+    "unsafe_probability": 0.19196986001117983
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1303",
+    "predicted_regret": 0.022428636034431796,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.30583333333333335,
+    "traffic_uplift_score": -0.02021235735036475,
+    "unsafe_probability": 0.18100409136192272
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1307",
+    "predicted_regret": 0.018638469816410697,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3333333333333333,
+    "traffic_uplift_score": -0.011968699414675663,
+    "unsafe_probability": 0.18833637647496632
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1319",
+    "predicted_regret": 0.019927152237377392,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.36916666666666664,
+    "traffic_uplift_score": -0.0071291332093573025,
+    "unsafe_probability": 0.18843563264620103
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S04-s1321",
+    "predicted_regret": 0.01760316735190006,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.31666666666666665,
+    "traffic_uplift_score": -0.016454605656526546,
+    "unsafe_probability": 0.17403717959336035
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1201",
+    "predicted_regret": 0.013743115651548173,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.35,
+    "traffic_uplift_score": -0.009292666348748854,
+    "unsafe_probability": 0.2548679519205938
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1213",
+    "predicted_regret": 0.014449789691728207,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8916666666666667,
+    "traffic_uplift_score": 0.006324725416051222,
+    "unsafe_probability": 0.23966106265366702
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1217",
+    "predicted_regret": 0.009209415428990312,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9558333333333333,
+    "traffic_uplift_score": 0.011403881316751402,
+    "unsafe_probability": 0.24170491684899564
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1223",
+    "predicted_regret": 0.01306986059695781,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.47,
+    "traffic_uplift_score": 0.0002760168302515818,
+    "unsafe_probability": 0.24461169434505592
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1229",
+    "predicted_regret": 0.010051535020346626,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5208333333333334,
+    "traffic_uplift_score": 0.001694075118558078,
+    "unsafe_probability": 0.2536437489875932
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1231",
+    "predicted_regret": 0.012860067614635543,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9758333333333333,
+    "traffic_uplift_score": 0.013042228261701783,
+    "unsafe_probability": 0.2292506459244223
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1237",
+    "predicted_regret": 0.016669351281128668,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.625,
+    "traffic_uplift_score": 0.002917988532933892,
+    "unsafe_probability": 0.24357314262536145
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1249",
+    "predicted_regret": 0.010960814456811812,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.4525,
+    "traffic_uplift_score": -0.0005412899970601314,
+    "unsafe_probability": 0.23797893963668057
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1259",
+    "predicted_regret": 0.012349335947104514,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9133333333333333,
+    "traffic_uplift_score": 0.007343639702707962,
+    "unsafe_probability": 0.2370729410248785
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1277",
+    "predicted_regret": 0.010803479751501114,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9175,
+    "traffic_uplift_score": 0.007563698463060647,
+    "unsafe_probability": 0.23625784619859774
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1279",
+    "predicted_regret": 0.010507548315656668,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9175,
+    "traffic_uplift_score": 0.007575265936603634,
+    "unsafe_probability": 0.24546211309141985
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1283",
+    "predicted_regret": 0.011819711548384793,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9708333333333333,
+    "traffic_uplift_score": 0.012791742487654552,
+    "unsafe_probability": 0.239453841485965
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1289",
+    "predicted_regret": 0.00946391559041802,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5041666666666667,
+    "traffic_uplift_score": 0.0012639636826498849,
+    "unsafe_probability": 0.23782553109819252
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1291",
+    "predicted_regret": 0.011458423947295042,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8425,
+    "traffic_uplift_score": 0.005186018389895324,
+    "unsafe_probability": 0.24604165293358646
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1297",
+    "predicted_regret": 0.013163382292013305,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8966666666666666,
+    "traffic_uplift_score": 0.006435473302057281,
+    "unsafe_probability": 0.20521645562744048
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1301",
+    "predicted_regret": 0.014355363906970469,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3858333333333333,
+    "traffic_uplift_score": -0.005132557747091742,
+    "unsafe_probability": 0.2624891317697713
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1303",
+    "predicted_regret": 0.012095082702539048,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.335,
+    "traffic_uplift_score": -0.0117230451634517,
+    "unsafe_probability": 0.25804488726946717
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1307",
+    "predicted_regret": 0.013492582738908951,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8908333333333334,
+    "traffic_uplift_score": 0.006296406860827133,
+    "unsafe_probability": 0.21204454012407875
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1319",
+    "predicted_regret": 0.007905679518944903,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9975,
+    "traffic_uplift_score": 0.019063035312797395,
+    "unsafe_probability": 0.20985622587601263
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S05-s1321",
+    "predicted_regret": 0.011867618190645798,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9391666666666667,
+    "traffic_uplift_score": 0.010434481497033325,
+    "unsafe_probability": 0.22690250187787486
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1201",
+    "predicted_regret": 0.031132776177889693,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.18916666666666668,
+    "traffic_uplift_score": -0.04021758736070817,
+    "unsafe_probability": 0.2826010132112497
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1213",
+    "predicted_regret": 0.033940066439852416,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1075,
+    "traffic_uplift_score": -0.05038145664122873,
+    "unsafe_probability": 0.27785314165486036
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1217",
+    "predicted_regret": 0.031289496836613175,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.19083333333333333,
+    "traffic_uplift_score": -0.03998392261193997,
+    "unsafe_probability": 0.27093977871541236
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1223",
+    "predicted_regret": 0.032238757597624006,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.12,
+    "traffic_uplift_score": -0.048937506856179154,
+    "unsafe_probability": 0.2739813511851466
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1229",
+    "predicted_regret": 0.03432613949716119,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.115,
+    "traffic_uplift_score": -0.049454707486890376,
+    "unsafe_probability": 0.26988119366313784
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1231",
+    "predicted_regret": 0.03503769542331434,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.12583333333333332,
+    "traffic_uplift_score": -0.04836572008923901,
+    "unsafe_probability": 0.26452100092643316
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1237",
+    "predicted_regret": 0.03502801535710956,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14,
+    "traffic_uplift_score": -0.04678911340425607,
+    "unsafe_probability": 0.28204193010569706
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1249",
+    "predicted_regret": 0.034235523130485675,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.105,
+    "traffic_uplift_score": -0.0506116157569841,
+    "unsafe_probability": 0.27558412288922307
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1259",
+    "predicted_regret": 0.02991189131644046,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14833333333333334,
+    "traffic_uplift_score": -0.045922519416486694,
+    "unsafe_probability": 0.27925661665406376
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1277",
+    "predicted_regret": 0.030628038408592722,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1075,
+    "traffic_uplift_score": -0.05035009802398508,
+    "unsafe_probability": 0.2750749631043218
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1279",
+    "predicted_regret": 0.030988226437408162,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.20416666666666666,
+    "traffic_uplift_score": -0.03839309981277428,
+    "unsafe_probability": 0.2752780201486815
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1283",
+    "predicted_regret": 0.029655675817734657,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.235,
+    "traffic_uplift_score": -0.03475209226462167,
+    "unsafe_probability": 0.2898992970747219
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1289",
+    "predicted_regret": 0.03351958119514193,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17666666666666667,
+    "traffic_uplift_score": -0.042416952348860844,
+    "unsafe_probability": 0.2817444788824735
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1291",
+    "predicted_regret": 0.03242779666035118,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14333333333333334,
+    "traffic_uplift_score": -0.046463025829417505,
+    "unsafe_probability": 0.2820004154022806
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1297",
+    "predicted_regret": 0.03320070906849768,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.0825,
+    "traffic_uplift_score": -0.052822146303007994,
+    "unsafe_probability": 0.25763619514900565
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1301",
+    "predicted_regret": 0.034235523130485675,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.08333333333333333,
+    "traffic_uplift_score": -0.05276905201713772,
+    "unsafe_probability": 0.28663562112813556
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1303",
+    "predicted_regret": 0.03271272531562401,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.08583333333333333,
+    "traffic_uplift_score": -0.05196525666078481,
+    "unsafe_probability": 0.2652445802074569
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1307",
+    "predicted_regret": 0.033992006843373286,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.08416666666666667,
+    "traffic_uplift_score": -0.05242805483663871,
+    "unsafe_probability": 0.2586739963408974
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1319",
+    "predicted_regret": 0.03428023584643971,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.13,
+    "traffic_uplift_score": -0.04778357665773361,
+    "unsafe_probability": 0.28379731131688946
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S06-s1321",
+    "predicted_regret": 0.03535989230086483,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.10166666666666667,
+    "traffic_uplift_score": -0.050796499808803304,
+    "unsafe_probability": 0.26542476385033326
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1201",
+    "predicted_regret": 0.03728644465335872,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.21916666666666668,
+    "traffic_uplift_score": -0.03690191936023007,
+    "unsafe_probability": 0.4423757348823891
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1213",
+    "predicted_regret": 0.04782632401718865,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.185,
+    "traffic_uplift_score": -0.04113869103412432,
+    "unsafe_probability": 0.42648783500749005
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1217",
+    "predicted_regret": 0.045338643086942236,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.24083333333333334,
+    "traffic_uplift_score": -0.03446745186793759,
+    "unsafe_probability": 0.4243669208903286
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1223",
+    "predicted_regret": 0.04997522566774184,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.20333333333333334,
+    "traffic_uplift_score": -0.038594134532951005,
+    "unsafe_probability": 0.41884476929913983
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1229",
+    "predicted_regret": 0.047936854941463804,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.165,
+    "traffic_uplift_score": -0.044442062321075955,
+    "unsafe_probability": 0.3917036112561959
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1231",
+    "predicted_regret": 0.0474621676625975,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.22666666666666666,
+    "traffic_uplift_score": -0.0359017177454398,
+    "unsafe_probability": 0.4390700211942662
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1237",
+    "predicted_regret": 0.03947306762377156,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.15,
+    "traffic_uplift_score": -0.045572006102216636,
+    "unsafe_probability": 0.41481368595313006
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1249",
+    "predicted_regret": 0.0477087927671342,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14333333333333334,
+    "traffic_uplift_score": -0.04639630049852001,
+    "unsafe_probability": 0.4139747013401172
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1259",
+    "predicted_regret": 0.04846569411828905,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.275,
+    "traffic_uplift_score": -0.028995896573282002,
+    "unsafe_probability": 0.4564185883061648
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1277",
+    "predicted_regret": 0.04213204400747751,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.16416666666666666,
+    "traffic_uplift_score": -0.04454620574250306,
+    "unsafe_probability": 0.4231649586316478
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1279",
+    "predicted_regret": 0.047492500192413294,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2675,
+    "traffic_uplift_score": -0.029520616366465482,
+    "unsafe_probability": 0.42857820706987426
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1283",
+    "predicted_regret": 0.04694133108005674,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.22833333333333333,
+    "traffic_uplift_score": -0.035703723845610116,
+    "unsafe_probability": 0.4574654310666446
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1289",
+    "predicted_regret": 0.04896906534878448,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.21833333333333332,
+    "traffic_uplift_score": -0.0370927574381627,
+    "unsafe_probability": 0.4204701428369838
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1291",
+    "predicted_regret": 0.048800977024116184,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.13583333333333333,
+    "traffic_uplift_score": -0.04707430057219622,
+    "unsafe_probability": 0.4020795753028058
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1297",
+    "predicted_regret": 0.04687402634422872,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.16916666666666666,
+    "traffic_uplift_score": -0.04385350122325523,
+    "unsafe_probability": 0.4161471074335296
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1301",
+    "predicted_regret": 0.04998657064911043,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2525,
+    "traffic_uplift_score": -0.031952602653334536,
+    "unsafe_probability": 0.44935373266203205
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1303",
+    "predicted_regret": 0.04289316792191928,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.13083333333333333,
+    "traffic_uplift_score": -0.04751543017062927,
+    "unsafe_probability": 0.400477339888289
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1307",
+    "predicted_regret": 0.048144902036993,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.12,
+    "traffic_uplift_score": -0.04890508512796974,
+    "unsafe_probability": 0.3949987372838562
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1319",
+    "predicted_regret": 0.04434787145868685,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.16416666666666666,
+    "traffic_uplift_score": -0.044486350995842104,
+    "unsafe_probability": 0.4242447175352429
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S07-s1321",
+    "predicted_regret": 0.0417187373347577,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14333333333333334,
+    "traffic_uplift_score": -0.046382908637995386,
+    "unsafe_probability": 0.3961655313945452
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1201",
+    "predicted_regret": 0.05203727324555365,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2525,
+    "traffic_uplift_score": -0.03199457481998495,
+    "unsafe_probability": 0.52561550147258
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1213",
+    "predicted_regret": 0.05320850252248103,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17583333333333334,
+    "traffic_uplift_score": -0.042964172637805505,
+    "unsafe_probability": 0.5073476529315059
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1217",
+    "predicted_regret": 0.04989521532571531,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2775,
+    "traffic_uplift_score": -0.028601986522581755,
+    "unsafe_probability": 0.5116611084815431
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1223",
+    "predicted_regret": 0.056239899789256455,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.20083333333333334,
+    "traffic_uplift_score": -0.03894254889450606,
+    "unsafe_probability": 0.5327165896115417
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1229",
+    "predicted_regret": 0.055700500546509844,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.19083333333333333,
+    "traffic_uplift_score": -0.03993325778610555,
+    "unsafe_probability": 0.4954817132368094
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1231",
+    "predicted_regret": 0.05581841600740103,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.24666666666666667,
+    "traffic_uplift_score": -0.03385995544150218,
+    "unsafe_probability": 0.5069830748763471
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1237",
+    "predicted_regret": 0.05669426667745843,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.19083333333333333,
+    "traffic_uplift_score": -0.04000640859167362,
+    "unsafe_probability": 0.5122505758181837
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1249",
+    "predicted_regret": 0.05460453028925028,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.21833333333333332,
+    "traffic_uplift_score": -0.037006942288413114,
+    "unsafe_probability": 0.4994838348055807
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1259",
+    "predicted_regret": 0.05559744231259776,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2,
+    "traffic_uplift_score": -0.03900585383054765,
+    "unsafe_probability": 0.5082732833965777
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1277",
+    "predicted_regret": 0.054140693049915735,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17666666666666667,
+    "traffic_uplift_score": -0.04237628443075566,
+    "unsafe_probability": 0.503306859357539
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1279",
+    "predicted_regret": 0.05110809869567693,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2525,
+    "traffic_uplift_score": -0.032492646892388614,
+    "unsafe_probability": 0.52189932939384
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1283",
+    "predicted_regret": 0.04836828319462946,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.19083333333333333,
+    "traffic_uplift_score": -0.03994221136728567,
+    "unsafe_probability": 0.4914005102127762
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1289",
+    "predicted_regret": 0.052079179639750374,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.21916666666666668,
+    "traffic_uplift_score": -0.03673335805071124,
+    "unsafe_probability": 0.5115465010918107
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1291",
+    "predicted_regret": 0.05215708899752733,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1875,
+    "traffic_uplift_score": -0.04071433348748576,
+    "unsafe_probability": 0.46977254941224506
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1297",
+    "predicted_regret": 0.0552715970421842,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17583333333333334,
+    "traffic_uplift_score": -0.04311518252034243,
+    "unsafe_probability": 0.4586610111689124
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1301",
+    "predicted_regret": 0.05426524028888023,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1975,
+    "traffic_uplift_score": -0.03930762109293137,
+    "unsafe_probability": 0.5003754040287461
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1303",
+    "predicted_regret": 0.05598753567522274,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1725,
+    "traffic_uplift_score": -0.043593256116433644,
+    "unsafe_probability": 0.4642029442991616
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1307",
+    "predicted_regret": 0.053757712584586906,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2325,
+    "traffic_uplift_score": -0.035148316665466174,
+    "unsafe_probability": 0.517318703296433
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1319",
+    "predicted_regret": 0.050527177377239954,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.21,
+    "traffic_uplift_score": -0.037693368056365265,
+    "unsafe_probability": 0.5101799742269576
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S08-s1321",
+    "predicted_regret": 0.05758232953520856,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.15916666666666668,
+    "traffic_uplift_score": -0.04497848172255082,
+    "unsafe_probability": 0.4995068939051976
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1201",
+    "predicted_regret": 0.01590212323960986,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14916666666666667,
+    "traffic_uplift_score": -0.045783251271691326,
+    "unsafe_probability": 0.22107810434485684
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1213",
+    "predicted_regret": 0.02052889537254193,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.17583333333333334,
+    "traffic_uplift_score": -0.0429511476280623,
+    "unsafe_probability": 0.20801547264638026
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1217",
+    "predicted_regret": 0.016771052610621135,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14666666666666667,
+    "traffic_uplift_score": -0.04607516576059456,
+    "unsafe_probability": 0.2279178629456273
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1223",
+    "predicted_regret": 0.01140946187362695,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.12,
+    "traffic_uplift_score": -0.0489971449489086,
+    "unsafe_probability": 0.20184039924084296
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1229",
+    "predicted_regret": 0.02248026011847627,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1275,
+    "traffic_uplift_score": -0.04811188314083094,
+    "unsafe_probability": 0.19188092353788908
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1231",
+    "predicted_regret": 0.019704346665450782,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14333333333333334,
+    "traffic_uplift_score": -0.04642980148876604,
+    "unsafe_probability": 0.21598835655939194
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1237",
+    "predicted_regret": 0.02354325091726311,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1575,
+    "traffic_uplift_score": -0.045088332406604044,
+    "unsafe_probability": 0.22156096381152818
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1249",
+    "predicted_regret": 0.02301507686066881,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14916666666666667,
+    "traffic_uplift_score": -0.045838894729188194,
+    "unsafe_probability": 0.2110955757557149
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1259",
+    "predicted_regret": 0.01844162058745678,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.16583333333333333,
+    "traffic_uplift_score": -0.044181343452243664,
+    "unsafe_probability": 0.22090720458519772
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1277",
+    "predicted_regret": 0.01617564778233842,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.12,
+    "traffic_uplift_score": -0.04897403997220248,
+    "unsafe_probability": 0.21863562496374034
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1279",
+    "predicted_regret": 0.018869784480713133,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1275,
+    "traffic_uplift_score": -0.04804026252498834,
+    "unsafe_probability": 0.23552657651990577
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1283",
+    "predicted_regret": 0.017951183783396142,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.15833333333333333,
+    "traffic_uplift_score": -0.045041192971690604,
+    "unsafe_probability": 0.2359288775348257
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1289",
+    "predicted_regret": 0.016361933957377887,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.115,
+    "traffic_uplift_score": -0.0497437510646416,
+    "unsafe_probability": 0.2336943836685681
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1291",
+    "predicted_regret": 0.016611020836905854,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1275,
+    "traffic_uplift_score": -0.04804489829012551,
+    "unsafe_probability": 0.2235553409940855
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1297",
+    "predicted_regret": 0.01910245881477116,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.14333333333333334,
+    "traffic_uplift_score": -0.04641995036091614,
+    "unsafe_probability": 0.20248038877792549
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1301",
+    "predicted_regret": 0.020771136436003017,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.125,
+    "traffic_uplift_score": -0.04854951845336452,
+    "unsafe_probability": 0.21283731524407326
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1303",
+    "predicted_regret": 0.020519999484567425,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.13083333333333333,
+    "traffic_uplift_score": -0.04747486263007763,
+    "unsafe_probability": 0.2063511118009317
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1307",
+    "predicted_regret": 0.02199937886233482,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.1325,
+    "traffic_uplift_score": -0.04733334512918573,
+    "unsafe_probability": 0.20162084475002398
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1319",
+    "predicted_regret": 0.021634507236418316,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.16916666666666666,
+    "traffic_uplift_score": -0.04381502069615634,
+    "unsafe_probability": 0.22752617093938254
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S09-s1321",
+    "predicted_regret": 0.021217747207319577,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.12916666666666668,
+    "traffic_uplift_score": -0.047851929108637954,
+    "unsafe_probability": 0.22501396657527972
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1201",
+    "predicted_regret": 0.010099429601162025,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.31166666666666665,
+    "traffic_uplift_score": -0.018543041558367113,
+    "unsafe_probability": 0.2689726272286995
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1213",
+    "predicted_regret": 0.00880509942811809,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.29833333333333334,
+    "traffic_uplift_score": -0.02260334390666693,
+    "unsafe_probability": 0.24400728895456147
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1217",
+    "predicted_regret": 0.01007283003643593,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3025,
+    "traffic_uplift_score": -0.021379248356995263,
+    "unsafe_probability": 0.2524889795429798
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1223",
+    "predicted_regret": 0.011553052820701551,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3175,
+    "traffic_uplift_score": -0.016174170100750503,
+    "unsafe_probability": 0.26687690815059273
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1229",
+    "predicted_regret": 0.010640329602420683,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.30916666666666665,
+    "traffic_uplift_score": -0.019486121758109886,
+    "unsafe_probability": 0.2474866235573687
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1231",
+    "predicted_regret": 0.011917484578617878,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.32666666666666666,
+    "traffic_uplift_score": -0.014923552843541518,
+    "unsafe_probability": 0.25834939815633234
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1237",
+    "predicted_regret": 0.012066216110467756,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3225,
+    "traffic_uplift_score": -0.015539698025842751,
+    "unsafe_probability": 0.2591169790864244
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1249",
+    "predicted_regret": 0.011853877249613053,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.30333333333333334,
+    "traffic_uplift_score": -0.020615251208117198,
+    "unsafe_probability": 0.24728153814339152
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1259",
+    "predicted_regret": 0.010099429601162025,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3025,
+    "traffic_uplift_score": -0.02120344283804644,
+    "unsafe_probability": 0.2475761949573778
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1277",
+    "predicted_regret": 0.010168994598575008,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.32666666666666666,
+    "traffic_uplift_score": -0.014952305807498288,
+    "unsafe_probability": 0.26139240741173336
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1279",
+    "predicted_regret": 0.011148124700389454,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.31166666666666665,
+    "traffic_uplift_score": -0.01886169638410045,
+    "unsafe_probability": 0.2507979712660816
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1283",
+    "predicted_regret": 0.01007283003643593,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.32416666666666666,
+    "traffic_uplift_score": -0.01523748518046382,
+    "unsafe_probability": 0.259331087253527
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1289",
+    "predicted_regret": 0.011172626180930342,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2925,
+    "traffic_uplift_score": -0.02469140222579309,
+    "unsafe_probability": 0.2434086235451953
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1291",
+    "predicted_regret": 0.009175785809259724,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2825,
+    "traffic_uplift_score": -0.027321596349199288,
+    "unsafe_probability": 0.24468519972624359
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1297",
+    "predicted_regret": 0.011447470567256398,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.32666666666666666,
+    "traffic_uplift_score": -0.014627177679885788,
+    "unsafe_probability": 0.2678596455084001
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1301",
+    "predicted_regret": 0.012141459230513676,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.29083333333333333,
+    "traffic_uplift_score": -0.02484721044056396,
+    "unsafe_probability": 0.24246363426141934
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1303",
+    "predicted_regret": 0.011102877547395222,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.31083333333333335,
+    "traffic_uplift_score": -0.018952599291225856,
+    "unsafe_probability": 0.2496021164528635
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1307",
+    "predicted_regret": 0.010141444169881346,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.32666666666666666,
+    "traffic_uplift_score": -0.014745165833376232,
+    "unsafe_probability": 0.2524916703899071
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1319",
+    "predicted_regret": 0.010169162971196306,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.32666666666666666,
+    "traffic_uplift_score": -0.014636787651237755,
+    "unsafe_probability": 0.2660001602095135
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S10-s1321",
+    "predicted_regret": 0.013760124071984467,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3075,
+    "traffic_uplift_score": -0.019670402501912918,
+    "unsafe_probability": 0.2524544538417294
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1201",
+    "predicted_regret": 0.040236334196418026,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.29833333333333334,
+    "traffic_uplift_score": -0.022743664729143607,
+    "unsafe_probability": 0.4992380652773082
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1213",
+    "predicted_regret": 0.04342949675811551,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.23916666666666667,
+    "traffic_uplift_score": -0.034616256309356455,
+    "unsafe_probability": 0.5362096493453232
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1217",
+    "predicted_regret": 0.038568884184907254,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3125,
+    "traffic_uplift_score": -0.018160006957265974,
+    "unsafe_probability": 0.5225356826017759
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1223",
+    "predicted_regret": 0.04172564944932159,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.21916666666666668,
+    "traffic_uplift_score": -0.03687909982632039,
+    "unsafe_probability": 0.5156344740682816
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1229",
+    "predicted_regret": 0.04618120665066658,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.23083333333333333,
+    "traffic_uplift_score": -0.035291514838501084,
+    "unsafe_probability": 0.5244550960002251
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1231",
+    "predicted_regret": 0.04505394204411201,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2425,
+    "traffic_uplift_score": -0.0341630270555162,
+    "unsafe_probability": 0.5132637762046167
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1237",
+    "predicted_regret": 0.04635507772987404,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.25666666666666665,
+    "traffic_uplift_score": -0.03155186628665013,
+    "unsafe_probability": 0.5430847167087718
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1249",
+    "predicted_regret": 0.046935836547796525,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.24916666666666668,
+    "traffic_uplift_score": -0.033448723660016035,
+    "unsafe_probability": 0.5270894501966756
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1259",
+    "predicted_regret": 0.04002229296774545,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.26,
+    "traffic_uplift_score": -0.03082184100564496,
+    "unsafe_probability": 0.4931530719843444
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1277",
+    "predicted_regret": 0.04238855283209046,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.23833333333333334,
+    "traffic_uplift_score": -0.034655696064050195,
+    "unsafe_probability": 0.5464442330570122
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1279",
+    "predicted_regret": 0.04231681228302746,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3025,
+    "traffic_uplift_score": -0.021859907991416926,
+    "unsafe_probability": 0.5044001694995875
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1283",
+    "predicted_regret": 0.040481031858953125,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.30333333333333334,
+    "traffic_uplift_score": -0.02057878400409346,
+    "unsafe_probability": 0.5185313596371611
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1289",
+    "predicted_regret": 0.044529617707062215,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.26166666666666666,
+    "traffic_uplift_score": -0.03034273557331541,
+    "unsafe_probability": 0.5425403172951725
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1291",
+    "predicted_regret": 0.04379959969669694,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.29333333333333333,
+    "traffic_uplift_score": -0.024186646683712527,
+    "unsafe_probability": 0.5027976404589576
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1297",
+    "predicted_regret": 0.04530393952276203,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.20833333333333334,
+    "traffic_uplift_score": -0.03779643968686875,
+    "unsafe_probability": 0.5190539952812159
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1301",
+    "predicted_regret": 0.04434392223452775,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.22666666666666666,
+    "traffic_uplift_score": -0.03588571623838962,
+    "unsafe_probability": 0.5230595426918323
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1303",
+    "predicted_regret": 0.04351138041735078,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.21916666666666668,
+    "traffic_uplift_score": -0.03696142732521234,
+    "unsafe_probability": 0.5170231316650852
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1307",
+    "predicted_regret": 0.044369205694924786,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.235,
+    "traffic_uplift_score": -0.03495127288432767,
+    "unsafe_probability": 0.4981894980438066
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1319",
+    "predicted_regret": 0.04157322108019818,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.2875,
+    "traffic_uplift_score": -0.026238823427138857,
+    "unsafe_probability": 0.5471338091430731
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S11-s1321",
+    "predicted_regret": 0.046503403528217066,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.215,
+    "traffic_uplift_score": -0.037260767290701054,
+    "unsafe_probability": 0.5332202527525961
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1201",
+    "predicted_regret": 0.024203771939541152,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6166666666666667,
+    "traffic_uplift_score": 0.002846244765329931,
+    "unsafe_probability": 0.09534605729981081
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1213",
+    "predicted_regret": 0.030106520787057136,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.455,
+    "traffic_uplift_score": -0.0004937133339141517,
+    "unsafe_probability": 0.08407968794845391
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1217",
+    "predicted_regret": 0.024268745621630127,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5516666666666666,
+    "traffic_uplift_score": 0.002180998727014914,
+    "unsafe_probability": 0.07286043777666748
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1223",
+    "predicted_regret": 0.03220539690294423,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.46,
+    "traffic_uplift_score": -0.0003043732838137879,
+    "unsafe_probability": 0.07644461965218242
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1229",
+    "predicted_regret": 0.038663899417795466,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.36583333333333334,
+    "traffic_uplift_score": -0.007393735026663554,
+    "unsafe_probability": 0.1348347670761908
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1231",
+    "predicted_regret": 0.03509275362541879,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.45,
+    "traffic_uplift_score": -0.0007571568082290299,
+    "unsafe_probability": 0.08569606334676523
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1237",
+    "predicted_regret": 0.032522197458250524,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.4666666666666667,
+    "traffic_uplift_score": 0.00010473857981964062,
+    "unsafe_probability": 0.0958285942167409
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1249",
+    "predicted_regret": 0.033200502103730496,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5133333333333333,
+    "traffic_uplift_score": 0.0014417240641271,
+    "unsafe_probability": 0.08065545367065906
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1259",
+    "predicted_regret": 0.025082961973162222,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8058333333333333,
+    "traffic_uplift_score": 0.004636802248212852,
+    "unsafe_probability": 0.09711415070075634
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1277",
+    "predicted_regret": 0.02431670007566485,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6133333333333333,
+    "traffic_uplift_score": 0.0028239665253828507,
+    "unsafe_probability": 0.0819384967195321
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1279",
+    "predicted_regret": 0.02840504393726843,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6541666666666667,
+    "traffic_uplift_score": 0.0031400092284061916,
+    "unsafe_probability": 0.06975521147531184
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1283",
+    "predicted_regret": 0.02172762519622431,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.805,
+    "traffic_uplift_score": 0.0046130064338999535,
+    "unsafe_probability": 0.0710212035906391
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1289",
+    "predicted_regret": 0.02935919364154087,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5883333333333334,
+    "traffic_uplift_score": 0.002572906113024263,
+    "unsafe_probability": 0.06429049750154413
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1291",
+    "predicted_regret": 0.029093157754413814,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6366666666666667,
+    "traffic_uplift_score": 0.003028512536913478,
+    "unsafe_probability": 0.07307305158739154
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1297",
+    "predicted_regret": 0.039518449703178304,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.45916666666666667,
+    "traffic_uplift_score": -0.00032474493378944656,
+    "unsafe_probability": 0.08463047232240621
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1301",
+    "predicted_regret": 0.03484628738751292,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.505,
+    "traffic_uplift_score": 0.0012748836498477824,
+    "unsafe_probability": 0.09634328588221955
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1303",
+    "predicted_regret": 0.03740149164130163,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.45666666666666667,
+    "traffic_uplift_score": -0.0004186953064884409,
+    "unsafe_probability": 0.09930426775962795
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1307",
+    "predicted_regret": 0.03649998894456432,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.4625,
+    "traffic_uplift_score": -0.00018489984211086228,
+    "unsafe_probability": 0.07655759373722049
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1319",
+    "predicted_regret": 0.02543315874429566,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5016666666666667,
+    "traffic_uplift_score": 0.0011751284779562606,
+    "unsafe_probability": 0.08452442442783176
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S12-s1321",
+    "predicted_regret": 0.038402716957808475,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.4525,
+    "traffic_uplift_score": -0.0005451451195382345,
+    "unsafe_probability": 0.09349330712361337
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1201",
+    "predicted_regret": 0.004016800360701383,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6041666666666666,
+    "traffic_uplift_score": 0.0027424513298171804,
+    "unsafe_probability": 0.0529923053117113
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1213",
+    "predicted_regret": 0.0044489779016241284,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.515,
+    "traffic_uplift_score": 0.0015022415792582827,
+    "unsafe_probability": 0.022710862307638652
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1217",
+    "predicted_regret": 0.0014762790220416533,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6091666666666666,
+    "traffic_uplift_score": 0.002776511111589183,
+    "unsafe_probability": 0.02642600295839107
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1223",
+    "predicted_regret": 0.004623593257620784,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.41583333333333333,
+    "traffic_uplift_score": -0.0027169723286945284,
+    "unsafe_probability": 0.039118360480777145
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1229",
+    "predicted_regret": 0.004918759425142446,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.36833333333333335,
+    "traffic_uplift_score": -0.007158298796277818,
+    "unsafe_probability": 0.06945892558405363
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1231",
+    "predicted_regret": 0.0033280324618408506,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.44083333333333335,
+    "traffic_uplift_score": -0.0011842725716383088,
+    "unsafe_probability": 0.039104191704864524
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1237",
+    "predicted_regret": 0.004447872970248076,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.66,
+    "traffic_uplift_score": 0.0032385325809940364,
+    "unsafe_probability": 0.036048721571967646
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1249",
+    "predicted_regret": 0.004517919700226599,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.4666666666666667,
+    "traffic_uplift_score": 0.00010926401238257678,
+    "unsafe_probability": 0.020125022206591944
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1259",
+    "predicted_regret": 0.0023138927009337326,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7775,
+    "traffic_uplift_score": 0.00436718913813434,
+    "unsafe_probability": 0.03074767438207856
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1277",
+    "predicted_regret": 0.002365703299254149,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.4716666666666667,
+    "traffic_uplift_score": 0.00040569258035543025,
+    "unsafe_probability": 0.02217662477732302
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1279",
+    "predicted_regret": 0.0010537196559023557,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7508333333333334,
+    "traffic_uplift_score": 0.004042716909138807,
+    "unsafe_probability": 0.030518181710495387
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1283",
+    "predicted_regret": 0.002264941771098386,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6991666666666667,
+    "traffic_uplift_score": 0.003589379079154151,
+    "unsafe_probability": 0.023235798002110356
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1289",
+    "predicted_regret": 0.0014072972435845463,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.69,
+    "traffic_uplift_score": 0.0034816543837308824,
+    "unsafe_probability": 0.022497867337170425
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1291",
+    "predicted_regret": 0.001469664295789068,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7266666666666667,
+    "traffic_uplift_score": 0.003827971340731943,
+    "unsafe_probability": 0.023477118876581826
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1297",
+    "predicted_regret": 0.0029739715937346016,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.40166666666666667,
+    "traffic_uplift_score": -0.00348413596814279,
+    "unsafe_probability": 0.039094619383677635
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1301",
+    "predicted_regret": 0.004943872126620483,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.44083333333333335,
+    "traffic_uplift_score": -0.0012099465994377177,
+    "unsafe_probability": 0.02814258788923758
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1303",
+    "predicted_regret": 0.004715456015747442,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.3933333333333333,
+    "traffic_uplift_score": -0.004160434600275239,
+    "unsafe_probability": 0.04504720112052684
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1307",
+    "predicted_regret": 0.004796562471564523,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.39416666666666667,
+    "traffic_uplift_score": -0.004146790784431783,
+    "unsafe_probability": 0.039444867498944554
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1319",
+    "predicted_regret": 0.001904387682326532,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7383333333333333,
+    "traffic_uplift_score": 0.0039155096644580036,
+    "unsafe_probability": 0.027660874109587497
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S13-s1321",
+    "predicted_regret": 0.0046979256996241905,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.4033333333333333,
+    "traffic_uplift_score": -0.0033072418519155614,
+    "unsafe_probability": 0.04413157936859442
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1201",
+    "predicted_regret": -0.0019159251909800208,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6458333333333334,
+    "traffic_uplift_score": 0.003071037357612812,
+    "unsafe_probability": 0.022737303160716458
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1213",
+    "predicted_regret": -0.00012828689616464298,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.695,
+    "traffic_uplift_score": 0.003537230514279238,
+    "unsafe_probability": 0.012217848864966028
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1217",
+    "predicted_regret": -0.0016381465047235887,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.735,
+    "traffic_uplift_score": 0.0038811465416168523,
+    "unsafe_probability": 0.01289303650991509
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1223",
+    "predicted_regret": 0.0004343728261164681,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9,
+    "traffic_uplift_score": 0.006518477676734679,
+    "unsafe_probability": 0.01910522911934821
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1229",
+    "predicted_regret": 0.0014367743562030027,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5525,
+    "traffic_uplift_score": 0.0021906270390489417,
+    "unsafe_probability": 0.030468655430437586
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1231",
+    "predicted_regret": 0.0020557101747260475,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8458333333333333,
+    "traffic_uplift_score": 0.005229643801070183,
+    "unsafe_probability": 0.02394170103638299
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1237",
+    "predicted_regret": 0.0004798657035632214,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8408333333333333,
+    "traffic_uplift_score": 0.005161705847641691,
+    "unsafe_probability": 0.02347961066981565
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1249",
+    "predicted_regret": 0.001232900257821931,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6341666666666667,
+    "traffic_uplift_score": 0.0030042242094753483,
+    "unsafe_probability": 0.013846995944388861
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1259",
+    "predicted_regret": -0.0016381465047235887,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6108333333333333,
+    "traffic_uplift_score": 0.0028010157452476275,
+    "unsafe_probability": 0.012910523111356957
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1277",
+    "predicted_regret": -0.000124508618890792,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8491666666666666,
+    "traffic_uplift_score": 0.005304827936518778,
+    "unsafe_probability": 0.012062056212923642
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1279",
+    "predicted_regret": -0.0016166306025842791,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7075,
+    "traffic_uplift_score": 0.003658544086650389,
+    "unsafe_probability": 0.015532497706774399
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1283",
+    "predicted_regret": -0.0022652704418505247,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8616666666666667,
+    "traffic_uplift_score": 0.005558638770726332,
+    "unsafe_probability": 0.012315486715505366
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1289",
+    "predicted_regret": 0.00033555034316990086,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7508333333333334,
+    "traffic_uplift_score": 0.004044059071444146,
+    "unsafe_probability": 0.011457122268922988
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1291",
+    "predicted_regret": 0.00016046248803595575,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7183333333333334,
+    "traffic_uplift_score": 0.0037444406229977362,
+    "unsafe_probability": 0.012656163818885341
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1297",
+    "predicted_regret": 0.001372176895612048,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7791666666666667,
+    "traffic_uplift_score": 0.004385643225757823,
+    "unsafe_probability": 0.014410122728912539
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1301",
+    "predicted_regret": 0.0009358549061839413,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.565,
+    "traffic_uplift_score": 0.0022699999700155167,
+    "unsafe_probability": 0.018378859021399862
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1303",
+    "predicted_regret": 0.001732346913087579,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7816666666666666,
+    "traffic_uplift_score": 0.004400966679551573,
+    "unsafe_probability": 0.01866987169447585
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1307",
+    "predicted_regret": 0.0008483086828800525,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8625,
+    "traffic_uplift_score": 0.005570740985921895,
+    "unsafe_probability": 0.019110863008128722
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1319",
+    "predicted_regret": -0.0015409418432229037,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8616666666666667,
+    "traffic_uplift_score": 0.005551180743985701,
+    "unsafe_probability": 0.015411424273079056
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S14-s1321",
+    "predicted_regret": 0.0017387146836158084,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6908333333333333,
+    "traffic_uplift_score": 0.003499836179671373,
+    "unsafe_probability": 0.01974625754832962
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1201",
+    "predicted_regret": 0.01271743843010534,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9241666666666667,
+    "traffic_uplift_score": 0.008264353086408742,
+    "unsafe_probability": 0.040526483508924314
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1213",
+    "predicted_regret": 0.014567774304763071,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9458333333333333,
+    "traffic_uplift_score": 0.010727932825386997,
+    "unsafe_probability": 0.03531727239781343
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1217",
+    "predicted_regret": 0.01234289096142993,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9258333333333333,
+    "traffic_uplift_score": 0.008394520395314438,
+    "unsafe_probability": 0.027839333541915465
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1223",
+    "predicted_regret": 0.015325160926632515,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.935,
+    "traffic_uplift_score": 0.009511979770396896,
+    "unsafe_probability": 0.04556019643835616
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1229",
+    "predicted_regret": 0.012321470832684029,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.925,
+    "traffic_uplift_score": 0.00833029288981808,
+    "unsafe_probability": 0.0638589553630571
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1231",
+    "predicted_regret": 0.015353292553166307,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9383333333333334,
+    "traffic_uplift_score": 0.009999435711874527,
+    "unsafe_probability": 0.04623072241556931
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1237",
+    "predicted_regret": 0.017828018400239128,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9433333333333334,
+    "traffic_uplift_score": 0.010596882280480736,
+    "unsafe_probability": 0.054942737261065716
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1249",
+    "predicted_regret": 0.014571067923116895,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9633333333333334,
+    "traffic_uplift_score": 0.011645410306229915,
+    "unsafe_probability": 0.031096863073714003
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1259",
+    "predicted_regret": 0.012665979419595168,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9466666666666667,
+    "traffic_uplift_score": 0.010835314395061163,
+    "unsafe_probability": 0.02766623365468514
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1277",
+    "predicted_regret": 0.013531576723034485,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9516666666666667,
+    "traffic_uplift_score": 0.011312481784371296,
+    "unsafe_probability": 0.03491322946356668
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1279",
+    "predicted_regret": 0.012671174791906782,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9208333333333333,
+    "traffic_uplift_score": 0.008023087254590939,
+    "unsafe_probability": 0.030944061607133262
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1283",
+    "predicted_regret": 0.01578687281295265,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9308333333333333,
+    "traffic_uplift_score": 0.008772107934742741,
+    "unsafe_probability": 0.02897850382095837
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1289",
+    "predicted_regret": 0.013543225086680825,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9325,
+    "traffic_uplift_score": 0.009270083960469168,
+    "unsafe_probability": 0.03352021069996791
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1291",
+    "predicted_regret": 0.0121203055383676,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.935,
+    "traffic_uplift_score": 0.009523251224333746,
+    "unsafe_probability": 0.03402600899905412
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1297",
+    "predicted_regret": 0.0117048263770347,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9308333333333333,
+    "traffic_uplift_score": 0.008838231946951967,
+    "unsafe_probability": 0.043042262222658854
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1301",
+    "predicted_regret": 0.014567774304763071,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9708333333333333,
+    "traffic_uplift_score": 0.012657103712763088,
+    "unsafe_probability": 0.04219193533634365
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1303",
+    "predicted_regret": 0.012333521393639938,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9316666666666666,
+    "traffic_uplift_score": 0.00902696436642855,
+    "unsafe_probability": 0.04654127745585292
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1307",
+    "predicted_regret": 0.013660283482965063,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9383333333333334,
+    "traffic_uplift_score": 0.01011606674861112,
+    "unsafe_probability": 0.04281181793045491
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1319",
+    "predicted_regret": 0.013097213533293286,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9633333333333334,
+    "traffic_uplift_score": 0.0117768336070974,
+    "unsafe_probability": 0.030116408103459908
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S15-s1321",
+    "predicted_regret": 0.015487006452979658,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9316666666666666,
+    "traffic_uplift_score": 0.008905712184265209,
+    "unsafe_probability": 0.05405990614560554
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1201",
+    "predicted_regret": 0.03709755296184189,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8841666666666667,
+    "traffic_uplift_score": 0.006127798613995635,
+    "unsafe_probability": 0.04942815215498801
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1213",
+    "predicted_regret": 0.0486329029645778,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8233333333333334,
+    "traffic_uplift_score": 0.004829385184691745,
+    "unsafe_probability": 0.06446263120827098
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1217",
+    "predicted_regret": 0.04492909153171884,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8408333333333333,
+    "traffic_uplift_score": 0.005166575408035476,
+    "unsafe_probability": 0.03831481171478701
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1223",
+    "predicted_regret": 0.036256745773693,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7325,
+    "traffic_uplift_score": 0.0038706698170252935,
+    "unsafe_probability": 0.054117066001867956
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1229",
+    "predicted_regret": 0.04810435071057265,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5525,
+    "traffic_uplift_score": 0.0021917327341262447,
+    "unsafe_probability": 0.07596014048686958
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1231",
+    "predicted_regret": 0.047387670718422564,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7066666666666667,
+    "traffic_uplift_score": 0.0036518185954328773,
+    "unsafe_probability": 0.068442166600982
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1237",
+    "predicted_regret": 0.046689837058829044,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8716666666666667,
+    "traffic_uplift_score": 0.005828139197288119,
+    "unsafe_probability": 0.0521469690278691
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1249",
+    "predicted_regret": 0.046744351830750604,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8866666666666667,
+    "traffic_uplift_score": 0.006217235441608988,
+    "unsafe_probability": 0.057962758094742765
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1259",
+    "predicted_regret": 0.03999821044474194,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9125,
+    "traffic_uplift_score": 0.007199519702953835,
+    "unsafe_probability": 0.050369005936288444
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1277",
+    "predicted_regret": 0.03660857421015625,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8783333333333333,
+    "traffic_uplift_score": 0.00601055650396948,
+    "unsafe_probability": 0.05761326390641742
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1279",
+    "predicted_regret": 0.048546347771840415,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.815,
+    "traffic_uplift_score": 0.004729603674460873,
+    "unsafe_probability": 0.040477871276832535
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1283",
+    "predicted_regret": 0.03795749842259685,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8475,
+    "traffic_uplift_score": 0.005278165302636236,
+    "unsafe_probability": 0.04727306103763575
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1289",
+    "predicted_regret": 0.04974227184874138,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8516666666666667,
+    "traffic_uplift_score": 0.005352112995470567,
+    "unsafe_probability": 0.05881899441703073
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1291",
+    "predicted_regret": 0.040848416759363626,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8541666666666666,
+    "traffic_uplift_score": 0.005379545363148842,
+    "unsafe_probability": 0.051830221049544704
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1297",
+    "predicted_regret": 0.0457089021074561,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5416666666666666,
+    "traffic_uplift_score": 0.002035290129546279,
+    "unsafe_probability": 0.050956203041784366
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1301",
+    "predicted_regret": 0.04913019203659818,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7058333333333333,
+    "traffic_uplift_score": 0.003647808517059475,
+    "unsafe_probability": 0.06280040512493408
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1303",
+    "predicted_regret": 0.039905454943564345,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6258333333333334,
+    "traffic_uplift_score": 0.00292121715512015,
+    "unsafe_probability": 0.06618515757889823
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1307",
+    "predicted_regret": 0.04404974267127357,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6358333333333334,
+    "traffic_uplift_score": 0.0030094382394643127,
+    "unsafe_probability": 0.05877600152254172
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1319",
+    "predicted_regret": 0.04212413764168077,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8866666666666667,
+    "traffic_uplift_score": 0.006243948143650092,
+    "unsafe_probability": 0.05208046444680496
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S16-s1321",
+    "predicted_regret": 0.04349810763164347,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7916666666666666,
+    "traffic_uplift_score": 0.0044867869450912375,
+    "unsafe_probability": 0.07602697495323393
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1201",
+    "predicted_regret": 0.001714492069137664,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8741666666666666,
+    "traffic_uplift_score": 0.00592693226119302,
+    "unsafe_probability": 0.01996608920425073
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1213",
+    "predicted_regret": 0.003674110378069353,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8358333333333333,
+    "traffic_uplift_score": 0.005059060280003341,
+    "unsafe_probability": 0.024804771599721553
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1217",
+    "predicted_regret": 0.001714492069137664,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8191666666666667,
+    "traffic_uplift_score": 0.004807015368507941,
+    "unsafe_probability": 0.01788095190378429
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1223",
+    "predicted_regret": 0.0007965076312986169,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8891666666666667,
+    "traffic_uplift_score": 0.006262632168664503,
+    "unsafe_probability": 0.027375170015354677
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1229",
+    "predicted_regret": 0.004376475284116151,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8333333333333334,
+    "traffic_uplift_score": 0.005019197604666311,
+    "unsafe_probability": 0.029344583561668105
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1231",
+    "predicted_regret": 0.002280108983009408,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8775,
+    "traffic_uplift_score": 0.005988959554290998,
+    "unsafe_probability": 0.024373202440713913
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1237",
+    "predicted_regret": 0.0044214048461275295,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8716666666666667,
+    "traffic_uplift_score": 0.005843305329773094,
+    "unsafe_probability": 0.025772146434995515
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1249",
+    "predicted_regret": 0.004253813692462832,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9041666666666667,
+    "traffic_uplift_score": 0.006832180932475746,
+    "unsafe_probability": 0.02543936691780499
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1259",
+    "predicted_regret": 0.002614926057832161,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7633333333333333,
+    "traffic_uplift_score": 0.0041952258675411105,
+    "unsafe_probability": 0.02525870318168667
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1277",
+    "predicted_regret": 0.0007969927988072798,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5933333333333334,
+    "traffic_uplift_score": 0.0026482646397762454,
+    "unsafe_probability": 0.020505132925204745
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1279",
+    "predicted_regret": 0.0030447558903527153,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9041666666666667,
+    "traffic_uplift_score": 0.006889584577112475,
+    "unsafe_probability": 0.03774327486601727
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1283",
+    "predicted_regret": 0.0014925657986155677,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8691666666666666,
+    "traffic_uplift_score": 0.00579906830715004,
+    "unsafe_probability": 0.019146274558550065
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1289",
+    "predicted_regret": 0.003111229937561965,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9025,
+    "traffic_uplift_score": 0.00670508418382257,
+    "unsafe_probability": 0.02756432470510843
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1291",
+    "predicted_regret": 0.0015254638124386575,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.575,
+    "traffic_uplift_score": 0.0024409497405843516,
+    "unsafe_probability": 0.022541024145126116
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1297",
+    "predicted_regret": 0.002503592094023847,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8075,
+    "traffic_uplift_score": 0.004662571383455221,
+    "unsafe_probability": 0.024453862357801705
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1301",
+    "predicted_regret": 0.0052912575090749365,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8383333333333334,
+    "traffic_uplift_score": 0.005115353199511191,
+    "unsafe_probability": 0.037976077751151464
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1303",
+    "predicted_regret": 0.002850024547378497,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.865,
+    "traffic_uplift_score": 0.005679797148302454,
+    "unsafe_probability": 0.02205732005854449
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1307",
+    "predicted_regret": 0.003348096125067011,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7775,
+    "traffic_uplift_score": 0.004368738064397661,
+    "unsafe_probability": 0.02239670102962741
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1319",
+    "predicted_regret": 0.003950754235874248,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7516666666666667,
+    "traffic_uplift_score": 0.004058305089134885,
+    "unsafe_probability": 0.023557223155727995
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S17-s1321",
+    "predicted_regret": 0.004214553540821213,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8525,
+    "traffic_uplift_score": 0.005373746625190221,
+    "unsafe_probability": 0.030116763548264404
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1201",
+    "predicted_regret": 0.0027811792939877464,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5833333333333334,
+    "traffic_uplift_score": 0.0025218522047956433,
+    "unsafe_probability": 0.04738508159658021
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1213",
+    "predicted_regret": 0.007369031300542712,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5766666666666667,
+    "traffic_uplift_score": 0.002461110143755013,
+    "unsafe_probability": 0.036993152315694756
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1217",
+    "predicted_regret": 0.005138013541827006,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5766666666666667,
+    "traffic_uplift_score": 0.002457607791156618,
+    "unsafe_probability": 0.02820284794170463
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1223",
+    "predicted_regret": 0.004748220297841171,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5241666666666667,
+    "traffic_uplift_score": 0.001777292421553085,
+    "unsafe_probability": 0.05033454103118
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1229",
+    "predicted_regret": 0.010351374730829751,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5333333333333333,
+    "traffic_uplift_score": 0.001938075624164939,
+    "unsafe_probability": 0.05245338341981149
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1231",
+    "predicted_regret": 0.007956423694954839,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.765,
+    "traffic_uplift_score": 0.004240411918806476,
+    "unsafe_probability": 0.03681565442427251
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1237",
+    "predicted_regret": 0.012169876951195495,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5241666666666667,
+    "traffic_uplift_score": 0.0017251296231987452,
+    "unsafe_probability": 0.05329450703469121
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1249",
+    "predicted_regret": 0.012063041308072727,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6516666666666666,
+    "traffic_uplift_score": 0.0030974637638910753,
+    "unsafe_probability": 0.0457368083720417
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1259",
+    "predicted_regret": 0.005633815109697391,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5741666666666667,
+    "traffic_uplift_score": 0.002436719775342406,
+    "unsafe_probability": 0.026307651665819876
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1277",
+    "predicted_regret": 0.004784566741128955,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6358333333333334,
+    "traffic_uplift_score": 0.0030109820104036187,
+    "unsafe_probability": 0.02945790222535134
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1279",
+    "predicted_regret": 0.008568238639565729,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6183333333333333,
+    "traffic_uplift_score": 0.002868867635503009,
+    "unsafe_probability": 0.035291802356053635
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1283",
+    "predicted_regret": 0.006729581204987863,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6041666666666666,
+    "traffic_uplift_score": 0.0027443214618482763,
+    "unsafe_probability": 0.025817178239365614
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1289",
+    "predicted_regret": 0.009069901535285125,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.505,
+    "traffic_uplift_score": 0.0012913938261970698,
+    "unsafe_probability": 0.039558577223544514
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1291",
+    "predicted_regret": 0.00899410432377226,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5266666666666666,
+    "traffic_uplift_score": 0.0018197836013020086,
+    "unsafe_probability": 0.031410451797266724
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1297",
+    "predicted_regret": 0.010868363253733119,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.495,
+    "traffic_uplift_score": 0.0010316611430866308,
+    "unsafe_probability": 0.045227219260969335
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1301",
+    "predicted_regret": 0.010167477432038033,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.4216666666666667,
+    "traffic_uplift_score": -0.0021998198507045324,
+    "unsafe_probability": 0.07760091480708994
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1303",
+    "predicted_regret": 0.01173697467721551,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.46416666666666667,
+    "traffic_uplift_score": -2.8623993974363266e-05,
+    "unsafe_probability": 0.05374444173550141
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1307",
+    "predicted_regret": 0.00965721804201275,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5366666666666666,
+    "traffic_uplift_score": 0.0019860095724306497,
+    "unsafe_probability": 0.046559097219087804
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1319",
+    "predicted_regret": 0.007015666210991574,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7675,
+    "traffic_uplift_score": 0.004270340097736762,
+    "unsafe_probability": 0.045467731431890535
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S18-s1321",
+    "predicted_regret": 0.012926065178048137,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5183333333333333,
+    "traffic_uplift_score": 0.0015706198534423202,
+    "unsafe_probability": 0.05228808441601518
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1201",
+    "predicted_regret": 0.023123668552903886,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5208333333333334,
+    "traffic_uplift_score": 0.0016526956697572534,
+    "unsafe_probability": 0.06843824185513304
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1213",
+    "predicted_regret": 0.03375043555891553,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5616666666666666,
+    "traffic_uplift_score": 0.002239996848459361,
+    "unsafe_probability": 0.06643612428955223
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1217",
+    "predicted_regret": 0.023531671411363857,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6166666666666667,
+    "traffic_uplift_score": 0.0028437754720047866,
+    "unsafe_probability": 0.03382077348665054
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1223",
+    "predicted_regret": 0.03318864508977622,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5033333333333333,
+    "traffic_uplift_score": 0.0011806664596244296,
+    "unsafe_probability": 0.05251816784722294
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1229",
+    "predicted_regret": 0.039826910069979446,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.48583333333333334,
+    "traffic_uplift_score": 0.0008233414917423385,
+    "unsafe_probability": 0.06261548726579198
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1231",
+    "predicted_regret": 0.03125973336287653,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6408333333333334,
+    "traffic_uplift_score": 0.003043159905479854,
+    "unsafe_probability": 0.043248449336675654
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1237",
+    "predicted_regret": 0.022376599783194815,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.5775,
+    "traffic_uplift_score": 0.002462890075828133,
+    "unsafe_probability": 0.06327018230893292
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1249",
+    "predicted_regret": 0.03063729338261675,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.705,
+    "traffic_uplift_score": 0.0036436026756898293,
+    "unsafe_probability": 0.059479516722727804
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1259",
+    "predicted_regret": 0.02693135607227716,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8466666666666667,
+    "traffic_uplift_score": 0.005251406404451873,
+    "unsafe_probability": 0.04413018588640815
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1277",
+    "predicted_regret": 0.026261892697852594,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7575,
+    "traffic_uplift_score": 0.00412094381647646,
+    "unsafe_probability": 0.06055152789311116
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1279",
+    "predicted_regret": 0.027548533482550756,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6766666666666666,
+    "traffic_uplift_score": 0.0033543275398449793,
+    "unsafe_probability": 0.03977577736836259
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1283",
+    "predicted_regret": 0.029933524936366886,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7166666666666667,
+    "traffic_uplift_score": 0.0037326964441734773,
+    "unsafe_probability": 0.03693367502531871
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1289",
+    "predicted_regret": 0.027204509178502447,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7558333333333334,
+    "traffic_uplift_score": 0.004096461464656573,
+    "unsafe_probability": 0.046699461583851146
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1291",
+    "predicted_regret": 0.02341910684311125,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6008333333333333,
+    "traffic_uplift_score": 0.0027168121036771162,
+    "unsafe_probability": 0.05077582637365816
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1297",
+    "predicted_regret": 0.03115255612132002,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.535,
+    "traffic_uplift_score": 0.0019513890816191108,
+    "unsafe_probability": 0.054970923880258545
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1301",
+    "predicted_regret": 0.029427626728109915,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6958333333333333,
+    "traffic_uplift_score": 0.0035505835471468373,
+    "unsafe_probability": 0.05688901960801878
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1303",
+    "predicted_regret": 0.03063269239936984,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.4475,
+    "traffic_uplift_score": -0.0009356700591793048,
+    "unsafe_probability": 0.08157216159906072
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1307",
+    "predicted_regret": 0.03366159308233772,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.49333333333333335,
+    "traffic_uplift_score": 0.0009823840616604987,
+    "unsafe_probability": 0.05513049021726002
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1319",
+    "predicted_regret": 0.023751136255730294,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.54,
+    "traffic_uplift_score": 0.0020175036195020355,
+    "unsafe_probability": 0.04761889819795918
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S19-s1321",
+    "predicted_regret": 0.03010945945326112,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.595,
+    "traffic_uplift_score": 0.002684789092706453,
+    "unsafe_probability": 0.06476716632110706
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1201",
+    "predicted_regret": -0.0009066433549314559,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7725,
+    "traffic_uplift_score": 0.004318874682402393,
+    "unsafe_probability": 0.018698943704592002
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1213",
+    "predicted_regret": 0.0007976932347545952,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.805,
+    "traffic_uplift_score": 0.004612080088542981,
+    "unsafe_probability": 0.021327773297045757
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1217",
+    "predicted_regret": -0.001136827484161169,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.6908333333333333,
+    "traffic_uplift_score": 0.0034855818660537124,
+    "unsafe_probability": 0.021116156201437995
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1223",
+    "predicted_regret": -0.0010403996770338205,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9,
+    "traffic_uplift_score": 0.006503206362502723,
+    "unsafe_probability": 0.023264840401258927
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1229",
+    "predicted_regret": 0.0005495914109049564,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7725,
+    "traffic_uplift_score": 0.004319369405978792,
+    "unsafe_probability": 0.022134239869288544
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1231",
+    "predicted_regret": 3.697423856231146e-05,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.86,
+    "traffic_uplift_score": 0.005514358510748318,
+    "unsafe_probability": 0.01963458342265958
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1237",
+    "predicted_regret": 0.0005227997668556972,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8516666666666667,
+    "traffic_uplift_score": 0.0053632557175715126,
+    "unsafe_probability": 0.02086950480629422
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1249",
+    "predicted_regret": 0.0008055042569033942,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.9008333333333334,
+    "traffic_uplift_score": 0.006643662820938154,
+    "unsafe_probability": 0.029906533553863152
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1259",
+    "predicted_regret": -0.0007139263508742925,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7216666666666667,
+    "traffic_uplift_score": 0.003791622047849755,
+    "unsafe_probability": 0.01724432802641545
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1277",
+    "predicted_regret": -0.00032699314588881663,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7975,
+    "traffic_uplift_score": 0.004534515718862775,
+    "unsafe_probability": 0.018356011753563564
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1279",
+    "predicted_regret": -0.0006311985273556865,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8333333333333334,
+    "traffic_uplift_score": 0.005030835975525658,
+    "unsafe_probability": 0.029403712259412317
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1283",
+    "predicted_regret": 0.0007680028135750905,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8408333333333333,
+    "traffic_uplift_score": 0.0051698384631137136,
+    "unsafe_probability": 0.018671246767428634
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1289",
+    "predicted_regret": 0.0005687169425679544,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7975,
+    "traffic_uplift_score": 0.004535536301263318,
+    "unsafe_probability": 0.02622724432423394
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1291",
+    "predicted_regret": 0.0013477240606946067,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7633333333333333,
+    "traffic_uplift_score": 0.004207296186498793,
+    "unsafe_probability": 0.026194489920271215
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1297",
+    "predicted_regret": -0.00029450408405250916,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7975,
+    "traffic_uplift_score": 0.0045467611884233115,
+    "unsafe_probability": 0.022863716527333072
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1301",
+    "predicted_regret": 0.0026615488129590704,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.46,
+    "traffic_uplift_score": -0.00029041775942316444,
+    "unsafe_probability": 0.04556084906064088
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1303",
+    "predicted_regret": 0.00045599832689859136,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8608333333333333,
+    "traffic_uplift_score": 0.005536753607438643,
+    "unsafe_probability": 0.02795779974346963
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1307",
+    "predicted_regret": -0.000474846058704973,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.7475,
+    "traffic_uplift_score": 0.004019034242860837,
+    "unsafe_probability": 0.026479026784864045
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1319",
+    "predicted_regret": 0.0011437327219280436,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8908333333333334,
+    "traffic_uplift_score": 0.00630276231257709,
+    "unsafe_probability": 0.017831262080474565
+  },
+  {
+    "executed_policy": "B1",
+    "intervene": false,
+    "pair_id": "v8-final-S20-s1321",
+    "predicted_regret": 0.0008055042569033942,
+    "reason": "traffic_rank_below_cutoff",
+    "traffic_rank_percentile": 0.8458333333333333,
+    "traffic_uplift_score": 0.005228039450535589,
+    "unsafe_probability": 0.02578265625717442
+  }
+]

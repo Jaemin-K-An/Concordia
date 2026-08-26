@@ -1,0 +1,150 @@
+{
+  "candidate_count": 150,
+  "complete": true,
+  "feasible_candidate_count": 0,
+  "future_state_leakage_count": 0,
+  "rl_used": false,
+  "safe_abstention": true,
+  "selected": {
+    "calibration": "beta",
+    "classification": {
+      "false_negative": 0,
+      "false_positive": 385,
+      "false_safe_rate_all_candidates": 0.0,
+      "false_safe_rate_given_predicted_safe": 0.0,
+      "pr_auc_average_precision": 0.5259095693183508,
+      "sample_count": 500,
+      "specificity": 0.0,
+      "threshold": 0.0,
+      "true_negative": 0,
+      "true_positive": 115,
+      "unsafe_count": 115,
+      "unsafe_precision": 0.23,
+      "unsafe_recall": 1.0
+    },
+    "critical_groups": {
+      "groups": {
+        "penetration=0.25": {
+          "sample_count": 97,
+          "unsafe_count": 15,
+          "unsafe_recall": 1.0
+        },
+        "penetration=0.50": {
+          "sample_count": 149,
+          "unsafe_count": 22,
+          "unsafe_recall": 1.0
+        },
+        "penetration=0.75": {
+          "sample_count": 125,
+          "unsafe_count": 24,
+          "unsafe_recall": 1.0
+        },
+        "penetration=1.00": {
+          "sample_count": 129,
+          "unsafe_count": 54,
+          "unsafe_recall": 1.0
+        },
+        "topology=asymmetric": {
+          "sample_count": 39,
+          "unsafe_count": 2,
+          "unsafe_recall": 1.0
+        },
+        "topology=merge": {
+          "sample_count": 119,
+          "unsafe_count": 33,
+          "unsafe_recall": 1.0
+        },
+        "topology=real_like": {
+          "sample_count": 81,
+          "unsafe_count": 4,
+          "unsafe_recall": 1.0
+        },
+        "topology=ring": {
+          "sample_count": 28,
+          "unsafe_count": 3,
+          "unsafe_recall": 1.0
+        },
+        "topology=signalized": {
+          "sample_count": 124,
+          "unsafe_count": 62,
+          "unsafe_recall": 1.0
+        },
+        "topology=two_route": {
+          "sample_count": 109,
+          "unsafe_count": 11,
+          "unsafe_recall": 1.0
+        }
+      },
+      "worst_critical_group_recall": 1.0
+    },
+    "metrics": {
+      "coverage": 0.0,
+      "deployment_precision": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "mean_selected_relative_uplift": 0.0,
+      "opportunity_count": 86,
+      "opportunity_realization_rate": 0.0,
+      "opportunity_recovery_rate": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "regret_violation_count": 0,
+      "safe_success_retention": 0.0,
+      "safety_filter_effectiveness": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 500,
+      "screened_safe_success_count": 0,
+      "screened_unsafe_count": 0,
+      "success_count": 0,
+      "uplift_precision": 0.0
+    },
+    "model_id": "S2",
+    "traffic_rank_percentile_cutoff": 1.1,
+    "unsafe_probability_threshold": 0.0
+  },
+  "selection_order": [
+    "zero_safety_violations",
+    "precision_at_least_0.80",
+    "support_at_least_20",
+    "maximum_ORR",
+    "maximum_coverage"
+  ],
+  "state_vs_action": {
+    "action_aware_beats_state_only_false_safe_rate": true,
+    "action_aware_beats_state_only_pr_auc": true,
+    "action_aware_false_safe_rate_given_predicted_safe": 0.005952380952380952,
+    "action_aware_pr_auc": 0.5259095693183508,
+    "action_aware_pr_auc_improvement": 0.04972750894459632,
+    "action_aware_risk_controlled_threshold": 0.05,
+    "selected_action_aware_model": "S2",
+    "state_only_false_safe_rate_given_predicted_safe": 0.01639344262295082,
+    "state_only_model": "S0",
+    "state_only_pr_auc": 0.47618206037375443,
+    "state_only_risk_controlled_threshold": 0.05
+  },
+  "traffic_screen_minimum_recall_met": true,
+  "traffic_screen_target_recall_met": true,
+  "validation_metrics_recomputed": {
+    "coverage": 0.0,
+    "deployment_precision": 0.0,
+    "failure_count": 0,
+    "false_safe_rate": 0.0,
+    "intervention_count": 0,
+    "mean_selected_relative_uplift": 0.0,
+    "opportunity_count": 86,
+    "opportunity_realization_rate": 0.0,
+    "opportunity_recovery_rate": 0.0,
+    "precision_wilson_95_lower": 0.0,
+    "precision_wilson_95_upper": 1.0,
+    "regret_violation_count": 0,
+    "safe_success_retention": 0.0,
+    "safety_filter_effectiveness": 1.0,
+    "safety_violation_count": 0,
+    "sample_count": 500,
+    "screened_safe_success_count": 0,
+    "screened_unsafe_count": 0,
+    "success_count": 0,
+    "uplift_precision": 0.0
+  }
+}

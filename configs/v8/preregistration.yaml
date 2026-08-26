@@ -1,0 +1,53 @@
+study: v8_safety_filtered_uplift_ranking
+registered_at_utc: 2026-08-26T00:00:00Z
+immutable_predecessor: artifacts/v7/freeze_manifest.json
+research_question: Can a pre-decision action-aware unsafe-intervention classifier veto harmful high-uplift candidates while retaining safe successes?
+primary_traffic_ranker: v7_C0_direct_paired_random_forest
+unsafe_label: "risk_adaptive > risk_b1 + 0.25"
+safety_delta: 0.25
+development_minimum_pairs: 2000
+development_minimum_unsafe: 300
+new_final_minimum_pairs: 400
+traffic_screen_safe_opportunity_recall_target: 0.90
+traffic_screen_safe_opportunity_recall_minimum: 0.80
+unsafe_recall_target: 0.95
+unsafe_recall_stretch: 0.98
+validation_false_safe_rate_target: 0.02
+final_false_safe_rate_maximum: 0.05
+worst_critical_group_recall_target: 0.85
+regret_limit: 0.08
+validation_selection_order:
+  - safety_violations_zero
+  - deployment_precision_at_least_0.80
+  - intervention_support_at_least_20
+  - maximize_opportunity_realization_rate
+  - maximize_coverage
+recommended_validation_support: 30
+primary_final_targets:
+  deployment_precision: 0.80
+  coverage: 0.08
+  interventions: 30
+  safety_violations: 0
+  opportunity_realization_rate: 0.35
+  safe_success_retention: 0.70
+  safety_filter_effectiveness: 0.95
+outcomes:
+  S_plus: {precision: 0.80, coverage: 0.10, opportunity_realization_rate: 0.50, safety_violations: 0, interventions: 40, osm_safe_interventions_minimum: 1}
+  S: {precision: 0.80, coverage: 0.08, opportunity_realization_rate: 0.35, safety_violations: 0, interventions: 30}
+  P: {precision: 0.70, safety_violations: 0, interventions_minimum: 1, opportunity_realization_rate_minimum: 0.000001}
+  F: {precision_below: 0.70, any_final_unsafe_intervention: true, or_no_feasible_validation_policy: true}
+hypotheses:
+  H45: Unsafe classification lowers false-safe rate relative to v7 safety regression.
+  H46: Traffic ranking plus unsafe filtering improves deployment precision over the reconstructed v7 mean policy.
+  H47: Final deployment precision is at least 0.80.
+  H48: Final coverage is at least 0.08.
+  H49: Final safety violations equal zero.
+  H50: Final opportunity realization rate is at least 0.35.
+  H51: Unsafe-class recall is at least 0.95.
+  H52: OSM evaluation contains at least one safe intervention.
+  H53: Action-aware safety features beat state-only features in PR-AUC and policy false-safe rate.
+  H54: Final top-10-percent traffic uplift exceeds population-average uplift.
+  H55: The safety filter raises traffic-only precision to at least 0.80 while retaining at least 0.70 of safe successes.
+rl_decision: NO
+final_holdout_locked_until_freeze: true
+

@@ -1,0 +1,325 @@
+{
+  "actual_sumo_run_count_including_predecision_probes": 360,
+  "all_routes_legal": true,
+  "architecture_comparison": {
+    "B1": {
+      "coverage": 0.0,
+      "deployment_precision": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "mean_selected_relative_uplift": 0.0,
+      "opportunity_count": 13,
+      "opportunity_recovery_rate": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0,
+      "uplift_precision": 0.0
+    },
+    "B6": {
+      "coverage": 1.0,
+      "deployment_precision": 0.10833333333333334,
+      "failure_count": 107,
+      "false_safe_rate": 0.5916666666666667,
+      "intervention_count": 120,
+      "mean_selected_relative_uplift": -0.382311127014262,
+      "opportunity_count": 13,
+      "opportunity_recovery_rate": 1.0,
+      "precision_wilson_95_lower": 0.06441141154173444,
+      "precision_wilson_95_upper": 0.17655360215291666,
+      "regret_violation_count": 0,
+      "safety_violation_count": 71,
+      "sample_count": 120,
+      "success_count": 13,
+      "uplift_precision": 0.19166666666666668
+    },
+    "V7-F": {
+      "coverage": 0.0,
+      "deployment_precision": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "mean_selected_relative_uplift": 0.0,
+      "opportunity_count": 13,
+      "opportunity_recovery_rate": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0,
+      "uplift_precision": 0.0
+    },
+    "V8-F": {
+      "coverage": 0.0,
+      "deployment_precision": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "mean_selected_relative_uplift": 0.0,
+      "opportunity_count": 13,
+      "opportunity_realization_rate": 0.0,
+      "opportunity_recovery_rate": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "regret_violation_count": 0,
+      "safe_success_retention": 0.0,
+      "safety_filter_effectiveness": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "screened_safe_success_count": 0,
+      "screened_unsafe_count": 0,
+      "success_count": 0,
+      "uplift_precision": 0.0
+    },
+    "V8-traffic-only": {
+      "coverage": 0.0,
+      "deployment_precision": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "mean_selected_relative_uplift": 0.0,
+      "opportunity_count": 13,
+      "opportunity_recovery_rate": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "regret_violation_count": 0,
+      "safety_violation_count": 0,
+      "sample_count": 120,
+      "success_count": 0,
+      "uplift_precision": 0.0
+    }
+  },
+  "claim_boundary": "real road geometry with synthetic OD demand and preferences; not observed Seoul traffic",
+  "complete": true,
+  "freeze_manifest_hash_after": "3e2c5b173dad223e5aa6a4a137a85871f1eca60d8f5212257aef17462f7e2ece",
+  "freeze_manifest_hash_before": "3e2c5b173dad223e5aa6a4a137a85871f1eca60d8f5212257aef17462f7e2ece",
+  "frozen_immutable": true,
+  "intervention_target_met": false,
+  "od_pair_count": 15,
+  "od_pairs": [
+    {
+      "destination": "5376448907",
+      "maximum_overlap": 0.25,
+      "mean_overlap": 0.13095238095238096,
+      "origin": "2477260916",
+      "overlap_class": "low",
+      "stratum_rank": 5
+    },
+    {
+      "destination": "3146844229",
+      "maximum_overlap": 0.25,
+      "mean_overlap": 0.1758109040717736,
+      "origin": "3827606156",
+      "overlap_class": "low",
+      "stratum_rank": 6
+    },
+    {
+      "destination": "cluster_1326174741_5376448906",
+      "maximum_overlap": 0.2222222222222222,
+      "mean_overlap": 0.17724867724867724,
+      "origin": "1326174782",
+      "overlap_class": "low",
+      "stratum_rank": 7
+    },
+    {
+      "destination": "3146844229",
+      "maximum_overlap": 0.15,
+      "mean_overlap": 0.11277056277056276,
+      "origin": "1430674331",
+      "overlap_class": "low",
+      "stratum_rank": 8
+    },
+    {
+      "destination": "2477260916",
+      "maximum_overlap": 0.3333333333333333,
+      "mean_overlap": 0.1111111111111111,
+      "origin": "1430656073",
+      "overlap_class": "low",
+      "stratum_rank": 9
+    },
+    {
+      "destination": "3089780836",
+      "maximum_overlap": 0.6666666666666666,
+      "mean_overlap": 0.5079365079365079,
+      "origin": "2477260916",
+      "overlap_class": "medium",
+      "stratum_rank": 5
+    },
+    {
+      "destination": "2477260919",
+      "maximum_overlap": 0.6428571428571429,
+      "mean_overlap": 0.49206349206349204,
+      "origin": "1430674331",
+      "overlap_class": "medium",
+      "stratum_rank": 6
+    },
+    {
+      "destination": "1430655021",
+      "maximum_overlap": 0.6296296296296297,
+      "mean_overlap": 0.5087719298245613,
+      "origin": "1430656078",
+      "overlap_class": "medium",
+      "stratum_rank": 7
+    },
+    {
+      "destination": "1430656073",
+      "maximum_overlap": 0.6470588235294118,
+      "mean_overlap": 0.5101307189542483,
+      "origin": "4182408150",
+      "overlap_class": "medium",
+      "stratum_rank": 8
+    },
+    {
+      "destination": "cluster_2280678664_9889607761",
+      "maximum_overlap": 0.6,
+      "mean_overlap": 0.5127450980392156,
+      "origin": "2477260919",
+      "overlap_class": "medium",
+      "stratum_rank": 9
+    },
+    {
+      "destination": "2280678728",
+      "maximum_overlap": 0.88,
+      "mean_overlap": 0.775934065934066,
+      "origin": "3054698233",
+      "overlap_class": "high",
+      "stratum_rank": 5
+    },
+    {
+      "destination": "1326174782",
+      "maximum_overlap": 0.8076923076923077,
+      "mean_overlap": 0.7692307692307692,
+      "origin": "1430655021",
+      "overlap_class": "high",
+      "stratum_rank": 6
+    },
+    {
+      "destination": "9889607763",
+      "maximum_overlap": 0.875,
+      "mean_overlap": 0.7672222222222222,
+      "origin": "1326174782",
+      "overlap_class": "high",
+      "stratum_rank": 7
+    },
+    {
+      "destination": "2477260919",
+      "maximum_overlap": 0.84375,
+      "mean_overlap": 0.7638888888888888,
+      "origin": "1906756396",
+      "overlap_class": "high",
+      "stratum_rank": 8
+    },
+    {
+      "destination": "9889607763",
+      "maximum_overlap": 0.8846153846153846,
+      "mean_overlap": 0.7601761797164096,
+      "origin": "4182408150",
+      "overlap_class": "high",
+      "stratum_rank": 9
+    }
+  ],
+  "overlap_stratum_counts": {
+    "high": 5,
+    "low": 5,
+    "medium": 5
+  },
+  "paired_condition_count": 120,
+  "primary_metrics": {
+    "coverage": 0.0,
+    "deployment_precision": 0.0,
+    "failure_count": 0,
+    "false_safe_rate": 0.0,
+    "intervention_count": 0,
+    "mean_selected_relative_uplift": 0.0,
+    "opportunity_count": 13,
+    "opportunity_realization_rate": 0.0,
+    "opportunity_recovery_rate": 0.0,
+    "precision_wilson_95_lower": 0.0,
+    "precision_wilson_95_upper": 1.0,
+    "regret_violation_count": 0,
+    "safe_success_retention": 0.0,
+    "safety_filter_effectiveness": 1.0,
+    "safety_violation_count": 0,
+    "sample_count": 120,
+    "screened_safe_success_count": 0,
+    "screened_unsafe_count": 0,
+    "success_count": 0,
+    "uplift_precision": 0.0
+  },
+  "prior_v7_od_pair_overlap_count": 0,
+  "real_geometry_synthetic_demand": true,
+  "rl_used": false,
+  "safe_success_target_met": false,
+  "source_osm_sha256": "b0388e6871d9fdf6529afc2ddf493fcb363213aa23d53af560b2a1b50c854525",
+  "study": "v8 frozen 15-new-OD real OSM geometry safety-filtered transfer",
+  "sumo_network_sha256": "9ecab2dc904164b0c7b537baba6b9973bf2561f1582a8c102b6e0dc6e7064958",
+  "traffic_ranking": {
+    "cumulative_gain": [
+      {
+        "count": 6,
+        "fraction": 0.05,
+        "gain": -3.3872829465187486
+      },
+      {
+        "count": 12,
+        "fraction": 0.1,
+        "gain": -10.939572522571563
+      },
+      {
+        "count": 18,
+        "fraction": 0.15,
+        "gain": -14.767801692843058
+      },
+      {
+        "count": 24,
+        "fraction": 0.2,
+        "gain": -20.36376731117208
+      },
+      {
+        "count": 30,
+        "fraction": 0.25,
+        "gain": -22.239830316954855
+      }
+    ],
+    "ndcg": 0.33990337146950134,
+    "population_mean_uplift": -0.382311127014262,
+    "sample_count": 120,
+    "spearman": -0.4144939718547971,
+    "top_k": {
+      "top_10_percent": {
+        "count": 12,
+        "cumulative_uplift": -10.939572522571563,
+        "mean_realized_uplift": -0.9116310435476302,
+        "uplift_over_population_mean": -0.5293199165333682
+      },
+      "top_15_percent": {
+        "count": 18,
+        "cumulative_uplift": -14.767801692843058,
+        "mean_realized_uplift": -0.8204334273801699,
+        "uplift_over_population_mean": -0.4381223003659079
+      },
+      "top_20_percent": {
+        "count": 24,
+        "cumulative_uplift": -20.36376731117208,
+        "mean_realized_uplift": -0.84849030463217,
+        "uplift_over_population_mean": -0.466179177617908
+      },
+      "top_25_percent": {
+        "count": 30,
+        "cumulative_uplift": -22.239830316954855,
+        "mean_realized_uplift": -0.7413276772318285,
+        "uplift_over_population_mean": -0.35901655021756645
+      },
+      "top_5_percent": {
+        "count": 6,
+        "cumulative_uplift": -3.3872829465187486,
+        "mean_realized_uplift": -0.5645471577531248,
+        "uplift_over_population_mean": -0.1822360307388628
+      }
+    }
+  }
+}

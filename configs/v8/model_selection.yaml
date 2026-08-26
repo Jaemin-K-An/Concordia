@@ -1,0 +1,17 @@
+traffic_rank_percentile_cutoffs: [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95]
+unsafe_probability_thresholds: [0.01, 0.02, 0.03, 0.05, 0.075, 0.10, 0.15, 0.20, 0.30, 0.50]
+regret_thresholds: [0.08]
+calibration_methods: [raw, platt, isotonic, beta]
+safety_models:
+  - {id: S0, kind: logistic, feature_set: state_only, positive_weight: 1.0}
+  - {id: S1, kind: logistic, feature_set: action_aware, positive_weight: 3.0}
+  - {id: S2, kind: random_forest, feature_set: action_aware, positive_weight: 3.0}
+  - {id: S3, kind: gradient_boosting, feature_set: action_aware, positive_weight: 1.0}
+  - {id: S4, kind: gradient_boosting, feature_set: action_aware, positive_weight: 2.0}
+  - {id: S5, kind: gradient_boosting, feature_set: action_aware, positive_weight: 5.0}
+  - {id: S6, kind: risk_controlled, base: selected_action_aware, recall_target: 0.95}
+validation_minimum_support: 20
+validation_recommended_support: 30
+policy_selection: lexicographic
+selection_order: [zero_safety_violations, precision_at_least_0.80, support_at_least_20, maximum_ORR, maximum_coverage]
+safe_abstention_if_infeasible: true

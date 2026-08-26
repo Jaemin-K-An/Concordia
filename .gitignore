@@ -13,6 +13,8 @@ artifacts/runs/*
 artifacts/reports/*
 !artifacts/reports/.gitkeep
 !artifacts/reports/report.html
+!artifacts/reports/CONCORDIA_v8_final_report.md
+!artifacts/reports/CONCORDIA_v8_final_report.html
 !artifacts/figures/
 !artifacts/figures/*.png
 data/processed/*
@@ -22,3 +24,5 @@ data/processed/*
 scenarios/sumo/ring/ring.net.xml
 scenarios/sumo/ring/fcd.xml
 scenarios/sumo/ring/ssm.xml
+artifacts/studies/v8_safety_dataset/new_development_checkpoint.json
+artifacts/studies/v8_micro_holdout/final_checkpoint.json

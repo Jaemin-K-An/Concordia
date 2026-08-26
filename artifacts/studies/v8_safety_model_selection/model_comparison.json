@@ -1,0 +1,2799 @@
+{
+  "models": [
+    {
+      "calibrated_validation": {
+        "false_negative": 95,
+        "false_positive": 12,
+        "false_safe_rate_all_candidates": 0.19,
+        "false_safe_rate_given_predicted_safe": 0.202991452991453,
+        "pr_auc_average_precision": 0.47618206037375443,
+        "sample_count": 500,
+        "specificity": 0.9688311688311688,
+        "threshold": 0.5,
+        "true_negative": 373,
+        "true_positive": 20,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.625,
+        "unsafe_recall": 0.17391304347826086
+      },
+      "calibration_candidates": [
+        {
+          "diagnostics": {
+            "brier_score": 0.15136136800154582,
+            "curve": [
+              {
+                "count": 250,
+                "lower": 0.0,
+                "mean_probability": 0.04320585144192016,
+                "observed_rate": 0.072,
+                "upper": 0.1
+              },
+              {
+                "count": 68,
+                "lower": 0.1,
+                "mean_probability": 0.14416093333489916,
+                "observed_rate": 0.25,
+                "upper": 0.2
+              },
+              {
+                "count": 59,
+                "lower": 0.2,
+                "mean_probability": 0.24617954167097217,
+                "observed_rate": 0.4067796610169492,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 51,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3452702086102208,
+                "observed_rate": 0.4117647058823529,
+                "upper": 0.4
+              },
+              {
+                "count": 25,
+                "lower": 0.4,
+                "mean_probability": 0.45212965114422105,
+                "observed_rate": 0.24,
+                "upper": 0.5
+              },
+              {
+                "count": 16,
+                "lower": 0.5,
+                "mean_probability": 0.5521041788419578,
+                "observed_rate": 0.625,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 19,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6492123091756433,
+                "observed_rate": 0.5789473684210527,
+                "upper": 0.7000000000000001
+              },
+              {
+                "count": 12,
+                "lower": 0.7000000000000001,
+                "mean_probability": 0.7304835254639821,
+                "observed_rate": 0.6666666666666666,
+                "upper": 0.8
+              }
+            ],
+            "ece": 0.0716652613441548,
+            "high_probability_around_0_8_count": 3,
+            "high_probability_around_0_8_observed_rate": 0.0,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2338000470029745,
+              "count": 100,
+              "mean_probability": 0.5142487730334682,
+              "observed_unsafe_rate": 0.45
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.028592233227261312,
+              "count": 167,
+              "mean_probability": 0.02908041619582048,
+              "observed_unsafe_rate": 0.029940119760479042
+            },
+            "unsafe_class": {
+              "brier_score": 0.49511798808859175,
+              "count": 115,
+              "mean_probability": 0.32857657729339457,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "raw",
+          "objective": 0.2230266293457006
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.15141905179176682,
+            "curve": [
+              {
+                "count": 229,
+                "lower": 0.0,
+                "mean_probability": 0.05483225569175356,
+                "observed_rate": 0.056768558951965066,
+                "upper": 0.1
+              },
+              {
+                "count": 91,
+                "lower": 0.1,
+                "mean_probability": 0.14202430685055642,
+                "observed_rate": 0.25274725274725274,
+                "upper": 0.2
+              },
+              {
+                "count": 83,
+                "lower": 0.2,
+                "mean_probability": 0.24761536551269153,
+                "observed_rate": 0.40963855421686746,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 47,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3429445501314334,
+                "observed_rate": 0.3404255319148936,
+                "upper": 0.4
+              },
+              {
+                "count": 20,
+                "lower": 0.4,
+                "mean_probability": 0.4471710022895132,
+                "observed_rate": 0.55,
+                "upper": 0.5
+              },
+              {
+                "count": 26,
+                "lower": 0.5,
+                "mean_probability": 0.5497392306526809,
+                "observed_rate": 0.6538461538461539,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 4,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6317770065538786,
+                "observed_rate": 0.25,
+                "upper": 0.7000000000000001
+              }
+            ],
+            "ece": 0.060751976050534645,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.23157802911610076,
+              "count": 100,
+              "mean_probability": 0.4277947885692182,
+              "observed_unsafe_rate": 0.45
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.010198853944228786,
+              "count": 105,
+              "mean_probability": 0.03606440477747789,
+              "observed_unsafe_rate": 0.009523809523809525
+            },
+            "unsafe_class": {
+              "brier_score": 0.5328268780760772,
+              "count": 115,
+              "mean_probability": 0.2879507941000716,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "platt",
+          "objective": 0.21217102784230146
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.15896952199474573,
+            "curve": [
+              {
+                "count": 188,
+                "lower": 0.0,
+                "mean_probability": 0.031014352591595885,
+                "observed_rate": 0.03723404255319149,
+                "upper": 0.1
+              },
+              {
+                "count": 103,
+                "lower": 0.1,
+                "mean_probability": 0.10436893203883493,
+                "observed_rate": 0.2524271844660194,
+                "upper": 0.2
+              },
+              {
+                "count": 137,
+                "lower": 0.2,
+                "mean_probability": 0.2412234966979493,
+                "observed_rate": 0.34306569343065696,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 68,
+                "lower": 0.5,
+                "mean_probability": 0.5140056022408964,
+                "observed_rate": 0.5,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 2,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6666666666666666,
+                "observed_rate": 0.5,
+                "upper": 0.7000000000000001
+              },
+              {
+                "count": 2,
+                "lower": 0.9,
+                "mean_probability": 1.0,
+                "observed_rate": 0.0,
+                "upper": 1.0
+              }
+            ],
+            "ece": 0.06731479390175044,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.24560318545280949,
+              "count": 209,
+              "mean_probability": 0.34130781499202556,
+              "observed_unsafe_rate": 0.3923444976076555
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.01652892561983471,
+              "count": 121,
+              "mean_probability": 0.0,
+              "observed_unsafe_rate": 0.01652892561983471
+            },
+            "unsafe_class": {
+              "brier_score": 0.5367592910190536,
+              "count": 115,
+              "mean_probability": 0.28699645659948125,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "isotonic",
+          "objective": 0.22628431589649617
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.1507029104736144,
+            "curve": [
+              {
+                "count": 230,
+                "lower": 0.0,
+                "mean_probability": 0.05091121037374534,
+                "observed_rate": 0.05652173913043478,
+                "upper": 0.1
+              },
+              {
+                "count": 87,
+                "lower": 0.1,
+                "mean_probability": 0.1419027200827727,
+                "observed_rate": 0.25287356321839083,
+                "upper": 0.2
+              },
+              {
+                "count": 71,
+                "lower": 0.2,
+                "mean_probability": 0.24605691814418276,
+                "observed_rate": 0.4507042253521127,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 53,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3365996618014142,
+                "observed_rate": 0.33962264150943394,
+                "upper": 0.4
+              },
+              {
+                "count": 27,
+                "lower": 0.4,
+                "mean_probability": 0.44524034450870315,
+                "observed_rate": 0.37037037037037035,
+                "upper": 0.5
+              },
+              {
+                "count": 22,
+                "lower": 0.5,
+                "mean_probability": 0.5508353049220297,
+                "observed_rate": 0.5909090909090909,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 10,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6212989208018087,
+                "observed_rate": 0.7,
+                "upper": 0.7000000000000001
+              }
+            ],
+            "ece": 0.05865037017711534,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.23095826419990495,
+              "count": 100,
+              "mean_probability": 0.4452419647565184,
+              "observed_unsafe_rate": 0.45
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.016329315946225623,
+              "count": 122,
+              "mean_probability": 0.03383226089725369,
+              "observed_unsafe_rate": 0.01639344262295082
+            },
+            "unsafe_class": {
+              "brier_score": 0.5210786237170892,
+              "count": 115,
+              "mean_probability": 0.29787971640007066,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "beta",
+          "objective": 0.20935328065072972
+        }
+      ],
+      "feature_count": 67,
+      "feature_importance": {
+        "acceleration_variance": 0.07731501910582704,
+        "acceptance_multiplier": 0.0501080789312397,
+        "alternative_capacity_ratio": 0.09944017866397037,
+        "analytical_predicted_ttt_gain": 0.12058291241750906,
+        "analytical_success_probability": 0.19026569852854908,
+        "bottleneck_centrality": 0.02586758082860286,
+        "closing_speed_p90": 0.02771306929007401,
+        "closing_speed_p95_proxy": 0.02771306929007488,
+        "closing_speed_x_min_headway": 0.023836918809306776,
+        "conflicting_movement_count": 0.2607733579921044,
+        "demand_vehicles_per_hour": 0.048296770480275475,
+        "density_mean": 0.05218667083025861,
+        "density_slope_30s": 0.04087430121746774,
+        "drac_p90_proxy": 0.0246332944358087,
+        "drac_proxy_p95": 0.024633294435807494,
+        "edge_disjointness": 9.287780808517309e-15,
+        "entering_flow_ratio": 0.050422343959129146,
+        "flow_instability": 0.05326461859637224,
+        "flow_mean": 0.06644686606024945,
+        "halting_count": 0.0,
+        "hard_braking_recent_rate": 0.04409945561533431,
+        "headway_mean": 0.019362439433125458,
+        "headway_p05_proxy": 0.02006145760520969,
+        "headway_p10_proxy": 0.020061457605210182,
+        "headway_variance": 0.02823723455076629,
+        "heterogeneity_bimodal": 0.01705204238842216,
+        "heterogeneity_high": 0.005733726627953896,
+        "heterogeneity_long_tail": 0.007419926360309569,
+        "heterogeneity_low": 0.05219737483076087,
+        "heterogeneity_medium": 0.06840137016526143,
+        "lane_change_density": 0.27457142882411184,
+        "lane_occupancy": 0.08812554327297313,
+        "mean_speed": 0.09717465300883521,
+        "merge_density_x_flow_instability": 0.0,
+        "merge_interaction_density": 0.0,
+        "minimum_headway": 0.02009148633611857,
+        "navigation_penetration": 0.26390954690846585,
+        "number_route_alternatives": 0.02586758082850358,
+        "occupancy_mean": 0.0435419160562466,
+        "occupancy_variance_30s": 0.03553298589154328,
+        "penetration_x_lane_change_density": 0.1420826410201186,
+        "perturbation_strength": 0.10196026785452202,
+        "predicted_acceptance": 0.07622376644476972,
+        "preference_entropy_proxy": 0.021120254867398085,
+        "preference_slack_mean": 0.05329867881653011,
+        "preference_slack_std": 0.02657978248531511,
+        "preference_variance": 0.021148184328075872,
+        "queue_growth_rate": 0.0,
+        "queue_length": 0.0,
+        "route_length_ratio": 0.2018922704881542,
+        "route_overlap": 2.1662840712603164e-15,
+        "short_horizon_speed_oscillation": 0.08234897596591677,
+        "signal_phase_pressure": 0.16933216150115807,
+        "speed_differential": 0.13051935592449404,
+        "speed_slope_30s": 0.005321686703704857,
+        "speed_variance": 0.017757199636951795,
+        "topology_asymmetric": 0.02586758082850341,
+        "topology_merge": 0.08613488283096668,
+        "topology_real_like": 0.11673284887422118,
+        "topology_ring": 0.028899568201790012,
+        "topology_signalized": 0.208162204155951,
+        "topology_two_route": 0.19349557934122177,
+        "traffic_instability_proxy": 0.020003410837764135,
+        "ttc_lower_proxy": 0.04073125729084505,
+        "v6_micro_success_score": 0.02974104925887486,
+        "vc_x_speed_variance": 0.018378016743975028,
+        "volume_capacity_ratio": 0.04829677048028304
+      },
+      "feature_set": "state_only",
+      "kind": "logistic",
+      "model_id": "S0",
+      "positive_weight": 1.0,
+      "raw_validation": {
+        "false_negative": 86,
+        "false_positive": 18,
+        "false_safe_rate_all_candidates": 0.172,
+        "false_safe_rate_given_predicted_safe": 0.18984547461368653,
+        "pr_auc_average_precision": 0.47618206037375443,
+        "sample_count": 500,
+        "specificity": 0.9532467532467532,
+        "threshold": 0.5,
+        "true_negative": 367,
+        "true_positive": 29,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.6170212765957447,
+        "unsafe_recall": 0.25217391304347825
+      },
+      "selected_calibration": "beta"
+    },
+    {
+      "calibrated_validation": {
+        "false_negative": 105,
+        "false_positive": 6,
+        "false_safe_rate_all_candidates": 0.21,
+        "false_safe_rate_given_predicted_safe": 0.21694214876033058,
+        "pr_auc_average_precision": 0.47252382975601703,
+        "sample_count": 500,
+        "specificity": 0.9844155844155844,
+        "threshold": 0.5,
+        "true_negative": 379,
+        "true_positive": 10,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.625,
+        "unsafe_recall": 0.08695652173913043
+      },
+      "calibration_candidates": [
+        {
+          "diagnostics": {
+            "brier_score": 0.16379192562375897,
+            "curve": [
+              {
+                "count": 188,
+                "lower": 0.0,
+                "mean_probability": 0.05130933176566653,
+                "observed_rate": 0.0425531914893617,
+                "upper": 0.1
+              },
+              {
+                "count": 54,
+                "lower": 0.1,
+                "mean_probability": 0.13456748508539904,
+                "observed_rate": 0.12962962962962962,
+                "upper": 0.2
+              },
+              {
+                "count": 41,
+                "lower": 0.2,
+                "mean_probability": 0.2442614808283583,
+                "observed_rate": 0.34146341463414637,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 35,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.34672421142683035,
+                "observed_rate": 0.2,
+                "upper": 0.4
+              },
+              {
+                "count": 43,
+                "lower": 0.4,
+                "mean_probability": 0.44738340023738316,
+                "observed_rate": 0.3488372093023256,
+                "upper": 0.5
+              },
+              {
+                "count": 41,
+                "lower": 0.5,
+                "mean_probability": 0.5528800918014255,
+                "observed_rate": 0.4634146341463415,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 35,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6368310708648165,
+                "observed_rate": 0.37142857142857144,
+                "upper": 0.7000000000000001
+              },
+              {
+                "count": 27,
+                "lower": 0.7000000000000001,
+                "mean_probability": 0.7461482984207135,
+                "observed_rate": 0.3333333333333333,
+                "upper": 0.8
+              },
+              {
+                "count": 31,
+                "lower": 0.8,
+                "mean_probability": 0.8535613101772713,
+                "observed_rate": 0.6774193548387096,
+                "upper": 0.9
+              },
+              {
+                "count": 5,
+                "lower": 0.9,
+                "mean_probability": 0.911254484200629,
+                "observed_rate": 0.4,
+                "upper": 1.0
+              }
+            ],
+            "ece": 0.09478151960145109,
+            "high_probability_around_0_8_count": 23,
+            "high_probability_around_0_8_observed_rate": 0.6521739130434783,
+            "highest_risk_20_percent": {
+              "brier_score": 0.3166462333597404,
+              "count": 100,
+              "mean_probability": 0.746506398504786,
+              "observed_unsafe_rate": 0.46
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.010632977676164373,
+              "count": 97,
+              "mean_probability": 0.031345732417252095,
+              "observed_unsafe_rate": 0.010309278350515464
+            },
+            "unsafe_class": {
+              "brier_score": 0.2995106834553118,
+              "count": 115,
+              "mean_probability": 0.5160325441567589,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "raw",
+          "objective": 0.2585734452252101
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.15050441415822854,
+            "curve": [
+              {
+                "count": 229,
+                "lower": 0.0,
+                "mean_probability": 0.04969261321727463,
+                "observed_rate": 0.06550218340611354,
+                "upper": 0.1
+              },
+              {
+                "count": 82,
+                "lower": 0.1,
+                "mean_probability": 0.14680019324576601,
+                "observed_rate": 0.24390243902439024,
+                "upper": 0.2
+              },
+              {
+                "count": 78,
+                "lower": 0.2,
+                "mean_probability": 0.24541946070666987,
+                "observed_rate": 0.3717948717948718,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 53,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.33743075434818326,
+                "observed_rate": 0.3584905660377358,
+                "upper": 0.4
+              },
+              {
+                "count": 25,
+                "lower": 0.4,
+                "mean_probability": 0.4381574753170831,
+                "observed_rate": 0.44,
+                "upper": 0.5
+              },
+              {
+                "count": 25,
+                "lower": 0.5,
+                "mean_probability": 0.5440039852159815,
+                "observed_rate": 0.64,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 8,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6241711639578504,
+                "observed_rate": 0.625,
+                "upper": 0.7000000000000001
+              }
+            ],
+            "ece": 0.05001764397305583,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.23551755251659018,
+              "count": 100,
+              "mean_probability": 0.44046611795314705,
+              "observed_unsafe_rate": 0.46
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.008687510942687809,
+              "count": 125,
+              "mean_probability": 0.0341982276054394,
+              "observed_unsafe_rate": 0.008
+            },
+            "unsafe_class": {
+              "brier_score": 0.5201985041539987,
+              "count": 115,
+              "mean_probability": 0.2974945179525921,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "platt",
+          "objective": 0.20052205813128438
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.1575796478449944,
+            "curve": [
+              {
+                "count": 171,
+                "lower": 0.0,
+                "mean_probability": 0.020340706839562676,
+                "observed_rate": 0.03508771929824561,
+                "upper": 0.1
+              },
+              {
+                "count": 112,
+                "lower": 0.1,
+                "mean_probability": 0.11184210526315787,
+                "observed_rate": 0.20535714285714285,
+                "upper": 0.2
+              },
+              {
+                "count": 146,
+                "lower": 0.2,
+                "mean_probability": 0.242806896916486,
+                "observed_rate": 0.3424657534246575,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 6,
+                "lower": 0.4,
+                "mean_probability": 0.45454545454545453,
+                "observed_rate": 0.5,
+                "upper": 0.5
+              },
+              {
+                "count": 60,
+                "lower": 0.5,
+                "mean_probability": 0.5,
+                "observed_rate": 0.5166666666666667,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 5,
+                "lower": 0.9,
+                "mean_probability": 1.0,
+                "observed_rate": 0.4,
+                "upper": 1.0
+              }
+            ],
+            "ece": 0.06363668732776283,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2616137628605161,
+              "count": 100,
+              "mean_probability": 0.46298701298701295,
+              "observed_unsafe_rate": 0.46
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.015267175572519083,
+              "count": 131,
+              "mean_probability": 0.0,
+              "observed_unsafe_rate": 0.015267175572519083
+            },
+            "unsafe_class": {
+              "brier_score": 0.5287399601781461,
+              "count": 115,
+              "mean_probability": 0.29506109155696264,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "isotonic",
+          "objective": 0.22121633517275724
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.1497109220618528,
+            "curve": [
+              {
+                "count": 229,
+                "lower": 0.0,
+                "mean_probability": 0.043629182310686625,
+                "observed_rate": 0.06550218340611354,
+                "upper": 0.1
+              },
+              {
+                "count": 69,
+                "lower": 0.1,
+                "mean_probability": 0.1515984350168145,
+                "observed_rate": 0.2898550724637681,
+                "upper": 0.2
+              },
+              {
+                "count": 76,
+                "lower": 0.2,
+                "mean_probability": 0.251163603158465,
+                "observed_rate": 0.2894736842105263,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 68,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3431548358929668,
+                "observed_rate": 0.38235294117647056,
+                "upper": 0.4
+              },
+              {
+                "count": 42,
+                "lower": 0.4,
+                "mean_probability": 0.4499821934087048,
+                "observed_rate": 0.5238095238095238,
+                "upper": 0.5
+              },
+              {
+                "count": 16,
+                "lower": 0.5,
+                "mean_probability": 0.526146165926288,
+                "observed_rate": 0.625,
+                "upper": 0.6000000000000001
+              }
+            ],
+            "ece": 0.04961614355188254,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.23858900934051616,
+              "count": 100,
+              "mean_probability": 0.42382557070519994,
+              "observed_unsafe_rate": 0.46
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.026061827294850695,
+              "count": 146,
+              "mean_probability": 0.02925370265640805,
+              "observed_unsafe_rate": 0.0273972602739726
+            },
+            "unsafe_class": {
+              "brier_score": 0.5153267641613017,
+              "count": 115,
+              "mean_probability": 0.29661306877967736,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "beta",
+          "objective": 0.19932706561373534
+        }
+      ],
+      "feature_count": 88,
+      "feature_importance": {
+        "acceleration_variance": 0.04639974256892086,
+        "acceptance_multiplier": 0.027879483496821046,
+        "action_destination_primary_alternative": 0.1801090943171677,
+        "action_destination_secondary_alternative": 0.1801090943171677,
+        "action_origin_asymmetric": 0.0009498056400758883,
+        "action_origin_merge": 0.04646325683255519,
+        "action_origin_real_like": 0.10393848746093161,
+        "action_origin_signalized": 0.16455964689259106,
+        "action_origin_two_route": 0.1431984229874871,
+        "alternative_capacity_ratio": 0.0728966240082861,
+        "analytical_predicted_ttt_gain": 0.1855084026941223,
+        "analytical_success_probability": 0.16080515518149627,
+        "bottleneck_centrality": 0.0009498056400173651,
+        "bottleneck_load_delta": 0.02561889210156611,
+        "capacity_slack_delta": 0.0523498143877255,
+        "closing_speed_p90": 0.020582442865808282,
+        "closing_speed_p95_proxy": 0.020582442865807796,
+        "closing_speed_x_min_headway": 0.02632746206129004,
+        "conflict_zone_exposure_delta": 0.06175492438748361,
+        "conflicting_movement_count": 0.19137415695216412,
+        "demand_vehicles_per_hour": 0.06877730498538867,
+        "density_mean": 0.05335284159586748,
+        "density_slope_30s": 0.03841135811264109,
+        "destination_edge_load_change": 0.002916499999408177,
+        "drac_p90_proxy": 0.008513042840431582,
+        "drac_proxy_p95": 0.008513042840430989,
+        "edge_disjointness": 5.4366626420170524e-15,
+        "entering_flow_ratio": 0.07638533178036755,
+        "expected_acceptance_mass": 0.011529661236909237,
+        "flow_instability": 0.10328109647727407,
+        "flow_mean": 0.0857839524464767,
+        "halting_count": 0.0,
+        "hard_braking_recent_rate": 0.009513831520326048,
+        "headway_mean": 0.004510550020027189,
+        "headway_p05_proxy": 0.017584546768765186,
+        "headway_p10_proxy": 0.017584546768764725,
+        "headway_variance": 0.009996186565984007,
+        "heterogeneity_bimodal": 0.017437468973016273,
+        "heterogeneity_high": 0.018724522974959433,
+        "heterogeneity_long_tail": 0.017520739925310627,
+        "heterogeneity_low": 0.03720486407058615,
+        "heterogeneity_medium": 0.05005339250091445,
+        "lane_change_demand_delta": 0.013248682908752588,
+        "lane_change_density": 0.29489432843312624,
+        "lane_occupancy": 0.053933594055012295,
+        "maximum_edge_flow_delta": 0.011529661236909074,
+        "mean_speed": 0.06651648135236603,
+        "merge_density_x_flow_instability": 0.0,
+        "merge_interaction_density": 0.0,
+        "minimum_headway": 0.017628006250624693,
+        "navigation_penetration": 0.24585678108339787,
+        "number_route_alternatives": 0.0009498056400757657,
+        "occupancy_mean": 0.04348244180375741,
+        "occupancy_variance_30s": 0.022476619956569435,
+        "penetration_x_lane_change_density": 0.13623905103357892,
+        "perturbation_strength": 0.13576428929352108,
+        "predicted_acceptance": 0.05562267856615857,
+        "preference_entropy_proxy": 0.039253770276056234,
+        "preference_slack_mean": 0.0537299689727325,
+        "preference_slack_std": 0.01547714586888868,
+        "preference_variance": 0.03933672119658626,
+        "proposed_reroute_fraction": 0.04972475009140707,
+        "proposed_rerouted_flow_vph": 0.011529661236909029,
+        "proposed_rerouted_user_count": 0.011529661236909237,
+        "queue_growth_rate": 0.0,
+        "queue_length": 0.0,
+        "route_length_ratio": 0.14672538770880525,
+        "route_overlap": 1.268048409520744e-15,
+        "route_overlap_delta": 0.049724750091405714,
+        "short_horizon_speed_oscillation": 0.09221804956753922,
+        "signal_phase_pressure": 0.06800606693311821,
+        "speed_differential": 0.09606895222721165,
+        "speed_slope_30s": 0.017434585825724675,
+        "speed_variance": 0.029261946343862155,
+        "topology_asymmetric": 0.0009498056400758883,
+        "topology_merge": 0.04646325683255519,
+        "topology_real_like": 0.10393848746093161,
+        "topology_ring": 0.040426445391038096,
+        "topology_signalized": 0.16455964689259106,
+        "topology_two_route": 0.1431984229874871,
+        "traffic_instability_proxy": 0.003580531486473172,
+        "traffic_rank_percentile": 0.011752828329572178,
+        "traffic_uplift_score": 0.007801921785044492,
+        "traffic_uplift_x_drac_proxy": 0.08898565780499663,
+        "ttc_lower_proxy": 0.027536998847671645,
+        "v6_micro_success_score": 0.11616086256966678,
+        "vc_x_speed_variance": 0.03591639161952232,
+        "volume_capacity_ratio": 0.06877730498538408
+      },
+      "feature_set": "action_aware",
+      "kind": "logistic",
+      "model_id": "S1",
+      "positive_weight": 3.0,
+      "raw_validation": {
+        "false_negative": 51,
+        "false_positive": 75,
+        "false_safe_rate_all_candidates": 0.102,
+        "false_safe_rate_given_predicted_safe": 0.14127423822714683,
+        "pr_auc_average_precision": 0.47252382975601703,
+        "sample_count": 500,
+        "specificity": 0.8051948051948052,
+        "threshold": 0.5,
+        "true_negative": 310,
+        "true_positive": 64,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.460431654676259,
+        "unsafe_recall": 0.5565217391304348
+      },
+      "selected_calibration": "beta"
+    },
+    {
+      "calibrated_validation": {
+        "false_negative": 100,
+        "false_positive": 7,
+        "false_safe_rate_all_candidates": 0.2,
+        "false_safe_rate_given_predicted_safe": 0.20920502092050208,
+        "pr_auc_average_precision": 0.5259095693183508,
+        "sample_count": 500,
+        "specificity": 0.9818181818181818,
+        "threshold": 0.5,
+        "true_negative": 378,
+        "true_positive": 15,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.6818181818181818,
+        "unsafe_recall": 0.13043478260869565
+      },
+      "calibration_candidates": [
+        {
+          "diagnostics": {
+            "brier_score": 0.15771941640729842,
+            "curve": [
+              {
+                "count": 175,
+                "lower": 0.0,
+                "mean_probability": 0.056089607376130654,
+                "observed_rate": 0.005714285714285714,
+                "upper": 0.1
+              },
+              {
+                "count": 61,
+                "lower": 0.1,
+                "mean_probability": 0.1440343981870761,
+                "observed_rate": 0.21311475409836064,
+                "upper": 0.2
+              },
+              {
+                "count": 27,
+                "lower": 0.2,
+                "mean_probability": 0.24549809172166495,
+                "observed_rate": 0.2962962962962963,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 22,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3361627383799332,
+                "observed_rate": 0.18181818181818182,
+                "upper": 0.4
+              },
+              {
+                "count": 75,
+                "lower": 0.4,
+                "mean_probability": 0.452672648127821,
+                "observed_rate": 0.36,
+                "upper": 0.5
+              },
+              {
+                "count": 40,
+                "lower": 0.5,
+                "mean_probability": 0.5366731614743866,
+                "observed_rate": 0.325,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 48,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6551603079071501,
+                "observed_rate": 0.3958333333333333,
+                "upper": 0.7000000000000001
+              },
+              {
+                "count": 29,
+                "lower": 0.7000000000000001,
+                "mean_probability": 0.7349311180607737,
+                "observed_rate": 0.5172413793103449,
+                "upper": 0.8
+              },
+              {
+                "count": 23,
+                "lower": 0.8,
+                "mean_probability": 0.821536657386477,
+                "observed_rate": 0.6521739130434783,
+                "upper": 0.9
+              }
+            ],
+            "ece": 0.1117402603220829,
+            "high_probability_around_0_8_count": 31,
+            "high_probability_around_0_8_observed_rate": 0.6451612903225806,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2886148632948125,
+              "count": 100,
+              "mean_probability": 0.716560403231946,
+              "observed_unsafe_rate": 0.49
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.0013598103970130285,
+              "count": 82,
+              "mean_probability": 0.03607028644620024,
+              "observed_unsafe_rate": 0.0
+            },
+            "unsafe_class": {
+              "brier_score": 0.2716473922635794,
+              "count": 115,
+              "mean_probability": 0.5263945531215876,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "raw",
+          "objective": 0.2694596767293813
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.14671362940075353,
+            "curve": [
+              {
+                "count": 235,
+                "lower": 0.0,
+                "mean_probability": 0.04457057242639389,
+                "observed_rate": 0.059574468085106386,
+                "upper": 0.1
+              },
+              {
+                "count": 48,
+                "lower": 0.1,
+                "mean_probability": 0.14155257515270683,
+                "observed_rate": 0.25,
+                "upper": 0.2
+              },
+              {
+                "count": 107,
+                "lower": 0.2,
+                "mean_probability": 0.2455915455578203,
+                "observed_rate": 0.32710280373831774,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 51,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.36084498826722056,
+                "observed_rate": 0.39215686274509803,
+                "upper": 0.4
+              },
+              {
+                "count": 32,
+                "lower": 0.4,
+                "mean_probability": 0.43544142144429787,
+                "observed_rate": 0.53125,
+                "upper": 0.5
+              },
+              {
+                "count": 27,
+                "lower": 0.5,
+                "mean_probability": 0.5497034096253217,
+                "observed_rate": 0.6296296296296297,
+                "upper": 0.6000000000000001
+              }
+            ],
+            "ece": 0.048547769100102535,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.23917350648232863,
+              "count": 100,
+              "mean_probability": 0.4399513521842458,
+              "observed_unsafe_rate": 0.49
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.0010894070416817097,
+              "count": 156,
+              "mean_probability": 0.03155318914960508,
+              "observed_unsafe_rate": 0.0
+            },
+            "unsafe_class": {
+              "brier_score": 0.5034120202152511,
+              "count": 115,
+              "mean_probability": 0.3072295721844862,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "platt",
+          "objective": 0.19526139850085605
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.14776166713137429,
+            "curve": [
+              {
+                "count": 183,
+                "lower": 0.0,
+                "mean_probability": 0.024696614860549287,
+                "observed_rate": 0.00546448087431694,
+                "upper": 0.1
+              },
+              {
+                "count": 135,
+                "lower": 0.1,
+                "mean_probability": 0.13629629629629628,
+                "observed_rate": 0.25925925925925924,
+                "upper": 0.2
+              },
+              {
+                "count": 92,
+                "lower": 0.2,
+                "mean_probability": 0.2352941176470588,
+                "observed_rate": 0.3804347826086957,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 2,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3333333333333333,
+                "observed_rate": 0.5,
+                "upper": 0.4
+              },
+              {
+                "count": 42,
+                "lower": 0.4,
+                "mean_probability": 0.48275862068965514,
+                "observed_rate": 0.35714285714285715,
+                "upper": 0.5
+              },
+              {
+                "count": 35,
+                "lower": 0.5,
+                "mean_probability": 0.523809523809524,
+                "observed_rate": 0.5428571428571428,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 11,
+                "lower": 0.7000000000000001,
+                "mean_probability": 0.75,
+                "observed_rate": 0.8181818181818182,
+                "upper": 0.8
+              }
+            ],
+            "ece": 0.08099656752983324,
+            "high_probability_around_0_8_count": 11,
+            "high_probability_around_0_8_observed_rate": 0.8181818181818182,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2465378802704852,
+              "count": 182,
+              "mean_probability": 0.38007099391480736,
+              "observed_unsafe_rate": 0.4340659340659341
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.006000882943612343,
+              "count": 183,
+              "mean_probability": 0.024696614860549287,
+              "observed_unsafe_rate": 0.00546448087431694
+            },
+            "unsafe_class": {
+              "brier_score": 0.493471839159042,
+              "count": 115,
+              "mean_probability": 0.3249875736946908,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "isotonic",
+          "objective": 0.22875823466120754
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.14628080198941776,
+            "curve": [
+              {
+                "count": 224,
+                "lower": 0.0,
+                "mean_probability": 0.039120471093007245,
+                "observed_rate": 0.044642857142857144,
+                "upper": 0.1
+              },
+              {
+                "count": 58,
+                "lower": 0.1,
+                "mean_probability": 0.1435224568354724,
+                "observed_rate": 0.27586206896551724,
+                "upper": 0.2
+              },
+              {
+                "count": 99,
+                "lower": 0.2,
+                "mean_probability": 0.2604920717552279,
+                "observed_rate": 0.3333333333333333,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 58,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3592115735629534,
+                "observed_rate": 0.3620689655172414,
+                "upper": 0.4
+              },
+              {
+                "count": 39,
+                "lower": 0.4,
+                "mean_probability": 0.4363367457699381,
+                "observed_rate": 0.5128205128205128,
+                "upper": 0.5
+              },
+              {
+                "count": 22,
+                "lower": 0.5,
+                "mean_probability": 0.5190140908568314,
+                "observed_rate": 0.6818181818181818,
+                "upper": 0.6000000000000001
+              }
+            ],
+            "ece": 0.04570856504882447,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2422670139669499,
+              "count": 100,
+              "mean_probability": 0.431539933948176,
+              "observed_unsafe_rate": 0.49
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.0063412746637852395,
+              "count": 168,
+              "mean_probability": 0.028985535238972626,
+              "observed_unsafe_rate": 0.005952380952380952
+            },
+            "unsafe_class": {
+              "brier_score": 0.4960978894449346,
+              "count": 115,
+              "mean_probability": 0.3097243694376871,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "beta",
+          "objective": 0.19198936703824224
+        }
+      ],
+      "feature_count": 88,
+      "feature_importance": {
+        "acceleration_variance": 244.77230149172127,
+        "acceptance_multiplier": 26.27017287560282,
+        "action_destination_primary_alternative": 1224.3446157423753,
+        "action_destination_secondary_alternative": 1323.0424371865358,
+        "action_origin_asymmetric": 20.42586721755607,
+        "action_origin_merge": 78.52014541424035,
+        "action_origin_real_like": 0.8068458075920795,
+        "action_origin_signalized": 307.6736162618254,
+        "action_origin_two_route": 159.8125445019482,
+        "alternative_capacity_ratio": 398.4559780387251,
+        "analytical_predicted_ttt_gain": 222.34625478194914,
+        "analytical_success_probability": 148.53465559232552,
+        "bottleneck_centrality": 1.4082133010358797,
+        "bottleneck_load_delta": 215.5942116509202,
+        "capacity_slack_delta": 113.99730143672193,
+        "closing_speed_p90": 172.41090263604997,
+        "closing_speed_p95_proxy": 154.8763638064156,
+        "closing_speed_x_min_headway": 111.71797251559998,
+        "conflict_zone_exposure_delta": 330.69270183143027,
+        "conflicting_movement_count": 1302.205967933852,
+        "demand_vehicles_per_hour": 40.22724598133554,
+        "density_mean": 139.32867741117352,
+        "density_slope_30s": 96.94518236515083,
+        "destination_edge_load_change": 247.6931049794294,
+        "drac_p90_proxy": 43.39579923244379,
+        "drac_proxy_p95": 97.50283653234769,
+        "edge_disjointness": 0.0,
+        "entering_flow_ratio": 123.47887000316666,
+        "expected_acceptance_mass": 181.9220666094847,
+        "flow_instability": 109.8680305248412,
+        "flow_mean": 54.9862707125329,
+        "halting_count": 0.0,
+        "hard_braking_recent_rate": 171.45464696626013,
+        "headway_mean": 105.41704224531529,
+        "headway_p05_proxy": 43.22174846845573,
+        "headway_p10_proxy": 40.97530029429136,
+        "headway_variance": 63.79594444651354,
+        "heterogeneity_bimodal": 4.151545974126613,
+        "heterogeneity_high": 4.228191600244234,
+        "heterogeneity_long_tail": 7.578684637017972,
+        "heterogeneity_low": 10.656111000296118,
+        "heterogeneity_medium": 1.765098431765093,
+        "lane_change_demand_delta": 72.88860415987224,
+        "lane_change_density": 97.43779398929446,
+        "lane_occupancy": 95.64780300563646,
+        "maximum_edge_flow_delta": 85.98009384701506,
+        "mean_speed": 73.56501090338485,
+        "merge_density_x_flow_instability": 0.0,
+        "merge_interaction_density": 0.0,
+        "minimum_headway": 36.75515572927495,
+        "navigation_penetration": 392.80803781357685,
+        "number_route_alternatives": 0.0,
+        "occupancy_mean": 148.86969916379735,
+        "occupancy_variance_30s": 133.08442155033146,
+        "penetration_x_lane_change_density": 169.92935121282588,
+        "perturbation_strength": 52.2221406807997,
+        "predicted_acceptance": 64.32054931785012,
+        "preference_entropy_proxy": 50.75671780259007,
+        "preference_slack_mean": 58.76224098594887,
+        "preference_slack_std": 77.73523808513409,
+        "preference_variance": 50.93466228980791,
+        "proposed_reroute_fraction": 279.7613222472705,
+        "proposed_rerouted_flow_vph": 114.095123169511,
+        "proposed_rerouted_user_count": 229.04221012316984,
+        "queue_growth_rate": 0.0,
+        "queue_length": 0.0,
+        "route_length_ratio": 1988.9801438639124,
+        "route_overlap": 0.0,
+        "route_overlap_delta": 247.17678893161565,
+        "short_horizon_speed_oscillation": 226.57464176577864,
+        "signal_phase_pressure": 401.8675893757182,
+        "speed_differential": 240.31502261114633,
+        "speed_slope_30s": 42.923637007208725,
+        "speed_variance": 83.86261026956007,
+        "topology_asymmetric": 1.2771644970530467,
+        "topology_merge": 83.96396233156922,
+        "topology_real_like": 50.41598006276393,
+        "topology_ring": 3.192408154453583,
+        "topology_signalized": 379.7240991635166,
+        "topology_two_route": 161.50432636637848,
+        "traffic_instability_proxy": 80.78958236841024,
+        "traffic_rank_percentile": 595.3284785771694,
+        "traffic_uplift_score": 942.5209957398233,
+        "traffic_uplift_x_drac_proxy": 615.9338575092136,
+        "ttc_lower_proxy": 43.93368858428012,
+        "v6_micro_success_score": 25.78221376761209,
+        "vc_x_speed_variance": 85.3011868028265,
+        "volume_capacity_ratio": 44.7439919006104
+      },
+      "feature_set": "action_aware",
+      "kind": "random_forest",
+      "model_id": "S2",
+      "positive_weight": 3.0,
+      "raw_validation": {
+        "false_negative": 53,
+        "false_positive": 78,
+        "false_safe_rate_all_candidates": 0.106,
+        "false_safe_rate_given_predicted_safe": 0.14722222222222223,
+        "pr_auc_average_precision": 0.5259095693183508,
+        "sample_count": 500,
+        "specificity": 0.7974025974025974,
+        "threshold": 0.5,
+        "true_negative": 307,
+        "true_positive": 62,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.44285714285714284,
+        "unsafe_recall": 0.5391304347826087
+      },
+      "selected_calibration": "beta"
+    },
+    {
+      "calibrated_validation": {
+        "false_negative": 98,
+        "false_positive": 11,
+        "false_safe_rate_all_candidates": 0.196,
+        "false_safe_rate_given_predicted_safe": 0.2076271186440678,
+        "pr_auc_average_precision": 0.5003202214040897,
+        "sample_count": 500,
+        "specificity": 0.9714285714285714,
+        "threshold": 0.5,
+        "true_negative": 374,
+        "true_positive": 17,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.6071428571428571,
+        "unsafe_recall": 0.14782608695652175
+      },
+      "calibration_candidates": [
+        {
+          "diagnostics": {
+            "brier_score": 0.14983432115608622,
+            "curve": [
+              {
+                "count": 240,
+                "lower": 0.0,
+                "mean_probability": 0.030879603504901702,
+                "observed_rate": 0.06666666666666667,
+                "upper": 0.1
+              },
+              {
+                "count": 75,
+                "lower": 0.1,
+                "mean_probability": 0.15071682432888983,
+                "observed_rate": 0.25333333333333335,
+                "upper": 0.2
+              },
+              {
+                "count": 70,
+                "lower": 0.2,
+                "mean_probability": 0.24256143396337662,
+                "observed_rate": 0.38571428571428573,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 40,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.35592740476142043,
+                "observed_rate": 0.375,
+                "upper": 0.4
+              },
+              {
+                "count": 41,
+                "lower": 0.4,
+                "mean_probability": 0.4499685438137551,
+                "observed_rate": 0.4146341463414634,
+                "upper": 0.5
+              },
+              {
+                "count": 5,
+                "lower": 0.5,
+                "mean_probability": 0.5698787699174591,
+                "observed_rate": 0.8,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 20,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6563036937103394,
+                "observed_rate": 0.45,
+                "upper": 0.7000000000000001
+              },
+              {
+                "count": 8,
+                "lower": 0.7000000000000001,
+                "mean_probability": 0.7246416550788577,
+                "observed_rate": 1.0,
+                "upper": 0.8
+              },
+              {
+                "count": 1,
+                "lower": 0.8,
+                "mean_probability": 0.8005971802782182,
+                "observed_rate": 0.0,
+                "upper": 0.9
+              }
+            ],
+            "ece": 0.07359518205378897,
+            "high_probability_around_0_8_count": 2,
+            "high_probability_around_0_8_observed_rate": 0.5,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2345905868921878,
+              "count": 100,
+              "mean_probability": 0.5036374872305062,
+              "observed_unsafe_rate": 0.47
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.027101297350546352,
+              "count": 179,
+              "mean_probability": 0.017725532256698318,
+              "observed_unsafe_rate": 0.027932960893854747
+            },
+            "unsafe_class": {
+              "brier_score": 0.49668257086394085,
+              "count": 115,
+              "mean_probability": 0.3258710287300151,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "raw",
+          "objective": 0.2234295032098752
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.14929743248627778,
+            "curve": [
+              {
+                "count": 188,
+                "lower": 0.0,
+                "mean_probability": 0.04517337415364239,
+                "observed_rate": 0.03723404255319149,
+                "upper": 0.1
+              },
+              {
+                "count": 107,
+                "lower": 0.1,
+                "mean_probability": 0.14698003941989285,
+                "observed_rate": 0.205607476635514,
+                "upper": 0.2
+              },
+              {
+                "count": 100,
+                "lower": 0.2,
+                "mean_probability": 0.24237389129714618,
+                "observed_rate": 0.38,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 71,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.34875438242819085,
+                "observed_rate": 0.38028169014084506,
+                "upper": 0.4
+              },
+              {
+                "count": 15,
+                "lower": 0.4,
+                "mean_probability": 0.4711869974476386,
+                "observed_rate": 0.6,
+                "upper": 0.5
+              },
+              {
+                "count": 18,
+                "lower": 0.5,
+                "mean_probability": 0.5286090232604835,
+                "observed_rate": 0.6666666666666666,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 1,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6130488103361711,
+                "observed_rate": 0.0,
+                "upper": 0.7000000000000001
+              }
+            ],
+            "ece": 0.05759412254154591,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2400914796635703,
+              "count": 100,
+              "mean_probability": 0.4044558793117672,
+              "observed_unsafe_rate": 0.47
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.0190194714439865,
+              "count": 104,
+              "mean_probability": 0.01807700494059971,
+              "observed_unsafe_rate": 0.019230769230769232
+            },
+            "unsafe_class": {
+              "brier_score": 0.5218576247106073,
+              "count": 115,
+              "mean_probability": 0.29029554325313994,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "platt",
+          "objective": 0.2068915550278237
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.15199772218553423,
+            "curve": [
+              {
+                "count": 280,
+                "lower": 0.0,
+                "mean_probability": 0.05561181178753334,
+                "observed_rate": 0.09285714285714286,
+                "upper": 0.1
+              },
+              {
+                "count": 109,
+                "lower": 0.2,
+                "mean_probability": 0.19999999999999998,
+                "observed_rate": 0.3394495412844037,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 43,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.36363636363636365,
+                "observed_rate": 0.37209302325581395,
+                "upper": 0.4
+              },
+              {
+                "count": 57,
+                "lower": 0.5,
+                "mean_probability": 0.5357142857142856,
+                "observed_rate": 0.47368421052631576,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 11,
+                "lower": 0.7000000000000001,
+                "mean_probability": 0.7142857142857143,
+                "observed_rate": 0.8181818181818182,
+                "upper": 0.8
+              }
+            ],
+            "ece": 0.061341800983396914,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.23634716897703906,
+              "count": 111,
+              "mean_probability": 0.4867497367497367,
+              "observed_unsafe_rate": 0.46846846846846846
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.017857142857142856,
+              "count": 56,
+              "mean_probability": 0.0,
+              "observed_unsafe_rate": 0.017857142857142856
+            },
+            "unsafe_class": {
+              "brier_score": 0.5126009215627901,
+              "count": 115,
+              "mean_probability": 0.3136620941618358,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "isotonic",
+          "objective": 0.21333952316893115
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.1480459839811937,
+            "curve": [
+              {
+                "count": 195,
+                "lower": 0.0,
+                "mean_probability": 0.04476078857102733,
+                "observed_rate": 0.05128205128205128,
+                "upper": 0.1
+              },
+              {
+                "count": 93,
+                "lower": 0.1,
+                "mean_probability": 0.14652789400734476,
+                "observed_rate": 0.1935483870967742,
+                "upper": 0.2
+              },
+              {
+                "count": 99,
+                "lower": 0.2,
+                "mean_probability": 0.24297621865354435,
+                "observed_rate": 0.35353535353535354,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 60,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3510646815871647,
+                "observed_rate": 0.31666666666666665,
+                "upper": 0.4
+              },
+              {
+                "count": 25,
+                "lower": 0.4,
+                "mean_probability": 0.42622481086361136,
+                "observed_rate": 0.64,
+                "upper": 0.5
+              },
+              {
+                "count": 24,
+                "lower": 0.5,
+                "mean_probability": 0.5526926558066315,
+                "observed_rate": 0.5833333333333334,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 4,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6295271419968568,
+                "observed_rate": 0.75,
+                "upper": 0.7000000000000001
+              }
+            ],
+            "ece": 0.05043086951111747,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.23622876249859245,
+              "count": 100,
+              "mean_probability": 0.4342070725708229,
+              "observed_unsafe_rate": 0.47
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.018661572737573528,
+              "count": 106,
+              "mean_probability": 0.016974426110991033,
+              "observed_unsafe_rate": 0.018867924528301886
+            },
+            "unsafe_class": {
+              "brier_score": 0.5032964705905405,
+              "count": 115,
+              "mean_probability": 0.3066850134189891,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "beta",
+          "objective": 0.19847685349231117
+        }
+      ],
+      "feature_count": 88,
+      "feature_importance": {
+        "acceleration_variance": 2.45510645148091,
+        "acceptance_multiplier": 0.0,
+        "action_destination_primary_alternative": 0.0,
+        "action_destination_secondary_alternative": 0.0,
+        "action_origin_asymmetric": 0.0,
+        "action_origin_merge": 0.0,
+        "action_origin_real_like": 0.0,
+        "action_origin_signalized": 0.0,
+        "action_origin_two_route": 0.0,
+        "alternative_capacity_ratio": 0.0,
+        "analytical_predicted_ttt_gain": 18.42194366361938,
+        "analytical_success_probability": 11.188319886164834,
+        "bottleneck_centrality": 0.0,
+        "bottleneck_load_delta": 0.0,
+        "capacity_slack_delta": 1.9206355646782995,
+        "closing_speed_p90": 8.873897234812938,
+        "closing_speed_p95_proxy": 0.0,
+        "closing_speed_x_min_headway": 4.273374720213731,
+        "conflict_zone_exposure_delta": 13.63865249037859,
+        "conflicting_movement_count": 0.0,
+        "demand_vehicles_per_hour": 2.492884238499421,
+        "density_mean": 0.0,
+        "density_slope_30s": 0.6238815697067874,
+        "destination_edge_load_change": 1.6343467061184818,
+        "drac_p90_proxy": 0.0,
+        "drac_proxy_p95": 5.377783979013531,
+        "edge_disjointness": 0.0,
+        "entering_flow_ratio": 2.6391019282053136,
+        "expected_acceptance_mass": 0.0,
+        "flow_instability": 4.256651318818641,
+        "flow_mean": 2.817935133987925,
+        "halting_count": 0.0,
+        "hard_braking_recent_rate": 2.921404121750591,
+        "headway_mean": 8.63380057313335,
+        "headway_p05_proxy": 0.0,
+        "headway_p10_proxy": 0.0,
+        "headway_variance": 0.8519794092397746,
+        "heterogeneity_bimodal": 0.0,
+        "heterogeneity_high": 0.0,
+        "heterogeneity_long_tail": 0.0,
+        "heterogeneity_low": 0.0,
+        "heterogeneity_medium": 0.0,
+        "lane_change_demand_delta": 2.1872779424150135,
+        "lane_change_density": 14.481200138405889,
+        "lane_occupancy": 2.045948405889355,
+        "maximum_edge_flow_delta": 0.0,
+        "mean_speed": 5.888559581029524,
+        "merge_density_x_flow_instability": 0.0,
+        "merge_interaction_density": 0.0,
+        "minimum_headway": 1.7902841338447324,
+        "navigation_penetration": 33.90733846563407,
+        "number_route_alternatives": 0.0,
+        "occupancy_mean": 4.94403025986017,
+        "occupancy_variance_30s": 0.5835705824746089,
+        "penetration_x_lane_change_density": 1.2041320573267171,
+        "perturbation_strength": 1.2239278293081668,
+        "predicted_acceptance": 6.290683349036289,
+        "preference_entropy_proxy": 0.0,
+        "preference_slack_mean": 2.6601320978219043,
+        "preference_slack_std": 1.5499312475208278,
+        "preference_variance": 0.3191329296241534,
+        "proposed_reroute_fraction": 29.797423640835934,
+        "proposed_rerouted_flow_vph": 0.0,
+        "proposed_rerouted_user_count": 2.372431653440991,
+        "queue_growth_rate": 0.0,
+        "queue_length": 0.0,
+        "route_length_ratio": 141.23423351657954,
+        "route_overlap": 0.0,
+        "route_overlap_delta": 0.0,
+        "short_horizon_speed_oscillation": 3.4632108124768024,
+        "signal_phase_pressure": 42.43267555681176,
+        "speed_differential": 5.652326500555937,
+        "speed_slope_30s": 0.9739533860945251,
+        "speed_variance": 1.3543656336526269,
+        "topology_asymmetric": 0.0,
+        "topology_merge": 0.0,
+        "topology_real_like": 0.0,
+        "topology_ring": 0.0,
+        "topology_signalized": 0.0,
+        "topology_two_route": 0.0,
+        "traffic_instability_proxy": 8.408110665165019,
+        "traffic_rank_percentile": 0.0,
+        "traffic_uplift_score": 37.033908153470264,
+        "traffic_uplift_x_drac_proxy": 12.20629132528773,
+        "ttc_lower_proxy": 0.2912284098287614,
+        "v6_micro_success_score": 0.7475045498712269,
+        "vc_x_speed_variance": 1.4343730250201006,
+        "volume_capacity_ratio": 0.0
+      },
+      "feature_set": "action_aware",
+      "kind": "gradient_boosting",
+      "model_id": "S3",
+      "positive_weight": 1.0,
+      "raw_validation": {
+        "false_negative": 94,
+        "false_positive": 13,
+        "false_safe_rate_all_candidates": 0.188,
+        "false_safe_rate_given_predicted_safe": 0.2017167381974249,
+        "pr_auc_average_precision": 0.5003202214040897,
+        "sample_count": 500,
+        "specificity": 0.9662337662337662,
+        "threshold": 0.5,
+        "true_negative": 372,
+        "true_positive": 21,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.6176470588235294,
+        "unsafe_recall": 0.1826086956521739
+      },
+      "selected_calibration": "beta"
+    },
+    {
+      "calibrated_validation": {
+        "false_negative": 101,
+        "false_positive": 5,
+        "false_safe_rate_all_candidates": 0.202,
+        "false_safe_rate_given_predicted_safe": 0.20997920997921,
+        "pr_auc_average_precision": 0.5150741574371323,
+        "sample_count": 500,
+        "specificity": 0.987012987012987,
+        "threshold": 0.5,
+        "true_negative": 380,
+        "true_positive": 14,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.7368421052631579,
+        "unsafe_recall": 0.12173913043478261
+      },
+      "calibration_candidates": [
+        {
+          "diagnostics": {
+            "brier_score": 0.14865114835513607,
+            "curve": [
+              {
+                "count": 193,
+                "lower": 0.0,
+                "mean_probability": 0.03743715990656236,
+                "observed_rate": 0.05181347150259067,
+                "upper": 0.1
+              },
+              {
+                "count": 62,
+                "lower": 0.1,
+                "mean_probability": 0.13953887386217192,
+                "observed_rate": 0.20967741935483872,
+                "upper": 0.2
+              },
+              {
+                "count": 69,
+                "lower": 0.2,
+                "mean_probability": 0.25121994575520246,
+                "observed_rate": 0.21739130434782608,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 54,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.34850021150304217,
+                "observed_rate": 0.2962962962962963,
+                "upper": 0.4
+              },
+              {
+                "count": 27,
+                "lower": 0.4,
+                "mean_probability": 0.44717970943463725,
+                "observed_rate": 0.48148148148148145,
+                "upper": 0.5
+              },
+              {
+                "count": 43,
+                "lower": 0.5,
+                "mean_probability": 0.551302998731616,
+                "observed_rate": 0.4418604651162791,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 28,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6436061915201127,
+                "observed_rate": 0.42857142857142855,
+                "upper": 0.7000000000000001
+              },
+              {
+                "count": 10,
+                "lower": 0.7000000000000001,
+                "mean_probability": 0.7510342847426763,
+                "observed_rate": 0.6,
+                "upper": 0.8
+              },
+              {
+                "count": 13,
+                "lower": 0.8,
+                "mean_probability": 0.8313497778067773,
+                "observed_rate": 0.7692307692307693,
+                "upper": 0.9
+              },
+              {
+                "count": 1,
+                "lower": 0.9,
+                "mean_probability": 0.9113961246412509,
+                "observed_rate": 1.0,
+                "upper": 1.0
+              }
+            ],
+            "ece": 0.052672099248826224,
+            "high_probability_around_0_8_count": 15,
+            "high_probability_around_0_8_observed_rate": 0.7333333333333333,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2550194960226247,
+              "count": 100,
+              "mean_probability": 0.6341936614182121,
+              "observed_unsafe_rate": 0.5
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.04015591634695531,
+              "count": 122,
+              "mean_probability": 0.017213165779673963,
+              "observed_unsafe_rate": 0.040983606557377046
+            },
+            "unsafe_class": {
+              "brier_score": 0.38053064630145556,
+              "count": 115,
+              "mean_probability": 0.4305905925930218,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "raw",
+          "objective": 0.2013232476039623
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.14857757636529573,
+            "curve": [
+              {
+                "count": 208,
+                "lower": 0.0,
+                "mean_probability": 0.04635561292449305,
+                "observed_rate": 0.052884615384615384,
+                "upper": 0.1
+              },
+              {
+                "count": 106,
+                "lower": 0.1,
+                "mean_probability": 0.15502833487610793,
+                "observed_rate": 0.25471698113207547,
+                "upper": 0.2
+              },
+              {
+                "count": 80,
+                "lower": 0.2,
+                "mean_probability": 0.24067033860755319,
+                "observed_rate": 0.2875,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 62,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3520622654423884,
+                "observed_rate": 0.43548387096774194,
+                "upper": 0.4
+              },
+              {
+                "count": 25,
+                "lower": 0.4,
+                "mean_probability": 0.43912705371569366,
+                "observed_rate": 0.52,
+                "upper": 0.5
+              },
+              {
+                "count": 13,
+                "lower": 0.5,
+                "mean_probability": 0.5557924973034488,
+                "observed_rate": 0.6923076923076923,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 5,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6254889312752503,
+                "observed_rate": 0.8,
+                "upper": 0.7000000000000001
+              },
+              {
+                "count": 1,
+                "lower": 0.7000000000000001,
+                "mean_probability": 0.7056513403527662,
+                "observed_rate": 1.0,
+                "upper": 0.8
+              }
+            ],
+            "ece": 0.051613933328478946,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.243224714903025,
+              "count": 100,
+              "mean_probability": 0.42037701017495593,
+              "observed_unsafe_rate": 0.5
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.0389914689881872,
+              "count": 100,
+              "mean_probability": 0.016888474170603632,
+              "observed_unsafe_rate": 0.04
+            },
+            "unsafe_class": {
+              "brier_score": 0.5221528174753287,
+              "count": 115,
+              "mean_probability": 0.29460847936161255,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "platt",
+          "objective": 0.20019150969377467
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.1522654515254124,
+            "curve": [
+              {
+                "count": 214,
+                "lower": 0.0,
+                "mean_probability": 0.05038602194229988,
+                "observed_rate": 0.056074766355140186,
+                "upper": 0.1
+              },
+              {
+                "count": 147,
+                "lower": 0.1,
+                "mean_probability": 0.16049382716049385,
+                "observed_rate": 0.24489795918367346,
+                "upper": 0.2
+              },
+              {
+                "count": 41,
+                "lower": 0.2,
+                "mean_probability": 0.19999999999999998,
+                "observed_rate": 0.4146341463414634,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 9,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3333333333333333,
+                "observed_rate": 0.8888888888888888,
+                "upper": 0.4
+              },
+              {
+                "count": 29,
+                "lower": 0.4,
+                "mean_probability": 0.40000000000000013,
+                "observed_rate": 0.3103448275862069,
+                "upper": 0.5
+              },
+              {
+                "count": 48,
+                "lower": 0.5,
+                "mean_probability": 0.560654761904762,
+                "observed_rate": 0.5,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 12,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6666666666666666,
+                "observed_rate": 0.75,
+                "upper": 0.7000000000000001
+              }
+            ],
+            "ece": 0.06787245456636762,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.26155037439436213,
+              "count": 139,
+              "mean_probability": 0.41519013360739976,
+              "observed_unsafe_rate": 0.48201438848920863
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.044444444444444446,
+              "count": 90,
+              "mean_probability": 0.0,
+              "observed_unsafe_rate": 0.044444444444444446
+            },
+            "unsafe_class": {
+              "brier_score": 0.5156810924341095,
+              "count": 115,
+              "mean_probability": 0.30998841779938185,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "isotonic",
+          "objective": 0.22013790609178002
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.14795619572680457,
+            "curve": [
+              {
+                "count": 208,
+                "lower": 0.0,
+                "mean_probability": 0.0438470316603566,
+                "observed_rate": 0.052884615384615384,
+                "upper": 0.1
+              },
+              {
+                "count": 93,
+                "lower": 0.1,
+                "mean_probability": 0.15505618928044096,
+                "observed_rate": 0.24731182795698925,
+                "upper": 0.2
+              },
+              {
+                "count": 88,
+                "lower": 0.2,
+                "mean_probability": 0.24352713043326205,
+                "observed_rate": 0.29545454545454547,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 59,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.35592213007600987,
+                "observed_rate": 0.4406779661016949,
+                "upper": 0.4
+              },
+              {
+                "count": 33,
+                "lower": 0.4,
+                "mean_probability": 0.4369328732781921,
+                "observed_rate": 0.45454545454545453,
+                "upper": 0.5
+              },
+              {
+                "count": 15,
+                "lower": 0.5,
+                "mean_probability": 0.5541786636675062,
+                "observed_rate": 0.7333333333333333,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 4,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6342738522179683,
+                "observed_rate": 0.75,
+                "upper": 0.7000000000000001
+              }
+            ],
+            "ece": 0.04752247695377674,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.24282308903144137,
+              "count": 100,
+              "mean_probability": 0.42806072197396877,
+              "observed_unsafe_rate": 0.5
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.0432879347294032,
+              "count": 112,
+              "mean_probability": 0.018012384642230556,
+              "observed_unsafe_rate": 0.044642857142857144
+            },
+            "unsafe_class": {
+              "brier_score": 0.5119237803098634,
+              "count": 115,
+              "mean_probability": 0.3013935104836687,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "beta",
+          "objective": 0.1954786726805813
+        }
+      ],
+      "feature_count": 88,
+      "feature_importance": {
+        "acceleration_variance": 8.477645516340239,
+        "acceptance_multiplier": 0.0,
+        "action_destination_primary_alternative": 0.0,
+        "action_destination_secondary_alternative": 0.0,
+        "action_origin_asymmetric": 0.0,
+        "action_origin_merge": 0.0,
+        "action_origin_real_like": 0.0,
+        "action_origin_signalized": 0.0,
+        "action_origin_two_route": 0.0,
+        "alternative_capacity_ratio": 0.0,
+        "analytical_predicted_ttt_gain": 14.561312511584536,
+        "analytical_success_probability": 10.8555464460958,
+        "bottleneck_centrality": 0.0,
+        "bottleneck_load_delta": 0.0,
+        "capacity_slack_delta": 0.0,
+        "closing_speed_p90": 7.412237428805046,
+        "closing_speed_p95_proxy": 0.0,
+        "closing_speed_x_min_headway": 4.613908774065607,
+        "conflict_zone_exposure_delta": 28.848693338555087,
+        "conflicting_movement_count": 0.0,
+        "demand_vehicles_per_hour": 3.4043323253472657,
+        "density_mean": 39.274334178310866,
+        "density_slope_30s": 5.7874628846385825,
+        "destination_edge_load_change": 4.638809587627598,
+        "drac_p90_proxy": 0.0,
+        "drac_proxy_p95": 5.951392847443604,
+        "edge_disjointness": 0.0,
+        "entering_flow_ratio": 9.796982519363706,
+        "expected_acceptance_mass": 0.0,
+        "flow_instability": 8.435671048294378,
+        "flow_mean": 4.3837621232595865,
+        "halting_count": 0.0,
+        "hard_braking_recent_rate": 6.032561432828622,
+        "headway_mean": 12.379136612892765,
+        "headway_p05_proxy": 0.0,
+        "headway_p10_proxy": 0.0,
+        "headway_variance": 5.300320960758924,
+        "heterogeneity_bimodal": 0.0,
+        "heterogeneity_high": 0.0,
+        "heterogeneity_long_tail": 0.0,
+        "heterogeneity_low": 0.0,
+        "heterogeneity_medium": 0.0,
+        "lane_change_demand_delta": 1.9028734155909035,
+        "lane_change_density": 32.524038484505084,
+        "lane_occupancy": 8.220590902654536,
+        "maximum_edge_flow_delta": 0.0,
+        "mean_speed": 5.686198500801666,
+        "merge_density_x_flow_instability": 0.0,
+        "merge_interaction_density": 0.0,
+        "minimum_headway": 7.4373920442263515,
+        "navigation_penetration": 88.06624575139622,
+        "number_route_alternatives": 0.0,
+        "occupancy_mean": 10.227167812672832,
+        "occupancy_variance_30s": 0.9168369785858275,
+        "penetration_x_lane_change_density": 6.776917910933335,
+        "perturbation_strength": 7.905454219991384,
+        "predicted_acceptance": 15.008570897382606,
+        "preference_entropy_proxy": 0.0,
+        "preference_slack_mean": 0.0,
+        "preference_slack_std": 2.331389649375579,
+        "preference_variance": 2.97247576904374,
+        "proposed_reroute_fraction": 29.08256459519407,
+        "proposed_rerouted_flow_vph": 0.0,
+        "proposed_rerouted_user_count": 3.5668781000044767,
+        "queue_growth_rate": 0.0,
+        "queue_length": 0.0,
+        "route_length_ratio": 465.5253395094334,
+        "route_overlap": 0.0,
+        "route_overlap_delta": 0.0,
+        "short_horizon_speed_oscillation": 13.52482990384354,
+        "signal_phase_pressure": 17.90537596932336,
+        "speed_differential": 30.76883914733429,
+        "speed_slope_30s": 0.9273964488577704,
+        "speed_variance": 1.21580644696874,
+        "topology_asymmetric": 0.0,
+        "topology_merge": 0.0,
+        "topology_real_like": 0.0,
+        "topology_ring": 0.0,
+        "topology_signalized": 0.0,
+        "topology_two_route": 0.0,
+        "traffic_instability_proxy": 1.8336994125351787,
+        "traffic_rank_percentile": 0.0,
+        "traffic_uplift_score": 24.472417655878214,
+        "traffic_uplift_x_drac_proxy": 8.747656492205778,
+        "ttc_lower_proxy": 1.3236633861688176,
+        "v6_micro_success_score": 0.0,
+        "vc_x_speed_variance": 3.2853522440043292,
+        "volume_capacity_ratio": 0.0
+      },
+      "feature_set": "action_aware",
+      "kind": "gradient_boosting",
+      "model_id": "S4",
+      "positive_weight": 2.0,
+      "raw_validation": {
+        "false_negative": 67,
+        "false_positive": 47,
+        "false_safe_rate_all_candidates": 0.134,
+        "false_safe_rate_given_predicted_safe": 0.1654320987654321,
+        "pr_auc_average_precision": 0.5150741574371323,
+        "sample_count": 500,
+        "specificity": 0.8779220779220779,
+        "threshold": 0.5,
+        "true_negative": 338,
+        "true_positive": 48,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.5052631578947369,
+        "unsafe_recall": 0.41739130434782606
+      },
+      "selected_calibration": "beta"
+    },
+    {
+      "calibrated_validation": {
+        "false_negative": 106,
+        "false_positive": 3,
+        "false_safe_rate_all_candidates": 0.212,
+        "false_safe_rate_given_predicted_safe": 0.21721311475409835,
+        "pr_auc_average_precision": 0.5140924989417837,
+        "sample_count": 500,
+        "specificity": 0.9922077922077922,
+        "threshold": 0.5,
+        "true_negative": 382,
+        "true_positive": 9,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.75,
+        "unsafe_recall": 0.0782608695652174
+      },
+      "calibration_candidates": [
+        {
+          "diagnostics": {
+            "brier_score": 0.1786839123678418,
+            "curve": [
+              {
+                "count": 129,
+                "lower": 0.0,
+                "mean_probability": 0.03300293481835668,
+                "observed_rate": 0.007751937984496124,
+                "upper": 0.1
+              },
+              {
+                "count": 63,
+                "lower": 0.1,
+                "mean_probability": 0.14017006800104645,
+                "observed_rate": 0.015873015873015872,
+                "upper": 0.2
+              },
+              {
+                "count": 41,
+                "lower": 0.2,
+                "mean_probability": 0.24854218034755318,
+                "observed_rate": 0.3170731707317073,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 37,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.3477791906592528,
+                "observed_rate": 0.2972972972972973,
+                "upper": 0.4
+              },
+              {
+                "count": 35,
+                "lower": 0.4,
+                "mean_probability": 0.44306382901330627,
+                "observed_rate": 0.2857142857142857,
+                "upper": 0.5
+              },
+              {
+                "count": 53,
+                "lower": 0.5,
+                "mean_probability": 0.553110317215625,
+                "observed_rate": 0.2641509433962264,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 41,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6460511946008878,
+                "observed_rate": 0.3902439024390244,
+                "upper": 0.7000000000000001
+              },
+              {
+                "count": 59,
+                "lower": 0.7000000000000001,
+                "mean_probability": 0.754196857437428,
+                "observed_rate": 0.423728813559322,
+                "upper": 0.8
+              },
+              {
+                "count": 31,
+                "lower": 0.8,
+                "mean_probability": 0.8528468721000938,
+                "observed_rate": 0.5161290322580645,
+                "upper": 0.9
+              },
+              {
+                "count": 11,
+                "lower": 0.9,
+                "mean_probability": 0.9303440347718666,
+                "observed_rate": 0.7272727272727273,
+                "upper": 1.0
+              }
+            ],
+            "ece": 0.1584910506974171,
+            "high_probability_around_0_8_count": 50,
+            "high_probability_around_0_8_observed_rate": 0.46,
+            "highest_risk_20_percent": {
+              "brier_score": 0.33726376206709213,
+              "count": 100,
+              "mean_probability": 0.8046911205857228,
+              "observed_unsafe_rate": 0.49
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.011849980849317553,
+              "count": 87,
+              "mean_probability": 0.014521218223531257,
+              "observed_unsafe_rate": 0.011494252873563218
+            },
+            "unsafe_class": {
+              "brier_score": 0.20207447419574423,
+              "count": 115,
+              "mean_probability": 0.609857166615623,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "raw",
+          "objective": 0.3371749630652589
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.14680837700191812,
+            "curve": [
+              {
+                "count": 196,
+                "lower": 0.0,
+                "mean_probability": 0.0418915154833427,
+                "observed_rate": 0.01020408163265306,
+                "upper": 0.1
+              },
+              {
+                "count": 102,
+                "lower": 0.1,
+                "mean_probability": 0.14858973235645917,
+                "observed_rate": 0.3137254901960784,
+                "upper": 0.2
+              },
+              {
+                "count": 87,
+                "lower": 0.2,
+                "mean_probability": 0.24910366874206186,
+                "observed_rate": 0.2988505747126437,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 71,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.35513894282624126,
+                "observed_rate": 0.4084507042253521,
+                "upper": 0.4
+              },
+              {
+                "count": 26,
+                "lower": 0.4,
+                "mean_probability": 0.4535328537181542,
+                "observed_rate": 0.46153846153846156,
+                "upper": 0.5
+              },
+              {
+                "count": 14,
+                "lower": 0.5,
+                "mean_probability": 0.5495310936115644,
+                "observed_rate": 0.7857142857142857,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 4,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6624455446013733,
+                "observed_rate": 0.75,
+                "upper": 0.7000000000000001
+              }
+            ],
+            "ece": 0.07006525705502885,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2406597153741821,
+              "count": 100,
+              "mean_probability": 0.42642090922082204,
+              "observed_unsafe_rate": 0.49
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.009222877556356712,
+              "count": 116,
+              "mean_probability": 0.020713780850741745,
+              "observed_unsafe_rate": 0.008620689655172414
+            },
+            "unsafe_class": {
+              "brier_score": 0.5036213925710821,
+              "count": 115,
+              "mean_probability": 0.30558463532444086,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "platt",
+          "objective": 0.21687363405694698
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.15171640912581824,
+            "curve": [
+              {
+                "count": 180,
+                "lower": 0.0,
+                "mean_probability": 0.03385012919896641,
+                "observed_rate": 0.005555555555555556,
+                "upper": 0.1
+              },
+              {
+                "count": 227,
+                "lower": 0.1,
+                "mean_probability": 0.16454345604589055,
+                "observed_rate": 0.29515418502202645,
+                "upper": 0.2
+              },
+              {
+                "count": 10,
+                "lower": 0.2,
+                "mean_probability": 0.2857142857142857,
+                "observed_rate": 0.5,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 74,
+                "lower": 0.5,
+                "mean_probability": 0.5571677668451861,
+                "observed_rate": 0.47297297297297297,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 9,
+                "lower": 0.9,
+                "mean_probability": 1.0,
+                "observed_rate": 0.7777777777777778,
+                "upper": 1.0
+              }
+            ],
+            "ece": 0.09022986124559543,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.2440233531159715,
+              "count": 210,
+              "mean_probability": 0.3627602993659263,
+              "observed_unsafe_rate": 0.40476190476190477
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.0071299801694609715,
+              "count": 180,
+              "mean_probability": 0.03385012919896641,
+              "observed_unsafe_rate": 0.005555555555555556
+            },
+            "unsafe_class": {
+              "brier_score": 0.49356390981249953,
+              "count": 115,
+              "mean_probability": 0.3418977863858649,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "isotonic",
+          "objective": 0.24194627037141367
+        },
+        {
+          "diagnostics": {
+            "brier_score": 0.14589820290037028,
+            "curve": [
+              {
+                "count": 187,
+                "lower": 0.0,
+                "mean_probability": 0.03791268392956811,
+                "observed_rate": 0.0106951871657754,
+                "upper": 0.1
+              },
+              {
+                "count": 88,
+                "lower": 0.1,
+                "mean_probability": 0.14908045197216113,
+                "observed_rate": 0.2727272727272727,
+                "upper": 0.2
+              },
+              {
+                "count": 94,
+                "lower": 0.2,
+                "mean_probability": 0.2543326910859519,
+                "observed_rate": 0.2978723404255319,
+                "upper": 0.30000000000000004
+              },
+              {
+                "count": 85,
+                "lower": 0.30000000000000004,
+                "mean_probability": 0.35618887747722144,
+                "observed_rate": 0.4,
+                "upper": 0.4
+              },
+              {
+                "count": 34,
+                "lower": 0.4,
+                "mean_probability": 0.44750549908547765,
+                "observed_rate": 0.5294117647058824,
+                "upper": 0.5
+              },
+              {
+                "count": 11,
+                "lower": 0.5,
+                "mean_probability": 0.5414000525914368,
+                "observed_rate": 0.7272727272727273,
+                "upper": 0.6000000000000001
+              },
+              {
+                "count": 1,
+                "lower": 0.6000000000000001,
+                "mean_probability": 0.6082792901031201,
+                "observed_rate": 1.0,
+                "upper": 0.7000000000000001
+              }
+            ],
+            "ece": 0.05801679547224117,
+            "high_probability_around_0_8_count": 0,
+            "high_probability_around_0_8_observed_rate": null,
+            "highest_risk_20_percent": {
+              "brier_score": 0.24365911001753382,
+              "count": 100,
+              "mean_probability": 0.4209832072955115,
+              "observed_unsafe_rate": 0.49
+            },
+            "low_probability_below_0_05": {
+              "brier_score": 0.00883862449520719,
+              "count": 121,
+              "mean_probability": 0.018873026264683238,
+              "observed_unsafe_rate": 0.008264462809917356
+            },
+            "unsafe_class": {
+              "brier_score": 0.4883777813322171,
+              "count": 115,
+              "mean_probability": 0.31294293172772686,
+              "observed_unsafe_rate": 1.0
+            }
+          },
+          "method": "beta",
+          "objective": 0.20391499837261146
+        }
+      ],
+      "feature_count": 88,
+      "feature_importance": {
+        "acceleration_variance": 5.886473913465522,
+        "acceptance_multiplier": 0.0,
+        "action_destination_primary_alternative": 0.0,
+        "action_destination_secondary_alternative": 0.0,
+        "action_origin_asymmetric": 0.0,
+        "action_origin_merge": 0.0,
+        "action_origin_real_like": 0.0,
+        "action_origin_signalized": 0.0,
+        "action_origin_two_route": 0.0,
+        "alternative_capacity_ratio": 0.0,
+        "analytical_predicted_ttt_gain": 24.95727706032327,
+        "analytical_success_probability": 0.0,
+        "bottleneck_centrality": 0.0,
+        "bottleneck_load_delta": 16.413536542813517,
+        "capacity_slack_delta": 51.547321808615514,
+        "closing_speed_p90": 12.167431882738555,
+        "closing_speed_p95_proxy": 0.0,
+        "closing_speed_x_min_headway": 9.253989640933199,
+        "conflict_zone_exposure_delta": 40.07649077947328,
+        "conflicting_movement_count": 1.7666854942079837,
+        "demand_vehicles_per_hour": 1.8334331072840087,
+        "density_mean": 2.1991461321493944,
+        "density_slope_30s": 2.938584278945214,
+        "destination_edge_load_change": 5.918774255935489,
+        "drac_p90_proxy": 0.0,
+        "drac_proxy_p95": 18.71663407407717,
+        "edge_disjointness": 0.0,
+        "entering_flow_ratio": 6.110583770479998,
+        "expected_acceptance_mass": 0.0,
+        "flow_instability": 36.34892632647969,
+        "flow_mean": 20.396696482081914,
+        "halting_count": 0.0,
+        "hard_braking_recent_rate": 1.1466690540715643,
+        "headway_mean": 6.505512597421038,
+        "headway_p05_proxy": 0.0,
+        "headway_p10_proxy": 0.0,
+        "headway_variance": 0.9510603175186247,
+        "heterogeneity_bimodal": 0.0,
+        "heterogeneity_high": 0.0,
+        "heterogeneity_long_tail": 1.646157684752449,
+        "heterogeneity_low": 0.0,
+        "heterogeneity_medium": 1.1114634657490576,
+        "lane_change_demand_delta": 1.1346752194209273,
+        "lane_change_density": 58.72257217968966,
+        "lane_occupancy": 23.98134620909071,
+        "maximum_edge_flow_delta": 0.0,
+        "mean_speed": 2.344354072962851,
+        "merge_density_x_flow_instability": 0.0,
+        "merge_interaction_density": 0.0,
+        "minimum_headway": 3.3818742487049462,
+        "navigation_penetration": 84.6643124193905,
+        "number_route_alternatives": 0.0,
+        "occupancy_mean": 12.745104697587749,
+        "occupancy_variance_30s": 4.035090638032287,
+        "penetration_x_lane_change_density": 15.892341708812218,
+        "perturbation_strength": 2.4553195776760504,
+        "predicted_acceptance": 22.70373422593663,
+        "preference_entropy_proxy": 0.0,
+        "preference_slack_mean": 3.7956855663008753,
+        "preference_slack_std": 16.688860110170058,
+        "preference_variance": 3.4123229150860084,
+        "proposed_reroute_fraction": 41.345267514613575,
+        "proposed_rerouted_flow_vph": 0.0,
+        "proposed_rerouted_user_count": 19.97760053950532,
+        "queue_growth_rate": 0.0,
+        "queue_length": 0.0,
+        "route_length_ratio": 1108.2598165536906,
+        "route_overlap": 0.0,
+        "route_overlap_delta": 0.0,
+        "short_horizon_speed_oscillation": 13.730443248084278,
+        "signal_phase_pressure": 6.182847092154304,
+        "speed_differential": 21.119227483124227,
+        "speed_slope_30s": 6.385961349578338,
+        "speed_variance": 4.184259554946603,
+        "topology_asymmetric": 0.0,
+        "topology_merge": 0.0,
+        "topology_real_like": 0.0,
+        "topology_ring": 0.0,
+        "topology_signalized": 0.0,
+        "topology_two_route": 0.0,
+        "traffic_instability_proxy": 2.904206731701251,
+        "traffic_rank_percentile": 0.0,
+        "traffic_uplift_score": 44.74175611812416,
+        "traffic_uplift_x_drac_proxy": 14.528047469496634,
+        "ttc_lower_proxy": 2.5531941666804414,
+        "v6_micro_success_score": 15.06525494215034,
+        "vc_x_speed_variance": 15.214140853948813,
+        "volume_capacity_ratio": 0.0
+      },
+      "feature_set": "action_aware",
+      "kind": "gradient_boosting",
+      "model_id": "S5",
+      "positive_weight": 5.0,
+      "raw_validation": {
+        "false_negative": 36,
+        "false_positive": 116,
+        "false_safe_rate_all_candidates": 0.072,
+        "false_safe_rate_given_predicted_safe": 0.1180327868852459,
+        "pr_auc_average_precision": 0.5140924989417837,
+        "sample_count": 500,
+        "specificity": 0.6987012987012987,
+        "threshold": 0.5,
+        "true_negative": 269,
+        "true_positive": 79,
+        "unsafe_count": 115,
+        "unsafe_precision": 0.40512820512820513,
+        "unsafe_recall": 0.6869565217391305
+      },
+      "selected_calibration": "beta"
+    }
+  ],
+  "selected": {
+    "calibration": "beta",
+    "classification": {
+      "false_negative": 0,
+      "false_positive": 385,
+      "false_safe_rate_all_candidates": 0.0,
+      "false_safe_rate_given_predicted_safe": 0.0,
+      "pr_auc_average_precision": 0.5259095693183508,
+      "sample_count": 500,
+      "specificity": 0.0,
+      "threshold": 0.0,
+      "true_negative": 0,
+      "true_positive": 115,
+      "unsafe_count": 115,
+      "unsafe_precision": 0.23,
+      "unsafe_recall": 1.0
+    },
+    "critical_groups": {
+      "groups": {
+        "penetration=0.25": {
+          "sample_count": 97,
+          "unsafe_count": 15,
+          "unsafe_recall": 1.0
+        },
+        "penetration=0.50": {
+          "sample_count": 149,
+          "unsafe_count": 22,
+          "unsafe_recall": 1.0
+        },
+        "penetration=0.75": {
+          "sample_count": 125,
+          "unsafe_count": 24,
+          "unsafe_recall": 1.0
+        },
+        "penetration=1.00": {
+          "sample_count": 129,
+          "unsafe_count": 54,
+          "unsafe_recall": 1.0
+        },
+        "topology=asymmetric": {
+          "sample_count": 39,
+          "unsafe_count": 2,
+          "unsafe_recall": 1.0
+        },
+        "topology=merge": {
+          "sample_count": 119,
+          "unsafe_count": 33,
+          "unsafe_recall": 1.0
+        },
+        "topology=real_like": {
+          "sample_count": 81,
+          "unsafe_count": 4,
+          "unsafe_recall": 1.0
+        },
+        "topology=ring": {
+          "sample_count": 28,
+          "unsafe_count": 3,
+          "unsafe_recall": 1.0
+        },
+        "topology=signalized": {
+          "sample_count": 124,
+          "unsafe_count": 62,
+          "unsafe_recall": 1.0
+        },
+        "topology=two_route": {
+          "sample_count": 109,
+          "unsafe_count": 11,
+          "unsafe_recall": 1.0
+        }
+      },
+      "worst_critical_group_recall": 1.0
+    },
+    "metrics": {
+      "coverage": 0.0,
+      "deployment_precision": 0.0,
+      "failure_count": 0,
+      "false_safe_rate": 0.0,
+      "intervention_count": 0,
+      "mean_selected_relative_uplift": 0.0,
+      "opportunity_count": 86,
+      "opportunity_realization_rate": 0.0,
+      "opportunity_recovery_rate": 0.0,
+      "precision_wilson_95_lower": 0.0,
+      "precision_wilson_95_upper": 1.0,
+      "regret_violation_count": 0,
+      "safe_success_retention": 0.0,
+      "safety_filter_effectiveness": 1.0,
+      "safety_violation_count": 0,
+      "sample_count": 500,
+      "screened_safe_success_count": 0,
+      "screened_unsafe_count": 0,
+      "success_count": 0,
+      "uplift_precision": 0.0
+    },
+    "model_id": "S2",
+    "traffic_rank_percentile_cutoff": 1.1,
+    "unsafe_probability_threshold": 0.0
+  }
+}

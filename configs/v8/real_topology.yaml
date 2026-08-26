@@ -1,0 +1,20 @@
+study: v8_osm_final_transfer
+place: Gangnam-gu, Seoul, South Korea
+source_osm: data/raw/gangnam_intersection.osm
+source_manifest: data/manifests/gangnam_intersection.json
+od_pair_count: 15
+overlap_strata: [low, medium, high]
+stratum_counts: {low: 5, medium: 5, high: 5}
+demand_vehicles_per_hour: [660, 780]
+navigation_penetration: [0.75, 1.00]
+seeds: [1361, 1367]
+paired_condition_count: 120
+actual_sumo_run_count: 360
+primary_penetration_levels: [0.75, 1.00]
+exclude_v7_od_pairs: true
+common_random_numbers: true
+vehicle_generation_seconds: 180
+maximum_simulation_seconds: 480
+minimum_legal_alternatives: 3
+selection_rule: deterministic next-five-per-overlap-stratum after excluding every v7 final OD pair
+claim_boundary: real road geometry with synthetic OD demand and preferences; not observed Seoul traffic

@@ -1,0 +1,43 @@
+study: v8_action_aware_safety_development
+split_seed: 20260826
+development_split_fractions: {train: 0.60, calibration: 0.15, validation: 0.25}
+historical_sources:
+  - artifacts/studies/v7_paired_dataset/raw_metrics.json
+  - artifacts/studies/v7_frozen_micro_holdout/raw_metrics.json
+historical_pair_count: 1500
+new_development_seeds: [1009, 1013, 1019, 1021, 1031, 1033, 1039, 1049, 1051, 1061, 1063, 1069, 1087, 1091, 1093, 1097, 1103, 1109, 1117, 1123, 1129, 1151, 1153, 1163, 1171]
+final_holdout_seeds: [1201, 1213, 1217, 1223, 1229, 1231, 1237, 1249, 1259, 1277, 1279, 1283, 1289, 1291, 1297, 1301, 1303, 1307, 1319, 1321]
+new_development_pair_count: 500
+total_development_pair_count: 2000
+final_holdout_pair_count: 400
+safety_boundary_budget_fraction: 0.70
+decision_time_seconds: 30
+temporal_window_seconds: 30
+vehicle_generation_seconds: 120
+maximum_simulation_seconds: 320
+preference_epsilon: 0.08
+common_random_numbers: true
+condition_templates:
+  - {id: S01, topology: merge, demand: 1320, penetration: 0.50, heterogeneity: high, acceptance_multiplier: 0.80, perturbation: medium, stratum: boundary}
+  - {id: S02, topology: merge, demand: 1560, penetration: 0.75, heterogeneity: bimodal, acceptance_multiplier: 1.00, perturbation: strong, stratum: hard_unsafe}
+  - {id: S03, topology: merge, demand: 1800, penetration: 1.00, heterogeneity: long_tail, acceptance_multiplier: 1.00, perturbation: strong, stratum: hard_unsafe}
+  - {id: S04, topology: merge, demand: 1200, penetration: 0.25, heterogeneity: medium, acceptance_multiplier: 0.60, perturbation: weak, stratum: boundary}
+  - {id: S05, topology: merge, demand: 960, penetration: 0.50, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: none, stratum: hard_safe}
+  - {id: S06, topology: signalized, demand: 1440, penetration: 0.50, heterogeneity: high, acceptance_multiplier: 0.80, perturbation: medium, stratum: boundary}
+  - {id: S07, topology: signalized, demand: 1680, penetration: 0.75, heterogeneity: bimodal, acceptance_multiplier: 1.00, perturbation: strong, stratum: hard_unsafe}
+  - {id: S08, topology: signalized, demand: 1800, penetration: 1.00, heterogeneity: long_tail, acceptance_multiplier: 1.00, perturbation: strong, stratum: hard_unsafe}
+  - {id: S09, topology: signalized, demand: 1200, penetration: 0.25, heterogeneity: medium, acceptance_multiplier: 0.60, perturbation: weak, stratum: boundary}
+  - {id: S10, topology: signalized, demand: 960, penetration: 0.50, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: none, stratum: hard_safe}
+  - {id: S11, topology: signalized, demand: 1560, penetration: 1.00, heterogeneity: high, acceptance_multiplier: 0.80, perturbation: medium, stratum: boundary}
+  - {id: S12, topology: two_route, demand: 1560, penetration: 0.75, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: medium, stratum: boundary}
+  - {id: S13, topology: two_route, demand: 1200, penetration: 0.50, heterogeneity: medium, acceptance_multiplier: 0.80, perturbation: weak, stratum: ordinary}
+  - {id: S14, topology: two_route, demand: 960, penetration: 0.25, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: none, stratum: hard_safe}
+  - {id: S15, topology: asymmetric, demand: 1440, penetration: 0.50, heterogeneity: bimodal, acceptance_multiplier: 0.80, perturbation: medium, stratum: boundary}
+  - {id: S16, topology: asymmetric, demand: 1680, penetration: 0.75, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: strong, stratum: hard_unsafe}
+  - {id: S17, topology: asymmetric, demand: 1080, penetration: 0.25, heterogeneity: medium, acceptance_multiplier: 0.60, perturbation: weak, stratum: hard_safe}
+  - {id: S18, topology: real_like, demand: 1440, penetration: 0.50, heterogeneity: high, acceptance_multiplier: 0.80, perturbation: medium, stratum: boundary}
+  - {id: S19, topology: real_like, demand: 1680, penetration: 0.75, heterogeneity: bimodal, acceptance_multiplier: 1.00, perturbation: strong, stratum: hard_unsafe}
+  - {id: S20, topology: real_like, demand: 1080, penetration: 0.25, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: weak, stratum: hard_safe}
+ring_role: historical_evidence_only
+action_feature_rule: predecision_expectations_only
+

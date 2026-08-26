@@ -1,0 +1,9 @@
+study: CONCORDIA v8
+component: unsafe_probability_calibration
+calibrator:
+  method: beta
+  parameters:
+    intercept: -0.5553581443966347
+    weights:
+    - 1.025217265688745
+    - 0.48077600811422977

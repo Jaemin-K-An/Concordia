@@ -1,0 +1,1780 @@
+study: CONCORDIA v8
+component: retained_v7_regret_model
+regret_model:
+  name: v7_regret
+  kind: gradient_boosting
+  feature_names:
+  - density_mean
+  - flow_mean
+  - occupancy_mean
+  - mean_speed
+  - speed_variance
+  - acceleration_variance
+  - queue_length
+  - halting_count
+  - lane_occupancy
+  - headway_mean
+  - headway_variance
+  - demand_vehicles_per_hour
+  - density_slope_30s
+  - speed_slope_30s
+  - flow_instability
+  - queue_growth_rate
+  - short_horizon_speed_oscillation
+  - occupancy_variance_30s
+  - route_overlap
+  - alternative_capacity_ratio
+  - volume_capacity_ratio
+  - bottleneck_centrality
+  - route_length_ratio
+  - topology_merge
+  - topology_signalized
+  - topology_two_route
+  - topology_real_like
+  - topology_ring
+  - perturbation_strength
+  - predicted_acceptance
+  - preference_slack_mean
+  - preference_slack_std
+  - preference_variance
+  - heterogeneity_low
+  - heterogeneity_medium
+  - heterogeneity_high
+  - heterogeneity_bimodal
+  - heterogeneity_long_tail
+  - acceptance_multiplier
+  - navigation_penetration
+  - minimum_headway
+  - closing_speed_p90
+  - drac_proxy_p95
+  - lane_change_density
+  - merge_interaction_density
+  - speed_differential
+  - hard_braking_recent_rate
+  - analytical_success_probability
+  - analytical_predicted_ttt_gain
+  - edge_disjointness
+  - number_route_alternatives
+  - preference_entropy_proxy
+  - topology_asymmetric
+  - v6_micro_success_score
+  seed: 20261142
+  regularization: 0.02
+  tree_count: 90
+  max_depth: 2
+  minimum_leaf: 10
+  learning_rate: 0.06
+  parameters:
+    base: 0.020631729820594538
+    trees:
+    - feature: 22
+      gain: 0.09225170701445495
+      left:
+        feature: 31
+        gain: 0.039284039705069856
+        left:
+          value: -0.010369484449637865
+        right:
+          value: 0.01902081005482136
+        threshold: 0.012152380596899192
+      right:
+        feature: 11
+        gain: 0.02927767486220141
+        left:
+          value: -0.01458363383392522
+        right:
+          value: 0.01770196310358281
+        threshold: 1440.0
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.0796131879091701
+      left:
+        feature: 29
+        gain: 0.0426893481471273
+        left:
+          value: -0.006156853315689286
+        right:
+          value: 0.020505987991556902
+        threshold: 0.5017391218729417
+      right:
+        feature: 11
+        gain: 0.022286768767738732
+        left:
+          value: -0.013076359909623131
+        right:
+          value: 0.015105569805969658
+        threshold: 1440.0
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.07281497877282711
+      left:
+        feature: 32
+        gain: 0.033613738460903875
+        left:
+          value: -0.009846400745706991
+        right:
+          value: 0.017068911226365027
+        threshold: 0.009213680504421111
+      right:
+        feature: 28
+        gain: 0.0208823241838655
+        left:
+          value: -0.015213984404202345
+        right:
+          value: 0.002671086513303506
+        threshold: 2.0
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.06935430196889453
+      left:
+        feature: 38
+        gain: 0.03180543805209514
+        left:
+          value: 0.003648094872147243
+        right:
+          value: 0.02537302500198513
+        threshold: 0.8
+      right:
+        feature: 28
+        gain: 0.018311550992618164
+        left:
+          value: -0.014178763812346984
+        right:
+          value: 0.0031396935566251074
+        threshold: 2.0
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.04813414665127275
+      left:
+        feature: 39
+        gain: 0.03070456230279406
+        left:
+          value: -0.010656377372093974
+        right:
+          value: 0.01475039794032019
+        threshold: 0.25
+      right:
+        feature: 28
+        gain: 0.021382275668829318
+        left:
+          value: -0.01365135452386891
+        right:
+          value: 0.004130494460666178
+        threshold: 2.0
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.045987054749281775
+      left:
+        feature: 31
+        gain: 0.025377229851280478
+        left:
+          value: -0.00958137204661635
+        right:
+          value: 0.013825341256917346
+        threshold: 0.012790405465918066
+      right:
+        feature: 11
+        gain: 0.020995457039486826
+        left:
+          value: -0.01082695327217563
+        right:
+          value: 0.01694464529839323
+        threshold: 1440.0
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.03954640017415151
+      left:
+        feature: 11
+        gain: 0.02601627869094375
+        left:
+          value: -0.004282201573201829
+        right:
+          value: 0.016014236661826713
+        threshold: 960.0
+      right:
+        feature: 28
+        gain: 0.01721217785997728
+        left:
+          value: -0.011805023351425739
+        right:
+          value: 0.004008589632802883
+        threshold: 2.0
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.0360135417461554
+      left:
+        feature: 29
+        gain: 0.02665150177740798
+        left:
+          value: -0.006340995015831899
+        right:
+          value: 0.014844705132783525
+        threshold: 0.5014449065224257
+      right:
+        feature: 28
+        gain: 0.017395643980754508
+        left:
+          value: -0.011478753564214628
+        right:
+          value: 0.004659687406581705
+        threshold: 2.0
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.03131143660811597
+      left:
+        feature: 29
+        gain: 0.02358522710063367
+        left:
+          value: -0.006029702640995216
+        right:
+          value: 0.013664284115835826
+        threshold: 0.4997349704464952
+      right:
+        feature: 31
+        gain: 0.01786791590667053
+        left:
+          value: -0.011464747285826353
+        right:
+          value: 0.004760754044910581
+        threshold: 0.029384592921518887
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.031523231674131014
+      left:
+        feature: 29
+        gain: 0.022273316502349733
+        left:
+          value: -0.0054064450666920305
+        right:
+          value: 0.01385279339002143
+        threshold: 0.5016575807653202
+      right:
+        feature: 30
+        gain: 0.012026808721462931
+        left:
+          value: -0.010313893287704497
+        right:
+          value: 0.0029239824237410005
+        threshold: 0.02114481630472567
+      threshold: 1.1218510271565747
+    - feature: 28
+      gain: 0.024234986741348746
+      left:
+        feature: 8
+        gain: 0.007941602110416376
+        left:
+          value: -0.010078380497197802
+        right:
+          value: 0.001097856685129494
+        threshold: 0.010226901378092979
+      right:
+        feature: 45
+        gain: 0.02301670260382091
+        left:
+          value: 0.012911521616239144
+        right:
+          value: -0.004677232811218792
+        threshold: 1.7793584418691495
+      threshold: 1.0
+    - feature: 22
+      gain: 0.02424608126390665
+      left:
+        feature: 31
+        gain: 0.019993684282174087
+        left:
+          value: -0.010129956190783046
+        right:
+          value: 0.010305053190794321
+        threshold: 0.01204146088993452
+      right:
+        feature: 30
+        gain: 0.009375489444538532
+        left:
+          value: -0.010002235961684824
+        right:
+          value: 0.0018849514132003216
+        threshold: 0.020823953285856643
+      threshold: 1.1218510271565747
+    - feature: 28
+      gain: 0.022972302537422995
+      left:
+        feature: 22
+        gain: 0.004818566742716773
+        left:
+          value: -0.0017504072361496721
+        right:
+          value: -0.009700359608091486
+        threshold: 1.1218510271565747
+      right:
+        feature: 45
+        gain: 0.023201386423686327
+        left:
+          value: 0.013325720165484674
+        right:
+          value: -0.004477617468921877
+        threshold: 1.8346029154164283
+      threshold: 1.0
+    - feature: 22
+      gain: 0.018316230442438686
+      left:
+        feature: 30
+        gain: 0.01754637238966668
+        left:
+          value: -0.0036587650627686033
+        right:
+          value: 0.012178223773930876
+        threshold: 0.01075817338091439
+      right:
+        feature: 11
+        gain: 0.010354976066929533
+        left:
+          value: -0.007066353237888143
+        right:
+          value: 0.011635035254774405
+        threshold: 1440.0
+      threshold: 1.1218510271565747
+    - feature: 22
+      gain: 0.019296691302891217
+      left:
+        feature: 30
+        gain: 0.01759705472884017
+        left:
+          value: -0.0033586835183313374
+        right:
+          value: 0.01263896068347352
+        threshold: 0.010779983796835917
+      right:
+        feature: 11
+        gain: 0.009811272313255459
+        left:
+          value: -0.006889234020613342
+        right:
+          value: 0.011298587543687972
+        threshold: 1440.0
+      threshold: 1.1218510271565747
+    - feature: 28
+      gain: 0.017116545970651542
+      left:
+        feature: 8
+        gain: 0.004786473289820209
+        left:
+          value: -0.008002248922125017
+        right:
+          value: 0.0007204125197316317
+        threshold: 0.010071220478583321
+      right:
+        feature: 45
+        gain: 0.01444766890306809
+        left:
+          value: 0.010742977357478742
+        right:
+          value: -0.0031289602829678593
+        threshold: 1.7739980959607762
+      threshold: 1.0
+    - feature: 28
+      gain: 0.017142535501568745
+      left:
+        feature: 8
+        gain: 0.0034583865118067714
+        left:
+          value: -0.007468192676935706
+        right:
+          value: -0.00013662788000173812
+        threshold: 0.010115455117804626
+      right:
+        feature: 45
+        gain: 0.019039397798955138
+        left:
+          value: 0.011744076617432032
+        right:
+          value: -0.004366032809078798
+        threshold: 1.7733818206367085
+      threshold: 1.0
+    - feature: 5
+      gain: 0.01442380742768623
+      left:
+        feature: 11
+        gain: 0.012977847236858714
+        left:
+          value: -0.003746456396826444
+        right:
+          value: 0.011613037930116274
+        threshold: 1440.0
+      right:
+        feature: 46
+        gain: 0.003233695110641685
+        left:
+          value: 5.3292395299683934e-05
+        right:
+          value: 0.017794193035060496
+        threshold: 0.05787830687830689
+      threshold: 1.27377656475432
+    - feature: 28
+      gain: 0.01285930626987411
+      left:
+        feature: 8
+        gain: 0.004005260003563896
+        left:
+          value: -0.006584369835128073
+        right:
+          value: 0.0013000801213997912
+        threshold: 0.010064294092008248
+      right:
+        feature: 29
+        gain: 0.015114350563864287
+        left:
+          value: -0.0008015654892475047
+        right:
+          value: 0.013567853391135054
+        threshold: 0.5095541768137525
+      threshold: 1.0
+    - feature: 42
+      gain: 0.011951672545158748
+      left:
+        feature: 31
+        gain: 0.01082583747919727
+        left:
+          value: -0.0042501848512864005
+        right:
+          value: 0.005431250715047983
+        threshold: 0.02852225085909655
+      right:
+        feature: 14
+        gain: 0.0018194645007837927
+        left:
+          value: 0.019890362507065388
+        right:
+          value: 0.00884711587082877
+        threshold: 0.7844008403031286
+      threshold: 0.5190876888222578
+    - feature: 28
+      gain: 0.010625517932923545
+      left:
+        feature: 22
+        gain: 0.003024706798687826
+        left:
+          value: -0.000730366440161156
+        right:
+          value: -0.006965792827953932
+        threshold: 1.1218510271565747
+      right:
+        feature: 29
+        gain: 0.010245428392485156
+        left:
+          value: -0.00044436605704137083
+        right:
+          value: 0.01148449040794696
+        threshold: 0.5129088547305075
+      threshold: 1.0
+    - feature: 11
+      gain: 0.011504220677779425
+      left:
+        feature: 5
+        gain: 0.012601149243478244
+        left:
+          value: -0.003911775592490661
+        right:
+          value: 0.008167724108046193
+        threshold: 0.9435576540680025
+      right:
+        feature: 31
+        gain: 0.010445823705676233
+        left:
+          value: -0.011636927139000174
+        right:
+          value: 0.017968623958110608
+        threshold: 0.016618430852592576
+      threshold: 1440.0
+    - feature: 46
+      gain: 0.010184292391531818
+      left:
+        feature: 22
+        gain: 0.006023598217690329
+        left:
+          value: 0.004016391034635146
+        right:
+          value: -0.0034756450075874956
+        threshold: 1.0868330461822278
+      right:
+        feature: 48
+        gain: 0.003965388614775779
+        left:
+          value: -0.003365556653968233
+        right:
+          value: 0.016323073472379282
+        threshold: 0.007472877062520513
+      threshold: 0.06322751322751324
+    - feature: 11
+      gain: 0.008978417138570727
+      left:
+        feature: 8
+        gain: 0.002357510894327404
+        left:
+          value: -0.007967517806793466
+        right:
+          value: -0.0011282188801429191
+        threshold: 0.00796453311386454
+      right:
+        feature: 35
+        gain: 0.0074100259905132415
+        left:
+          value: 0.000497070366098272
+        right:
+          value: 0.010717005317616561
+        threshold: 0.0
+      threshold: 960.0
+    - feature: 11
+      gain: 0.00924681892918286
+      left:
+        feature: 16
+        gain: 0.0009287481914246019
+        left:
+          value: -0.004381870510050073
+        right:
+          value: -0.0112551172362688
+        threshold: 0.10087036362014278
+      right:
+        feature: 22
+        gain: 0.010116922554131713
+        left:
+          value: 0.00655698429574889
+        right:
+          value: -0.0023457347936370315
+        threshold: 1.1218510271565747
+      threshold: 840.0
+    - feature: 46
+      gain: 0.008276199381360066
+      left:
+        feature: 11
+        gain: 0.008945822886985977
+        left:
+          value: -0.0025066191597713497
+        right:
+          value: 0.009986300437281962
+        threshold: 1440.0
+      right:
+        feature: 30
+        gain: 0.0056214796763831305
+        left:
+          value: 0.0016352704637514386
+        right:
+          value: 0.020679327493537663
+        threshold: 0.01296432521033376
+      threshold: 0.0640040885040885
+    - feature: 45
+      gain: 0.006612544211789223
+      left:
+        feature: 32
+        gain: 0.005433614877481202
+        left:
+          value: -0.005013976412811591
+        right:
+          value: 0.005469718692879598
+        threshold: 0.009209506190925237
+      right:
+        feature: 11
+        gain: 0.004819111257546235
+        left:
+          value: -0.004536927883688927
+        right:
+          value: 0.008808393017390802
+        threshold: 1440.0
+      threshold: 1.2822482384108926
+    - feature: 22
+      gain: 0.0076222877134066724
+      left:
+        feature: 33
+        gain: 0.009218640124642505
+        left:
+          value: 0.006514273311745537
+        right:
+          value: -0.00981851156636076
+        threshold: 0.0
+      right:
+        feature: 28
+        gain: 0.004782448927588903
+        left:
+          value: -0.005302724598417192
+        right:
+          value: 0.0031700274323796765
+        threshold: 2.0
+      threshold: 1.1218510271565747
+    - feature: 30
+      gain: 0.006152812732551277
+      left:
+        feature: 29
+        gain: 0.002787031727103269
+        left:
+          value: -0.008154671753761554
+        right:
+          value: -0.0015730810748936573
+        threshold: 0.4974299912819772
+      right:
+        feature: 14
+        gain: 0.006450567685864328
+        left:
+          value: 0.0004986535756767911
+        right:
+          value: 0.011991079731240407
+        threshold: 0.747643125248377
+      threshold: 0.013240455283672396
+    - feature: 28
+      gain: 0.007573192166400788
+      left:
+        feature: 16
+        gain: 0.0017719720925058816
+        left:
+          value: -0.006249800758218323
+        right:
+          value: -0.0012888811351014372
+        threshold: 0.09410981000738058
+      right:
+        feature: 45
+        gain: 0.009595179098736611
+        left:
+          value: 0.008297604697598233
+        right:
+          value: -0.0030193096771310816
+        threshold: 1.7469932658480523
+      threshold: 1.0
+    - feature: 39
+      gain: 0.005720919377149275
+      left:
+        feature: 42
+        gain: 0.007155271754576337
+        left:
+          value: -0.002926482259934861
+        right:
+          value: 0.010524158630560741
+        threshold: 0.36289981755688516
+      right:
+        feature: 1
+        gain: 0.004546990510982105
+        left:
+          value: 0.0010292950714974366
+        right:
+          value: 0.011370390601906427
+        threshold: 182.3989388188044
+      threshold: 0.75
+    - feature: 28
+      gain: 0.005171420499666152
+      left:
+        feature: 16
+        gain: 0.0016493304018434657
+        left:
+          value: -0.005680605550522464
+        right:
+          value: -0.0009286210587928707
+        threshold: 0.09140261408445993
+      right:
+        feature: 45
+        gain: 0.0071328655079782866
+        left:
+          value: 0.00614328279923267
+        right:
+          value: -0.004338777934333577
+        threshold: 2.0667620863214284
+      threshold: 1.0
+    - feature: 11
+      gain: 0.005391867297574737
+      left:
+        feature: 28
+        gain: 0.0019087476407644993
+        left:
+          value: -0.003309598481268233
+        right:
+          value: -0.013585312326107171
+        threshold: 1.0
+      right:
+        feature: 29
+        gain: 0.0057691517490778
+        left:
+          value: -0.002649832465513149
+        right:
+          value: 0.005060648574689522
+        threshold: 0.4901943442290391
+      threshold: 960.0
+    - feature: 46
+      gain: 0.004749219955493045
+      left:
+        feature: 30
+        gain: 0.004680773234526148
+        left:
+          value: -0.0020390971627249673
+        right:
+          value: 0.0076841744426566294
+        threshold: 0.03608663297037442
+      right:
+        feature: 30
+        gain: 0.0032706565423288106
+        left:
+          value: -0.0005561847895624116
+        right:
+          value: 0.014332664471323978
+        threshold: 0.01075817338091439
+      threshold: 0.06322751322751324
+    - feature: 22
+      gain: 0.005623026945007603
+      left:
+        feature: 29
+        gain: 0.006302591775252359
+        left:
+          value: -0.0018052099447621861
+        right:
+          value: 0.007583513968359135
+        threshold: 0.508931719278813
+      right:
+        feature: 11
+        gain: 0.0027096024035434263
+        left:
+          value: -0.004087040915820948
+        right:
+          value: 0.006040041885035365
+        threshold: 1440.0
+      threshold: 1.1218510271565747
+    - feature: 11
+      gain: 0.006154706193432585
+      left:
+        feature: 11
+        gain: 0.0037384328283871227
+        left:
+          value: -0.00733846724090453
+        right:
+          value: -0.00046193288384460397
+        threshold: 840.0
+      right:
+        feature: 5
+        gain: 0.004494317108130516
+        left:
+          value: -0.007551161702747121
+        right:
+          value: 0.012554826091334534
+        threshold: 0.35103635222686
+      threshold: 1440.0
+    - feature: 29
+      gain: 0.004623133547147745
+      left:
+        feature: 28
+        gain: 0.004905542607097982
+        left:
+          value: -0.006399891127297994
+        right:
+          value: 0.003638847935305806
+        threshold: 2.0
+      right:
+        feature: 8
+        gain: 0.00618148317586209
+        left:
+          value: -0.0062114670367160825
+        right:
+          value: 0.0040174512166906
+        threshold: 0.00781538685192338
+      threshold: 0.5010294787488496
+    - feature: 31
+      gain: 0.00378188478339464
+      left:
+        feature: 43
+        gain: 0.0033353455381284966
+        left:
+          value: 0.0025757529917124033
+        right:
+          value: -0.004004468986057799
+        threshold: 1.3539523809523808
+      right:
+        feature: 11
+        gain: 0.004553629844938345
+        left:
+          value: 0.0008857877800150706
+        right:
+          value: 0.011663729450695527
+        threshold: 1464.000000000002
+      threshold: 0.025043727790182376
+    - feature: 30
+      gain: 0.004483722641690446
+      left:
+        feature: 39
+        gain: 0.0020484845119813633
+        left:
+          value: -0.004134388132356041
+        right:
+          value: 0.0017302779157228696
+        threshold: 0.75
+      right:
+        feature: 22
+        gain: 0.004411336050311132
+        left:
+          value: 0.007020748194500121
+        right:
+          value: -0.0006097272784666671
+        threshold: 1.1218510271565747
+      threshold: 0.013330479900959365
+    - feature: 31
+      gain: 0.004079170683996519
+      left:
+        feature: 43
+        gain: 0.0035419009484115443
+        left:
+          value: 0.0028122148449800707
+        right:
+          value: -0.0034569492994057354
+        threshold: 1.3580555555555556
+      right:
+        feature: 14
+        gain: 0.004357300532755751
+        left:
+          value: -0.003389815493747932
+        right:
+          value: 0.007240385330311742
+        threshold: 0.6936488804736015
+      threshold: 0.028090545100234607
+    - feature: 30
+      gain: 0.005204157238890894
+      left:
+        feature: 39
+        gain: 0.002843354902695938
+        left:
+          value: -0.0032015509848079497
+        right:
+          value: 0.002827891088949977
+        threshold: 0.75
+      right:
+        feature: 16
+        gain: 0.0037130505490629018
+        left:
+          value: 0.013562860836167394
+        right:
+          value: 0.0023552043097218567
+        threshold: 0.0728951835061825
+      threshold: 0.019992386239129013
+    - feature: 11
+      gain: 0.004490227578321987
+      left:
+        feature: 45
+        gain: 0.003896296198496435
+        left:
+          value: 0.00014840417613859686
+        right:
+          value: -0.0065376140289381485
+        threshold: 1.9233022151014032
+      right:
+        feature: 31
+        gain: 0.006301072580493058
+        left:
+          value: -0.01147766566739068
+        right:
+          value: 0.012329122065538592
+        threshold: 0.016618430852592576
+      threshold: 1440.0
+    - feature: 45
+      gain: 0.004028884530758503
+      left:
+        feature: 38
+        gain: 0.003488448690591131
+        left:
+          value: -0.0005776113675455742
+        right:
+          value: 0.006233657297061353
+        threshold: 0.8
+      right:
+        feature: 13
+        gain: 0.0025365294099788105
+        left:
+          value: 0.0029629209582038526
+        right:
+          value: -0.004199995836863399
+        threshold: -0.019368765402592518
+      threshold: 1.2838747647721178
+    - feature: 11
+      gain: 0.005913016204105115
+      left:
+        feature: 45
+        gain: 0.002885983498155359
+        left:
+          value: 0.00013526087694770497
+        right:
+          value: -0.005616347077232577
+        threshold: 1.9231817479630124
+      right:
+        feature: 35
+        gain: 0.0040477331277821715
+        left:
+          value: 0.0026942692785203535
+        right:
+          value: 0.018721601295134706
+        threshold: 0.0
+      threshold: 1440.0
+    - feature: 31
+      gain: 0.003026016416954519
+      left:
+        feature: 11
+        gain: 0.0013647740261892912
+        left:
+          value: -0.002595976045504567
+        right:
+          value: -0.014083327055228896
+        threshold: 1440.0
+      right:
+        feature: 22
+        gain: 0.0040393963998578974
+        left:
+          value: 0.0048160845469239
+        right:
+          value: -0.0013378123711343015
+        threshold: 1.1218510271565747
+      threshold: 0.014562309862855446
+    - feature: 46
+      gain: 0.003614700642933427
+      left:
+        feature: 13
+        gain: 0.002803308341318478
+        left:
+          value: 0.003968809255098602
+        right:
+          value: -0.0016752829310631235
+        threshold: -0.02215933988312331
+      right:
+        feature: 30
+        gain: 0.0023222793500961188
+        left:
+          value: 0.0013878228459424744
+        right:
+          value: 0.013628103651534726
+        threshold: 0.012144221966263514
+      threshold: 0.06378811928811928
+    - feature: 13
+      gain: 0.0029283435778969247
+      left:
+        feature: 39
+        gain: 0.0035023305668814148
+        left:
+          value: -0.0001576299378655597
+        right:
+          value: 0.010870626206061407
+        threshold: 0.75
+      right:
+        feature: 5
+        gain: 0.003038587527521619
+        left:
+          value: -0.0027397978637755814
+        right:
+          value: 0.0034873458457104507
+        threshold: 0.9768609583337092
+      threshold: -0.021636664258208767
+    - feature: 28
+      gain: 0.002610805254504439
+      left:
+        feature: 41
+        gain: 0.001175534690491177
+        left:
+          value: -0.0025976764706561904
+        right:
+          value: 0.0038993033261298365
+        threshold: 4.3092174820559555
+      right:
+        feature: 45
+        gain: 0.0037394593295003303
+        left:
+          value: 0.00447658529742942
+        right:
+          value: -0.003141756461148058
+        threshold: 2.1024841294671424
+      threshold: 1.0
+    - feature: 45
+      gain: 0.0020716552926963727
+      left:
+        feature: 28
+        gain: 0.003542810736376273
+        left:
+          value: -0.0014023629281442248
+        right:
+          value: 0.00439474405387846
+        threshold: 1.0
+      right:
+        feature: 4
+        gain: 0.0013433351707523716
+        left:
+          value: -0.0042239459789662655
+        right:
+          value: 0.0025173217401793318
+        threshold: 0.050552891319384195
+      threshold: 1.7527593637686025
+    - feature: 45
+      gain: 0.003933128839519268
+      left:
+        feature: 30
+        gain: 0.0035078558596878667
+        left:
+          value: -0.0017377715107760616
+        right:
+          value: 0.005167861304970841
+        threshold: 0.011117883547300585
+      right:
+        feature: 53
+        gain: 0.0015378124767716633
+        left:
+          value: -0.005009587783206321
+        right:
+          value: -0.0005225970378109957
+        threshold: 0.07692307692307693
+      threshold: 1.290219904088445
+    - feature: 46
+      gain: 0.00186978186587336
+      left:
+        feature: 10
+        gain: 0.0016821337348053023
+        left:
+          value: -0.0031400571628433915
+        right:
+          value: 0.0006762143736006252
+        threshold: 0.7112507675837254
+      right:
+        feature: 30
+        gain: 0.0015393978377605082
+        left:
+          value: -0.0007377177423660744
+        right:
+          value: 0.009420099960119062
+        threshold: 0.010608322282555089
+      threshold: 0.0640040885040885
+    - feature: 11
+      gain: 0.002582236633566992
+      left:
+        feature: 30
+        gain: 0.0022024523045384714
+        left:
+          value: -0.0016157999045965054
+        right:
+          value: 0.005115369616330056
+        threshold: 0.035104150650195114
+      right:
+        feature: 31
+        gain: 0.003724791752299266
+        left:
+          value: -0.00852458973032468
+        right:
+          value: 0.009218960889187746
+        threshold: 0.01697431432538331
+      threshold: 1440.0
+    - feature: 45
+      gain: 0.0021429574244331007
+      left:
+        feature: 28
+        gain: 0.0037398600038305585
+        left:
+          value: -0.0018998934039323242
+        right:
+          value: 0.0037339271849763417
+        threshold: 1.0
+      right:
+        feature: 12
+        gain: 0.0013708511162080252
+        left:
+          value: -0.005435941898603224
+        right:
+          value: 0.005422804287617994
+        threshold: 0.29129658085424376
+      threshold: 2.023782525450109
+    - feature: 30
+      gain: 0.0019524098636130305
+      left:
+        feature: 11
+        gain: 0.0010348128147620855
+        left:
+          value: -0.0024131845856563807
+        right:
+          value: -0.013026332893537348
+        threshold: 1440.0
+      right:
+        feature: 45
+        gain: 0.003566089940807371
+        left:
+          value: 0.0025330446417832025
+        right:
+          value: -0.004212999198617008
+        threshold: 2.0349224218241773
+      threshold: 0.007434520434722786
+    - feature: 45
+      gain: 0.002671278600595517
+      left:
+        feature: 28
+        gain: 0.0040549446117187915
+        left:
+          value: -0.0016033295293627853
+        right:
+          value: 0.004267809355203415
+        threshold: 1.0
+      right:
+        feature: 40
+        gain: 0.0015775248505438474
+        left:
+          value: 0.005965868723111479
+        right:
+          value: -0.005682702023181558
+        threshold: 1.004588106708642
+      threshold: 2.0000104503262004
+    - feature: 11
+      gain: 0.0018593964947729025
+      left:
+        feature: 1
+        gain: 0.001489973700956531
+        left:
+          value: -0.0009220605452603585
+        right:
+          value: -0.009435349939701078
+        threshold: 131.28270609478054
+      right:
+        feature: 47
+        gain: 0.002358208474728174
+        left:
+          value: 0.00010404744498771805
+        right:
+          value: 0.007915587138685549
+        threshold: 0.8571428571428571
+      threshold: 840.0
+    - feature: 22
+      gain: 0.0016656913628259329
+      left:
+        feature: 13
+        gain: 0.0022762733965130677
+        left:
+          value: 0.0037849426914191237
+        right:
+          value: -0.0011486194126589778
+        threshold: -0.021585019409664733
+      right:
+        feature: 45
+        gain: 0.003272708294794544
+        left:
+          value: -0.0026565229768104512
+        right:
+          value: 0.018602485259368227
+        threshold: 0.6309137483942967
+      threshold: 1.2509277170232656
+    - feature: 39
+      gain: 0.0020077219699813353
+      left:
+        feature: 42
+        gain: 0.0016785735364487075
+        left:
+          value: -0.0013787012436347887
+        right:
+          value: 0.00513777768451908
+        threshold: 0.4555190333034086
+      right:
+        feature: 13
+        gain: 0.0026663487999422086
+        left:
+          value: 0.009137130610566122
+        right:
+          value: 0.0007283482951475186
+        threshold: -0.020484369260013607
+      threshold: 0.75
+    - feature: 31
+      gain: 0.001863322105683074
+      left:
+        feature: 3
+        gain: 0.0020240951215597103
+        left:
+          value: -0.003877608474512341
+        right:
+          value: 0.0008616117945392604
+        threshold: 14.999230880365888
+      right:
+        feature: 16
+        gain: 0.0030839043211208783
+        left:
+          value: 0.011398674329098154
+        right:
+          value: 0.0011845808110366976
+        threshold: 0.07308615736474804
+      threshold: 0.028092410592830144
+    - feature: 29
+      gain: 0.0016425956276286402
+      left:
+        feature: 28
+        gain: 0.0019506911114660352
+        left:
+          value: -0.0036376362117410506
+        right:
+          value: 0.0030405871769082745
+        threshold: 2.0
+      right:
+        feature: 45
+        gain: 0.0024025478983443344
+        left:
+          value: 0.00335121856517405
+        right:
+          value: -0.0018703267539096236
+        threshold: 1.3378067797596718
+      threshold: 0.5011270386241762
+    - feature: 43
+      gain: 0.0016698443372751282
+      left:
+        feature: 13
+        gain: 0.002504975625925304
+        left:
+          value: 0.00976945639798394
+        right:
+          value: 0.0005638768692184727
+        threshold: -0.02288819821296926
+      right:
+        feature: 11
+        gain: 0.0015974519642933671
+        left:
+          value: -0.005971867554795647
+        right:
+          value: -0.0004072380539417425
+        threshold: 840.0
+      threshold: 1.3534801587301586
+    - feature: 39
+      gain: 0.0010110231244577772
+      left:
+        feature: 13
+        gain: 0.0012155927830073826
+        left:
+          value: -0.006101473266984305
+        right:
+          value: -0.0005560223489181472
+        threshold: -0.026920032311103157
+      right:
+        feature: 8
+        gain: 0.0028298357720757603
+        left:
+          value: -0.01018543401530932
+        right:
+          value: 0.0030353722441813454
+        threshold: 0.007712785278790158
+      threshold: 0.75
+    - feature: 45
+      gain: 0.0016231233605050188
+      left:
+        feature: 32
+        gain: 0.0023038489905215648
+        left:
+          value: -0.002473738437347402
+        right:
+          value: 0.002582393984818106
+        threshold: 0.009238923796102395
+      right:
+        feature: 40
+        gain: 0.0008478958682158061
+        left:
+          value: 0.0038328694699338263
+        right:
+          value: -0.0032215519212802648
+        threshold: 0.9886208861080346
+      threshold: 1.7562441701932714
+    - feature: 29
+      gain: 0.001568530679385588
+      left:
+        feature: 47
+        gain: 0.001842703702776824
+        left:
+          value: -0.0045971901341911175
+        right:
+          value: 0.0010540990094991484
+        threshold: 0.3333333333333333
+      right:
+        feature: 8
+        gain: 0.0020077726704467724
+        left:
+          value: -0.0038387474212654192
+        right:
+          value: 0.001990877743887344
+        threshold: 0.007818911999659608
+      threshold: 0.5008664015554247
+    - feature: 11
+      gain: 0.0016009410869888552
+      left:
+        feature: 45
+        gain: 0.000852493265920462
+        left:
+          value: -4.739636539767791e-05
+        right:
+          value: -0.0031907417100829503
+        threshold: 1.9345905261480774
+      right:
+        feature: 42
+        gain: 0.002908216596181158
+        left:
+          value: -0.008201432702662806
+        right:
+          value: 0.007366206264601856
+        threshold: 0.12677835647160893
+      threshold: 1440.0
+    - feature: 31
+      gain: 0.0011564779285884175
+      left:
+        feature: 3
+        gain: 0.002214598076493962
+        left:
+          value: -0.0046843530282031755
+        right:
+          value: 0.0002728749753937762
+        threshold: 15.004345534375307
+      right:
+        feature: 9
+        gain: 0.002177000829901257
+        left:
+          value: 0.005216331234668891
+        right:
+          value: -0.0016630659044599028
+        threshold: 17.61440697074702
+      threshold: 0.028027134332409723
+    - feature: 41
+      gain: 0.002025428874354307
+      left:
+        feature: 41
+        gain: 0.001432265696466345
+        left:
+          value: -0.005246848640582186
+        right:
+          value: 0.00013224612849128332
+        threshold: 2.140655483369879
+      right:
+        feature: 31
+        gain: 0.0014499408169419432
+        left:
+          value: -0.001651562782825822
+        right:
+          value: 0.008838062017817068
+        threshold: 0.018068175767243826
+      threshold: 5.089847179560121
+    - feature: 11
+      gain: 0.0017053742274946437
+      left:
+        feature: 35
+        gain: 0.0009128726448120322
+        left:
+          value: -0.0020107644338150186
+        right:
+          value: -0.008944379087532877
+        threshold: 0.0
+      right:
+        feature: 39
+        gain: 0.001684559069838304
+        left:
+          value: -0.0007016479512080084
+        right:
+          value: 0.003126459651184432
+        threshold: 0.75
+      threshold: 840.0
+    - feature: 38
+      gain: 0.0014653735376934651
+      left:
+        feature: 0
+        gain: 0.00121731564712459
+        left:
+          value: -0.0018089286554380185
+        right:
+          value: -0.011666953858535464
+        threshold: 2.830572766079923
+      right:
+        feature: 42
+        gain: 0.0012028608852850675
+        left:
+          value: -0.0015116966525547141
+        right:
+          value: 0.0019442880263133865
+        threshold: 0.15553923282609033
+      threshold: 0.6
+    - feature: 30
+      gain: 0.0011869763226240448
+      left:
+        feature: 11
+        gain: 0.0006407599076769764
+        left:
+          value: -0.0011870744246259054
+        right:
+          value: -0.0075512012105552456
+        threshold: 1440.0
+      right:
+        feature: 43
+        gain: 0.002757549493548367
+        left:
+          value: 0.002591263939558731
+        right:
+          value: -0.004240691422110657
+        threshold: 1.698888888888889
+      threshold: 0.011189498883745205
+    - feature: 30
+      gain: 0.0016556616736913
+      left:
+        feature: 43
+        gain: 0.0013074267146474389
+        left:
+          value: 0.0021994269745338204
+        right:
+          value: -0.001609477777321176
+        threshold: 1.3522619047619049
+      right:
+        feature: 16
+        gain: 0.002341484718314718
+        left:
+          value: 0.010235936343161705
+        right:
+          value: 0.0013358330720310415
+        threshold: 0.07302358629427794
+      threshold: 0.019776791948034517
+    - feature: 46
+      gain: 0.0019542131715823696
+      left:
+        feature: 8
+        gain: 0.0012065808889145102
+        left:
+          value: -0.003360131853760483
+        right:
+          value: 0.00032851412875159876
+        threshold: 0.007901149003391417
+      right:
+        feature: 45
+        gain: 0.0016379284921325017
+        left:
+          value: -0.0023850802120682253
+        right:
+          value: 0.009016425161013926
+        threshold: 0.4584267774793222
+      threshold: 0.06111111111111111
+    - feature: 13
+      gain: 0.001365262353072605
+      left:
+        feature: 13
+        gain: 0.0030544313740876045
+        left:
+          value: -0.0011665656749600183
+        right:
+          value: 0.008950979834282068
+        threshold: -0.026021440672316352
+      right:
+        feature: 27
+        gain: 0.0010113940252492598
+        left:
+          value: -0.0004543987936594946
+        right:
+          value: -0.006751457730899108
+        threshold: 0.0
+      threshold: -0.02165623685474503
+    - feature: 42
+      gain: 0.001066303479119901
+      left:
+        feature: 10
+        gain: 0.0010774508421993942
+        left:
+          value: -0.0015213764459989607
+        right:
+          value: -0.007558750924892768
+        threshold: 2.1495639063960144
+      right:
+        feature: 30
+        gain: 0.0011293528965291705
+        left:
+          value: -0.0018482006913270444
+        right:
+          value: 0.0014682389886422123
+        threshold: 0.011416169288727148
+      threshold: 0.1550573519852545
+    - feature: 27
+      gain: 0.000933741285513906
+      left:
+        feature: 30
+        gain: 0.0012336471395804072
+        left:
+          value: -0.0008193948630368605
+        right:
+          value: 0.002383179872942739
+        threshold: 0.01850649680714618
+      right:
+        feature: 13
+        gain: 0.003349053371152518
+        left:
+          value: 0.006352695185114094
+        right:
+          value: -0.012325091786626446
+        threshold: -0.021644808456912894
+      threshold: 0.0
+    - feature: 11
+      gain: 0.0013467184208028893
+      left:
+        feature: 46
+        gain: 0.0009599986893424339
+        left:
+          value: -0.0005107918162305663
+        right:
+          value: 0.0038953065284578637
+        threshold: 0.063993265993266
+      right:
+        feature: 42
+        gain: 0.003489146557777375
+        left:
+          value: -0.009356149576048375
+        right:
+          value: 0.00839371543885478
+        threshold: 0.12394577419601373
+      threshold: 1440.0
+    - feature: 8
+      gain: 0.0013242525467267174
+      left:
+        feature: 29
+        gain: 0.0009037635707927743
+        left:
+          value: -0.00108635858021636
+        right:
+          value: -0.006996935640369394
+        threshold: 0.5764067200708745
+      right:
+        feature: 10
+        gain: 0.0015752652651852828
+        left:
+          value: -0.0019312356782333396
+        right:
+          value: 0.0019831134408983815
+        threshold: 0.6945868602450465
+      threshold: 0.007855063752304514
+    - feature: 43
+      gain: 0.001301365733980847
+      left:
+        feature: 3
+        gain: 0.0018486991825626686
+        left:
+          value: 0.0010773671543805763
+        right:
+          value: -0.0050338895276439005
+        threshold: 16.104019572570433
+      right:
+        feature: 32
+        gain: 0.0006530677209250525
+        left:
+          value: -0.0011210393037319785
+        right:
+          value: -0.007612063980160458
+        threshold: 0.011106403241530897
+      threshold: 1.7766256613756615
+    - feature: 42
+      gain: 0.0010039960247583968
+      left:
+        feature: 1
+        gain: 0.0009012689460775603
+        left:
+          value: -0.003788689260088565
+        right:
+          value: 0.0007249195108817147
+        threshold: 154.0624694551937
+      right:
+        feature: 32
+        gain: 0.0017472717621505318
+        left:
+          value: 0.0014950698349780536
+        right:
+          value: -0.005225986275495537
+        threshold: 0.0208554822394569
+      threshold: 0.15346007244212506
+    - feature: 43
+      gain: 0.0010664752025195123
+      left:
+        feature: 31
+        gain: 0.001019147985642871
+        left:
+          value: -0.003273211167688157
+        right:
+          value: 0.0012642824350406914
+        threshold: 0.005189452662726971
+      right:
+        feature: 3
+        gain: 0.0009267902671271939
+        left:
+          value: -0.009380798939908251
+        right:
+          value: -0.0009943994062483288
+        threshold: 14.929894105306564
+      threshold: 1.773261904761905
+    - feature: 29
+      gain: 0.0017845576218017967
+      left:
+        feature: 40
+        gain: 0.001537040947362879
+        left:
+          value: -0.005418211361454657
+        right:
+          value: -0.00030546726791395005
+        threshold: 1.076356755722259
+      right:
+        feature: 19
+        gain: 0.0012756905366150678
+        left:
+          value: 0.0020397416751504784
+        right:
+          value: -0.0027057198256005043
+        threshold: 1.0
+      threshold: 0.5023479584574648
+    - feature: 29
+      gain: 0.0009093043814811796
+      left:
+        feature: 13
+        gain: 0.0014197422260294676
+        left:
+          value: -0.0002737989905725689
+        right:
+          value: -0.00551672678659326
+        threshold: -0.008524378386515492
+      right:
+        feature: 32
+        gain: 0.0013555025655576508
+        left:
+          value: 0.001273934523787689
+        right:
+          value: -0.0051090732316927834
+        threshold: 0.019905215481338577
+      threshold: 0.5008664015554247
+    - feature: 31
+      gain: 0.0012706691114546254
+      left:
+        feature: 3
+        gain: 0.001015780625481577
+        left:
+          value: -0.0026819837953805424
+        right:
+          value: 0.00046328111739927553
+        threshold: 15.0865521562306
+      right:
+        feature: 22
+        gain: 0.0021256071827733536
+        left:
+          value: 0.0013364497437269294
+        right:
+          value: 0.013757589096167205
+        threshold: 1.2509277170232656
+      threshold: 0.028027134332409723
+    - feature: 8
+      gain: 0.0010177402501621302
+      left:
+        feature: 3
+        gain: 0.0008377380904234771
+        left:
+          value: -0.006511952219783586
+        right:
+          value: -0.0008213713533197031
+        threshold: 15.09764833223745
+      right:
+        feature: 45
+        gain: 0.001619163854431671
+        left:
+          value: 0.0015958307404929863
+        right:
+          value: -0.0029498445860059903
+        threshold: 2.0428675183527343
+      threshold: 0.007863323333067095
+    - feature: 30
+      gain: 0.0008693547452845451
+      left:
+        feature: 5
+        gain: 0.0009842388608980526
+        left:
+          value: 0.004855707807438778
+        right:
+          value: -0.0017657246236900148
+        threshold: 0.2918996659590676
+      right:
+        feature: 4
+        gain: 0.0017136440910793527
+        left:
+          value: -0.0019604543416775967
+        right:
+          value: 0.0027561608097791943
+        threshold: 0.020823946503028486
+      threshold: 0.011169757624733026
+    - feature: 11
+      gain: 0.0008787319179631992
+      left:
+        feature: 53
+        gain: 0.0008873319347403874
+        left:
+          value: -0.0011406647878974515
+        right:
+          value: 0.0017433134753878257
+        threshold: 0.1111111111111111
+      right:
+        feature: 41
+        gain: 0.002786423005769291
+        left:
+          value: -0.008441837100687351
+        right:
+          value: 0.006410496766084883
+        threshold: 2.165599282442889
+      threshold: 1440.0
+    - feature: 30
+      gain: 0.0016559132265673293
+      left:
+        feature: 3
+        gain: 0.0015515663186631001
+        left:
+          value: -0.003452806661693885
+        right:
+          value: 0.0006965102571929395
+        threshold: 15.021846100759207
+      right:
+        feature: 16
+        gain: 0.0026353787350955754
+        left:
+          value: 0.010576622269370494
+        right:
+          value: 0.0011344721542150828
+        threshold: 0.07265873726819809
+      threshold: 0.019911285081523625
+    - feature: 30
+      gain: 0.0009136992389850995
+      left:
+        feature: 32
+        gain: 0.0011967558731909994
+        left:
+          value: -0.0011184913868681145
+        right:
+          value: 0.004443881195776615
+        threshold: 0.015162418598337578
+      right:
+        feature: 40
+        gain: 0.0026642717427667467
+        left:
+          value: 0.009689729773731377
+        right:
+          value: 0.00019596118749846953
+        threshold: 1.0364154760193436
+      threshold: 0.01996193397745717
+    - feature: 28
+      gain: 0.0009613456260635367
+      left:
+        feature: 46
+        gain: 0.001270128574462133
+        left:
+          value: -0.0034798164313941506
+        right:
+          value: 0.006227143813873469
+        threshold: 0.05859523809523811
+      right:
+        feature: 8
+        gain: 0.0013655853618591285
+        left:
+          value: -0.004678967159852254
+        right:
+          value: 0.00100696220477758
+        threshold: 0.007771278558144845
+      threshold: 0.0
+    - feature: 43
+      gain: 0.0010382545633343399
+      left:
+        feature: 45
+        gain: 0.0013317074428016717
+        left:
+          value: 0.004793297163461971
+        right:
+          value: -0.00028447886032528075
+        threshold: 0.6350329818710708
+      right:
+        feature: 45
+        gain: 0.0010070436916294334
+        left:
+          value: -0.0047052955760228474
+        right:
+          value: -0.000576650795712809
+        threshold: 0.6367926582913864
+      threshold: 1.4283650793650795
+v7_manifest_self_hash: 2a0402533fd994da80d70b7eb6561e510b4e8e97692960c6c88d6e913999ea91

@@ -1,0 +1,6 @@
+study: CONCORDIA v8
+component: deployment_thresholds
+traffic_rank_percentile_cutoff: 1.1
+unsafe_probability_threshold: 0.0
+regret_threshold: 0.08
+safety_delta: 0.25

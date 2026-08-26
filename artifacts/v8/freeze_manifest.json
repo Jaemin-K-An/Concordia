@@ -1,0 +1,44 @@
+{
+  "deployment_code_hashes": {
+    "scripts/v8_frozen.py": "6bdffbfffede42eb0ee5cbf52cd9b42f6692daaf929aa2c8bf850e284be336b5",
+    "src/concordia/safety_v8/calibration.py": "f8a62b68951896cdee38a36ee46502b3c7829748bf860495ab16cf70d0851e28",
+    "src/concordia/safety_v8/candidate_conditioned.py": "a145d7cde9025df0404d9f4e94d6fa6e5561b0adfecb05a32bd015b5d7a865d1",
+    "src/concordia/safety_v8/classifier.py": "8b6b3ddd4ab675ab981aedf7a468b4f44e757971097e5c8b983082ba41614a25",
+    "src/concordia/safety_v8/evaluation.py": "40296a2fa64756621a1d9c50017c5a8873d515403bbb07b27a28d9da9e3b83d3",
+    "src/concordia/safety_v8/features.py": "5dc37c8e77de734bb84aebcae4cb8e3b49d4aa70ae0925c96ac8955b315a3314",
+    "src/concordia/safety_v8/labels.py": "fdbf55ce75a261fd87220fe0784aba07ce6a4b714242d7b44ccc91e12eec5aa4",
+    "src/concordia/selective_v8/metrics.py": "13fde5e209ed6828633c4617589de54c6029da71d6bb9df5880032bb7b7c67cd",
+    "src/concordia/selective_v8/policy.py": "fddab045c16e618767d506a3bc5e1d6db4cbe105a36f2ffafde71e1a4fbd0d80",
+    "src/concordia/selective_v8/safety_filter.py": "2f3d482c5ca4b8860a7d7cc40d225ebb8a15f0f523e464253dd87b1660392e26",
+    "src/concordia/selective_v8/traffic_ranker.py": "6acfbfef7e60b403a00cb04397f3c97e3f380fe09ee7a1f00e477b54f4500939"
+  },
+  "development_artifact_hashes": {
+    "artifacts/studies/v8_policy_validation/frontier.json": "dd07e76fd31ef74d6026c59e5b55d6fedce6f3d15d1805d5ea80c1ae721ac972",
+    "artifacts/studies/v8_policy_validation/selected_policy.json": "038a54b8268bd8e3591748969b859ce2677c4f9386e25c619f94f4fbcb2e4b95",
+    "artifacts/studies/v8_policy_validation/summary.json": "53fb34593372a62190ae398fdf2d078593811fa55814621afbeff41bff7b8dc6",
+    "artifacts/studies/v8_safety_dataset/dataset_summary.json": "75e39cea53a697c8d1411f83b516898e1ff1eefab3001c271e985084dab8e474",
+    "artifacts/studies/v8_safety_dataset/raw_metrics.json": "a5da1f9f593e32fd2452e9d33a4641cfb7d7b49811c9485baa98a0252fbef2cc",
+    "artifacts/studies/v8_safety_model_selection/model_comparison.json": "014724791ca911c9df2aa12553425048886044bc0f0c3b718b0311ac41ccaf03",
+    "artifacts/studies/v8_safety_model_selection/state_vs_action.json": "a39b0546a474a62de2bfb1865663adff0e6b94fc403b0f56d0332c185b7d995e",
+    "artifacts/studies/v8_traffic_ranking/summary.json": "54ecf95b19716441720364559499c8d2cd298f78573476e0fbfe75989b5fb3e5"
+  },
+  "feature_schema_hash": "16018423600ee505a3c719273931c0a19bfeacb32f5bfa79ae591ed91eba288a",
+  "final_holdout_evaluated": false,
+  "frozen_before_final_evaluation": true,
+  "frozen_config_hashes": {
+    "configs/v8/frozen_policy.yaml": "335fd02a92ccd1319a58820fc6a0e423414ae47a5f78a267a69b1ee569bf0c87",
+    "configs/v8/frozen_regret_model.yaml": "b03a3379646a4dc2d4b86b88eb49966192c64c200c489f454727e4e007a3d865",
+    "configs/v8/frozen_safety_calibration.yaml": "f94b5dba3f8d78a9927cde2a1e8c0f9ec246f361e84f18daefa7d991f44cfd29",
+    "configs/v8/frozen_safety_classifier.yaml": "debe7ad79c150103be0d99a0e3e09c8479f3c7ed589b6dbfe6652de8ccc5006e",
+    "configs/v8/frozen_thresholds.yaml": "f5dd74f8f6f97926f9eee3371e1de39e7a1ea74b44a6932354c90e3257912f71",
+    "configs/v8/frozen_traffic_ranker.yaml": "edd5ce441b642cb710b5179ab359f7eee3c1baa90bb1bea3405db1be30654892"
+  },
+  "manifest_self_hash": "3e2c5b173dad223e5aa6a4a137a85871f1eca60d8f5212257aef17462f7e2ece",
+  "outcome_definition_hash": "7655c44b5162b61b13c21dc1590ff9c27d0f5d5b49211e4b43e3c7e36c91fb95",
+  "policy_definition_hash": "335fd02a92ccd1319a58820fc6a0e423414ae47a5f78a267a69b1ee569bf0c87",
+  "rl_used": false,
+  "split_definition_hash": "718336ea3fa14bab97aa0970d753e1a43e1ea1c74c2e602dc006440b0f63060a",
+  "study": "CONCORDIA v8 safety-filtered uplift ranking",
+  "unsafe_label_hash": "8e4ce439085fa66960d7bf1c3d8d397b272450c9738d251108a6c92921bbde16",
+  "v7_manifest_self_hash": "2a0402533fd994da80d70b7eb6561e510b4e8e97692960c6c88d6e913999ea91"
+}

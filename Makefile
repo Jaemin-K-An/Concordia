@@ -3,6 +3,7 @@ RUN_CONFIG ?= configs/experiments/smoke.yaml
 
 .PHONY: setup lint test benchmark experiment research rl-gate rl-evaluate conditional-rl report report-v2 phase-reports audit audit-v2 sumo-check sumo-ring-build sumo-ring-run simulation-test phantom-calibrate alignment-study microscopic-study real-topology-study scalability-study drift-study v3-audit v3-dataset feasibility-train feasibility-validate freeze-thresholds v3-holdout v3-microscopic v3-real-topology v3-tail-study v3-report v3-final-audit v4-audit v4-dataset v4-train v4-robust-cv v4-calibrate v4-benefit-model v4-safety-model v4-select-threshold v4-freeze v4-holdout v4-microscopic v4-real-topology v4-stress v4-report v4-final-audit v5-audit v5-dataset v5-regime-discovery v5-train v5-shift-model v5-calibrate v5-micro-dataset v5-micro-correction v5-safety-veto v5-validate v5-freeze v5-holdout v5-microscopic v5-real-topology v5-stress v5-report v5-final-audit v6-audit v6-micro-design v6-micro-dataset v6-label v6-train v6-temporal-model v6-safety-model v6-calibrate v6-select-threshold v6-validate v6-freeze v6-analytical-holdout v6-microscopic-holdout v6-real-topology v6-failure-analysis v6-report v6-final-audit clean
 .PHONY: v7-audit v7-paired-dataset v7-effect-labels v7-train-uplift v7-train-safety-effect v7-train-regret v7-quantiles v7-conformal v7-validate v7-placebo v7-ablation v7-freeze v7-microscopic-holdout v7-analytical-check v7-real-topology v7-failure-analysis v7-report v7-final-audit
+.PHONY: v8-audit v8-safety-dataset v8-action-features v8-train-safety v8-calibrate-safety v8-traffic-ranking-check v8-integrate-policy v8-validate v8-ablation v8-freeze v8-microscopic-holdout v8-real-topology v8-failure-analysis v8-report v8-final-audit
 
 setup:
 	$(PYTHON) -m pip install -e '.[dev,analysis]'
@@ -302,6 +303,47 @@ v7-report:
 
 v7-final-audit:
 	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v7_final_audit.py
+
+v8-audit:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v8_audit.py
+
+v8-safety-dataset:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/build_v8_safety_dataset.py
+
+v8-action-features: v8-safety-dataset
+	PYTHONPATH=src:scripts $(PYTHON) -m unittest discover -s tests -p 'test_v8_safety.py' -v
+
+v8-train-safety:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/train_v8_safety_policy.py
+
+v8-calibrate-safety: v8-train-safety
+
+v8-traffic-ranking-check: v8-train-safety
+
+v8-integrate-policy: v8-train-safety
+
+v8-validate: v8-train-safety
+	PYTHONPATH=src:scripts $(PYTHON) -m unittest discover -s tests -p 'test_v8_safety.py' -v
+
+v8-ablation: v8-train-safety
+
+v8-freeze:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/freeze_v8.py
+
+v8-microscopic-holdout:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v8_microscopic_holdout.py
+
+v8-real-topology:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v8_real_topology.py
+
+v8-failure-analysis:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/build_v8_failure_analysis.py
+
+v8-report:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/build_final_report_v8.py
+
+v8-final-audit:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v8_final_audit.py
 
 clean:
 	find src tests -type d -name __pycache__ -prune -exec rm -r {} +

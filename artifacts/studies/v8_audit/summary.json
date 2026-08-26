@@ -1,0 +1,15 @@
+{
+  "action_aware_feature_count": 88,
+  "development_final_seed_overlap": [],
+  "final_holdout_exists": true,
+  "final_holdout_exists_without_v8_freeze": false,
+  "forbidden_feature_names": [],
+  "passed": true,
+  "rl_used": false,
+  "study": "CONCORDIA v8 pre-final integrity audit",
+  "v7_manifest_file_hash": "5c27da4f75bb2efb74c20a053071d35f6a181d78a7033a174bd5a6859def5842",
+  "v7_manifest_self_hash": "2a0402533fd994da80d70b7eb6561e510b4e8e97692960c6c88d6e913999ea91",
+  "v7_manifest_verified": true,
+  "v7_v8_final_seed_overlap": [],
+  "v8_preregistration_exists": true
+}

@@ -1,0 +1,342 @@
+{
+  "complete": true,
+  "mechanism_evidence_is_paired_or_predecision_proxy": true,
+  "microscopic_final": {
+    "counts": {
+      "low_rank_abstention": 329,
+      "missed_safe_success": 71
+    },
+    "examples": [
+      {
+        "pair_id": "v8-final-S01-s1201",
+        "realized_uplift": -0.034023668639053255,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.017999331535985146,
+        "safety_effect": -0.29257506494437235,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.033034959914559306,
+        "unsafe_probability": 0.3098339951896629
+      },
+      {
+        "pair_id": "v8-final-S01-s1213",
+        "realized_uplift": 0.042756330427563306,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.018004744561180203,
+        "safety_effect": -1.7185282225437684,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.03816837134944018,
+        "unsafe_probability": 0.31508173074787843
+      },
+      {
+        "pair_id": "v8-final-S01-s1217",
+        "realized_uplift": -0.1518781725888325,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.057599208714911275,
+        "safety_effect": 3.52931001997212,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.031076763417663338,
+        "unsafe_probability": 0.2845382950517297
+      },
+      {
+        "pair_id": "v8-final-S01-s1223",
+        "realized_uplift": 0.06763379729464811,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.0,
+        "safety_effect": -0.5698172417054894,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.04087902189258779,
+        "unsafe_probability": 0.30512487736099575
+      },
+      {
+        "pair_id": "v8-final-S01-s1229",
+        "realized_uplift": -0.10046027616569941,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.04529761220697374,
+        "safety_effect": 0.44557105611964865,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.04793408772152767,
+        "unsafe_probability": 0.31434666525280647
+      },
+      {
+        "pair_id": "v8-final-S01-s1231",
+        "realized_uplift": 0.039934466516485766,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.0,
+        "safety_effect": -0.6710087046634639,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.040900696051787234,
+        "unsafe_probability": 0.28537876690290054
+      },
+      {
+        "pair_id": "v8-final-S01-s1237",
+        "realized_uplift": -0.044999017488701124,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.06857013713160273,
+        "safety_effect": -0.21291142559284726,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.042225845148983664,
+        "unsafe_probability": 0.2925751237235792
+      },
+      {
+        "pair_id": "v8-final-S01-s1249",
+        "realized_uplift": 0.03221980628582724,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.007609989117994868,
+        "safety_effect": -0.2061408163866032,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.03524619059145297,
+        "unsafe_probability": 0.2882125805882042
+      },
+      {
+        "pair_id": "v8-final-S01-s1259",
+        "realized_uplift": 0.015904572564612324,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.014244309558200094,
+        "safety_effect": 0.14516341295175605,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.02681401636350645,
+        "unsafe_probability": 0.2910814398063147
+      },
+      {
+        "pair_id": "v8-final-S01-s1277",
+        "realized_uplift": -0.038461538461538464,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.07996881992236675,
+        "safety_effect": 0.25791693204982113,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.04363985402901212,
+        "unsafe_probability": 0.3162632124720002
+      },
+      {
+        "pair_id": "v8-final-S01-s1279",
+        "realized_uplift": 0.06806769574111958,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.05551874396809725,
+        "safety_effect": -0.9690701947899765,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.03467312714770023,
+        "unsafe_probability": 0.30788682599914463
+      },
+      {
+        "pair_id": "v8-final-S01-s1283",
+        "realized_uplift": 0.09013824884792626,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.06718772896875844,
+        "safety_effect": -0.6684395426429814,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.032444313786123044,
+        "unsafe_probability": 0.3027219658802563
+      },
+      {
+        "pair_id": "v8-final-S01-s1289",
+        "realized_uplift": -0.07667538740189173,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.024770909310046482,
+        "safety_effect": 0.020690025162726222,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.036327131194864505,
+        "unsafe_probability": 0.3032613946769428
+      },
+      {
+        "pair_id": "v8-final-S01-s1291",
+        "realized_uplift": -0.0635089209855565,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.05548231337447687,
+        "safety_effect": 0.06716094324779975,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.03673858790039419,
+        "unsafe_probability": 0.283853729062314
+      },
+      {
+        "pair_id": "v8-final-S01-s1297",
+        "realized_uplift": 0.004564315352697096,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.07903102841119931,
+        "safety_effect": -1.1316665803559651,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.027002585307542057,
+        "unsafe_probability": 0.2635935275462556
+      },
+      {
+        "pair_id": "v8-final-S01-s1307",
+        "realized_uplift": 0.019473081328751432,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.07197279854835897,
+        "safety_effect": 0.08669960330926374,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.042754447294076514,
+        "unsafe_probability": 0.2906573048125897
+      }
+    ]
+  },
+  "real_topology": {
+    "counts": {
+      "low_rank_abstention": 107,
+      "missed_safe_success": 13
+    },
+    "examples": [
+      {
+        "pair_id": "v8-real-od0-s1361-d660-p0.75",
+        "realized_uplift": -0.3983926521239954,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.06286427046326763,
+        "safety_effect": 0.14544443987547417,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.01469493791931114,
+        "unsafe_probability": 0.1469310282231591
+      },
+      {
+        "pair_id": "v8-real-od0-s1361-d660-p1.00",
+        "realized_uplift": -0.3513203214695752,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.053555742754551695,
+        "safety_effect": 0.1563758738847958,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.013575648769852688,
+        "unsafe_probability": 0.18033438283071307
+      },
+      {
+        "pair_id": "v8-real-od0-s1367-d660-p0.75",
+        "realized_uplift": -0.31802120141342755,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.02434638368593048,
+        "safety_effect": -0.0006814918484607801,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.013447240325776226,
+        "unsafe_probability": 0.14794345037058282
+      },
+      {
+        "pair_id": "v8-real-od0-s1367-d660-p1.00",
+        "realized_uplift": -0.28975265017667845,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.057238954810366637,
+        "safety_effect": -0.14661691159872725,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.012433939314429904,
+        "unsafe_probability": 0.17827630686204635
+      },
+      {
+        "pair_id": "v8-real-od0-s1361-d780-p0.75",
+        "realized_uplift": -0.3899803536345776,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.04623184243932424,
+        "safety_effect": 0.09847105307692972,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.013511911041427259,
+        "unsafe_probability": 0.15311894155123273
+      },
+      {
+        "pair_id": "v8-real-od0-s1361-d780-p1.00",
+        "realized_uplift": -0.25736738703339884,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.06850779697867844,
+        "safety_effect": 0.0507069142855896,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.012392621891968814,
+        "unsafe_probability": 0.18188232490125353
+      },
+      {
+        "pair_id": "v8-real-od0-s1367-d780-p0.75",
+        "realized_uplift": -0.3753784056508577,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.03742104916778685,
+        "safety_effect": 0.0375358399335457,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.013447240325776226,
+        "unsafe_probability": 0.153642904608091
+      },
+      {
+        "pair_id": "v8-real-od0-s1367-d780-p1.00",
+        "realized_uplift": -0.3087790110998991,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.057227984898102484,
+        "safety_effect": 0.32296686432650823,
+        "taxonomy": "low_rank_abstention",
+        "traffic_score": -0.012327951176317775,
+        "unsafe_probability": 0.18479735149959453
+      },
+      {
+        "pair_id": "v8-real-od8-s1367-d780-p1.00",
+        "realized_uplift": 0.023536895674300253,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.058601354809573514,
+        "safety_effect": -3.662956796027581,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.012444975103983241,
+        "unsafe_probability": 0.18259295397561787
+      },
+      {
+        "pair_id": "v8-real-od10-s1361-d660-p0.75",
+        "realized_uplift": 0.12532204637467795,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.07692908144461037,
+        "safety_effect": -4.231371037389738,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.011662244739950067,
+        "unsafe_probability": 0.25445681281552784
+      },
+      {
+        "pair_id": "v8-real-od10-s1361-d660-p1.00",
+        "realized_uplift": 0.12532204637467795,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.07692908144461037,
+        "safety_effect": -4.231371037389738,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.010648943728603746,
+        "unsafe_probability": 0.2865793721481836
+      },
+      {
+        "pair_id": "v8-real-od10-s1367-d660-p1.00",
+        "realized_uplift": 0.23338566195709054,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.05598259789842179,
+        "safety_effect": -6.753530630537494,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.009972948001966304,
+        "unsafe_probability": 0.28843101095533363
+      },
+      {
+        "pair_id": "v8-real-od10-s1361-d780-p0.75",
+        "realized_uplift": 0.13893831553973904,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.07692908144461034,
+        "safety_effect": -2.620738652712074,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.0076177269366189525,
+        "unsafe_probability": 0.26500577520291774
+      },
+      {
+        "pair_id": "v8-real-od10-s1361-d780-p1.00",
+        "realized_uplift": 0.020759193357058125,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.07692908144461034,
+        "safety_effect": -0.7207030206138167,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.006604425925272632,
+        "unsafe_probability": 0.2852548900261936
+      },
+      {
+        "pair_id": "v8-real-od12-s1367-d660-p0.75",
+        "realized_uplift": 0.21384750219106047,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.0420580934056559,
+        "safety_effect": -5.22643536857199,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.008630595046801299,
+        "unsafe_probability": 0.27065930866527155
+      },
+      {
+        "pair_id": "v8-real-od12-s1367-d660-p1.00",
+        "realized_uplift": 0.21647677475898336,
+        "reason": "traffic_rank_below_cutoff",
+        "regret": 0.0420580934056559,
+        "safety_effect": -5.297005189246677,
+        "taxonomy": "missed_safe_success",
+        "traffic_score": -0.007617294035454979,
+        "unsafe_probability": 0.2908854866327757
+      }
+    ]
+  },
+  "rl_used": false,
+  "unsafe_mechanism_profile_count": 20
+}

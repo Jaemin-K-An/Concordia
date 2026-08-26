@@ -1,0 +1,16 @@
+{
+  "labels_unchanged_by_acquisition": true,
+  "new_pair_stratum_counts": {
+    "boundary": 200,
+    "hard_safe": 125,
+    "hard_unsafe": 150,
+    "ordinary": 25
+  },
+  "registered_boundary_budget_fraction": 0.7,
+  "template_stratum_counts": {
+    "boundary": 8,
+    "hard_safe": 5,
+    "hard_unsafe": 6,
+    "ordinary": 1
+  }
+}

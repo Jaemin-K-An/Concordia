@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
-  <strong>Counterfactual uplift-guided, safety-gated adaptive navigation.</strong><br />
-  Predict the paired effect of intervening—or preserve the ETA baseline when the evidence is insufficient.
+  <strong>Safety-filtered uplift ranking for voluntary adaptive navigation.</strong><br />
+  Rank paired traffic benefit, veto unsafe proposed actions—or preserve the ETA baseline when evidence is insufficient.
 </p>
 
 <p align="center">
   <img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-111111?style=flat-square" />
   <img alt="SUMO 1.27.1" src="https://img.shields.io/badge/SUMO-1.27.1-404040?style=flat-square" />
-  <img alt="Tests 90 passing" src="https://img.shields.io/badge/tests-90%20passing-111111?style=flat-square" />
-  <img alt="Uplift v7 Outcome F" src="https://img.shields.io/badge/uplift%20v7-Outcome%20F-a43f32?style=flat-square" />
+  <img alt="Tests passing" src="https://img.shields.io/badge/tests-passing-111111?style=flat-square" />
+  <img alt="Safety-filtered v8 Outcome F" src="https://img.shields.io/badge/safety--filtered%20v8-Outcome%20F-a43f32?style=flat-square" />
   <img alt="RL gate Outcome B" src="https://img.shields.io/badge/RL%20gate-Outcome%20B-737373?style=flat-square" />
 </p>
 
@@ -28,19 +28,19 @@
 > [!IMPORTANT]
 > CONCORDIA recommends legal routes using truthful computed attributes. It never controls
 > speed, steering, acceleration, or lane changes. A route is changed only after the modeled
-> user explicitly accepts the offer. v7 predicts paired traffic and safety treatment effects plus
-> maximum regret from 54 strictly pre-decision features. It intervenes only when the traffic-effect
-> lower bound exceeds 1%, the safety-effect upper bound is at most 0.25, predicted regret is at
-> most 0.08, and the route is legal. Development validation found no eligible non-empty point, so
-> the frozen package safely abstains. Its final result is Outcome F, not a deployment claim.
+> user explicitly accepts the offer. v8 preserves the v7 paired traffic-uplift ranker, then applies
+> a calibrated action-aware classifier for `Risk(Adaptive) > Risk(B1) + 0.25`, the v7 regret model,
+> and a legal-execution gate. All 88 inputs are pre-decision state or proposed-action expectations;
+> realized treatment values are forbidden. Development validation found no eligible non-empty
+> point, so the frozen package safely abstains. Its result is Outcome F, not a deployment claim.
 
 ## System
 
-CONCORDIA v7 asks a counterfactual question: for this pre-decision state, how much would applying
-Adaptive Navigation change total travel time, safety-tail risk, and affected-user regret compared
-with the B1 ETA baseline? It estimates these effects from common-random-number paired SUMO runs,
-uses conservative lower/upper uncertainty bounds, and otherwise falls back to B1. The previous
-SafeMicroSuccess binary label remains an evaluation diagnostic rather than the primary selector.
+CONCORDIA v8 asks two ordered counterfactual questions: which proposed intervention has the
+highest paired traffic benefit, and which proposed intervention is unsafe enough to veto? It
+learns from common-random-number paired SUMO runs, ranks benefit with the immutable v7 model,
+and classifies safety using state plus the proposed reroute's expected exposure/load changes.
+SafeMicroSuccess remains the final joint evaluation label rather than a classifier input.
 
 | Behavioral layer | Adaptive layer | Research layer |
 |---|---|---|
@@ -95,15 +95,26 @@ SafeMicroSuccess binary label remains an evaluation diagnostic rather than the p
   sign accuracy, cumulative gain, ablations, and topology/demand/penetration family holdouts.
 - Five frozen v7 YAML packages plus a manifest covering features, outcomes, split, learned models,
   intervals, thresholds, policy code, and all development artifacts before any v7 final evidence.
+- An 88-feature v8 action-aware safety schema: 54 preserved state features, safety-tail precursor
+  proxies and interactions, traffic score/rank conditioning, and proposed reroute exposure/load
+  features computed before treatment.
+- 2,000 paired safety-development conditions with 379 unsafe labels: 1,500 promoted v7 pairs plus
+  500 newly executed SUMO pairs, split by 100 seed families into 1,200/300/500 train/calibration/
+  validation roles with zero pairing failures or future-state leakage.
+- State and interaction logistic regression, random forest, gradient boosting, calibrated/cost-
+  sensitive variants, raw/Platt/isotonic/beta calibration, risk-controlled thresholds, critical-
+  group recall, PR-AUC, ECE/Brier, cumulative-gain, NDCG, and policy-frontier diagnostics.
+- Six frozen v8 YAML packages and a checksum manifest created before 400 new microscopic pairs
+  and 120 paired conditions across 15 new Gangnam OSM OD pairs were evaluated.
 
 ## Architecture
 
 ```mermaid
 flowchart LR
     A["Topology · demand · preferences"] --> B["30 s pre-decision SUMO state"]
-    B --> C["54-feature v7 schema"]
-    C --> D["Traffic LCB · safety UCB · regret UCB"]
-    D --> E{"All frozen counterfactual gates pass?"}
+    B --> C["88-feature v8 state + proposed-action schema"]
+    C --> D["Frozen v7 traffic uplift rank"]
+    D --> E{"Calibrated unsafe veto · regret ≤ 0.08 · legal?"}
     E -->|"no"| F["B1 ETA baseline · abstain"]
     E -->|"yes"| G["B6 voluntary route offer"]
     G --> H{"User accepts?"}
@@ -222,6 +233,23 @@ make v7-real-topology
 make v7-failure-analysis
 make v7-report
 make v7-final-audit
+
+# v8 safety-filtered uplift-ranking preregistered sequence
+make v8-audit
+make v8-safety-dataset
+make v8-action-features
+make v8-train-safety
+make v8-calibrate-safety
+make v8-traffic-ranking-check
+make v8-integrate-policy
+make v8-validate
+make v8-ablation
+make v8-freeze
+make v8-microscopic-holdout
+make v8-real-topology
+make v8-failure-analysis
+make v8-report
+make v8-final-audit
 ```
 
 Install the official SUMO/TraCI optional dependencies before microscopic validation:
@@ -234,6 +262,40 @@ The fast test suite does not open SUMO. CI separates analytical, microscopic, an
 dispatched research-matrix workflows.
 
 ## Research status
+
+v8 used **2,000 paired development conditions**, including 500 newly executed SUMO pairs and
+379 registered unsafe outcomes. The selected action-aware safety model improved validation PR-AUC
+from **0.476** (state only) to **0.526** and reduced the risk-controlled false-safe rate from
+**0.0164** to **0.0060**. This did not solve deployment selection: none of 150 evaluated policy
+points jointly met zero safety violations, precision ≥80%, support ≥20, and unsafe recall ≥95%.
+The preregistered fallback therefore froze safe abstention before final evidence was materialized.
+
+On the **400-pair untouched microscopic holdout**, 71 safe opportunities and 91 unsafe Adaptive
+counterfactuals existed. Traffic ranking retained a measurable signal: Spearman was **0.407** and
+top-10% mean uplift was **+0.761%**, versus **−1.397%** for the population. Safety PR-AUC was
+**0.450**. V8-F intervened zero times. Always-on B6 had 17.75% precision and 91 unsafe outcomes;
+reconstructed V7-Mean made 13 interventions at 53.85% precision with one unsafe outcome.
+
+The OSM bridge used **15 new Gangnam OD pairs**, 120 paired conditions, and 360 SUMO runs including
+pre-decision probes. It contained 13 safe opportunities, but V8-F recovered none. Traffic ranking
+did not transfer: Spearman was **−0.414** and top-10% uplift was negative. The final decision is
+**Outcome F**. See the [v8 final research report](reports/v8_final_report.md) and
+[final audit](FINAL_AUDIT_V8.md).
+
+| v8 hypothesis | Status | Finding |
+|---|---|---|
+| H45 · Unsafe classification lowers FSR vs safety regression | **PASS on validation** | The calibrated classifier reduced diagnostic false-safe interventions. |
+| H46 · Ranker + unsafe classifier improves over v7 mean | **FAIL** | Frozen V8-F was empty; final V7-Mean reached 53.85% precision but was unsafe once. |
+| H47/H48 · Precision ≥80% and coverage ≥8% | **FAIL** | Frozen precision and coverage were both 0 by non-empty-claim convention. |
+| H49 · Final safety violations are zero | **PASS** | Safe abstention executed only B1. |
+| H50 · Final ORR ≥35% | **FAIL** | ORR was 0. |
+| H51 · Unsafe recall ≥95% | **PASS at zero tolerance** | Final recall was 1.0 with specificity 0 and no admitted candidate. |
+| H52 · At least one safe OSM intervention | **FAIL** | OSM interventions and recovered safe successes were both 0. |
+| H53 · Action-aware beats state-only | **PASS on validation** | Both PR-AUC and risk-controlled false-safe rate improved. |
+| H54 · Final traffic top-10% beats population | **PASS** | +0.761% versus −1.397%. |
+| H55 · Filter reaches precision80 with ≥70% success retention | **FAIL** | No non-empty validation policy met the joint target. |
+
+### Preserved v7 outcome
 
 v7 used **1,200 paired development cases / 2,400 underlying actual SUMO runs**, including 221
 SafeMicroSuccess diagnostics. Direct paired random-forest regression beat the more elaborate
@@ -380,6 +442,10 @@ it behind an aggregate objective.
 
 ### Microscopic and real-topology boundary
 
+- The v8 actual-SUMO final holdout contained 400 new paired cases. V8-F safely abstained; the
+  top-10% traffic ranking was positive, but no deployable precision/coverage claim was available.
+- The v8 real-geometry bridge used 15 new OD pairs and 120 paired conditions. Ranking reversed
+  and V8-F recovered none of 13 safe opportunities; this is synthetic demand on real geometry.
 - The v5 actual-SUMO final holdout contained 100 paired cases. V5-F made ten interventions, one
   succeeded, and one incurred a surrogate safety violation; an adaptive success claim is forbidden.
 - The v5 real-geometry study used six stratified passenger-legal OD pairs. V5-F abstained in all
@@ -430,6 +496,12 @@ remains a recorded failure tail even though median Gate C did not trigger.
 
 | Artifact | Contents |
 |---|---|
+| [`FINAL_AUDIT_V8.md`](FINAL_AUDIT_V8.md) | Six-package freeze, 2,000 development pairs, 400 untouched final pairs, 15-OD OSM transfer, H45–H55, and Outcome F |
+| [`reports/v8_final_report.md`](reports/v8_final_report.md) | Concise v8 research report and claim boundary |
+| [`v8_micro_holdout/summary.json`](artifacts/studies/v8_micro_holdout/summary.json) | New 400-pair final evaluation, architecture comparison, rank and safety metrics |
+| [`v8_real_topology/summary.json`](artifacts/studies/v8_real_topology/summary.json) | Fifteen new OSM OD pairs and 120 paired transfer conditions |
+| [`v8_failure_analysis/summary.json`](artifacts/studies/v8_failure_analysis/summary.json) | Failure taxonomy and mechanism diagnostics |
+| [`v8/freeze_manifest.json`](artifacts/v8/freeze_manifest.json) | Six frozen packages plus development/code checksums created before final evaluation |
 | [`FINAL_AUDIT_V5.md`](FINAL_AUDIT_V5.md) | Five-package freeze, H21–H28, untouched analytical/stress/SUMO/OSM holdouts, transparent metric correction, and Outcome F |
 | [`artifacts/report.html`](artifacts/report.html) | Current v5 paper-style outcome report |
 | [`v5_frozen_holdout/summary.json`](artifacts/studies/v5_frozen_holdout/summary.json) | Untouched 1,024-case analytical holdout and policy ablations |
