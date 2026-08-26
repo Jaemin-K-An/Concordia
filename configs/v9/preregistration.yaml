@@ -1,0 +1,44 @@
+study: CONCORDIA_v9_multi_action_counterfactual_optimization
+registered_at_utc: 2026-08-26T00:00:00Z
+immutable_predecessor_commit: efb59364e1ff3c543c01aa282ba8c4ad05c8ab31
+immutable_v8_manifest_self_hash: 3e2c5b173dad223e5aa6a4a137a85871f1eca60d8f5212257aef17462f7e2ece
+primary_question: What preference-feasible intervention should be made in this state?
+primary_domain: synthetic_actual_SUMO_microscopic
+secondary_domain: real_OSM_geometry_with_synthetic_demand
+minimum_relative_benefit: 0.005
+safety_delta: 0.25
+maximum_regret: 0.08
+gates:
+  A_actionability: {metric: oracle_actionability_rate, minimum: 0.40, recommended: 0.50}
+  B_candidate_recall: {metric: top_5_oracle_recall, minimum: 0.80, stretch: 0.90}
+  C_rollout_discrimination: {metric: safe_beneficial_precision, minimum: 0.70}
+  D_deployment_feasibility: {minimum_interventions: 20, minimum_precision: 0.80, safety_violations: 0}
+final_targets:
+  deployment_precision: 0.80
+  coverage: 0.10
+  interventions: 40
+  safety_violations: 0
+  opportunity_realization_rate: 0.40
+  median_oracle_capture_ratio: 0.60
+  action_improvement_rate_over_B6: 0.60
+outcomes:
+  S_plus: {precision: 0.85, coverage: 0.15, safety_violations: 0, opportunity_realization_rate: 0.55, interventions: 60, mean_network_ttt_gain_strictly_positive: true}
+  S: {precision: 0.80, coverage: 0.10, safety_violations: 0, opportunity_realization_rate: 0.40, interventions: 40}
+  P: {precision: 0.70, coverage_strictly_positive: true, safety_violations: 0}
+  F: {otherwise: true}
+final_holdout_single_use: true
+final_threshold_changes_forbidden: true
+osm_is_primary_success_criterion: false
+rl_decision: NO
+hypotheses:
+  H56: Multi-action development OAR exceeds single-B6 safe-success rate.
+  H57: Top-5 candidate recall of the oracle-best safe action is at least 0.80.
+  H58: Digital-twin lookahead improves precision over surrogate-only selection.
+  H59: V9-selected actions have higher mean realized TTT gain than B6 actions.
+  H60: Frozen microscopic precision is at least 0.80.
+  H61: Frozen microscopic coverage is at least 0.10.
+  H62: Frozen microscopic safety violations equal zero.
+  H63: Frozen microscopic ORR is at least 0.40.
+  H64: Preference-Slack-constrained selection outperforms random feasible-user selection.
+  H65: At least one state has an interior optimal diversion intensity.
+

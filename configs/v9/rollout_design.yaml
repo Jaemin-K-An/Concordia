@@ -1,0 +1,20 @@
+initial_top_M: 5
+initial_rollout_replicas: 3
+candidate_horizons_seconds: [120, 240]
+initial_horizon_seconds: 120
+rollout_seed_floor: 20000
+rollout_seed_algorithm: sha256_state_id_action_id_replica_mod_100000_plus_floor
+evaluation_seed_overlap_forbidden: true
+robust_benefit_variance_penalties: [0.0, 0.25, 0.50, 1.00]
+unsafe_probability_thresholds: [0.01, 0.02, 0.03, 0.05, 0.075, 0.10, 0.15, 0.20]
+minimum_relative_benefit: 0.005
+maximum_regret: 0.08
+safety_delta: 0.25
+latency_p95_seconds_target: 5.0
+latency_p95_seconds_stretch: 3.0
+mismatch_stress:
+  demand_multiplier: [0.90, 1.10]
+  acceptance_multiplier: [0.90, 1.10]
+  car_following_parameter_shift_fraction: [-0.10, 0.10]
+  reaction_time_shift_fraction: [-0.10, 0.10]
+

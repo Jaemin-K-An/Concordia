@@ -1,0 +1,11 @@
+{
+  "development_state_count": 500,
+  "final_holdout_materialized": false,
+  "final_state_count_declared": 500,
+  "immutable_v8_commit": "efb59364e1ff3c543c01aa282ba8c4ad05c8ab31",
+  "immutable_v8_manifest_self_hash": "3e2c5b173dad223e5aa6a4a137a85871f1eca60d8f5212257aef17462f7e2ece",
+  "maximum_repair_rounds": 3,
+  "minimum_action_candidate_count": 25,
+  "preregistration_complete": true,
+  "rl_decision": "NO"
+}

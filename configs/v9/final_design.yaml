@@ -1,0 +1,12 @@
+study: v9_single_use_untouched_microscopic_holdout
+final_state_count: 500
+final_seeds: [1601, 1607, 1609, 1613, 1619, 1621, 1627, 1637, 1657, 1663, 1667, 1669, 1693, 1697, 1699, 1709, 1721, 1723, 1733, 1741, 1747, 1753, 1759, 1777, 1783]
+condition_templates_source: configs/v9/development_design.yaml
+prior_v8_final_seed_overlap_allowed: false
+development_seed_overlap_allowed: false
+realized_evaluation_seed_is_condition_seed: true
+rollout_seed_generation: sha256_state_id_action_id_replica_mapped_above_20000
+rollout_evaluation_seed_overlap_allowed: false
+materialize_only_after_gates_A_B_C_D_and_freeze: true
+single_materialization_only: true
+

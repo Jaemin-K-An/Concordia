@@ -1,0 +1,27 @@
+maximum_rounds: 3
+round_1_action_space:
+  trigger: oracle_actionability_rate_below_0.40
+  allowed_changes:
+    - add_intensities_0.025_0.075_0.125_0.175_0.225_0.275_0.35
+    - expand_deterministic_hybrid_user_subsets
+    - increase_route_split_entropy_diversity
+round_2_ranking:
+  trigger: actionability_passes_but_top5_oracle_recall_below_0.80
+  allowed_changes:
+    - add_registered_state_action_interactions
+    - compare_pairwise_within_state_ranking
+    - increase_top_M_from_5_to_7_for_development_only_comparison
+round_3_rollout_safety:
+  trigger: topM_passes_but_gate_C_or_D_fails
+  allowed_changes:
+    - compare_rollout_horizon_120_and_240_seconds
+    - increase_rollout_replicas_from_3_to_5
+    - select_registered_calibration_method
+    - strengthen_robust_variance_penalty
+forbidden:
+  - change_safety_delta
+  - change_maximum_regret
+  - lower_precision_target
+  - inspect_or_replace_final_seeds
+  - modify_action_library_from_final_evidence
+

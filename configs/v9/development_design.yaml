@@ -1,0 +1,40 @@
+study: v9_development_actionability_and_state_action_learning
+development_state_count: 500
+development_seeds: [1409, 1423, 1427, 1429, 1433, 1439, 1447, 1451, 1453, 1459, 1471, 1481, 1483, 1487, 1489, 1493, 1499, 1511, 1523, 1531, 1543, 1549, 1553, 1559, 1567]
+development_split_seed: 20260827
+development_split_by_seed_family: {train: 0.60, calibration: 0.16, validation: 0.24}
+exhaustive_oracle_state_count: 100
+remaining_state_actual_candidate_budget: 8
+action_candidate_count_including_null: 25
+intensity_candidates: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30]
+user_selection_strategies: [U1_lowest_slack, U2_highest_marginal_benefit, U3_highest_VDE, U4_ETA_sensitive, U5_reliability_sensitive, U6_safety_sensitive, U7_highest_acceptance, U8_hybrid]
+route_allocation_strategies: [R1_best_alternative, R2_capacity_proportional, R3_inverse_overlap, R4_reliability_weighted, R5_minimum_bottleneck_load, R6_entropy_constrained]
+candidate_design: deterministic_balanced_latin_cycle_over_intensity_user_strategy_and_route_allocation
+preference_epsilon: 0.08
+vehicle_generation_seconds: 120
+maximum_simulation_seconds: 320
+decision_time_seconds: 30
+temporal_window_seconds: 30
+common_random_numbers_within_state: true
+condition_templates:
+  - {id: V01, topology: merge, demand: 960, penetration: 0.50, heterogeneity: low, acceptance_multiplier: 0.80, perturbation: weak}
+  - {id: V02, topology: merge, demand: 1200, penetration: 0.75, heterogeneity: medium, acceptance_multiplier: 1.00, perturbation: medium}
+  - {id: V03, topology: merge, demand: 1440, penetration: 1.00, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: strong}
+  - {id: V04, topology: merge, demand: 1080, penetration: 0.25, heterogeneity: bimodal, acceptance_multiplier: 0.60, perturbation: none}
+  - {id: V05, topology: signalized, demand: 1080, penetration: 0.50, heterogeneity: medium, acceptance_multiplier: 0.80, perturbation: weak}
+  - {id: V06, topology: signalized, demand: 1320, penetration: 0.75, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: medium}
+  - {id: V07, topology: signalized, demand: 1560, penetration: 1.00, heterogeneity: long_tail, acceptance_multiplier: 1.00, perturbation: strong}
+  - {id: V08, topology: signalized, demand: 960, penetration: 0.25, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: none}
+  - {id: V09, topology: two_route, demand: 960, penetration: 0.50, heterogeneity: low, acceptance_multiplier: 0.80, perturbation: none}
+  - {id: V10, topology: two_route, demand: 1200, penetration: 0.75, heterogeneity: medium, acceptance_multiplier: 1.00, perturbation: weak}
+  - {id: V11, topology: two_route, demand: 1440, penetration: 1.00, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: medium}
+  - {id: V12, topology: two_route, demand: 1080, penetration: 0.25, heterogeneity: bimodal, acceptance_multiplier: 0.60, perturbation: strong}
+  - {id: V13, topology: asymmetric, demand: 1080, penetration: 0.50, heterogeneity: medium, acceptance_multiplier: 0.80, perturbation: weak}
+  - {id: V14, topology: asymmetric, demand: 1320, penetration: 0.75, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: medium}
+  - {id: V15, topology: asymmetric, demand: 1560, penetration: 1.00, heterogeneity: long_tail, acceptance_multiplier: 1.00, perturbation: strong}
+  - {id: V16, topology: asymmetric, demand: 960, penetration: 0.25, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: none}
+  - {id: V17, topology: real_like, demand: 1080, penetration: 0.50, heterogeneity: medium, acceptance_multiplier: 0.80, perturbation: weak}
+  - {id: V18, topology: real_like, demand: 1320, penetration: 0.75, heterogeneity: high, acceptance_multiplier: 1.00, perturbation: medium}
+  - {id: V19, topology: real_like, demand: 1560, penetration: 1.00, heterogeneity: long_tail, acceptance_multiplier: 1.00, perturbation: strong}
+  - {id: V20, topology: real_like, demand: 960, penetration: 0.25, heterogeneity: low, acceptance_multiplier: 0.60, perturbation: none}
+
