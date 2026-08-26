@@ -1,0 +1,146 @@
+{
+  "A01": {
+    "evaluated_count": 234,
+    "mean_safety_delta": 0.058931827631649496,
+    "mean_traffic_benefit": -0.0020063655493135707,
+    "safe_beneficial_rate": 0.008547008547008548
+  },
+  "A02": {
+    "evaluated_count": 223,
+    "mean_safety_delta": 0.055082450455005844,
+    "mean_traffic_benefit": -0.004231195189382704,
+    "safe_beneficial_rate": 0.14349775784753363
+  },
+  "A03": {
+    "evaluated_count": 243,
+    "mean_safety_delta": -0.1334961913112581,
+    "mean_traffic_benefit": -0.0058428322938768795,
+    "safe_beneficial_rate": 0.14814814814814814
+  },
+  "A04": {
+    "evaluated_count": 234,
+    "mean_safety_delta": 0.15866008339789112,
+    "mean_traffic_benefit": -0.018739672608312382,
+    "safe_beneficial_rate": 0.1111111111111111
+  },
+  "A05": {
+    "evaluated_count": 223,
+    "mean_safety_delta": 0.2221546985403524,
+    "mean_traffic_benefit": -0.0170276995776976,
+    "safe_beneficial_rate": 0.14349775784753363
+  },
+  "A06": {
+    "evaluated_count": 243,
+    "mean_safety_delta": 0.34443142229795376,
+    "mean_traffic_benefit": -0.019872157620832703,
+    "safe_beneficial_rate": 0.14814814814814814
+  },
+  "A07": {
+    "evaluated_count": 234,
+    "mean_safety_delta": -0.04441013598643142,
+    "mean_traffic_benefit": -0.0017904858527612486,
+    "safe_beneficial_rate": 0.08974358974358974
+  },
+  "A08": {
+    "evaluated_count": 223,
+    "mean_safety_delta": 0.10139561694503525,
+    "mean_traffic_benefit": -0.007718734287213013,
+    "safe_beneficial_rate": 0.11659192825112108
+  },
+  "A09": {
+    "evaluated_count": 243,
+    "mean_safety_delta": 0.09751118489761046,
+    "mean_traffic_benefit": -0.00565964541758577,
+    "safe_beneficial_rate": 0.04938271604938271
+  },
+  "A10": {
+    "evaluated_count": 234,
+    "mean_safety_delta": -0.06820724279940908,
+    "mean_traffic_benefit": -0.013699189622038668,
+    "safe_beneficial_rate": 0.14957264957264957
+  },
+  "A11": {
+    "evaluated_count": 223,
+    "mean_safety_delta": 0.18892136917997063,
+    "mean_traffic_benefit": -0.013757716231392448,
+    "safe_beneficial_rate": 0.17040358744394618
+  },
+  "A12": {
+    "evaluated_count": 243,
+    "mean_safety_delta": 0.44970674370770536,
+    "mean_traffic_benefit": -0.01619327898676138,
+    "safe_beneficial_rate": 0.14814814814814814
+  },
+  "A13": {
+    "evaluated_count": 234,
+    "mean_safety_delta": -0.06602920917622922,
+    "mean_traffic_benefit": -0.0021598704955521795,
+    "safe_beneficial_rate": 0.10256410256410256
+  },
+  "A14": {
+    "evaluated_count": 223,
+    "mean_safety_delta": -0.13340323071166738,
+    "mean_traffic_benefit": -0.005830832291730726,
+    "safe_beneficial_rate": 0.19730941704035873
+  },
+  "A15": {
+    "evaluated_count": 243,
+    "mean_safety_delta": -0.00315597817494534,
+    "mean_traffic_benefit": -0.01011056652411432,
+    "safe_beneficial_rate": 0.18106995884773663
+  },
+  "A16": {
+    "evaluated_count": 234,
+    "mean_safety_delta": 0.03798321880965051,
+    "mean_traffic_benefit": -0.013703999557250988,
+    "safe_beneficial_rate": 0.13675213675213677
+  },
+  "A17": {
+    "evaluated_count": 223,
+    "mean_safety_delta": -0.00966568120865085,
+    "mean_traffic_benefit": -0.014222207017838363,
+    "safe_beneficial_rate": 0.15695067264573992
+  },
+  "A18": {
+    "evaluated_count": 243,
+    "mean_safety_delta": 0.22366613961583046,
+    "mean_traffic_benefit": -0.01660189003242486,
+    "safe_beneficial_rate": 0.16049382716049382
+  },
+  "A19": {
+    "evaluated_count": 234,
+    "mean_safety_delta": -0.0282155650595786,
+    "mean_traffic_benefit": -0.003664556018010742,
+    "safe_beneficial_rate": 0.09401709401709402
+  },
+  "A20": {
+    "evaluated_count": 223,
+    "mean_safety_delta": -0.02846433728790306,
+    "mean_traffic_benefit": -0.004941882176645158,
+    "safe_beneficial_rate": 0.15695067264573992
+  },
+  "A21": {
+    "evaluated_count": 243,
+    "mean_safety_delta": 0.06391370633131295,
+    "mean_traffic_benefit": -0.005507305032701329,
+    "safe_beneficial_rate": 0.13991769547325103
+  },
+  "A22": {
+    "evaluated_count": 234,
+    "mean_safety_delta": 0.15576734477108295,
+    "mean_traffic_benefit": -0.020144673588574094,
+    "safe_beneficial_rate": 0.14957264957264957
+  },
+  "A23": {
+    "evaluated_count": 223,
+    "mean_safety_delta": 0.18352544606529256,
+    "mean_traffic_benefit": -0.014528086530667634,
+    "safe_beneficial_rate": 0.14798206278026907
+  },
+  "A24": {
+    "evaluated_count": 243,
+    "mean_safety_delta": 0.3227543197015638,
+    "mean_traffic_benefit": -0.017300085036145083,
+    "safe_beneficial_rate": 0.15637860082304528
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "0.05": {
+    "evaluated_count": 936,
+    "mean_traffic_benefit": -0.0024053194789094355,
+    "median_traffic_benefit": 0.0,
+    "positive_rate": 0.09508547008547008
+  },
+  "0.10": {
+    "evaluated_count": 892,
+    "mean_traffic_benefit": -0.005680660986242899,
+    "median_traffic_benefit": 0.0,
+    "positive_rate": 0.20515695067264575
+  },
+  "0.15": {
+    "evaluated_count": 972,
+    "mean_traffic_benefit": -0.0067800873170695735,
+    "median_traffic_benefit": 0.0,
+    "positive_rate": 0.17695473251028807
+  },
+  "0.20": {
+    "evaluated_count": 936,
+    "mean_traffic_benefit": -0.01657188384404403,
+    "median_traffic_benefit": -0.006909564777712313,
+    "positive_rate": 0.18376068376068377
+  },
+  "0.25": {
+    "evaluated_count": 892,
+    "mean_traffic_benefit": -0.01488392733939901,
+    "median_traffic_benefit": -0.00574504137703514,
+    "positive_rate": 0.2242152466367713
+  },
+  "0.30": {
+    "evaluated_count": 972,
+    "mean_traffic_benefit": -0.01749185291904101,
+    "median_traffic_benefit": -0.009396008950968563,
+    "positive_rate": 0.2417695473251029
+  }
+}

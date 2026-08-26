@@ -349,5 +349,14 @@ v8-final-audit:
 v9-preregister:
 	PYTHONPATH=src:scripts $(PYTHON) -c "from pathlib import Path; assert Path('configs/v9/preregistration.yaml').is_file(); assert not Path('artifacts/studies/v9_micro_holdout/summary.json').exists(); print('v9 preregistration present; final absent')"
 
+v9-action-space:
+	PYTHONPATH=src:scripts $(PYTHON) -m unittest discover -s tests -p 'test_v9_multi_action.py' -v
+
+v9-actionability:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/build_v9_actionability.py --workers 8
+
+v9-train-surrogate:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/train_v9_surrogate.py
+
 clean:
 	find src tests -type d -name __pycache__ -prune -exec rm -r {} +

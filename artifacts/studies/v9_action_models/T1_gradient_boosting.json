@@ -1,0 +1,2631 @@
+{
+  "base_model": {
+    "feature_names": [
+      "density_mean",
+      "flow_mean",
+      "occupancy_mean",
+      "mean_speed",
+      "speed_variance",
+      "acceleration_variance",
+      "queue_length",
+      "halting_count",
+      "lane_occupancy",
+      "headway_mean",
+      "headway_variance",
+      "demand_vehicles_per_hour",
+      "density_slope_30s",
+      "speed_slope_30s",
+      "flow_instability",
+      "queue_growth_rate",
+      "short_horizon_speed_oscillation",
+      "occupancy_variance_30s",
+      "route_overlap",
+      "alternative_capacity_ratio",
+      "volume_capacity_ratio",
+      "bottleneck_centrality",
+      "route_length_ratio",
+      "topology_merge",
+      "topology_signalized",
+      "topology_two_route",
+      "topology_real_like",
+      "topology_ring",
+      "perturbation_strength",
+      "predicted_acceptance",
+      "preference_slack_mean",
+      "preference_slack_std",
+      "preference_variance",
+      "heterogeneity_low",
+      "heterogeneity_medium",
+      "heterogeneity_high",
+      "heterogeneity_bimodal",
+      "heterogeneity_long_tail",
+      "acceptance_multiplier",
+      "navigation_penetration",
+      "minimum_headway",
+      "closing_speed_p90",
+      "drac_proxy_p95",
+      "lane_change_density",
+      "merge_interaction_density",
+      "speed_differential",
+      "hard_braking_recent_rate",
+      "analytical_success_probability",
+      "analytical_predicted_ttt_gain",
+      "edge_disjointness",
+      "number_route_alternatives",
+      "preference_entropy_proxy",
+      "topology_asymmetric",
+      "v6_micro_success_score",
+      "reroute_fraction",
+      "proposed_rerouted_user_count",
+      "expected_accepted_user_count",
+      "expected_rerouted_flow",
+      "maximum_target_edge_load_increase",
+      "maximum_source_edge_load_reduction",
+      "bottleneck_flow_delta",
+      "destination_capacity_slack",
+      "route_overlap_delta",
+      "route_entropy",
+      "affected_junction_count",
+      "expected_lane_change_demand_delta",
+      "conflict_zone_exposure_delta",
+      "action_concentration_index",
+      "average_preference_slack_selected",
+      "p90_preference_slack_selected",
+      "expected_acceptance_probability",
+      "route_length_increase",
+      "reliability_change",
+      "is_null_action",
+      "strategy_U1_lowest_slack",
+      "strategy_U2_highest_marginal_benefit",
+      "strategy_U3_highest_VDE",
+      "strategy_U4_ETA_sensitive",
+      "strategy_U5_reliability_sensitive",
+      "strategy_U6_safety_sensitive",
+      "strategy_U7_highest_acceptance",
+      "strategy_U8_hybrid",
+      "allocation_R1_best_alternative",
+      "allocation_R2_capacity_proportional",
+      "allocation_R3_inverse_overlap",
+      "allocation_R4_reliability_weighted",
+      "allocation_R5_minimum_bottleneck_load",
+      "allocation_R6_entropy_constrained"
+    ],
+    "kind": "gradient_boosting",
+    "learning_rate": 0.06,
+    "max_depth": 2,
+    "minimum_leaf": 10,
+    "name": "T1_gradient_boosting",
+    "parameters": {
+      "base": -0.008839736296056758,
+      "trees": [
+        {
+          "feature": 55,
+          "gain": 0.17749313602092087,
+          "left": {
+            "feature": 55,
+            "gain": 0.03755052029234918,
+            "left": {
+              "value": 0.006247480509667851
+            },
+            "right": {
+              "value": -0.0017652200207549924
+            },
+            "threshold": 3.0
+          },
+          "right": {
+            "feature": 45,
+            "gain": 0.21340454679330234,
+            "left": {
+              "value": 0.00816218186531102
+            },
+            "right": {
+              "value": -0.03436590568160877
+            },
+            "threshold": 1.7459812167783848
+          },
+          "threshold": 8.0
+        },
+        {
+          "feature": 55,
+          "gain": 0.17922341478703796,
+          "left": {
+            "feature": 13,
+            "gain": 0.04070760766758674,
+            "left": {
+              "value": 0.0041386089207469685
+            },
+            "right": {
+              "value": -0.00902008788554982
+            },
+            "threshold": -0.0030428256376154018
+          },
+          "right": {
+            "feature": 45,
+            "gain": 0.1699074607427944,
+            "left": {
+              "value": 0.004698530807174936
+            },
+            "right": {
+              "value": -0.03361365670085751
+            },
+            "threshold": 1.782352188498052
+          },
+          "threshold": 8.0
+        },
+        {
+          "feature": 55,
+          "gain": 0.18078580014473689,
+          "left": {
+            "feature": 42,
+            "gain": 0.038960340592328,
+            "left": {
+              "value": 0.0017830716863386374
+            },
+            "right": {
+              "value": 0.015001936389858278
+            },
+            "threshold": 0.610017704101015
+          },
+          "right": {
+            "feature": 45,
+            "gain": 0.15252778579079385,
+            "left": {
+              "value": 0.0035078767672862094
+            },
+            "right": {
+              "value": -0.03265582542230832
+            },
+            "threshold": 1.782352188498052
+          },
+          "threshold": 8.0
+        },
+        {
+          "feature": 55,
+          "gain": 0.1324319803321674,
+          "left": {
+            "feature": 55,
+            "gain": 0.03933369030933287,
+            "left": {
+              "value": 0.005591240484995955
+            },
+            "right": {
+              "value": -0.0025909600643483975
+            },
+            "threshold": 3.0
+          },
+          "right": {
+            "feature": 8,
+            "gain": 0.15670337653515554,
+            "left": {
+              "value": -0.024048566674319264
+            },
+            "right": {
+              "value": 0.021655450930049048
+            },
+            "threshold": 0.009876126787739574
+          },
+          "threshold": 8.0
+        },
+        {
+          "feature": 55,
+          "gain": 0.09589752401423768,
+          "left": {
+            "feature": 13,
+            "gain": 0.03777545141753835,
+            "left": {
+              "value": 0.003977857973649981
+            },
+            "right": {
+              "value": -0.008720809419330214
+            },
+            "threshold": -0.0030384684394554368
+          },
+          "right": {
+            "feature": 66,
+            "gain": 0.12939783589632792,
+            "left": {
+              "value": -0.02888487071801822
+            },
+            "right": {
+              "value": 0.003783205189722507
+            },
+            "threshold": 0.0360902929677752
+          },
+          "threshold": 8.0
+        },
+        {
+          "feature": 45,
+          "gain": 0.11111590821708761,
+          "left": {
+            "feature": 20,
+            "gain": 0.05016650672214151,
+            "left": {
+              "value": 0.0040411951737977375
+            },
+            "right": {
+              "value": 0.029484574874050925
+            },
+            "threshold": 0.8
+          },
+          "right": {
+            "feature": 55,
+            "gain": 0.12328428414762138,
+            "left": {
+              "value": -0.0014679380482659485
+            },
+            "right": {
+              "value": -0.024831046793578452
+            },
+            "threshold": 8.0
+          },
+          "threshold": 1.7246730472625487
+        },
+        {
+          "feature": 55,
+          "gain": 0.10137619811060494,
+          "left": {
+            "feature": 3,
+            "gain": 0.04470245795048822,
+            "left": {
+              "value": 0.0036751131482819378
+            },
+            "right": {
+              "value": -0.010141193013973293
+            },
+            "threshold": 15.480476681595759
+          },
+          "right": {
+            "feature": 8,
+            "gain": 0.12519372416995278,
+            "left": {
+              "value": -0.018622727988123682
+            },
+            "right": {
+              "value": 0.03464022170377497
+            },
+            "threshold": 0.010320021060425962
+          },
+          "threshold": 8.0
+        },
+        {
+          "feature": 45,
+          "gain": 0.10348043611462643,
+          "left": {
+            "feature": 3,
+            "gain": 0.043549127858596215,
+            "left": {
+              "value": 0.00738656948708481
+            },
+            "right": {
+              "value": -0.004661020199469325
+            },
+            "threshold": 15.373938470861821
+          },
+          "right": {
+            "feature": 62,
+            "gain": 0.13083834449470766,
+            "left": {
+              "value": 0.0034751127185676904
+            },
+            "right": {
+              "value": -0.01711051807651743
+            },
+            "threshold": 0.009349655416445526
+          },
+          "threshold": 1.7237973367785586
+        },
+        {
+          "feature": 19,
+          "gain": 0.09727013359630066,
+          "left": {
+            "feature": 1,
+            "gain": 0.036689946633638115,
+            "left": {
+              "value": 0.001652519129572253
+            },
+            "right": {
+              "value": 0.014549289106316166
+            },
+            "threshold": 130.93857278106594
+          },
+          "right": {
+            "feature": 55,
+            "gain": 0.12484019222862597,
+            "left": {
+              "value": 0.0003247192880281896
+            },
+            "right": {
+              "value": -0.02801094748675266
+            },
+            "threshold": 5.0
+          },
+          "threshold": 2.0
+        },
+        {
+          "feature": 19,
+          "gain": 0.08465906399738454,
+          "left": {
+            "feature": 13,
+            "gain": 0.03676700281824541,
+            "left": {
+              "value": 0.00392628393273972
+            },
+            "right": {
+              "value": -0.009106853223113368
+            },
+            "threshold": -0.0029704438258125188
+          },
+          "right": {
+            "feature": 71,
+            "gain": 0.10047066205528199,
+            "left": {
+              "value": -0.002016067268466995
+            },
+            "right": {
+              "value": -0.028819411279620573
+            },
+            "threshold": 0.021682127790486512
+          },
+          "threshold": 2.0
+        },
+        {
+          "feature": 55,
+          "gain": 0.0717549713428558,
+          "left": {
+            "feature": 14,
+            "gain": 0.016772284701246365,
+            "left": {
+              "value": 0.002388974052103287
+            },
+            "right": {
+              "value": 0.010130210631860807
+            },
+            "threshold": 0.7546614570992141
+          },
+          "right": {
+            "feature": 20,
+            "gain": 0.09489205986611671,
+            "left": {
+              "value": -0.007955829630713392
+            },
+            "right": {
+              "value": 0.025642381396197185
+            },
+            "threshold": 0.8
+          },
+          "threshold": 3.0
+        },
+        {
+          "feature": 55,
+          "gain": 0.06390063970987603,
+          "left": {
+            "feature": 3,
+            "gain": 0.039990699936715224,
+            "left": {
+              "value": 0.0031880857288672454
+            },
+            "right": {
+              "value": -0.009902789972853099
+            },
+            "threshold": 15.480476681595759
+          },
+          "right": {
+            "feature": 20,
+            "gain": 0.09039060402517851,
+            "left": {
+              "value": -0.015027915251960658
+            },
+            "right": {
+              "value": 0.02981555733178497
+            },
+            "threshold": 0.8
+          },
+          "threshold": 8.0
+        },
+        {
+          "feature": 55,
+          "gain": 0.057964197559176256,
+          "left": {
+            "feature": 3,
+            "gain": 0.03532982998184808,
+            "left": {
+              "value": 0.0031387431063761764
+            },
+            "right": {
+              "value": -0.009122834998936286
+            },
+            "threshold": 15.476418043430964
+          },
+          "right": {
+            "feature": 66,
+            "gain": 0.07771596757139565,
+            "left": {
+              "value": -0.02248124686039917
+            },
+            "right": {
+              "value": 0.00265512389448099
+            },
+            "threshold": 0.03617507154924097
+          },
+          "threshold": 8.0
+        },
+        {
+          "feature": 45,
+          "gain": 0.0632902670273996,
+          "left": {
+            "feature": 3,
+            "gain": 0.04514838803935195,
+            "left": {
+              "value": 0.006432939588491998
+            },
+            "right": {
+              "value": -0.005875827423482708
+            },
+            "threshold": 15.373938470861821
+          },
+          "right": {
+            "feature": 62,
+            "gain": 0.07706258368084629,
+            "left": {
+              "value": 0.002647072977135095
+            },
+            "right": {
+              "value": -0.013113283219922514
+            },
+            "threshold": 0.00929827024360364
+          },
+          "threshold": 1.7237973367785586
+        },
+        {
+          "feature": 19,
+          "gain": 0.059805080550111356,
+          "left": {
+            "feature": 1,
+            "gain": 0.029220821436384714,
+            "left": {
+              "value": 0.0008889709357388674
+            },
+            "right": {
+              "value": 0.012616044929680532
+            },
+            "threshold": 130.93857278106594
+          },
+          "right": {
+            "feature": 71,
+            "gain": 0.06957676830801174,
+            "left": {
+              "value": -0.0019835337416745876
+            },
+            "right": {
+              "value": -0.02439610977479221
+            },
+            "threshold": 0.0217066335021187
+          },
+          "threshold": 2.0
+        },
+        {
+          "feature": 55,
+          "gain": 0.05671817762542153,
+          "left": {
+            "feature": 14,
+            "gain": 0.01141442355639466,
+            "left": {
+              "value": 0.0024831358865953926
+            },
+            "right": {
+              "value": 0.008890662233504544
+            },
+            "threshold": 0.7539094605175278
+          },
+          "right": {
+            "feature": 20,
+            "gain": 0.07546304549009175,
+            "left": {
+              "value": -0.006762015491970769
+            },
+            "right": {
+              "value": 0.024719869486920756
+            },
+            "threshold": 0.8
+          },
+          "threshold": 3.0
+        },
+        {
+          "feature": 45,
+          "gain": 0.047524731791644736,
+          "left": {
+            "feature": 13,
+            "gain": 0.03318053024929579,
+            "left": {
+              "value": 0.004597659326333271
+            },
+            "right": {
+              "value": -0.009938947275946844
+            },
+            "threshold": -0.002233133892892917
+          },
+          "right": {
+            "feature": 55,
+            "gain": 0.06326569366354962,
+            "left": {
+              "value": 0.0024185242761441406
+            },
+            "right": {
+              "value": -0.011878768491933367
+            },
+            "threshold": 4.5
+          },
+          "threshold": 1.7250353533171734
+        },
+        {
+          "feature": 19,
+          "gain": 0.045681784583363694,
+          "left": {
+            "feature": 13,
+            "gain": 0.027175812344929273,
+            "left": {
+              "value": 0.0029907543727201065
+            },
+            "right": {
+              "value": -0.008383227373594327
+            },
+            "threshold": -0.0029704438258125188
+          },
+          "right": {
+            "feature": 62,
+            "gain": 0.05910056623466764,
+            "left": {
+              "value": -0.0027173866976477677
+            },
+            "right": {
+              "value": -0.026388129598906664
+            },
+            "threshold": 0.021376978797517703
+          },
+          "threshold": 2.0
+        },
+        {
+          "feature": 20,
+          "gain": 0.044442348663078945,
+          "left": {
+            "feature": 55,
+            "gain": 0.05396820785344847,
+            "left": {
+              "value": 0.0027532332342304787
+            },
+            "right": {
+              "value": -0.005819733723168624
+            },
+            "threshold": 3.0
+          },
+          "right": {
+            "feature": 54,
+            "gain": 0.015684720548370112,
+            "left": {
+              "value": 0.011731304829636777
+            },
+            "right": {
+              "value": 0.037738625394207845
+            },
+            "threshold": 0.2
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 45,
+          "gain": 0.04066472191300807,
+          "left": {
+            "feature": 4,
+            "gain": 0.02793492856004276,
+            "left": {
+              "value": 0.005040758427950259
+            },
+            "right": {
+              "value": -0.004671332953933452
+            },
+            "threshold": 0.048314925245839135
+          },
+          "right": {
+            "feature": 55,
+            "gain": 0.05469963352950025,
+            "left": {
+              "value": -0.00045212063729528867
+            },
+            "right": {
+              "value": -0.01598926935598166
+            },
+            "threshold": 8.0
+          },
+          "threshold": 1.7237973367785586
+        },
+        {
+          "feature": 20,
+          "gain": 0.037122480607175934,
+          "left": {
+            "feature": 0,
+            "gain": 0.047955948584674335,
+            "left": {
+              "value": 0.0004419415353500999
+            },
+            "right": {
+              "value": -0.012987025900966905
+            },
+            "threshold": 2.2015577792449204
+          },
+          "right": {
+            "feature": 0,
+            "gain": 0.013083522365494024,
+            "left": {
+              "value": -0.00846447274524774
+            },
+            "right": {
+              "value": 0.021521503778404966
+            },
+            "threshold": 1.9587385167171953
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 20,
+          "gain": 0.02998104102367094,
+          "left": {
+            "feature": 55,
+            "gain": 0.038465637285270304,
+            "left": {
+              "value": 0.0015912174337367562
+            },
+            "right": {
+              "value": -0.006495254271311811
+            },
+            "threshold": 5.0
+          },
+          "right": {
+            "feature": 0,
+            "gain": 0.010817881132336352,
+            "left": {
+              "value": -0.009167965618072083
+            },
+            "right": {
+              "value": 0.019630834475203567
+            },
+            "threshold": 1.9587385167171953
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 19,
+          "gain": 0.03461831111255087,
+          "left": {
+            "feature": 13,
+            "gain": 0.019267000077168195,
+            "left": {
+              "value": 0.0028043376476050985
+            },
+            "right": {
+              "value": -0.006700926571160144
+            },
+            "threshold": -0.0029704438258125188
+          },
+          "right": {
+            "feature": 12,
+            "gain": 0.039563808802285494,
+            "left": {
+              "value": 0.0029750633307574085
+            },
+            "right": {
+              "value": -0.012721052117363891
+            },
+            "threshold": 0.15924050561828806
+          },
+          "threshold": 2.0
+        },
+        {
+          "feature": 10,
+          "gain": 0.027772255829138004,
+          "left": {
+            "feature": 13,
+            "gain": 0.04343446676042351,
+            "left": {
+              "value": -0.0054735923122912694
+            },
+            "right": {
+              "value": -0.04803622157597565
+            },
+            "threshold": -0.0031444980703082786
+          },
+          "right": {
+            "feature": 69,
+            "gain": 0.02692208724967493,
+            "left": {
+              "value": 0.0039771449705302735
+            },
+            "right": {
+              "value": -0.0022501071276177617
+            },
+            "threshold": 0.012099217036205572
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 20,
+          "gain": 0.03125565620068116,
+          "left": {
+            "feature": 1,
+            "gain": 0.03237611277704033,
+            "left": {
+              "value": 0.0006354547794997882
+            },
+            "right": {
+              "value": -0.010676465499368978
+            },
+            "threshold": 139.85286557821388
+          },
+          "right": {
+            "feature": 16,
+            "gain": 0.013053867061478888,
+            "left": {
+              "value": 0.02141724539220543
+            },
+            "right": {
+              "value": -0.006159622511877244
+            },
+            "threshold": 0.1271155654518959
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 45,
+          "gain": 0.02564733135713304,
+          "left": {
+            "feature": 3,
+            "gain": 0.030641910903661085,
+            "left": {
+              "value": 0.004460448134915097
+            },
+            "right": {
+              "value": -0.0056957828804257375
+            },
+            "threshold": 15.373938470861821
+          },
+          "right": {
+            "feature": 55,
+            "gain": 0.03559653618852465,
+            "left": {
+              "value": 0.0019081001219825476
+            },
+            "right": {
+              "value": -0.008834188613811505
+            },
+            "threshold": 4.0
+          },
+          "threshold": 1.7237973367785586
+        },
+        {
+          "feature": 10,
+          "gain": 0.027658287384588753,
+          "left": {
+            "feature": 13,
+            "gain": 0.03765998820811456,
+            "left": {
+              "value": -0.0056399245882611275
+            },
+            "right": {
+              "value": -0.04531352259694361
+            },
+            "threshold": -0.0031444980703082786
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.03279279322206641,
+            "left": {
+              "value": -0.0013009691012204438
+            },
+            "right": {
+              "value": 0.006206459728844351
+            },
+            "threshold": 0.7386495665076275
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 20,
+          "gain": 0.02438803036559145,
+          "left": {
+            "feature": 55,
+            "gain": 0.036171860951839996,
+            "left": {
+              "value": 0.0007788878726238637
+            },
+            "right": {
+              "value": -0.009029082719719786
+            },
+            "threshold": 8.0
+          },
+          "right": {
+            "feature": 47,
+            "gain": 0.01005093111799664,
+            "left": {
+              "value": 0.002235851593263469
+            },
+            "right": {
+              "value": 0.021236851902776965
+            },
+            "threshold": 0.2
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 10,
+          "gain": 0.039213038903151975,
+          "left": {
+            "feature": 13,
+            "gain": 0.031546557430413014,
+            "left": {
+              "value": -0.0074968065498295785
+            },
+            "right": {
+              "value": -0.044451290279294675
+            },
+            "threshold": -0.0031444980703082786
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.022085286403320303,
+            "left": {
+              "value": -0.0005988798429602531
+            },
+            "right": {
+              "value": 0.0055571530831904255
+            },
+            "threshold": 0.738255288240326
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 66,
+          "gain": 0.019693327952532425,
+          "left": {
+            "feature": 62,
+            "gain": 0.0026995897801703195,
+            "left": {
+              "value": 0.005302690847199722
+            },
+            "right": {
+              "value": 0.0019024831572524521
+            },
+            "threshold": 0.001988811033630988
+          },
+          "right": {
+            "feature": 45,
+            "gain": 0.029207026534881386,
+            "left": {
+              "value": 0.0011017973451537097
+            },
+            "right": {
+              "value": -0.0063760305765171174
+            },
+            "threshold": 1.5897925131337185
+          },
+          "threshold": 0.005561991504018804
+        },
+        {
+          "feature": 19,
+          "gain": 0.025600706352804092,
+          "left": {
+            "feature": 1,
+            "gain": 0.022282675388298756,
+            "left": {
+              "value": 0.0005146605969912762
+            },
+            "right": {
+              "value": 0.010601960114527251
+            },
+            "threshold": 130.93857278106594
+          },
+          "right": {
+            "feature": 71,
+            "gain": 0.039766009951959336,
+            "left": {
+              "value": -0.0004165270666863985
+            },
+            "right": {
+              "value": -0.017448672206177577
+            },
+            "threshold": 0.02158559603722766
+          },
+          "threshold": 2.0
+        },
+        {
+          "feature": 55,
+          "gain": 0.02568684479688299,
+          "left": {
+            "feature": 14,
+            "gain": 0.010917779405807737,
+            "left": {
+              "value": 0.0011217196980823916
+            },
+            "right": {
+              "value": 0.007375470629497971
+            },
+            "threshold": 0.7539719374146696
+          },
+          "right": {
+            "feature": 20,
+            "gain": 0.035625473210605385,
+            "left": {
+              "value": -0.004680708482298332
+            },
+            "right": {
+              "value": 0.01719656022260393
+            },
+            "threshold": 0.8
+          },
+          "threshold": 3.0
+        },
+        {
+          "feature": 10,
+          "gain": 0.022201203114229795,
+          "left": {
+            "feature": 13,
+            "gain": 0.030904297484031118,
+            "left": {
+              "value": -0.005027144924928571
+            },
+            "right": {
+              "value": -0.042296497312058236
+            },
+            "threshold": -0.0031444980703082786
+          },
+          "right": {
+            "feature": 3,
+            "gain": 0.023401008329678508,
+            "left": {
+              "value": 0.0018662396712158433
+            },
+            "right": {
+              "value": -0.008149859029901823
+            },
+            "threshold": 15.461338292636297
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 45,
+          "gain": 0.02506912818805329,
+          "left": {
+            "feature": 4,
+            "gain": 0.026815924089738097,
+            "left": {
+              "value": 0.00447783733618535
+            },
+            "right": {
+              "value": -0.003797995639862043
+            },
+            "threshold": 0.03789715676971385
+          },
+          "right": {
+            "feature": 35,
+            "gain": 0.047202905943551476,
+            "left": {
+              "value": 0.0007804614272791774
+            },
+            "right": {
+              "value": -0.012152719858527082
+            },
+            "threshold": 0.0
+          },
+          "threshold": 1.7237973367785586
+        },
+        {
+          "feature": 42,
+          "gain": 0.0278716620374051,
+          "left": {
+            "feature": 60,
+            "gain": 0.02633411062783697,
+            "left": {
+              "value": 0.0029676245366312267
+            },
+            "right": {
+              "value": -0.0032923806250884763
+            },
+            "threshold": 7.500679669500597
+          },
+          "right": {
+            "feature": 47,
+            "gain": 0.028406932314079814,
+            "left": {
+              "value": 0.025708478204501964
+            },
+            "right": {
+              "value": 0.0036605847821767666
+            },
+            "threshold": 0.14814814814814814
+          },
+          "threshold": 0.610017704101015
+        },
+        {
+          "feature": 3,
+          "gain": 0.024394145863239736,
+          "left": {
+            "feature": 40,
+            "gain": 0.027753196240661637,
+            "left": {
+              "value": -0.0019026260469157208
+            },
+            "right": {
+              "value": 0.004524438779799959
+            },
+            "threshold": 1.0923810362773785
+          },
+          "right": {
+            "feature": 5,
+            "gain": 0.12784312872517894,
+            "left": {
+              "value": -0.0030666157643510304
+            },
+            "right": {
+              "value": -0.08217448675252442
+            },
+            "threshold": 1.433585226370058
+          },
+          "threshold": 15.414390879026147
+        },
+        {
+          "feature": 10,
+          "gain": 0.024469143415806194,
+          "left": {
+            "feature": 62,
+            "gain": 0.02741063022829615,
+            "left": {
+              "value": 0.0027366706892238257
+            },
+            "right": {
+              "value": -0.015928315436952833
+            },
+            "threshold": 0.00868295287864375
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.020575901627152504,
+            "left": {
+              "value": -0.001120391573085964
+            },
+            "right": {
+              "value": 0.004814968839578282
+            },
+            "threshold": 0.7386495665076275
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 20,
+          "gain": 0.01981157052458471,
+          "left": {
+            "feature": 55,
+            "gain": 0.023633730498913152,
+            "left": {
+              "value": 0.0006759951374328085
+            },
+            "right": {
+              "value": -0.00734210093164591
+            },
+            "threshold": 8.0
+          },
+          "right": {
+            "feature": 54,
+            "gain": 0.01100452851631055,
+            "left": {
+              "value": 0.008028135324009792
+            },
+            "right": {
+              "value": 0.03253793541803007
+            },
+            "threshold": 0.2800000000000004
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 42,
+          "gain": 0.016193106488415765,
+          "left": {
+            "feature": 69,
+            "gain": 0.019313874515504814,
+            "left": {
+              "value": 0.001858183401320658
+            },
+            "right": {
+              "value": -0.0033768226467557234
+            },
+            "threshold": 0.012044975540434025
+          },
+          "right": {
+            "feature": 5,
+            "gain": 0.025923904644638174,
+            "left": {
+              "value": 0.02521257925351556
+            },
+            "right": {
+              "value": 0.002172611303058531
+            },
+            "threshold": 1.3788606909838466
+          },
+          "threshold": 0.610433464509033
+        },
+        {
+          "feature": 32,
+          "gain": 0.019390324218418353,
+          "left": {
+            "feature": 1,
+            "gain": 0.036878111326420715,
+            "left": {
+              "value": 0.0026204716284296986
+            },
+            "right": {
+              "value": -0.005052874715111678
+            },
+            "threshold": 71.74210985076114
+          },
+          "right": {
+            "feature": 16,
+            "gain": 0.01855297611521478,
+            "left": {
+              "value": -0.0032865066713283876
+            },
+            "right": {
+              "value": 0.008788255969561357
+            },
+            "threshold": 0.05881433643864084
+          },
+          "threshold": 0.011416629611182408
+        },
+        {
+          "feature": 20,
+          "gain": 0.016675111983329494,
+          "left": {
+            "feature": 69,
+            "gain": 0.019966993510726283,
+            "left": {
+              "value": 0.0018526186904137248
+            },
+            "right": {
+              "value": -0.0033096783069110876
+            },
+            "threshold": 0.012099733990671907
+          },
+          "right": {
+            "feature": 56,
+            "gain": 0.01212254293486098,
+            "left": {
+              "value": 0.006410270331046903
+            },
+            "right": {
+              "value": 0.032106220238577766
+            },
+            "threshold": 8.885354179929841
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 32,
+          "gain": 0.018604187767436553,
+          "left": {
+            "feature": 32,
+            "gain": 0.021519567497458425,
+            "left": {
+              "value": 0.0005650265439744967
+            },
+            "right": {
+              "value": -0.009627165956236576
+            },
+            "threshold": 0.011141158039953455
+          },
+          "right": {
+            "feature": 16,
+            "gain": 0.016095039959805768,
+            "left": {
+              "value": -0.0018905379398326805
+            },
+            "right": {
+              "value": 0.009173097929272598
+            },
+            "threshold": 0.06047682994548538
+          },
+          "threshold": 0.011416629611182408
+        },
+        {
+          "feature": 45,
+          "gain": 0.01865994446817032,
+          "left": {
+            "feature": 4,
+            "gain": 0.01800964126070781,
+            "left": {
+              "value": 0.004279785428720413
+            },
+            "right": {
+              "value": -0.002501166586669968
+            },
+            "threshold": 0.03789715676971385
+          },
+          "right": {
+            "feature": 35,
+            "gain": 0.02531196530733726,
+            "left": {
+              "value": 0.000669161939235857
+            },
+            "right": {
+              "value": -0.008729235964637339
+            },
+            "threshold": 0.0
+          },
+          "threshold": 1.7246730472625487
+        },
+        {
+          "feature": 5,
+          "gain": 0.020897098444326634,
+          "left": {
+            "feature": 9,
+            "gain": 0.03388649472371075,
+            "left": {
+              "value": -0.014285849826858406
+            },
+            "right": {
+              "value": -0.0006595260418964908
+            },
+            "threshold": 17.0618816764003
+          },
+          "right": {
+            "feature": 19,
+            "gain": 0.013334678814469925,
+            "left": {
+              "value": 0.004212063258013814
+            },
+            "right": {
+              "value": -0.006837312182287446
+            },
+            "threshold": 2.0
+          },
+          "threshold": 0.4733442955444761
+        },
+        {
+          "feature": 3,
+          "gain": 0.022669304140944924,
+          "left": {
+            "feature": 5,
+            "gain": 0.022836845186495314,
+            "left": {
+              "value": -0.0011857917501855593
+            },
+            "right": {
+              "value": 0.004636465522104588
+            },
+            "threshold": 0.47420656128935545
+          },
+          "right": {
+            "feature": 5,
+            "gain": 0.10497145776026684,
+            "left": {
+              "value": -0.0026291657002907452
+            },
+            "right": {
+              "value": -0.07290629204869062
+            },
+            "threshold": 1.433585226370058
+          },
+          "threshold": 15.414390879026147
+        },
+        {
+          "feature": 32,
+          "gain": 0.016456118495868477,
+          "left": {
+            "feature": 1,
+            "gain": 0.022050287846574257,
+            "left": {
+              "value": 0.0021429590012062892
+            },
+            "right": {
+              "value": -0.0038101877313293756
+            },
+            "threshold": 71.74210985076114
+          },
+          "right": {
+            "feature": 46,
+            "gain": 0.016029511198408675,
+            "left": {
+              "value": -0.0011636441576336003
+            },
+            "right": {
+              "value": 0.009164316248383675
+            },
+            "threshold": 0.002564102564102564
+          },
+          "threshold": 0.011416629611182408
+        },
+        {
+          "feature": 20,
+          "gain": 0.014694674984263578,
+          "left": {
+            "feature": 69,
+            "gain": 0.017559493422755423,
+            "left": {
+              "value": 0.001973437674559465
+            },
+            "right": {
+              "value": -0.0028724997831079285
+            },
+            "threshold": 0.012185948076308972
+          },
+          "right": {
+            "feature": 56,
+            "gain": 0.011583673579197859,
+            "left": {
+              "value": 0.0059245486362677945
+            },
+            "right": {
+              "value": 0.030487047129904143
+            },
+            "threshold": 9.168930821465185
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 10,
+          "gain": 0.012968246218189261,
+          "left": {
+            "feature": 9,
+            "gain": 0.027406292731108506,
+            "left": {
+              "value": 0.005126273867110625
+            },
+            "right": {
+              "value": -0.01367404494433637
+            },
+            "threshold": 16.74184302683191
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.0167228914710984,
+            "left": {
+              "value": -0.0008857988494454176
+            },
+            "right": {
+              "value": 0.004465876753758786
+            },
+            "threshold": 0.7386495665076275
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 13,
+          "gain": 0.01712146103383949,
+          "left": {
+            "feature": 9,
+            "gain": 0.02697134616083252,
+            "left": {
+              "value": -0.00019771257705004756
+            },
+            "right": {
+              "value": 0.010455168184476168
+            },
+            "threshold": 24.196459231223944
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.04769583664071253,
+            "left": {
+              "value": -0.03933863931841201
+            },
+            "right": {
+              "value": -0.0021475212580382343
+            },
+            "threshold": 0.710414552524433
+          },
+          "threshold": -0.0031444980703082786
+        },
+        {
+          "feature": 42,
+          "gain": 0.016018678868647385,
+          "left": {
+            "feature": 4,
+            "gain": 0.017142362436788794,
+            "left": {
+              "value": 0.00018769468017399294
+            },
+            "right": {
+              "value": -0.00807252406402737
+            },
+            "threshold": 0.053083333000526936
+          },
+          "right": {
+            "feature": 47,
+            "gain": 0.022789996952448266,
+            "left": {
+              "value": 0.021611564285067022
+            },
+            "right": {
+              "value": 0.0019027565822645452
+            },
+            "threshold": 0.14814814814814814
+          },
+          "threshold": 0.610017704101015
+        },
+        {
+          "feature": 60,
+          "gain": 0.013002718896901744,
+          "left": {
+            "feature": 8,
+            "gain": 0.010252582955045941,
+            "left": {
+              "value": -0.00012411366355511555
+            },
+            "right": {
+              "value": 0.006337227531104759
+            },
+            "threshold": 0.010081862131078546
+          },
+          "right": {
+            "feature": 66,
+            "gain": 0.03900343892989078,
+            "left": {
+              "value": -0.019972792647030144
+            },
+            "right": {
+              "value": 0.002868473072372199
+            },
+            "threshold": 0.035956102794252216
+          },
+          "threshold": 38.018493348648164
+        },
+        {
+          "feature": 42,
+          "gain": 0.010940762440674323,
+          "left": {
+            "feature": 16,
+            "gain": 0.01455596427009942,
+            "left": {
+              "value": 0.0005351131365233627
+            },
+            "right": {
+              "value": -0.0071378934189474715
+            },
+            "threshold": 0.16884757827038688
+          },
+          "right": {
+            "feature": 47,
+            "gain": 0.026524233594250324,
+            "left": {
+              "value": 0.02474137149007768
+            },
+            "right": {
+              "value": 0.0014371727379042438
+            },
+            "threshold": 0.14814814814814814
+          },
+          "threshold": 0.610433464509033
+        },
+        {
+          "feature": 3,
+          "gain": 0.013981929075544741,
+          "left": {
+            "feature": 9,
+            "gain": 0.019353604626104914,
+            "left": {
+              "value": -0.0009409069836477365
+            },
+            "right": {
+              "value": 0.005696266221160789
+            },
+            "threshold": 23.56946392850602
+          },
+          "right": {
+            "feature": 5,
+            "gain": 0.06539071517234007,
+            "left": {
+              "value": -0.002482436363488572
+            },
+            "right": {
+              "value": -0.05690243281001586
+            },
+            "threshold": 1.433585226370058
+          },
+          "threshold": 15.414390879026147
+        },
+        {
+          "feature": 5,
+          "gain": 0.011318952406734084,
+          "left": {
+            "feature": 48,
+            "gain": 0.007000353208410859,
+            "left": {
+              "value": 0.0012573916330638527
+            },
+            "right": {
+              "value": 0.008241168897797758
+            },
+            "threshold": 0.020733934250929696
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.01820968513710186,
+            "left": {
+              "value": -0.003013104140983493
+            },
+            "right": {
+              "value": 0.0042649035785779854
+            },
+            "threshold": 0.7623175788294906
+          },
+          "threshold": 0.36642046148605883
+        },
+        {
+          "feature": 13,
+          "gain": 0.012881631502325686,
+          "left": {
+            "feature": 9,
+            "gain": 0.019842399095098884,
+            "left": {
+              "value": -0.00015878083699498438
+            },
+            "right": {
+              "value": 0.008712131597630957
+            },
+            "threshold": 24.17982300400327
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.038726108955432936,
+            "left": {
+              "value": -0.033584958849962994
+            },
+            "right": {
+              "value": -0.0014319826979232533
+            },
+            "threshold": 0.710414552524433
+          },
+          "threshold": -0.0031444980703082786
+        },
+        {
+          "feature": 10,
+          "gain": 0.016053631824217707,
+          "left": {
+            "feature": 70,
+            "gain": 0.02498871274120984,
+            "left": {
+              "value": 0.006263213750396631
+            },
+            "right": {
+              "value": -0.012634797297869356
+            },
+            "threshold": 0.49981677825350035
+          },
+          "right": {
+            "feature": 20,
+            "gain": 0.016779165632232917,
+            "left": {
+              "value": -7.203047310074044e-06
+            },
+            "right": {
+              "value": 0.01567394847325378
+            },
+            "threshold": 0.8
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 32,
+          "gain": 0.019725518395973474,
+          "left": {
+            "feature": 69,
+            "gain": 0.019655340657440235,
+            "left": {
+              "value": 0.0016406308951014228
+            },
+            "right": {
+              "value": -0.003975137378359699
+            },
+            "threshold": 0.011711885357969895
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.01320369184032455,
+            "left": {
+              "value": 0.0036015092729065785
+            },
+            "right": {
+              "value": 0.018986905556817008
+            },
+            "threshold": 0.7737938246941053
+          },
+          "threshold": 0.011416629611182408
+        },
+        {
+          "feature": 10,
+          "gain": 0.015924627093573562,
+          "left": {
+            "feature": 72,
+            "gain": 0.027094789673252406,
+            "left": {
+              "value": -0.01587745941812459
+            },
+            "right": {
+              "value": 0.0023571632978266173
+            },
+            "threshold": -2.5500000000000003
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.014253634599904697,
+            "left": {
+              "value": -0.0009604270531023342
+            },
+            "right": {
+              "value": 0.003983961801385184
+            },
+            "threshold": 0.7390458365567076
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 20,
+          "gain": 0.01042837283944742,
+          "left": {
+            "feature": 69,
+            "gain": 0.012809425680468944,
+            "left": {
+              "value": 0.001997167255484652
+            },
+            "right": {
+              "value": -0.002138984223820597
+            },
+            "threshold": 0.012127495270374752
+          },
+          "right": {
+            "feature": 54,
+            "gain": 0.008498072753604133,
+            "left": {
+              "value": 0.0038515422273839154
+            },
+            "right": {
+              "value": 0.022352447229817062
+            },
+            "threshold": 0.2
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 32,
+          "gain": 0.014012491414060246,
+          "left": {
+            "feature": 56,
+            "gain": 0.022927793771105875,
+            "left": {
+              "value": -0.00012565169332474723
+            },
+            "right": {
+              "value": -0.01022207019236459
+            },
+            "threshold": 5.84090545151162
+          },
+          "right": {
+            "feature": 54,
+            "gain": 0.011056579971665204,
+            "left": {
+              "value": 0.0017663331255984148
+            },
+            "right": {
+              "value": 0.011585519335206393
+            },
+            "threshold": 0.25
+          },
+          "threshold": 0.011416629611182408
+        },
+        {
+          "feature": 4,
+          "gain": 0.014043025106313944,
+          "left": {
+            "feature": 8,
+            "gain": 0.020231958739011624,
+            "left": {
+              "value": -0.0005188390987974512
+            },
+            "right": {
+              "value": 0.008483709291806526
+            },
+            "threshold": 0.010081862131078546
+          },
+          "right": {
+            "feature": 13,
+            "gain": 0.04868065041439407,
+            "left": {
+              "value": -0.0026093760696902025
+            },
+            "right": {
+              "value": -0.04501728532509964
+            },
+            "threshold": -0.010292761575090516
+          },
+          "threshold": 0.0535080244015733
+        },
+        {
+          "feature": 41,
+          "gain": 0.012761215025606898,
+          "left": {
+            "feature": 42,
+            "gain": 0.0195347987087251,
+            "left": {
+              "value": 0.00037844163359411286
+            },
+            "right": {
+              "value": -0.006287095999451773
+            },
+            "threshold": 0.29661004346415265
+          },
+          "right": {
+            "feature": 41,
+            "gain": 0.02070546652312366,
+            "left": {
+              "value": 0.00987723452727176
+            },
+            "right": {
+              "value": -0.010965747383406346
+            },
+            "threshold": 6.235882765225375
+          },
+          "threshold": 5.19631553970511
+        },
+        {
+          "feature": 54,
+          "gain": 0.009486054819683343,
+          "left": {
+            "feature": 40,
+            "gain": 0.005968846101474412,
+            "left": {
+              "value": 0.0021634155103385315
+            },
+            "right": {
+              "value": -0.004220238765629326
+            },
+            "threshold": 1.7123414207132288
+          },
+          "right": {
+            "feature": 63,
+            "gain": 0.02351008641451857,
+            "left": {
+              "value": -0.00986691633001329
+            },
+            "right": {
+              "value": 0.00013683232257830782
+            },
+            "threshold": 0.3250829733914482
+          },
+          "threshold": 0.15
+        },
+        {
+          "feature": 10,
+          "gain": 0.0098546240509223,
+          "left": {
+            "feature": 71,
+            "gain": 0.025713579949868892,
+            "left": {
+              "value": 0.004420256272534545
+            },
+            "right": {
+              "value": -0.01359265036446968
+            },
+            "threshold": 0.018163968211601086
+          },
+          "right": {
+            "feature": 19,
+            "gain": 0.011854619092271257,
+            "left": {
+              "value": 0.005302493457475876
+            },
+            "right": {
+              "value": 0.0002587148669872933
+            },
+            "threshold": 1.0
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 41,
+          "gain": 0.010893909154449766,
+          "left": {
+            "feature": 62,
+            "gain": 0.01397420175305708,
+            "left": {
+              "value": 0.0012132096695830175
+            },
+            "right": {
+              "value": -0.003252412538765384
+            },
+            "threshold": 0.007043768492457768
+          },
+          "right": {
+            "feature": 58,
+            "gain": 0.022218989018217394,
+            "left": {
+              "value": -0.007667427718818821
+            },
+            "right": {
+              "value": 0.010832788371254058
+            },
+            "threshold": 29.85075516701937
+          },
+          "threshold": 5.187449720015309
+        },
+        {
+          "feature": 13,
+          "gain": 0.010737711177500664,
+          "left": {
+            "feature": 9,
+            "gain": 0.015171208275978287,
+            "left": {
+              "value": 0.00016715571847746355
+            },
+            "right": {
+              "value": 0.008116956721799753
+            },
+            "threshold": 24.196459231223944
+          },
+          "right": {
+            "feature": 41,
+            "gain": 0.03197328147408962,
+            "left": {
+              "value": -0.013524805424013185
+            },
+            "right": {
+              "value": 0.00790516334744196
+            },
+            "threshold": 5.460410712714226
+          },
+          "threshold": -0.0031444980703082786
+        },
+        {
+          "feature": 61,
+          "gain": 0.010020401330055773,
+          "left": {
+            "feature": 9,
+            "gain": 0.009611373923609334,
+            "left": {
+              "value": -0.001043007503869252
+            },
+            "right": {
+              "value": 0.0069599320167345715
+            },
+            "threshold": 17.243418475158112
+          },
+          "right": {
+            "feature": 60,
+            "gain": 0.020353271647726157,
+            "left": {
+              "value": 0.00019200755261042027
+            },
+            "right": {
+              "value": -0.009338490175797307
+            },
+            "threshold": 29.547712833347468
+          },
+          "threshold": 0.9370796334179287
+        },
+        {
+          "feature": 61,
+          "gain": 0.009543313495611994,
+          "left": {
+            "feature": 9,
+            "gain": 0.011394640873728434,
+            "left": {
+              "value": -0.0017001350309265126
+            },
+            "right": {
+              "value": 0.007008161754669527
+            },
+            "threshold": 17.216355186727583
+          },
+          "right": {
+            "feature": 60,
+            "gain": 0.031137886700504325,
+            "left": {
+              "value": 0.0002749472761031193
+            },
+            "right": {
+              "value": -0.011513131642834903
+            },
+            "threshold": 29.477296109414738
+          },
+          "threshold": 0.9372705727191408
+        },
+        {
+          "feature": 41,
+          "gain": 0.010485411513200482,
+          "left": {
+            "feature": 32,
+            "gain": 0.010981617482012762,
+            "left": {
+              "value": -0.0014761334760618145
+            },
+            "right": {
+              "value": 0.0034947466695408676
+            },
+            "threshold": 0.01148765891395453
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.024276209624138012,
+            "left": {
+              "value": 0.001390815446921944
+            },
+            "right": {
+              "value": 0.02408199222386227
+            },
+            "threshold": 0.7897970526006042
+          },
+          "threshold": 5.187449720015309
+        },
+        {
+          "feature": 4,
+          "gain": 0.010954323051148851,
+          "left": {
+            "feature": 41,
+            "gain": 0.013794965735640208,
+            "left": {
+              "value": -0.00012479879502708512
+            },
+            "right": {
+              "value": 0.00733354314756008
+            },
+            "threshold": 5.187449720015309
+          },
+          "right": {
+            "feature": 13,
+            "gain": 0.04144583649357014,
+            "left": {
+              "value": -0.001946107894285864
+            },
+            "right": {
+              "value": -0.0416467102453333
+            },
+            "threshold": -0.010292761575090516
+          },
+          "threshold": 0.0535080244015733
+        },
+        {
+          "feature": 20,
+          "gain": 0.009996999232451564,
+          "left": {
+            "feature": 55,
+            "gain": 0.013561331507942143,
+            "left": {
+              "value": 0.0005189377506109436
+            },
+            "right": {
+              "value": -0.005526112642504835
+            },
+            "threshold": 8.0
+          },
+          "right": {
+            "feature": 54,
+            "gain": 0.008358107185333474,
+            "left": {
+              "value": 0.0038652607691965846
+            },
+            "right": {
+              "value": 0.02285715708203344
+            },
+            "threshold": 0.2
+          },
+          "threshold": 0.8
+        },
+        {
+          "feature": 13,
+          "gain": 0.0068763303124130815,
+          "left": {
+            "feature": 9,
+            "gain": 0.012057141449835385,
+            "left": {
+              "value": -5.6833139182607845e-05
+            },
+            "right": {
+              "value": 0.006846960745775584
+            },
+            "threshold": 24.166162961008574
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.022694540204026614,
+            "left": {
+              "value": -0.026275536529299464
+            },
+            "right": {
+              "value": -0.0009136140712761966
+            },
+            "threshold": 0.710414552524433
+          },
+          "threshold": -0.0031444980703082786
+        },
+        {
+          "feature": 16,
+          "gain": 0.011239368047007758,
+          "left": {
+            "feature": 62,
+            "gain": 0.011181955761607743,
+            "left": {
+              "value": 0.001351316404075435
+            },
+            "right": {
+              "value": -0.0036406447713942043
+            },
+            "threshold": 0.01847108766578951
+          },
+          "right": {
+            "feature": 14,
+            "gain": 0.05629192218772483,
+            "left": {
+              "value": -0.04642350760275149
+            },
+            "right": {
+              "value": -0.001489240129426658
+            },
+            "threshold": 0.7150026116309336
+          },
+          "threshold": 0.16839576851847105
+        },
+        {
+          "feature": 8,
+          "gain": 0.010458809330741836,
+          "left": {
+            "feature": 54,
+            "gain": 0.012490710070715227,
+            "left": {
+              "value": 0.0012749984137496286
+            },
+            "right": {
+              "value": -0.002950933014614038
+            },
+            "threshold": 0.15
+          },
+          "right": {
+            "feature": 16,
+            "gain": 0.015074763488575588,
+            "left": {
+              "value": -0.004961079561130639
+            },
+            "right": {
+              "value": 0.010505980350782143
+            },
+            "threshold": 0.07380730793709929
+          },
+          "threshold": 0.010148375634576627
+        },
+        {
+          "feature": 0,
+          "gain": 0.007820897484398959,
+          "left": {
+            "feature": 0,
+            "gain": 0.020720847157959632,
+            "left": {
+              "value": 0.0004733155734236147
+            },
+            "right": {
+              "value": -0.009156667590252738
+            },
+            "threshold": 1.8886939480873486
+          },
+          "right": {
+            "feature": 1,
+            "gain": 0.023535722771031775,
+            "left": {
+              "value": 0.01533268952431091
+            },
+            "right": {
+              "value": 0.00023799442544088348
+            },
+            "threshold": 134.2288116039023
+          },
+          "threshold": 2.0413446666068515
+        },
+        {
+          "feature": 4,
+          "gain": 0.01011221630574255,
+          "left": {
+            "feature": 5,
+            "gain": 0.0173754447475436,
+            "left": {
+              "value": -0.0011252410357794332
+            },
+            "right": {
+              "value": 0.004646359030889367
+            },
+            "threshold": 0.48119160919786746
+          },
+          "right": {
+            "feature": 69,
+            "gain": 0.013445595402791888,
+            "left": {
+              "value": 0.0007415464411811257
+            },
+            "right": {
+              "value": -0.008557208930636055
+            },
+            "threshold": 0.01180995007253167
+          },
+          "threshold": 0.040615892708835984
+        },
+        {
+          "feature": 11,
+          "gain": 0.009436377553674546,
+          "left": {
+            "feature": 9,
+            "gain": 0.011613258371180546,
+            "left": {
+              "value": -0.006294581829097632
+            },
+            "right": {
+              "value": 0.00044511399294855066
+            },
+            "threshold": 16.983865673817608
+          },
+          "right": {
+            "feature": 82,
+            "gain": 0.009103549111500131,
+            "left": {
+              "value": 0.00821658611817505
+            },
+            "right": {
+              "value": -0.003867806379278262
+            },
+            "threshold": 0.0
+          },
+          "threshold": 1440.0
+        },
+        {
+          "feature": 40,
+          "gain": 0.008661826241600945,
+          "left": {
+            "feature": 40,
+            "gain": 0.019620038781829052,
+            "left": {
+              "value": 0.0020761063811170605
+            },
+            "right": {
+              "value": -0.005023558661144445
+            },
+            "threshold": 1.0231582921929643
+          },
+          "right": {
+            "feature": 48,
+            "gain": 0.013859227876791724,
+            "left": {
+              "value": 0.0005239072866973592
+            },
+            "right": {
+              "value": 0.00847630710010375
+            },
+            "threshold": 0.01839913274168949
+          },
+          "threshold": 1.0729045189710602
+        },
+        {
+          "feature": 60,
+          "gain": 0.007692551946021364,
+          "left": {
+            "feature": 10,
+            "gain": 0.006009594141260788,
+            "left": {
+              "value": -0.0002366087967753173
+            },
+            "right": {
+              "value": 0.004654564638020359
+            },
+            "threshold": 5.539611845794927
+          },
+          "right": {
+            "feature": 55,
+            "gain": 0.03682420059888625,
+            "left": {
+              "value": -0.008547033087770285
+            },
+            "right": {
+              "value": 0.028311077695562625
+            },
+            "threshold": 14.0
+          },
+          "threshold": 38.03743920250524
+        },
+        {
+          "feature": 4,
+          "gain": 0.00839456040778419,
+          "left": {
+            "feature": 10,
+            "gain": 0.01123598269939352,
+            "left": {
+              "value": -0.0055252311715280125
+            },
+            "right": {
+              "value": 0.0009687835717013019
+            },
+            "threshold": 0.5381816014690165
+          },
+          "right": {
+            "feature": 13,
+            "gain": 0.039164940139708504,
+            "left": {
+              "value": -0.0014651314570344365
+            },
+            "right": {
+              "value": -0.03956547057624888
+            },
+            "threshold": -0.009584055609897538
+          },
+          "threshold": 0.05375927782475294
+        },
+        {
+          "feature": 3,
+          "gain": 0.011642850497080026,
+          "left": {
+            "feature": 60,
+            "gain": 0.007521600545624896,
+            "left": {
+              "value": 0.0012222618104792528
+            },
+            "right": {
+              "value": -0.0042402790977136215
+            },
+            "threshold": 40.65218720106709
+          },
+          "right": {
+            "feature": 5,
+            "gain": 0.053313264414300676,
+            "left": {
+              "value": -0.002418454444698729
+            },
+            "right": {
+              "value": -0.05712700378232425
+            },
+            "threshold": 1.433585226370058
+          },
+          "threshold": 15.435557924776566
+        },
+        {
+          "feature": 13,
+          "gain": 0.009392527807141171,
+          "left": {
+            "feature": 40,
+            "gain": 0.011174817974288764,
+            "left": {
+              "value": -0.0011684370758881992
+            },
+            "right": {
+              "value": 0.002898574498629478
+            },
+            "threshold": 1.0922532806024208
+          },
+          "right": {
+            "feature": 41,
+            "gain": 0.025830578117692293,
+            "left": {
+              "value": -0.012699437235524268
+            },
+            "right": {
+              "value": 0.006596486104713185
+            },
+            "threshold": 5.460410712714226
+          },
+          "threshold": -0.0031444980703082786
+        },
+        {
+          "feature": 5,
+          "gain": 0.010625313071658038,
+          "left": {
+            "feature": 9,
+            "gain": 0.028720239891691035,
+            "left": {
+              "value": -0.012800799508503925
+            },
+            "right": {
+              "value": -0.00033608894187060696
+            },
+            "threshold": 17.0618816764003
+          },
+          "right": {
+            "feature": 70,
+            "gain": 0.013581769272329236,
+            "left": {
+              "value": -0.0006506391894402984
+            },
+            "right": {
+              "value": 0.006099032383881247
+            },
+            "threshold": 0.601237376183636
+          },
+          "threshold": 0.4718665075754766
+        },
+        {
+          "feature": 10,
+          "gain": 0.010160566155953177,
+          "left": {
+            "feature": 72,
+            "gain": 0.019087947869438127,
+            "left": {
+              "value": -0.012979153662719282
+            },
+            "right": {
+              "value": 0.0026194524170202226
+            },
+            "threshold": -2.569230769230769
+          },
+          "right": {
+            "feature": 19,
+            "gain": 0.008454500168391554,
+            "left": {
+              "value": 0.00400877318840266
+            },
+            "right": {
+              "value": -0.00027145690478548384
+            },
+            "threshold": 1.0
+          },
+          "threshold": 0.5381816014690165
+        },
+        {
+          "feature": 28,
+          "gain": 0.010770366213813887,
+          "left": {
+            "feature": 56,
+            "gain": 0.013747487039970085,
+            "left": {
+              "value": -0.0001410665183186303
+            },
+            "right": {
+              "value": -0.007911229782627833
+            },
+            "threshold": 5.256929887747176
+          },
+          "right": {
+            "feature": 62,
+            "gain": 0.010908416297876089,
+            "left": {
+              "value": 0.0016921068151472388
+            },
+            "right": {
+              "value": 0.01253171157333807
+            },
+            "threshold": 0.02711862481060821
+          },
+          "threshold": 2.0
+        },
+        {
+          "feature": 13,
+          "gain": 0.0075813016044605774,
+          "left": {
+            "feature": 9,
+            "gain": 0.012879972021397013,
+            "left": {
+              "value": 0.0004197170276888169
+            },
+            "right": {
+              "value": 0.00756862931370576
+            },
+            "threshold": 24.17982300400327
+          },
+          "right": {
+            "feature": 41,
+            "gain": 0.0195521447351632,
+            "left": {
+              "value": -0.009224534104491687
+            },
+            "right": {
+              "value": 0.00822675440583628
+            },
+            "threshold": 5.648383586949739
+          },
+          "threshold": -0.003347149066064234
+        },
+        {
+          "feature": 41,
+          "gain": 0.008339193860809058,
+          "left": {
+            "feature": 42,
+            "gain": 0.011909641654971548,
+            "left": {
+              "value": 0.00048241529577471465
+            },
+            "right": {
+              "value": -0.004675705563311197
+            },
+            "threshold": 0.3067390044393696
+          },
+          "right": {
+            "feature": 46,
+            "gain": 0.03762291861681333,
+            "left": {
+              "value": -0.017686720156341568
+            },
+            "right": {
+              "value": 0.010788510541466513
+            },
+            "threshold": 0.05259259259259261
+          },
+          "threshold": 5.2403477257863145
+        },
+        {
+          "feature": 41,
+          "gain": 0.00801798470195303,
+          "left": {
+            "feature": 4,
+            "gain": 0.011837125297887052,
+            "left": {
+              "value": 0.00047543910227912156
+            },
+            "right": {
+              "value": -0.004716812875207204
+            },
+            "threshold": 0.038556909440705195
+          },
+          "right": {
+            "feature": 41,
+            "gain": 0.02034963963547448,
+            "left": {
+              "value": 0.008903459378163482
+            },
+            "right": {
+              "value": -0.011500529499043908
+            },
+            "threshold": 6.235882765225375
+          },
+          "threshold": 5.19631553970511
+        },
+        {
+          "feature": 61,
+          "gain": 0.00778027971329065,
+          "left": {
+            "feature": 0,
+            "gain": 0.009854815792351146,
+            "left": {
+              "value": 0.0005802468822777412
+            },
+            "right": {
+              "value": 0.00929845249039397
+            },
+            "threshold": 2.052065681522825
+          },
+          "right": {
+            "feature": 55,
+            "gain": 0.022032421234351673,
+            "left": {
+              "value": 8.090100101060786e-05
+            },
+            "right": {
+              "value": -0.010889105035779898
+            },
+            "threshold": 8.0
+          },
+          "threshold": 0.9372751282756971
+        },
+        {
+          "feature": 0,
+          "gain": 0.008459105656851929,
+          "left": {
+            "feature": 2,
+            "gain": 0.0219110615840985,
+            "left": {
+              "value": 0.00028554235377236666
+            },
+            "right": {
+              "value": -0.009652275718089657
+            },
+            "threshold": 0.00945833491024639
+          },
+          "right": {
+            "feature": 43,
+            "gain": 0.015283685411766168,
+            "left": {
+              "value": 0.008202443960353595
+            },
+            "right": {
+              "value": -0.0018781652800676282
+            },
+            "threshold": 1.674391534391534
+          },
+          "threshold": 2.0413446666068515
+        }
+      ]
+    },
+    "regularization": 0.02,
+    "seed": 9101,
+    "tree_count": 90
+  },
+  "bin_edges": null,
+  "feature_names": [
+    "density_mean",
+    "flow_mean",
+    "occupancy_mean",
+    "mean_speed",
+    "speed_variance",
+    "acceleration_variance",
+    "queue_length",
+    "halting_count",
+    "lane_occupancy",
+    "headway_mean",
+    "headway_variance",
+    "demand_vehicles_per_hour",
+    "density_slope_30s",
+    "speed_slope_30s",
+    "flow_instability",
+    "queue_growth_rate",
+    "short_horizon_speed_oscillation",
+    "occupancy_variance_30s",
+    "route_overlap",
+    "alternative_capacity_ratio",
+    "volume_capacity_ratio",
+    "bottleneck_centrality",
+    "route_length_ratio",
+    "topology_merge",
+    "topology_signalized",
+    "topology_two_route",
+    "topology_real_like",
+    "topology_ring",
+    "perturbation_strength",
+    "predicted_acceptance",
+    "preference_slack_mean",
+    "preference_slack_std",
+    "preference_variance",
+    "heterogeneity_low",
+    "heterogeneity_medium",
+    "heterogeneity_high",
+    "heterogeneity_bimodal",
+    "heterogeneity_long_tail",
+    "acceptance_multiplier",
+    "navigation_penetration",
+    "minimum_headway",
+    "closing_speed_p90",
+    "drac_proxy_p95",
+    "lane_change_density",
+    "merge_interaction_density",
+    "speed_differential",
+    "hard_braking_recent_rate",
+    "analytical_success_probability",
+    "analytical_predicted_ttt_gain",
+    "edge_disjointness",
+    "number_route_alternatives",
+    "preference_entropy_proxy",
+    "topology_asymmetric",
+    "v6_micro_success_score",
+    "reroute_fraction",
+    "proposed_rerouted_user_count",
+    "expected_accepted_user_count",
+    "expected_rerouted_flow",
+    "maximum_target_edge_load_increase",
+    "maximum_source_edge_load_reduction",
+    "bottleneck_flow_delta",
+    "destination_capacity_slack",
+    "route_overlap_delta",
+    "route_entropy",
+    "affected_junction_count",
+    "expected_lane_change_demand_delta",
+    "conflict_zone_exposure_delta",
+    "action_concentration_index",
+    "average_preference_slack_selected",
+    "p90_preference_slack_selected",
+    "expected_acceptance_probability",
+    "route_length_increase",
+    "reliability_change",
+    "is_null_action",
+    "strategy_U1_lowest_slack",
+    "strategy_U2_highest_marginal_benefit",
+    "strategy_U3_highest_VDE",
+    "strategy_U4_ETA_sensitive",
+    "strategy_U5_reliability_sensitive",
+    "strategy_U6_safety_sensitive",
+    "strategy_U7_highest_acceptance",
+    "strategy_U8_hybrid",
+    "allocation_R1_best_alternative",
+    "allocation_R2_capacity_proportional",
+    "allocation_R3_inverse_overlap",
+    "allocation_R4_reliability_weighted",
+    "allocation_R5_minimum_bottleneck_load",
+    "allocation_R6_entropy_constrained"
+  ],
+  "kind": "gradient_boosting",
+  "model_id": "T1_gradient_boosting",
+  "seed": 9101
+}

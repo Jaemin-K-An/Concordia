@@ -1,0 +1,20 @@
+{
+  "action_feature_count": 34,
+  "actual_sumo_run_count": 6600,
+  "complete": true,
+  "exhaustive_state_count": 100,
+  "final_holdout_materialized": false,
+  "gate_A_pass": true,
+  "oracle_actionability_rate": 0.458,
+  "pairing_failure_count": 0,
+  "raw_metrics_hash": "dfaed53032d04b158a1723ed4725843e0859b46d08a9a5c26f20a578590d4f1c",
+  "rl_used": false,
+  "role_state_counts": {
+    "calibration": 80,
+    "train": 300,
+    "validation": 120
+  },
+  "state_action_feature_count": 88,
+  "state_action_row_count": 6600,
+  "state_count": 500
+}
