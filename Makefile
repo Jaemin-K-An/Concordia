@@ -374,5 +374,8 @@ v9-repair:
 v10-preregister:
 	PYTHONPATH=src:scripts $(PYTHON) -c "from pathlib import Path; assert Path('configs/v10/preregistration.yaml').is_file(); assert not Path('artifacts/studies/v10_micro_holdout/summary.json').exists(); assert not Path('artifacts/v10/final_seed_manifest.json').exists(); print('v10 preregistration present; final absent')"
 
+v10-racing-engine:
+	PYTHONPATH=src:scripts $(PYTHON) -m unittest discover -s tests -p 'test_v10_racing.py' -v
+
 clean:
 	find src tests -type d -name __pycache__ -prune -exec rm -r {} +
