@@ -2,12 +2,18 @@ from __future__ import annotations
 
 import hashlib
 import math
+import os
+import subprocess
 import tempfile
+from contextlib import redirect_stdout
 from dataclasses import asdict
 from pathlib import Path
 from typing import Mapping, Sequence
 
 import numpy as np
+import traci
+from sumolib.miscutils import getFreeSocketPort
+from traci import constants as tc
 
 from concordia.behavior import AcceptanceModel
 from concordia.models import Route
@@ -26,6 +32,28 @@ from v9_micro_sim import TrajectoryFrame, summarize_safety
 
 
 BOTTLENECK_EDGES = ("m3", "a2", "b2", "out")
+
+
+def _start_sumo(adapter: SumoAdapter, seed: int) -> None:
+    """Start an isolated TraCI connection without the one-second retry floor."""
+    port = getFreeSocketPort()
+    process = subprocess.Popen([
+        str(adapter.binary), "-c", str(adapter.config_path), "--seed", str(seed),
+        "--remote-port", str(port),
+    ])
+    try:
+        with open(os.devnull, "w", encoding="utf-8") as sink, redirect_stdout(sink):
+            adapter._traci = traci.connect(
+                port=port,
+                numRetries=500,
+                proc=process,
+                waitBetweenRetries=0.01,
+                label=None,
+            )
+    except BaseException:
+        process.terminate()
+        process.wait()
+        raise
 
 
 def _sha(path: Path) -> str:
@@ -131,14 +159,20 @@ def run_v10_candidate(
         offers = accepted = rejected = 0
         planned = None
         candidate_plans = {}
-        adapter.start(predecision_seed)
+        _start_sumo(adapter, predecision_seed)
         try:
             while (
                 adapter._traci.simulation.getMinExpectedNumber() > 0
                 and adapter._traci.simulation.getTime() < stop_time
             ):
-                snapshot = adapter.step()
-                now = float(snapshot.time)
+                # The generic adapter constructs a full edge/vehicle snapshot on
+                # every step.  This rollout consumes only the clock here; route
+                # features are queried once at the decision boundary and safety
+                # observations come from the subscriptions below.  Advancing
+                # TraCI directly avoids duplicating those expensive queries while
+                # preserving the same one-second microscopic trajectory.
+                adapter._traci.simulationStep()
+                now = float(adapter._traci.simulation.getTime())
                 if planned is None and now >= decision_time:
                     routes_at_decision = _route_features(adapter)
                     planned = _plan_action(
@@ -160,6 +194,11 @@ def run_v10_candidate(
                         candidate_plans[str(item_value["action_id"])] = plan
                 for vehicle_id in adapter._traci.simulation.getDepartedIDList():
                     departures[vehicle_id] = now
+                    adapter._traci.vehicle.subscribe(
+                        vehicle_id,
+                        (tc.VAR_SPEED, tc.VAR_ACCELERATION, tc.VAR_LEADER),
+                        parameters={tc.VAR_LEADER: ("d", 150.0)},
+                    )
                     if vehicle_id not in active_ids:
                         continue
                     routes: tuple[Route, ...] = _route_features(adapter)
@@ -203,7 +242,8 @@ def run_v10_candidate(
                         arrived += 1
                 if now <= decision_time:
                     continue
-                vehicle_ids = list(adapter._traci.vehicle.getIDList())
+                subscriptions = adapter._traci.vehicle.getAllSubscriptionResults()
+                vehicle_ids = list(subscriptions)
                 vehicle_time += len(vehicle_ids)
                 queue_integral += sum(
                     int(adapter._traci.edge.getLastStepHaltingNumber(edge))
@@ -214,16 +254,23 @@ def run_v10_candidate(
                     for edge in BOTTLENECK_EDGES
                 ) / len(BOTTLENECK_EDGES)
                 for vehicle_id in vehicle_ids:
-                    speed = max(0.0, float(adapter._traci.vehicle.getSpeed(vehicle_id)))
-                    acceleration = float(adapter._traci.vehicle.getAcceleration(vehicle_id))
-                    leader = adapter._traci.vehicle.getLeader(vehicle_id, 150.0)
-                    gap = max(1e-6, float(leader[1])) if leader else None
+                    values = subscriptions[vehicle_id]
+                    speed = max(0.0, float(values.get(tc.VAR_SPEED, 0.0)))
+                    acceleration = float(values.get(tc.VAR_ACCELERATION, 0.0))
+                    leader_value = values.get(tc.VAR_LEADER)
+                    leader_id = str(leader_value[0]) if leader_value and leader_value[0] else None
+                    raw_gap = float(leader_value[1]) if leader_id else -1.0
+                    gap = max(1e-6, raw_gap) if raw_gap > 0.0 else None
+                    leader_speed_value = (
+                        subscriptions.get(leader_id, {}).get(tc.VAR_SPEED)
+                        if leader_id else None
+                    )
                     leader_speed = (
-                        max(0.0, float(adapter._traci.vehicle.getSpeed(leader[0])))
-                        if leader else None
+                        max(0.0, float(leader_speed_value))
+                        if leader_speed_value is not None else None
                     )
                     frames.append(TrajectoryFrame(
-                        now, vehicle_id, leader[0] if leader else None,
+                        now, vehicle_id, leader_id,
                         gap, speed, leader_speed, acceleration,
                     ))
         finally:

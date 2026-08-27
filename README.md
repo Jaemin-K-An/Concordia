@@ -1,17 +1,22 @@
 <p align="center">
-  <img src="assets/brand/concordia-lockup.svg" width="750" alt="Concordia" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/concordia-lockup-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/brand/concordia-lockup.svg" />
+    <img src="assets/brand/concordia-lockup.svg" width="750" alt="Concordia" />
+  </picture>
 </p>
 
 <p align="center">
-  <strong>Safety-filtered uplift ranking for voluntary adaptive navigation.</strong><br />
-  Rank paired traffic benefit, veto unsafe proposed actions—or preserve the ETA baseline when evidence is insufficient.
+  <strong>Multi-fidelity action racing for voluntary adaptive navigation.</strong><br />
+  Eliminate candidates with staged SUMO evidence—or preserve the ETA baseline when repeated verification is insufficient.
 </p>
 
 <p align="center">
   <img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-111111?style=flat-square" />
   <img alt="SUMO 1.27.1" src="https://img.shields.io/badge/SUMO-1.27.1-404040?style=flat-square" />
   <img alt="Tests passing" src="https://img.shields.io/badge/tests-passing-111111?style=flat-square" />
-  <img alt="Safety-filtered v8 Outcome F" src="https://img.shields.io/badge/safety--filtered%20v8-Outcome%20F-a43f32?style=flat-square" />
+  <img alt="CONCORDIA v10 validation blocked" src="https://img.shields.io/badge/v10-validation%20blocked-a43f32?style=flat-square" />
+  <img alt="Final holdout not materialized" src="https://img.shields.io/badge/final%20holdout-not%20materialized-737373?style=flat-square" />
   <img alt="RL gate Outcome B" src="https://img.shields.io/badge/RL%20gate-Outcome%20B-737373?style=flat-square" />
 </p>
 
@@ -28,19 +33,19 @@
 > [!IMPORTANT]
 > CONCORDIA recommends legal routes using truthful computed attributes. It never controls
 > speed, steering, acceleration, or lane changes. A route is changed only after the modeled
-> user explicitly accepts the offer. v8 preserves the v7 paired traffic-uplift ranker, then applies
-> a calibrated action-aware classifier for `Risk(Adaptive) > Risk(B1) + 0.25`, the v7 regret model,
-> and a legal-execution gate. All 88 inputs are pre-decision state or proposed-action expectations;
-> realized treatment values are forbidden. Development validation found no eligible non-empty
-> point, so the frozen package safely abstains. Its result is Outcome F, not a deployment claim.
+> user explicitly accepts the offer. v10 generates 24 adaptive candidates plus an immutable B1
+> null action, then applies staged 60/120/300-second SUMO rollouts and fresh replicated
+> verification. Its independent 400-state validation reached 25.53% precision with nine safety
+> violations, so freeze authorization failed. The committed 500-state final holdout was never
+> materialized. This is a research validation failure, not a deployment or final-outcome claim.
 
 ## System
 
-CONCORDIA v8 asks two ordered counterfactual questions: which proposed intervention has the
-highest paired traffic benefit, and which proposed intervention is unsafe enough to veto? It
-learns from common-random-number paired SUMO runs, ranks benefit with the immutable v7 model,
-and classifies safety using state plus the proposed reroute's expected exposure/load changes.
-SafeMicroSuccess remains the final joint evaluation label rather than a classifier input.
+CONCORDIA v10 asks which legal, preference-feasible action survives increasingly expensive
+microscopic simulation evidence. Static checks remove only impossible actions. Cheap rollouts
+retain plausible candidates; replicated medium/high-fidelity rollouts rank conservative traffic
+benefit and veto unsafe actions; fresh seeds verify the finalists. If no action repeatedly clears
+the fixed benefit, risk, regret, and legality gates, the policy executes B1.
 
 | Behavioral layer | Adaptive layer | Research layer |
 |---|---|---|
@@ -106,20 +111,31 @@ SafeMicroSuccess remains the final joint evaluation label rather than a classifi
   group recall, PR-AUC, ECE/Brier, cumulative-gain, NDCG, and policy-frontier diagnostics.
 - Six frozen v8 YAML packages and a checksum manifest created before 400 new microscopic pairs
   and 120 paired conditions across 15 new Gangnam OSM OD pairs were evaluated.
+- A v9 library of 24 legal adaptive route-dispersion actions plus immutable B1 and always-on B6
+  references, with historical exhaustive actionability evidence retained for comparison only.
+- A deterministic v10 Stage 0/1/2/3 racing engine with content-hash rollout caching, disjoint
+  decision/evaluation seeds, replicated robust scoring, fresh verification, and null fallback.
+- 200 new development states, three registered repair rounds, action-survival curves, selection
+  regret, B1/B6/v9/static-stage baselines, and no-replication/no-safety/no-LCB ablations.
+- A separate 400-state model-mismatch validation containing 101,343 recorded rollout results.
+  It failed authorization at 25.53% precision and nine safety violations; freeze and final
+  materialization were correctly blocked.
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    A["Topology · demand · preferences"] --> B["30 s pre-decision SUMO state"]
-    B --> C["88-feature v8 state + proposed-action schema"]
-    C --> D["Frozen v7 traffic uplift rank"]
-    D --> E{"Calibrated unsafe veto · regret ≤ 0.08 · legal?"}
-    E -->|"no"| F["B1 ETA baseline · abstain"]
-    E -->|"yes"| G["B6 voluntary route offer"]
-    G --> H{"User accepts?"}
-    H -->|"yes"| I["Execute legal route change"]
-    H -->|"no"| F
+    A["Topology · demand · preferences"] --> B["24 adaptive actions + B1 null"]
+    B --> C["Stage 0 static feasibility"]
+    C --> D["Stage 1 · 60 s cheap rollout"]
+    D --> E["Stage 2 · 5 × 120 s robust score"]
+    E --> F["Stage 3 · 7 × 300 s q10 LCB + safety"]
+    F --> G{"Fresh 5-replica verification passes?"}
+    G -->|"no"| H["B1 ETA baseline · abstain"]
+    G -->|"yes"| I["Voluntary route offer"]
+    I --> J{"User accepts?"}
+    J -->|"yes"| K["Execute legal route change"]
+    J -->|"no"| H
 ```
 
 The analytical layer is a BPR correctness harness. The microscopic layer is actual SUMO
@@ -250,6 +266,16 @@ make v8-real-topology
 make v8-failure-analysis
 make v8-report
 make v8-final-audit
+
+# v10 completed authorization-validation sequence
+make v10-preregister
+make v10-racing-engine
+make v10-development
+make v10-repair
+make v10-validation
+
+# v10-freeze and v10-micro-holdout are intentionally blocked:
+# validation did not authorize final materialization.
 ```
 
 Install the official SUMO/TraCI optional dependencies before microscopic validation:
@@ -262,6 +288,29 @@ The fast test suite does not open SUMO. CI separates analytical, microscopic, an
 dispatched research-matrix workflows.
 
 ## Research status
+
+### v10 — validation blocked before freeze
+
+The final Repair 3 policy reached **91.30% development precision**, **11.50% coverage**, and
+zero development safety violations on 200 states. That result did not generalize. On the
+independent **400-state** validation with mild demand and car-following mismatch, it made 47
+interventions with 12 safe-beneficial successes: **25.53% precision**, **11.75% coverage**, and
+**9 safety violations**. It passed the coverage and intervention-count gates but failed the
+registered precision ≥85% and safety=0 gates.
+
+All three registered repair rounds were exhausted without relaxing any threshold. Therefore
+`freeze_authorized` is false, no v10 frozen package exists, and the committed 500-state final
+holdout remains unmaterialized. See the [v10 validation decision](docs/v10_validation.md).
+
+| v10 authorization condition | Result | Status |
+|---|---:|:---:|
+| Validation precision ≥85% | 25.53% | **FAIL** |
+| Validation safety violations =0 | 9 | **FAIL** |
+| Validation interventions ≥30 | 47 | **PASS** |
+| Validation coverage ≥10% | 11.75% | **PASS** |
+| Final materialized only after authorized freeze | Not materialized | **PASS** |
+
+### Preserved v8 outcome
 
 v8 used **2,000 paired development conditions**, including 500 newly executed SUMO pairs and
 379 registered unsafe outcomes. The selected action-aware safety model improved validation PR-AUC
@@ -496,6 +545,10 @@ remains a recorded failure tail even though median Gate C did not trigger.
 
 | Artifact | Contents |
 |---|---|
+| [`docs/v10_validation.md`](docs/v10_validation.md) | Three repair rounds, 400-state authorization result, and the no-freeze decision |
+| [`v10 validation summary`](artifacts/studies/v10_racing_validation/validation_summary.json) | Precision, coverage, safety, intervention, latency, seed, and authorization checks |
+| [`v10 repair ledger`](artifacts/studies/v10_racing_validation/repair_ledger.json) | Registered changes and proof that all three repair rounds were exhausted without threshold relaxation |
+| [`v10 Repair 3 survival curve`](artifacts/studies/v10_racing_validation/development_repair_3_action_survival.svg) | Development oracle-action survival across the racing stages |
 | [`FINAL_AUDIT_V8.md`](FINAL_AUDIT_V8.md) | Six-package freeze, 2,000 development pairs, 400 untouched final pairs, 15-OD OSM transfer, H45–H55, and Outcome F |
 | [`reports/v8_final_report.md`](reports/v8_final_report.md) | Concise v8 research report and claim boundary |
 | [`v8_micro_holdout/summary.json`](artifacts/studies/v8_micro_holdout/summary.json) | New 400-pair final evaluation, architecture comparison, rank and safety metrics |

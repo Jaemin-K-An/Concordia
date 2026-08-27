@@ -377,5 +377,24 @@ v10-preregister:
 v10-racing-engine:
 	PYTHONPATH=src:scripts $(PYTHON) -m unittest discover -s tests -p 'test_v10_racing.py' -v
 
+v10-development:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v10_racing_study.py development --workers 8
+
+v10-validation:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v10_racing_study.py validation --workers 8 --racing-config configs/v10/repairs/repair_3_robust_criterion.yaml --evidence-label validation
+
+v10-repair:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v10_racing_study.py development --workers 8 --racing-config configs/v10/repairs/repair_3_robust_criterion.yaml --evidence-label development_repair_3 --reuse-development-outcomes artifacts/studies/v10_racing_validation/development_raw_metrics.json
+
+v10-freeze:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/freeze_v10.py
+
+v10-micro-holdout:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/materialize_v10_final.py
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v10_final_holdout.py --workers 8
+
+v10-report v10-final-audit:
+	PYTHONPATH=src:scripts $(PYTHON) scripts/run_v10_final_audit.py
+
 clean:
 	find src tests -type d -name __pycache__ -prune -exec rm -r {} +

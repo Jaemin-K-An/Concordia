@@ -1,0 +1,29 @@
+{
+  "any_constraint_violation_count": 9,
+  "authorization": {
+    "coverage_at_least_0_10": true,
+    "interventions_at_least_30": true,
+    "precision_at_least_0_85": false,
+    "safety_violations_zero": false
+  },
+  "coverage": 0.1175,
+  "decision_evaluation_seed_overlap": 0,
+  "evidence_label": "validation",
+  "final_holdout_materialized": false,
+  "freeze_authorized": false,
+  "intervention_count": 47,
+  "legal_violation_count": 0,
+  "mean_decision_latency_seconds": 23.409685656587502,
+  "normalized_network_hash_pair_count": 0,
+  "p95_decision_latency_seconds": 29.862433084001168,
+  "partition": "validation",
+  "precision": 0.2553191489361702,
+  "racing_config": "configs/v10/repairs/repair_3_robust_criterion.yaml",
+  "racing_config_sha256": "e22ce203175b5ef0116d41d83e66e34c12b35ca0d269dabfa9128273da8de3f1",
+  "regret_violation_count": 0,
+  "rl_used": false,
+  "rollout_count": 101343,
+  "safe_beneficial_intervention_count": 12,
+  "safety_violation_count": 9,
+  "state_count": 400
+}

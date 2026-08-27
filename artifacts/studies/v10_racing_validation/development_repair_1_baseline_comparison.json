@@ -1,0 +1,111 @@
+{
+  "B1": {
+    "coverage": 0.0,
+    "intervention_count": 0,
+    "population_mean_relative_ttt_gain": 0.0,
+    "precision": 0.0,
+    "realized_any_constraint_violation_count": 0,
+    "realized_safety_violation_count": 0,
+    "safe_beneficial_intervention_count": 0,
+    "selected_action_counts": {},
+    "selected_action_diversity": 0,
+    "state_count": 200
+  },
+  "B6": {
+    "coverage": 1.0,
+    "intervention_count": 200,
+    "population_mean_relative_ttt_gain": -0.04858079064580756,
+    "precision": 0.115,
+    "realized_any_constraint_violation_count": 111,
+    "realized_safety_violation_count": 111,
+    "safe_beneficial_intervention_count": 23,
+    "selected_action_counts": {
+      "B6_ALWAYS_ON_REFERENCE": 200
+    },
+    "selected_action_diversity": 1,
+    "state_count": 200
+  },
+  "V10-F": {
+    "coverage": 0.23,
+    "intervention_count": 46,
+    "population_mean_relative_ttt_gain": 0.008362446438733654,
+    "precision": 0.7608695652173914,
+    "realized_any_constraint_violation_count": 1,
+    "realized_safety_violation_count": 1,
+    "safe_beneficial_intervention_count": 35,
+    "selected_action_counts": {
+      "A02": 2,
+      "A03": 2,
+      "A04": 1,
+      "A05": 2,
+      "A06": 6,
+      "A07": 3,
+      "A08": 3,
+      "A09": 2,
+      "A10": 1,
+      "A11": 2,
+      "A12": 5,
+      "A14": 2,
+      "A15": 1,
+      "A16": 2,
+      "A17": 2,
+      "A18": 2,
+      "A19": 1,
+      "A20": 3,
+      "A21": 1,
+      "A22": 2,
+      "A24": 1
+    },
+    "selected_action_diversity": 21,
+    "state_count": 200
+  },
+  "V10-Stage1": {
+    "coverage": 0.0,
+    "intervention_count": 0,
+    "population_mean_relative_ttt_gain": 0.0,
+    "precision": 0.0,
+    "realized_any_constraint_violation_count": 0,
+    "realized_safety_violation_count": 0,
+    "safe_beneficial_intervention_count": 0,
+    "selected_action_counts": {},
+    "selected_action_diversity": 0,
+    "state_count": 200
+  },
+  "V10-Stage12": {
+    "coverage": 0.17,
+    "intervention_count": 34,
+    "population_mean_relative_ttt_gain": 0.0010100618322848689,
+    "precision": 0.4117647058823529,
+    "realized_any_constraint_violation_count": 11,
+    "realized_safety_violation_count": 11,
+    "safe_beneficial_intervention_count": 14,
+    "selected_action_counts": {
+      "A02": 1,
+      "A03": 1,
+      "A04": 2,
+      "A05": 4,
+      "A06": 3,
+      "A07": 1,
+      "A08": 2,
+      "A09": 1,
+      "A11": 2,
+      "A12": 2,
+      "A16": 1,
+      "A17": 2,
+      "A19": 1,
+      "A20": 2,
+      "A21": 1,
+      "A22": 3,
+      "A23": 2,
+      "A24": 3
+    },
+    "selected_action_diversity": 18,
+    "state_count": 200
+  },
+  "V9-Surrogate": {
+    "comparison_type": "historical_independent_validation",
+    "contemporaneous_realized_precision": null,
+    "source": "artifacts/studies/v9_policy_validation/gate_validation.json",
+    "top_5_oracle_recall": 0.375
+  }
+}

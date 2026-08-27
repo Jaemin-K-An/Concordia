@@ -1,0 +1,15 @@
+{
+  "exact_oracle_capture_count": 4,
+  "failure_taxonomy": {
+    "F1_no_beneficial_action": 89,
+    "F2_good_action_eliminated_stage1": 69,
+    "F3_good_action_eliminated_stage2": 20,
+    "F4_good_action_eliminated_stage3": 16,
+    "F7_stochastic_reversal": 2,
+    "None": 4
+  },
+  "final_holdout_materialized": false,
+  "mean_selection_regret": 0.015464476535077418,
+  "racing_efficiency_exact_capture_per_rollout": 0.00022318937618569356,
+  "rollout_count": 17922
+}

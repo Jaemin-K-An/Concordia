@@ -26,3 +26,5 @@ scenarios/sumo/ring/fcd.xml
 scenarios/sumo/ring/ssm.xml
 artifacts/studies/v8_safety_dataset/new_development_checkpoint.json
 artifacts/studies/v8_micro_holdout/final_checkpoint.json
+artifacts/cache/v10_rollouts/
+artifacts/studies/v10_micro_holdout/final_checkpoint.json

@@ -1,0 +1,63 @@
+{
+  "development_state_count": 200,
+  "final_holdout_materialized": false,
+  "freeze_authorized": false,
+  "maximum_repair_rounds": 3,
+  "repairs": [
+    {
+      "changes": [
+        "stage_1_target_survivors_12_to_24",
+        "stage_1_minimum_survivors_12_to_24",
+        "stage_2_target_survivors_6_to_18"
+      ],
+      "coverage": 0.23,
+      "intervention_count": 46,
+      "name": "candidate_retention",
+      "precision": 0.7608695652173914,
+      "round": 1,
+      "safety_violation_count": 1
+    },
+    {
+      "changes": [
+        "stage_2_replicas_3_to_5",
+        "stage_2_recurring_unsafe_count_2_of_3_to_3_of_5",
+        "stage_3_horizon_240_to_300_seconds",
+        "stage_3_replicas_5_to_7",
+        "verification_replicas_3_to_5"
+      ],
+      "coverage": 0.155,
+      "intervention_count": 31,
+      "name": "rollout_fidelity",
+      "precision": 0.8064516129032258,
+      "round": 2,
+      "safety_violation_count": 0
+    },
+    {
+      "changes": [
+        "require_every_fresh_verification_replica_to_exceed_fixed_benefit_threshold"
+      ],
+      "coverage": 0.115,
+      "intervention_count": 23,
+      "name": "robust_criterion",
+      "precision": 0.9130434782608695,
+      "round": 3,
+      "safety_violation_count": 0
+    }
+  ],
+  "repairs_exhausted": true,
+  "threshold_relaxation_count": 0,
+  "validation": {
+    "authorization": {
+      "coverage_at_least_0_10": true,
+      "interventions_at_least_30": true,
+      "precision_at_least_0_85": false,
+      "safety_violations_zero": false
+    },
+    "coverage": 0.1175,
+    "intervention_count": 47,
+    "precision": 0.2553191489361702,
+    "safe_beneficial_intervention_count": 12,
+    "safety_violation_count": 9,
+    "state_count": 400
+  }
+}

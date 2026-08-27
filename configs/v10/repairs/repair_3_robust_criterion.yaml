@@ -1,0 +1,84 @@
+repair:
+  round: 3
+  name: robust_criterion
+  evidence_source: artifacts/studies/v10_racing_validation/development_repair_2_summary.json
+  diagnosis:
+    precision: 0.8064516129032258
+    coverage: 0.155
+    intervention_count: 31
+    safety_violation_count: 0
+    stochastic_false_positive_count: 6
+    selected_action_counterfactual_precision: 0.9090909090909091
+    selected_action_counterfactual_coverage: 0.11
+  registered_changes:
+    - require_every_fresh_verification_replica_to_exceed_fixed_benefit_threshold
+  forbidden_threshold_changes: []
+stage_0:
+  role: static_impossibility_filter_only
+  allowed_elimination_reasons:
+    - illegal_route
+    - preference_slack_violation
+    - zero_expected_accepted_mass
+    - structurally_impossible_target_capacity
+    - invalid_route_mapping
+  traffic_surrogate_elimination_forbidden: true
+  expected_survivor_range: [20, 24]
+stage_1:
+  name: cheap_racing
+  horizon_seconds: 60
+  replicas: 1
+  target_survivors: 24
+  minimum_survivors: 24
+  fixed_single_rollout_uncertainty_half_width: 0.04
+  conservative_elimination_eta: 0.005
+  safety_kill_risk_delta: 0.50
+stage_2:
+  name: medium_fidelity
+  horizon_seconds: 120
+  replicas: 5
+  target_survivors: 18
+  robust_score: mean_minus_lambda_standard_deviation
+  initial_variance_penalty: 0.50
+  unsafe_count_elimination_threshold: 3
+stage_3:
+  name: high_fidelity
+  horizon_seconds: 300
+  replicas: 7
+  target_survivors: 3
+  robust_score: empirical_q10_lower_confidence_bound
+  lcb_quantile: 0.10
+  minimum_lcb_relative_benefit: 0.005
+  maximum_unsafe_count: 0
+  maximum_replica_risk_delta: 0.25
+  maximum_regret: 0.08
+  all_routes_legal_required: true
+verification:
+  enabled: true
+  top_candidate_count: 3
+  fresh_replicas: 5
+  fresh_seed_required: true
+  maximum_unsafe_count: 0
+  minimum_mean_relative_benefit_strict: 0.0
+  minimum_replica_relative_benefit: 0.005
+selector:
+  rule: maximum_stage3_q10_lcb_among_verified_eligible_actions
+  fallback: A00_NULL_B1
+  surrogate_role: tie_breaker_or_budget_allocator_only
+stage_survival_targets:
+  stage_1_oracle_recall: 0.95
+  stage_2_oracle_recall: 0.90
+  stage_3_oracle_recall: 0.80
+runtime:
+  parallel_action_rollouts: true
+  isolated_sumo_workdirs: true
+  deterministic_seed_assignment: true
+  content_hash_cache: true
+  final_realized_outcome_cache_forbidden: true
+unchanged_gates:
+  minimum_relative_benefit: 0.005
+  maximum_risk_delta: 0.25
+  maximum_regret: 0.08
+  validation_precision: 0.85
+  validation_coverage: 0.10
+  validation_interventions: 30
+  validation_safety_violations: 0

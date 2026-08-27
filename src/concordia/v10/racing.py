@@ -203,7 +203,9 @@ class MultiFidelityRacer:
         for action_id, values in self._group(stage3_results).items():
             traffic = [result.traffic_gain for result in values]
             mean, standard_deviation = mean_std(traffic)
-            lcb = empirical_lcb(traffic, 0.10)
+            lcb = empirical_lcb(
+                traffic, float(stage3_config.get("lcb_quantile", 0.10))
+            )
             unsafe_count = sum(result.unsafe for result in values)
             statistics = {
                 "mean_traffic_gain": mean,
@@ -244,15 +246,20 @@ class MultiFidelityRacer:
         verified = []
         verification_statistics = {}
         for action_id, values in self._group(verification_results).items():
-            mean, _standard_deviation = mean_std([result.traffic_gain for result in values])
+            traffic = [result.traffic_gain for result in values]
+            mean, _standard_deviation = mean_std(traffic)
+            minimum = min(traffic)
             unsafe_count = sum(result.unsafe for result in values)
             verification_statistics[action_id] = {
                 "mean_traffic_gain": mean,
+                "minimum_traffic_gain": minimum,
                 "unsafe_count": unsafe_count,
             }
             if (
                 unsafe_count <= int(verification_config["maximum_unsafe_count"])
                 and mean > float(verification_config["minimum_mean_relative_benefit_strict"])
+                and minimum
+                > float(verification_config.get("minimum_replica_relative_benefit", -1.0))
             ):
                 verified.append(action_id)
             else:

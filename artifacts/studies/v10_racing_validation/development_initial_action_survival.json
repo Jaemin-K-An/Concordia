@@ -1,0 +1,15 @@
+{
+  "oracle_actionable_state_count": 111,
+  "rates": {
+    "stage_1": 0.3783783783783784,
+    "stage_2": 0.1981981981981982,
+    "stage_3": 0.05405405405405406,
+    "verification": 0.036036036036036036
+  },
+  "targets": {
+    "stage_1": 0.95,
+    "stage_2": 0.9,
+    "stage_3": 0.8,
+    "verification": null
+  }
+}
